@@ -373,8 +373,8 @@ img {
 .badge {
     display: inline-block;
     padding: 0.5rem 1rem;
-    background: rgba(255, 255, 255, 0.1);
-    color: var(--accent-color);
+    background: rgba(0, 255, 21, 0.1);
+    color: white;
     border-radius: 50px;
     font-weight: 600;
     font-size: 0.875rem;
