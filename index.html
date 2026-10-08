@@ -300,7 +300,7 @@
       <h2 id="dentro-titulo">Conheça o FINAGRO por dentro</h2>
       <p>Telas reais do app, com uma fazenda de demonstração.</p>
     </header>
-    <ul class="galeria">
+    <ul class="galeria" data-galeria>
       <li class="galeria__item revelar">
         <div class="celular celular--galeria" aria-hidden="true">
           <span class="celular__botao celular__botao--volume"></span><span class="celular__botao celular__botao--liga"></span>
@@ -346,6 +346,12 @@
         <p class="galeria__legenda"><strong>Lotes e pesagens</strong>Cabeças e peso de cada lote</p>
       </li>
     </ul>
+    <div class="galeria__abas" role="tablist" aria-label="Telas do app">
+      <button type="button" role="tab" aria-selected="true" data-tela="0">Rebanho</button>
+      <button type="button" role="tab" aria-selected="false" data-tela="1">Tarefas</button>
+      <button type="button" role="tab" aria-selected="false" data-tela="2">Cotação</button>
+      <button type="button" role="tab" aria-selected="false" data-tela="3">Lotes</button>
+    </div>
   </div>
 </section>
 

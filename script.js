@@ -110,6 +110,31 @@
     revelar.forEach(function (el) { obsRevelar.observe(el); });
   } else revelar.forEach(function (el) { el.classList.add('visivel'); });
 
+  /* ---------- galeria no celular: um celular grande que troca sozinho entre as 4 telas ---------- */
+  var galeria = document.querySelector('[data-galeria]');
+  var abas = [].slice.call(document.querySelectorAll('.galeria__abas [data-tela]'));
+  if (galeria && abas.length) {
+    var itens = [].slice.call(galeria.children);
+    var atual = 0, relogio = null, PASSO = 3600;
+    var mostrar = function (i) {
+      atual = (i + itens.length) % itens.length;
+      itens.forEach(function (el, k) { el.classList.toggle('ativo', k === atual); });
+      abas.forEach(function (b, k) { b.setAttribute('aria-selected', String(k === atual)); });
+    };
+    var parar = function () { if (relogio) { clearInterval(relogio); relogio = null; } galeria.parentElement.classList.remove('galeria--roda'); };
+    var rodar = function () {
+      if (menosMovimento || relogio) return;
+      galeria.parentElement.classList.add('galeria--roda');
+      galeria.parentElement.style.setProperty('--passo', PASSO + 'ms');
+      relogio = setInterval(function () { mostrar(atual + 1); }, PASSO);
+    };
+    mostrar(0);
+    abas.forEach(function (b, k) { b.addEventListener('click', function () { parar(); mostrar(k); }); });
+    if ('IntersectionObserver' in window) {
+      new IntersectionObserver(function (en) { en.forEach(function (e) { if (e.isIntersecting) rodar(); else parar(); }); }, { threshold: 0.35 }).observe(galeria);
+    }
+  }
+
   /* ---------- a linha dos 4 passos se completa quando a seção entra ---------- */
   var linha = document.querySelector('[data-linha]');
   if (linha && 'IntersectionObserver' in window) {
