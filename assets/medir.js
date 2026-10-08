@@ -28,7 +28,7 @@
     window.gtag('event', nome, d);
   }
   function lugar(el) {
-    var s = el.closest('.topo, .rodape, .cta-artigo, .artigo__convite, .heroi, .baixar, section[id]');
+    var s = el.closest('.topo, .rodape, .artigo__acoes, .cta-artigo, .artigo__convite, .veja, .heroi, .baixar, section[id]');
     if (!s) return 'corpo';
     return s.id || String(s.className).split(' ')[0];
   }
