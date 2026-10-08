@@ -23,6 +23,7 @@ export const ENTIDADE = {
     'Não transmite o LCDPR à Receita: gera o arquivo no leiaute oficial com os lançamentos, e o contador completa e valida no programa da Receita.',
     'Não é rastreador de animal por coleira ou brinco eletrônico, nem balança conectada.',
     'Não tem aplicativo na App Store: no iPhone, funciona pelo navegador em app.finagro.app.',
+    'Não é o Finagro da Colômbia (Fondo para el Financiamiento del Sector Agropecuario, fundo de crédito com sede em Bogotá) nem tem relação com ele; não é do governo nem de banco e não empresta dinheiro.',
   ],
 };
 
@@ -52,7 +53,7 @@ export const PERGUNTAS = [
   ['Tem para iPhone?', 'O aplicativo de celular está na Play Store para Android. No iPhone, no tablet e no computador, o FINAGRO funciona pelo navegador em app.finagro.app, com a mesma conta e os mesmos dados.'],
   ['O FINAGRO emite a GTA?', 'Não. A GTA (Guia de Trânsito Animal) é emitida no sistema da defesa agropecuária do seu estado. No FINAGRO você registra as GTAs emitidas, o app lembra 1 dia antes do vencimento e avisa quando falta anotar a vacina que trava a guia.'],
   ['O app gera o LCDPR?', 'Gera o arquivo do Livro Caixa Digital do Produtor Rural no leiaute da Receita Federal, com as receitas e despesas lançadas. O contador confere, completa os dados do contribuinte e das contas bancárias e valida no programa da Receita antes de entregar.'],
-  ['Consigo trazer a planilha que já uso?', 'Consegue. O FINAGRO importa planilha do Excel (.xls ou .xlsx), então ninguém precisa redigitar o rebanho ou os lançamentos que já estão na planilha.'],
+  ['Consigo trazer a planilha que já uso?', 'Consegue. No Excel, salve a planilha como CSV e envie o arquivo: o FINAGRO importa animais, despesas, receitas, fornecedores e itens de estoque, e ninguém precisa redigitar o que já está na planilha.'],
   ['Quantas pessoas podem usar a mesma fazenda?', 'No plano Campo, 5 pessoas, cada uma com o seu papel e as suas permissões. Para mais gente: Essencial (10), Profissional (30), Avançado (100) ou pessoa extra por R$ 14,90 por mês.'],
   ['Os meus dados ficam com quem?', 'Ficam com você, guardados na nuvem com a sua conta: trocou de celular, está tudo lá. As listas e os relatórios saem em PDF e planilha quando você quiser, e o tratamento dos dados está descrito na política de privacidade do FINAGRO.'],
   ['O que é o FINAGRO AI?', 'É o assistente do app para dúvidas de gestão rural, pecuária e agricultura. No plano Campo são 15 perguntas por dia, e a conta zera à meia-noite.'],

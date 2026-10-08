@@ -5,14 +5,24 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { SITE, ATUALIZADO, ENTIDADE, PLANOS, EMPRESARIAL, COMPLEMENTOS, TESTE_DIAS, PERGUNTAS, PAGINAS, brl } from '../conteudo/site.mjs';
+import { montarGuias, GRUPOS, TIPOS } from './guias.mjs';
 
 const RAIZ = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const INDEXNOW = 'f3b9c2a71d5e4c08a6b14e9d27c35f80';
 const VERIFICACAO_GOOGLE = 'iM4u9wm9VkT-xBri38kmqy7Ebhc4J61DUfeEcjIdSIA';
+// Código de posse do Bing Webmaster: é o da conta da VisionX (o mesmo que está em hotelgestao.com.br), vale para todo site dela.
+const VERIFICACAO_BING = '5E69B07F43190E69D262B300A28AA2EC';
 const ANO = 2026;
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const semTags = (s) => s.replace(/<[^>]+>/g, '').replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/\s+/g, ' ').trim();
 const check = '<svg aria-hidden="true"><use href="#i-check"/></svg>';
+
+// Guias (conteudo/guias/*.mjs): escreve as páginas e o índice /guias antes de preencher os blocos gerados.
+const { indice: HUB, guias: GUIAS, todos: TODOS_GUIAS } = await montarGuias({ SITE, ATUALIZADO });
+const TODAS = [...PAGINAS, HUB, ...GUIAS];
+// O que vai na coluna "Guias" do rodapé: as páginas de quem está escolhendo um aplicativo e as mais procuradas.
+const RODAPE_GUIAS = ['aplicativo-para-controle-de-gado', 'software-de-gestao-rural', 'planilha-de-controle-de-gado', 'calculadora-de-arroba', 'como-emitir-gta', 'controle-de-rebanho', 'fluxo-de-caixa-rural', 'caderno-de-campo']
+  .map((s) => TODOS_GUIAS.get(s)).filter(Boolean).slice(0, 6);
 
 function preencher(html, nome, conteudo) {
   const ab = `<!--gerado:${nome}-->`, fe = `<!--/gerado:${nome}-->`;
@@ -63,7 +73,8 @@ const rodape = () => `<footer class="rodape">
         <li><a href="${ENTIDADE.app}">Entrar no app</a></li><li><a href="${PLAY}">App para Android</a></li>
       </ul></div>
       <div><h2>Guias</h2><ul>
-        ${PAGINAS.filter((p) => p.caminho !== '/').map((p) => `<li><a href="${p.caminho}">${esc(p.titulo.replace(/:.*/, ''))}</a></li>`).join('')}
+        ${RODAPE_GUIAS.map((g) => `<li><a href="/${g.slug}">${esc(g.curto)}</a></li>`).join('')}
+        <li><a href="/guias">Todos os guias e calculadoras</a></li>
       </ul></div>
       <div><h2>Contato</h2><ul>
         <li><a href="${ENTIDADE.instagram}" rel="me">Instagram @finagro.app</a></li>
@@ -132,7 +143,8 @@ function cabeca(pagina, titulo, descricao) {
 <link rel="icon" href="/favicon.ico" sizes="48x48">
 <link rel="icon" href="/icone-192.png" type="image/png" sizes="192x192">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-<link rel="manifest" href="/site.webmanifest">${pagina === '/' ? `\n<meta name="google-site-verification" content="${VERIFICACAO_GOOGLE}">` : ''}`;
+<link rel="manifest" href="/site.webmanifest">${pagina === '/' ? `\n<meta name="google-site-verification" content="${VERIFICACAO_GOOGLE}">\n<meta name="msvalidate.01" content="${VERIFICACAO_BING}">` : ''}
+<script src="/assets/medir.js" defer></script>`;
 }
 
 // ---------- JSON-LD ----------
@@ -160,20 +172,39 @@ function faqDaPagina(html) {
   return out;
 }
 
-function jsonld(pagina, html, titulo, descricao) {
+function jsonld(p, html, titulo, descricao) {
+  const pagina = p.caminho;
   const grafo = [organizacao];
   const lista = faqDaPagina(html);
+  // A pergunta e a resposta do topo dos guias também são pergunta e resposta à vista na página.
+  const topo = html.match(/<h2 class="resposta__pergunta">([\s\S]*?)<\/h2><p>([\s\S]*?)<\/p>/);
+  if (topo) lista.unshift([semTags(topo[1]), semTags(topo[2])]);
   if (pagina === '/') {
     grafo.push(site, app);
-  } else {
+  } else if (p.hub) {
     const url = SITE + pagina;
     grafo.push(site);
     grafo.push({ '@type': 'BreadcrumbList', itemListElement: [
       { '@type': 'ListItem', position: 1, name: 'FINAGRO', item: `${SITE}/` },
-      { '@type': 'ListItem', position: 2, name: titulo.replace(/\s*\|.*$/, ''), item: url } ] });
-    grafo.push({ '@type': 'Article', '@id': `${url}#artigo`, headline: titulo.replace(/\s*\|.*$/, ''), description: descricao, inLanguage: 'pt-BR', url,
-      mainEntityOfPage: url, datePublished: ATUALIZADO, dateModified: ATUALIZADO, image: ENTIDADE.imagem,
+      { '@type': 'ListItem', position: 2, name: 'Guias', item: url } ] });
+    grafo.push({ '@type': 'CollectionPage', '@id': `${url}#colecao`, url, name: titulo.replace(/\s*\|.*$/, ''), description: descricao, inLanguage: 'pt-BR', isPartOf: { '@id': `${SITE}/#site` }, dateModified: ATUALIZADO,
+      mainEntity: { '@type': 'ItemList', numberOfItems: TODOS_GUIAS.size, itemListElement: [...TODOS_GUIAS.values()].map((g, k) => ({ '@type': 'ListItem', position: k + 1, name: g.curto, url: `${SITE}/${g.slug}` })) } });
+  } else {
+    const url = SITE + pagina;
+    const nome = titulo.replace(/\s*\|.*$/, '');
+    const data = p.atualizado || ATUALIZADO;
+    grafo.push(site);
+    grafo.push({ '@type': 'BreadcrumbList', itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'FINAGRO', item: `${SITE}/` },
+      ...(p.guia ? [{ '@type': 'ListItem', position: 2, name: 'Guias', item: `${SITE}/guias` }] : []),
+      { '@type': 'ListItem', position: p.guia ? 3 : 2, name: p.guia ? p.curto : nome, item: url } ] });
+    grafo.push({ '@type': 'Article', '@id': `${url}#artigo`, headline: nome, description: descricao, inLanguage: 'pt-BR', url,
+      mainEntityOfPage: url, datePublished: p.guia ? data : ATUALIZADO, dateModified: data, image: ENTIDADE.imagem,
+      ...(p.guia ? { articleSection: GRUPOS[p.grupo][0] } : {}),
       author: { '@id': ORG_ID }, publisher: { '@id': ORG_ID }, isPartOf: { '@id': `${SITE}/#site` }, about: { name: 'FINAGRO', url: `${SITE}/` } });
+    // Calculadora de uso livre na página: aplicação da web, gratuita.
+    if (p.tipo === 'calculadora') grafo.push({ '@type': 'WebApplication', '@id': `${url}#calculadora`, name: p.curto, url, applicationCategory: 'UtilitiesApplication', operatingSystem: 'Qualquer navegador', inLanguage: 'pt-BR',
+      isAccessibleForFree: true, offers: { '@type': 'Offer', price: '0.00', priceCurrency: 'BRL' }, publisher: { '@id': ORG_ID } });
   }
   if (lista.length) grafo.push({ '@type': 'FAQPage', mainEntity: lista.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) });
   return `<script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@graph': grafo })}</script>`;
@@ -182,7 +213,8 @@ function jsonld(pagina, html, titulo, descricao) {
 // ---------- páginas ----------
 const arquivoDe = (c) => (c === '/' ? 'index.html' : `${c.slice(1)}.html`);
 const textos = [];
-for (const p of [...PAGINAS, { caminho: '/404' }]) {
+const longos = [];
+for (const p of [...TODAS, { caminho: '/404' }]) {
   const arq = path.join(RAIZ, arquivoDe(p.caminho));
   if (!fs.existsSync(arq)) { console.log('falta', arq); continue; }
   let html = fs.readFileSync(arq, 'utf8');
@@ -192,20 +224,22 @@ for (const p of [...PAGINAS, { caminho: '/404' }]) {
   html = preencher(html, 'topo', topo(p.caminho === '/'));
   html = preencher(html, 'rodape', rodape());
   if (p.caminho === '/') html = preencher(html, 'faq', faq(PERGUNTAS));
-  if (p.caminho !== '/404') html = preencher(html, 'jsonld', jsonld(p.caminho, html, titulo, descricao));
+  if (p.caminho !== '/404') html = preencher(html, 'jsonld', jsonld(p, html, titulo, descricao));
+  if (p.caminho !== '/404' && (titulo.length > 62 || descricao.length < 110 || descricao.length > 162)) longos.push(`${p.caminho}: título ${titulo.length}, descrição ${descricao.length}`);
   fs.writeFileSync(arq, html);
   if (p.caminho !== '/404') {
     const corpo = (html.match(/<main[\s\S]*?<\/main>/) || [''])[0]
       .replace(/<(script|style|svg|figure|video)[\s\S]*?<\/\1>/g, ' ').replace(/<\/(h[1-4]|p|li|summary|tr)>/g, '\n').replace(/<br\s*\/?>/g, '\n');
     textos.push({ ...p, titulo, descricao, texto: semTags(corpo.replace(/\n/g, ' ¶ ')).replace(/ ?¶ ?/g, '\n').replace(/\n{2,}/g, '\n') });
   }
-  console.log('ok', arquivoDe(p.caminho), titulo.length, 'car. no título,', descricao.length, 'na descrição');
 }
+console.log(`${TODAS.length} páginas montadas (${GUIAS.length} guias de conteudo/guias)`);
+if (longos.length) console.log('fora do tamanho (título até 62, descrição 110 a 162):\n  ' + longos.join('\n  '));
 
 // ---------- arquivos de busca e de IA ----------
 fs.writeFileSync(path.join(RAIZ, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-${PAGINAS.map((p) => `  <url><loc>${SITE}${p.caminho}</loc><lastmod>${ATUALIZADO}</lastmod>${p.caminho === '/' ? `<image:image><image:loc>${SITE}/assets/telas/inicio-824.webp</image:loc></image:image>` : ''}</url>`).join('\n')}
+${TODAS.map((p) => `  <url><loc>${SITE}${p.caminho}</loc><lastmod>${p.atualizado || ATUALIZADO}</lastmod>${p.caminho === '/' ? `<image:image><image:loc>${SITE}/assets/telas/inicio-824.webp</image:loc></image:image>` : ''}</url>`).join('\n')}
 </urlset>
 `);
 
@@ -234,7 +268,7 @@ Site: ${SITE}/ · Sistema: ${ENTIDADE.app} · Android: ${ENTIDADE.android} · De
 - Dinheiro: receitas, despesas, contas a pagar e a receber, fluxo de caixa com saldo previsto, centro de custo, relatórios em PDF e CSV, arquivo do LCDPR no leiaute da Receita.
 - Lavoura: safras, talhões, caderno de campo, custo por hectare, chuva do pluviômetro, colheita com o comprador.
 - Campo e equipe: área por GPS, máquinas e manutenção, estoque de insumos, clima da fazenda, mão de obra, pessoas com papel e permissão.
-- Mercado: cotação do boi gordo (CONAB), notícias do agro, marketplace de animais, simulador PRONAF/PRONAMP, assistente FINAGRO AI.
+- Mercado: cotação do boi gordo (CONAB), notícias do agro, marketplace de animais, simulador de crédito do Pronaf (com taxas de referência, não é proposta de banco), assistente FINAGRO AI.
 - O painel se monta pelo perfil da produção (gado de corte, leite, aves, suínos, peixes, abelhas, horta, grãos), com alertas da criação: vacina que trava a GTA, CBT do leite, oxigênio do tanque, vento para pulverizar.
 - Lançamento sem sinal fica no aparelho e sobe quando a internet volta.
 
@@ -250,7 +284,10 @@ ${PLANOS.map((p) => `- ${p.nome}: ${reais(p.mes)}${p.ano ? ` ou R$ ${brl(p.ano)}
 Produtor rural brasileiro de qualquer tamanho: do sítio com 12 vacas de leite à granja com 1 milhão de aves, pecuária de corte, piscicultura, apicultura, suinocultura, horta e grãos.
 
 ## Páginas
-${PAGINAS.map((p) => `- [${p.titulo}](${SITE}${p.caminho}): ${p.resumo}`).join('\n')}
+${[...PAGINAS, HUB].map((p) => `- [${p.titulo}](${SITE}${p.caminho}): ${p.resumo}`).join('\n')}
+${Object.entries(GRUPOS).filter(([k]) => GUIAS.some((g) => g.grupo === k)).map(([k, [nome]]) => `
+### ${nome}
+${GUIAS.filter((g) => g.grupo === k).map((g) => `- [${g.titulo}](${SITE}${g.caminho}) (${TIPOS[g.tipo].toLowerCase()}): ${g.resumo}`).join('\n')}`).join('\n')}
 
 ## Perguntas frequentes
 ${PERGUNTAS.map(([q, a]) => `### ${q}\n${a}`).join('\n\n')}
@@ -258,6 +295,24 @@ ${PERGUNTAS.map(([q, a]) => `### ${q}\n${a}`).join('\n\n')}
 fs.writeFileSync(path.join(RAIZ, 'llms.txt'), llms);
 fs.writeFileSync(path.join(RAIZ, 'llms-full.txt'), `# FINAGRO: o site inteiro em texto\n\n> ${ENTIDADE.frase}\n\n` + textos.map((t) => `---\n\n## ${t.titulo}\nEndereço: ${SITE}${t.caminho}\n\n${t.texto}`).join('\n\n') + '\n');
 fs.writeFileSync(path.join(RAIZ, `${INDEXNOW}.txt`), INDEXNOW);
+// Segundo caminho de posse no Bing Webmaster (o primeiro é a marca msvalidate.01 na página inicial).
+fs.writeFileSync(path.join(RAIZ, 'BingSiteAuth.xml'), `<?xml version="1.0"?>\n<users>\n\t<user>${VERIFICACAO_BING}</user>\n</users>\n`);
 fs.writeFileSync(path.join(RAIZ, 'site.webmanifest'), JSON.stringify({ name: 'FINAGRO', short_name: 'FINAGRO', lang: 'pt-BR', start_url: '/', display: 'browser', background_color: '#f6f7f4', theme_color: '#0f2b1d',
   icons: [{ src: '/icone-192.png', sizes: '192x192', type: 'image/png' }, { src: '/icone-512.png', sizes: '512x512', type: 'image/png' }] }, null, 1));
 console.log('sitemap, robots, llms, llms-full, indexnow e manifest escritos');
+
+// ---------- portão de links internos: nenhuma página aponta para o que não existe ----------
+// `node scripts/gerar.mjs --estrito` sai com erro se houver link quebrado (é o que roda antes de publicar).
+const existe = (c) => c === '/' || fs.existsSync(path.join(RAIZ, c.replace(/^\//, '') + '.html')) || fs.existsSync(path.join(RAIZ, c.replace(/^\//, '')));
+const quebrados = [];
+for (const p of TODAS) {
+  const html = fs.readFileSync(path.join(RAIZ, arquivoDe(p.caminho)), 'utf8');
+  for (const m of html.matchAll(/href="(\/[^"#?]*)(?:[#?][^"]*)?"/g)) {
+    const alvo = m[1].replace(/\/$/, '') || '/';
+    if (!existe(alvo)) quebrados.push(`${p.caminho} -> ${alvo}`);
+  }
+}
+if (quebrados.length) {
+  console.log(`LINKS QUEBRADOS (${quebrados.length}):\n  ` + [...new Set(quebrados)].join('\n  '));
+  if (process.argv.includes('--estrito')) process.exit(1);
+} else console.log('links internos: todos existem');
