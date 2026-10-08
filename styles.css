@@ -236,6 +236,11 @@ p { text-wrap: pretty; }
   .heroi__fatos li { font-size: .9375rem; }
 }
 
+/* tablet em pé: o celular cresce com a altura da tela (no iPad em pé sobrava vazio em volta de um aparelho pequeno) */
+@media (min-width: 48rem) and (orientation: portrait) {
+  .heroi__grade { --heroi-celular: clamp(13rem, min(38vw, (100svh / var(--zoom, 1) - 18rem) * .4814), 26rem); }
+}
+
 /* ---------- seções ---------- */
 .secao { padding-top: 4rem; padding-bottom: 4rem; padding-top: var(--sp-sec); padding-bottom: var(--sp-sec); }
 .cabeca { max-width: 46rem; margin: 0 auto clamp(1.75rem, 1.2rem + 2.4vw, 3.25rem); text-align: center; }
