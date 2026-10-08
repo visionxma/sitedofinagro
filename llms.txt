@@ -1,0 +1,71 @@
+# FINAGRO
+
+> O FINAGRO é um aplicativo brasileiro de gestão rural, no celular e no computador, que reúne rebanho, lavoura, dinheiro e equipe da fazenda e é grátis até 1.000 animais com ficha.
+
+Site: https://finagro.app/ · Sistema: https://app.finagro.app/ · Android: https://play.google.com/store/apps/details?id=com.raykkony.fblogin · Desenvolvido pela VisionX (https://visionxma.com/). Atualizado em 08/10/2026.
+
+## O que faz
+- Rebanho: animal com ficha (brinco, raça, peso, foto), lote de qualquer tamanho, vacinas e sanidade, reprodução com parto previsto, pesagem e GMD, registro de GTA com lembrete de vencimento.
+- Dinheiro: receitas, despesas, contas a pagar e a receber, fluxo de caixa com saldo previsto, centro de custo, relatórios em PDF e CSV, arquivo do LCDPR no leiaute da Receita.
+- Lavoura: safras, talhões, caderno de campo, custo por hectare, chuva do pluviômetro, colheita com o comprador.
+- Campo e equipe: área por GPS, máquinas e manutenção, estoque de insumos, clima da fazenda, mão de obra, pessoas com papel e permissão.
+- Mercado: cotação do boi gordo (CONAB), notícias do agro, marketplace de animais, simulador PRONAF/PRONAMP, assistente FINAGRO AI.
+- O painel se monta pelo perfil da produção (gado de corte, leite, aves, suínos, peixes, abelhas, horta, grãos), com alertas da criação: vacina que trava a GTA, CBT do leite, oxigênio do tanque, vento para pulverizar.
+- Lançamento sem sinal fica no aparelho e sobe quando a internet volta.
+
+## O que não é
+- Não emite GTA: a guia é emitida no sistema da defesa agropecuária do estado; o FINAGRO registra as GTAs e lembra o vencimento.
+- Não transmite o LCDPR à Receita: gera o arquivo no leiaute oficial com os lançamentos, e o contador completa e valida no programa da Receita.
+- Não é rastreador de animal por coleira ou brinco eletrônico, nem balança conectada.
+- Não tem aplicativo na App Store: no iPhone, funciona pelo navegador em app.finagro.app.
+
+## Preço (público, em reais)
+- Campo: grátis para sempre. Até 3 fazendas, Até 5 pessoas, 1.000 animais com ficha.
+- Essencial: R$ 59,90 por mês ou R$ 599 por ano. Até 6 fazendas, Até 10 pessoas, 5.000 animais com ficha.
+- Profissional: R$ 149,90 por mês ou R$ 1.499 por ano. Até 15 fazendas, Até 30 pessoas, 25.000 animais com ficha.
+- Avançado: R$ 299,90 por mês ou R$ 2.999 por ano. Até 50 fazendas, Até 100 pessoas, Animais com ficha sem limite.
+- Empresarial: a partir de R$ 699 por mês, sem limite de fazenda, gente e rebanho, com gerente de conta.
+- Planos pagos com 14 dias para testar. Quem usa de graça tem 30% de folga acima do limite para não parar o serviço.
+
+## Para quem
+Produtor rural brasileiro de qualquer tamanho: do sítio com 12 vacas de leite à granja com 1 milhão de aves, pecuária de corte, piscicultura, apicultura, suinocultura, horta e grãos.
+
+## Páginas
+- [FINAGRO: app de gestão rural grátis para fazenda e sítio](https://finagro.app/): A página principal: o que o app faz, para quem é, planos e perguntas.
+- [Controle de rebanho no celular](https://finagro.app/controle-de-rebanho): Ficha do animal, lote, pesagem, vacina e reprodução: o que anotar e como o app organiza.
+- [Fluxo de caixa rural](https://finagro.app/fluxo-de-caixa-rural): Como montar o fluxo de caixa da fazenda e o que o app calcula sozinho.
+- [Caderno de campo digital](https://finagro.app/caderno-de-campo): O que anotar em cada talhão e como o registro vira custo por hectare e rastreio.
+- [GTA: Guia de Trânsito Animal](https://finagro.app/gta): O que é, quem emite, o que trava a guia e como o app lembra o vencimento.
+- [LCDPR: Livro Caixa Digital do Produtor Rural](https://finagro.app/lcdpr): Quem é obrigado, prazo, multa e como gerar o arquivo com os lançamentos.
+- [Calculadora de GMD do gado](https://finagro.app/calculadora-gmd): Ganho médio diário: a conta, a calculadora e como usar o resultado na engorda.
+
+## Perguntas frequentes
+### O FINAGRO é grátis mesmo?
+É. O plano Campo é grátis para sempre e não pede cartão: até 3 fazendas, 5 pessoas e 1.000 animais com ficha, com lote de qualquer tamanho e todas as funções do app. Os planos pagos, de R$ 59,90 a R$ 299,90 por mês, são para quem precisa de mais fazendas, gente ou animais com ficha.
+
+### Funciona sem internet no curral?
+Para lançar, funciona. Sem sinal, o gasto, a venda ou a vacina ficam salvos no celular e sobem sozinhos quando a internet voltar, e o app avisa isso na hora. Para entrar pela primeira vez num aparelho e para ver o que a equipe lançou em outro celular, é preciso sinal.
+
+### Serve para quem cria pouco? E para quem cria muito?
+Serve dos dois lados. Você conta o que produz e quantos, e o painel se ajusta: o leiteiro com 12 vacas vê o leite do dia e a reprodução; a granja com 1 milhão de aves vê os galpões e o trato. Galpão, tanque, colmeia e lote de gado contam como um lote só, sem limite de cabeças.
+
+### Tem para iPhone?
+O aplicativo de celular está na Play Store para Android. No iPhone, no tablet e no computador, o FINAGRO funciona pelo navegador em app.finagro.app, com a mesma conta e os mesmos dados.
+
+### O FINAGRO emite a GTA?
+Não. A GTA (Guia de Trânsito Animal) é emitida no sistema da defesa agropecuária do seu estado. No FINAGRO você registra as GTAs emitidas, o app lembra 1 dia antes do vencimento e avisa quando falta anotar a vacina que trava a guia.
+
+### O app gera o LCDPR?
+Gera o arquivo do Livro Caixa Digital do Produtor Rural no leiaute da Receita Federal, com as receitas e despesas lançadas. O contador confere, completa os dados do contribuinte e das contas bancárias e valida no programa da Receita antes de entregar.
+
+### Consigo trazer a planilha que já uso?
+Consegue. O FINAGRO importa planilha do Excel (.xls ou .xlsx), então ninguém precisa redigitar o rebanho ou os lançamentos que já estão na planilha.
+
+### Quantas pessoas podem usar a mesma fazenda?
+No plano Campo, 5 pessoas, cada uma com o seu papel e as suas permissões. Para mais gente: Essencial (10), Profissional (30), Avançado (100) ou pessoa extra por R$ 14,90 por mês.
+
+### Os meus dados ficam com quem?
+Ficam com você. Em qualquer plano, dá para exportar tudo o que foi lançado quando quiser. O tratamento dos dados está descrito na política de privacidade do FINAGRO.
+
+### O que é o FINAGRO AI?
+É o assistente do app para dúvidas de gestão rural, pecuária e agricultura. No plano Campo são 15 perguntas por dia, e a conta zera à meia-noite.
