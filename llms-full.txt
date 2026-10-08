@@ -1,0 +1,393 @@
+# FINAGRO: o site inteiro em texto
+
+> O FINAGRO é um aplicativo brasileiro de gestão rural, no celular e no computador, que reúne rebanho, lavoura, dinheiro e equipe da fazenda e é grátis até 1.000 animais com ficha.
+
+---
+
+## FINAGRO: app de gestão rural grátis para fazenda e sítio
+Endereço: https://finagro.app/
+
+
+5,0 na Google Play
+Sua fazenda na palma da mão
+Rebanho, dinheiro, tarefas e o mapa da fazenda num app só. Você lança no curral, até sem sinal, e vê na hora para onde foi o dinheiro.
+Baixar para AndroidBaixar grátis
+Usar no navegadorNo navegador
+Grátis para sempre no plano Campo. Sem cartão e sem prazo.
+7:30
+Lança sem sinal e sobe depois
+Traz a sua planilha do Excel
+Relatório em PDF e planilha
+No celular e no computador
+O parceiro que faltava
+Chega de anotação perdida e planilha confusa.
+O jeito de antes
+Caderno que molha e se perde
+Planilha que só um sabe usar
+Ninguém sabe se deu lucro
+Decisão no achismo
+O jeito FINAGRO
+Tudo salvo no celular e na nuvem
+Botão grande, fácil de achar
+Relatório pronto num toque
+Decisão com o número na mão
+Tudo o que você precisa
+Funções pensadas para o dia a dia do campo. Cada imagem abaixo é a tela do app.
+Registros fáceis
+Lance a despesa, a venda ou o leite em segundos, direto do curral.
+Controle de custos
+Saiba quanto foi em ração, vacina e sal, e o que ainda está para pagar.
+Relatórios prontos
+Receitas e despesas, gasto por categoria e resultado por fazenda, em PDF ou planilha.
+Dados seguros
+Tudo fica salvo na nuvem com a sua conta. Troca de celular e está tudo lá.
+Feito para o celular
+Sem sinal no pasto? O app salva na hora e avisa:
+Sem sinal — Despesa ficou no aparelho e sobe quando o sinal voltar.
+Conheça o FINAGRO por dentro
+Telas reais do app, com uma fazenda de demonstração.
+7:30
+Rebanho na fichaBrinco, raça e peso de cada animal
+7:30
+A fazenda sugereVacina que vence, estoque zerado
+7:30
+Preço do boiCotação da semana pela CONAB
+7:30
+Lotes e pesagensCabeças e peso de cada lote
+Resultados reais no bolso
+O que muda quando a fazenda cabe no celular.
+Mais lucro
+Veja onde o dinheiro está indo e corte o gasto que não volta.
+Melhores negociações
+Com a cotação da semana e o seu custo na mão, você vende e compra melhor.
+Ganho de tempo
+O app lembra o que vence e o que fazer hoje. Menos papel, mais produção.
+Comece em 4 passos
+Simples assim, e grátis.
+1Baixe
+Instale na Google Play ou abra no navegador.
+2Cadastre
+Entre com a conta Google e conte o que você produz.
+3Lance
+Gasto, venda, vacina e pesagem, na hora em que acontecem.
+4Lucre
+Acompanhe o saldo e os relatórios do mês.
+Baixar grátis
+Feito para você
+Do sítio com 12 vacas à granja com 1 milhão de aves: você conta o que produz e o app abre no que você faz todo dia.
+Gado de corte
+Animais, manejo, vacina e GTA
+Leite
+Produção do dia, animais e reprodução
+Lavoura
+Safra, talhão e caderno de campo
+Granja
+Galpões em lote, manejo e trato
+Peixe
+Tanques em lote, água e trato
+Abelha
+Colmeias em lote, revisão e produção
+Quem usa recomenda
+Nota e avaliação publicadas na Google Play, verificadas pelo Google.
+Perguntas frequentes
+O que o produtor mais pergunta antes de começar.
+O FINAGRO é grátis mesmo?
+É. O plano Campo é grátis para sempre e não pede cartão: até 3 fazendas, 5 pessoas e 1.000 animais com ficha, com lote de qualquer tamanho e todas as funções do app. Os planos pagos, de R$ 59,90 a R$ 299,90 por mês, são para quem precisa de mais fazendas, gente ou animais com ficha.
+Funciona sem internet no curral?
+Para lançar, funciona. Sem sinal, o gasto, a venda ou a vacina ficam salvos no celular e sobem sozinhos quando a internet voltar, e o app avisa isso na hora. Para entrar pela primeira vez num aparelho e para ver o que a equipe lançou em outro celular, é preciso sinal.
+Serve para quem cria pouco? E para quem cria muito?
+Serve dos dois lados. Você conta o que produz e quantos, e o painel se ajusta: o leiteiro com 12 vacas vê o leite do dia e a reprodução; a granja com 1 milhão de aves vê os galpões e o trato. Galpão, tanque, colmeia e lote de gado contam como um lote só, sem limite de cabeças.
+Tem para iPhone?
+O aplicativo de celular está na Play Store para Android. No iPhone, no tablet e no computador, o FINAGRO funciona pelo navegador em app.finagro.app, com a mesma conta e os mesmos dados.
+O FINAGRO emite a GTA?
+Não. A GTA (Guia de Trânsito Animal) é emitida no sistema da defesa agropecuária do seu estado. No FINAGRO você registra as GTAs emitidas, o app lembra 1 dia antes do vencimento e avisa quando falta anotar a vacina que trava a guia.
+O app gera o LCDPR?
+Gera o arquivo do Livro Caixa Digital do Produtor Rural no leiaute da Receita Federal, com as receitas e despesas lançadas. O contador confere, completa os dados do contribuinte e das contas bancárias e valida no programa da Receita antes de entregar.
+Consigo trazer a planilha que já uso?
+Consegue. O FINAGRO importa planilha do Excel (.xls ou .xlsx), então ninguém precisa redigitar o rebanho ou os lançamentos que já estão na planilha.
+Quantas pessoas podem usar a mesma fazenda?
+No plano Campo, 5 pessoas, cada uma com o seu papel e as suas permissões. Para mais gente: Essencial (10), Profissional (30), Avançado (100) ou pessoa extra por R$ 14,90 por mês.
+Os meus dados ficam com quem?
+Ficam com você, guardados na nuvem com a sua conta: trocou de celular, está tudo lá. As listas e os relatórios saem em PDF e planilha quando você quiser, e o tratamento dos dados está descrito na política de privacidade do FINAGRO.
+O que é o FINAGRO AI?
+É o assistente do app para dúvidas de gestão rural, pecuária e agricultura. No plano Campo são 15 perguntas por dia, e a conta zera à meia-noite.
+Ver mais perguntas (+5)
+Pronto para profissionalizar sua fazenda?
+Grátis para sempre no plano Campo, com o app inteiro: até 3 fazendas, 5 pessoas e 1.000 animais com ficha. Sem cartão e sem prazo.
+Baixar para AndroidBaixar grátis
+Usar no navegadorNo navegador
+
+
+---
+
+## Controle de rebanho no celular, com ficha e lote | FINAGRO
+Endereço: https://finagro.app/controle-de-rebanho
+
+
+FINAGRO
+Controle de rebanho
+Controle de rebanho no celular: ficha, lote, pesagem e vacina
+Controle de rebanho é anotar, de cada animal ou lote, o que entra, o que sai e o que acontece: nascimento, compra, pesagem, vacina, cobertura, venda e morte. No FINAGRO isso fica no celular, com ficha individual (brinco, raça, peso e foto) ou com lote de qualquer tamanho, e o app avisa o que está atrasado.
+Atualizado em 08/10/2026
+7:30
+O que anotar de cada animal
+O mínimo que faz o controle servir para decidir, e não só para guardar papel:
+Identificação: número do brinco ou nome, sexo, raça e categoria (bezerro, novilha, vaca, boi).
+Nascimento ou entrada: data, mãe (quando nasce na fazenda) ou origem e valor (quando é comprado).
+Pesagens: data e peso de cada pesagem. É delas que sai o ganho médio diário (GMD).
+Sanidade: vacina ou remédio, dose, data e carência (o tempo que precisa passar antes do abate ou da venda do leite).
+Reprodução: cobertura ou inseminação, diagnóstico de prenhez e parto previsto.
+Saída: venda, abate, morte ou transferência para outra fazenda, com a data e o motivo.
+Ficha individual ou lote: quando usar cada um
+A ficha individual vale para o animal que você precisa acompanhar um por um: a vaca de leite, a matriz de cria, o reprodutor, o animal de valor. A ficha de lote serve quando o que importa é o grupo: bezerros da mesma idade na recria, boi na engorda, galpão de frango, tanque de peixe, apiário.
+No FINAGRO os dois convivem na mesma conta. O plano grátis aceita até 1.000 animais com ficha, e o lote não tem limite de cabeças: um galpão com 25 mil aves conta como um lote só.
+Planilha, caderno ou app?
+CritérioCadernoPlanilhaApp (FINAGRO)
+Anotar no curralSimDifícil no celularSim, mesmo sem sinal
+Avisar vacina e pesagem atrasadaNãoSó com fórmula montada à mãoSim, sozinho
+Mais de uma pessoa lançandoUm caderno por vezArquivo que se perde em cópiasAté 5 pessoas no grátis
+Fórmula do seu jeitoNãoSim, livreOs cálculos são os do app
+CustoPapelGrátisGrátis até 1.000 animais com ficha
+Se você já tem tudo numa planilha do Excel, não precisa redigitar: o FINAGRO importa arquivos .xls e .xlsx.
+Como o FINAGRO avisa o que está atrasado
+O painel abre com o que pede atenção. Alguns exemplos de alerta que o app gera a partir do que você lançou:
+Bezerras na idade da vacina de brucelose. A vacinação de todas as fêmeas bovinas e bubalinas entre 3 e 8 meses é obrigatória pelo programa nacional de brucelose e tuberculose (PNCEBT), do Ministério da Agricultura.
+Animais sem pesagem há mais de 60 dias, para o GMD não ficar no escuro.
+Vacinas e declarações obrigatórias do seu estado, na tela "O que vence".
+GTA perto do vencimento, um dia antes.
+Quanto custa
+O plano Campo é grátis para sempre: até 3 fazendas, 5 pessoas e 1.000 animais com ficha, com lote sem limite e todas as funções. Quem precisa de mais tem planos de R$ 59,90 a R$ 299,90 por mês, com 14 dias para testar.
+Comece o controle do rebanho hoje.
+Crie a conta grátis e lance o primeiro animal ou lote em menos de um minuto.
+Começar grátis
+Perguntas sobre controle de rebanho
+Dá para controlar gado de corte e de leite na mesma conta?
+Dá. Você conta o que produz (por exemplo, 294 cabeças de corte e 40 de leite) e o painel mostra as duas rotinas: o leite do dia, a reprodução, a pesagem e a sanidade de cada grupo.
+Preciso de brinco eletrônico ou balança conectada?
+Não. O FINAGRO funciona com qualquer identificação, do brinco numerado ao nome do animal, e o peso é digitado. Ele não lê coleira, chip nem balança.
+Funciona sem internet no curral?
+Para lançar, funciona. O registro fica salvo no celular e sobe sozinho quando o sinal voltar.
+Fontes: Ministério da Agricultura e Pecuária, Programa Nacional de Controle e Erradicação da Brucelose e da Tuberculose Animal (PNCEBT) e Instrução Normativa SDA nº 10/2017. Limites e preços: catálogo de planos do FINAGRO.
+Veja também: calculadora de GMD, GTA e fluxo de caixa rural.
+
+
+---
+
+## Fluxo de caixa rural: como fazer na fazenda | FINAGRO
+Endereço: https://finagro.app/fluxo-de-caixa-rural
+
+
+FINAGRO
+Fluxo de caixa rural
+Fluxo de caixa rural: como montar e o que o app calcula sozinho
+Fluxo de caixa rural é a lista, por data, do dinheiro que entra e sai da fazenda: venda de animais, leite e grãos, compra de insumos, diárias, parcelas e impostos. Com ele você vê o saldo previsto antes de o dinheiro faltar. No FINAGRO, cada gasto e venda lançados entram no fluxo e no resultado de cada fazenda.
+Atualizado em 08/10/2026
+7:30
+O que entra e o que sai
+O SENAR, em orientação divulgada pela CNA, resume o fluxo de caixa como o controle de todas as despesas e receitas da fazenda, inclusive o pagamento de bens e serviços e o faturamento com as vendas. Na prática, as contas mais comuns são:
+Entradas: venda de animais, leite, ovos, mel, grãos e hortaliças; arrendamento recebido; financiamento liberado.
+Saídas: ração, sal mineral e suplemento; vacina e remédio; sementes, adubo e defensivo; combustível e manutenção de máquinas; mão de obra e diárias; energia; parcelas de financiamento; impostos e taxas.
+Previsto e realizado
+O fluxo de caixa olha para a frente. Além do que já entrou e saiu (o realizado), ele soma o que vai vencer (o previsto): o boleto da ração para o dia 20, a parcela do custeio em março, o leite que o laticínio paga no dia 10. É essa soma que mostra se vai faltar dinheiro antes da próxima venda.
+No FINAGRO, toda conta lançada com vencimento entra em "Contas a pagar e a receber" e no saldo previsto do fluxo de caixa. Quando a conta é paga, ela passa de prevista para realizada sem você redigitar nada.
+Exemplo de um mês
+Números ilustrativos, só para mostrar a conta:
+LançamentoEntradaSaída
+Venda de 10 bezerrosR$ 25.000,00
+Ração e sal mineralR$ 4.200,00
+Vacinas e vermífugoR$ 650,00
+Diárias de mão de obraR$ 1.800,00
+Óleo dieselR$ 900,00
+Sobrou no mêsR$ 17.450,00
+É a mesma conta que a primeira tela do FINAGRO faz: entrou, saiu e sobrou no mês, por fazenda ou somando todas.
+Separe por fazenda e por atividade
+Quem tem mais de uma propriedade, ou cria gado e planta grãos, precisa saber qual parte dá lucro. No FINAGRO cada lançamento leva a fazenda e, se você quiser, o centro de custo (por exemplo: cria, engorda, leite, lavoura). O relatório "Resultado por propriedade" mostra qual fazenda deu lucro e qual deu prejuízo no período.
+Planilha ou app para o fluxo de caixa?
+A planilha resolve quando uma pessoa só lança tudo, no computador, com disciplina. O app resolve quando o gasto acontece no curral, na loja agropecuária ou na estrada: o lançamento sai do celular na hora, sem sinal inclusive, e o fluxo se atualiza para todos que usam a conta. O contador recebe os relatórios em PDF ou planilha (CSV).
+Veja quanto sobrou na fazenda este mês.
+Grátis para sempre no plano Campo, sem cartão.
+Começar grátis
+Perguntas sobre fluxo de caixa rural
+Fluxo de caixa é a mesma coisa que livro caixa?
+Não. O livro caixa registra o que já aconteceu e serve de base para o imposto (o LCDPR é a versão digital exigida pela Receita para quem passa do limite de receita). O fluxo de caixa olha também o que vai vencer, para você decidir antes.
+Dá para separar o gasto de cada atividade?
+Dá. Cada lançamento leva a fazenda e o centro de custo que você escolher, e os relatórios saem separados por propriedade e por categoria.
+O contador consegue usar o que eu lanço?
+Consegue. Os relatórios de receitas e despesas saem em PDF e em CSV, e o FINAGRO gera o arquivo do LCDPR com os lançamentos para o contador conferir.
+Fontes: CNA e SENAR, "Senar orienta produtores rurais na gestão financeira"; SENAR Play, vídeo sobre fluxo de caixa.
+Veja também: LCDPR, controle de rebanho e plano grátis do FINAGRO.
+
+
+---
+
+## Caderno de campo digital: o que anotar | FINAGRO
+Endereço: https://finagro.app/caderno-de-campo
+
+
+FINAGRO
+Caderno de campo
+Caderno de campo digital: o que anotar em cada talhão
+Caderno de campo é o registro de tudo o que se faz em cada talhão: plantio, adubação, aplicação de defensivo (produto, dose, data e carência), irrigação e colheita. Ele serve para rastrear o produto, mostrar ao comprador como a lavoura foi conduzida e calcular o custo por hectare. No FINAGRO, cada anotação entra no custo da safra.
+Atualizado em 08/10/2026
+7:30
+O que anotar
+Onde e o quê: talhão, cultura, variedade e área.
+Operação: preparo do solo, plantio, adubação, aplicação, irrigação, capina ou colheita.
+Produto e dose: nome comercial, dose por hectare e volume de calda, quando houver.
+Quem e com o quê: responsável pela aplicação e máquina ou equipamento usado.
+Tempo na hora: vento, chuva e temperatura, porque mudam o resultado da aplicação.
+Carência: a data a partir da qual a colheita está liberada depois do defensivo.
+Colheita: data, quantidade e para quem foi vendida, com o lote.
+Por que o registro importa: rastreabilidade
+Para frutas e hortaliças frescas, a Instrução Normativa Conjunta nº 2/2018, do Ministério da Agricultura e da Anvisa, define os procedimentos de rastreabilidade ao longo da cadeia, para monitorar e controlar resíduos de agrotóxicos. Quem produz precisa conseguir dizer, para cada lote vendido, de onde veio e o que foi aplicado. O caderno de campo é onde essa informação nasce.
+Mesmo quando a regra não alcança a sua cultura, o registro é o que permite responder ao comprador, à cooperativa ou à certificadora sem depender da memória.
+Vento e chuva na hora de aplicar
+O FINAGRO mostra o tempo da fazenda na primeira tela e, para quem tem lavoura, diz quando não é hora de pulverizar, como neste aviso real do app: "Não pulverize agora: vento de 18 km/h. Próxima hora boa: 02:00." A recomendação técnica da aplicação continua sendo a do seu agrônomo e a da bula do produto.
+Do caderno ao custo por hectare
+No FINAGRO você cria a safra (cultura, talhões e período) e cada operação que registra entra no custo dela sozinha. No fim do ciclo, o app mostra quanto custou e quanto rendeu por hectare, sem planilha paralela. Na horta, cada colheita pode ser anotada com o canteiro e o comprador, que é o rastreio que o comprador pede para verdura e fruta fresca.
+Troque o caderno de papel pelo celular.
+Funciona sem sinal e é grátis no plano Campo.
+Começar grátis
+Perguntas sobre caderno de campo
+O caderno de campo é obrigatório?
+Para produtos vegetais frescos, a IN Conjunta nº 2/2018 exige registros que permitam a rastreabilidade de cada lote. Em programas de certificação e em muitas cooperativas, o caderno também é cobrado. Nos demais casos, é a forma de provar o que foi feito e de calcular o custo.
+Serve para horta pequena?
+Serve. Você conta que tem, por exemplo, meio hectare de horta, e o painel passa a mostrar a colheita e o caderno na primeira tela.
+Dá para anotar sem sinal na lavoura?
+Dá. A anotação fica salva no celular e sobe quando a internet voltar.
+Fontes: Ministério da Agricultura e Pecuária, norma para a rastreabilidade de frutas e hortaliças; Imprensa Nacional, Instrução Normativa Conjunta nº 2, de 7 de fevereiro de 2018; Embrapa, rastreabilidade na produção integrada.
+Veja também: fluxo de caixa rural e plano grátis do FINAGRO.
+
+
+---
+
+## GTA (Guia de Trânsito Animal): o que trava a guia | FINAGRO
+Endereço: https://finagro.app/gta
+
+
+FINAGRO
+GTA
+GTA: o que é a Guia de Trânsito Animal e o que trava a emissão
+A GTA (Guia de Trânsito Animal) é o documento obrigatório para transportar animais vivos no Brasil, seja para venda, abate, leilão, exposição ou outra fazenda. Ela é emitida pelo serviço de defesa agropecuária do estado, em geral pela internet (e-GTA), e depende do cadastro da propriedade e das vacinas obrigatórias em dia.
+Atualizado em 08/10/2026
+7:30
+Quando a GTA é obrigatória
+Sempre que animais vivos saem da propriedade: venda para outro produtor, envio para abate, leilão, feira, exposição, arrendamento ou mudança de pasto entre fazendas. A Instrução Normativa nº 9/2021, do Ministério da Agricultura, aprova o modelo da GTA e estabelece o formato eletrônico para animais vivos, ovos férteis e outros materiais de multiplicação animal.
+Quem emite
+A GTA é emitida pelo serviço veterinário oficial do estado (a agência de defesa agropecuária) ou por médico veterinário habilitado por ele. Desde a Instrução Normativa nº 19/2011, a versão eletrônica (e-GTA) é adotada em todo o país, e cada estado tem o seu sistema de emissão.
+O que costuma travar a emissão
+Vacina obrigatória sem comprovação. A vacinação contra brucelose de todas as fêmeas bovinas e bubalinas entre 3 e 8 meses é obrigatória pelo PNCEBT. Pendência sanitária com a defesa agropecuária pode impedir a emissão da guia no seu estado.
+Exames de trânsito. Alguns trânsitos pedem exames negativos, como os de brucelose e tuberculose para o trânsito interestadual de reprodutores, e os exames exigidos para equídeos.
+Cadastro desatualizado. Saldo de animais por categoria diferente do que está na fazenda, ou declaração de rebanho fora do prazo.
+Dados do destino. Propriedade ou estabelecimento de destino sem cadastro.
+As regras e os prazos mudam de um estado para outro. Na dúvida, confira com a agência de defesa agropecuária do seu estado antes de marcar o embarque.
+Como o FINAGRO ajuda
+O FINAGRO não emite a GTA. Ele cuida do que vem antes e do que vem depois:
+Antes: avisa quando há bezerras na idade da vacina de brucelose ainda sem a vacina anotada, e a tela "O que vence" lista as vacinas e declarações obrigatórias do seu estado para o que você cria.
+Depois: você registra cada GTA emitida (quantidade por categoria e, no caso de cavalos, os exames), e o app lembra um dia antes do vencimento.
+Não deixe a vacina travar a venda.
+O FINAGRO avisa antes, de graça no plano Campo.
+Começar grátis
+Perguntas sobre GTA
+O FINAGRO emite a GTA?
+Não. A GTA é emitida no sistema da defesa agropecuária do seu estado. O FINAGRO guarda as guias emitidas, lembra o vencimento e avisa as pendências de vacina que costumam travar a emissão.
+Quanto custa a GTA?
+A taxa é definida por cada estado e muda conforme a espécie e a quantidade de animais. O valor atualizado está no site da agência de defesa agropecuária do seu estado.
+A GTA tem validade?
+Tem. O prazo de validade vem escrito na própria guia e depende do trajeto. No FINAGRO, a GTA registrada fica ativa até a data de vencimento e o app avisa um dia antes.
+Fontes: Ministério da Agricultura e Pecuária, Instrução Normativa nº 9/2021, habilitação para emissão da GTA e PNCEBT; Defesa Agropecuária de São Paulo, Instrução Normativa MAPA nº 19/2011.
+Veja também: controle de rebanho e calculadora de GMD.
+
+
+---
+
+## LCDPR: quem é obrigado e como gerar o arquivo | FINAGRO
+Endereço: https://finagro.app/lcdpr
+
+
+FINAGRO
+LCDPR
+LCDPR: quem é obrigado a entregar e como gerar o arquivo
+O LCDPR (Livro Caixa Digital do Produtor Rural) é o arquivo em que o produtor pessoa física registra as receitas, as despesas de custeio e os investimentos da atividade rural para a Receita Federal. É obrigatório para quem teve receita bruta rural acima de R$ 4,8 milhões no ano e é entregue até o fim do prazo da declaração do Imposto de Renda.
+Atualizado em 08/10/2026
+7:30
+Quem é obrigado
+Pelo artigo 23-A da Instrução Normativa SRF nº 83/2001, na redação dada pela Instrução Normativa RFB nº 1.903/2019, deve entregar o LCDPR o produtor rural pessoa física que tiver, no ano, receita bruta total da atividade rural superior a R$ 4.800.000,00. Abaixo desse valor a entrega é opcional, mas a escrituração das receitas e despesas continua sendo a base para apurar o resultado da atividade rural no Imposto de Renda.
+O LCDPR foi criado pela Instrução Normativa RFB nº 1.848/2018, que alterou a mesma IN SRF nº 83/2001.
+Prazo e multa
+O arquivo é entregue até o fim do prazo da Declaração de Ajuste Anual do Imposto de Renda, no ano seguinte ao das receitas. A entrega depois do prazo tem multa, conforme a página da Receita Federal sobre multa por atraso na entrega do LCDPR.
+O que vai no arquivo
+O arquivo segue o leiaute publicado pela Receita (versão 1.3) e é validado e assinado no programa da própria Receita antes da entrega. As partes principais:
+RegistroO que leva
+0000 e 0010Abertura do arquivo e parâmetros do livro
+0030Dados do contribuinte
+0040Imóveis rurais explorados
+0050Contas bancárias usadas na atividade
+Q100Cada lançamento: data, imóvel, documento, histórico e valor de entrada ou de saída
+Q200Resumo mensal
+9999Encerramento
+Como o FINAGRO ajuda
+O FINAGRO gera o arquivo TXT do LCDPR no leiaute da Receita com a abertura, os imóveis (uma linha por fazenda cadastrada) e os lançamentos (Q100) das receitas e despesas que você registrou no app. Os dados do contribuinte e das contas bancárias saem para o contador completar, e o resumo mensal é calculado pelo programa da Receita na validação. O app não transmite o livro: quem confere, assina e entrega é o produtor ou o contador dele.
+Além do arquivo, os relatórios de receitas e despesas, de despesas por categoria e de resultado por propriedade saem em PDF e em CSV, que é o que o contador costuma pedir no fechamento do ano.
+Lance o ano inteiro no celular.
+No fim, o arquivo do LCDPR sai com os lançamentos prontos para o contador.
+Começar grátis
+Perguntas sobre o LCDPR
+Pequeno produtor precisa entregar o LCDPR?
+Só é obrigado quem teve receita bruta da atividade rural acima de R$ 4,8 milhões no ano. Abaixo disso a entrega é opcional, mas manter receitas e despesas anotadas facilita a declaração do Imposto de Renda.
+O FINAGRO entrega o LCDPR para a Receita?
+Não. Ele gera o arquivo com os lançamentos. A validação, a assinatura e a entrega são feitas no programa da Receita Federal, pelo produtor ou pelo contador.
+Pessoa jurídica usa o LCDPR?
+Não. O LCDPR é do produtor rural pessoa física. A empresa rural segue a escrituração contábil própria de pessoa jurídica.
+Fontes: Receita Federal, LCDPR: legislação, leiaute 1.3 e manual, Manual de Preenchimento do LCDPR e multa por atraso na entrega; Instrução Normativa RFB nº 1.903, de 24 de julho de 2019 (limite de R$ 4.800.000,00).
+Veja também: fluxo de caixa rural e plano grátis do FINAGRO.
+
+
+---
+
+## Calculadora de GMD do gado (ganho médio diário) | FINAGRO
+Endereço: https://finagro.app/calculadora-gmd
+
+
+FINAGRO
+Calculadora de GMD
+Calculadora de GMD: o ganho médio diário do gado
+GMD (ganho médio diário) é quanto o animal engordou por dia entre duas pesagens: o peso final menos o peso inicial, dividido pelos dias entre elas. Um boi que foi de 300 kg para 360 kg em 60 dias ganhou 1 kg por dia. Faça a conta abaixo e veja também o ganho em arrobas.
+Atualizado em 08/10/2026
+7:30
+Calcule o GMD
+Peso inicial (kg)
+Peso final (kg)
+Dias entre as pesagens
+Rendimento de carcaça (%)
+1,000kg por dia (GMD)
+60,0kg ganhos no período
+2,08arrobas de carcaça
+Arroba de carcaça = 15 kg. As arrobas saem do ganho de peso vivo vezes o rendimento de carcaça que você informar (o valor de 52% é só um ponto de partida: use o do seu frigorífico ou do seu técnico).
+A conta, passo a passo
+Subtraia o peso inicial do peso final: 360 kg − 300 kg = 60 kg.
+Conte os dias entre as duas pesagens: 60 dias.
+Divida o ganho pelos dias: 60 kg ÷ 60 dias = 1,0 kg por dia.
+Para o lote, faça a mesma conta com o peso médio do lote no começo e no fim, ou com a média dos GMD de cada animal pesado.
+Como pesar para o GMD sair certo
+Use a mesma balança nas duas pesagens e confira a tara antes de começar.
+Pese sempre no mesmo horário e nas mesmas condições (com ou sem jejum, mas sempre igual), porque o que o animal comeu e bebeu entra no peso.
+Não compare períodos muito curtos: alguns dias de diferença na água e no capim pesam mais do que o ganho real.
+Anote a data exata de cada pesagem. É ela que define os dias da conta.
+Qual é um bom GMD?
+Depende da raça, da categoria, do pasto ou do confinamento e da época do ano. O jeito mais útil de usar o número é comparar o lote com ele mesmo ao longo do tempo e com a meta combinada com o seu técnico: se o GMD caiu na seca, o ajuste é de suplementação; se caiu num lote só, vale olhar sanidade e lotação.
+O GMD no FINAGRO
+Cada pesagem lançada na ficha do animal entra no histórico dele, e o app calcula o ganho entre as pesagens. Na primeira tela, o FINAGRO avisa quando há animais sem pesagem há mais de 60 dias, para o acompanhamento do ganho não parar.
+Acompanhe o ganho de cada animal e de cada lote.
+Grátis até 1.000 animais com ficha, com lote sem limite.
+Começar grátis
+Perguntas sobre GMD
+Como transformar o GMD em arrobas?
+Multiplique o ganho de peso vivo pelo rendimento de carcaça e divida por 15, que é o peso de uma arroba de carcaça. Com 60 kg de ganho e 52% de rendimento: 60 × 0,52 ÷ 15 = 2,08 arrobas.
+GMD e conversão alimentar são a mesma coisa?
+Não. O GMD mede o ganho de peso por dia. A conversão alimentar mede quantos quilos de alimento o animal comeu para ganhar um quilo de peso.
+Preciso pesar todos os animais do lote?
+O ideal é pesar todos. Quando não dá, pese uma amostra do lote, sempre os mesmos animais, para a comparação entre as pesagens ser justa.
+A fórmula do GMD é a divisão do ganho de peso pelo número de dias entre as pesagens. A arroba de carcaça bovina equivale a 15 kg.
+Veja também: controle de rebanho, GTA e plano grátis do FINAGRO.
+
