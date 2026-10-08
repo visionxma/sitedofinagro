@@ -1,0 +1,26 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-08T13:24:11.119Z",
+        "reason": "Falso positivo da leitura estática (08/10/2026): .secao e .chamada têm padding-top/bottom var(--sp-sec) = clamp(3rem, …, 6rem), que a leitura sem navegador não calcula. No navegador real (impeccable detect http://… em 1440, 768 e 390) dá zero."
+      },
+      {
+        "rule": "flat-type-hierarchy",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-08T13:24:11.139Z",
+        "reason": "Falso positivo da leitura estática (08/10/2026): os h2 das seções usam var(--t-h2) = clamp(1.75rem, …, 2.875rem) e a leitura sem navegador só enxerga os h2 do rodapé (17px). No navegador real: h2 28–46px, corpo 17–19px; detector na URL dá zero."
+      }
+    ]
+  }
+}

@@ -14,7 +14,6 @@ Rebanho, dinheiro, tarefas e o mapa da fazenda num app só. Você lança no curr
 Baixar para AndroidBaixar grátis
 Usar no navegadorNo navegador
 Grátis para sempre no plano Campo. Sem cartão e sem prazo.
-7:30
 Lança sem sinal e sobe depois
 Traz a sua planilha do Excel
 Relatório em PDF e planilha
@@ -43,16 +42,12 @@ Dados seguros
 Tudo fica salvo na nuvem com a sua conta. Troca de celular e está tudo lá.
 Feito para o celular
 Sem sinal no pasto? O app salva na hora e avisa:
-Sem sinal — Despesa ficou no aparelho e sobe quando o sinal voltar.
+Sem sinalDespesa ficou no aparelho e sobe quando o sinal voltar.
 Conheça o FINAGRO por dentro
 Telas reais do app, com uma fazenda de demonstração.
-7:30
 Rebanho na fichaBrinco, raça e peso de cada animal
-7:30
 A fazenda sugereVacina que vence, estoque zerado
-7:30
 Preço do boiCotação da semana pela CONAB
-7:30
 Lotes e pesagensCabeças e peso de cada lote
 Resultados reais no bolso
 O que muda quando a fazenda cabe no celular.
@@ -129,7 +124,6 @@ Controle de rebanho
 Controle de rebanho no celular: ficha, lote, pesagem e vacina
 Controle de rebanho é anotar, de cada animal ou lote, o que entra, o que sai e o que acontece: nascimento, compra, pesagem, vacina, cobertura, venda e morte. No FINAGRO isso fica no celular, com ficha individual (brinco, raça, peso e foto) ou com lote de qualquer tamanho, e o app avisa o que está atrasado.
 Atualizado em 08/10/2026
-7:30
 O que anotar de cada animal
 O mínimo que faz o controle servir para decidir, e não só para guardar papel:
 Identificação: número do brinco ou nome, sexo, raça e categoria (bezerro, novilha, vaca, boi).
@@ -182,7 +176,6 @@ Fluxo de caixa rural
 Fluxo de caixa rural: como montar e o que o app calcula sozinho
 Fluxo de caixa rural é a lista, por data, do dinheiro que entra e sai da fazenda: venda de animais, leite e grãos, compra de insumos, diárias, parcelas e impostos. Com ele você vê o saldo previsto antes de o dinheiro faltar. No FINAGRO, cada gasto e venda lançados entram no fluxo e no resultado de cada fazenda.
 Atualizado em 08/10/2026
-7:30
 O que entra e o que sai
 O SENAR, em orientação divulgada pela CNA, resume o fluxo de caixa como o controle de todas as despesas e receitas da fazenda, inclusive o pagamento de bens e serviços e o faturamento com as vendas. Na prática, as contas mais comuns são:
 Entradas: venda de animais, leite, ovos, mel, grãos e hortaliças; arrendamento recebido; financiamento liberado.
@@ -229,7 +222,6 @@ Caderno de campo
 Caderno de campo digital: o que anotar em cada talhão
 Caderno de campo é o registro de tudo o que se faz em cada talhão: plantio, adubação, aplicação de defensivo (produto, dose, data e carência), irrigação e colheita. Ele serve para rastrear o produto, mostrar ao comprador como a lavoura foi conduzida e calcular o custo por hectare. No FINAGRO, cada anotação entra no custo da safra.
 Atualizado em 08/10/2026
-7:30
 O que anotar
 Onde e o quê: talhão, cultura, variedade e área.
 Operação: preparo do solo, plantio, adubação, aplicação, irrigação, capina ou colheita.
@@ -270,7 +262,6 @@ GTA
 GTA: o que é a Guia de Trânsito Animal e o que trava a emissão
 A GTA (Guia de Trânsito Animal) é o documento obrigatório para transportar animais vivos no Brasil, seja para venda, abate, leilão, exposição ou outra fazenda. Ela é emitida pelo serviço de defesa agropecuária do estado, em geral pela internet (e-GTA), e depende do cadastro da propriedade e das vacinas obrigatórias em dia.
 Atualizado em 08/10/2026
-7:30
 Quando a GTA é obrigatória
 Sempre que animais vivos saem da propriedade: venda para outro produtor, envio para abate, leilão, feira, exposição, arrendamento ou mudança de pasto entre fazendas. A Instrução Normativa nº 9/2021, do Ministério da Agricultura, aprova o modelo da GTA e estabelece o formato eletrônico para animais vivos, ovos férteis e outros materiais de multiplicação animal.
 Quem emite
@@ -310,7 +301,6 @@ LCDPR
 LCDPR: quem é obrigado a entregar e como gerar o arquivo
 O LCDPR (Livro Caixa Digital do Produtor Rural) é o arquivo em que o produtor pessoa física registra as receitas, as despesas de custeio e os investimentos da atividade rural para a Receita Federal. É obrigatório para quem teve receita bruta rural acima de R$ 4,8 milhões no ano e é entregue até o fim do prazo da declaração do Imposto de Renda.
 Atualizado em 08/10/2026
-7:30
 Quem é obrigado
 Pelo artigo 23-A da Instrução Normativa SRF nº 83/2001, na redação dada pela Instrução Normativa RFB nº 1.903/2019, deve entregar o LCDPR o produtor rural pessoa física que tiver, no ano, receita bruta total da atividade rural superior a R$ 4.800.000,00. Abaixo desse valor a entrega é opcional, mas a escrituração das receitas e despesas continua sendo a base para apurar o resultado da atividade rural no Imposto de Renda.
 O LCDPR foi criado pela Instrução Normativa RFB nº 1.848/2018, que alterou a mesma IN SRF nº 83/2001.
@@ -354,7 +344,6 @@ Calculadora de GMD
 Calculadora de GMD: o ganho médio diário do gado
 GMD (ganho médio diário) é quanto o animal engordou por dia entre duas pesagens: o peso final menos o peso inicial, dividido pelos dias entre elas. Um boi que foi de 300 kg para 360 kg em 60 dias ganhou 1 kg por dia. Faça a conta abaixo e veja também o ganho em arrobas.
 Atualizado em 08/10/2026
-7:30
 Calcule o GMD
 Peso inicial (kg)
 Peso final (kg)

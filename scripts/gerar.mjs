@@ -27,7 +27,7 @@ function preencher(html, nome, conteudo) {
 const PLAY = ENTIDADE.android;
 const svgMenu = '<svg data-abrir viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><svg data-fechar viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>';
 const SECOES = [['/#funcionalidades', 'Funcionalidades'], ['/#beneficios', 'Benefícios'], ['/#como-funciona', 'Como funciona'], ['/#para-quem', 'Para quem'], ['/#perguntas', 'Dúvidas']];
-const marca = (classe, w = 400, h = 139) => `<picture><source type="image/avif" srcset="/assets/marca/finagro-placa-400.avif"><img class="${classe}" src="/assets/marca/finagro-placa-400.webp" width="${w}" height="${h}" alt="FINAGRO"></picture>`;
+const marca = (classe, w = 400, h = 139) => `<picture><source type="image/avif" srcset="/assets/marca/finagro-placa-240.avif 240w, /assets/marca/finagro-placa-400.avif 400w" sizes="120px"><img class="${classe}" src="/assets/marca/finagro-placa-400.webp" srcset="/assets/marca/finagro-placa-240.webp 240w, /assets/marca/finagro-placa-400.webp 400w" sizes="120px" width="${w}" height="${h}" alt="FINAGRO"></picture>`;
 // Página inicial: o topo nasce estendido e transparente sobre a hero e vira cápsula no 1º movimento (script.js).
 // Páginas internas: sem hero, nascem na cápsula (topo--fixo).
 const topo = (inicio) => `<header class="topo${inicio ? '' : ' topo--flutua topo--fixo'}">
