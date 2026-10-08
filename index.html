@@ -1,483 +1,550 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Finagro — Gestão Rural Inteligente</title>
-    <meta name="description"
-        content="Transforme os números da sua fazenda em lucro. O aplicativo de gestão rural feito para quem vive do campo. Simples, seguro e 100% mobile.">
-    <meta name="theme-color" content="#1B5E20">
-
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;700;800&display=swap"
-        rel="stylesheet">
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="styles.css">
-
-    <!-- Favicon -->
-    <link rel="icon" href="https://i.imgur.com/omHFmZh.png" sizes="32x32" type="image/png">
-    <link rel="shortcut icon" href="https://i.imgur.com/omHFmZh.png">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>FINAGRO: app de gestão rural grátis para fazenda e sítio</title>
+<meta name="description" content="App de gestão rural no celular e no computador: rebanho, vacinas, GTA, lavoura, contas e fluxo de caixa. Grátis até 1.000 animais com ficha, sem cartão.">
+<link rel="canonical" href="https://finagro.app/">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#0f2b1d">
+<!--gerado:cabeca-->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="FINAGRO">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:url" content="https://finagro.app/">
+<meta property="og:title" content="FINAGRO: app de gestão rural grátis para fazenda e sítio">
+<meta property="og:description" content="App de gestão rural no celular e no computador: rebanho, vacinas, GTA, lavoura, contas e fluxo de caixa. Grátis até 1.000 animais com ficha, sem cartão.">
+<meta property="og:image" content="https://finagro.app/assets/og/finagro-og.png">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="O FINAGRO no celular sobre o pasto: sua fazenda na palma da mão">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="FINAGRO: app de gestão rural grátis para fazenda e sítio">
+<meta name="twitter:description" content="App de gestão rural no celular e no computador: rebanho, vacinas, GTA, lavoura, contas e fluxo de caixa. Grátis até 1.000 animais com ficha, sem cartão.">
+<meta name="twitter:image" content="https://finagro.app/assets/og/finagro-og.png">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/icone-192.png" type="image/png" sizes="192x192">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="google-site-verification" content="iM4u9wm9VkT-xBri38kmqy7Ebhc4J61DUfeEcjIdSIA">
+<!--/gerado:cabeca-->
+<link rel="preload" href="/assets/fontes/outfit-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fontes/afacad-flux-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" href="/assets/heroi/capa-retrato-720.avif" type="image/avif" media="(max-width: 47.99rem) and (orientation: portrait)" fetchpriority="high">
+<link rel="preload" as="image" href="/assets/heroi/capa-1920.avif" type="image/avif" media="(min-width: 48rem), (orientation: landscape)" fetchpriority="high">
+<link rel="stylesheet" href="/styles.css">
+<script>
+  // Monitor grande (1600 px ou mais): a página cresce inteira na proporção da tela de referência (1440 x 900), pelo lado
+  // que limitar, em vez de ficar pequena no meio com laterais vazias (manual mesma-sensacao-em-todo-aparelho).
+  (function () {
+    function escala() {
+      var w = window.innerWidth, h = window.innerHeight;
+      var f = w >= 1600 ? Math.max(1, Math.min(w / 1440, h / 930)) : 1;
+      document.documentElement.style.zoom = f > 1.02 ? f.toFixed(3) : '';
+      document.documentElement.style.setProperty('--zoom', f > 1.02 ? f.toFixed(3) : '1');
+    }
+    escala();
+    window.addEventListener('resize', escala);
+    document.documentElement.classList.add('js');
+  })();
+</script>
 </head>
-
 <body>
-    <!-- Navbar -->
-    <nav class="navbar">
-        <div class="container">
-            <a href="#" class="logo">
-                <img src="assets/images/app-logo.png" alt="Finagro Logo" class="logo-img">
-            </a>
-            <ul class="nav-links">
-                <li><a href="#home">Início</a></li>
-                <li><a href="#about">Sobre</a></li>
-                <li><a href="#features">Funcionalidades</a></li>
-                <li><a href="#benefits">Benefícios</a></li>
-                <li><a href="#how-it-works">Como Funciona</a></li>
-                <li><a href="#testimonials">Depoimentos</a></li>
-                <li><a href="https://play.google.com/store/apps/details?id=com.raykkony.fblogin&pcampaignid=web_share"
-                        class="btn btn-primary glow-effect">Baixar Agora</a></li>
-            </ul>
-            <div class="menu-toggle" id="mobile-menu-btn" aria-label="Abrir menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-        </div>
-    </nav>
+<a class="pular" href="#conteudo">Pular para o conteúdo</a>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="i-play" viewBox="0 0 24 24"><path fill="currentColor" d="M3.6 2.2c-.3.3-.4.7-.4 1.2v17.2c0 .5.1.9.4 1.2l.1.1 9.6-9.6v-.2L3.7 2.1l-.1.1Zm12.9 13.1-3.2-3.2v-.2l3.2-3.2.1.1 3.8 2.2c1.1.6 1.1 1.6 0 2.2l-3.8 2.2-.1-.1Zm-.1 0-3.3-3.3-9.8 9.8c.4.4.9.4 1.6.1l11.5-6.6Zm0-6.6L4.9 2.1c-.7-.4-1.2-.3-1.6.1l9.8 9.8 3.3-3.3Z"/></symbol>
+  <symbol id="i-globo" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9.2"/><path d="M2.8 12h18.4M12 2.8c2.6 2.6 3.9 5.6 3.9 9.2s-1.3 6.6-3.9 9.2c-2.6-2.6-3.9-5.6-3.9-9.2S9.4 5.4 12 2.8Z"/></g></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12.5 4.3 4.3L19 7.2" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path d="M6.5 6.5l11 11m0-11-11 11" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></symbol>
+  <symbol id="i-estrela" viewBox="0 0 24 24"><path fill="currentColor" d="m12 2.6 2.9 6 6.5.8-4.8 4.5 1.2 6.5L12 17.2l-5.8 3.2 1.2-6.5L2.6 9.4l6.5-.8L12 2.6Z"/></symbol>
+  <symbol id="i-seta" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-sinal" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 8.8a13.5 13.5 0 0 1 19 0M5.8 12.3a8.8 8.8 0 0 1 12.4 0M9.1 15.7a4.2 4.2 0 0 1 5.8 0"/><path d="m3 3 18 18"/></g></symbol>
+  <symbol id="i-planilha" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="3.5" width="17" height="17" rx="2.5"/><path d="M3.5 9h17M3.5 14.5h17M9.5 9v11.5"/></g></symbol>
+  <symbol id="i-pdf" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M9 13h6M9 17h4"/></g></symbol>
+  <symbol id="i-telas" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="4" width="13" height="10" rx="1.6"/><path d="M6 18h6"/><rect x="16.5" y="8" width="5" height="12" rx="1.4"/></g></symbol>
+  <symbol id="i-lapis" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4Z"/></g></symbol>
+  <symbol id="i-moeda" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5.5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></g></symbol>
+  <symbol id="i-barras" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 20V13M10 20V8M15 20v-5M20 20V4"/></g></symbol>
+  <symbol id="i-escudo" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-3.6 8-10V5l-8-3-8 3v7c0 6.4 8 10 8 10Z"/><path d="m8.8 12 2.2 2.2 4.3-4.4"/></g></symbol>
+  <symbol id="i-celular" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="2.5" width="12" height="19" rx="2.4"/><path d="M11 18.5h2"/></g></symbol>
+  <symbol id="i-lucro" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="m3 17 6-6 4 4 8-8"/><path d="M15 7h6v6"/></g></symbol>
+  <symbol id="i-negocio" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h18v10H3z"/><circle cx="12" cy="12" r="2.6"/><path d="M6.5 7V5.5M17.5 18.5V17"/></g></symbol>
+  <symbol id="i-relogio" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.2 2"/></g></symbol>
+  <symbol id="i-mais" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+  <symbol id="i-fechar" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+  <symbol id="i-instagram" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.9"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r=".6" fill="currentColor"/></g></symbol>
+  <symbol id="i-wifi" viewBox="0 0 16 12"><path fill="currentColor" d="M8 2.4c2.1 0 4 .8 5.5 2.1l1.1-1.2A9.6 9.6 0 0 0 8 .7 9.6 9.6 0 0 0 1.4 3.3l1.1 1.2A8 8 0 0 1 8 2.4Zm0 3.4c1.2 0 2.3.5 3.1 1.2l1.1-1.2A6.2 6.2 0 0 0 8 4.1 6.2 6.2 0 0 0 3.8 5.8l1.1 1.2A4.5 4.5 0 0 1 8 5.8Zm0 3.3c-.6 0-1.2.3-1.6.7L8 11.6l1.6-1.8c-.4-.4-1-.7-1.6-.7Z"/></symbol>
+  <symbol id="i-rede" viewBox="0 0 16 12"><path fill="currentColor" d="M15 .5v11H.9L15 .5Z" opacity=".95"/></symbol>
+  <symbol id="i-bateria" viewBox="0 0 24 12"><rect x=".6" y=".6" width="20" height="10.8" rx="2.6" fill="none" stroke="currentColor" stroke-width="1.2"/><rect x="2.4" y="2.4" width="14.2" height="7.2" rx="1.4" fill="currentColor"/><path d="M22.2 4v4c.7-.2 1.2-1 1.2-2s-.5-1.8-1.2-2Z" fill="currentColor"/></symbol>
+</svg>
 
-    <!-- Mobile Menu Overlay -->
-    <div class="mobile-menu-overlay" id="mobile-menu-overlay">
-        <div class="mobile-menu-content">
-            <button class="close-menu" id="close-menu-btn">&times;</button>
-            <ul class="mobile-nav-links">
-                <li><a href="#features" class="mobile-link">Funcionalidades</a></li>
-                <li><a href="#benefits" class="mobile-link">Benefícios</a></li>
-                <li><a href="#how-it-works" class="mobile-link">Como Funciona</a></li>
-                <li><a href="#testimonials" class="mobile-link">Depoimentos</a></li>
-                <li><a href="https://play.google.com/store/apps/details?id=com.raykkony.fblogin&pcampaignid=web_share"
-                        class="btn btn-primary mobile-link">Baixar Agora</a></li>
-            </ul>
-        </div>
+<!--gerado:topo-->
+<header class="topo">
+  <div class="topo__barra">
+    <a class="topo__marca" href="/" aria-label="FINAGRO, página inicial"><picture><source type="image/avif" srcset="/assets/marca/finagro-placa-400.avif"><img class="topo__logo" src="/assets/marca/finagro-placa-400.webp" width="400" height="139" alt="FINAGRO"></picture></a>
+    <nav class="topo__nav" aria-label="Seções da página">
+      <a href="/#funcionalidades">Funcionalidades</a><a href="/#beneficios">Benefícios</a><a href="/#como-funciona">Como funciona</a><a href="/#para-quem">Para quem</a><a href="/#perguntas">Dúvidas</a>
+    </nav>
+    <div class="topo__acoes">
+      <a class="topo__entrar" href="https://app.finagro.app/">Entrar</a>
+      <a class="botao botao--cheio topo__baixar" href="https://play.google.com/store/apps/details?id=com.raykkony.fblogin">Baixar app</a>
+      <button class="topo__menu" type="button" aria-expanded="false" aria-controls="topo-painel" aria-label="Abrir menu"><svg data-abrir viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><svg data-fechar viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
+    </div>
+    <nav class="topo__painel" id="topo-painel" aria-label="Menu" hidden>
+      <a href="/#funcionalidades">Funcionalidades</a><a href="/#beneficios">Benefícios</a><a href="/#como-funciona">Como funciona</a><a href="/#para-quem">Para quem</a><a href="/#perguntas">Dúvidas</a>
+      <a href="https://app.finagro.app/">Entrar no app</a>
+      <a class="botao botao--cheio" href="https://play.google.com/store/apps/details?id=com.raykkony.fblogin">Baixar para Android</a>
+    </nav>
+  </div>
+</header>
+<!--/gerado:topo-->
+
+<main id="conteudo">
+
+<!-- ============================ HERO: a mesma da antiga (vídeo do campo, texto à esquerda, celular à direita),
+     agora com vídeo ampliado, celular na moldura medida do Galaxy S26 Ultra e o app de verdade rodando dentro -->
+<section class="heroi" id="inicio" aria-labelledby="heroi-titulo">
+  <div class="heroi__fundo" aria-hidden="true">
+    <picture>
+      <source media="(max-width: 47.99rem) and (orientation: portrait)" type="image/avif" srcset="/assets/heroi/capa-retrato-720.avif">
+      <source media="(max-width: 47.99rem) and (orientation: portrait)" type="image/webp" srcset="/assets/heroi/capa-retrato-720.webp">
+      <source type="image/avif" srcset="/assets/heroi/capa-1280.avif 1280w, /assets/heroi/capa-1920.avif 1920w" sizes="100vw">
+      <img class="heroi__capa" src="/assets/heroi/capa-1920.webp" srcset="/assets/heroi/capa-1280.webp 1280w, /assets/heroi/capa-1920.webp 1920w" sizes="100vw" width="1920" height="1080" alt="" fetchpriority="high" decoding="async">
+    </picture>
+    <video class="heroi__video" muted loop playsinline preload="none" data-video-heroi tabindex="-1" disablepictureinpicture>
+      <source media="(max-width: 47.99rem) and (orientation: portrait)" src="/assets/videos/fundo-retrato.av1.mp4" type='video/mp4; codecs="av01.0.08M.08"'>
+      <source media="(max-width: 47.99rem) and (orientation: portrait)" src="/assets/videos/fundo-retrato.hevc.mp4" type='video/mp4; codecs="hvc1"'>
+      <source media="(max-width: 47.99rem) and (orientation: portrait)" src="/assets/videos/fundo-retrato.h264.mp4" type="video/mp4">
+      <source src="/assets/videos/fundo-1080.av1.mp4" type='video/mp4; codecs="av01.0.08M.08"'>
+      <source src="/assets/videos/fundo-1080.hevc.mp4" type='video/mp4; codecs="hvc1"'>
+      <source src="/assets/videos/fundo-1080.h264.mp4" type="video/mp4">
+    </video>
+    <span class="heroi__veu"></span>
+  </div>
+
+  <div class="casca heroi__grade">
+    <div class="heroi__texto">
+      <a class="selo-nota" href="https://play.google.com/store/apps/details?id=com.raykkony.fblogin&amp;showAllReviews=true" rel="noopener">
+        <span class="selo-nota__estrelas" aria-hidden="true"><svg><use href="#i-estrela"/></svg><svg><use href="#i-estrela"/></svg><svg><use href="#i-estrela"/></svg><svg><use href="#i-estrela"/></svg><svg><use href="#i-estrela"/></svg></span>
+        <span><strong>5,0</strong> na Google Play</span>
+      </a>
+      <h1 id="heroi-titulo">Sua fazenda na <span class="destaque">palma da mão</span></h1>
+      <p class="heroi__apoio">Rebanho, dinheiro, tarefas e o mapa da fazenda num app só.<span class="so-pc"> Você lança no curral, até sem sinal, e vê na hora para onde foi o dinheiro.</span></p>
+      <div class="heroi__acoes">
+        <a class="botao botao--cheio botao--grande" href="https://play.google.com/store/apps/details?id=com.raykkony.fblogin" data-evento="baixar-heroi">
+          <svg aria-hidden="true"><use href="#i-play"/></svg><span class="so-pc">Baixar para Android</span><span class="so-cel">Baixar grátis</span>
+        </a>
+        <a class="botao botao--vidro botao--grande" href="https://app.finagro.app/" data-evento="navegador-heroi">
+          <svg aria-hidden="true"><use href="#i-globo"/></svg><span class="so-pc">Usar no navegador</span><span class="so-cel">No navegador</span>
+        </a>
+      </div>
+      <p class="heroi__nota">Grátis para sempre no plano Campo. Sem cartão e sem prazo.</p>
     </div>
 
-    <!-- Hero Section -->
-    <header class="hero" id="home">
-        <video autoplay muted loop playsinline class="hero-video">
-            <source src="assets/videos/finagro-fundo.mp4" type="video/mp4">
-            Seu navegador não suporta o elemento de vídeo.
-        </video>
-        <div class="hero-bg-overlay"></div>
-        <div class="container hero-content">
-            <div class="hero-text fade-in-up">
-                <div class="badge">Gestão Rural Inteligente</div>
-                <h1>Sua Fazenda na Palma da Mão</h1>
-                <p>Transforme dados em decisões inteligentes. Mais lucro, controle total e tempo livre para o que
-                    realmente importa: sua produção.</p>
-                <div class="hero-cta-group">
-                    <a href="https://play.google.com/store/apps/details?id=com.raykkony.fblogin&pcampaignid=web_share"
-                        class="btn btn-primary btn-lg glow-effect">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
-                            class="icon-left">
-                            <path
-                                d="M3 20.5V3.5C3 2.91 3.34 2.39 3.84 2.15L12.8 11.11L3.84 20.07C3.5 19.9 3 19.2 3 20.5ZM13.5 11.81L16.5 14.81L4.5 21.5C4.3 21.6 4.1 21.5 4 21.5L13.5 11.81ZM13.5 10.19L4 0.5C4.1 0.5 4.3 0.4 4.5 0.5L16.5 7.19L13.5 10.19ZM17.2 14.11L19.8 12.66C20.5 12.28 20.5 11.72 19.8 11.34L17.2 9.89L14.2 12L17.2 14.11Z"
-                                fill="currentColor" />
-                        </svg>
-                        Baixar para Android
-                    </a>
-                    <span class="availability">
-                        <span class="dot"></span> Disponível na Play Store
-                    </span>
-                </div>
+    <div class="heroi__aparelho">
+      <div class="celular celular--heroi">
+        <span class="celular__botao celular__botao--volume" aria-hidden="true"></span>
+        <span class="celular__botao celular__botao--liga" aria-hidden="true"></span>
+        <div class="celular__corpo">
+          <div class="celular__tela">
+            <div class="celular__status" aria-hidden="true"><span>7:30</span><span class="celular__icones"><svg class="i-wifi"><use href="#i-wifi"/></svg><svg class="i-rede"><use href="#i-rede"/></svg><svg class="i-bateria"><use href="#i-bateria"/></svg></span></div>
+            <div class="celular__app">
+              <picture>
+                <source type="image/avif" srcset="/assets/telas/inicio-824.avif 824w, /assets/telas/inicio-1236.avif 1236w" sizes="(min-width: 64rem) 21rem, 42vw">
+                <img src="/assets/telas/inicio-824.webp" width="824" height="1670" alt="Tela inicial do FINAGRO: atalhos de Propriedades, Animais, Lotes, Despesas, Receitas, Contas, Mão de obra, Áreas e GPS e FINAGRO AI" fetchpriority="high" decoding="async">
+              </picture>
+              <video class="celular__video" muted loop playsinline preload="none" data-video-celular aria-label="O app em uso: da tela inicial para Animais, Fluxo de caixa e Tarefas" disablepictureinpicture>
+                <source src="/assets/videos/app-celular.av1.mp4" type='video/mp4; codecs="av01.0.08M.08"'>
+                <source src="/assets/videos/app-celular.hevc.mp4" type='video/mp4; codecs="hvc1"'>
+                <source src="/assets/videos/app-celular.h264.mp4" type="video/mp4">
+              </video>
             </div>
-            <div class="hero-visual fade-in-up delay-200">
-                <div class="phone-mockup floating">
-                    <img src="assets/images/app-dashboard.png" alt="Interface do App Finagro" class="app-screen">
-                    <div class="mockup-glow"></div>
-                </div>
-            </div>
+            <div class="celular__gestos" aria-hidden="true"></div>
+          </div>
+          <span class="celular__camera" aria-hidden="true"></span>
         </div>
-        <div class="scroll-indicator">
-            <span>Role para saber mais</span>
-            <div class="mouse">
-                <div class="wheel"></div>
-            </div>
-        </div>
+      </div>
+    </div>
+  </div>
+
+  <ul class="heroi__fatos casca" aria-label="O que o app faz">
+    <li><svg aria-hidden="true"><use href="#i-sinal"/></svg><span>Lança <strong>sem sinal</strong> e sobe depois</span></li>
+    <li><svg aria-hidden="true"><use href="#i-planilha"/></svg><span>Traz a sua <strong>planilha do Excel</strong></span></li>
+    <li><svg aria-hidden="true"><use href="#i-pdf"/></svg><span>Relatório em <strong>PDF e planilha</strong></span></li>
+    <li><svg aria-hidden="true"><use href="#i-telas"/></svg><span>No <strong>celular e no computador</strong></span></li>
+  </ul>
+</section>
+
+<!-- ============================ O PARCEIRO QUE FALTAVA: o caderno de antes × o app de agora -->
+<section class="secao parceiro" id="sobre" aria-labelledby="parceiro-titulo">
+  <div class="casca">
+    <header class="cabeca revelar">
+      <h2 id="parceiro-titulo">O parceiro que faltava</h2>
+      <p>Chega de anotação perdida e planilha confusa.</p>
     </header>
-
-    <!-- Problem & Solution -->
-    <section class="problem-solution section-padding" id="about">
-        <div class="container">
-            <div class="section-header text-center fade-in-on-scroll">
-                <h2>O Parceiro que Faltava</h2>
-                <p class="subtitle">Chega de anotações perdidas e planilhas confusas.</p>
-            </div>
-
-            <div class="comparison-grid">
-                <!-- Problem Card -->
-                <div class="card problem-card glass-effect fade-in-on-scroll">
-                    <div class="card-icon-wrapper problem-icon">
-                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path
-                                d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z">
-                            </path>
-                            <line x1="12" y1="9" x2="12" y2="13"></line>
-                            <line x1="12" y1="17" x2="12.01" y2="17"></line>
-                        </svg>
-                    </div>
-                    <h3>O Velho Jeito</h3>
-                    <ul class="comparison-list">
-                        <li>❌ Cadernos que se perdem</li>
-                        <li>❌ Planilhas difíceis de usar</li>
-                        <li>❌ Falta de clareza no lucro</li>
-                        <li>❌ Decisões baseadas em "achismo"</li>
-                    </ul>
-                </div>
-
-                <!-- Solution Card -->
-                <div class="card solution-card glass-effect fade-in-on-scroll delay-100">
-                    <div class="card-icon-wrapper solution-icon">
-                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-                            <polyline points="22 4 12 14.01 9 11.01"></polyline>
-                        </svg>
-                    </div>
-                    <h3>O Jeito Finagro</h3>
-                    <ul class="comparison-list">
-                        <li>✅ Tudo salvo no celular</li>
-                        <li>✅ Simples e intuitivo</li>
-                        <li>✅ Relatórios automáticos</li>
-                        <li>✅ Decisões com dados reais</li>
-                    </ul>
-                </div>
-            </div>
+    <div class="parceiro__par">
+      <article class="lado lado--antes revelar">
+        <figure class="lado__cena">
+          <picture>
+            <source type="image/avif" srcset="/assets/fotos/velho-jeito-800.avif 800w, /assets/fotos/velho-jeito-1536.avif 1536w" sizes="(min-width: 64rem) 34rem, 50vw">
+            <img src="/assets/fotos/velho-jeito-800.webp" width="800" height="533" loading="lazy" decoding="async" alt="Caderno de anotações gasto, com contas à mão riscadas, calculadora e nota amassada sobre a mesa do curral">
+          </picture>
+        </figure>
+        <div class="lado__texto">
+          <h3><span class="marca-x"><svg aria-hidden="true"><use href="#i-x"/></svg></span>O jeito de antes</h3>
+          <ul class="lista lista--nao">
+            <li>Caderno que molha e se perde</li>
+            <li>Planilha que só um sabe usar</li>
+            <li>Ninguém sabe se deu lucro</li>
+            <li>Decisão no achismo</li>
+          </ul>
         </div>
-    </section>
-
-    <!-- Features -->
-    <section class="features section-padding" id="features">
-        <div class="container">
-            <div class="section-header text-center fade-in-on-scroll">
-                <h2>Tudo o que Você Precisa</h2>
-                <p class="subtitle">Funcionalidades pensadas para o dia a dia do campo.</p>
+      </article>
+      <article class="lado lado--agora revelar">
+        <figure class="lado__cena lado__cena--app">
+          <div class="celular celular--deitado" aria-hidden="true">
+            <span class="celular__botao celular__botao--volume"></span>
+            <span class="celular__botao celular__botao--liga"></span>
+            <div class="celular__corpo">
+              <div class="celular__tela">
+                <div class="celular__status"><span>7:30</span><span class="celular__icones"><svg class="i-wifi"><use href="#i-wifi"/></svg><svg class="i-rede"><use href="#i-rede"/></svg><svg class="i-bateria"><use href="#i-bateria"/></svg></span></div>
+                <div class="celular__app">
+                  <picture>
+                    <source type="image/avif" srcset="/assets/telas/fluxo-824.avif 824w, /assets/telas/fluxo-1236.avif 1236w" sizes="(min-width: 64rem) 15rem, 30vw">
+                    <img src="/assets/telas/fluxo-824.webp" width="824" height="1670" loading="lazy" decoding="async" alt="">
+                  </picture>
+                </div>
+                <div class="celular__gestos"></div>
+              </div>
+              <span class="celular__camera"></span>
             </div>
-            <div class="features-grid">
-                <div class="feature-item glass-effect fade-in-on-scroll">
-                    <div class="feature-icon">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path>
-                            <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path>
-                        </svg>
-                    </div>
-                    <h3>Registros Fáceis</h3>
-                    <p>Lance despesas e receitas em segundos, direto do curral.</p>
-                </div>
-                <div class="feature-item glass-effect fade-in-on-scroll delay-100">
-                    <div class="feature-icon">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <line x1="12" y1="1" x2="12" y2="23"></line>
-                            <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
-                        </svg>
-                    </div>
-                    <h3>Controle de Custos</h3>
-                    <p>Saiba exatamente quanto gastou com nutrição, sanidade e manejo.</p>
-                </div>
-                <div class="feature-item glass-effect fade-in-on-scroll delay-200">
-                    <div class="feature-icon">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <line x1="18" y1="20" x2="18" y2="10"></line>
-                            <line x1="12" y1="20" x2="12" y2="4"></line>
-                            <line x1="6" y1="20" x2="6" y2="14"></line>
-                        </svg>
-                    </div>
-                    <h3>Relatórios Visuais</h3>
-                    <p>Gráficos claros que mostram para onde seu dinheiro está indo.</p>
-                </div>
-                <div class="feature-item glass-effect fade-in-on-scroll delay-300">
-                    <div class="feature-icon">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-                        </svg>
-                    </div>
-                    <h3>Segurança de Dados</h3>
-                    <p>Suas informações salvas na nuvem, seguras e acessíveis sempre.</p>
-                </div>
-                <div class="feature-item glass-effect fade-in-on-scroll delay-400">
-                    <div class="feature-icon">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
-                            <line x1="12" y1="18" x2="12.01" y2="18"></line>
-                        </svg>
-                    </div>
-                    <h3>100% Mobile</h3>
-                    <p>Feito para usar no celular, com ou sem internet (modo offline).</p>
-                </div>
-            </div>
+          </div>
+          <figcaption class="cena-legenda">Fluxo de caixa: o saldo previsto na primeira tela</figcaption>
+        </figure>
+        <div class="lado__texto">
+          <h3><span class="marca-v"><svg aria-hidden="true"><use href="#i-check"/></svg></span>O jeito FINAGRO</h3>
+          <ul class="lista lista--sim">
+            <li>Tudo salvo no celular e na nuvem</li>
+            <li>Botão grande, fácil de achar</li>
+            <li>Relatório pronto num toque</li>
+            <li>Decisão com o número na mão</li>
+          </ul>
         </div>
-    </section>
+      </article>
+    </div>
+  </div>
+</section>
 
-    <!-- App Gallery -->
-    <section class="app-gallery section-padding bg-light">
-        <div class="container">
-            <div class="section-header text-center fade-in-on-scroll">
-                <h2>Conheça o Finagro por Dentro</h2>
-                <p class="subtitle">Interface limpa e intuitiva para facilitar seu dia a dia.</p>
-            </div>
-            <div class="gallery-grid">
-                <div class="gallery-item fade-in-on-scroll">
-                    <img src="assets/images/app-evolution.png" alt="Evolução de Peso e Custos" class="gallery-img">
-                    <p class="gallery-caption">Acompanhamento de Evolução</p>
-                </div>
-                <div class="gallery-item fade-in-on-scroll delay-100">
-                    <img src="assets/images/app-report.png" alt="Relatórios de Lote" class="gallery-img">
-                    <p class="gallery-caption">Relatórios Detalhados</p>
-                </div>
-                <div class="gallery-item fade-in-on-scroll delay-200">
-                    <img src="assets/images/app-employees.png" alt="Gestão de Funcionários" class="gallery-img">
-                    <p class="gallery-caption">Gestão de Equipe</p>
-                </div>
-                <div class="gallery-item fade-in-on-scroll delay-300">
-                    <img src="assets/images/app-map.png" alt="Mapa e GPS" class="gallery-img">
-                    <p class="gallery-caption">Mapa da Propriedade</p>
-                </div>
-            </div>
+<!-- ============================ TUDO O QUE VOCÊ PRECISA: os 5 cartões da antiga, cada um com a tela real da função -->
+<section class="secao funcoes" id="funcionalidades" aria-labelledby="funcoes-titulo">
+  <div class="casca">
+    <header class="cabeca revelar">
+      <h2 id="funcoes-titulo">Tudo o que você precisa</h2>
+      <p>Funções pensadas para o dia a dia do campo. Cada imagem abaixo é a tela do app.</p>
+    </header>
+    <div class="bento">
+      <article class="cartao cartao--a revelar">
+        <div class="cartao__topo"><span class="icone"><svg aria-hidden="true"><use href="#i-lapis"/></svg></span><h3>Registros fáceis</h3></div>
+        <p>Lance a despesa, a venda ou o leite em segundos, direto do curral.</p>
+        <picture class="recorte">
+          <source type="image/avif" srcset="/assets/recortes/lancar-agora-2x.avif 824w, /assets/recortes/lancar-agora-3x.avif 1236w" sizes="(min-width: 64rem) 34rem, 92vw">
+          <img src="/assets/recortes/lancar-agora-2x.webp" width="824" height="296" loading="lazy" decoding="async" alt="Atalhos Lançar agora do app: Leite, Gasto e Venda">
+        </picture>
+      </article>
+      <article class="cartao cartao--b revelar">
+        <div class="cartao__topo"><span class="icone"><svg aria-hidden="true"><use href="#i-moeda"/></svg></span><h3>Controle de custos</h3></div>
+        <p>Saiba quanto foi em ração, vacina e sal, e o que ainda está para pagar.</p>
+        <picture class="recorte recorte--alto">
+          <source type="image/avif" srcset="/assets/recortes/despesas-2x.avif 824w, /assets/recortes/despesas-3x.avif 1236w" sizes="(min-width: 64rem) 34rem, 92vw">
+          <img src="/assets/recortes/despesas-2x.webp" width="824" height="812" loading="lazy" decoding="async" alt="Lista de despesas do app: ração e concentrado pendente, vacinas e vermífugos pago, sal mineral pago">
+        </picture>
+      </article>
+      <article class="cartao cartao--c revelar">
+        <div class="cartao__topo"><span class="icone"><svg aria-hidden="true"><use href="#i-barras"/></svg></span><h3>Relatórios prontos</h3></div>
+        <p>Receitas e despesas, gasto por categoria e resultado por fazenda, em PDF ou planilha.</p>
+        <picture class="recorte recorte--alto">
+          <source type="image/avif" srcset="/assets/recortes/relatorios-2x.avif 824w, /assets/recortes/relatorios-3x.avif 1236w" sizes="(min-width: 64rem) 22rem, 46vw">
+          <img src="/assets/recortes/relatorios-2x.webp" width="824" height="1134" loading="lazy" decoding="async" alt="Tela de relatórios do app com botões PDF e CSV em cada relatório">
+        </picture>
+      </article>
+      <article class="cartao cartao--d revelar">
+        <div class="cartao__topo"><span class="icone"><svg aria-hidden="true"><use href="#i-escudo"/></svg></span><h3>Dados seguros</h3></div>
+        <p>Tudo fica salvo na nuvem com a sua conta. Troca de celular e está tudo lá.</p>
+        <picture class="recorte">
+          <source type="image/avif" srcset="/assets/recortes/animais-resumo-2x.avif 788w, /assets/recortes/animais-resumo-3x.avif 1182w" sizes="(min-width: 64rem) 22rem, 46vw">
+          <img src="/assets/recortes/animais-resumo-2x.webp" width="788" height="162" loading="lazy" decoding="async" alt="Resumo do rebanho no app: 46 animais e 16.965 kg no total">
+        </picture>
+      </article>
+      <article class="cartao cartao--e revelar">
+        <div class="cartao__topo"><span class="icone"><svg aria-hidden="true"><use href="#i-celular"/></svg></span><h3>Feito para o celular</h3></div>
+        <p>Sem sinal no pasto? O app salva na hora e avisa:</p>
+        <p class="aviso-do-app"><svg aria-hidden="true"><use href="#i-sinal"/></svg><span>Sem sinal — Despesa ficou no aparelho e sobe quando o sinal voltar.</span></p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ CONHEÇA POR DENTRO: a galeria de 4 telas da antiga, agora nas molduras e em 3x -->
+<section class="secao por-dentro" id="por-dentro" aria-labelledby="dentro-titulo">
+  <div class="casca">
+    <header class="cabeca revelar">
+      <h2 id="dentro-titulo">Conheça o FINAGRO por dentro</h2>
+      <p>Telas reais do app, com uma fazenda de demonstração.</p>
+    </header>
+    <ul class="galeria">
+      <li class="galeria__item revelar">
+        <div class="celular celular--galeria" aria-hidden="true">
+          <span class="celular__botao celular__botao--volume"></span><span class="celular__botao celular__botao--liga"></span>
+          <div class="celular__corpo"><div class="celular__tela">
+            <div class="celular__status"><span>7:30</span><span class="celular__icones"><svg class="i-wifi"><use href="#i-wifi"/></svg><svg class="i-rede"><use href="#i-rede"/></svg><svg class="i-bateria"><use href="#i-bateria"/></svg></span></div>
+            <div class="celular__app"><picture><source type="image/avif" srcset="/assets/telas/animais-824.avif 824w, /assets/telas/animais-1236.avif 1236w" sizes="(min-width: 64rem) 15rem, 44vw"><img src="/assets/telas/animais-824.webp" width="824" height="1670" loading="lazy" decoding="async" alt=""></picture></div>
+            <div class="celular__gestos"></div>
+          </div><span class="celular__camera"></span></div>
         </div>
-    </section>
-
-    <!-- Benefits -->
-    <section class="benefits section-padding bg-light" id="benefits">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-text fade-in-on-scroll">
-                    <div class="section-header">
-                        <h2>Resultados Reais no Bolso</h2>
-                        <p class="subtitle">Por que os produtores escolhem o Finagro?</p>
-                    </div>
-                    <div class="benefits-list">
-                        <div class="benefit-item">
-                            <div class="benefit-icon-circle">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
-                                    <polyline points="17 6 23 6 23 12"></polyline>
-                                </svg>
-                            </div>
-                            <div class="benefit-content">
-                                <h3>Aumento de Lucro</h3>
-                                <p>Identifique gargalos e corte gastos desnecessários.</p>
-                            </div>
-                        </div>
-                        <div class="benefit-item">
-                            <div class="benefit-icon-circle">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-                                    <circle cx="9" cy="7" r="4"></circle>
-                                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
-                                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
-                                </svg>
-                            </div>
-                            <div class="benefit-content">
-                                <h3>Melhores Negociações</h3>
-                                <p>Com dados na mão, você negocia melhor com fornecedores.</p>
-                            </div>
-                        </div>
-                        <div class="benefit-item">
-                            <div class="benefit-icon-circle">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                    <circle cx="12" cy="12" r="10"></circle>
-                                    <polyline points="12 6 12 12 16 14"></polyline>
-                                </svg>
-                            </div>
-                            <div class="benefit-content">
-                                <h3>Ganho de Tempo</h3>
-                                <p>Abandone a papelada e foque no que importa: produzir.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-image fade-in-on-scroll delay-200">
-                    <div class="benefits-visual">
-                        <!-- Abstract visual representation using CSS shapes/gradients -->
-                        <div class="visual-card">
-                            <div class="stat-card floating">
-                                <span class="stat-label">Economia</span>
-                                <span class="stat-value">+25%</span>
-                            </div>
-                            <div class="stat-card floating delay-500" style="top: 60%; right: -20px;">
-                                <span class="stat-label">Controle</span>
-                                <span class="stat-value">100%</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <p class="galeria__legenda"><strong>Rebanho na ficha</strong>Brinco, raça e peso de cada animal</p>
+      </li>
+      <li class="galeria__item revelar">
+        <div class="celular celular--galeria" aria-hidden="true">
+          <span class="celular__botao celular__botao--volume"></span><span class="celular__botao celular__botao--liga"></span>
+          <div class="celular__corpo"><div class="celular__tela">
+            <div class="celular__status"><span>7:30</span><span class="celular__icones"><svg class="i-wifi"><use href="#i-wifi"/></svg><svg class="i-rede"><use href="#i-rede"/></svg><svg class="i-bateria"><use href="#i-bateria"/></svg></span></div>
+            <div class="celular__app"><picture><source type="image/avif" srcset="/assets/telas/tarefas-824.avif 824w, /assets/telas/tarefas-1236.avif 1236w" sizes="(min-width: 64rem) 15rem, 44vw"><img src="/assets/telas/tarefas-824.webp" width="824" height="1670" loading="lazy" decoding="async" alt=""></picture></div>
+            <div class="celular__gestos"></div>
+          </div><span class="celular__camera"></span></div>
         </div>
-    </section>
-
-    <!-- How it Works -->
-    <section class="how-it-works section-padding" id="how-it-works">
-        <div class="container">
-            <div class="section-header text-center fade-in-on-scroll">
-                <h2>Comece em 4 Passos</h2>
-                <p class="subtitle">Simples assim.</p>
-            </div>
-            <div class="steps-container">
-                <div class="step-line"></div>
-                <div class="step-item fade-in-on-scroll">
-                    <div class="step-number">1</div>
-                    <h3>Baixe</h3>
-                    <p>Instale o app na Play Store.</p>
-                </div>
-                <div class="step-item fade-in-on-scroll delay-100">
-                    <div class="step-number">2</div>
-                    <h3>Cadastre</h3>
-                    <p>Crie sua conta em 1 minuto.</p>
-                </div>
-                <div class="step-item fade-in-on-scroll delay-200">
-                    <div class="step-number">3</div>
-                    <h3>Lance</h3>
-                    <p>Registre suas atividades.</p>
-                </div>
-                <div class="step-item fade-in-on-scroll delay-300">
-                    <div class="step-number">4</div>
-                    <h3>Lucre</h3>
-                    <p>Acompanhe os resultados.</p>
-                </div>
-            </div>
+        <p class="galeria__legenda"><strong>A fazenda sugere</strong>Vacina que vence, estoque zerado</p>
+      </li>
+      <li class="galeria__item revelar">
+        <div class="celular celular--galeria" aria-hidden="true">
+          <span class="celular__botao celular__botao--volume"></span><span class="celular__botao celular__botao--liga"></span>
+          <div class="celular__corpo"><div class="celular__tela">
+            <div class="celular__status"><span>7:30</span><span class="celular__icones"><svg class="i-wifi"><use href="#i-wifi"/></svg><svg class="i-rede"><use href="#i-rede"/></svg><svg class="i-bateria"><use href="#i-bateria"/></svg></span></div>
+            <div class="celular__app"><picture><source type="image/avif" srcset="/assets/telas/cotacoes-824.avif 824w, /assets/telas/cotacoes-1236.avif 1236w" sizes="(min-width: 64rem) 15rem, 44vw"><img src="/assets/telas/cotacoes-824.webp" width="824" height="1670" loading="lazy" decoding="async" alt=""></picture></div>
+            <div class="celular__gestos"></div>
+          </div><span class="celular__camera"></span></div>
         </div>
-    </section>
-
-    <!-- Target Audience -->
-    <section class="audience section-padding" id="audience">
-        <div class="container">
-            <div class="section-header text-center fade-in-on-scroll">
-                <h2>Feito para Você</h2>
-            </div>
-            <div class="audience-grid">
-                <div class="audience-card glass-effect fade-in-on-scroll">
-                    <div class="audience-img">
-                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
-                            <polyline points="17 6 23 6 23 12"></polyline>
-                        </svg>
-                    </div>
-                    <h3>Pecuária de Corte</h3>
-                    <p>Engorda, arroba e manejo.</p>
-                </div>
-                <div class="audience-card glass-effect fade-in-on-scroll delay-100">
-                    <div class="audience-img">
-                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M12 2.69l5.74 5.74a8 8 0 1 1-11.31 0z"></path>
-                        </svg>
-                    </div>
-                    <h3>Pecuária Leiteira</h3>
-                    <p>Produção diária e qualidade.</p>
-                </div>
-            </div>
+        <p class="galeria__legenda"><strong>Preço do boi</strong>Cotação da semana pela CONAB</p>
+      </li>
+      <li class="galeria__item revelar">
+        <div class="celular celular--galeria" aria-hidden="true">
+          <span class="celular__botao celular__botao--volume"></span><span class="celular__botao celular__botao--liga"></span>
+          <div class="celular__corpo"><div class="celular__tela">
+            <div class="celular__status"><span>7:30</span><span class="celular__icones"><svg class="i-wifi"><use href="#i-wifi"/></svg><svg class="i-rede"><use href="#i-rede"/></svg><svg class="i-bateria"><use href="#i-bateria"/></svg></span></div>
+            <div class="celular__app"><picture><source type="image/avif" srcset="/assets/telas/lotes-824.avif 824w, /assets/telas/lotes-1236.avif 1236w" sizes="(min-width: 64rem) 15rem, 44vw"><img src="/assets/telas/lotes-824.webp" width="824" height="1670" loading="lazy" decoding="async" alt=""></picture></div>
+            <div class="celular__gestos"></div>
+          </div><span class="celular__camera"></span></div>
         </div>
-    </section>
+        <p class="galeria__legenda"><strong>Lotes e pesagens</strong>Cabeças e peso de cada lote</p>
+      </li>
+    </ul>
+  </div>
+</section>
 
-    <!-- Testimonials -->
-    <section class="testimonials section-padding" id="testimonials">
-        <div class="container">
-            <div class="section-header text-center fade-in-on-scroll">
-                <h2>Quem Usa Recomenda</h2>
-            </div>
-            <div class="testimonial-card glass-effect fade-in-on-scroll">
-                <div class="quote-icon">
-                    <svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M14.017 21L14.017 18C14.017 16.8954 14.9124 16 16.017 16H19.017C19.5693 16 20.017 15.5523 20.017 15V9C20.017 8.44772 19.5693 8 19.017 8H15.017C14.4647 8 14.017 7.55228 14.017 7V3H19.017C20.6739 3 22.017 4.34315 22.017 6V15C22.017 16.6569 20.6739 18 19.017 18H18.017V21H14.017ZM5.0166 21L5.0166 18C5.0166 16.8954 5.91203 16 7.0166 16H10.0166C10.5689 16 11.0166 15.5523 11.0166 15V9C11.0166 8.44772 10.5689 8 10.0166 8H6.0166C5.46432 8 5.0166 7.55228 5.0166 7V3H10.0166C11.6735 3 13.0166 4.34315 13.0166 6V15C13.0166 16.6569 11.6735 18 10.0166 18H9.0166V21H5.0166Z" />
-                    </svg>
-                </div>
-                <p class="quote-text">Antes eu não sabia se estava tendo lucro ou prejuízo. Com o Finagro, hoje sei
-                    exatamente quanto gasto por cabeça. Mudou minha gestão!</p>
-                <div class="author">
-                    <div class="author-avatar">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-                            <circle cx="12" cy="7" r="4"></circle>
-                        </svg>
-                    </div>
-                    <div class="author-info">
-                        <h4>Jacinto Pereira</h4>
-                        <span>Pecuarista no Maranhão</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+<!-- ============================ RESULTADOS NO BOLSO: os 3 benefícios + o cartão visual da antiga, com tela real no
+     lugar dos números inventados -->
+<section class="secao beneficios" id="beneficios" aria-labelledby="beneficios-titulo">
+  <div class="casca beneficios__grade">
+    <div class="beneficios__texto revelar">
+      <header class="cabeca cabeca--esquerda">
+        <h2 id="beneficios-titulo">Resultados reais no bolso</h2>
+        <p>O que muda quando a fazenda cabe no celular.</p>
+      </header>
+      <ul class="beneficios__lista">
+        <li><span class="icone icone--claro"><svg aria-hidden="true"><use href="#i-lucro"/></svg></span><div><h3>Mais lucro</h3><p>Veja onde o dinheiro está indo e corte o gasto que não volta.</p></div></li>
+        <li><span class="icone icone--claro"><svg aria-hidden="true"><use href="#i-negocio"/></svg></span><div><h3>Melhores negociações</h3><p>Com a cotação da semana e o seu custo na mão, você vende e compra melhor.</p></div></li>
+        <li><span class="icone icone--claro"><svg aria-hidden="true"><use href="#i-relogio"/></svg></span><div><h3>Ganho de tempo</h3><p>O app lembra o que vence e o que fazer hoje. Menos papel, mais produção.</p></div></li>
+      </ul>
+    </div>
+    <figure class="beneficios__cena revelar">
+      <div class="beneficios__palco">
+      <picture>
+        <source type="image/avif" srcset="/assets/fotos/perfil-corte-800.avif 800w, /assets/fotos/perfil-corte-1536.avif 1536w" sizes="(min-width: 64rem) 36rem, 92vw">
+        <img class="beneficios__foto" src="/assets/fotos/perfil-corte-800.webp" width="800" height="533" loading="lazy" decoding="async" alt="Boiada de Nelore pastando no fim da tarde">
+      </picture>
+      <div class="flutua flutua--a">
+        <picture>
+          <source type="image/avif" srcset="/assets/recortes/cotacao-2x.avif 784w, /assets/recortes/cotacao-3x.avif 1176w" sizes="(min-width: 64rem) 19rem, 62vw">
+          <img src="/assets/recortes/cotacao-2x.webp" width="784" height="244" loading="lazy" decoding="async" alt="Cotação no app: R$ 350,67 por 15 kg (arroba), última semana, fonte CONAB">
+        </picture>
+      </div>
+      <div class="flutua flutua--b">
+        <picture>
+          <source type="image/avif" srcset="/assets/recortes/atencao-2x.avif 784w, /assets/recortes/atencao-3x.avif 1176w" sizes="(min-width: 64rem) 19rem, 62vw">
+          <img src="/assets/recortes/atencao-2x.webp" width="784" height="156" loading="lazy" decoding="async" alt="Aviso do app no Meu Dia: renovar CAF junto ao sindicato, para hoje">
+        </picture>
+      </div>
+      </div>
+      <figcaption class="cena-legenda cena-legenda--sobre">Cotação de 28/09 a 02/10/2026 (CONAB) e o aviso do dia, como aparecem no app</figcaption>
+    </figure>
+  </div>
+</section>
 
-    <!-- CTA & Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-cta text-center fade-in-on-scroll">
-                <h2>Pronto para profissionalizar sua fazenda?</h2>
-                <p>Junte-se a centenas de produtores que já modernizaram sua gestão.</p>
-                <a href="https://play.google.com/store/apps/details?id=com.raykkony.fblogin&pcampaignid=web_share"
-                    class="btn btn-primary glow-effect">Baixar Agora</a>
-            </div>
+<!-- ============================ COMECE EM 4 PASSOS: a linha da antiga, que se completa enquanto você rola -->
+<section class="secao passos" id="como-funciona" aria-labelledby="passos-titulo">
+  <div class="casca">
+    <header class="cabeca revelar">
+      <h2 id="passos-titulo">Comece em 4 passos</h2>
+      <p>Simples assim, e grátis.</p>
+    </header>
+    <ol class="passos__lista" data-linha>
+      <li class="passo revelar"><span class="passo__num" aria-hidden="true">1</span><h3>Baixe</h3><p>Instale na Google Play ou abra no navegador.</p></li>
+      <li class="passo revelar"><span class="passo__num" aria-hidden="true">2</span><h3>Cadastre</h3><p>Entre com a conta Google e conte o que você produz.</p></li>
+      <li class="passo revelar"><span class="passo__num" aria-hidden="true">3</span><h3>Lance</h3><p>Gasto, venda, vacina e pesagem, na hora em que acontecem.</p></li>
+      <li class="passo revelar"><span class="passo__num" aria-hidden="true">4</span><h3>Lucre</h3><p>Acompanhe o saldo e os relatórios do mês.</p></li>
+    </ol>
+    <div class="passos__acao revelar">
+      <a class="botao botao--cheio" href="https://play.google.com/store/apps/details?id=com.raykkony.fblogin" data-evento="baixar-passos"><svg aria-hidden="true"><use href="#i-play"/></svg><span>Baixar grátis</span></a>
+    </div>
+  </div>
+</section>
 
-            <div class="footer-content">
-                <div class="footer-brand">
-                    <img src="assets/images/app-logo.png" alt="Finagro Logo" class="logo-img footer-logo-img">
-                    <p>Gestão rural inteligente na palma da sua mão.</p>
-                </div>
+<!-- ============================ FEITO PARA VOCÊ: de 2 cartões (corte e leite) para as 6 produções que o app atende,
+     cada uma com a foto e a grade que o app abre para ela -->
+<section class="secao para-quem" id="para-quem" aria-labelledby="quem-titulo">
+  <div class="casca">
+    <header class="cabeca revelar">
+      <h2 id="quem-titulo">Feito para você</h2>
+      <p>Do sítio com 12 vacas à granja com 1 milhão de aves: você conta o que produz e o app abre no que você faz todo dia.</p>
+    </header>
+    <ul class="perfis">
+      <li class="perfil revelar">
+        <picture><source type="image/avif" srcset="/assets/fotos/perfil-corte-800.avif 800w, /assets/fotos/perfil-corte-1536.avif 1536w" sizes="(min-width: 64rem) 24rem, 46vw"><img class="perfil__foto" src="/assets/fotos/perfil-corte-800.webp" width="800" height="533" loading="lazy" decoding="async" alt="Nelore pastando"></picture>
+        <div class="perfil__texto"><h3>Gado de corte</h3><p>Animais, manejo, vacina e GTA</p></div>
+        <picture class="perfil__app"><source type="image/avif" srcset="/assets/recortes/perfil-corte-2x.avif 824w" sizes="12rem"><img src="/assets/recortes/perfil-corte-2x.webp" width="824" height="752" loading="lazy" decoding="async" alt="Atalhos que o app abre para gado de corte"></picture>
+      </li>
+      <li class="perfil revelar">
+        <picture><source type="image/avif" srcset="/assets/fotos/perfil-leite-800.avif 800w, /assets/fotos/perfil-leite-1536.avif 1536w" sizes="(min-width: 64rem) 24rem, 46vw"><img class="perfil__foto" src="/assets/fotos/perfil-leite-800.webp" width="800" height="533" loading="lazy" decoding="async" alt="Vacas holandesas no cocho"></picture>
+        <div class="perfil__texto"><h3>Leite</h3><p>Produção do dia, animais e reprodução</p></div>
+        <picture class="perfil__app"><source type="image/avif" srcset="/assets/recortes/perfil-leite-2x.avif 824w" sizes="12rem"><img src="/assets/recortes/perfil-leite-2x.webp" width="824" height="752" loading="lazy" decoding="async" alt="Atalhos que o app abre para leite"></picture>
+      </li>
+      <li class="perfil revelar">
+        <picture><source type="image/avif" srcset="/assets/fotos/perfil-lavoura-800.avif 800w, /assets/fotos/perfil-lavoura-1536.avif 1536w" sizes="(min-width: 64rem) 24rem, 46vw"><img class="perfil__foto" src="/assets/fotos/perfil-lavoura-800.webp" width="800" height="450" loading="lazy" decoding="async" alt="Lavoura de soja ao nascer do sol"></picture>
+        <div class="perfil__texto"><h3>Lavoura</h3><p>Safra, talhão e caderno de campo</p></div>
+        <picture class="perfil__app"><source type="image/avif" srcset="/assets/recortes/perfil-lavoura-2x.avif 824w" sizes="12rem"><img src="/assets/recortes/perfil-lavoura-2x.webp" width="824" height="752" loading="lazy" decoding="async" alt="Atalhos que o app abre para lavoura"></picture>
+      </li>
+      <li class="perfil revelar">
+        <picture><source type="image/avif" srcset="/assets/fotos/perfil-granja-800.avif 800w, /assets/fotos/perfil-granja-1536.avif 1536w" sizes="(min-width: 64rem) 24rem, 46vw"><img class="perfil__foto" src="/assets/fotos/perfil-granja-800.webp" width="800" height="533" loading="lazy" decoding="async" alt="Galpão de frangos com comedouros"></picture>
+        <div class="perfil__texto"><h3>Granja</h3><p>Galpões em lote, manejo e trato</p></div>
+        <picture class="perfil__app"><source type="image/avif" srcset="/assets/recortes/perfil-granja-2x.avif 824w" sizes="12rem"><img src="/assets/recortes/perfil-granja-2x.webp" width="824" height="752" loading="lazy" decoding="async" alt="Atalhos que o app abre para granja"></picture>
+      </li>
+      <li class="perfil revelar">
+        <picture><source type="image/avif" srcset="/assets/fotos/perfil-peixe-800.avif 800w, /assets/fotos/perfil-peixe-1536.avif 1536w" sizes="(min-width: 64rem) 24rem, 46vw"><img class="perfil__foto" src="/assets/fotos/perfil-peixe-800.webp" width="800" height="533" loading="lazy" decoding="async" alt="Tanques de peixe com aeradores, vistos de cima"></picture>
+        <div class="perfil__texto"><h3>Peixe</h3><p>Tanques em lote, água e trato</p></div>
+        <picture class="perfil__app"><source type="image/avif" srcset="/assets/recortes/perfil-peixe-2x.avif 824w" sizes="12rem"><img src="/assets/recortes/perfil-peixe-2x.webp" width="824" height="752" loading="lazy" decoding="async" alt="Atalhos que o app abre para piscicultura"></picture>
+      </li>
+      <li class="perfil revelar">
+        <picture><source type="image/avif" srcset="/assets/fotos/perfil-abelha-800.avif 800w, /assets/fotos/perfil-abelha-1536.avif 1536w" sizes="(min-width: 64rem) 24rem, 46vw"><img class="perfil__foto" src="/assets/fotos/perfil-abelha-800.webp" width="800" height="533" loading="lazy" decoding="async" alt="Colmeias brancas num campo florido"></picture>
+        <div class="perfil__texto"><h3>Abelha</h3><p>Colmeias em lote, revisão e produção</p></div>
+        <picture class="perfil__app"><source type="image/avif" srcset="/assets/recortes/perfil-abelha-2x.avif 824w" sizes="12rem"><img src="/assets/recortes/perfil-abelha-2x.webp" width="824" height="752" loading="lazy" decoding="async" alt="Atalhos que o app abre para apicultura"></picture>
+      </li>
+    </ul>
+  </div>
+</section>
 
-                <div class="footer-links">
-                    <h3>Conecte-se</h3>
-                    <div class="social-links">
-                        <a href="https://instagram.com/finagro.app" target="_blank" class="social-link">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
-                            </svg>
-                            @finagro.app
-                        </a>
-                        <a href="https://instagram.com/visionx.dev" target="_blank" class="social-link">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
-                            </svg>
-                            @visionx.dev
-                        </a>
-                    </div>
-                </div>
-            </div>
+<!-- ============================ QUEM USA RECOMENDA: o cartão de depoimento da antiga, agora com a avaliação pública
+     de verdade na Google Play (o "Jacinto Pereira" não existia) -->
+<section class="secao avaliacao" id="avaliacoes" aria-labelledby="avaliacao-titulo">
+  <div class="casca">
+    <header class="cabeca revelar">
+      <h2 id="avaliacao-titulo">Quem usa recomenda</h2>
+      <p>Nota e avaliação publicadas na Google Play, verificadas pelo Google.</p>
+    </header>
+    <figure class="depoimento revelar">
+      <div class="depoimento__nota">
+        <strong>5,0</strong>
+        <span class="selo-nota__estrelas" aria-hidden="true"><svg><use href="#i-estrela"/></svg><svg><use href="#i-estrela"/></svg><svg><use href="#i-estrela"/></svg><svg><use href="#i-estrela"/></svg><svg><use href="#i-estrela"/></svg></span>
+        <span>Nota na Google Play</span>
+      </div>
+      <blockquote cite="https://play.google.com/store/apps/details?id=com.raykkony.fblogin&amp;showAllReviews=true">
+        <p>“Calcula a área sem Internet perfeitamente bem e de maneira interessante.”</p>
+      </blockquote>
+      <figcaption>
+        <span class="depoimento__quem"><strong>Arthur Azevedo</strong>Avaliação de 5 estrelas na Google Play, 10/03/2026</span>
+        <a class="link-seta" href="https://play.google.com/store/apps/details?id=com.raykkony.fblogin&amp;showAllReviews=true" rel="noopener">Ver na Google Play<svg aria-hidden="true"><use href="#i-seta"/></svg></a>
+      </figcaption>
+    </figure>
+  </div>
+</section>
 
-            <div class="footer-bottom">
-                <p class="copyright">&copy; 2024 Finagro. Todos os direitos reservados.</p>
-                <div class="developer-credit">
-                    <span>Desenvolvido por</span>
-                    <a href="https://visionxma.com" target="_blank">
-                        <img src="assets/images/visionx-logo.png" alt="VisionX" class="dev-logo">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </footer>
+<!-- ============================ PERGUNTAS -->
+<section class="secao perguntas" id="perguntas" aria-labelledby="perguntas-titulo">
+  <div class="casca">
+    <header class="cabeca revelar">
+      <h2 id="perguntas-titulo">Perguntas frequentes</h2>
+      <p>O que o produtor mais pergunta antes de começar.</p>
+    </header>
+<!--gerado:faq-->
+<div class="faq" id="faq">
+  <details name="faq"><summary>O FINAGRO é grátis mesmo?</summary><p>É. O plano Campo é grátis para sempre e não pede cartão: até 3 fazendas, 5 pessoas e 1.000 animais com ficha, com lote de qualquer tamanho e todas as funções do app. Os planos pagos, de R$ 59,90 a R$ 299,90 por mês, são para quem precisa de mais fazendas, gente ou animais com ficha.</p></details>
+  <details name="faq"><summary>Funciona sem internet no curral?</summary><p>Para lançar, funciona. Sem sinal, o gasto, a venda ou a vacina ficam salvos no celular e sobem sozinhos quando a internet voltar, e o app avisa isso na hora. Para entrar pela primeira vez num aparelho e para ver o que a equipe lançou em outro celular, é preciso sinal.</p></details>
+  <details name="faq"><summary>Serve para quem cria pouco? E para quem cria muito?</summary><p>Serve dos dois lados. Você conta o que produz e quantos, e o painel se ajusta: o leiteiro com 12 vacas vê o leite do dia e a reprodução; a granja com 1 milhão de aves vê os galpões e o trato. Galpão, tanque, colmeia e lote de gado contam como um lote só, sem limite de cabeças.</p></details>
+  <details name="faq"><summary>Tem para iPhone?</summary><p>O aplicativo de celular está na Play Store para Android. No iPhone, no tablet e no computador, o FINAGRO funciona pelo navegador em app.finagro.app, com a mesma conta e os mesmos dados.</p></details>
+  <details name="faq"><summary>O FINAGRO emite a GTA?</summary><p>Não. A GTA (Guia de Trânsito Animal) é emitida no sistema da defesa agropecuária do seu estado. No FINAGRO você registra as GTAs emitidas, o app lembra 1 dia antes do vencimento e avisa quando falta anotar a vacina que trava a guia.</p></details>
+  <details name="faq" class="extra"><summary>O app gera o LCDPR?</summary><p>Gera o arquivo do Livro Caixa Digital do Produtor Rural no leiaute da Receita Federal, com as receitas e despesas lançadas. O contador confere, completa os dados do contribuinte e das contas bancárias e valida no programa da Receita antes de entregar.</p></details>
+  <details name="faq" class="extra"><summary>Consigo trazer a planilha que já uso?</summary><p>Consegue. O FINAGRO importa planilha do Excel (.xls ou .xlsx), então ninguém precisa redigitar o rebanho ou os lançamentos que já estão na planilha.</p></details>
+  <details name="faq" class="extra"><summary>Quantas pessoas podem usar a mesma fazenda?</summary><p>No plano Campo, 5 pessoas, cada uma com o seu papel e as suas permissões. Para mais gente: Essencial (10), Profissional (30), Avançado (100) ou pessoa extra por R$ 14,90 por mês.</p></details>
+  <details name="faq" class="extra"><summary>Os meus dados ficam com quem?</summary><p>Ficam com você, guardados na nuvem com a sua conta: trocou de celular, está tudo lá. As listas e os relatórios saem em PDF e planilha quando você quiser, e o tratamento dos dados está descrito na política de privacidade do FINAGRO.</p></details>
+  <details name="faq" class="extra"><summary>O que é o FINAGRO AI?</summary><p>É o assistente do app para dúvidas de gestão rural, pecuária e agricultura. No plano Campo são 15 perguntas por dia, e a conta zera à meia-noite.</p></details>
+</div>
+<button class="botao botao--linha ver-mais" type="button" data-ver-mais="faq">Ver mais perguntas (+5)</button>
+<!--/gerado:faq-->
+  </div>
+</section>
 
-    <script src="script.js"></script>
+<!-- ============================ CHAMADA FINAL: a da antiga, sobre o pasto do vídeo, sem o "centenas de produtores" -->
+<section class="chamada" id="comecar" aria-labelledby="chamada-titulo">
+  <div class="chamada__fundo" aria-hidden="true">
+    <picture>
+      <source type="image/avif" srcset="/assets/heroi/pasto-1280.avif 1280w, /assets/heroi/pasto-1920.avif 1920w" sizes="100vw">
+      <img src="/assets/heroi/pasto-1280.webp" width="1280" height="720" loading="lazy" decoding="async" alt="">
+    </picture>
+  </div>
+  <div class="casca chamada__conteudo revelar">
+    <h2 id="chamada-titulo">Pronto para profissionalizar sua fazenda?</h2>
+    <p>Grátis para sempre no plano Campo, com o app inteiro: até 3 fazendas, 5 pessoas e 1.000 animais com ficha. Sem cartão e sem prazo.</p>
+    <div class="heroi__acoes heroi__acoes--centro">
+      <a class="botao botao--cheio botao--grande" href="https://play.google.com/store/apps/details?id=com.raykkony.fblogin" data-evento="baixar-final"><svg aria-hidden="true"><use href="#i-play"/></svg><span class="so-pc">Baixar para Android</span><span class="so-cel">Baixar grátis</span></a>
+      <a class="botao botao--vidro botao--grande" href="https://app.finagro.app/" data-evento="navegador-final"><svg aria-hidden="true"><use href="#i-globo"/></svg><span class="so-pc">Usar no navegador</span><span class="so-cel">No navegador</span></a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!--gerado:rodape-->
+<footer class="rodape">
+  <div class="casca">
+    <div class="rodape__grade">
+      <div class="rodape__marca">
+        <picture><source type="image/avif" srcset="/assets/marca/finagro-placa-400.avif"><img class="rodape__logo" src="/assets/marca/finagro-placa-400.webp" width="400" height="139" alt="FINAGRO"></picture>
+        <p>Gestão rural na palma da mão: rebanho, lavoura, dinheiro e equipe da fazenda num app só, no celular e no computador.</p>
+      </div>
+      <div><h2>O app</h2><ul>
+        <li><a href="/#funcionalidades">Funcionalidades</a></li><li><a href="/#beneficios">Benefícios</a></li><li><a href="/#como-funciona">Como funciona</a></li><li><a href="/#para-quem">Para quem</a></li><li><a href="/#perguntas">Dúvidas</a></li>
+        <li><a href="https://app.finagro.app/">Entrar no app</a></li><li><a href="https://play.google.com/store/apps/details?id=com.raykkony.fblogin">App para Android</a></li>
+      </ul></div>
+      <div><h2>Guias</h2><ul>
+        <li><a href="/controle-de-rebanho">Controle de rebanho no celular</a></li><li><a href="/fluxo-de-caixa-rural">Fluxo de caixa rural</a></li><li><a href="/caderno-de-campo">Caderno de campo digital</a></li><li><a href="/gta">GTA</a></li><li><a href="/lcdpr">LCDPR</a></li><li><a href="/calculadora-gmd">Calculadora de GMD do gado</a></li>
+      </ul></div>
+      <div><h2>Contato</h2><ul>
+        <li><a href="https://www.instagram.com/finagro.app/" rel="me">Instagram @finagro.app</a></li>
+        <li><a href="https://www.instagram.com/visionx.dev/">Instagram @visionx.dev</a></li>
+        <li><a href="https://projeto.finagro.app/pol%C3%ADtica-de-privacidade">Política de privacidade</a></li>
+        <li><a href="/llms.txt">Resumo para IA (llms.txt)</a></li>
+      </ul></div>
+    </div>
+    <div class="rodape__base">
+      <p>© 2026 FINAGRO. Todos os direitos reservados.</p>
+      <a class="assinatura" href="https://visionxma.com/" rel="noopener"><svg viewBox="1808.0 79.5 421.0 382.0" aria-hidden="true"><path fill="currentColor" transform="translate(1813.0,81.0)" d="M0 0 C18.5 -0.3 37 -0.5 55.5 -0.6 C64.1 -0.7 72.6 -0.8 81.2 -0.9 C88.7 -1 96.2 -1.1 103.7 -1.1 C107.6 -1.1 111.6 -1.2 115.6 -1.3 C119.3 -1.4 123 -1.4 126.8 -1.4 C128.8 -1.4 130.8 -1.4 132.8 -1.5 C138.3 -1.4 141.6 -1.3 145.8 2.6 C148.1 5.6 150.1 8.7 152 12 C153 13.5 154.1 15.1 155.1 16.6 C156.1 18.1 157.1 19.6 158.1 21.1 C164.9 31.4 171.8 41.6 178.7 51.8 C184 59.6 189.2 67.3 194.4 75.2 C194.8 75.8 195.3 76.4 195.7 77.1 C197.7 80.1 199.6 83 201.6 86 C202.3 87.1 203 88.1 203.7 89.2 C204.3 90.1 204.9 91 205.5 91.9 C207 94 207 94 209 95 C209.2 94.3 209.5 93.7 209.7 93 C211.4 89.2 213.5 85.9 215.8 82.5 C216.3 81.8 216.8 81.1 217.3 80.3 C218.9 77.9 220.5 75.5 222.1 73.1 C223.2 71.4 224.3 69.7 225.4 68 C227.8 64.5 230.1 60.9 232.4 57.4 C235.9 52.1 239.4 46.8 242.9 41.5 C243.5 40.6 244.1 39.8 244.6 38.9 C245.7 37.2 246.8 35.5 247.9 33.8 C251.9 27.9 255.8 21.9 259.7 15.9 C260.6 14.7 261.4 13.4 262.2 12.1 C263.4 10.4 264.5 8.7 265.6 7 C265.9 6.6 265.9 6.6 267.5 4.2 C269 2 269 2 271 0 C273.4 -0.2 273.4 -0.2 276.4 -0.2 C277.6 -0.2 278.8 -0.2 279.9 -0.2 C280.6 -0.2 280.6 -0.2 283.8 -0.2 C285.2 -0.2 286.5 -0.2 287.9 -0.2 C291.5 -0.2 295.2 -0.2 298.9 -0.2 C302.7 -0.2 306.5 -0.2 310.4 -0.2 C317.6 -0.2 324.9 -0.2 332.2 -0.1 C340.4 -0.1 348.7 -0.1 357 -0.1 C374 -0.1 391 -0 408 0 C403.6 7.7 403.6 7.7 401.2 11 C401 11.3 401 11.3 399.7 13.1 C399.2 13.8 398.6 14.6 398.1 15.3 C396.9 16.9 395.7 18.5 394.6 20.1 C394 20.9 393.4 21.7 392.8 22.6 C389.9 26.4 387.1 30.3 384.3 34.2 C383.8 35 383.2 35.8 382.7 36.5 C379 41.6 375.4 46.6 371.8 51.7 C367.8 57.2 363.8 62.8 359.8 68.3 C356.5 72.9 353.3 77.4 350 82 C345.6 88.1 341.2 94.2 336.8 100.3 C333.5 104.9 330.3 109.4 327 114 C322.6 120.1 318.2 126.2 313.8 132.3 C310.5 136.9 307.3 141.4 304 146 C300.7 150.6 297.4 155.2 294.1 159.8 C293 161.4 291.8 162.9 290.7 164.5 C288.3 167.8 285.9 171.2 283.4 174.4 C282.6 175.4 281.9 176.3 281.1 177.3 C280.5 178.1 279.9 178.9 279.2 179.7 C278 182 278 182 278.1 184.6 C279.1 187.1 280 188.7 281.8 190.8 C285.3 195 288.5 199.4 291.6 203.9 C295.9 210 300.2 216 304.5 222 C309.2 228.5 313.9 235 318.5 241.6 C322.1 246.8 325.8 251.9 329.5 257 C334.2 263.5 338.9 270 343.5 276.6 C347.1 281.8 350.8 286.9 354.5 292 C359.2 298.5 363.9 305 368.5 311.6 C372.1 316.8 375.8 321.9 379.5 327 C383.7 332.8 387.9 338.6 392 344.5 C397.3 352 402.7 359.5 408.1 367 C408.6 367.6 409.1 368.3 409.6 369 C410.5 370.4 411.5 371.7 412.5 373 C416 377.8 416 377.8 416 380 C397.2 380.1 378.3 380.2 359.5 380.2 C350.7 380.2 342 380.3 333.3 380.3 C325.6 380.3 318 380.4 310.4 380.4 C306.3 380.4 302.3 380.4 298.3 380.4 C294.5 380.5 290.7 380.5 286.9 380.5 C285.5 380.5 284.1 380.5 282.7 380.5 C280.8 380.5 278.9 380.5 277 380.5 C275.9 380.5 274.9 380.5 273.8 380.5 C270.3 379.9 269.2 378.7 267 376 C265.5 373.7 264.1 371.5 262.7 369.2 C258.4 362.2 254 355.4 249.6 348.6 C248.9 347.6 248.3 346.6 247.6 345.6 C246.3 343.6 245.1 341.7 243.8 339.7 C241.3 335.9 238.8 332 236.2 328.1 C235.8 327.4 235.4 326.8 234.9 326.1 C234.1 324.7 233.2 323.4 232.3 322 C229.6 317.8 226.9 313.6 224.1 309.4 C221.8 305.7 219.4 302 217 298.4 C216.5 297.6 216 296.8 215.5 296.1 C214.6 294.6 213.6 293.2 212.7 291.7 C210.2 287.8 207.6 283.9 205 280 C202.4 283.2 200 286.4 197.7 289.9 C197.1 290.8 196.5 291.7 195.9 292.7 C195.2 293.7 194.6 294.7 193.9 295.7 C193.3 296.7 192.6 297.7 191.9 298.8 C187.5 305.5 183.3 312.3 179.1 319.2 C173.8 328 168.3 336.6 162.7 345.3 C160 349.6 157.3 353.9 154.6 358.2 C153.6 359.7 152.6 361.3 151.6 362.8 C150 365.4 148.4 368 146.8 370.6 C146.1 371.5 145.5 372.5 144.9 373.6 C144.4 374.4 143.8 375.2 143.3 376.1 C142 378 142 378 140 380 C137.5 380.2 137.5 380.2 134.3 380.2 C133 380.2 131.8 380.2 130.5 380.2 C129.2 380.2 127.8 380.2 126.5 380.2 C125 380.2 123.6 380.2 122.2 380.2 C118.3 380.2 114.4 380.2 110.5 380.2 C106.5 380.2 102.4 380.2 98.3 380.2 C90.7 380.2 83 380.2 75.3 380.1 C66.5 380.1 57.8 380.1 49 380.1 C31 380.1 13 380 -5 380 C-3.7 377.4 -2.3 374.9 -0.6 372.5 C-0.2 371.9 0.3 371.2 0.8 370.5 C1.3 369.8 1.8 369.1 2.3 368.4 C2.8 367.6 3.4 366.9 3.9 366.1 C8.3 360 12.7 353.8 17.1 347.7 C20.8 342.7 24.4 337.6 28 332.5 C32.7 325.9 37.4 319.3 42.1 312.7 C45.8 307.7 49.4 302.6 53 297.5 C59.8 287.8 66.7 278.3 73.6 268.7 C80 260 86.3 251.2 92.5 242.4 C96.6 236.5 100.9 230.6 105.1 224.7 C109.4 218.8 113.6 212.9 117.8 206.9 C120 203.8 122.2 200.7 124.6 197.7 C125.3 196.7 126 195.7 126.8 194.8 C127.5 193.9 128.1 193.1 128.8 192.3 C130.4 189.3 129.9 188.2 129 185 C127.9 183 127.9 183 126.5 181 C126 180.2 125.5 179.5 125 178.7 C124.4 177.9 123.8 177.1 123.2 176.3 C122.7 175.5 122.1 174.6 121.5 173.8 C117.1 167.5 112.6 161.3 108.1 155.1 C102.9 147.9 97.9 140.7 92.9 133.5 C87.4 125.6 82 117.8 76.4 110 C74 106.5 71.5 103 69 99.5 C66 95.3 63 91.1 60.1 86.9 C54.1 78.4 48.1 69.9 42.2 61.4 C37 54 31.7 46.5 26.5 39.1 C25 37 23.5 34.9 22 32.8 C21.5 32.1 21 31.4 20.5 30.6 C19.5 29.2 18.5 27.8 17.5 26.4 C14.9 22.7 12.3 19 9.6 15.3 C9.1 14.5 8.5 13.7 7.9 12.9 C6.9 11.4 5.8 9.9 4.7 8.4 C4.3 7.8 3.8 7.1 3.3 6.4 C2.9 5.8 2.5 5.2 2 4.6 C1 3 1 3 0 0 Z "/></svg><span>© 2026 VisionX · Todos os direitos reservados.</span></a>
+    </div>
+  </div>
+</footer>
+<!--/gerado:rodape-->
+
+<!--gerado:jsonld-->
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://visionxma.com/#organizacao","name":"VisionX","url":"https://visionxma.com/","sameAs":["https://www.instagram.com/visionx.dev/"]},{"@type":"WebSite","@id":"https://finagro.app/#site","url":"https://finagro.app/","name":"FINAGRO","inLanguage":"pt-BR","publisher":{"@id":"https://visionxma.com/#organizacao"}},{"@type":"SoftwareApplication","@id":"https://finagro.app/#app","name":"FINAGRO","url":"https://finagro.app/","description":"O FINAGRO é um aplicativo brasileiro de gestão rural, no celular e no computador, que reúne rebanho, lavoura, dinheiro e equipe da fazenda e é grátis até 1.000 animais com ficha.","applicationCategory":"BusinessApplication","applicationSubCategory":"Gestão rural","operatingSystem":"Android, navegador (iPhone, tablet e computador)","inLanguage":"pt-BR","image":"https://finagro.app/assets/og/finagro-og.png","screenshot":"https://finagro.app/assets/telas/inicio-824.webp","installUrl":"https://play.google.com/store/apps/details?id=com.raykkony.fblogin","downloadUrl":"https://play.google.com/store/apps/details?id=com.raykkony.fblogin","sameAs":["https://www.instagram.com/finagro.app/","https://play.google.com/store/apps/details?id=com.raykkony.fblogin"],"author":{"@id":"https://visionxma.com/#organizacao"},"publisher":{"@id":"https://visionxma.com/#organizacao"},"offers":[{"@type":"Offer","name":"Plano Campo","price":"0.00","priceCurrency":"BRL","description":"Até 3 fazendas, Até 5 pessoas, 1.000 animais com ficha","url":"https://finagro.app/#comecar","category":"grátis"}],"featureList":["Rebanho com ficha e lote","Vacinas e sanidade","Reprodução e parto previsto","Registro de GTA","Receitas, despesas e contas","Fluxo de caixa","Arquivo do LCDPR","Safras, talhões e caderno de campo","Área por GPS","Máquinas e estoque","Mão de obra e equipe","Cotação do boi (CONAB)","Simulador PRONAF","FINAGRO AI"]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"O FINAGRO é grátis mesmo?","acceptedAnswer":{"@type":"Answer","text":"É. O plano Campo é grátis para sempre e não pede cartão: até 3 fazendas, 5 pessoas e 1.000 animais com ficha, com lote de qualquer tamanho e todas as funções do app. Os planos pagos, de R$ 59,90 a R$ 299,90 por mês, são para quem precisa de mais fazendas, gente ou animais com ficha."}},{"@type":"Question","name":"Funciona sem internet no curral?","acceptedAnswer":{"@type":"Answer","text":"Para lançar, funciona. Sem sinal, o gasto, a venda ou a vacina ficam salvos no celular e sobem sozinhos quando a internet voltar, e o app avisa isso na hora. Para entrar pela primeira vez num aparelho e para ver o que a equipe lançou em outro celular, é preciso sinal."}},{"@type":"Question","name":"Serve para quem cria pouco? E para quem cria muito?","acceptedAnswer":{"@type":"Answer","text":"Serve dos dois lados. Você conta o que produz e quantos, e o painel se ajusta: o leiteiro com 12 vacas vê o leite do dia e a reprodução; a granja com 1 milhão de aves vê os galpões e o trato. Galpão, tanque, colmeia e lote de gado contam como um lote só, sem limite de cabeças."}},{"@type":"Question","name":"Tem para iPhone?","acceptedAnswer":{"@type":"Answer","text":"O aplicativo de celular está na Play Store para Android. No iPhone, no tablet e no computador, o FINAGRO funciona pelo navegador em app.finagro.app, com a mesma conta e os mesmos dados."}},{"@type":"Question","name":"O FINAGRO emite a GTA?","acceptedAnswer":{"@type":"Answer","text":"Não. A GTA (Guia de Trânsito Animal) é emitida no sistema da defesa agropecuária do seu estado. No FINAGRO você registra as GTAs emitidas, o app lembra 1 dia antes do vencimento e avisa quando falta anotar a vacina que trava a guia."}},{"@type":"Question","name":"O app gera o LCDPR?","acceptedAnswer":{"@type":"Answer","text":"Gera o arquivo do Livro Caixa Digital do Produtor Rural no leiaute da Receita Federal, com as receitas e despesas lançadas. O contador confere, completa os dados do contribuinte e das contas bancárias e valida no programa da Receita antes de entregar."}},{"@type":"Question","name":"Consigo trazer a planilha que já uso?","acceptedAnswer":{"@type":"Answer","text":"Consegue. O FINAGRO importa planilha do Excel (.xls ou .xlsx), então ninguém precisa redigitar o rebanho ou os lançamentos que já estão na planilha."}},{"@type":"Question","name":"Quantas pessoas podem usar a mesma fazenda?","acceptedAnswer":{"@type":"Answer","text":"No plano Campo, 5 pessoas, cada uma com o seu papel e as suas permissões. Para mais gente: Essencial (10), Profissional (30), Avançado (100) ou pessoa extra por R$ 14,90 por mês."}},{"@type":"Question","name":"Os meus dados ficam com quem?","acceptedAnswer":{"@type":"Answer","text":"Ficam com você, guardados na nuvem com a sua conta: trocou de celular, está tudo lá. As listas e os relatórios saem em PDF e planilha quando você quiser, e o tratamento dos dados está descrito na política de privacidade do FINAGRO."}},{"@type":"Question","name":"O que é o FINAGRO AI?","acceptedAnswer":{"@type":"Answer","text":"É o assistente do app para dúvidas de gestão rural, pecuária e agricultura. No plano Campo são 15 perguntas por dia, e a conta zera à meia-noite."}}]}]}</script>
+<!--/gerado:jsonld-->
+<script src="/script.js" defer></script>
 </body>
-
 </html>

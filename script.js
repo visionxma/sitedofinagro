@@ -1,91 +1,140 @@
-document.addEventListener('DOMContentLoaded', () => {
-    // Mobile Menu Logic
-    const mobileMenuBtn = document.getElementById('mobile-menu-btn');
-    const closeMenuBtn = document.getElementById('close-menu-btn');
-    const mobileMenuOverlay = document.getElementById('mobile-menu-overlay');
-    const mobileLinks = document.querySelectorAll('.mobile-link');
+/* FINAGRO — comportamento da página (sem dependência). Cada parte só age se o elemento existir: o mesmo arquivo serve
+   a página inicial e as páginas de conteúdo. */
+(function () {
+  'use strict';
+  var doc = document.documentElement;
+  var menosMovimento = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var economia = navigator.connection && (navigator.connection.saveData || /(^|-)2g$/.test(navigator.connection.effectiveType || ''));
 
-    function toggleMenu() {
-        const isOpen = mobileMenuOverlay.classList.contains('active');
-        if (isOpen) {
-            mobileMenuOverlay.classList.remove('active');
-            document.body.style.overflow = ''; // Restore scrolling
-        } else {
-            mobileMenuOverlay.classList.add('active');
-            document.body.style.overflow = 'hidden'; // Prevent background scrolling
-        }
-    }
-
-    if (mobileMenuBtn) {
-        mobileMenuBtn.addEventListener('click', toggleMenu);
-    }
-
-    if (closeMenuBtn) {
-        closeMenuBtn.addEventListener('click', toggleMenu);
-    }
-
-    // Close menu when clicking outside content
-    if (mobileMenuOverlay) {
-        mobileMenuOverlay.addEventListener('click', (e) => {
-            if (e.target === mobileMenuOverlay) {
-                toggleMenu();
-            }
-        });
-    }
-
-    // Close menu when clicking a link
-    mobileLinks.forEach(link => {
-        link.addEventListener('click', toggleMenu);
-    });
-
-    // Sticky Navbar with Scroll Effect
-    const navbar = document.getElementById('navbar');
-
-    window.addEventListener('scroll', () => {
-        if (window.scrollY > 50) {
-            navbar.classList.add('scrolled');
-        } else {
-            navbar.classList.remove('scrolled');
-        }
-    });
-
-    // Scroll Animations using IntersectionObserver
-    const observerOptions = {
-        root: null,
-        rootMargin: '0px',
-        threshold: 0.1
+  /* ---------- topo: estendido sobre a hero; cápsula flutuante a partir do primeiro movimento ---------- */
+  var topo = document.querySelector('.topo');
+  if (topo && !topo.classList.contains('topo--fixo')) {
+    var marcado = false;
+    var aoRolar = function () {
+      var y = window.scrollY || doc.scrollTop || 0;
+      var flutua = y > 8;
+      if (flutua !== marcado) { topo.classList.toggle('topo--flutua', flutua); marcado = flutua; }
     };
+    window.addEventListener('scroll', aoRolar, { passive: true });
+    aoRolar();
+  }
 
-    const observer = new IntersectionObserver((entries, observer) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('visible');
-                observer.unobserve(entry.target); // Only animate once
-            }
-        });
-    }, observerOptions);
-
-    const animatedElements = document.querySelectorAll('.fade-in-on-scroll');
-    animatedElements.forEach(el => observer.observe(el));
-
-    // Smooth Scrolling for Anchor Links (Polyfill-like behavior for Safari)
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-            e.preventDefault();
-            const targetId = this.getAttribute('href');
-            if (targetId === '#') return;
-
-            const targetElement = document.querySelector(targetId);
-            if (targetElement) {
-                const headerOffset = 80;
-                const elementPosition = targetElement.getBoundingClientRect().top;
-                const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
-
-                window.scrollTo({
-                    top: offsetPosition,
-                    behavior: 'smooth'
-                });
-            }
-        });
+  /* menu do celular */
+  var botaoMenu = document.querySelector('.topo__menu');
+  var painel = document.getElementById('topo-painel');
+  if (botaoMenu && painel) {
+    var fechar = function () { painel.hidden = true; botaoMenu.setAttribute('aria-expanded', 'false'); botaoMenu.setAttribute('aria-label', 'Abrir menu'); };
+    botaoMenu.addEventListener('click', function () {
+      var abrir = painel.hidden;
+      painel.hidden = !abrir;
+      botaoMenu.setAttribute('aria-expanded', String(abrir));
+      botaoMenu.setAttribute('aria-label', abrir ? 'Fechar menu' : 'Abrir menu');
+      if (abrir && topo) topo.classList.add('topo--flutua');
     });
-});
+    painel.addEventListener('click', function (e) { if (e.target.closest('a')) fechar(); });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') fechar(); });
+  }
+
+  /* seção à vista marcada no topo */
+  var linksTopo = [].slice.call(document.querySelectorAll('.topo__nav a[href^="/#"]'));
+  if (linksTopo.length && 'IntersectionObserver' in window) {
+    var porId = {};
+    linksTopo.forEach(function (a) { porId[a.getAttribute('href').slice(2)] = a; });
+    var obsSecao = new IntersectionObserver(function (entradas) {
+      entradas.forEach(function (en) {
+        var a = porId[en.target.id];
+        if (!a) return;
+        if (en.isIntersecting) {
+          linksTopo.forEach(function (l) { l.removeAttribute('aria-current'); });
+          a.setAttribute('aria-current', 'true');
+        } else if (a.getAttribute('aria-current')) a.removeAttribute('aria-current');
+      });
+    }, { rootMargin: '-45% 0px -50% 0px' });
+    Object.keys(porId).forEach(function (id) { var s = document.getElementById(id); if (s) obsSecao.observe(s); });
+  }
+
+  /* ---------- vídeos: a capa aparece na hora; o vídeo carrega depois da primeira pintura e entra por cima ---------- */
+  function ligarVideo(v, quando) {
+    if (!v || menosMovimento || economia) return;
+    var tocar = function () {
+      v.preload = 'auto';
+      var p = v.play();
+      if (p && p.catch) p.catch(function () {});
+    };
+    v.addEventListener('playing', function () { v.classList.add('toca'); }, { once: true });
+    quando(tocar);
+  }
+  var depoisDaPintura = function (fn) {
+    var ir = function () { (window.requestIdleCallback || setTimeout)(fn, { timeout: 1200 }); };
+    if (document.readyState === 'complete') ir(); else window.addEventListener('load', ir, { once: true });
+  };
+  var videoHeroi = document.querySelector('[data-video-heroi]');
+  ligarVideo(videoHeroi, depoisDaPintura);
+
+  /* o celular da hero: roda só enquanto está à vista, e começa depois do vídeo do fundo */
+  var videoCelular = document.querySelector('[data-video-celular]');
+  if (videoCelular && 'IntersectionObserver' in window) {
+    ligarVideo(videoCelular, function (tocar) {
+      depoisDaPintura(function () {
+        var comecou = false;
+        new IntersectionObserver(function (entradas) {
+          entradas.forEach(function (en) {
+            if (en.isIntersecting) { if (!comecou) { comecou = true; tocar(); } else videoCelular.play().catch(function () {}); }
+            else if (comecou) videoCelular.pause();
+          });
+        }, { threshold: 0.25 }).observe(videoCelular);
+      });
+    });
+  }
+  /* o vídeo do fundo pausa quando a hero sai da tela (economiza bateria e CPU) */
+  if (videoHeroi && 'IntersectionObserver' in window) {
+    new IntersectionObserver(function (entradas) {
+      entradas.forEach(function (en) {
+        if (!videoHeroi.classList.contains('toca')) return;
+        if (en.isIntersecting) videoHeroi.play().catch(function () {}); else videoHeroi.pause();
+      });
+    }, { threshold: 0 }).observe(videoHeroi.closest('.heroi') || videoHeroi);
+  }
+
+  /* ---------- revelar ao entrar na tela, com escalonamento entre irmãos ---------- */
+  var revelar = [].slice.call(document.querySelectorAll('.revelar'));
+  if (revelar.length && 'IntersectionObserver' in window) {
+    revelar.forEach(function (el) {
+      var irmaos = el.parentElement ? [].slice.call(el.parentElement.children).filter(function (c) { return c.classList.contains('revelar'); }) : [];
+      var i = irmaos.indexOf(el);
+      if (i > 0) el.style.setProperty('--atraso', Math.min(i, 6) * 70 + 'ms');
+    });
+    var obsRevelar = new IntersectionObserver(function (entradas) {
+      entradas.forEach(function (en) { if (en.isIntersecting) { en.target.classList.add('visivel'); obsRevelar.unobserve(en.target); } });
+    }, { rootMargin: '0px 0px -8% 0px', threshold: 0.08 });
+    revelar.forEach(function (el) { obsRevelar.observe(el); });
+  } else revelar.forEach(function (el) { el.classList.add('visivel'); });
+
+  /* ---------- a linha dos 4 passos se completa quando a seção entra ---------- */
+  var linha = document.querySelector('[data-linha]');
+  if (linha && 'IntersectionObserver' in window) {
+    var obsLinha = new IntersectionObserver(function (entradas) {
+      entradas.forEach(function (en) { if (en.isIntersecting) { linha.classList.add('ativo'); obsLinha.disconnect(); } });
+    }, { threshold: 0.4 });
+    obsLinha.observe(linha);
+  }
+
+  /* ---------- perguntas: abrir uma fecha a outra (reserva para navegador sem <details name>) e "ver mais" ---------- */
+  var faq = document.getElementById('faq');
+  if (faq) {
+    var itens = [].slice.call(faq.querySelectorAll('details'));
+    itens.forEach(function (d) {
+      d.addEventListener('toggle', function () {
+        if (!d.open) return;
+        itens.forEach(function (o) { if (o !== d && o.open) o.open = false; });
+      });
+    });
+    var mais = document.querySelector('[data-ver-mais="faq"]');
+    if (mais) mais.addEventListener('click', function () {
+      faq.classList.add('aberto');
+      mais.remove();
+      var primeiraExtra = faq.querySelector('details.extra');
+      if (primeiraExtra) primeiraExtra.querySelector('summary').focus({ preventScroll: true });
+    });
+  }
+})();
