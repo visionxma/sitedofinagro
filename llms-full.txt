@@ -39,7 +39,7 @@ Saiba quanto foi em ração, vacina e sal, e o que ainda está para pagar.
 Relatórios prontos
 Receitas e despesas, gasto por categoria e resultado por fazenda, em PDF ou planilha.
 Dados seguros
-Tudo fica salvo na nuvem com a sua conta. Troca de celular e está tudo lá.
+Tudo fica salvo na nuvem com a sua conta. Trocou de celular? Está tudo lá.
 Feito para o celular
 Sem sinal no pasto? O app salva na hora e avisa:
 Sem sinalDespesa ficou no aparelho e sobe quando o sinal voltar.
@@ -49,6 +49,10 @@ Rebanho na fichaBrinco, raça e peso de cada animal
 A fazenda sugereVacina que vence, estoque zerado
 Preço do boiCotação da semana pela CONAB
 Lotes e pesagensCabeças e peso de cada lote
+Rebanho
+Tarefas
+Cotação
+Lotes
 Resultados reais no bolso
 O que muda quando a fazenda cabe no celular.
 Mais lucro
@@ -59,13 +63,17 @@ Ganho de tempo
 O app lembra o que vence e o que fazer hoje. Menos papel, mais produção.
 Comece em 4 passos
 Simples assim, e grátis.
-1Baixe
+1
+Baixe
 Instale na Google Play ou abra no navegador.
-2Cadastre
+2
+Cadastre
 Entre com a conta Google e conte o que você produz.
-3Lance
+3
+Lance
 Gasto, venda, vacina e pesagem, na hora em que acontecem.
-4Lucre
+4
+Lucre
 Acompanhe o saldo e os relatórios do mês.
 Baixar grátis
 Feito para você
