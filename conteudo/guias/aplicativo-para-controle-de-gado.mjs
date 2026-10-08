@@ -43,7 +43,7 @@ export default {
     ] },
     { h2: 'Quanto custa', blocos: [
       { p: 'No FINAGRO, o plano Campo é grátis para sempre e não pede cartão. Entram até **3 fazendas**, **5 pessoas** e **1.000 animais com ficha**. Lote não tem limite de cabeças: o confinamento, o galpão de aves e o tanque de peixe contam como um lote só.' },
-      { p: 'Quem usa de graça ainda tem 30% de folga acima do limite, para o serviço não parar no meio do manejo. Os planos pagos vão de R$ 59,90 a R$ 299,90 por mês e servem para quem precisa de mais fazendas, mais gente ou mais animais com ficha.' },
+      { p: 'Os planos pagos começam em R$ 59,90 por mês e servem para quem precisa de mais fazendas, mais gente ou mais animais com ficha.' },
       { destaque: 'Não há demonstração para agendar nem vendedor para esperar. Você baixa, conta o que cria e começa a lançar no mesmo dia.' },
     ] },
     { h2: 'O que o FINAGRO não faz', blocos: [
@@ -58,7 +58,7 @@ export default {
     ] },
     { h2: 'Como começar hoje', blocos: [
       { ol: [
-        'Baixe o FINAGRO na Google Play ou abra app.finagro.app no navegador e entre com a sua conta Google.',
+        'Baixe o FINAGRO na [Google Play](https://play.google.com/store/apps/details?id=com.raykkony.fblogin) ou abra [app.finagro.app](https://app.finagro.app/) no navegador, e entre com a conta Google ou com e-mail e senha.',
         'Conte o que você cria e quantos. O painel se monta para gado de corte, leite, aves, suínos, peixes ou abelhas.',
         'Cadastre o primeiro lote ou importe a planilha que você já usa (no Excel, salve como CSV). A partir daí, cada pesagem e cada vacina entram em poucos toques.',
       ] },

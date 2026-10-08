@@ -4,7 +4,7 @@ export const provas = [
   { afirmacao: 'a gestação média no gado de corte é de 290 dias', trecho: 'A duração média da gestação é de 290 dias. O intervalo médio entre partos depende do sistema de exploração pecuária', url: 'https://cloud.cnpgc.embrapa.br/sac/2012/04/02/qual-e-a-duracao-da-gestacao-e-qual-o-intervalo-medio-entre-partos-em-gado-de-corte/' },
   { afirmacao: 'a gestação da vaca dura de 280 a 290 dias, com variação de raça e de sexo da cria', trecho: 'A duração média da gestação da vaca é de 280 a 290 dias, com variações entre raças e dependendo do sexo da cria', url: 'https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/942826/1/Reproducao.pdf' },
   { afirmacao: 'a gestação é mais longa em zebuínas, menor em raças europeias e intermediária nas mestiças', trecho: 'Geralmente, a gestação é mais longa em vacas zebuínas, menor em vacas de raças europeias, como a Holandês e a Jersey, e intermediária nas vacas mestiças', url: 'https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/942826/1/Reproducao.pdf' },
-  { afirmacao: 'em rebanho Gir leiteiro a gestação média foi de 286,8 dias', trecho: 'O período médio de gestação encontrado foi de 286,8 dias, com um desvio-padrão de 11,4', url: 'https://ainfo.cnptia.embrapa.br/digital/bitstream/item/198163/1/Duracao-da-gestacao-em-gado-zebu.pdf' },
+  { afirmacao: 'em rebanho zebu estudado pela Embrapa a gestação média foi de 286,8 dias', trecho: 'O período médio de gestação encontrado foi de 286,8 dias, com um desvio-padrão de 11,4', url: 'https://ainfo.cnptia.embrapa.br/digital/bitstream/item/198163/1/Duracao-da-gestacao-em-gado-zebu.pdf' },
   { afirmacao: 'a vaca de leite precisa de no mínimo 2 meses de descanso antes do parto', trecho: 'O mais importante é garantir o período de descanso mínimo de 2 meses antes do parto, para a recuperação da glândula mamária', url: 'https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/942826/1/Reproducao.pdf' },
   { afirmacao: 'período seco menor que 60 dias pode prejudicar a próxima lactação', trecho: 'Vacas com período seco menor que 60 dias podem não apresentar adequada recuperação da glândula mamária', url: 'https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/942826/1/Reproducao.pdf' },
   { afirmacao: 'a palpação retal vale a partir de 60 dias e a ultrassonografia a partir de 25 dias de gestação', trecho: 'Geralmente, é realizado a partir de 60 dias de gestação. Também é possível fazer o diagnóstico de gestação por ultrassonografia, a partir de 25 dias de gestação', url: 'https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/942826/1/Reproducao.pdf' },
@@ -42,7 +42,7 @@ export default {
       ultra: v.cobertura + 25,
       palpacao: v.cobertura + 60,
     }),
-    nota: 'Os 290 dias são a média do gado de corte segundo a Embrapa. Zebuíno tende a gestar mais dias e raça europeia menos: ajuste o campo se o seu rebanho tem a média própria. A secagem só vale para vaca de leite. O parto é uma previsão: pode vir alguns dias antes ou depois.',
+    nota: 'Os 290 dias são a média do gado de corte segundo a Embrapa. Zebuíno tende a gestar mais dias e raça europeia menos: ajuste o campo se o seu rebanho tem a média própria. A secagem só vale para vaca de leite. O parto é uma previsão: pode vir alguns dias antes ou depois. No aplicativo FINAGRO o parto previsto sai com 283 dias, dentro da mesma faixa.',
     exemplos: [
       { entrada: { cobertura: '2026-01-15', dias: 290, seca: 60 }, saida: { parto: '2026-11-01', secagem: '2026-09-02', ultra: '2026-02-09', palpacao: '2026-03-16' } },
       { entrada: { cobertura: '2026-11-01', dias: 286, seca: 60 }, saida: { parto: '2027-08-14', secagem: '2027-06-15', ultra: '2026-11-26', palpacao: '2026-12-31' } },
@@ -52,7 +52,7 @@ export default {
     { h2: 'Quantos dias dura a gestação da vaca', blocos: [
       { p: 'No gado de corte, a Embrapa Gado de Corte dá **290 dias** como duração média da gestação. É perto de nove meses e meio. A conta do parto é simples: data da cobertura mais 290 dias.' },
       { p: 'Não existe um número único para toda vaca. Segundo a Embrapa, a média da vaca fica entre **280 e 290 dias**, com variação de raça e do sexo da cria. A gestação costuma ser mais longa em zebuínas, mais curta em raças europeias, como a Holandesa e a Jersey, e intermediária nas mestiças.' },
-      { p: 'Em um rebanho Gir selecionado para leite, estudado pela Embrapa em 938 gestações, a média foi de 286,8 dias. Por isso a calculadora deixa o campo de dias aberto: use 290 como ponto de partida e troque pela média que o seu rebanho mostra com os partos anotados.' },
+      { p: 'Em um rebanho zebu estudado pela Embrapa, a média foi de 286,8 dias. Por isso a calculadora deixa o campo de dias aberto: use 290 como ponto de partida e troque pela média que o seu rebanho mostra com os partos anotados.' },
     ] },
     { h2: 'Como calcular a data do parto', blocos: [
       { ol: ['Anote o dia da cobertura ou da inseminação. Na inseminação em tempo fixo, vale o dia em que a vaca foi inseminada.', 'Some os dias de gestação, 290 para gado de corte.', 'Marque o resultado no calendário e deixe uma folga de uma semana para cada lado.'] },

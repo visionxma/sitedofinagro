@@ -398,8 +398,8 @@ Endereço: https://finagro.app/guias
 FINAGRO
 Guias
 Guias, calculadoras e modelos para tocar a fazenda
-45 páginas gratuitas, com a conta feita na hora e a fonte oficial de cada regra. Sem cadastro para ler, calcular ou baixar.
-45páginas
+48 páginas gratuitas, com a conta feita na hora e a fonte oficial de cada regra. Sem cadastro para ler, calcular ou baixar.
+48páginas
 13calculadoras
 8modelos e planilhas
 Escolher um aplicativoGado de corteLeiteLavouraDinheiro e impostoTerra e documentosOutras criações
@@ -416,15 +416,18 @@ CalculadoraCalculadora de GMDO ganho médio diário e as arrobas do período.
 GuiaGTAO que é a guia e o que trava a emissão.
 CalculadoraCalculadora de arrobaPeso vivo em arrobas e o valor do boi, na hora.
 CalculadoraCalculadora de gestaçãoData do parto da vaca pela cobertura ou IA.
+GuiaVacinação bovinaO que é obrigatório e o que é recomendação.
 GuiaComo emitir GTAPasso a passo e o sistema de cada estado.
 Modelo prontoContrato e recibo de gadoContrato de compra e venda de gado e recibo, prontos.
 GuiaCria, recria e engordaEntenda as fases e o registro que cada uma pede.
+GuiaDeclaração de rebanhoPrazo de 2026 por estado e como declarar.
 GuiaEscore corporal bovinoNotas de 1 a 5 e de 1 a 9 e quando avaliar.
 GuiaEstação de montaComo planejar a monta e concentrar os partos.
 Modelo prontoFicha de controle de gadoFicha individual do animal, pronta para imprimir.
 CalculadoraÍndices zootécnicosPrenhez, natalidade, desmama e desfrute.
 GuiaPeso do boi pela fitaMeça o tórax e estime o peso sem balança.
 PlanilhaPlanilha de controle de gadoPlanilha grátis para baixar, em Excel e CSV.
+GuiaRastreabilidade bovinaSISBOV, PNIB e o que muda a partir de 2027.
 CalculadoraRendimento de carcaçaPeso vivo e carcaça viram rendimento e arrobas.
 CalculadoraTaxa de lotaçãoConverta cabeças e peso em UA por hectare.
 Leite
@@ -480,6 +483,7 @@ GuiaEscolher um aplicativo
 Aplicativo para controle de gado: o que ele precisa fazer no curral
 Qual aplicativo usar para controlar o gado de graça?
 O FINAGRO é um aplicativo de controle de gado grátis até 1.000 animais com ficha, sem cartão, com lote sem limite de cabeças. Ele guarda brinco, peso, vacina e reprodução de cada animal, avisa o que vence e funciona no celular Android e no navegador. Sem sinal no curral, o lançamento fica salvo e sobe depois.
+Começar grátisBaixar no Android
 Atualizado em 08/10/2026
 Sete coisas para conferir antes de baixar qualquer um
 Aplicativo de gado se julga no curral, com o brete cheio e o celular numa mão só. Antes de cadastrar o primeiro animal, confira:
@@ -508,7 +512,7 @@ Reprodução com parto previsto e desmame, direto da ficha.
 GTA registrada com lembrete 1 dia antes do vencimento, e a tela O que vence com as vacinas e declarações do seu estado.
 Quanto custa
 No FINAGRO, o plano Campo é grátis para sempre e não pede cartão. Entram até 3 fazendas, 5 pessoas e 1.000 animais com ficha. Lote não tem limite de cabeças: o confinamento, o galpão de aves e o tanque de peixe contam como um lote só.
-Quem usa de graça ainda tem 30% de folga acima do limite, para o serviço não parar no meio do manejo. Os planos pagos vão de R$ 59,90 a R$ 299,90 por mês e servem para quem precisa de mais fazendas, mais gente ou mais animais com ficha.
+Os planos pagos começam em R$ 59,90 por mês e servem para quem precisa de mais fazendas, mais gente ou mais animais com ficha.
 Não há demonstração para agendar nem vendedor para esperar. Você baixa, conta o que cria e começa a lançar no mesmo dia.
 O que o FINAGRO não faz
 Melhor saber antes de baixar:
@@ -518,7 +522,7 @@ Não é coleira nem rastreador: mostra o que foi lançado, não onde o animal es
 Não tem aplicativo na loja da Apple. No iPhone, no tablet e no computador, ele abre pelo navegador com a mesma conta.
 Se o seu curral trabalha com balança ligada ao sistema, ou se a fazenda precisa de certificação de rastreabilidade para exportar, procure um sistema feito para isso. Para organizar rebanho, lida e dinheiro no celular, o FINAGRO resolve.
 Como começar hoje
-Baixe o FINAGRO na Google Play ou abra app.finagro.app no navegador e entre com a sua conta Google.
+Baixe o FINAGRO na Google Play ou abra app.finagro.app no navegador, e entre com a conta Google ou com e-mail e senha.
 Conte o que você cria e quantos. O painel se monta para gado de corte, leite, aves, suínos, peixes ou abelhas.
 Cadastre o primeiro lote ou importe a planilha que você já usa (no Excel, salve como CSV). A partir daí, cada pesagem e cada vacina entram em poucos toques.
 Seu rebanho no celular ainda hoje, sem agendar demonstração.
@@ -564,14 +568,15 @@ Melhores apps de gestão
 ComparativoEscolher um aplicativo
 Melhores aplicativos de gestão rural: seis opções comparadas com fonte
 Qual é o melhor aplicativo de gestão rural?
-Depende do que a fazenda precisa. O FINAGRO é grátis para sempre até 1.000 animais com ficha e junta rebanho, lavoura e dinheiro. O Aegro emite nota fiscal de produtor. JetBov e Leigado trabalham com balança e brinco eletrônico. O iRancho é voltado ao gado de corte. Veja abaixo o que cada site publica.
+Depende do que a fazenda precisa. O FINAGRO é grátis para sempre até 1.000 animais com ficha e junta rebanho, lavoura e dinheiro. O Aegro emite nota fiscal de produtor. O JetBov trabalha com balança eletrônica e o Leigado, com leitor de brinco. O iRancho é voltado ao gado de corte. Veja abaixo o que cada site publica.
+Começar grátisBaixar no Android
 Atualizado em 08/10/2026
 Como esta comparação foi feita
 O FINAGRO é nosso, então a régua tem de ser clara. De cada concorrente entrou só o que o site oficial dele publicava em 8 de outubro de 2026, e o endereço de cada informação está nas fontes, no fim da página. O que o site não mostra aparece como "sob consulta".
 Nenhuma nota, nenhum "o melhor do mercado". A tabela mostra o que dá para conferir sozinho, e a seção seguinte diz em que cada um ganha, inclusive do FINAGRO.
 A comparação lado a lado
 AplicativoPreço publicadoGrátis ou testeOnde é mais forte
-FINAGROGrátis; pagos de R$ 59,90 a R$ 299,90 por mêsPlano grátis para sempre, sem cartãoGado, lavoura, outras criações e dinheiro num app só
+FINAGROGrátis; pagos a partir de R$ 59,90 por mêsPlano grátis para sempre, sem cartãoGado, lavoura, outras criações e dinheiro num app só
 AegroTem plano gratuitoPlano gratuitoFinanceiro por hectare e por cabeça, e nota fiscal do produtor
 LeigadoR$ 149,90 por mês (corte, 300 animais), mais R$ 340 de licença e R$ 340 de implantaçãoTeste de 15 diasLeite e corte, com leitor de brinco eletrônico
 JetBovSob consultaDemonstraçãoPecuária com balança eletrônica e identificação por radiofrequência
@@ -579,8 +584,8 @@ iRanchoSob consultaTeste depois do cadastroCria, recria e engorda de corte, com 
 IdeagriSob consultaTeste de 30 diasPecuária, com plano por animais ativos e por acessos
 Dados dos sites oficiais em 08/10/2026. Preços e condições mudam: confirme no site de cada um.
 Em que cada um ganha
-Precisa emitir nota fiscal de produtor no próprio sistema? O Aegro emite NF-e e MDF-e ligado à SEFAZ e diz que isso funciona até no plano gratuito. O FINAGRO não emite nota.
-O curral pesa com balança eletrônica e brinco com chip? JetBov e Leigado trabalham com esses equipamentos. No FINAGRO o peso é digitado.
+Precisa emitir nota fiscal de produtor no próprio sistema? O Aegro emite a nota fiscal eletrônica do produtor (NF-e) e o manifesto de carga (MDF-e) ligado à Secretaria da Fazenda, e diz que isso funciona até no plano gratuito. O FINAGRO não emite nota.
+O curral pesa com balança eletrônica e brinco com chip? O JetBov informa automação com balança eletrônica e identificação por radiofrequência; o Leigado, leitura de brinco eletrônico com bastão. No FINAGRO o peso é digitado.
 A fazenda é de leite e a equipe usa iPhone? O Leigado tem aplicativo para Android e iOS. O FINAGRO tem aplicativo para Android; no iPhone abre pelo navegador.
 Confinamento grande de corte? O iRancho tem módulo próprio de confinamento.
 Quer começar hoje, sem falar com vendedor e sem pagar? O FINAGRO é grátis para sempre até 3 fazendas, 5 pessoas e 1.000 animais com ficha, com lote sem limite de cabeças.
@@ -590,6 +595,12 @@ Até 3 fazendas, 5 pessoas e 1.000 animais com ficha, com lote sem limite de cab
 Rebanho (ficha, pesagem, vacina, reprodução, registro de GTA), lavoura (safra, talhão, caderno de campo) e dinheiro (receitas, despesas, contas e fluxo de caixa).
 Lançamento sem sinal no celular Android, e a mesma conta no navegador do computador.
 Relatórios em PDF e em planilha, para os dados serem seus.
+Quantas pessoas podem lançar
+Fazenda não é tocada por uma pessoa só, e é aqui que a conta do sistema costuma crescer sem aviso. O que cada site informa:
+FINAGRO: 5 pessoas no plano grátis, cada uma com o seu papel e a sua permissão. Pessoa extra custa R$ 14,90 por mês.
+Leigado: informa que os usuários são ilimitados, sem custo adicional.
+Ideagri: informa que o valor do plano muda conforme a atividade, os animais ativos e a quantidade de acessos para lançar dados.
+Nos sistemas que vendem por orçamento, pergunte quantos acessos entram no preço e quanto custa cada pessoa a mais, antes de cadastrar a equipe.
 O que perguntar antes de escolher
 Quanto custa por mês para o meu número de animais ou de hectares? Há licença ou implantação?
 O que acontece quando o teste acaba: o acesso é bloqueado? Os dados ficam?
@@ -605,7 +616,7 @@ Perguntas sobre aplicativos de gestão rural
 Qual aplicativo de gestão rural é gratuito?
 O FINAGRO tem plano grátis para sempre, sem cartão, até 3 fazendas, 5 pessoas e 1.000 animais com ficha. O Aegro informa no site que também tem plano gratuito. Leigado e Ideagri oferecem teste por tempo limitado.
 Qual aplicativo emite nota fiscal de produtor rural?
-Entre os comparados, o Aegro informa que emite NF-e e MDF-e ligado à SEFAZ. O FINAGRO não emite nota fiscal: ele registra a venda e o que há para receber.
+Entre os comparados, o Aegro informa que emite a nota fiscal eletrônica do produtor ligada à Secretaria da Fazenda. O FINAGRO não emite nota fiscal: ele registra a venda e o que há para receber.
 Qual funciona sem internet no curral?
 FINAGRO, JetBov, iRancho e Leigado informam que o aplicativo registra sem internet e sincroniza depois. Confirme com cada um quais telas funcionam sem sinal.
 Por que alguns não mostram o preço?
@@ -626,6 +637,7 @@ Como esta comparação foi feita
 A comparação lado a lado
 Em que cada um ganha
 O que o FINAGRO entrega de graça
+Quantas pessoas podem lançar
 O que perguntar antes de escolher
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
@@ -648,13 +660,14 @@ GuiaEscolher um aplicativo
 O que é o FINAGRO, o aplicativo de gestão rural
 O que é o FINAGRO?
 O FINAGRO é um aplicativo brasileiro de gestão rural, feito pela VisionX, que reúne rebanho, lavoura, dinheiro e equipe da fazenda no celular Android e no navegador. É grátis para sempre até 3 fazendas, 5 pessoas e 1.000 animais com ficha, sem cartão. Não tem relação com o Finagro da Colômbia, que é um fundo de crédito.
+Começar grátisBaixar no Android
 Atualizado em 08/10/2026
 Ficha rápida
 ItemFINAGRO
 O que éAplicativo de gestão rural para fazenda, sítio e granja
 Quem fazVisionX, desenvolvedora brasileira de software
 Onde funcionaCelular Android (Google Play) e navegador, em app.finagro.app
-PreçoPlano Campo grátis para sempre; pagos de R$ 59,90 a R$ 299,90 por mês
+PreçoPlano Campo grátis para sempre; pagos a partir de R$ 59,90 por mês
 Limite do grátis3 fazendas, 5 pessoas, 1.000 animais com ficha, lote sem limite
 IdiomaPortuguês do Brasil
 Sitefinagro.app
@@ -667,7 +680,7 @@ Apoio: cotação do boi gordo publicada pela CONAB, notícias, simulador de cré
 O painel se monta pelo que o produtor cria: gado de corte, leite, aves, suínos, peixes, abelhas, horta ou grãos. O lançamento feito sem sinal fica salvo no celular e sobe quando a internet volta.
 O FINAGRO em números
 R$ 0 no plano Campo, para sempre e sem cartão.
-3 fazendas, 5 pessoas e 1.000 animais com ficha no plano grátis, com 30% de folga.
+3 fazendas, 5 pessoas e 1.000 animais com ficha no plano grátis.
 Lote sem limite de cabeças em todos os planos: galpão, tanque e colmeia contam como lote.
 100 áreas medidas pelo GPS e 15 perguntas por dia ao FINAGRO AI no plano grátis.
 O que o FINAGRO não é
@@ -679,13 +692,13 @@ Não se liga a balança, leitor de brinco, coleira ou sensor. O que aparece no a
 Não tem aplicativo na loja da Apple. No iPhone, abre pelo navegador com a mesma conta.
 Quanto custa
 O plano Campo é grátis para sempre e não pede cartão: até 3 fazendas, 5 pessoas, 1.000 animais com ficha, 100 áreas medidas no GPS, 15 perguntas por dia ao FINAGRO AI e todas as funções do app. Lote não tem limite de cabeças em nenhum plano.
-Os planos pagos vão de R$ 59,90 a R$ 299,90 por mês, com 14 dias para testar, e aumentam o número de fazendas, de pessoas e de animais com ficha. Quem usa de graça tem 30% de folga acima do limite, para o serviço não parar.
+Os planos pagos vão de R$ 59,90 a R$ 299,90 por mês e aumentam o número de fazendas, de pessoas e de animais com ficha. Para grupos, cooperativas e consultorias há o plano Empresarial, a partir de R$ 699 por mês.
 Para quem é e para quem não é
 É para o produtor que quer sair do caderno e da planilha e ter rebanho, lavoura e caixa no celular, do sítio com poucas vacas de leite à fazenda de corte com vários lotes, e para quem cria mais de uma coisa na mesma propriedade.
 Não é a melhor escolha para a fazenda que precisa de balança eletrônica ligada ao sistema, de certificação de rastreabilidade ou de emissão de nota dentro do aplicativo. A comparação entre aplicativos de gestão rural mostra quem faz cada uma dessas coisas.
 Como começar
 Baixe o FINAGRO na Google Play ou abra app.finagro.app no navegador.
-Entre com a sua conta Google e cadastre a fazenda.
+Entre com a conta Google ou com e-mail e senha e cadastre a fazenda.
 Conte o que você cria e planta, e lance o primeiro lote, a primeira despesa ou importe a planilha que você já usa, salva como CSV.
 Conheça o FINAGRO usando: é grátis e não pede cartão.
 Até 3 fazendas, 5 pessoas e 1.000 animais com ficha no plano Campo.
@@ -734,6 +747,7 @@ GuiaEscolher um aplicativo
 Software de gestão rural: o que um sistema para fazenda tem de entregar
 Qual software de gestão rural usar na fazenda?
 Um software de gestão rural precisa juntar rebanho, lavoura, dinheiro, estoque, máquinas e equipe na mesma conta, no celular e no computador. O FINAGRO faz isso e é grátis até 3 fazendas, 5 pessoas e 1.000 animais com ficha, sem cartão. Antes de contratar qualquer sistema, peça o preço por escrito e teste a saída dos dados.
+Começar grátisBaixar no Android
 Atualizado em 08/10/2026
 O que o sistema tem de cobrir
 Sistema que cuida só do gado deixa o dinheiro na planilha. Sistema que cuida só do dinheiro não sabe quantas cabeças tem no pasto. Na fazenda, as seis áreas abaixo conversam o tempo todo:
@@ -751,10 +765,10 @@ Aplicativo com versão para computador: lança no celular, no pasto, e confere n
 O que não pode acontecer é o dado ser anotado numa caderneta para alguém digitar depois. Cada vez que um número é passado a limpo, uma parte se perde.
 Sete perguntas para fazer antes de contratar
 Pergunte ao fornecedorNo FINAGRO
-O preço está publicado no site?Está. O plano Campo é grátis e os pagos vão de R$ 59,90 a R$ 299,90 por mês
+O preço está publicado no site?Está. O plano Campo é grátis e os pagos começam em R$ 59,90 por mês
 Cobra por animal, por hectare ou por pessoa?O plano define o número de fazendas, de pessoas e de animais com ficha. Lote não tem limite
 Tem taxa de implantação?Não tem. Você mesmo entra e começa
-O que acontece no fim do teste?O plano Campo não vence. Os pagos têm 14 dias para testar
+O que acontece no fim do teste?O plano Campo não tem data para acabar: o acesso continua
 Lança sem sinal?Lança. O registro fica no aparelho e sobe quando a internet volta
 Quantas pessoas entram?5 no plano grátis, cada uma com papel e permissão
 Consigo tirar meus dados?Listas e relatórios saem em PDF e em planilha
@@ -773,7 +787,7 @@ Balança eletrônica, leitor de brinco e sensores ligados ao sistema.
 Imagem de satélite da lavoura e telemetria de máquinas.
 Nesses casos, procure um sistema especializado nessa parte. Muita fazenda usa os dois: o especializado para a nota ou para a balança, e o FINAGRO para o rebanho, a lida e o caixa do dia a dia.
 Do curral ao escritório com a mesma conta
-Abra app.finagro.app no computador ou baixe o aplicativo na Google Play, e entre com a conta Google.
+Abra app.finagro.app no computador ou baixe o aplicativo na Google Play, e entre com a conta Google ou com e-mail e senha.
 Cadastre a fazenda e conte o que ela produz. O painel se monta para o que você cria e planta.
 Importe a planilha com o rebanho, as despesas ou as receitas que você já tem. No Excel, salve como CSV antes de enviar.
 Convide a equipe e escolha o papel de cada pessoa. Quem está no curral lança; quem está na sede confere.
@@ -922,11 +936,11 @@ Data da cobertura ou da IADias de gestaçãoDias de secagem antes do parto
 26/05/2027secar a vaca de leite em
 02/11/2026ultrassom a partir de
 07/12/2026palpação a partir de
-Os 290 dias são a média do gado de corte segundo a Embrapa. Zebuíno tende a gestar mais dias e raça europeia menos: ajuste o campo se o seu rebanho tem a média própria. A secagem só vale para vaca de leite. O parto é uma previsão: pode vir alguns dias antes ou depois.
+Os 290 dias são a média do gado de corte segundo a Embrapa. Zebuíno tende a gestar mais dias e raça europeia menos: ajuste o campo se o seu rebanho tem a média própria. A secagem só vale para vaca de leite. O parto é uma previsão: pode vir alguns dias antes ou depois. No aplicativo FINAGRO o parto previsto sai com 283 dias, dentro da mesma faixa.
 Quantos dias dura a gestação da vaca
 No gado de corte, a Embrapa Gado de Corte dá 290 dias como duração média da gestação. É perto de nove meses e meio. A conta do parto é simples: data da cobertura mais 290 dias.
 Não existe um número único para toda vaca. Segundo a Embrapa, a média da vaca fica entre 280 e 290 dias, com variação de raça e do sexo da cria. A gestação costuma ser mais longa em zebuínas, mais curta em raças europeias, como a Holandesa e a Jersey, e intermediária nas mestiças.
-Em um rebanho Gir selecionado para leite, estudado pela Embrapa em 938 gestações, a média foi de 286,8 dias. Por isso a calculadora deixa o campo de dias aberto: use 290 como ponto de partida e troque pela média que o seu rebanho mostra com os partos anotados.
+Em um rebanho zebu estudado pela Embrapa, a média foi de 286,8 dias. Por isso a calculadora deixa o campo de dias aberto: use 290 como ponto de partida e troque pela média que o seu rebanho mostra com os partos anotados.
 Como calcular a data do parto
 Anote o dia da cobertura ou da inseminação. Na inseminação em tempo fixo, vale o dia em que a vaca foi inseminada.
 Some os dias de gestação, 290 para gado de corte.
@@ -1089,7 +1103,7 @@ AGED (MA), emissão de GTA ou e-GTA
 Cidasc (SC), SIGEN+
 Governo de Rondônia, GTA online da Idaron
 Veja também
-GTATodos os guias
+GTADeclaração de rebanhoVacinação bovinaTodos os guias
 Nesta página
 O que precisa estar em dia antes de abrir o sistema
 Passo a passo para emitir a GTA online
@@ -1306,6 +1320,120 @@ Recria: acompanhar crescimento depois da desmama
 Engorda: medir a terminação até a saída
 Um registro que atravessa as três fases
 As fases do rebanho no FINAGRO
+Perguntas frequentes
+FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
+Grátis até 1.000 animais com ficha
+Lote sem limite de cabeças
+Sem cartão
+Começar grátisBaixar para Android
+
+
+---
+
+## Declaração de rebanho 2026: prazo por estado e como fazer
+Endereço: https://finagro.app/declaracao-de-rebanho
+
+
+FINAGRO
+Guias
+Declaração de rebanho
+GuiaGado de corte
+Declaração de rebanho 2026: quem declara, quando e onde, estado por estado
+Quando é a declaração de rebanho em 2026?
+A declaração de rebanho é obrigatória e o prazo é de cada estado. Goiás, Mato Grosso do Sul e Rio de Janeiro têm etapas em maio e novembro. Paraná e Minas Gerais, de maio a junho. No Acre, de 1º de outubro a 30 de novembro. Sem declarar, o estado pode travar a emissão da GTA.
+Atualizado em 08/10/2026
+O que é a declaração de rebanho e por que existe
+É a informação que o produtor passa à defesa agropecuária do estado sobre quantos animais tem na propriedade, por espécie e categoria. Cada estado dá um nome: declaração de rebanho, atualização cadastral, atualização do estoque ou declaração semestral. É tudo a mesma obrigação.
+Ela ficou mais importante depois que o país parou de vacinar contra a febre aftosa. A Portaria nº 574, de 2023, do Ministério da Agricultura suspendeu a vacinação, e a estratégia do programa nacional passou a ser manter zonas livres da doença sem vacina. O Piauí diz na própria portaria que a atualização cadastral dos rebanhos ajuda a manter o status de livre de aftosa sem vacinação. O Espírito Santo resume: as campanhas de atualização cadastral são obrigatórias em todos os estados que suspenderam a vacinação.
+A declaração também decide se a GTA sai: no Paraná, a guia só é emitida depois da atualização de todas as espécies da propriedade. Veja em como emitir GTA o caminho completo.
+Quem precisa declarar e o que informar
+Quem tem animal de produção, de qualquer espécie, declara. No Paraná, a regra vale para todos os produtores com animais sob sua guarda. Em São Paulo, a declaração cabe ao proprietário ou a quem detém os animais a qualquer título, e vale mesmo quando o número não mudou.
+O total de animais existentes, por espécie, sexo e faixa etária (Pernambuco pede também os nascidos e mortos depois da última campanha).
+Em Mato Grosso do Sul, nascimento, mortalidade, consumo e mudança de idade entram na mesma declaração.
+CPF ou CNPJ do produtor e dados da propriedade, com a localização.
+Por isso o rebanho precisa estar contado antes de abrir o sistema. Quem mantém a ficha de cada animal e o lote em dia chega à declaração com o número pronto.
+Prazos por estado e onde declarar
+O período muda de estado para estado e muda de ano para ano, porque os órgãos prorrogam. Esta tabela traz só o que está publicado na página ou na norma oficial do órgão. Estado que não aparece aqui não teve data oficial conferida: veja no site da defesa do seu estado.
+EstadoPeríodoOnde declarar
+Acre1º de outubro a 30 de novembroIdaf
+AlagoasMaio e novembroAdeal, sede ou escritórios
+Distrito Federal1º de maio a 15 de junhoSistema online do órgão ou Diretoria de Sanidade
+Espírito Santo1º de maio a 30 de junho de 2026Siapec (Idaf)
+Goiás2026: 1º a 31 de maio e 1º a 30 de novembroSidago (Agrodefesa)
+Mato Grosso2026: 1º de maio a 10 de junhoMódulo do Produtor (Indea) ou unidade local
+Mato Grosso do Sul1º a 31 de maio e 1º a 30 de novembroe-SANIAGRO (Iagro)
+Minas Gerais1º de maio a 30 de junhoPortal de Serviços do Produtor (IMA)
+ParáA partir de 15 de junho até 31 de julhoSIGEAGRO (Adepará)
+Paraná1º de maio a 30 de junhoAdapar
+PernambucoMaio e novembroAdagro
+Piauí2026: prorrogada até 31 de julhoAdapi
+Rio de Janeiro1º a 31 de maio e 1º a 30 de novembroSIAPEC ou Núcleo de Defesa
+Rio Grande do Sul2026: prorrogada até 10 de julhoSDA Produtor Online
+Roraima2026: 1º a 30 de abrilAderr
+São PauloEtapas de maio e de novembro (Resolução SAA 28/2024)GEDAVE (Defesa Agropecuária)
+Onde a linha traz 2026, a página oficial cita o ano. Nas demais, vale a regra publicada pelo órgão, que pode ser prorrogada ou antecipada. Conferido nos sites oficiais em 08/10/2026.
+Ficaram fora da tabela, por falta de página oficial com data que abrisse para conferência: Amazonas, Amapá, Bahia, Ceará, Maranhão, Paraíba, Rio Grande do Norte, Rondônia, Santa Catarina, Sergipe e Tocantins. Em Sergipe a declaração é feita pela Emdagro, por formulário, WhatsApp ou e-mail. Nos outros, consulte o órgão do seu estado.
+Em São Paulo a Coordenadoria de Defesa Agropecuária pode prorrogar ou antecipar a campanha, então vale confirmar a data da etapa no GEDAVE.
+Passo a passo para declarar online
+Conte os animais por espécie, sexo e faixa etária e some os nascimentos e as mortes desde a última declaração.
+Tenha em mãos o CPF ou CNPJ e os dados da propriedade.
+Entre no sistema do seu estado (veja a tabela) com o login do produtor. Quem ainda não tem acesso procura primeiro a unidade local da defesa.
+Informe o total de animais de cada espécie, mesmo que nada tenha mudado.
+Confira os números antes de enviar e guarde o comprovante da declaração.
+Se o estado cobra taxa ou emite guia de pagamento, pague dentro do prazo.
+Sem internet, os órgãos aceitam a declaração presencial: no Distrito Federal, na Diretoria de Sanidade Agropecuária; em Alagoas, na sede e nos escritórios da Adeal; em Mato Grosso, em qualquer unidade do Indea.
+O que acontece com quem não declara
+GTA travada. No Paraná, a guia só sai depois da atualização de todas as espécies da propriedade. No Acre e no Pará, o órgão cita restrição de serviços, como a emissão de GTA.
+Multa e taxa. O Acre fala em multas. Em São Paulo, quem não declara no prazo recebe a cobrança de uma taxa (DARE), calculada pelos bovinos e bubalinos que constam no sistema.
+Cadastro bloqueado. No Piauí, a página do órgão prevê bloqueio do cadastro para quem não atualiza.
+Prazo, valor e punição são do seu estado e mudam. Este texto é informativo e não substitui o veterinário nem a defesa agropecuária: confirme a data no órgão antes de contar com ela. O FINAGRO não envia a declaração a ninguém.
+A declaração e o FINAGRO
+O app não transmite a declaração: ela é entregue no sistema da defesa do seu estado.
+Cada animal tem ficha, e o lote guarda as cabeças, então você chega à declaração com o número do rebanho pronto.
+A tela "O que vence" lista a declaração de rebanho do estado do produtor, com o prazo, e abre a página oficial do órgão.
+Ao marcar "Já fiz", o aviso daquela etapa some, e o app pode avisar no celular 7 dias antes e na véspera.
+Rebanho contado, prazo à vista e aviso antes de vencer.
+Grátis até 1.000 animais com ficha, sem cartão.
+Começar grátis
+Perguntas sobre declaração de rebanho
+Declaração de rebanho é a mesma coisa que atualização cadastral?
+Na prática, sim. Cada estado usa um nome: declaração de rebanho, atualização cadastral, atualização do estoque ou declaração semestral. Em todos, o produtor informa à defesa agropecuária quantos animais tem.
+Preciso declarar se não vendi nem comprei nenhum animal?
+Sim. Em São Paulo, por exemplo, a atualização deve ser feita mesmo que não tenha havido mudança no número de animais.
+Quem não faz a declaração de rebanho pode emitir GTA?
+Em vários estados, não. No Paraná a guia só sai depois da atualização de todas as espécies, e em Mato Grosso, Piauí e São Paulo a falta de declaração leva a restrição.
+Posso declarar pelo celular?
+Onde o sistema do estado abre no navegador, sim. A tabela mostra o sistema de cada estado. Quem não consegue pela internet pode ir à unidade local da defesa.
+Perdi o prazo da declaração de rebanho, e agora?
+Procure a unidade local da defesa do seu estado o quanto antes. Em alguns estados, como São Paulo, o órgão notifica e dá prazo para declarar depois da cobrança da taxa, mas a regra muda de um estado para outro.
+Fontes
+Idaf (ES), atualização cadastral de rebanho
+Ministério da Agricultura, Programa Nacional de Vigilância para Febre Aftosa
+Iagro (MS), prazo de atualização cadastral e declaração de rebanhos
+Defesa Agropecuária de São Paulo, Resolução SAA 28/2024
+Defesa Agropecuária de São Paulo, Resolução SAA 27/2026
+Agência Goiás, declaração de rebanho 2026
+Governo de Minas Gerais, atualizar dados de rebanhos
+Indea-MT, campanha de atualização de estoque de rebanho
+Adapar (PR), atualizar o cadastro do rebanho
+Secretaria da Agricultura do RS, declaração anual de rebanho
+Governo do Rio de Janeiro, cadastro do rebanho
+Adapi (PI), Portaria nº 57/2026
+Governo de Roraima, campanha de atualização cadastral 2026
+Sinj-DF, Portaria SEAGRI nº 85/2025
+Idaf (AC), declaração anual de rebanho
+Alagoas Digital, declaração de atualização cadastral dos produtores
+Adagro (PE), campanha de atualização cadastral 2026
+Adepará (PA), campanha de atualização cadastral
+Veja também
+Como emitir GTAVacinação bovinaControle de rebanhoTodos os guias
+Nesta página
+O que é a declaração de rebanho e por que existe
+Quem precisa declarar e o que informar
+Prazos por estado e onde declarar
+Passo a passo para declarar online
+O que acontece com quem não declara
+A declaração e o FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
 Grátis até 1.000 animais com ficha
@@ -1568,7 +1696,7 @@ Fontes
 Embrapa Gado de Corte, fichas para controle zootécnico de bovinos de corte
 Embrapa Gado de Leite, controle reprodutivo e escrituração zootécnica
 Veja também
-Planilha de controle de gadoCalculadora de gestaçãoTodos os guias
+Planilha de controle de gadoCalculadora de gestaçãoVacinação bovinaTodos os guias
 Nesta página
 Ficha individual de bovino para imprimir
 Como preencher cada parte da ficha
@@ -1857,6 +1985,90 @@ Começar grátisBaixar para Android
 
 ---
 
+## Rastreabilidade bovina: SISBOV, PNIB e o cronograma
+Endereço: https://finagro.app/rastreabilidade-bovina
+
+
+FINAGRO
+Guias
+Rastreabilidade bovina
+GuiaGado de corte
+Rastreabilidade bovina: SISBOV, PNIB e o que o produtor precisa fazer
+O que é rastreabilidade bovina e quando o brinco passa a ser obrigatório?
+Rastreabilidade bovina é identificar cada animal e registrar sua trajetória. O SISBOV existe e é voluntário, mas obrigatório para o gado que vai à exportação. O PNIB, plano nacional de 2025 a 2032, começa a identificação individual em 2027, pelos nascidos, e torna a regra obrigatória a partir de 2033.
+Atualizado em 08/10/2026
+O que é rastreabilidade bovina
+É conseguir dizer, de cada boi, onde nasceu, por onde passou, o que tomou de vacina e para onde foi. Para isso cada animal leva uma identificação individual, e os dados dele ficam registrados em um sistema oficial.
+No Brasil, dois nomes aparecem nessa conversa: o SISBOV, que já existe, e o PNIB, o plano que vai tornar a identificação individual regra para todo mundo.
+SISBOV: o que é e quem precisa estar nele
+O SISBOV é o sistema do Ministério da Agricultura para rastrear bovinos e bubalinos. Cada animal é identificado individualmente com dispositivo eletrônico ou brinco, e os dados de manejo e de movimentação ficam na BND (Base Nacional de Dados). A propriedade que cumpre as exigências recebe certificação de entidades credenciadas.
+A adesão é voluntária. A exceção é o gado destinado à exportação para países que exigem um sistema de rastreabilidade: esses animais precisam ser inscritos no SISBOV. Hoje a certificação oficial para esses países se apoia na Instrução Normativa MAPA nº 51, de 2018.
+Se o seu comprador exporta para país que exige rastreabilidade, pergunte a ele e à certificadora se o seu lote precisa estar no SISBOV.
+Quem não vende para esse mercado não é obrigado a entrar hoje, mas vai precisar identificar o gado com a chegada do PNIB.
+PNIB: o plano nacional de identificação individual
+O PNIB (Plano Nacional de Identificação Individual de Bovinos e Búfalos) vale de 2025 a 2032. Ele cria um sistema que permite acompanhar o histórico, a localização atual e a trajetória de cada animal identificado.
+PeríodoO que aconteceO que o produtor faz
+2024 a 2026Organização do sistema, portarias do Ministério e base de dados nacionalNada novo para o brinco; acompanhar as portarias
+2027Começa a identificação individual, pelos animais nascidos a partir daliIdentificar o bezerro que nasce
+2027 a 2029Início da identificação, com previsão de atingir todo o rebanho até 2032Identificar o resto do rebanho na vacinação ou no manejo
+A partir de 2033Adoção obrigatória, depois de oito anos de adaptaçãoGado identificado e registrado
+Cronograma conforme as defesas agropecuárias do Rio Grande do Sul e do Paraná, que publicaram o plano do Ministério da Agricultura. As páginas do Ministério com o plano exigem login e não abriram para conferência. As datas exatas e o padrão do brinco saem em portarias do Ministério.
+Pelo cronograma, o animal nascido a partir de 2027 é o primeiro a ser identificado. Os mais velhos entram na sequência, aproveitando a época de vacinação ou de manejo sanitário, e a previsão é ter todos identificados até 2032.
+O que o produtor precisa fazer e quando
+Agora: mantenha o cadastro e a contagem do rebanho em dia. A declaração de rebanho e a GTA seguem valendo como sempre.
+Se você vende para exportação: confira com o comprador e a certificadora se o seu gado precisa estar no SISBOV.
+Em 2027: prepare-se para identificar o bezerro nascido, com o dispositivo no padrão que o Ministério publicar.
+Do rebanho mais velho: aproveite a vacinação e o manejo para identificar, como o cronograma prevê.
+Até 2032: tenha todo o rebanho identificado. A adoção obrigatória vem a partir de 2033.
+A defesa agropecuária do seu estado pode ter regra própria. Veja sempre o que ela exige e em que prazo.
+O FINAGRO não é certificadora
+O FINAGRO não certifica propriedade, não emite brinco e não substitui o SISBOV nem o sistema do PNIB. Quem identifica o animal e registra no sistema oficial é o produtor, com o dispositivo certo e a defesa agropecuária. O app não lê brinco eletrônico.
+O que o app faz é o controle em volta: guardar a ficha de cada animal com o número do brinco, as pesagens, as vacinas e as GTAs emitidas, para você ter o histórico na mão quando a defesa, o comprador ou a certificadora pedir.
+O cronograma e as regras são do Ministério da Agricultura e da defesa do seu estado, e mudam por portaria. Este texto é informativo e não substitui o veterinário nem a defesa agropecuária. O FINAGRO não envia dados ao sistema oficial.
+O histórico de cada animal no FINAGRO
+Cada animal tem ficha com brinco, raça, sexo, nascimento, peso e foto.
+As pesagens ficam na ficha, com o ganho entre uma e outra.
+As vacinas e a sanidade ficam registradas por animal ou por lote, e o app avisa de bezerras na idade da vacina de brucelose sem a vacina anotada.
+As GTAs emitidas no sistema da defesa podem ser registradas no app, que lembra 1 dia antes do vencimento.
+A ficha de cada animal pronta para o dia do brinco.
+Grátis até 1.000 animais com ficha, sem cartão.
+Começar grátis
+Perguntas sobre rastreabilidade bovina
+O brinco de rastreabilidade já é obrigatório?
+Pelo plano nacional, a identificação individual começa em 2027, pelos animais nascidos a partir dali, e a adoção é obrigatória a partir de 2033. Hoje a inscrição no SISBOV é voluntária, exceto para o gado de exportação.
+O que é o SISBOV?
+É o sistema do Ministério da Agricultura para rastrear bovinos e bubalinos. Cada animal é identificado individualmente e os dados de manejo e de movimentação vão para a Base Nacional de Dados.
+O que é o PNIB?
+É o Plano Nacional de Identificação Individual de Bovinos e Búfalos, que vale de 2025 a 2032. Cria um sistema para acompanhar o histórico, a localização e a trajetória de cada animal.
+Preciso estar no SISBOV para vender o boi?
+Só se o gado for para exportação a países que exigem rastreabilidade. Nesse caso, os animais precisam estar inscritos no SISBOV. Para as demais vendas, hoje a inscrição é voluntária.
+O FINAGRO faz a rastreabilidade oficial?
+Não. O FINAGRO não é certificadora nem substitui o sistema oficial. Ele guarda a ficha de cada animal, com brinco, pesagens, vacinas e GTAs registradas.
+Fontes
+Iagro (MS), Programa Nacional de Rastreabilidade Animal, SISBOV
+Ministério da Agricultura, SISBOV
+Adapar (PR), plano de identificação de bovinos
+Secretaria da Agricultura do RS, plano nacional de rastreabilidade individual até 2032
+Secretaria da Agricultura do RS, GT de rastreabilidade com o Ministério da Agricultura
+Veja também
+Como emitir GTADeclaração de rebanhoControle de rebanhoTodos os guias
+Nesta página
+O que é rastreabilidade bovina
+SISBOV: o que é e quem precisa estar nele
+PNIB: o plano nacional de identificação individual
+O que o produtor precisa fazer e quando
+O FINAGRO não é certificadora
+O histórico de cada animal no FINAGRO
+Perguntas frequentes
+FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
+Grátis até 1.000 animais com ficha
+Lote sem limite de cabeças
+Sem cartão
+Começar grátisBaixar para Android
+
+
+---
+
 ## Rendimento de carcaça bovina: calcule a porcentagem
 Endereço: https://finagro.app/rendimento-de-carcaca
 
@@ -2029,6 +2241,102 @@ Por que a taxa muda entre águas e seca
 Como aumentar a lotação sem apertar o pasto
 Erros que mudam o resultado
 Lote, peso e área no FINAGRO
+Perguntas frequentes
+FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
+Grátis até 1.000 animais com ficha
+Lote sem limite de cabeças
+Sem cartão
+Começar grátisBaixar para Android
+
+
+---
+
+## Calendário de vacinação bovina: obrigatórias e recomendadas
+Endereço: https://finagro.app/calendario-de-vacinacao-bovina
+
+
+FINAGRO
+Guias
+Vacinação bovina
+GuiaGado de corte
+Calendário de vacinação bovina: o que é obrigatório e o que é recomendação
+Quais vacinas o gado precisa tomar?
+Pela norma federal, a vacina obrigatória do gado é a de brucelose, nas bezerras de 3 a 8 meses. A aftosa não tem mais vacinação, porque o Brasil é livre da doença sem vacina. A raiva depende do estado: é obrigatória onde há foco ou portaria. As demais, como clostridioses, são recomendação do veterinário.
+Atualizado em 08/10/2026
+O calendário em uma tabela
+Obrigação vem de norma do Ministério da Agricultura e do estado. Recomendação é o que a Embrapa e o veterinário indicam para proteger o rebanho. Misturar as duas é o erro mais comum, então a tabela separa.
+Quem e quandoVacinaComoSituação
+Bezerra, 3 a 8 mesesBruceloseDose única, B19 ou RB51Obrigatória
+Todos, a partir dos 3 mesesRaiva dos herbívorosReforço em 30 dias na 1ª vez, depois a cada 12 mesesObrigatória só onde há foco ou portaria
+Qualquer idadeFebre aftosaSem vacinação no BrasilVacina proibida onde a Portaria 665 vale
+Bezerro, 4 a 6 mesesClostridioses (carbúnculo sintomático)2ª dose 6 meses depoisRecomendação (Embrapa)
+Bezerro, a partir do 4º mêsBotulismo2ª dose 40 dias depois, repete todo anoRecomendação (Embrapa)
+Vacas, 60 dias antes da montaIBR e BVDDose antes da montaRecomendação (Embrapa)
+TodosLeptospiroseConforme o sorotipo da regiãoRecomendação (Embrapa)
+Obrigações: PNCEBT (Ministério da Agricultura) e defesa de cada estado. Recomendações: cronograma de referência da Embrapa Gado de Corte, que o veterinário adapta à propriedade.
+Brucelose: a vacina obrigatória do PNCEBT
+O PNCEBT (Programa Nacional de Controle e Erradicação da Brucelose e da Tuberculose) manda vacinar todas as fêmeas bovinas e bubalinas de 3 a 8 meses de idade. Macho não entra. A dose é única, com a vacina B19, e na espécie bovina ela pode ser trocada pela RB51.
+Quem aplica: a vacinação fica sob a responsabilidade de médico-veterinário cadastrado no serviço veterinário do estado. Em Minas Gerais, só ele ou um vacinador auxiliar treinado, sob a responsabilidade dele, pode aplicar, porque a vacina é viva.
+Marcação: a bezerra vacinada leva marca a ferro ou nitrogênio líquido no lado esquerdo da face. Com a B19, o algarismo final do ano da vacina. Com a RB51, a letra V.
+Passou da idade: a B19 é proibida em fêmeas com mais de 8 meses. Bezerra que não foi vacinada na idade regulariza a situação com a RB51.
+Santa Catarina: o estado autoriza a vacina de brucelose apenas com a RB51.
+Esse registro pesa na venda: a GTA de bovinos e bubalinos, para qualquer finalidade, fica condicionada à comprovação da vacinação obrigatória no estabelecimento de origem. Para o trânsito entre estados e para eventos, o programa ainda exige exames negativos. Veja o caminho em como emitir GTA.
+Febre aftosa em 2026: não tem mais vacina
+A Portaria nº 574, de 2023, do Ministério da Agricultura, suspendeu a vacinação contra a febre aftosa. Em 29 de maio de 2025, a OMSA (Organização Mundial de Saúde Animal) reconheceu o Brasil como zona livre de aftosa sem vacinação. Segundo o Ministério, cerca de 244 milhões de animais deixaram de precisar da vacina.
+Nos estados reconhecidos pela Portaria nº 665, o armazenamento, a venda e o uso da vacina contra aftosa são proibidos. Com o país livre da doença sem vacinação, a campanha de vacinar contra aftosa acabou: calendário antigo que ainda traz a aftosa está desatualizado.
+O fim da vacina não dispensa papel. A defesa lembra que toda movimentação de animais continua precisando da GTA e dos demais documentos sanitários, e a declaração de rebanho segue obrigatória.
+Raiva dos herbívoros: depende de foco e de município
+A regra da raiva dos herbívoros muda de estado para estado e até de município. No Amapá, por exemplo, a vacinação é voluntária, recomendada onde há muita agressão de morcego aos animais, e obrigatória quando há foco da doença. Vale para bovinos, bubalinos e equídeos a partir de 3 meses de idade.
+No Paraná, a Portaria da Adapar nº 368, de 2025, tornou a vacina obrigatória, a partir dos 3 meses de idade, em municípios do Oeste escolhidos pela quantidade de focos. Em Minas Gerais, quem atualiza os dados do rebanho pode informar na mesma hora a vacinação contra a raiva dos herbívoros.
+Primeira vez: 2 doses, com reforço 30 dias depois (regra do Amapá).
+Depois: uma dose por ano, a cada 12 meses.
+Onde a vacina é obrigatória, o produtor comunica a defesa. No Amapá, em até 15 dias depois de vacinar.
+O que é recomendação técnica e depende do veterinário
+Clostridioses, botulismo, leptospirose, IBR e BVD não têm obrigação nacional. A Embrapa Gado de Corte publica um cronograma de referência: carbúnculo sintomático com a 1ª dose aos 4 a 6 meses e a 2ª seis meses depois; botulismo com a 1ª dose no 4º mês, a 2ª 40 dias depois, repetindo todo ano; IBR e BVD nas vacas 60 dias antes da monta; leptospirose conforme o sorotipo da região.
+A própria Embrapa diz que o cronograma deve ser acompanhado com um médico-veterinário, que adapta ao sistema de produção de cada propriedade. A região, o histórico de doença e o tipo de criação mudam o calendário.
+A obrigação e o prazo são da defesa agropecuária do seu estado, e mudam. Este texto é informativo e não substitui o veterinário nem a defesa agropecuária: confirme a regra local antes de vacinar ou de marcar o embarque.
+Controle de vacinas no FINAGRO
+Cada vacina fica na ficha do animal ou do lote, com a data, para você saber o que já foi feito.
+O app avisa quando há bezerras na idade da vacina de brucelose sem a vacina anotada.
+A tela "O que vence" lista as vacinas e as declarações obrigatórias do estado do produtor, para o que ele cria.
+O registro das GTAs emitidas avisa 1 dia antes do vencimento. O app não emite a GTA nem envia nada à defesa agropecuária.
+Vacina anotada e bezerra na idade sem esquecimento.
+Grátis até 1.000 animais com ficha, sem cartão.
+Começar grátis
+Perguntas sobre vacinação do gado
+Com que idade se vacina a bezerra contra brucelose?
+Dos 3 aos 8 meses de idade. A vacinação é obrigatória em todas as fêmeas bovinas e bubalinas, com dose única, e quem aplica é médico-veterinário cadastrado.
+Ainda precisa vacinar contra febre aftosa em 2026?
+Não. A vacinação foi suspensa e o Brasil foi reconhecido, em 2025, como zona livre de aftosa sem vacinação. Nos estados da Portaria 665 a vacina é até proibida.
+A vacina contra raiva é obrigatória?
+Depende do estado e do município. Em geral é voluntária e recomendada onde há morcego hematófago, e vira obrigatória quando há foco ou quando a defesa publica portaria, como no Oeste do Paraná.
+O macho precisa tomar a vacina de brucelose?
+Não. A vacinação obrigatória do PNCEBT é só para fêmeas bovinas e bubalinas de 3 a 8 meses. O macho entra no programa pelos exames de trânsito, quando exigidos.
+Como controlar as vacinas do rebanho?
+Anote em cada vacina a data, o animal ou lote, o nome da vacina e a nota fiscal. Isso serve para a defesa, para a GTA e para o veterinário. Pode ser caderno, planilha ou o registro de sanidade do FINAGRO.
+Fontes
+Ministério da Agricultura, vacinação contra brucelose
+Ministério da Agricultura, PNCEBT
+Ministério da Agricultura, Instrução Normativa SDA nº 10/2017
+Cidasc (SC), defesa sanitária animal
+IMA (MG), brucelose e tuberculose
+Ministério da Agricultura, Programa Nacional de Vigilância para Febre Aftosa
+Iagro (MS), prazo de atualização cadastral e declaração de rebanhos
+CFMV, Portaria Mapa nº 665 e áreas livres de aftosa
+Defesa Agropecuária de São Paulo, OMSA reconhece o Brasil
+Governo do Paraná, Brasil livre de aftosa e trânsito animal
+DIAGRO (AP), raiva dos herbívoros
+Adapar (PR), vacinação contra raiva no Oeste
+Embrapa Gado de Corte, cronograma sanitário e reprodutivo para bovinos de corte
+Veja também
+Como emitir GTADeclaração de rebanhoRastreabilidade bovinaTodos os guias
+Nesta página
+O calendário em uma tabela
+Brucelose: a vacina obrigatória do PNCEBT
+Febre aftosa em 2026: não tem mais vacina
+Raiva dos herbívoros: depende de foco e de município
+O que é recomendação técnica e depende do veterinário
+Controle de vacinas no FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
 Grátis até 1.000 animais com ficha
@@ -2661,6 +2969,10 @@ Conhecer o lote só de bater o olho. Sem pesagem, o animal que parou de ganhar p
 Comprar de boca. Compra sem registro vira conta que aparece de surpresa no fim do mês.
 Deixar para lançar depois. O que fica na caderneta para passar a limpo chega incompleto ou não chega.
 Depender da memória para o que vence. Vacina atrasada trava a guia de trânsito no dia do embarque.
+Quanto custa não anotar
+Dá para pôr em número. Um lote de 30 bois que deixa de ganhar 200 gramas por dia, sem ninguém perceber, perde 6 kg de peso vivo por dia. Em 60 dias são 360 kg. Com 52% de rendimento de carcaça, são 12,48 arrobas que não foram para a balança.
+Com a arroba a R$ 300, o lote deixou de render R$ 3.744 em dois meses. A pesagem que mostraria a queda leva uma manhã. No dinheiro é igual: a conta paga duas vezes e o insumo comprado sem precisão só aparecem para quem lança e confere.
+Os números são só para a conta. Troque pelo ganho, pelo rendimento e pelo preço da sua fazenda na calculadora de arroba.
 Caderno, planilha ou aplicativo: quando trocar
 O caderno funciona enquanto uma pessoa só anota e a conta cabe na cabeça. A planilha aguenta mais, e as nossas são grátis: planilha de controle de gado e planilha de gestão rural.
 A hora de passar para um aplicativo chega quando duas pessoas lançam, quando o dado nasce no curral e a planilha está na sede, ou quando alguma coisa vence sem aviso. Veja o que conferir em aplicativo para controle de gado e em software de gestão rural.
@@ -2690,6 +3002,7 @@ Os quatro controles
 A primeira semana: um controle por dia
 Os números para olhar todo mês
 Os erros que mais custam
+Quanto custa não anotar
 Caderno, planilha ou aplicativo: quando trocar
 Os quatro controles dentro do FINAGRO
 Perguntas frequentes
@@ -3412,7 +3725,7 @@ Lei 12.651/2012, art. 4º. Nascente: raio mínimo de 50 m. Lago em zona rural: 1
 Este texto é informativo e não substitui contador, advogado nem técnico ambiental. O CAR de cada estado tem regras e sistemas próprios: confirme no órgão ambiental do seu estado.
 Como fica no FINAGRO
 O FINAGRO não faz nem envia o CAR. A inscrição é no SICAR ou no órgão do seu estado; o app guarda o recibo e lembra as datas.
-Na tela Documentos, o CAR de cada fazenda fica com número, data, validade e o arquivo do recibo.
+Na tela Documentos, o CAR de cada fazenda fica com número, data e validade.
 O aviso chega antes de o documento vencer e aparece na agenda, junto das vacinas e das tarefas.
 A área medida por GPS no celular fica salva na fazenda, e uma tarefa com data lembra de levar o recibo ao banco.
 Recibo do CAR guardado e aviso antes de vencer, no celular.
@@ -3511,7 +3824,7 @@ Compra de parte da área ou venda de um pedaço pede alteração cadastral logo 
 Este texto é informativo e não substitui contador nem advogado. Taxa, formulário e telas do Incra mudam: confira sempre no site oficial do Incra antes de pagar.
 Como fica no FINAGRO
 O FINAGRO não emite o CCIR nem altera o cadastro no Incra. A emissão é no site do SNCR; o app guarda o papel e lembra as datas.
-Na tela Documentos, o CCIR de cada fazenda fica com número, emissão, validade e o arquivo do PDF.
+Na tela Documentos, o CCIR de cada fazenda fica com número, emissão e validade.
 O aviso chega antes de o documento vencer e aparece na agenda da fazenda, junto das vacinas e das tarefas.
 A taxa da guia entra como despesa, e o vencimento fica em contas a pagar, no fluxo de caixa.
 CCIR, ITR e CAR guardados, com aviso antes de vencer.
@@ -3808,7 +4121,7 @@ Perdi o prazo da declaração do ITR 2026, o que acontece agora?
 O prazo da declaração do ITR 2026 foi de 10 de agosto a 30 de setembro de 2026 e já passou. Quem ainda não entregou paga multa de 1% ao mês-calendário ou fração de atraso sobre o imposto devido, com mínimo de R$ 50. Entregue o quanto antes pelo serviço Minhas Declarações do ITR, da Receita Federal.
 Atualizado em 08/10/2026
 O prazo do ITR 2026 já passou: o que fazer agora
-A declaração do ITR 2026, chamada de DITR, podia ser entregue de 10 de agosto a 30 de setembro de 2026, até as 23h59min59s no horário de Brasília. As regras saíram na Instrução Normativa RFB nº 2.330, de 22 de junho de 2026. Hoje é 8 de outubro: quem ainda não entregou está em atraso.
+A declaração do ITR 2026, chamada de DITR, podia ser entregue de 10 de agosto a 30 de setembro de 2026, até as 23h59min59s no horário de Brasília. As regras saíram na Instrução Normativa RFB nº 2.330, de 22 de junho de 2026. Depois de 30 de setembro, quem não entregou está em atraso.
 Entregar agora, por conta própria, custa menos do que esperar a Receita cobrar. A multa é de 1% ao mês-calendário ou fração de atraso, calculada sobre o imposto devido, e nunca fica abaixo de R$ 50. A Receita conta do dia seguinte ao fim do prazo até o mês em que a declaração é entregue: entregou em outubro, conta 1 mês; entregou em novembro, contam 2.
 Imposto devidoEntrega em outubroEntrega em novembro
 R$ 280R$ 50 (1% dá R$ 2,80)R$ 50 (2% dá R$ 5,60)
@@ -3831,7 +4144,7 @@ Limite da imunidade (Lei 9.393/1996, art. 2º). A lista de municípios de cada r
 Se o dono explora a gleba só ou com a família e não tem outro imóvel, o imposto não incide. Também são isentos o conjunto de imóveis do mesmo dono dentro desses limites, explorados por ele e pela família, sem imóvel urbano, e as áreas de quilombo reconhecidas e ocupadas pela própria comunidade. Quem se enquadra fica dispensado de entregar a declaração.
 Como declarar o ITR online, no celular ou no computador
 Em 2026 a declaração é preenchida no serviço digital Minhas Declarações do ITR, na área de Imóveis do Portal de Serviços da Receita Federal. Não precisa instalar programa, e funciona no computador e no celular. O acesso é pela conta gov.br nos níveis Prata ou Ouro.
-A versão web é obrigatória para pessoa jurídica e para dono de imóvel com mais de 100 hectares. A pessoa física com imóvel de até 100 hectares pode, em vez disso, usar o Programa ITR 2026 no computador e transmitir pelo próprio programa ou pelo Receitanet.
+A versão web é obrigatória para pessoa jurídica e para dono de imóvel com mais de 100 hectares. A pessoa física com imóvel de até 100 hectares pode, em vez disso, usar o Programa ITR 2026 no computador e transmitir pelo próprio programa.
 O serviço recupera os dados cadastrais do imóvel, reúne as declarações de todos os imóveis do mesmo dono e deixa pagar por Pix, cartão de crédito ou TED. Achou erro depois de transmitir? Mande uma declaração retificadora antes de a Receita abrir o lançamento de ofício. Ela substitui a original inteira.
 O que ter em mãos antes de abrir a declaração
 CIB, o número do imóvel na Receita (o antigo NIRF, que só mudou de nome). Imóvel ainda sem inscrição precisa ser inscrito no Cafir antes, e para isso precisa do código do imóvel no Incra.
@@ -3852,7 +4165,7 @@ Mais de 1.000 até 5.0008,60%0,30%
 Acima de 5.00020,00%0,45%
 Extremos da tabela oficial; as faixas de uso do meio ficam no manual de perguntas e respostas da Receita.
 Exemplo: imóvel de 80 hectares, com 90% de uso e VTN tributável de R$ 400.000. A alíquota é 0,07%. Conta: 400.000 × 0,07 ÷ 100 = R$ 280. O imposto nunca é menor que R$ 10.
-Declarar a terra por um valor baixo demais não compensa. Falta de declaração, VTN subavaliado e informação incorreta levam ao lançamento de ofício, em que a Receita calcula o imposto com os preços de terra que ela tem.
+Declarar a terra por um valor baixo demais não compensa. Falta de declaração, VTN subavaliado e informação incorreta levam ao lançamento de ofício, em que a Receita calcula o imposto e cobra a diferença.
 Quotas, valor mínimo e imposto pago com atraso
 O imposto pode ser pago em até quatro quotas iguais e mensais, nenhuma abaixo de R$ 50.
 Imposto de menos de R$ 100 vai em quota única.
@@ -3861,7 +4174,7 @@ Imposto pago depois do vencimento leva multa de mora de 0,33% ao dia, até o tet
 Este texto é informativo e não substitui contador nem advogado. Regra, prazo e valor mudam de ano para ano: confira sempre a instrução normativa do exercício na Receita Federal.
 Como fica no FINAGRO
 O FINAGRO não faz a declaração do ITR nem transmite nada à Receita. Ela sai pelo serviço da Receita; o app guarda os papéis e lembra as datas.
-A tela Documentos guarda o ITR, o CCIR e o CAR de cada fazenda, com número, emissão, validade e o arquivo.
+A tela Documentos guarda o ITR, o CCIR e o CAR de cada fazenda, com número, emissão e validade.
 O aviso chega antes de o documento vencer e aparece na agenda, junto das vacinas e das tarefas.
 O imposto pago entra como despesa, e a quota que ainda vai vencer fica em contas a pagar, no fluxo de caixa.
 Papéis da fazenda guardados e datas com aviso no celular.

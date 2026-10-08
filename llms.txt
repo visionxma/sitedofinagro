@@ -26,7 +26,6 @@ Site: https://finagro.app/ · Sistema: https://app.finagro.app/ · Android: http
 - Profissional: R$ 149,90 por mês ou R$ 1.499 por ano. Até 15 fazendas, Até 30 pessoas, 25.000 animais com ficha.
 - Avançado: R$ 299,90 por mês ou R$ 2.999 por ano. Até 50 fazendas, Até 100 pessoas, Animais com ficha sem limite.
 - Empresarial: a partir de R$ 699 por mês, sem limite de fazenda, gente e rebanho, com gerente de conta.
-- Planos pagos com 14 dias para testar. Quem usa de graça tem 30% de folga acima do limite para não parar o serviço.
 
 ## Para quem
 Produtor rural brasileiro de qualquer tamanho: do sítio com 12 vacas de leite à granja com 1 milhão de aves, pecuária de corte, piscicultura, apicultura, suinocultura, horta e grãos.
@@ -53,14 +52,17 @@ Produtor rural brasileiro de qualquer tamanho: do sítio com 12 vacas de leite �
 - [Como emitir GTA: passo a passo e sistema de cada estado](https://finagro.app/como-emitir-gta) (guia): Passo a passo e o sistema de cada estado.
 - [Contrato de compra e venda de gado e recibo: modelos](https://finagro.app/contrato-de-compra-e-venda-de-gado) (modelo pronto): Contrato de compra e venda de gado e recibo, prontos.
 - [Cria, recria e engorda: fases do gado de corte](https://finagro.app/cria-recria-e-engorda) (guia): Entenda as fases e o registro que cada uma pede.
+- [Declaração de rebanho 2026: prazo por estado e como fazer](https://finagro.app/declaracao-de-rebanho) (guia): Prazo de 2026 por estado e como declarar.
 - [Escore de condição corporal em bovinos: notas e como avaliar](https://finagro.app/escore-de-condicao-corporal) (guia): Notas de 1 a 5 e de 1 a 9 e quando avaliar.
 - [Estação de monta no gado de corte: como fazer e planejar](https://finagro.app/estacao-de-monta) (guia): Como planejar a monta e concentrar os partos.
 - [Ficha de controle de gado: modelo individual para imprimir](https://finagro.app/ficha-de-controle-de-gado) (modelo pronto): Ficha individual do animal, pronta para imprimir.
 - [Índices zootécnicos: prenhez, natalidade e desfrute](https://finagro.app/indices-zootecnicos) (calculadora): Prenhez, natalidade, desmama e desfrute.
 - [Peso do boi pela fita: como medir sem balança](https://finagro.app/peso-do-boi-pela-fita) (guia): Meça o tórax e estime o peso sem balança.
 - [Planilha de controle de gado grátis: modelo em Excel](https://finagro.app/planilha-de-controle-de-gado) (planilha): Planilha grátis para baixar, em Excel e CSV.
+- [Rastreabilidade bovina: SISBOV, PNIB e o cronograma](https://finagro.app/rastreabilidade-bovina) (guia): SISBOV, PNIB e o que muda a partir de 2027.
 - [Rendimento de carcaça bovina: calcule a porcentagem](https://finagro.app/rendimento-de-carcaca) (calculadora): Peso vivo e carcaça viram rendimento e arrobas.
 - [Taxa de lotação: calcule UA por hectare da pastagem](https://finagro.app/taxa-de-lotacao) (calculadora): Converta cabeças e peso em UA por hectare.
+- [Calendário de vacinação bovina: obrigatórias e recomendadas](https://finagro.app/calendario-de-vacinacao-bovina) (guia): O que é obrigatório e o que é recomendação.
 
 ### Leite
 - [Controle leiteiro: como fazer e planilha para baixar](https://finagro.app/controle-leiteiro) (planilha): Como pesar o leite de cada vaca, com planilha.

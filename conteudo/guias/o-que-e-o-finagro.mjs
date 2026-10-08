@@ -24,7 +24,7 @@ export default {
         ['O que é', 'Aplicativo de gestão rural para fazenda, sítio e granja'],
         ['Quem faz', 'VisionX, desenvolvedora brasileira de software'],
         ['Onde funciona', 'Celular Android (Google Play) e navegador, em app.finagro.app'],
-        ['Preço', 'Plano Campo grátis para sempre; pagos de R$ 59,90 a R$ 299,90 por mês'],
+        ['Preço', 'Plano Campo grátis para sempre; pagos a partir de R$ 59,90 por mês'],
         ['Limite do grátis', '3 fazendas, 5 pessoas, 1.000 animais com ficha, lote sem limite'],
         ['Idioma', 'Português do Brasil'],
         ['Site', 'finagro.app'],
@@ -52,7 +52,7 @@ export default {
     ] },
     { h2: 'Quanto custa', blocos: [
       { p: 'O plano **Campo** é grátis para sempre e não pede cartão: até 3 fazendas, 5 pessoas, 1.000 animais com ficha, 100 áreas medidas no GPS, 15 perguntas por dia ao FINAGRO AI e todas as funções do app. Lote não tem limite de cabeças em nenhum plano.' },
-      { p: 'Os planos pagos vão de R$ 59,90 a R$ 299,90 por mês, com 14 dias para testar, e aumentam o número de fazendas, de pessoas e de animais com ficha. Quem usa de graça tem 30% de folga acima do limite, para o serviço não parar.' },
+      { p: 'Os planos pagos vão de R$ 59,90 a R$ 299,90 por mês e aumentam o número de fazendas, de pessoas e de animais com ficha. Para grupos, cooperativas e consultorias há o plano Empresarial, a partir de R$ 699 por mês.' },
     ] },
     { h2: 'Para quem é e para quem não é', blocos: [
       { p: 'É para o produtor que quer sair do caderno e da planilha e ter rebanho, lavoura e caixa no celular, do sítio com poucas vacas de leite à fazenda de corte com vários lotes, e para quem cria mais de uma coisa na mesma propriedade.' },
@@ -60,15 +60,15 @@ export default {
     ] },
     { h2: 'Como começar', blocos: [
       { ol: [
-        'Baixe o FINAGRO na Google Play ou abra app.finagro.app no navegador.',
-        'Entre com a sua conta Google e cadastre a fazenda.',
+        'Baixe o FINAGRO na [Google Play](https://play.google.com/store/apps/details?id=com.raykkony.fblogin) ou abra [app.finagro.app](https://app.finagro.app/) no navegador.',
+        'Entre com a conta Google ou com e-mail e senha e cadastre a fazenda.',
         'Conte o que você cria e planta, e lance o primeiro lote, a primeira despesa ou importe a planilha que você já usa, salva como CSV.',
       ] },
     ] },
   ],
   noFinagro: { h2: 'O FINAGRO em números', depoisDe: 2, itens: [
     '**R$ 0** no plano Campo, para sempre e sem cartão.',
-    '**3 fazendas, 5 pessoas e 1.000 animais com ficha** no plano grátis, com 30% de folga.',
+    '**3 fazendas, 5 pessoas e 1.000 animais com ficha** no plano grátis.',
     '**Lote sem limite de cabeças** em todos os planos: galpão, tanque e colmeia contam como lote.',
     '**100 áreas** medidas pelo GPS e **15 perguntas por dia** ao FINAGRO AI no plano grátis.',
   ] },

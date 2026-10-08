@@ -98,7 +98,7 @@ export default {
   ],
   noFinagro: { h2: 'Como fica no FINAGRO', itens: [
     'O FINAGRO não emite o CCIR nem altera o cadastro no Incra. A emissão é no site do SNCR; o app guarda o papel e lembra as datas.',
-    'Na tela Documentos, o CCIR de cada fazenda fica com número, emissão, validade e o arquivo do PDF.',
+    'Na tela Documentos, o CCIR de cada fazenda fica com número, emissão e validade.',
     'O aviso chega antes de o documento vencer e aparece na agenda da fazenda, junto das vacinas e das tarefas.',
     'A taxa da guia entra como despesa, e o vencimento fica em contas a pagar, no fluxo de caixa.',
   ] },

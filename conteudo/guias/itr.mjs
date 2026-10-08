@@ -61,7 +61,7 @@ export default {
   atualizado: '2026-10-08',
   secoes: [
     { h2: 'O prazo do ITR 2026 já passou: o que fazer agora', blocos: [
-      { p: 'A declaração do ITR 2026, chamada de DITR, podia ser entregue de **10 de agosto a 30 de setembro de 2026**, até as 23h59min59s no horário de Brasília. As regras saíram na **Instrução Normativa RFB nº 2.330, de 22 de junho de 2026**. Hoje é 8 de outubro: quem ainda não entregou está em atraso.' },
+      { p: 'A declaração do ITR 2026, chamada de DITR, podia ser entregue de **10 de agosto a 30 de setembro de 2026**, até as 23h59min59s no horário de Brasília. As regras saíram na **Instrução Normativa RFB nº 2.330, de 22 de junho de 2026**. Depois de 30 de setembro, quem não entregou está em atraso.' },
       { p: 'Entregar agora, por conta própria, custa menos do que esperar a Receita cobrar. A multa é de **1% ao mês-calendário ou fração de atraso**, calculada sobre o imposto devido, e nunca fica abaixo de **R$ 50**. A Receita conta do dia seguinte ao fim do prazo até o mês em que a declaração é entregue: entregou em outubro, conta 1 mês; entregou em novembro, contam 2.' },
       { tabela: { colunas: ['Imposto devido', 'Entrega em outubro', 'Entrega em novembro'], linhas: [['R$ 280', 'R$ 50 (1% dá R$ 2,80)', 'R$ 50 (2% dá R$ 5,60)'], ['R$ 3.000', 'R$ 50 (1% dá R$ 30)', 'R$ 60 (2%)'], ['R$ 10.000', 'R$ 100 (1%)', 'R$ 200 (2%)']], nota: 'Multa por atraso na entrega da declaração, com o mínimo de R$ 50. Conta nossa a partir da regra da Receita. Esta multa é separada da multa de mora do imposto, que aparece mais abaixo.' } },
       { ol: ['Reúna o código do imóvel, o CIB (antigo NIRF), o recibo do CAR, as áreas e o valor da terra nua em 1º de janeiro de 2026.', 'Entre no Portal de Serviços da Receita Federal com a conta gov.br nível Prata ou Ouro e abra o serviço Minhas Declarações do ITR.', 'Preencha, confira as pendências que o sistema apontar e transmita. Guarde o recibo.', 'Emita o DARF no próprio serviço e pague por Pix, cartão de crédito, TED ou documento de arrecadação.'] },
@@ -75,7 +75,7 @@ export default {
     ] },
     { h2: 'Como declarar o ITR online, no celular ou no computador', blocos: [
       { p: 'Em 2026 a declaração é preenchida no serviço digital **Minhas Declarações do ITR**, na área de Imóveis do Portal de Serviços da Receita Federal. Não precisa instalar programa, e funciona no computador e no celular. O acesso é pela conta gov.br nos níveis **Prata ou Ouro**.' },
-      { p: 'A versão web é obrigatória para pessoa jurídica e para dono de imóvel com mais de 100 hectares. A pessoa física com imóvel de até 100 hectares pode, em vez disso, usar o **Programa ITR 2026** no computador e transmitir pelo próprio programa ou pelo Receitanet.' },
+      { p: 'A versão web é obrigatória para pessoa jurídica e para dono de imóvel com mais de 100 hectares. A pessoa física com imóvel de até 100 hectares pode, em vez disso, usar o **Programa ITR 2026** no computador e transmitir pelo próprio programa.' },
       { p: 'O serviço recupera os dados cadastrais do imóvel, reúne as declarações de todos os imóveis do mesmo dono e deixa pagar por Pix, cartão de crédito ou TED. Achou erro depois de transmitir? Mande uma **declaração retificadora** antes de a Receita abrir o lançamento de ofício. Ela substitui a original inteira.' },
     ] },
     { h2: 'O que ter em mãos antes de abrir a declaração', blocos: [
@@ -88,7 +88,7 @@ export default {
       { p: 'O imposto é o VTN tributável vezes a alíquota. A alíquota depende da área total e do **grau de utilização**, que é a área realmente usada dividida pela área aproveitável.' },
       { tabela: { colunas: ['Área total (ha)', 'Uso até 30%', 'Uso acima de 80%'], linhas: [['Até 50', '1,00%', '0,03%'], ['Mais de 50 até 200', '2,00%', '0,07%'], ['Mais de 200 até 500', '3,30%', '0,10%'], ['Mais de 500 até 1.000', '4,70%', '0,15%'], ['Mais de 1.000 até 5.000', '8,60%', '0,30%'], ['Acima de 5.000', '20,00%', '0,45%']], nota: 'Extremos da tabela oficial; as faixas de uso do meio ficam no manual de perguntas e respostas da Receita.' } },
       { p: 'Exemplo: imóvel de 80 hectares, com 90% de uso e VTN tributável de R$ 400.000. A alíquota é 0,07%. Conta: 400.000 × 0,07 ÷ 100 = **R$ 280**. O imposto nunca é menor que **R$ 10**.' },
-      { p: 'Declarar a terra por um valor baixo demais não compensa. Falta de declaração, VTN subavaliado e informação incorreta levam ao lançamento de ofício, em que a Receita calcula o imposto com os preços de terra que ela tem.' },
+      { p: 'Declarar a terra por um valor baixo demais não compensa. Falta de declaração, VTN subavaliado e informação incorreta levam ao lançamento de ofício, em que a Receita calcula o imposto e cobra a diferença.' },
     ] },
     { h2: 'Quotas, valor mínimo e imposto pago com atraso', blocos: [
       { ul: ['O imposto pode ser pago em até **quatro quotas** iguais e mensais, nenhuma abaixo de R$ 50.', 'Imposto de menos de R$ 100 vai em **quota única**.', 'A quota única ou a primeira venceu em **30 de setembro de 2026**.'] },
@@ -98,7 +98,7 @@ export default {
   ],
   noFinagro: { h2: 'Como fica no FINAGRO', itens: [
     'O FINAGRO não faz a declaração do ITR nem transmite nada à Receita. Ela sai pelo serviço da Receita; o app guarda os papéis e lembra as datas.',
-    'A tela Documentos guarda o ITR, o CCIR e o CAR de cada fazenda, com número, emissão, validade e o arquivo.',
+    'A tela Documentos guarda o ITR, o CCIR e o CAR de cada fazenda, com número, emissão e validade.',
     'O aviso chega antes de o documento vencer e aparece na agenda, junto das vacinas e das tarefas.',
     'O imposto pago entra como despesa, e a quota que ainda vai vencer fica em contas a pagar, no fluxo de caixa.',
   ] },

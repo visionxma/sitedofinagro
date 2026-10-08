@@ -86,7 +86,7 @@ export default {
   ],
   noFinagro: { h2: 'Como fica no FINAGRO', itens: [
     'O FINAGRO não faz nem envia o CAR. A inscrição é no SICAR ou no órgão do seu estado; o app guarda o recibo e lembra as datas.',
-    'Na tela Documentos, o CAR de cada fazenda fica com número, data, validade e o arquivo do recibo.',
+    'Na tela Documentos, o CAR de cada fazenda fica com número, data e validade.',
     'O aviso chega antes de o documento vencer e aparece na agenda, junto das vacinas e das tarefas.',
     'A área medida por GPS no celular fica salva na fazenda, e uma tarefa com data lembra de levar o recibo ao banco.',
   ] },

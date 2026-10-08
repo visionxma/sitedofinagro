@@ -55,6 +55,11 @@ export default {
         '**Depender da memória para o que vence.** Vacina atrasada trava a guia de trânsito no dia do embarque.',
       ] },
     ] },
+    { h2: 'Quanto custa não anotar', blocos: [
+      { p: 'Dá para pôr em número. Um lote de 30 bois que deixa de ganhar 200 gramas por dia, sem ninguém perceber, perde 6 kg de peso vivo por dia. Em 60 dias são 360 kg. Com 52% de rendimento de carcaça, são 12,48 arrobas que não foram para a balança.' },
+      { p: 'Com a arroba a R$ 300, o lote deixou de render R$ 3.744 em dois meses. A pesagem que mostraria a queda leva uma manhã. No dinheiro é igual: a conta paga duas vezes e o insumo comprado sem precisão só aparecem para quem lança e confere.' },
+      { destaque: 'Os números são só para a conta. Troque pelo ganho, pelo rendimento e pelo preço da sua fazenda na [calculadora de arroba](/calculadora-de-arroba).' },
+    ] },
     { h2: 'Caderno, planilha ou aplicativo: quando trocar', blocos: [
       { p: 'O caderno funciona enquanto uma pessoa só anota e a conta cabe na cabeça. A planilha aguenta mais, e as nossas são grátis: [planilha de controle de gado](/planilha-de-controle-de-gado) e [planilha de gestão rural](/planilha-de-gestao-rural).' },
       { p: 'A hora de passar para um aplicativo chega quando duas pessoas lançam, quando o dado nasce no curral e a planilha está na sede, ou quando alguma coisa vence sem aviso. Veja o que conferir em [aplicativo para controle de gado](/aplicativo-para-controle-de-gado) e em [software de gestão rural](/software-de-gestao-rural).' },

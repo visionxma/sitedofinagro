@@ -69,3 +69,13 @@ Traceback (most recent call last):
     self._sock.sendall(b)
 BrokenPipeError: [Errno 32] Broken pipe
 ----------------------------------------
+::1 - - [08/Oct/2026 18:13:07] "GET / HTTP/1.1" 200 -
+::1 - - [08/Oct/2026 18:13:08] "GET /assets/medir.js HTTP/1.1" 304 -
+::1 - - [08/Oct/2026 18:13:08] "GET /styles.css HTTP/1.1" 304 -
+::1 - - [08/Oct/2026 18:13:08] "GET /site.webmanifest HTTP/1.1" 200 -
+::1 - - [08/Oct/2026 18:13:08] "GET /assets/videos/fundo-1080.av1.mp4 HTTP/1.1" 200 -
+::1 - - [08/Oct/2026 18:21:32] "GET / HTTP/1.1" 200 -
+::1 - - [08/Oct/2026 18:21:32] "GET /assets/medir.js HTTP/1.1" 304 -
+::1 - - [08/Oct/2026 18:21:32] "GET /site.webmanifest HTTP/1.1" 200 -
+::1 - - [08/Oct/2026 18:24:52] "GET / HTTP/1.1" 304 -
+::1 - - [08/Oct/2026 18:24:52] "GET /site.webmanifest HTTP/1.1" 304 -

@@ -6,6 +6,8 @@ const ESTATUTO = 'https://www.planalto.gov.br/ccivil_03/leis/l4504.htm';
 const DECRETO = 'https://www.planalto.gov.br/ccivil_03/decreto/antigos/d59566.htm';
 
 export const provas = [
+  { afirmacao: 'o proprietário não pode exigir beneficiamento no estabelecimento dele nem compra nos armazéns dele', trecho: 'III - obrigatoriedade do beneficiamento da produção em seu estabelecimento; IV - obrigatoriedade da aquisição de gêneros e utilidades em seus armazéns ou barracões', url: ESTATUTO },
+  { afirmacao: 'o proprietário não pode exigir que o arrendatário aceite pagamento em vale', trecho: 'aceitação de pagamento em "ordens", "vales", "borós" ou outras formas regionais substitutivas da moeda', url: ESTATUTO },
   { afirmacao: 'prazo mínimo de 3 anos para lavoura temporária e pecuária de pequeno e médio porte', trecho: 'de 3 (três), anos nos casos de arrendamento em que ocorra atividade de exploração de lavoura temporária e ou de pecuária de pequeno e médio porte', url: DECRETO },
   { afirmacao: 'prazo mínimo de 5 anos para lavoura permanente e pecuária de grande porte', trecho: 'de 5 (cinco), anos nos casos de arrendamento em que ocorra atividade de exploração de lavoura permanente e ou de pecuária de grande porte para cria, recria, engorda', url: DECRETO },
   { afirmacao: 'prazo mínimo de 7 anos para exploração florestal', trecho: 'de 7 (sete), anos nos casos em que ocorra atividade de exploração florestal', url: DECRETO },

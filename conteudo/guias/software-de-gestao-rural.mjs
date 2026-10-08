@@ -38,10 +38,10 @@ export default {
     ] },
     { h2: 'Sete perguntas para fazer antes de contratar', blocos: [
       { tabela: { colunas: ['Pergunte ao fornecedor', 'No FINAGRO'], linhas: [
-        ['O preço está publicado no site?', 'Está. O plano Campo é grátis e os pagos vão de R$ 59,90 a R$ 299,90 por mês'],
+        ['O preço está publicado no site?', 'Está. O plano Campo é grátis e os pagos começam em R$ 59,90 por mês'],
         ['Cobra por animal, por hectare ou por pessoa?', 'O plano define o número de fazendas, de pessoas e de animais com ficha. Lote não tem limite'],
         ['Tem taxa de implantação?', 'Não tem. Você mesmo entra e começa'],
-        ['O que acontece no fim do teste?', 'O plano Campo não vence. Os pagos têm 14 dias para testar'],
+        ['O que acontece no fim do teste?', 'O plano Campo não tem data para acabar: o acesso continua'],
         ['Lança sem sinal?', 'Lança. O registro fica no aparelho e sobe quando a internet volta'],
         ['Quantas pessoas entram?', '5 no plano grátis, cada uma com papel e permissão'],
         ['Consigo tirar meus dados?', 'Listas e relatórios saem em PDF e em planilha'],
@@ -60,7 +60,7 @@ export default {
     ] },
     { h2: 'Do curral ao escritório com a mesma conta', blocos: [
       { ol: [
-        'Abra app.finagro.app no computador ou baixe o aplicativo na Google Play, e entre com a conta Google.',
+        'Abra [app.finagro.app](https://app.finagro.app/) no computador ou baixe o aplicativo na [Google Play](https://play.google.com/store/apps/details?id=com.raykkony.fblogin), e entre com a conta Google ou com e-mail e senha.',
         'Cadastre a fazenda e conte o que ela produz. O painel se monta para o que você cria e planta.',
         'Importe a planilha com o rebanho, as despesas ou as receitas que você já tem. No Excel, salve como CSV antes de enviar.',
         'Convide a equipe e escolha o papel de cada pessoa. Quem está no curral lança; quem está na sede confere.',

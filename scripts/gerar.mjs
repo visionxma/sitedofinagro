@@ -202,6 +202,8 @@ function jsonld(p, html, titulo, descricao) {
       mainEntityOfPage: url, datePublished: p.guia ? data : ATUALIZADO, dateModified: data, image: ENTIDADE.imagem,
       ...(p.guia ? { articleSection: GRUPOS[p.grupo][0] } : {}),
       author: { '@id': ORG_ID }, publisher: { '@id': ORG_ID }, isPartOf: { '@id': `${SITE}/#site` }, about: { name: 'FINAGRO', url: `${SITE}/` } });
+    // A página da entidade é de onde buscador e assistente tiram o que o FINAGRO é e quanto custa.
+    if (pagina === '/o-que-e-o-finagro') grafo.push(app);
     // Calculadora de uso livre na página: aplicação da web, gratuita.
     if (p.tipo === 'calculadora') grafo.push({ '@type': 'WebApplication', '@id': `${url}#calculadora`, name: p.curto, url, applicationCategory: 'UtilitiesApplication', operatingSystem: 'Qualquer navegador', inLanguage: 'pt-BR',
       isAccessibleForFree: true, offers: { '@type': 'Offer', price: '0.00', priceCurrency: 'BRL' }, publisher: { '@id': ORG_ID } });
@@ -278,7 +280,6 @@ ${ENTIDADE.naoE.map((n) => `- ${n}`).join('\n')}
 ## Preço (público, em reais)
 ${PLANOS.map((p) => `- ${p.nome}: ${reais(p.mes)}${p.ano ? ` ou R$ ${brl(p.ano)} por ano` : ''}. ${p.itens.slice(0, 3).join(', ')}.`).join('\n')}
 - ${EMPRESARIAL.nome}: a partir de R$ ${brl(EMPRESARIAL.aPartirDe)} por mês, ${EMPRESARIAL.texto}.
-- Planos pagos com ${TESTE_DIAS} dias para testar. Quem usa de graça tem 30% de folga acima do limite para não parar o serviço.
 
 ## Para quem
 Produtor rural brasileiro de qualquer tamanho: do sítio com 12 vacas de leite à granja com 1 milhão de aves, pecuária de corte, piscicultura, apicultura, suinocultura, horta e grãos.
