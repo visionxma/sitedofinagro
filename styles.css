@@ -16,6 +16,7 @@
   --verde-vivo: #27a365;
   --verde-claro: #e9f4ee;
   --verde-botao: #176b42; /* o verde do app um tom abaixo: texto branco fica acima de 4,5:1 mesmo com o brilho passando */
+  --verde-luz: #46e394; /* o verde da marca (mesmo matiz, 150°) aceso para texto sobre o vídeo escuro: lê igual ao trigo (luminância 0,58) em todo quadro; o --verde puro dá 1,6:1 ali */
   --trigo: #f3c14b;
   --vermelho: #c0392b;
   --vermelho-claro: #fbeceb;
@@ -206,7 +207,7 @@ p { text-wrap: pretty; }
 .selo-nota__estrelas { display: inline-flex; gap: 1px; color: var(--trigo); }
 .selo-nota__estrelas svg { width: .95rem; height: .95rem; }
 .heroi h1 { grid-column: 1; grid-row: 2; font-size: 3rem; font-size: var(--t-h1); font-weight: 800; line-height: 1.1; letter-spacing: -.03em; text-shadow: 0 2px 20px rgb(0 0 0 / .3); }
-.heroi h1 .destaque { color: var(--trigo); }
+.heroi h1 .destaque { color: var(--verde-luz); }
 .heroi__apoio { grid-column: 1; grid-row: 3; align-self: start; margin-top: .85rem; font-size: var(--t-apoio); line-height: 1.5; color: rgb(255 255 255 / .9); max-width: 34rem; }
 .heroi__aparelho { grid-column: 2; grid-row: 2 / span 2; display: grid; justify-items: center; }
 .heroi__acoes { grid-column: 1 / -1; grid-row: 4; display: flex; flex-wrap: wrap; gap: .625rem; margin-top: 1.5rem; }
