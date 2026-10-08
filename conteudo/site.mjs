@@ -16,7 +16,7 @@ export const ENTIDADE = {
   instagram: 'https://www.instagram.com/finagro.app/',
   privacidade: 'https://projeto.finagro.app/pol%C3%ADtica-de-privacidade',
   logo: `${SITE}/icone-512.png`,
-  imagem: `${SITE}/assets/og/finagro-og-20261008.png`,
+  imagem: `${SITE}/assets/og/finagro-og-20261008b.png`,
   desenvolvedor: { nome: 'VisionX', url: 'https://visionxma.com/' },
   naoE: [
     'Não emite GTA: a guia é emitida no sistema da defesa agropecuária do estado; o FINAGRO registra as GTAs e lembra o vencimento.',
