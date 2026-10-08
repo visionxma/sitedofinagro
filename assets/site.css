@@ -386,3 +386,19 @@ input, select, textarea, button { font: inherit; font-size: max(16px, 1em); }
 .calc__saida div:first-child { background: var(--verde-900); }
 .calc__saida div:first-child b { color: var(--branco); font-size: var(--fs-2xl); }
 .calc__saida div:first-child span { color: rgb(255 255 255 / 0.85); }
+
+/* tablet com composição própria (600–1023) e copy resumida no celular (conferência em produção, 08/10) */
+@media (min-width: 48rem) {
+  .momentos { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .momento p { display: none; }
+  .modulos { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .provas { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+@media (min-width: 64rem) { .momento p { display: block; } }
+@media (max-width: 47.99rem) {
+  .secao:not(.confira) .titulo-sec p { display: none; }
+  .titulo-sec { margin-bottom: var(--sp-md); }
+  .campo-gratis li:nth-child(n + 5) { display: none; }
+  .planos__mais { grid-template-columns: minmax(0, 1fr); }
+  .planos__mais div { padding: 0.6rem 0.8rem; }
+}
