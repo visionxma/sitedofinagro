@@ -9,7 +9,7 @@ Site: https://finagro.app/ · Sistema: https://app.finagro.app/ · Android: http
 - Dinheiro: receitas, despesas, contas a pagar e a receber, fluxo de caixa com saldo previsto, centro de custo, relatórios em PDF e CSV, arquivo do LCDPR no leiaute da Receita.
 - Lavoura: safras, talhões, caderno de campo, custo por hectare, chuva do pluviômetro, colheita com o comprador.
 - Campo e equipe: área por GPS, máquinas e manutenção, estoque de insumos, clima da fazenda, mão de obra, pessoas com papel e permissão.
-- Mercado: cotação do boi gordo (CONAB), notícias do agro, marketplace de animais, simulador PRONAF/PRONAMP, assistente FINAGRO AI.
+- Mercado: cotação do boi gordo (CONAB), notícias do agro, marketplace de animais, simulador de crédito do Pronaf (com taxas de referência, não é proposta de banco), assistente FINAGRO AI.
 - O painel se monta pelo perfil da produção (gado de corte, leite, aves, suínos, peixes, abelhas, horta, grãos), com alertas da criação: vacina que trava a GTA, CBT do leite, oxigênio do tanque, vento para pulverizar.
 - Lançamento sem sinal fica no aparelho e sobe quando a internet volta.
 
@@ -18,6 +18,7 @@ Site: https://finagro.app/ · Sistema: https://app.finagro.app/ · Android: http
 - Não transmite o LCDPR à Receita: gera o arquivo no leiaute oficial com os lançamentos, e o contador completa e valida no programa da Receita.
 - Não é rastreador de animal por coleira ou brinco eletrônico, nem balança conectada.
 - Não tem aplicativo na App Store: no iPhone, funciona pelo navegador em app.finagro.app.
+- Não é o Finagro da Colômbia (Fondo para el Financiamiento del Sector Agropecuario, fundo de crédito com sede em Bogotá) nem tem relação com ele; não é do governo nem de banco e não empresta dinheiro.
 
 ## Preço (público, em reais)
 - Campo: grátis para sempre. Até 3 fazendas, Até 5 pessoas, 1.000 animais com ficha.
@@ -38,6 +39,60 @@ Produtor rural brasileiro de qualquer tamanho: do sítio com 12 vacas de leite �
 - [GTA: Guia de Trânsito Animal](https://finagro.app/gta): O que é, quem emite, o que trava a guia e como o app lembra o vencimento.
 - [LCDPR: Livro Caixa Digital do Produtor Rural](https://finagro.app/lcdpr): Quem é obrigado, prazo, multa e como gerar o arquivo com os lançamentos.
 - [Calculadora de GMD do gado](https://finagro.app/calculadora-gmd): Ganho médio diário: a conta, a calculadora e como usar o resultado na engorda.
+- [Guias, calculadoras e modelos do produtor rural](https://finagro.app/guias): Todas as páginas gratuitas do FINAGRO, por assunto.
+
+### Escolher um aplicativo
+- [Aplicativo para controle de gado grátis: como escolher](https://finagro.app/aplicativo-para-controle-de-gado) (guia): O que conferir antes de baixar e quanto custa.
+- [Melhores aplicativos de gestão rural em 2026: comparação](https://finagro.app/melhores-aplicativos-de-gestao-rural) (comparativo): Seis opções comparadas pelo que cada site publica.
+- [FINAGRO: o que é, quanto custa e para quem serve](https://finagro.app/o-que-e-o-finagro) (guia): O que faz, o que não faz, quanto custa e para quem é.
+- [Software de gestão rural grátis: o que cobrar do sistema](https://finagro.app/software-de-gestao-rural) (guia): O que cobrar de um sistema antes de contratar.
+
+### Gado de corte
+- [Calculadora de arroba do boi: peso vivo em @ e valor](https://finagro.app/calculadora-de-arroba) (calculadora): Peso vivo em arrobas e o valor do boi, na hora.
+- [Calculadora de gestação bovina: data do parto da vaca](https://finagro.app/calculadora-de-gestacao-bovina) (calculadora): Data do parto da vaca pela cobertura ou IA.
+- [Como emitir GTA: passo a passo e sistema de cada estado](https://finagro.app/como-emitir-gta) (guia): Passo a passo e o sistema de cada estado.
+- [Contrato de compra e venda de gado e recibo: modelos](https://finagro.app/contrato-de-compra-e-venda-de-gado) (modelo pronto): Contrato de compra e venda de gado e recibo, prontos.
+- [Cria, recria e engorda: fases do gado de corte](https://finagro.app/cria-recria-e-engorda) (guia): Entenda as fases e o registro que cada uma pede.
+- [Escore de condição corporal em bovinos: notas e como avaliar](https://finagro.app/escore-de-condicao-corporal) (guia): Notas de 1 a 5 e de 1 a 9 e quando avaliar.
+- [Estação de monta no gado de corte: como fazer e planejar](https://finagro.app/estacao-de-monta) (guia): Como planejar a monta e concentrar os partos.
+- [Ficha de controle de gado: modelo individual para imprimir](https://finagro.app/ficha-de-controle-de-gado) (modelo pronto): Ficha individual do animal, pronta para imprimir.
+- [Índices zootécnicos: prenhez, natalidade e desfrute](https://finagro.app/indices-zootecnicos) (calculadora): Prenhez, natalidade, desmama e desfrute.
+- [Peso do boi pela fita: como medir sem balança](https://finagro.app/peso-do-boi-pela-fita) (guia): Meça o tórax e estime o peso sem balança.
+- [Planilha de controle de gado grátis: modelo em Excel](https://finagro.app/planilha-de-controle-de-gado) (planilha): Planilha grátis para baixar, em Excel e CSV.
+- [Rendimento de carcaça bovina: calcule a porcentagem](https://finagro.app/rendimento-de-carcaca) (calculadora): Peso vivo e carcaça viram rendimento e arrobas.
+- [Taxa de lotação: calcule UA por hectare da pastagem](https://finagro.app/taxa-de-lotacao) (calculadora): Converta cabeças e peso em UA por hectare.
+
+### Leite
+- [Controle leiteiro: como fazer e planilha para baixar](https://finagro.app/controle-leiteiro) (planilha): Como pesar o leite de cada vaca, com planilha.
+- [Custo do litro de leite: calcule custo e margem](https://finagro.app/custo-do-litro-de-leite) (calculadora): Some os gastos e veja o custo e a margem de cada litro.
+
+### Lavoura
+- [Custo de produção por hectare: calcule por saca](https://finagro.app/custo-de-producao-por-hectare) (calculadora): Custo por hectare, por saca e ponto de equilíbrio.
+- [Sacas por hectare: calcule a produtividade da lavoura](https://finagro.app/produtividade-em-sacas-por-hectare) (calculadora): Passe a colheita em kg para sacas por hectare.
+
+### Dinheiro e imposto
+- [Funrural 2026: calculadora e como funciona o desconto](https://finagro.app/funrural) (calculadora): Funrural de uma venda: parcelas e total, na hora.
+- [Contrato de safra: modelo pronto e direitos do safrista](https://finagro.app/contrato-de-safra) (modelo pronto): Modelo pronto e os direitos do safrista pela lei.
+- [Gestão rural: por onde começar a organizar a fazenda](https://finagro.app/gestao-rural) (guia): Os quatro controles que organizam a fazenda.
+- [Imposto de renda do produtor rural 2026: quem declara](https://finagro.app/imposto-de-renda-produtor-rural) (guia): Quem declara, como apurar e o que guardar.
+- [Nota fiscal de produtor rural eletrônica: como emitir](https://finagro.app/nota-fiscal-de-produtor-rural) (guia): NF-e do produtor: quem emite, app e inscrição.
+- [Planilha de gestão rural grátis: receitas e despesas](https://finagro.app/planilha-de-gestao-rural) (planilha): Receitas e despesas da fazenda, grátis em Excel.
+- [Pronaf 2026: quem tem direito, linhas e juros](https://finagro.app/pronaf) (guia): Quem tem direito, linhas, juros e documentos.
+
+### Terra e documentos
+- [Quantos hectares tem um alqueire? Calculadora](https://finagro.app/alqueire-em-hectare) (calculadora): Converta alqueire paulista, mineiro, goiano e baiano.
+- [Aplicativo para medir área rural pelo celular](https://finagro.app/aplicativo-para-medir-area-rural) (guia): Meça pasto e talhão pelo GPS do celular, até sem sinal.
+- [CAF agricultura familiar: como tirar e quem tem direito](https://finagro.app/caf-agricultura-familiar) (guia): Quem tem direito ao CAF, como tirar e o que é da DAP.
+- [CAR rural: o que é, como fazer e como consultar o CAR](https://finagro.app/car-cadastro-ambiental-rural) (guia): O que é o CAR rural, como fazer e como consultar.
+- [CCIR: como emitir o certificado do Incra e pagar a taxa](https://finagro.app/ccir) (guia): Emitir o CCIR do Incra, pagar a taxa e atualizar o cadastro.
+- [Contrato de arrendamento rural: modelo e prazo mínimo](https://finagro.app/contrato-de-arrendamento-rural) (modelo pronto): Modelo pronto, prazo mínimo e limite do preço pela lei.
+- [Contrato de parceria rural: modelo, cotas e prazo mínimo](https://finagro.app/contrato-de-parceria-rural) (modelo pronto): Modelo pronto, cota máxima do dono da terra e prazo mínimo.
+- [ITR 2026: declaração, prazo, multa e quem é obrigado](https://finagro.app/itr) (guia): Prazo, multa e como entregar a declaração do ITR.
+- [Quantos metros tem um hectare? Calcule a área](https://finagro.app/quantos-metros-tem-um-hectare) (calculadora): Comprimento e largura viram m² e hectares.
+- [Tarefa de terra e linha: como cubar e converter](https://finagro.app/tarefa-e-linha-de-terra) (guia): Como cubar e converter medidas que mudam por região.
+
+### Outras criações
+- [Conversão alimentar: como calcular frango, suíno e peixe](https://finagro.app/conversao-alimentar) (calculadora): Ração por quilo ganho e eficiência do lote.
 
 ## Perguntas frequentes
 ### O FINAGRO é grátis mesmo?
@@ -59,7 +114,7 @@ Não. A GTA (Guia de Trânsito Animal) é emitida no sistema da defesa agropecu�
 Gera o arquivo do Livro Caixa Digital do Produtor Rural no leiaute da Receita Federal, com as receitas e despesas lançadas. O contador confere, completa os dados do contribuinte e das contas bancárias e valida no programa da Receita antes de entregar.
 
 ### Consigo trazer a planilha que já uso?
-Consegue. O FINAGRO importa planilha do Excel (.xls ou .xlsx), então ninguém precisa redigitar o rebanho ou os lançamentos que já estão na planilha.
+Consegue. No Excel, salve a planilha como CSV e envie o arquivo: o FINAGRO importa animais, despesas, receitas, fornecedores e itens de estoque, e ninguém precisa redigitar o que já está na planilha.
 
 ### Quantas pessoas podem usar a mesma fazenda?
 No plano Campo, 5 pessoas, cada uma com o seu papel e as suas permissões. Para mais gente: Essencial (10), Profissional (30), Avançado (100) ou pessoa extra por R$ 14,90 por mês.
