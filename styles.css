@@ -293,11 +293,25 @@ p { text-wrap: pretty; }
 .cartao > .aviso-do-app, .aviso-do-app { display: flex; gap: .7rem; align-items: flex-start; align-self: end; margin-top: .4rem; padding: 1rem 1.1rem; border-radius: .875rem; background: var(--noite); color: #fff; font-size: 1rem; line-height: 1.45; box-shadow: var(--sombra-2); }
 .aviso-do-app svg { width: 1.375rem; height: 1.375rem; flex: none; margin-top: .1rem; color: var(--trigo); }
 .aviso-do-app strong { display: block; margin-bottom: .15rem; font-family: var(--f-titulo); font-weight: 650; color: #fff; }
+/* celular: a mesma composição, com a copy resumida — a frase de apoio de cada cartão sai, ficam título e tela real;
+   "Dados seguros" e "Feito para o celular" lado a lado (manual celular-copia-a-composicao-do-computador) */
+@media (max-width: 47.99rem) {
+  .cartao { gap: .5rem; padding: .95rem; }
+  .cartao--a > p, .cartao--b > p, .cartao--c > p, .cartao--e > p:not(.aviso-do-app) { display: none; }
+  .cartao--d, .cartao--e { grid-column: span 1; }
+  .cartao--d .recorte { display: none; }
+  .cartao--d > p { font-size: .9375rem; }
+  .recorte--alto { max-height: 11rem; }
+  .cartao h3 { font-size: 1.0625rem; }
+  .cartao .icone { width: 2.25rem; height: 2.25rem; border-radius: .75rem; }
+  .cartao .icone svg { width: 1.15rem; height: 1.15rem; }
+  .cartao--e .aviso-do-app { flex-direction: column; gap: .4rem; padding: .85rem; font-size: .9375rem; }
+}
 @media (min-width: 48rem) {
   .bento { gap: 1rem; }
   .cartao--a, .cartao--b, .cartao--c, .cartao--d { grid-column: span 1; }
   .cartao--e { grid-column: 1 / -1; }
-  .recorte--alto { max-height: 17rem; }
+  .recorte--alto { max-height: 15rem; }
 }
 @media (min-width: 64rem) {
   .bento { grid-template-columns: repeat(6, minmax(0, 1fr)); }
@@ -377,6 +391,7 @@ p { text-wrap: pretty; }
 @media (min-width: 48rem) {
   .perfis { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.25rem; }
   .perfil__texto { padding: 1.1rem 1.25rem 1.3rem; }
+  .perfil__foto { aspect-ratio: 16 / 10; }
 }
 @media (min-width: 64rem) {
   .perfil__texto { padding-right: 10.5rem; min-height: 7rem; }
