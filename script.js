@@ -123,7 +123,7 @@
     };
     var parar = function () { if (relogio) { clearInterval(relogio); relogio = null; } galeria.parentElement.classList.remove('galeria--roda'); };
     var rodar = function () {
-      if (menosMovimento || relogio) return;
+      if (menosMovimento || relogio || !window.matchMedia('(max-width: 47.99rem)').matches) return;
       galeria.parentElement.classList.add('galeria--roda');
       galeria.parentElement.style.setProperty('--passo', PASSO + 'ms');
       relogio = setInterval(function () { mostrar(atual + 1); }, PASSO);
