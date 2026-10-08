@@ -76,12 +76,12 @@ p { text-wrap: pretty; }
 .botao svg { width: 1.25rem; height: 1.25rem; flex: none; }
 .botao--grande { --altura: 3.5rem; padding: .75rem 1.75rem; font-size: 1.0625rem; }
 .botao--cheio { color: #fff; background: var(--verde-botao) linear-gradient(100deg, transparent 30%, #247c52 50%, transparent 70%) -160% 0 / 55% 100% no-repeat; box-shadow: 0 10px 22px -14px rgb(0 0 0 / .55), inset 0 1px 0 rgb(255 255 255 / .14); }
-.botao--vidro { color: #fff; background: rgb(255 255 255 / .1); border: 1px solid rgb(255 255 255 / .34); -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px); }
+.botao--vidro { color: #fff; background: rgb(5 9 7 / .5); border: 1px solid rgb(255 255 255 / .38); -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px); }
 .botao--linha { color: var(--verde-fundo); border: 1.5px solid currentColor; background: transparent; }
 .botao:active { transform: scale(.98); }
 @media (hover: hover) and (pointer: fine) {
   .botao--cheio:hover { background-color: var(--verde-fundo); transform: translateY(-2px); box-shadow: 0 14px 26px -16px rgb(0 0 0 / .6), inset 0 1px 0 rgb(255 255 255 / .14); }
-  .botao--vidro:hover { background-color: rgb(255 255 255 / .18); border-color: rgb(255 255 255 / .6); transform: translateY(-2px); }
+  .botao--vidro:hover { background-color: rgb(5 9 7 / .66); border-color: rgb(255 255 255 / .6); transform: translateY(-2px); }
   .botao--linha:hover { background: var(--verde-claro); }
 }
 @media (prefers-reduced-motion: no-preference) {
@@ -194,8 +194,8 @@ p { text-wrap: pretty; }
 .heroi__video { opacity: 0; transition: opacity 1.1s ease; }
 .heroi__video.toca { opacity: 1; }
 .heroi__veu { position: absolute; inset: 0; background:
-  linear-gradient(180deg, rgb(8 24 15 / .74) 0%, rgb(8 24 15 / .34) 22%, rgb(8 24 15 / .38) 58%, rgb(8 24 15 / .9) 100%),
-  radial-gradient(120% 90% at 22% 52%, rgb(8 24 15 / .55), transparent 70%); }
+  radial-gradient(95% 62% at 34% 46%, rgb(5 9 7 / .72), rgb(5 9 7 / .46) 55%, transparent 85%),
+  linear-gradient(180deg, rgb(5 9 7 / .66) 0%, rgb(5 9 7 / .32) 18%, rgb(5 9 7 / .36) 62%, rgb(5 9 7 / .88) 100%); }
 .heroi__veu::after { content: ""; position: absolute; inset: 0; opacity: .07; mix-blend-mode: overlay; pointer-events: none;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23g)'/%3E%3C/svg%3E"); }
 
@@ -230,10 +230,19 @@ p { text-wrap: pretty; }
   .celular--heroi { width: var(--heroi-celular); }
   .heroi__acoes .botao { flex: 0 0 auto; }
   .heroi__veu { background:
-    linear-gradient(90deg, rgb(8 24 15 / .84) 0%, rgb(8 24 15 / .58) 38%, rgb(8 24 15 / .16) 70%, rgb(8 24 15 / .32) 100%),
-    linear-gradient(180deg, rgb(8 24 15 / .58) 0%, transparent 22%, transparent 66%, rgb(8 24 15 / .88) 100%); }
+    radial-gradient(48% 62% at 24% 52%, rgb(5 9 7 / .56), transparent 100%),
+    linear-gradient(90deg, rgb(5 9 7 / .78) 0%, rgb(5 9 7 / .6) 36%, rgb(5 9 7 / .2) 60%, rgb(5 9 7 / .06) 100%),
+    linear-gradient(180deg, rgb(5 9 7 / .66) 0%, rgb(5 9 7 / .48) 8%, transparent 21%, transparent 72%, rgb(5 9 7 / .82) 100%); }
   .heroi__fatos { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1rem; padding-top: 1.1rem; padding-bottom: 1.5rem; }
   .heroi__fatos li { font-size: .9375rem; }
+}
+
+/* larguras intermediárias (768–1279): o texto ocupa uma fatia maior da tela, então a sombra atrás dele vai mais longe */
+@media (min-width: 48rem) and (max-width: 79.99rem) {
+  .heroi__veu { background:
+    radial-gradient(60% 68% at 28% 52%, rgb(5 9 7 / .62), transparent 100%),
+    linear-gradient(90deg, rgb(5 9 7 / .8) 0%, rgb(5 9 7 / .68) 44%, rgb(5 9 7 / .3) 66%, rgb(5 9 7 / .08) 100%),
+    linear-gradient(180deg, rgb(5 9 7 / .66) 0%, rgb(5 9 7 / .48) 8%, transparent 21%, transparent 72%, rgb(5 9 7 / .82) 100%); }
 }
 
 /* tablet em pé: o celular cresce com a altura da tela (no iPad em pé sobrava vazio em volta de um aparelho pequeno) */
