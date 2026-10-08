@@ -38,3 +38,7 @@ aplicativo-para-controle-de-gado
 software-de-gestao-rural
 gestao-rural
 melhores-aplicativos-de-gestao-rural
+custo-da-arroba-produzida
+glossario-rural
+confinamento-de-gado
+pluviometro
