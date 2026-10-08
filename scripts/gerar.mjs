@@ -144,6 +144,7 @@ function cabeca(pagina, titulo, descricao) {
 <link rel="icon" href="/icone-192.png" type="image/png" sizes="192x192">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="manifest" href="/site.webmanifest">${pagina === '/' ? `\n<meta name="google-site-verification" content="${VERIFICACAO_GOOGLE}">\n<meta name="msvalidate.01" content="${VERIFICACAO_BING}">` : ''}
+<link rel="alternate" type="application/atom+xml" title="Guias do FINAGRO" href="/guias.xml">
 <script src="/assets/medir.js" defer></script>`;
 }
 
@@ -245,7 +246,9 @@ ${TODAS.map((p) => `  <url><loc>${SITE}${p.caminho}</loc><lastmod>${p.atualizado
 </urlset>
 `);
 
-const ROBOS = ['Googlebot', 'Googlebot-Image', 'Google-Extended', 'Bingbot', 'DuckDuckBot', 'YandexBot', 'Applebot', 'Applebot-Extended', 'GPTBot', 'OAI-SearchBot', 'ChatGPT-User', 'PerplexityBot', 'Perplexity-User', 'ClaudeBot', 'Claude-User', 'Claude-SearchBot', 'anthropic-ai', 'CCBot', 'Amazonbot', 'Bytespider', 'meta-externalagent', 'FacebookBot', 'LinkedInBot', 'Twitterbot', 'WhatsApp', 'cohere-ai', 'YouBot', 'Diffbot', 'PetalBot'];
+const ROBOS = ['Googlebot', 'Googlebot-Image', 'Google-Extended', 'Bingbot', 'DuckDuckBot', 'YandexBot', 'Applebot', 'Applebot-Extended', 'GPTBot', 'OAI-SearchBot', 'ChatGPT-User', 'PerplexityBot', 'Perplexity-User', 'ClaudeBot', 'Claude-User', 'Claude-SearchBot', 'anthropic-ai', 'CCBot', 'Amazonbot', 'Bytespider', 'meta-externalagent', 'FacebookBot', 'LinkedInBot', 'Twitterbot', 'WhatsApp', 'cohere-ai', 'YouBot', 'Diffbot', 'PetalBot', 'ImagesiftBot', 'Timpibot',
+  // outros buscadores e assistentes: Yahoo, Baidu, Naver, Seznam, Mojeek, Qwant, Brave, Kagi, DuckDuckGo (respostas), Mistral, Meta, Vertex, Phind
+  'Slurp', 'Baiduspider', 'Yeti', 'SeznamBot', 'MojeekBot', 'Qwantbot', 'Bravebot', 'Kagibot', 'DuckAssistBot', 'MistralAI-User', 'Meta-ExternalFetcher', 'Google-CloudVertexBot', 'AI2Bot', 'PhindBot'];
 fs.writeFileSync(path.join(RAIZ, 'robots.txt'), `# finagro.app: página de apresentação do FINAGRO. Busca e assistentes de IA são bem-vindos.
 # O sistema (app.finagro.app) é outro endereço, com a área logada.
 ${ROBOS.map((r) => `User-agent: ${r}`).join('\n')}
@@ -301,6 +304,21 @@ fs.writeFileSync(path.join(RAIZ, 'BingSiteAuth.xml'), `<?xml version="1.0"?>\n<u
 fs.writeFileSync(path.join(RAIZ, 'site.webmanifest'), JSON.stringify({ name: 'FINAGRO', short_name: 'FINAGRO', lang: 'pt-BR', start_url: '/', display: 'browser', background_color: '#f6f7f4', theme_color: '#0f2b1d',
   icons: [{ src: '/icone-192.png', sizes: '192x192', type: 'image/png' }, { src: '/icone-512.png', sizes: '512x512', type: 'image/png' }] }, null, 1));
 console.log('sitemap, robots, llms, llms-full, indexnow e manifest escritos');
+
+// ---------- alimentador (Atom) dos guias: leitores, agregadores e rastreadores acham página nova sem esperar o mapa ----------
+const xml = (t) => String(t).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+fs.writeFileSync(path.join(RAIZ, 'guias.xml'), `<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pt-BR">
+  <title>FINAGRO: guias, calculadoras e modelos do produtor rural</title>
+  <subtitle>Páginas gratuitas do FINAGRO, com a fonte oficial de cada regra.</subtitle>
+  <id>${SITE}/guias</id>
+  <link href="${SITE}/guias"/>
+  <link rel="self" type="application/atom+xml" href="${SITE}/guias.xml"/>
+  <updated>${ATUALIZADO}T12:00:00-03:00</updated>
+  <author><name>FINAGRO</name><uri>${SITE}/</uri></author>
+${GUIAS.map((g) => `  <entry><title>${xml(g.titulo)}</title><link href="${SITE}${g.caminho}"/><id>${SITE}${g.caminho}</id><updated>${g.atualizado}T12:00:00-03:00</updated><category term="${xml(GRUPOS[g.grupo][0])}"/><summary>${xml(g.resumo)}</summary></entry>`).join('\n')}
+</feed>
+`);
 
 // ---------- portão de links internos: nenhuma página aponta para o que não existe ----------
 // `node scripts/gerar.mjs --estrito` sai com erro se houver link quebrado (é o que roda antes de publicar).

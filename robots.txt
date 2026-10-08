@@ -29,6 +29,22 @@ User-agent: cohere-ai
 User-agent: YouBot
 User-agent: Diffbot
 User-agent: PetalBot
+User-agent: ImagesiftBot
+User-agent: Timpibot
+User-agent: Slurp
+User-agent: Baiduspider
+User-agent: Yeti
+User-agent: SeznamBot
+User-agent: MojeekBot
+User-agent: Qwantbot
+User-agent: Bravebot
+User-agent: Kagibot
+User-agent: DuckAssistBot
+User-agent: MistralAI-User
+User-agent: Meta-ExternalFetcher
+User-agent: Google-CloudVertexBot
+User-agent: AI2Bot
+User-agent: PhindBot
 Allow: /
 
 User-agent: *
