@@ -6,11 +6,60 @@
   "installCommand": null,
   "outputDirectory": ".",
   "redirects": [
-    { "source": "/:caminho*", "has": [{ "type": "host", "value": "www.finagro.app" }], "destination": "https://finagro.app/:caminho*", "permanent": true }
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.finagro.app"
+        }
+      ],
+      "destination": "https://finagro.app/",
+      "permanent": true
+    },
+    {
+      "source": "/:caminho*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.finagro.app"
+        }
+      ],
+      "destination": "https://finagro.app/:caminho*",
+      "permanent": true
+    }
   ],
   "headers": [
-    { "source": "/assets/(telas|videos|marca|og|fontes)/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=2592000, stale-while-revalidate=86400" }] },
-    { "source": "/(.*)\\.txt", "headers": [{ "key": "Content-Type", "value": "text/plain; charset=utf-8" }] },
-    { "source": "/(.*)", "headers": [{ "key": "X-Content-Type-Options", "value": "nosniff" }, { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" }] }
+    {
+      "source": "/assets/(telas|videos|marca|og|fontes)/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=2592000, stale-while-revalidate=86400"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)\\.txt",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/plain; charset=utf-8"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        }
+      ]
+    }
   ]
 }
