@@ -45,7 +45,7 @@ const topo = (inicio) => `<header class="topo${inicio ? '' : ' topo--flutua topo
   <div class="topo__barra">
     <a class="topo__marca" href="/" aria-label="FINAGRO, página inicial">${marca('topo__logo')}</a>
     <nav class="topo__nav" aria-label="Seções da página">
-      ${SECOES.map(([h, t]) => `<a href="${h}">${t}</a>`).join('')}
+      ${[...SECOES, ['/guias', 'Guias']].map(([h, t]) => `<a href="${h}">${t}</a>`).join('')}
     </nav>
     <div class="topo__acoes">
       <a class="topo__entrar" href="${ENTIDADE.app}">Entrar</a>
@@ -53,7 +53,7 @@ const topo = (inicio) => `<header class="topo${inicio ? '' : ' topo--flutua topo
       <button class="topo__menu" type="button" aria-expanded="false" aria-controls="topo-painel" aria-label="Abrir menu">${svgMenu}</button>
     </div>
     <nav class="topo__painel" id="topo-painel" aria-label="Menu" hidden>
-      ${SECOES.map(([h, t]) => `<a href="${h}">${t}</a>`).join('')}
+      ${[...SECOES, ['/guias', 'Guias']].map(([h, t]) => `<a href="${h}">${t}</a>`).join('')}
       <a href="${ENTIDADE.app}">Entrar no app</a>
       <a class="botao botao--cheio" href="${PLAY}">Baixar para Android</a>
     </nav>

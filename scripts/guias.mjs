@@ -212,6 +212,12 @@ function pagina(g, mapa) {
   const temModelo = g.secoes.some((s) => s.blocos.some((b) => b.modelo));
   const data = (g.atualizado || mapa.ATUALIZADO).split('-').reverse().join('/');
   const veja = g.relacionados.map((s) => mapa.todos.get(s)).filter(Boolean);
+  // Do mesmo assunto: as 5 páginas seguintes do grupo, em roda. Sem isso, guia novo só recebia ligação do índice
+  // (em 09/10/2026, 11 páginas só eram alcançadas por /guias e pelo mapa do site).
+  const doGrupo = [...mapa.todos.values()].filter((x) => x.grupo === g.grupo);
+  const eu = doGrupo.findIndex((x) => x.slug === g.slug);
+  const vizinhos = [];
+  for (let k = 1; k < doGrupo.length && vizinhos.length < 5; k++) { const v = doGrupo[(eu + k) % doGrupo.length]; if (v.slug !== g.slug && !veja.some((x) => x.slug === v.slug)) vizinhos.push(v); }
   const lista = (itens) => itens.map((x, k) => (k === 0 ? '' : k === itens.length - 1 ? ' e ' : ', ') + x).join('');
   return `<!doctype html>
 <html lang="pt-BR">
@@ -267,7 +273,7 @@ ${g.faq.map(([q, a]) => `        <details name="faq"><summary>${esc(q)}</summary
       </div>
 
       ${g.fontes.length ? `<div class="fontes"><p><strong>Fontes</strong></p><ul class="fontes__lista">${g.fontes.map((f) => `<li><a href="${esc(f.url)}" rel="noopener">${esc(f.nome)}</a></li>`).join('')}</ul></div>` : ''}
-      <nav class="veja" aria-label="Veja também"><p>Veja também</p><div class="veja__lista">${veja.map((v) => `<a href="/${v.slug}">${esc(v.curto)}</a>`).join('')}<a class="veja__todos" href="/guias">Todos os guias</a></div></nav>
+      <nav class="veja" aria-label="Veja também"><p>Veja também</p><div class="veja__lista">${veja.map((v) => `<a href="/${v.slug}">${esc(v.curto)}</a>`).join('')}<a class="veja__todos" href="/guias">Todos os guias</a></div>${vizinhos.length ? `<p class="veja__grupo">Do mesmo assunto</p><div class="veja__lista">${vizinhos.map((v) => `<a href="/${v.slug}">${esc(v.curto)}</a>`).join('')}</div>` : ''}</nav>
     </div>
     <aside class="artigo__lado" aria-label="Nesta página">
       <nav class="artigo__indice" aria-label="Seções desta página"><p>Nesta página</p><ol>

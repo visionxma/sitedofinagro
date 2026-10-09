@@ -27,6 +27,86 @@
       ],
       "destination": "https://finagro.app/:caminho*",
       "permanent": true
+    },
+    {
+      "source": "/historia",
+      "destination": "https://projeto.finagro.app/historia",
+      "permanent": true
+    },
+    {
+      "source": "/equipe",
+      "destination": "https://projeto.finagro.app/equipe",
+      "permanent": true
+    },
+    {
+      "source": "/premia%C3%A7%C3%B5es",
+      "destination": "https://projeto.finagro.app/premia%C3%A7%C3%B5es",
+      "permanent": true
+    },
+    {
+      "source": "/premiações",
+      "destination": "https://projeto.finagro.app/premia%C3%A7%C3%B5es",
+      "permanent": true
+    },
+    {
+      "source": "/conhe%C3%A7a-o-app",
+      "destination": "https://projeto.finagro.app/conhe%C3%A7a-o-app",
+      "permanent": true
+    },
+    {
+      "source": "/conheça-o-app",
+      "destination": "https://projeto.finagro.app/conhe%C3%A7a-o-app",
+      "permanent": true
+    },
+    {
+      "source": "/in%C3%ADcio",
+      "destination": "https://projeto.finagro.app/in%C3%ADcio",
+      "permanent": true
+    },
+    {
+      "source": "/início",
+      "destination": "https://projeto.finagro.app/in%C3%ADcio",
+      "permanent": true
+    },
+    {
+      "source": "/pol%C3%ADtica-de-privacidade",
+      "destination": "https://projeto.finagro.app/pol%C3%ADtica-de-privacidade",
+      "permanent": true
+    },
+    {
+      "source": "/política-de-privacidade",
+      "destination": "https://projeto.finagro.app/pol%C3%ADtica-de-privacidade",
+      "permanent": true
+    },
+    {
+      "source": "/exclus%C3%A3o-de-dados",
+      "destination": "https://projeto.finagro.app/exclus%C3%A3o-de-dados",
+      "permanent": true
+    },
+    {
+      "source": "/exclusão-de-dados",
+      "destination": "https://projeto.finagro.app/exclus%C3%A3o-de-dados",
+      "permanent": true
+    },
+    {
+      "source": "/siganos",
+      "destination": "https://projeto.finagro.app/siganos",
+      "permanent": true
+    },
+    {
+      "source": "/sugestoes",
+      "destination": "https://projeto.finagro.app/sugestoes",
+      "permanent": true
+    },
+    {
+      "source": "/termos-e-condi%C3%A7%C3%B5es-gerais-de-uso",
+      "destination": "https://projeto.finagro.app/termos-e-condi%C3%A7%C3%B5es-gerais-de-uso",
+      "permanent": true
+    },
+    {
+      "source": "/termos-e-condições-gerais-de-uso",
+      "destination": "https://projeto.finagro.app/termos-e-condi%C3%A7%C3%B5es-gerais-de-uso",
+      "permanent": true
     }
   ],
   "headers": [

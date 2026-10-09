@@ -672,7 +672,8 @@ Consegue. No Excel, salve a planilha como CSV e envie o arquivo. O FINAGRO impor
 Preciso cadastrar animal por animal?
 Não. Você pode cadastrar só o lote, com o número de cabeças e o peso, e deixar a ficha individual para matrizes, touros e animais que você acompanha de perto.
 Veja também
-Planilha de controle de gadoControle de rebanhoSoftware de gestão ruralTodos os guias
+Planilha de controle de gadoControle de rebanhoSoftware de gestão ruralTodos os guiasDo mesmo assunto
+Melhores apps de gestãoO que é o FINAGRO
 Nesta página
 Sete coisas para conferir antes de baixar qualquer um
 Caderno, planilha ou aplicativo
@@ -763,7 +764,8 @@ JetBov, planos e preços
 iRancho, perguntas frequentes
 Ideagri, corte
 Veja também
-App para controle de gadoSoftware de gestão ruralPlanilha de controle de gadoTodos os guias
+App para controle de gadoSoftware de gestão ruralPlanilha de controle de gadoTodos os guiasDo mesmo assunto
+O que é o FINAGRO
 Nesta página
 Como esta comparação foi feita
 A comparação lado a lado
@@ -938,7 +940,8 @@ Não. Ele organiza receitas e despesas e gera o arquivo do LCDPR no leiaute da R
 Quanto tempo leva para começar a usar?
 O cadastro leva alguns minutos, sem implantação e sem treinamento agendado. Quem já tem planilha salva o arquivo como CSV, importa e começa com o rebanho carregado.
 Veja também
-App para controle de gadoGestão ruralPlanilha de gestão ruralTodos os guias
+App para controle de gadoGestão ruralPlanilha de gestão ruralTodos os guiasDo mesmo assunto
+Melhores apps de gestãoO que é o FINAGRO
 Nesta página
 O que o sistema tem de cobrir
 Sistema instalado, sistema na nuvem ou aplicativo
@@ -1031,7 +1034,8 @@ Embrapa Gado de Corte, diferenças entre peso em quilogramas e em arrobas
 Embrapa Gado de Corte, como calcular o rendimento de carcaça
 Cepea/Esalq, indicador do boi gordo
 Veja também
-Rendimento de carcaçaCalculadora de GMDPeso do boi pela fitaTodos os guias
+Rendimento de carcaçaCalculadora de GMDPeso do boi pela fitaTodos os guiasDo mesmo assunto
+Calculadora de gestaçãoVacinação bovinaComo emitir GTAConfinamento de gadoContrato e recibo de gado
 Nesta página
 Calcule as arrobas e o valor
 Quantos quilos tem uma arroba
@@ -1125,7 +1129,8 @@ Embrapa Gado de Corte, duração da gestação e intervalo entre partos
 Embrapa, Reprodução (perguntas e respostas sobre gestação e secagem)
 Embrapa, duração da gestação em gado zebu
 Veja também
-Estação de montaÍndices zootécnicosControle de rebanhoTodos os guias
+Estação de montaÍndices zootécnicosControle de rebanhoTodos os guiasDo mesmo assunto
+Vacinação bovinaComo emitir GTAConfinamento de gadoContrato e recibo de gadoCria, recria e engorda
 Nesta página
 Calcule o parto, a secagem e o diagnóstico
 Quantos dias dura a gestação da vaca
@@ -1235,7 +1240,8 @@ AGED (MA), emissão de GTA ou e-GTA
 Cidasc (SC), SIGEN+
 Governo de Rondônia, GTA online da Idaron
 Veja também
-GTADeclaração de rebanhoVacinação bovinaTodos os guias
+GTADeclaração de rebanhoVacinação bovinaTodos os guiasDo mesmo assunto
+Confinamento de gadoContrato e recibo de gadoCria, recria e engordaCusto da arroba produzidaEscore corporal bovino
 Nesta página
 O que precisa estar em dia antes de abrir o sistema
 Passo a passo para emitir a GTA online
@@ -1341,7 +1347,8 @@ Suba o concentrado em etapas de 3 a 7 dias, ou aumente aos poucos a oferta da ra
 Fontes
 Embrapa, Estratégias alimentares para gado de corte: suplementação a pasto, semiconfinamento e confinamento
 Veja também
-Calculadora de GMDCusto da arroba produzidaCria, recria e engordaTodos os guias
+Calculadora de GMDCusto da arroba produzidaCria, recria e engordaTodos os guiasDo mesmo assunto
+Contrato e recibo de gadoDeclaração de rebanhoEscore corporal bovinoEstação de montaFicha de controle de gado
 Nesta página
 Calcule o ganho e o custo no cocho
 O que é confinamento e o que é semiconfinamento
@@ -1459,7 +1466,8 @@ Embrapa Gado de Corte, como calcular o rendimento de carcaça
 IDAF-ES, perguntas frequentes sobre a Guia de Trânsito Animal
 Confaz, Ajuste SINIEF 10/2022, nota fiscal eletrônica do produtor rural
 Veja também
-Calculadora de arrobaNota fiscal de produtorGTATodos os guias
+Calculadora de arrobaNota fiscal de produtorGTATodos os guiasDo mesmo assunto
+Cria, recria e engordaCusto da arroba produzidaDeclaração de rebanhoEscore corporal bovinoEstação de monta
 Nesta página
 Modelo de contrato de compra e venda de gado
 Modelo de recibo de venda de gado
@@ -1551,7 +1559,8 @@ Na cria, nascimento e desmama quando medidos; na recria e engorda, peso de entra
 Fontes
 Embrapa Gado de Corte, considerações econômicas sobre a produção de bezerros de corte
 Veja também
-Controle de rebanhoCalculadora de GMDRendimento de carcaçaTodos os guias
+Controle de rebanhoCalculadora de GMDRendimento de carcaçaTodos os guiasDo mesmo assunto
+Custo da arroba produzidaDeclaração de rebanhoEscore corporal bovinoEstação de montaFicha de controle de gado
 Nesta página
 As três fases do gado de corte
 Cria: do nascimento à desmama
@@ -1658,7 +1667,8 @@ Embrapa Gado de Corte, Custos de produção na pecuária de corte
 Embrapa Pantanal, Custo de produção da pecuária de corte no Pantanal de Corumbá (Circular Técnica 126, 2024)
 Embrapa Gado de Corte, diferenças entre peso em quilogramas e em arrobas
 Veja também
-Calculadora de arrobaCria, recria e engordaCusto por hectareTodos os guias
+Calculadora de arrobaCria, recria e engordaCusto por hectareTodos os guiasDo mesmo assunto
+Declaração de rebanhoEscore corporal bovinoEstação de montaFicha de controle de gadoÍndices zootécnicos
 Nesta página
 Calcule o custo e a margem da arroba
 Como calcular o custo da arroba produzida
@@ -1773,7 +1783,8 @@ Alagoas Digital, declaração de atualização cadastral dos produtores
 Adagro (PE), campanha de atualização cadastral 2026
 Adepará (PA), campanha de atualização cadastral
 Veja também
-Como emitir GTAVacinação bovinaControle de rebanhoTodos os guias
+Como emitir GTAVacinação bovinaControle de rebanhoTodos os guiasDo mesmo assunto
+Escore corporal bovinoEstação de montaFicha de controle de gadoÍndices zootécnicosPeso do boi pela fita
 Nesta página
 O que é a declaração de rebanho e por que existe
 Quem precisa declarar e o que informar
@@ -1864,7 +1875,8 @@ Um profissional treinado. A nota é subjetiva, então use sempre a mesma escala 
 Fontes
 Embrapa Pecuária Sudeste, Escore da condição corporal e sua aplicação no manejo reprodutivo de ruminantes (Circular Técnica 57)
 Veja também
-Estação de montaCalculadora de gestaçãoCalculadora de GMDTodos os guias
+Estação de montaCalculadora de gestaçãoCalculadora de GMDTodos os guiasDo mesmo assunto
+Ficha de controle de gadoÍndices zootécnicosPeso do boi pela fitaPlanilha de controle de gadoRastreabilidade bovina
 Nesta página
 O que é o escore de condição corporal
 Escala de 1 a 5 para gado de corte
@@ -1950,7 +1962,8 @@ Pode. Segundo a Embrapa, a inseminação artificial, seja por cio observado ou e
 Fontes
 Embrapa Gado de Corte, Estação de Monta em Rebanhos de Gado de Corte (Comunicado Técnico 134)
 Veja também
-Calculadora de gestaçãoEscore corporal bovinoÍndices zootécnicosTodos os guias
+Calculadora de gestaçãoEscore corporal bovinoÍndices zootécnicosTodos os guiasDo mesmo assunto
+Ficha de controle de gadoPeso do boi pela fitaPlanilha de controle de gadoRastreabilidade bovinaRendimento de carcaça
 Nesta página
 O que é estação de monta
 Por que concentrar os nascimentos
@@ -2043,7 +2056,8 @@ Fontes
 Embrapa Gado de Corte, fichas para controle zootécnico de bovinos de corte
 Embrapa Gado de Leite, controle reprodutivo e escrituração zootécnica
 Veja também
-Planilha de controle de gadoCalculadora de gestaçãoVacinação bovinaTodos os guias
+Planilha de controle de gadoCalculadora de gestaçãoVacinação bovinaTodos os guiasDo mesmo assunto
+Índices zootécnicosPeso do boi pela fitaRastreabilidade bovinaRendimento de carcaçaTaxa de lotação
 Nesta página
 Ficha individual de bovino para imprimir
 Como preencher cada parte da ficha
@@ -2127,7 +2141,8 @@ Fontes
 Embrapa, Indicadores de desempenho na pecuária de corte (Documentos 237)
 Embrapa Gado de Corte, duração da gestação e intervalo entre partos
 Veja também
-Calculadora de gestaçãoEstação de montaControle de rebanhoTodos os guias
+Calculadora de gestaçãoEstação de montaControle de rebanhoTodos os guiasDo mesmo assunto
+Peso do boi pela fitaPlanilha de controle de gadoRastreabilidade bovinaRendimento de carcaçaTaxa de lotação
 Nesta página
 Calcule os índices da sua cria
 Os quatro índices da cria em uma conta
@@ -2211,7 +2226,8 @@ Não. O FINAGRO guarda o peso informado na ficha e calcula o ganho entre pesagen
 Fontes
 Embrapa Pecuária Sul, eficiência da fita de perímetro torácico em terneiras Jersey
 Veja também
-Calculadora de GMDControle de rebanhoRendimento de carcaçaTodos os guias
+Calculadora de GMDControle de rebanhoRendimento de carcaçaTodos os guiasDo mesmo assunto
+Planilha de controle de gadoRastreabilidade bovinaTaxa de lotaçãoGTACalculadora de arroba
 Nesta página
 Como a fita estima o peso do gado
 Passo a passo para medir direito
@@ -2314,7 +2330,8 @@ Serve enquanto uma pessoa só lança e o arquivo cabe na tela. Com vários lanç
 Fontes
 Embrapa Gado de Corte, fichas para controle zootécnico de bovinos de corte
 Veja também
-App para controle de gadoFicha de controle de gadoCalculadora de GMDTodos os guias
+App para controle de gadoFicha de controle de gadoCalculadora de GMDTodos os guiasDo mesmo assunto
+Rastreabilidade bovinaRendimento de carcaçaTaxa de lotaçãoControle de rebanhoGTA
 Nesta página
 Baixe a planilha de controle de gado
 O que anotar em cada coluna
@@ -2398,7 +2415,8 @@ Adapar (PR), plano de identificação de bovinos
 Secretaria da Agricultura do RS, plano nacional de rastreabilidade individual até 2032
 Secretaria da Agricultura do RS, GT de rastreabilidade com o Ministério da Agricultura
 Veja também
-Como emitir GTADeclaração de rebanhoControle de rebanhoTodos os guias
+Como emitir GTADeclaração de rebanhoControle de rebanhoTodos os guiasDo mesmo assunto
+Rendimento de carcaçaTaxa de lotaçãoCalculadora de GMDGTACalculadora de arroba
 Nesta página
 O que é rastreabilidade bovina
 SISBOV: o que é e quem precisa estar nele
@@ -2488,7 +2506,8 @@ Embrapa Gado de Corte, forma correta de calcular o rendimento de carcaça
 Decreto nº 9.013, definição de carcaça
 Embrapa Gado de Corte, quilogramas e arrobas
 Veja também
-Calculadora de arrobaCalculadora de GMDPeso do boi pela fitaTodos os guias
+Calculadora de arrobaCalculadora de GMDPeso do boi pela fitaTodos os guiasDo mesmo assunto
+Taxa de lotaçãoControle de rebanhoGTACalculadora de gestaçãoVacinação bovina
 Nesta página
 Calcule o rendimento e as arrobas
 A conta do rendimento de carcaça
@@ -2579,7 +2598,8 @@ Fontes
 Embrapa Gado de Leite, Manejo de pastagens tropicais
 Embrapa Gado de Corte, uso de animais na avaliação de forrageiras
 Veja também
-Controle de rebanhoCalculadora de GMDCaderno de campoTodos os guias
+Controle de rebanhoCalculadora de GMDCaderno de campoTodos os guiasDo mesmo assunto
+GTACalculadora de arrobaCalculadora de gestaçãoVacinação bovinaComo emitir GTA
 Nesta página
 Calcule a taxa de lotação
 Como fazer a conta da taxa de lotação
@@ -2676,7 +2696,8 @@ DIAGRO (AP), raiva dos herbívoros
 Adapar (PR), vacinação contra raiva no Oeste
 Embrapa Gado de Corte, cronograma sanitário e reprodutivo para bovinos de corte
 Veja também
-Como emitir GTADeclaração de rebanhoRastreabilidade bovinaTodos os guias
+Como emitir GTADeclaração de rebanhoRastreabilidade bovinaTodos os guiasDo mesmo assunto
+Confinamento de gadoContrato e recibo de gadoCria, recria e engordaCusto da arroba produzidaEscore corporal bovino
 Nesta página
 O calendário em uma tabela
 Brucelose: a vacina obrigatória do PNCEBT
@@ -2948,7 +2969,8 @@ Divida o custo por hectare pelo preço de cada saca. O resultado mostra quantas 
 Fontes
 Conab, Norma 30.302: Metodologia do Custo de Produção
 Veja também
-Sacas por hectareCaderno de campoFluxo de caixa ruralTodos os guias
+Sacas por hectareCaderno de campoFluxo de caixa ruralTodos os guiasDo mesmo assunto
+Pluviômetro
 Nesta página
 Calcule o custo da lavoura
 A conta do custo por hectare e por saca
@@ -3056,7 +3078,8 @@ ANA, manual de instalação, operação e manutenção de estações pluviométr
 ANA, cartilha do observador: pluviometria
 Cemaden Educação, confecção e instalação do pluviômetro de garrafa PET
 Veja também
-Caderno de campoTaxa de lotaçãoSacas por hectareTodos os guias
+Caderno de campoTaxa de lotaçãoSacas por hectareTodos os guiasDo mesmo assunto
+Custo por hectare
 Nesta página
 Converta milímetros em litros
 1 mm de chuva equivale a quantos litros
@@ -3145,7 +3168,8 @@ Fontes
 Conab, Portaria nº 190 de 10 de junho de 2020, unidades de soja, milho e arroz
 Governo Federal e Conab, serviço Descontos de Armazenagem
 Veja também
-Custo por hectareCaderno de campoFluxo de caixa ruralTodos os guias
+Custo por hectareCaderno de campoFluxo de caixa ruralTodos os guiasDo mesmo assunto
+Pluviômetro
 Nesta página
 Calcule a produtividade por hectare
 A conta de sacas por hectare
@@ -3238,7 +3262,8 @@ Lei 8.212/1991, art. 22, 25 e 30 (Planalto)
 Lei 9.528/1997, art. 6º, contribuição ao Senar (Planalto)
 Lei 13.606/2018, opção pela folha de pagamento (Planalto)
 Veja também
-Fluxo de caixa ruralImposto de renda ruralNota fiscal de produtorTodos os guias
+Fluxo de caixa ruralImposto de renda ruralNota fiscal de produtorTodos os guiasDo mesmo assunto
+Gestão ruralGlossário ruralInscrição estadualPlanilha de gestão ruralPronaf 2026
 Nesta página
 Calcule o Funrural da venda
 O que é o Funrural e quanto custa
@@ -3366,7 +3391,8 @@ Lei 4.090/1962, gratificação de Natal
 Lei 8.036/1990, FGTS, arts. 15 e 20
 Constituição Federal, art. 7º
 Veja também
-Contrato de parceria ruralCalculadora de FunruralFluxo de caixa ruralTodos os guias
+Contrato de parceria ruralCalculadora de FunruralFluxo de caixa ruralTodos os guiasDo mesmo assunto
+Gestão ruralGlossário ruralImposto de renda ruralInscrição estadualNota fiscal de produtor
 Nesta página
 Modelo de contrato de safra
 O que a lei diz do contrato de safra
@@ -3450,7 +3476,8 @@ Não. Dá para começar no caderno e seguir no celular. O que importa é anotar 
 Qual a diferença entre gestão rural e contabilidade?
 A contabilidade cuida dos impostos e das declarações, olhando o que já passou. A gestão usa os mesmos lançamentos para decidir o mês que vem. Uma alimenta a outra, e o contador continua necessário.
 Veja também
-Fluxo de caixa ruralControle de rebanhoPlanilha de gestão ruralTodos os guias
+Fluxo de caixa ruralControle de rebanhoPlanilha de gestão ruralTodos os guiasDo mesmo assunto
+Glossário ruralImposto de renda ruralInscrição estadualNota fiscal de produtorPronaf 2026
 Nesta página
 Os quatro controles
 A primeira semana: um controle por dia
@@ -3518,7 +3545,8 @@ Embrapa Pantanal, custo de produção da pecuária de corte (Circular Técnica 1
 Serviço Geológico do Brasil, elementos que caracterizam o clima
 Lei 12.651/2012 (Código Florestal), no Planalto
 Veja também
-Calculadora de arrobaTaxa de lotaçãoCusto por hectareTodos os guias
+Calculadora de arrobaTaxa de lotaçãoCusto por hectareTodos os guiasDo mesmo assunto
+Imposto de renda ruralInscrição estadualNota fiscal de produtorPlanilha de gestão ruralPronaf 2026
 Nesta página
 Termos do rebanho
 Termos da lavoura
@@ -3611,7 +3639,8 @@ Receita Federal, quem deve declarar e limites do exercício 2026
 Receita Federal, manual IRPF Atividade Rural (versão 2.0, novembro de 2025)
 Lei 8.023/1990, tributação do resultado da atividade rural (Planalto)
 Veja também
-LCDPRFluxo de caixa ruralCalculadora de FunruralTodos os guias
+LCDPRFluxo de caixa ruralCalculadora de FunruralTodos os guiasDo mesmo assunto
+Inscrição estadualNota fiscal de produtorPlanilha de gestão ruralPronaf 2026Contrato de safra
 Nesta página
 Quem precisa declarar pela atividade rural
 Como se apura o resultado da atividade rural
@@ -3726,7 +3755,8 @@ Secretaria da Fazenda do RS, Solicitar Inscrição para Produtor Rural
 Sintegra, consulta aos cadastros estaduais
 Confaz, Ajuste SINIEF 10/2022 (nota eletrônica do produtor rural)
 Veja também
-Nota fiscal de produtorComo emitir GTACalculadora de FunruralTodos os guias
+Nota fiscal de produtorComo emitir GTACalculadora de FunruralTodos os guiasDo mesmo assunto
+Planilha de gestão ruralPronaf 2026Fluxo de caixa ruralLCDPRContrato de safra
 Nesta página
 O que é a inscrição estadual de produtor rural
 Para que serve a inscrição estadual
@@ -3817,7 +3847,8 @@ Secretaria da Fazenda do Paraná, perguntas sobre a NFP-e
 Secretaria da Fazenda de São Paulo, Nota Fiscal Fácil
 Secretaria da Fazenda de Minas Gerais, NFF do produtor rural
 Veja também
-GTACalculadora de FunruralFluxo de caixa ruralTodos os guias
+GTACalculadora de FunruralFluxo de caixa ruralTodos os guiasDo mesmo assunto
+Planilha de gestão ruralPronaf 2026LCDPRContrato de safraGestão rural
 Nesta página
 O talão de papel acabou: desde quando e para quem
 O que é a nota fiscal de produtor rural eletrônica
@@ -3923,7 +3954,8 @@ Fontes
 Embrapa, análise dos custos de produção na atividade leiteira brasileira
 Embrapa, coeficientes técnicos e custo de produção do leite
 Veja também
-Fluxo de caixa ruralGestão ruralCusto por hectareTodos os guias
+Fluxo de caixa ruralGestão ruralCusto por hectareTodos os guiasDo mesmo assunto
+Pronaf 2026LCDPRContrato de safraCalculadora de FunruralGlossário rural
 Nesta página
 Planilha de gestão rural para baixar: despesas e receitas
 Categorias que valem a pena
@@ -4021,7 +4053,8 @@ MDA, Plano Safra da Agricultura Familiar 2026/2027
 gov.br, como se cadastrar no CAF
 Lei 11.326/2006, agricultura familiar (Planalto)
 Veja também
-CAF da agricultura familiarFluxo de caixa ruralCusto por hectareTodos os guias
+CAF da agricultura familiarFluxo de caixa ruralCusto por hectareTodos os guiasDo mesmo assunto
+LCDPRContrato de safraCalculadora de FunruralGestão ruralGlossário rural
 Nesta página
 Quem tem direito ao Pronaf
 Plano Safra 2026/2027: as linhas, os limites e os juros
@@ -4112,7 +4145,8 @@ Fontes
 Secretaria da Agricultura do Paraná, glossário de alqueire
 Secretaria Municipal de Educação de Goiânia, unidades de medidas
 Veja também
-Metros por hectareTarefa e linha de terraApp para medir áreaTodos os guias
+Metros por hectareTarefa e linha de terraApp para medir áreaTodos os guiasDo mesmo assunto
+CAF da agricultura familiarCAR: Cadastro AmbientalCCIR: como emitirContrato de arrendamentoContrato de parceria rural
 Nesta página
 Converta alqueires em hectares
 O tamanho do alqueire muda conforme a região
@@ -4194,7 +4228,8 @@ Agência Espacial Brasileira, navegação por satélite
 IBGE, Censo Agropecuário 2017: características gerais
 Incra, certificação de imóvel rural
 Veja também
-Metros por hectareAlqueire em hectareTarefa e linha de terraTodos os guias
+Metros por hectareAlqueire em hectareTarefa e linha de terraTodos os guiasDo mesmo assunto
+CAF da agricultura familiarCAR: Cadastro AmbientalCCIR: como emitirContrato de arrendamentoContrato de parceria rural
 Nesta página
 Como o GPS do celular calcula a área
 Passo a passo para medir no FINAGRO
@@ -4290,7 +4325,8 @@ Governo Federal, Cadastrar-se no CAF
 Decreto 9.064/2017, Unidade Familiar de Produção Agrária e CAF
 Lei 11.326/2006, Política Nacional da Agricultura Familiar
 Veja também
-Pronaf 2026CCIR: como emitirImposto de renda ruralTodos os guias
+Pronaf 2026CCIR: como emitirImposto de renda ruralTodos os guiasDo mesmo assunto
+CAR: Cadastro AmbientalContrato de arrendamentoContrato de parceria ruralGeorreferenciamento ruralITR: declaração e multa
 Nesta página
 O que é o CAF e o que mudou da DAP para o CAF
 Quem tem direito ao CAF: área, mão de obra e renda
@@ -4383,7 +4419,8 @@ Governo Federal, Inscrever imóvel rural no CAR
 Banco Central, Manual de Crédito Rural, impedimentos sociais, ambientais e climáticos
 Receita Federal, Perguntas e Respostas do ITR 2026
 Veja também
-ITR: declaração e multaCCIR: como emitirPronaf 2026Todos os guias
+ITR: declaração e multaCCIR: como emitirPronaf 2026Todos os guiasDo mesmo assunto
+Contrato de arrendamentoContrato de parceria ruralGeorreferenciamento ruralMódulo fiscalMetros por hectare
 Nesta página
 O que é o CAR e para que ele serve
 Quem é obrigado a fazer o CAR e o que acontece sem ele
@@ -4482,7 +4519,8 @@ Incra, perguntas frequentes sobre cadastro e CCIR
 Lei 4.947/1966, art. 22 (Certificado de Cadastro)
 Lei 5.868/1972, Sistema Nacional de Cadastro Rural
 Veja também
-ITR: declaração e multaCAR: Cadastro AmbientalContrato de arrendamentoTodos os guias
+ITR: declaração e multaCAR: Cadastro AmbientalContrato de arrendamentoTodos os guiasDo mesmo assunto
+Contrato de parceria ruralGeorreferenciamento ruralMódulo fiscalMetros por hectareReserva legal
 Nesta página
 O que é o CCIR e para que ele é exigido
 Como emitir o CCIR pela internet, passo a passo
@@ -4602,7 +4640,8 @@ Fontes
 Lei 4.504/1964, Estatuto da Terra, arts. 92, 93 e 95
 Decreto 59.566/1966, regulamento dos contratos agrários
 Veja também
-Contrato de parceria ruralITR: declaração e multaCCIR: como emitirTodos os guias
+Contrato de parceria ruralITR: declaração e multaCCIR: como emitirTodos os guiasDo mesmo assunto
+Georreferenciamento ruralMódulo fiscalMetros por hectareReserva legalTarefa e linha de terra
 Nesta página
 Modelo de contrato de arrendamento rural
 Prazo mínimo do arrendamento por atividade
@@ -4725,7 +4764,8 @@ Fontes
 Lei 4.504/1964, Estatuto da Terra, arts. 92 a 96
 Decreto 59.566/1966, regulamento dos contratos agrários
 Veja também
-Contrato de arrendamentoContrato de safraCusto por hectareTodos os guias
+Contrato de arrendamentoContrato de safraCusto por hectareTodos os guiasDo mesmo assunto
+Georreferenciamento ruralITR: declaração e multaMódulo fiscalMetros por hectareReserva legal
 Nesta página
 Modelo de contrato de parceria rural
 Cota máxima do dono da terra na parceria
@@ -4831,7 +4871,8 @@ Lei 6.015/1973, arts. 176 e 225, com a Lei 10.267/2001 e a Lei 13.838/2019
 Incra, Certificação de imóveis rurais e Sigef
 Incra, perguntas frequentes sobre georreferenciamento
 Veja também
-App para medir áreaCCIR: como emitirCAR: Cadastro AmbientalTodos os guias
+App para medir áreaCCIR: como emitirCAR: Cadastro AmbientalTodos os guiasDo mesmo assunto
+ITR: declaração e multaMódulo fiscalMetros por hectareReserva legalTarefa e linha de terra
 Nesta página
 O que é o georreferenciamento de imóvel rural
 Georreferenciamento rural é obrigatório? Quando o cartório exige
@@ -4939,7 +4980,8 @@ Receita Federal, Perguntas e Respostas do ITR 2026
 Lei 9.393/1996, Imposto sobre a Propriedade Territorial Rural
 Serpro, DITR 2026 na versão web
 Veja também
-CCIR: como emitirCAR: Cadastro AmbientalImposto de renda ruralTodos os guias
+CCIR: como emitirCAR: Cadastro AmbientalImposto de renda ruralTodos os guiasDo mesmo assunto
+Módulo fiscalMetros por hectareReserva legalTarefa e linha de terraAlqueire em hectare
 Nesta página
 O prazo do ITR 2026 já passou: o que fazer agora
 Quem precisa entregar a declaração do ITR
@@ -5028,7 +5070,8 @@ Sim, quando o terreno é retangular. Se o contorno for irregular, divida em figu
 Fontes
 Rede e-Tec Brasil, Topografia Geral: unidades de superfície agrárias
 Veja também
-Alqueire em hectareTarefa e linha de terraApp para medir áreaTodos os guias
+Alqueire em hectareTarefa e linha de terraApp para medir áreaTodos os guiasDo mesmo assunto
+Reserva legalCAF da agricultura familiarCAR: Cadastro AmbientalCCIR: como emitirContrato de arrendamento
 Nesta página
 Calcule os hectares do terreno
 Hectare mede área, não comprimento
@@ -5128,7 +5171,8 @@ Embrapa, Código Florestal: Módulos Fiscais (consulta por município)
 Lei 6.746/1979, que criou o módulo fiscal
 Lei 8.629/1993, art. 4º (pequena e média propriedade)
 Veja também
-CCIR: como emitirCAF da agricultura familiarAlqueire em hectareTodos os guias
+CCIR: como emitirCAF da agricultura familiarAlqueire em hectareTodos os guiasDo mesmo assunto
+Metros por hectareReserva legalTarefa e linha de terraApp para medir áreaCAR: Cadastro Ambiental
 Nesta página
 Quantos módulos fiscais tem o imóvel
 O que é módulo fiscal
@@ -5233,7 +5277,8 @@ Fontes
 Lei 12.651/2012, Código Florestal (arts. 3º, 12, 15, 17, 18, 66, 67 e 68)
 Receita Federal, Perguntas e Respostas do ITR 2026
 Veja também
-CAR: Cadastro AmbientalITR: declaração e multaApp para medir áreaTodos os guias
+CAR: Cadastro AmbientalITR: declaração e multaApp para medir áreaTodos os guiasDo mesmo assunto
+Tarefa e linha de terraAlqueire em hectareCAF da agricultura familiarCCIR: como emitirContrato de arrendamento
 Nesta página
 Calcule a reserva legal mínima
 O que é reserva legal
@@ -5329,7 +5374,8 @@ IBGE, Manual do Recenseador do Censo Agropecuário 2006, unidades de superfície
 Acervo da Prefeitura de Fortaleza, medidas agrárias usadas no Ceará
 CRECI-SC, informações úteis sobre medidas
 Veja também
-Alqueire em hectareMetros por hectareApp para medir áreaTodos os guias
+Alqueire em hectareMetros por hectareApp para medir áreaTodos os guiasDo mesmo assunto
+CAF da agricultura familiarCAR: Cadastro AmbientalCCIR: como emitirContrato de arrendamentoContrato de parceria rural
 Nesta página
 Tarefa e linha não têm um tamanho único
 Medidas que têm fonte oficial conferida
@@ -5421,7 +5467,8 @@ Embrapa Suínos e Aves, desempenho zootécnico de frangos de corte
 Embrapa Meio Ambiente, manejo alimentar e da água na produção de tilápia
 Embrapa Suínos e Aves, sistemas de fornecimento de ração para suínos
 Veja também
-Calculadora de GMDÍndices zootécnicosCusto por hectareTodos os guias
+Calculadora de GMDÍndices zootécnicosCusto por hectareTodos os guiasDo mesmo assunto
+Criação de abelhasCriação de galinha caipiraCriação de porcosCriação de tilápia
 Nesta página
 Calcule conversão e eficiência
 Conversão alimentar e eficiência: qual a diferença
@@ -5525,7 +5572,8 @@ Resolução Conama nº 496, de 19 de agosto de 2020 (Diário Oficial da União)
 Embrapa Meio-Norte, Sistema de Produção de Mel
 Embrapa, Criação de abelhas-sem-ferrão
 Veja também
-Fluxo de caixa ruralNota fiscal de produtorApp para medir áreaTodos os guias
+Fluxo de caixa ruralNota fiscal de produtorApp para medir áreaTodos os guiasDo mesmo assunto
+Criação de galinha caipiraCriação de porcosCriação de tilápiaConversão alimentar
 Nesta página
 Apicultura e meliponicultura: qual a diferença
 O que a lei pede para criar abelha sem ferrão
@@ -5626,7 +5674,8 @@ Fontes
 Embrapa Meio-Norte, Sistema Alternativo de Criação de Galinhas Caipiras (2018)
 Embrapa Meio-Norte, Galinha Caipira: instalações e fases de criação
 Veja também
-Conversão alimentarFluxo de caixa ruralPlanilha de gestão ruralTodos os guias
+Conversão alimentarFluxo de caixa ruralPlanilha de gestão ruralTodos os guiasDo mesmo assunto
+Criação de porcosCriação de tilápiaCriação de abelhas
 Nesta página
 Corte ou postura: o que muda na criação
 Galinheiro e piquete: as medidas da Embrapa
@@ -5724,7 +5773,8 @@ Embrapa Suínos e Aves, Produção de suínos em família, sem uso preventivo de
 Adepará, Programa de Sanidade Suídea
 IMA (Minas Gerais), Programa Nacional de Sanidade Suídea
 Veja também
-Como emitir GTAConversão alimentarPlanilha de gestão ruralTodos os guias
+Como emitir GTAConversão alimentarPlanilha de gestão ruralTodos os guiasDo mesmo assunto
+Criação de tilápiaCriação de abelhasCriação de galinha caipira
 Nesta página
 As fases da criação de porcos
 Criação em família e em pequenas propriedades
@@ -5823,7 +5873,8 @@ Embrapa, Manual de piscicultura familiar em viveiros escavados
 Embrapa Meio Ambiente, manejo alimentar e da qualidade da água na produção de tilápia-do-nilo
 Lei nº 9.433, de 1997, Política Nacional de Recursos Hídricos
 Veja também
-Conversão alimentarCusto por hectareCAR: Cadastro AmbientalTodos os guias
+Conversão alimentarCusto por hectareCAR: Cadastro AmbientalTodos os guiasDo mesmo assunto
+Criação de abelhasCriação de galinha caipiraCriação de porcos
 Nesta página
 Antes de escavar: água, licença e outorga
 Tanque escavado ou tanque-rede: o sistema de criação

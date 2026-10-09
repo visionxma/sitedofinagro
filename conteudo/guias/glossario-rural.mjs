@@ -1,4 +1,4 @@
-// RASCUNHO (segunda leva, 08/10/2026). Consulta-alvo: "o que é arroba", "o que é unidade animal", "o que é talhão",
+// Segunda leva, 08/10/2026 (no ar). Consulta-alvo: "o que é arroba", "o que é unidade animal", "o que é talhão",
 // "o que é GMD", "termos da pecuária". Cada definição repete o que a página do termo já diz no site; número e norma
 // levam o trecho oficial copiado da própria página de origem.
 export const provas = [
