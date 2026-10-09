@@ -17,7 +17,7 @@
   --verde-claro: #e9f4e8;
   --verde-botao: #047a01; /* o verde da marca um tom abaixo: texto branco fica acima de 4,5:1 mesmo com o brilho passando */
   --verde-luz: #5fe35a; /* o verde da marca (mesmo matiz, 118°) aceso para texto sobre o vídeo escuro: lê igual ao trigo (luminância 0,58) em todo quadro; o --verde puro dá 1,6:1 ali */
-  --app-barra: #1b7a4b; /* a cor do cabeçalho do APP nos prints: é do app, não do site. A barra de hora e a de gestos do celular emendam no print com ela; só muda quando o app mudar de cor */
+  --app-barra: #058301; /* a cor do cabeçalho do APP nos prints (desde 09/10/2026, a mesma da marca). A barra de hora e a de gestos do celular emendam no print com ela: se o app mudar de cor, muda aqui junto */
   --trigo: #f3c14b;
   --vermelho: #c0392b;
   --vermelho-claro: #fbeceb;
