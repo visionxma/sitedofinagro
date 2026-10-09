@@ -150,7 +150,7 @@ Avisar vacina e pesagem atrasadaNãoSó com fórmula montada à mãoSim, sozinho
 Mais de uma pessoa lançandoUm caderno por vezArquivo que se perde em cópiasAté 5 pessoas no grátis
 Fórmula do seu jeitoNãoSim, livreOs cálculos são os do app
 CustoPapelGrátisGrátis até 1.000 animais com ficha
-Se você já tem tudo numa planilha do Excel, não precisa redigitar: o FINAGRO importa arquivos .xls e .xlsx.
+Se você já tem tudo numa planilha, não precisa redigitar: no Excel, salve como CSV e o FINAGRO importa o cadastro dos animais. A planilha de controle de gado já vem com as colunas que o app aceita.
 Como o FINAGRO avisa o que está atrasado
 O painel abre com o que pede atenção. Alguns exemplos de alerta que o app gera a partir do que você lançou:
 Bezerras na idade da vacina de brucelose. A vacinação de todas as fêmeas bovinas e bubalinas entre 3 e 8 meses é obrigatória pelo programa nacional de brucelose e tuberculose (PNCEBT), do Ministério da Agricultura.
@@ -391,6 +391,126 @@ Veja também: controle de rebanho, GTA e plano grátis do FINAGRO.
 
 ---
 
+## Gestão da pecuária de corte no celular | FINAGRO
+Endereço: https://finagro.app/gestao-da-pecuaria-de-corte
+
+
+Gestão da pecuária de corte
+Seu gado de corte ainda está na caderneta, ou já está na palma da mão?
+Sistema de pecuária costuma pedir demonstração e mirar fazenda grande. O FINAGRO você baixa e usa hoje, de graça até 1.000 animais com ficha.O FINAGRO você baixa e usa hoje.
+Sem demonstração
+Sem vendedor
+Sem cartão
+Veja o que cabe no plano grátis
+Marque o que você cria e quantas cabeças têm ficha. A resposta sai na hora.
+O que você cria?
+Cria
+Recria
+Engorda
+Ciclo completo
+Quantas cabeças com ficha individual?
+300
+1.000
+3.000
+10.000
+Cabe no plano grátis
+R$ 0para sempre, sem cartão
+Plano Campo: até 3 fazendas, 5 pessoas e 1.000 animais com ficha.
+Na engorda: pesagens com o ganho entre uma e outra e a cotação do boi gordo.
+Começar grátis
+Baixar no AndroidNo Android
+Nada do que você marca aqui é enviado. A conta é feita no seu aparelho, e gado contado só no lote não entra nela.
+As 4 travas de quem toca gado
+O problema não é a caderneta. É o que ela não soma.
+Você conhece cada cabeça de bater o olho no lote. O que a caderneta não mostra é quanto o lote custou até o embarque, e é essa conta que diz se a arroba vendida deu lucro.
+A conta fica na cabeça
+Sal, ração, vacina e diária vão para a caderneta, e a caderneta não soma. O lote embarca sem você saber quanto ele custou.
+O curral fica longe do sinal
+A pesagem vai para o papel e alguém passa a limpo à noite. E nem tudo o que foi anotado no tronco chega à planilha.
+Só você sabe do gado
+O vaqueiro anota de um jeito e o contador pede de outro. Sem você na fazenda, ninguém acha a data da vacina do lote.
+Para ver a tela, só com demonstração
+Você preenche um formulário e espera o vendedor ligar. Boa parte dos sistemas de pecuária de corte mira fazenda grande, e a primeira cabeça só é lançada depois da reunião.
+O que o FINAGRO põe no lugar da caderneta.
+Cada trava de cima tem resposta no app. Veja o que entra em cada uma, com o nome que aparece na tela.
+A conta fica na cabeça
+Despesa e receita lançadas na hora, com o saldo que vem pela frente.
+Receitas e despesas
+Contas a pagar e a receber
+Fluxo de caixa com saldo previsto
+Centro de custo
+O curral fica longe do sinal
+Você lança sem internet: fica salvo no celular e sobe sozinho quando o sinal volta.
+Lançamento sem sinal
+Pesagem com o ganho entre elas
+Vacinas e sanidade
+Aviso de animal sem pesar há 60 dias
+Só você sabe do gado
+Cada pessoa entra com o seu papel e vê o mesmo rebanho, no celular ou no computador.
+Ficha com brinco, raça e foto
+Lote sem limite de cabeças
+5 pessoas com papel e permissão
+Tarefas da equipe
+Para ver a tela, só com demonstração
+Você baixa, diz o que cria e lança a primeira cabeça hoje. Sem vendedor e sem cartão.
+Grátis até 1.000 fichas
+Android e navegador
+Importa a planilha em CSV
+Relatório em PDF e planilha
+1.000
+animais com ficha individual no plano grátis. Para sempre, sem cartão e sem prazo de teste.
+3 fazendasna mesma conta, cada uma com o seu rebanho e o seu caixa
+5 pessoasna equipe, cada uma com o seu papel e a sua permissão
+Sem limitede cabeças por lote: o lote inteiro conta como um só
+Limites do plano Campo. Quem precisa de mais fazendas, gente ou fichas tem planos de R$ 59,90 a R$ 299,90 por mês.
+Como você começa no FINAGRO hoje
+1Baixe ou abra no navegador
+No Android, pela Google Play. No iPhone e no computador, pelo navegador em app.finagro.app.
+2Diga o que você cria
+Gado de corte, leite ou lavoura: o painel se monta pelo que você marcar.
+3Lance no curral
+Pesagem, vacina e despesa pelo celular, mesmo longe do sinal.
+4Bata o olho no lote e no caixa
+O ganho entre as pesagens, a vacina que vence e o saldo previsto, sem passar nada a limpo.
+E o que o FINAGRO não faz?
+Não emite GTA nem nota fiscal, não liga balança nem brinco eletrônico, e não tem aplicativo na App Store: no iPhone é pelo navegador. Ele guarda as GTAs emitidas, lembra o vencimento 1 dia antes, e o peso você digita no curral.
+O FINAGRO é grátis mesmo?
+É. O plano Campo é grátis para sempre e não pede cartão: até 3 fazendas, 5 pessoas e 1.000 animais com ficha, com lote de qualquer tamanho e todas as funções do app. Os planos pagos, de R$ 59,90 a R$ 299,90 por mês, são para quem precisa de mais fazendas, gente ou animais com ficha.
+E se o meu rebanho passar de 1.000 cabeças?
+Só conta o animal com ficha individual. O gado lançado no lote não entra nesse número, e lote não tem limite de cabeças. Passando de 1.000 fichas, o plano Essencial custa R$ 59,90 por mês e vai até 5.000 animais com ficha.
+Funciona sem internet no curral?
+Para lançar, funciona. Sem sinal, o gasto, a venda ou a vacina ficam salvos no celular e sobem sozinhos quando a internet voltar, e o app avisa isso na hora. Para entrar pela primeira vez num aparelho e para ver o que a equipe lançou em outro celular, é preciso sinal.
+Consigo trazer a planilha que já uso?
+Consegue. No Excel, salve a planilha como CSV e envie o arquivo: o FINAGRO importa animais, despesas, receitas, fornecedores e itens de estoque, e ninguém precisa redigitar o que já está na planilha.
+Antes da próxima pesagem
+A próxima pesagem vai para a caderneta, ou para o celular?
+Baixe o FINAGRO e lance o primeiro lote hoje, do curral ao caixa. Ninguém liga para marcar reunião.
+Grátis para sempre até 1.000 animais com ficha
+Sem cartão para começar
+Seus dados saem em PDF e planilha quando você quiser
+Veja o que cabe no grátis
+A conta é feita no seu aparelho, sem cadastro
+O que você cria?
+Cria
+Recria
+Engorda
+Ciclo completo
+Quantas cabeças com ficha individual?
+300
+1.000
+3.000
+10.000
+Cabe no plano grátis
+R$ 0para sempre, sem cartão
+Plano Campo: até 3 fazendas, 5 pessoas e 1.000 animais com ficha.
+Na engorda: pesagens com o ganho entre uma e outra e a cotação do boi gordo.
+Começar grátis
+Baixar no AndroidNo Android
+Nada do que você marca aqui é enviado a lugar nenhum.
+
+
+---
+
 ## Guias, calculadoras e modelos do produtor rural | FINAGRO
 Endereço: https://finagro.app/guias
 
@@ -398,9 +518,9 @@ Endereço: https://finagro.app/guias
 FINAGRO
 Guias
 Guias, calculadoras e modelos para tocar a fazenda
-48 páginas gratuitas, com a conta feita na hora e a fonte oficial de cada regra. Sem cadastro para ler, calcular ou baixar.
-48páginas
-13calculadoras
+52 páginas gratuitas, com a conta feita na hora e a fonte oficial de cada regra. Sem cadastro para ler, calcular ou baixar.
+52páginas
+14calculadoras
 8modelos e planilhas
 Escolher um aplicativoGado de corteLeiteLavouraDinheiro e impostoTerra e documentosOutras criações
 Escolher um aplicativo
@@ -418,8 +538,10 @@ CalculadoraCalculadora de arrobaPeso vivo em arrobas e o valor do boi, na hora.
 CalculadoraCalculadora de gestaçãoData do parto da vaca pela cobertura ou IA.
 GuiaVacinação bovinaO que é obrigatório e o que é recomendação.
 GuiaComo emitir GTAPasso a passo e o sistema de cada estado.
+GuiaConfinamento de gadoConfinamento e semiconfinamento: prazos e o que medir.
 Modelo prontoContrato e recibo de gadoContrato de compra e venda de gado e recibo, prontos.
 GuiaCria, recria e engordaEntenda as fases e o registro que cada uma pede.
+CalculadoraCusto da arroba produzidaCusto por arroba e margem, com planilha de custos.
 GuiaDeclaração de rebanhoPrazo de 2026 por estado e como declarar.
 GuiaEscore corporal bovinoNotas de 1 a 5 e de 1 a 9 e quando avaliar.
 GuiaEstação de montaComo planejar a monta e concentrar os partos.
@@ -438,6 +560,7 @@ Lavoura
 Caderno de campo, custo por hectare e contas do plantio.
 GuiaCaderno de campoO que anotar em cada talhão e para que serve.
 CalculadoraCusto por hectareCusto por hectare, por saca e ponto de equilíbrio.
+GuiaPluviômetroComo instalar, ler e anotar a chuva da fazenda.
 CalculadoraSacas por hectarePasse a colheita em kg para sacas por hectare.
 Dinheiro e imposto
 Caixa, crédito rural, nota e o que a Receita pede.
@@ -446,6 +569,7 @@ GuiaLCDPRQuem é obrigado, o prazo e como gerar o arquivo.
 Modelo prontoContrato de safraModelo pronto e os direitos do safrista pela lei.
 CalculadoraCalculadora de FunruralFunrural de uma venda: parcelas e total, na hora.
 GuiaGestão ruralOs quatro controles que organizam a fazenda.
+GuiaGlossário ruralTermos da pecuária, da lavoura e do dinheiro.
 GuiaImposto de renda ruralQuem declara, como apurar e o que guardar.
 GuiaNota fiscal de produtorNF-e do produtor: quem emite, app e inscrição.
 PlanilhaPlanilha de gestão ruralReceitas e despesas da fazenda, grátis em Excel.
@@ -932,10 +1056,10 @@ A gestação da vaca dura em média 290 dias no gado de corte, cerca de nove mes
 Atualizado em 08/10/2026
 Calcule o parto, a secagem e o diagnóstico
 Data da cobertura ou da IADias de gestaçãoDias de secagem antes do parto
-25/07/2027parto previsto
-26/05/2027secar a vaca de leite em
-02/11/2026ultrassom a partir de
-07/12/2026palpação a partir de
+26/07/2027parto previsto
+27/05/2027secar a vaca de leite em
+03/11/2026ultrassom a partir de
+08/12/2026palpação a partir de
 Os 290 dias são a média do gado de corte segundo a Embrapa. Zebuíno tende a gestar mais dias e raça europeia menos: ajuste o campo se o seu rebanho tem a média própria. A secagem só vale para vaca de leite. O parto é uma previsão: pode vir alguns dias antes ou depois. No aplicativo FINAGRO o parto previsto sai com 283 dias, dentro da mesma faixa.
 Quantos dias dura a gestação da vaca
 No gado de corte, a Embrapa Gado de Corte dá 290 dias como duração média da gestação. É perto de nove meses e meio. A conta do parto é simples: data da cobertura mais 290 dias.
@@ -1111,6 +1235,113 @@ Sistema de emissão de cada estado
 Taxa, validade e o que fazer quando o gado chega
 Quando o sistema não deixa emitir
 Antes e depois da guia no FINAGRO
+Perguntas frequentes
+FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
+Grátis até 1.000 animais com ficha
+Lote sem limite de cabeças
+Sem cartão
+Começar grátisBaixar para Android
+
+
+---
+
+## Confinamento de gado de corte: como fazer e o que medir
+Endereço: https://finagro.app/confinamento-de-gado
+
+
+FINAGRO
+Guias
+Confinamento de gado
+GuiaGado de corte
+Confinamento de gado de corte: como fazer, quantos dias e o que medir
+O que é confinamento de gado e como fazer?
+Confinamento é terminar o boi em baia, com toda a ração no cocho e sem pasto. No semiconfinamento o animal fica no pasto e recebe concentrado. Pela Embrapa, o novilho castrado entra com 350 a 420 kg e fica de 70 a 100 dias. Meça os pesos de entrada e saída, os dias de cocho e o custo da diária.
+Atualizado em 08/10/2026
+Calcule o ganho e o custo no cocho
+Peso de entrada (kg)Peso de saída (kg)Dias de cochoCusto da diária por cabeça (R$)Rendimento de carcaça (%)
+1,33ganho por dia (kg/cab)
+4,32arrobas ganhas por cabeça
+R$ 1.080,00custo no cocho por cabeça
+R$ 250,00custo por arroba ganha
+Conta só do período de cocho: não inclui o custo de compra ou de criação do animal até a entrada. A diária e o rendimento são exemplos: use a diária do seu confinamento e o rendimento que o frigorífico paga.
+O que é confinamento e o que é semiconfinamento
+No confinamento, o boi termina em baia ou curral, sem pasto, e come tudo no cocho: o volumoso (silagem, cana) mais o concentrado. No semiconfinamento, o boi continua no pasto e recebe ração concentrada no cocho. A Embrapa chama o semiconfinamento de meio termo entre o confinamento e a suplementação estratégica.
+PontoConfinamentoSemiconfinamento
+Onde o boi comeCocho, na baiaPasto + concentrado no cocho
+VolumosoSilagem, cana ou outro, produzido por vocêO próprio pasto, diferido
+InstalaçãoBaias, cochos, vagão ou misturadorCochos no pasto
+Tempo típico50 a 120 dias, por categoriaCerca de 60 dias
+Embrapa, Estratégias alimentares para gado de corte: suplementação a pasto, semiconfinamento e confinamento.
+O semiconfinamento tem menos necessidade de infraestrutura que o confinamento e rende mais que a suplementação estratégica. Também dá flexibilidade: a maior parte do custo é o concentrado, e o volumoso é o pasto.
+Para que serve o confinamento
+A Embrapa trata o confinamento como uma ferramenta de manejo da fazenda. Os benefícios que ela lista:
+aliviar o pasto na seca;
+tirar os animais mais pesados do pasto e liberar a área para categorias que exigem menos;
+aumentar a produtividade e a qualidade da carne;
+reduzir o tempo de terminação;
+programar abates o ano inteiro;
+girar o capital mais rápido.
+O outro lado: segundo a Embrapa, a intensificação traz maior demanda de gestão e maior risco de insucesso. Por isso o confinamento começa por números, não por baia.
+Quantos dias de cocho e que peso de entrada
+O prazo depende da categoria. A Embrapa dá estas faixas para o confinamento:
+CategoriaEntradaSaídaDias de cocho
+Novilho castrado350 a 420 kg480 a 520 kg70 a 100
+Tourinho370 a 440 kg500 a 550 kg90 a 120
+Novilha280 a 320 kg360 a 420 kg60 a 90
+Vaca de descarte340 a 420 kg400 a 460 kg50 a 70
+Embrapa. Pesos vivos. Idade de 18 a 30 meses (novilha, 20 a 30; vaca, acima de 3 anos).
+No semiconfinamento, o animal precisa entrar perto do ponto de abate. O exemplo da Embrapa: com ganho de 1 kg por dia e abate com 460 kg, o boi entra com 400 kg e fica 60 dias. A recomendação de lotação é de 1 a 2 UA por hectare no começo, num pasto diferido com 4 a 6 toneladas de matéria seca por hectare.
+O peso de abate que o frigorífico pede muda tudo. Se ele cobra o peso em jejum, a Embrapa manda multiplicar o peso vivo por 0,94.
+O que medir no confinamento
+Peso de entrada: pese o lote ao entrar, de preferência no mesmo horário e nas mesmas condições da saída.
+Dias de cocho: conte da entrada, incluindo a adaptação, até o embarque.
+Peso de saída: pese de novo. Peso de saída menos peso de entrada é o ganho do lote.
+Ganho por dia: o ganho dividido pelos dias de cocho. A calculadora de GMD faz essa conta.
+Consumo de ração por lote: a Embrapa recomenda monitorar o consumo diário de cada lote, para achar erro de manejo e corrigir rápido.
+Sobra no cocho: sobra significa perda. A Embrapa sugere ler o cocho antes do primeiro trato da manhã e à noite e ajustar a ração.
+Custo da diária: o que o boi custa por dia no cocho: ração, mão de obra, energia e o resto.
+Com tudo isso você chega ao número que decide: o custo por arroba ganha no cocho. Ele cabe na calculadora acima e entra na conta completa de custo da arroba produzida.
+Dois terços do custo de produção do confinamento são alimentares, diz a Embrapa. A dieta de menor custo por tonelada nem sempre é a de menor custo por arroba: a Embrapa recomenda comparar dietas pelo desempenho e pelo ganho em arrobas de carcaça.
+Adaptação, cocho e baia
+Adaptação: de duas a quatro semanas, e nunca menos de 14 dias, seja qual for o esquema. Uma saída é subir o concentrado aos poucos, em etapas de 3 a 7 dias.
+Cocho: a Embrapa indica de 50 a 70 cm por animal, e de 30 a 50 cm só para lote homogêneo, boi manso e mais de 5 tratos por dia.
+Baia: no mínimo 10 m² por animal, com lotes de menos de 100 animais.
+Lote: formado por animais parecidos em peso, sexo, idade, condição corporal e raça.
+Trato: no mínimo duas refeições por dia, nos mesmos horários, sem variar mais de 30 minutos.
+A dieta mal ajustada derruba o ganho. As desordens digestivas mais comuns são a acidose, o timpanismo e a laminite. Quem formula a ração é o zootecnista, porque a dieta ideal depende do preço dos ingredientes, do animal, do peso de entrada e do peso de abate pretendido.
+Este guia resume orientações técnicas da Embrapa e não substitui o zootecnista nem o veterinário. A formulação da dieta e o manejo sanitário são com eles.
+O confinamento no FINAGRO
+O lote de confinamento é um lote do app, de qualquer tamanho, e a tela de lotes mostra as cabeças e o peso bruto de cada um.
+Cada pesagem fica na ficha do animal, e o app mostra o ganho entre uma pesagem e a outra: o peso de entrada e o de saída da conta.
+O aviso de animais sem pesagem há mais de 60 dias lembra de pesar o lote parado.
+A despesa pode ser marcada com a atividade "Confinamento" e com o lote, em "Mais opções" do lançamento, e a venda entra como receita.
+O app não pesa o lote, não lê balança nem calcula a ração: o peso e o consumo são lançados por você.
+Pesagem, lote e despesa do confinamento num só lugar.
+Grátis até 1.000 animais com ficha, com lote sem limite de cabeças.
+Começar grátis
+Perguntas sobre confinamento
+O que é confinamento de gado de corte?
+É terminar o boi em baia ou curral, sem pasto, com toda a ração no cocho. Serve para aliviar o pasto na seca, encurtar a terminação e programar o abate.
+Qual a diferença entre confinamento e semiconfinamento?
+No confinamento o boi não vai ao pasto e come volumoso e concentrado no cocho. No semiconfinamento ele fica no pasto e recebe ração concentrada. O semiconfinamento exige menos instalação.
+Quantos dias o boi fica no confinamento?
+Pela Embrapa, de 70 a 100 dias para o novilho castrado, de 90 a 120 para o tourinho, de 60 a 90 para a novilha e de 50 a 70 para a vaca de descarte. No semiconfinamento, cerca de 60 dias.
+Quais as medidas que o confinador precisa acompanhar?
+Peso de entrada, peso de saída, dias de cocho, ganho por dia, consumo de ração do lote, sobra no cocho e custo da diária. Com isso se chega ao custo por arroba ganha.
+Como fazer a adaptação do gado ao cocho?
+Suba o concentrado em etapas de 3 a 7 dias, ou aumente aos poucos a oferta da ração. A Embrapa fala em duas a quatro semanas e no mínimo 14 dias.
+Fontes
+Embrapa, Estratégias alimentares para gado de corte: suplementação a pasto, semiconfinamento e confinamento
+Veja também
+Calculadora de GMDCusto da arroba produzidaCria, recria e engordaTodos os guias
+Nesta página
+Calcule o ganho e o custo no cocho
+O que é confinamento e o que é semiconfinamento
+Para que serve o confinamento
+Quantos dias de cocho e que peso de entrada
+O que medir no confinamento
+Adaptação, cocho e baia
+O confinamento no FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
 Grátis até 1.000 animais com ficha
@@ -1320,6 +1551,114 @@ Recria: acompanhar crescimento depois da desmama
 Engorda: medir a terminação até a saída
 Um registro que atravessa as três fases
 As fases do rebanho no FINAGRO
+Perguntas frequentes
+FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
+Grátis até 1.000 animais com ficha
+Lote sem limite de cabeças
+Sem cartão
+Começar grátisBaixar para Android
+
+
+---
+
+## Custo da arroba produzida: calculadora e planilha
+Endereço: https://finagro.app/custo-da-arroba-produzida
+
+
+FINAGRO
+Guias
+Custo da arroba produzida
+CalculadoraGado de corte
+Custo da arroba produzida: calculadora, margem e planilha de custos
+Como calcular o custo da arroba produzida?
+O custo da arroba produzida é o custo total do período dividido pelas arrobas que a fazenda produziu nele. Se saíram R$ 180.000 do caixa e a fazenda produziu 1.200 arrobas, cada arroba custou R$ 150. Vendida a R$ 300, sobram R$ 150 por arroba. Some também depreciação e pró-labore, não só o que você pagou.
+Atualizado em 08/10/2026
+Calcule o custo e a margem da arroba
+Custo total do período (R$)Arrobas produzidas no períodoPreço de venda da arroba (R$)
+R$ 150,00custo por arroba
+R$ 150,00margem por arroba
+R$ 180.000,00margem do período
+Custo por arroba = custo total ÷ arrobas produzidas. Margem negativa quer dizer que a arroba custou mais do que foi vendida. Os valores iniciais são só um exemplo: troque pelos da sua fazenda.
+Como calcular o custo da arroba produzida
+A Embrapa chama de custo médio, ou custo unitário, o custo total por unidade produzida. Na pecuária de corte, a unidade é a arroba. A conta tem três passos.
+Some todo o custo do período: o que você pagou e o que a fazenda gastou sem sair dinheiro do bolso (depreciação e pró-labore, mais abaixo).
+Conte as arrobas que a fazenda produziu no mesmo período.
+Divida o custo pelas arrobas. R$ 180.000 ÷ 1.200 arrobas = R$ 150 por arroba.
+Depois compare com o preço de venda. Com a arroba a R$ 300, a margem é de R$ 150 por arroba e de R$ 180.000 no período (1.200 × R$ 300 = R$ 360.000 de venda, menos os R$ 180.000 de custo). Se o preço cair para R$ 140, a margem vira negativa e cada arroba vendida perde dinheiro.
+Custo do períodoArrobasCusto por @
+R$ 95.000800 @R$ 118,75
+R$ 180.0001.200 @R$ 150,00
+R$ 240.0001.200 @R$ 200,00
+R$ 240.0001.600 @R$ 150,00
+Conta: custo do período ÷ arrobas produzidas. Mais arroba com o mesmo custo derruba o custo por arroba.
+Como contar as arrobas produzidas
+Arroba produzida não é só a que foi vendida. É a que a fazenda fabricou no período, e a arroba segue a medida de 15 kg de carcaça (a Embrapa informa que ela equivale a 14,788 kg, arredondados para 15 kg). Uma conta de balanço resolve:
+arrobas vendidas no período
+mais as arrobas do rebanho no fim do período
+menos as arrobas do rebanho no começo
+menos as arrobas dos animais que você comprou para repor
+Na engorda, o atalho é o ganho de peso. Um lote de 100 bois que entrou com 380 kg e saiu com 520 kg, com rendimento de carcaça de 52% nas duas pontas, produziu 100 × (520 − 380) × 0,52 ÷ 15 = 485 arrobas. O rendimento de cada ponta você acha em rendimento de carcaça, e a conversão do peso vivo em calculadora de arroba.
+Use o mesmo critério todo período. Trocar o jeito de contar de um ano para o outro muda o custo por arroba sem a fazenda ter mudado nada.
+O que entra no custo: COE, COT e custo total
+A Embrapa separa o custo em três degraus. Quanto mais alto o degrau, mais honesto é o número.
+CustoO que somaEm português de curral
+COE, custo operacional efetivoGastos do ano consumidos no mesmo ano (inclui ITR e contribuição sindical)O que saiu do bolso
+COT, custo operacional totalCOE + depreciação de benfeitorias, máquinas, implementos e animais de serviço + pró-laboreO que a atividade consome de verdade
+CT, custo totalCOT + remuneração do capital investido (e custo de oportunidade da terra)O que o dinheiro parado renderia em outro lugar
+Definições da Embrapa Pantanal (Circular Técnica 126, 2024) e da Embrapa Gado de Corte.
+O pró-labore paga o seu trabalho como administrador. Se você não estivesse à frente da fazenda, teria de contratar alguém para isso, e a Embrapa conta esse valor no custo.
+A depreciação guarda dinheiro para trocar o curral, o trator e a cerca quando acabar a vida útil. No método linear, ela é igual todo ano: (valor de compra menos valor residual) ÷ anos de vida útil. Um curral de R$ 60.000 que vale R$ 10.000 depois de 25 anos perde R$ 2.000 por ano.
+Planilha de custo por arroba
+A planilha abaixo traz as linhas de custo que a Embrapa lista para a pecuária de corte, já na ordem COE, COT e custo total. Baixe, troque os valores de exemplo pelos da sua fazenda e divida o total pelas arrobas produzidas.
+Planilha de custo da arroba produzida3 colunas prontas: Linha de custo, Degrau, Valor no ano (R$).
+Linha de custoDegrauValor no ano (R$)
+Mão de obra (campeiros, vaqueiros, ajudantes)COE42.000,00
+Sal mineral, proteinado e raçãoCOE38.500,00
+Vacinas e medicamentosCOE6.200,00
+Baixar em ExcelBaixar em CSV
+Valores de exemplo de uma fazenda hipotética. O período é um ano. Linhas de custo conforme a Embrapa; apague as que não existem na sua fazenda e some as suas.
+A mesma arroba, três custos diferentes
+Qual custo comparar com o preço de venda? Depende da pergunta. A Embrapa mostra isso num estudo de uma fazenda típica de Rondônia, em 2005: a arroba de carcaça de 15 kg custou R$ 60,17 no custo total, contra um preço de mercado de R$ 43,00. Olhando só os desembolsos, a mesma arroba exigiu R$ 23,39, coberta com folga pela receita.
+Só os desembolsos respondem se o caixa fecha o mês. A fazenda paga as contas do dia a dia.
+O custo operacional (com depreciação e pró-labore) responde se a fazenda se sustenta e repõe curral, máquina e cerca.
+O custo total responde se o capital investido, a terra inclusa, rende mais do que em outro uso.
+Num estudo de 2023 no Pantanal de Corumbá, a Embrapa concluiu que a receita cobria o custo efetivo e o operacional total, mas não o capital investido. Os valores de 2005 e 2023 são de regiões e anos diferentes: use-os para entender a conta, não como meta de custo.
+Para fazenda que cria, recria e engorda, é preciso ratear o custo entre as categorias. Um dos critérios que a Embrapa cita é distribuir os custos na mesma proporção da receita gerada por cada categoria vendida. Veja as fases em cria, recria e engorda.
+Este guia é um método de conta, não uma recomendação de preço. Para fechar o custo de uma fazenda com muitas atividades, vale conferir com o contador ou o zootecnista.
+O custo da arroba no FINAGRO
+Toda despesa lançada no app guarda categoria e fazenda, e em "Mais opções" pode levar a atividade (cria, recria, engorda, confinamento), o lote e a safra.
+As pesagens ficam na ficha do animal, com o ganho entre uma e outra, e a tela de lotes mostra as cabeças e o peso de cada lote: os números para contar as arrobas produzidas.
+O fluxo de caixa soma o que saiu e o que entrou, e os relatórios saem em PDF e em planilha (CSV) para você levar o total à planilha deste guia.
+A cotação do boi gordo da CONAB aparece dentro do app, para você comparar o custo por arroba com o preço do dia.
+O app soma as despesas, mas não calcula o custo por arroba sozinho nem a depreciação: a divisão final é com a calculadora desta página.
+Despesa, pesagem e lote no mesmo celular.
+Grátis até 1.000 animais com ficha, com lote sem limite de cabeças.
+Começar grátis
+Perguntas sobre o custo da arroba
+Como calcular o custo da arroba produzida?
+Divida o custo total do período pelas arrobas produzidas nele. Com R$ 180.000 de custo e 1.200 arrobas, a arroba custou R$ 150.
+O que entra no custo de produção por arroba?
+No mínimo, o que a Embrapa chama de custo operacional efetivo: mão de obra, suplementação, vacinas, pastagem, arrendamento, fretes, taxas e assessoria técnica. O custo mais completo soma depreciação, pró-labore e a remuneração do capital.
+Qual a diferença entre COE, COT e custo total?
+COE é o que a fazenda gastou no ano. COT é o COE mais depreciação e pró-labore. O custo total soma ainda a remuneração do capital investido.
+Arroba produzida é o mesmo que arroba vendida?
+Não. Arroba produzida é o que a fazenda fabricou no período: vendas mais a variação do rebanho, menos os animais comprados. Na engorda, equivale ao ganho de peso convertido em arrobas de carcaça.
+Como calcular a margem por arroba?
+Subtraia o custo por arroba do preço de venda. Com custo de R$ 150 e arroba vendida a R$ 300, a margem é de R$ 150 por arroba. Multiplique pelas arrobas vendidas para ter a margem do período.
+Fontes
+Embrapa Gado de Corte, Custos de produção na pecuária de corte
+Embrapa Pantanal, Custo de produção da pecuária de corte no Pantanal de Corumbá (Circular Técnica 126, 2024)
+Embrapa Gado de Corte, diferenças entre peso em quilogramas e em arrobas
+Veja também
+Calculadora de arrobaCria, recria e engordaCusto por hectareTodos os guias
+Nesta página
+Calcule o custo e a margem da arroba
+Como calcular o custo da arroba produzida
+Como contar as arrobas produzidas
+O que entra no custo: COE, COT e custo total
+Planilha de custo por arroba
+A mesma arroba, três custos diferentes
+O custo da arroba no FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
 Grátis até 1.000 animais com ficha
@@ -2621,6 +2960,113 @@ Começar grátisBaixar para Android
 
 ---
 
+## Pluviômetro: como instalar, ler e quanto é 1 mm de chuva
+Endereço: https://finagro.app/pluviometro
+
+
+FINAGRO
+Guias
+Pluviômetro
+GuiaLavoura
+Pluviômetro: como instalar, medir a chuva e entender o milímetro
+1 mm de chuva equivale a quantos litros?
+Um milímetro de chuva equivale a 1 litro de água em cada metro quadrado. Em um hectare, 1 mm são 10.000 litros, ou 10 metros cúbicos. Para medir, instale o pluviômetro em área aberta, a 1,5 m do solo, longe de árvores e telhados, leia todo dia na mesma hora e anote os milímetros, mesmo quando for zero.
+Atualizado em 08/10/2026
+Converta milímetros em litros
+Chuva no pluviômetro (mm)Área (hectares)
+250.000litros de chuva na área
+250,0metros cúbicos de água
+250.000litros por hectare
+A conta parte de 1 mm = 1 litro por metro quadrado, e 1 hectare tem 10.000 metros quadrados. É a água que caiu: parte escorre, parte evapora e parte entra no solo.
+1 mm de chuva equivale a quantos litros
+O pluviômetro mostra a chuva em milímetros. O Serviço Geológico do Brasil explica que um milímetro de água de chuva acumulada no pluviômetro equivale a 1 litro de água em 1 metro quadrado.
+Para a lavoura e o pasto, a conta que interessa é por hectare. Um hectare tem 10.000 metros quadrados, então cada milímetro são 10.000 litros, ou 10 metros cúbicos. Uma chuva de 25 mm joga 250.000 litros em cada hectare.
+ChuvaPor metro quadradoPor hectare
+1 mm1 litro10.000 litros
+10 mm10 litros100.000 litros
+25 mm25 litros250.000 litros
+50 mm50 litros500.000 litros
+Conta: 1 mm = 1 litro por m²; 1 hectare = 10.000 m². É a chuva que caiu, antes de escorrer, evaporar ou infiltrar.
+Se o pluviômetro marcou 30 mm no pasto de 40 hectares, caíram 12 milhões de litros ali. Use a calculadora acima para a sua área.
+Onde instalar o pluviômetro
+O lugar pesa mais que o aparelho. A ANA pede uma área aberta, ampla e livre de obstruções. Árvore, galpão e telhado desviam a chuva e o vento e deixam a leitura falsa.
+Altura: por padronização, o aparelho fica a 1,5 m do solo. Quanto mais alto, mais o vento leva a água.
+Distância de obstáculos: a ANA indica duas vezes a altura da árvore ou construção acima do pluviômetro, e nunca menos que essa altura. Uma árvore 5 m acima do aparelho pede 10 m de folga.
+Acesso: perto de casa ou do curral, num lugar por onde você passa todo dia. Pluviômetro esquecido no fim do pasto não é lido.
+Firme e reto: num mourão bem fincado e na vertical, de boca nivelada. A ANA alinha o mourão na vertical com a ajuda de um nível.
+Fazenda grande pode ter mais de um aparelho. Chuva de verão cai em faixa e pode molhar a sede e deixar o pasto do fundo seco. Um pluviômetro por região da fazenda mostra isso.
+Pluviômetro caseiro de garrafa PET
+O Cemaden, centro do governo que monitora desastres naturais, ensina a fazer um pluviômetro com garrafa. Serve para começar o histórico sem gastar nada. Para uma medida confiável, a garrafa precisa ter a parte de cima reta como um cano.
+Separe uma garrafa PET lisa e reta de 2 litros, tesoura ou estilete, fita adesiva larga e uma régua.
+Corte a garrafa onde ela deixa de ser curva e começa a ficar reta. A ponta cortada vira o funil.
+Cole a régua na vertical, do lado de fora, com o zero da régua alinhado à parte reta de baixo da garrafa, antes do ponto irregular.
+Ponha água até o zero da régua (pedras no fundo ajudam a firmar). Essa água não conta como chuva.
+Encaixe a ponta cortada, virada ao contrário, na boca da garrafa e prenda com fita.
+Fixe num suporte firme de madeira ou ferro, em local aberto, e a no mínimo 3 metros de muro, árvore ou telhado, como pede o Cemaden.
+O caseiro é bom para ter noção da chuva. Para decisão de dinheiro, como adiar plantio ou soltar o gado, o aparelho com proveta graduada dá leitura mais fina.
+Como ler e quando ler
+Leia sempre no mesmo horário. A rede de observadores da ANA mede às 7h da manhã e anota todo dia. Mesmo quando não choveu, o dia entra na caderneta, com zero.
+Veja o nível da água no reservatório. A ANA lembra que é indispensável conferir todo dia se há água, mesmo que pareça não ter chovido.
+No modelo com proveta, despeje a água na proveta e leia o número inteiro e o decimal, como 13,2 mm.
+Se a água encher a proveta mais de uma vez, some todas as leituras.
+Anote a data, o local e os milímetros.
+Esvazie o aparelho para a chuva do próximo dia.
+Se você viajou e não leu, a água fica acumulada até a leitura seguinte. Anote o total dos dias juntos e marque que foi acumulado, em vez de dividir a chuva entre os dias.
+O pluviômetro da ANA, com captação de 400 cm² e reservatório de 20 litros, comporta até 500 mm. Chuva forte em aparelho pequeno pode transbordar, então não deixe acumular muitos dias na época das águas.
+Para que serve o histórico de chuva
+Chuva de uma noite não ensina nada. Chuva de anos ensina. Com o total de cada mês, você compara a safra com a água que ela teve e passa a ver por que o pasto rebrotou tarde num ano e cedo no outro.
+Pasto: o quanto choveu antes da rebrota ajuda a decidir lotação e suplementação. Veja taxa de lotação.
+Lavoura: a chuva do ciclo explica a produtividade em sacas por hectare e ajuda a escolher a janela de plantio.
+Água: mês a mês, o histórico mostra se a represa e o bebedouro costumam aguentar a seca.
+Safra ruim: com a chuva anotada, fica mais fácil explicar a frustração e comparar com os outros anos. As anotações do caderno de campo entram na mesma conta.
+O pluviômetro da cidade vizinha não vale pela sua terra. Chuva de verão costuma ser localizada: molha um lado e deixa o outro seco. Só o aparelho na cerca diz o que caiu ali.
+Este guia é informativo e usa as orientações de ANA, Cemaden e SGB. Para plano de plantio ou irrigação, confirme com o agrônomo da sua região.
+A chuva da fazenda no FINAGRO
+Na tela Clima, o campo "Choveu quanto?" guarda o que o pluviômetro marcou: escolha a fazenda, o dia (hoje, ontem ou anteontem) e digite os milímetros.
+Zero milímetro é anotação válida: "passei no pluviômetro e não choveu" aparece no histórico como mês seco, não como dia esquecido.
+O app soma o mês e o ano sozinho, mostra a chuva de cada mês em barras e compara com o mesmo mês do ano passado.
+Cada fazenda tem a sua chuva. Anotação digitada por engano pode ser apagada, e valor acima de 250 mm num dia pede confirmação antes de gravar.
+O app não lê o pluviômetro sozinho: quem olha o aparelho e digita o número é você.
+Anote a chuva da fazenda e veja o histórico de cada mês.
+Grátis até 1.000 animais com ficha, com o pluviômetro em todas as fazendas.
+Começar grátis
+Perguntas sobre pluviômetro
+1 mm de chuva equivale a quantos litros?
+Um milímetro equivale a 1 litro de água em 1 metro quadrado. Em um hectare são 10.000 litros, ou 10 metros cúbicos, para cada milímetro.
+Qual a altura certa para instalar o pluviômetro?
+Por padronização, 1,5 metro do solo, em área aberta. A ANA pede distância de árvores e construções de pelo menos duas vezes a altura delas acima do aparelho.
+Como fazer um pluviômetro caseiro?
+Use uma garrafa PET lisa e reta de 2 litros, corte onde a parte reta começa para fazer o funil, cole uma régua com o zero na base reta, encha de água até o zero e fixe em local aberto, a 3 metros de obstáculos.
+Qual o melhor horário para ler o pluviômetro?
+Qualquer horário serve, desde que seja sempre o mesmo. A rede de observadores da ANA lê às 7h da manhã e anota todos os dias, mesmo quando não choveu.
+E se eu viajar e não conseguir ler?
+A água fica acumulada no aparelho até a leitura seguinte. Anote o total e marque que foi acumulado de vários dias, sem dividir entre eles.
+Fontes
+Serviço Geológico do Brasil (SGB), elementos que caracterizam o clima
+Cemaden, o que são pluviômetros
+ANA, manual de instalação, operação e manutenção de estações pluviométricas
+ANA, cartilha do observador: pluviometria
+Cemaden Educação, confecção e instalação do pluviômetro de garrafa PET
+Veja também
+Caderno de campoTaxa de lotaçãoSacas por hectareTodos os guias
+Nesta página
+Converta milímetros em litros
+1 mm de chuva equivale a quantos litros
+Onde instalar o pluviômetro
+Pluviômetro caseiro de garrafa PET
+Como ler e quando ler
+Para que serve o histórico de chuva
+A chuva da fazenda no FINAGRO
+Perguntas frequentes
+FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
+Grátis até 1.000 animais com ficha
+Lote sem limite de cabeças
+Sem cartão
+Começar grátisBaixar para Android
+
+
+---
+
 ## Sacas por hectare: calcule a produtividade da lavoura
 Endereço: https://finagro.app/produtividade-em-sacas-por-hectare
 
@@ -3005,6 +3451,72 @@ Os erros que mais custam
 Quanto custa não anotar
 Caderno, planilha ou aplicativo: quando trocar
 Os quatro controles dentro do FINAGRO
+Perguntas frequentes
+FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
+Grátis até 1.000 animais com ficha
+Lote sem limite de cabeças
+Sem cartão
+Começar grátisBaixar para Android
+
+
+---
+
+## Glossário rural: termos da pecuária e da lavoura
+Endereço: https://finagro.app/glossario-rural
+
+
+FINAGRO
+Guias
+Glossário rural
+GuiaDinheiro e imposto
+Glossário rural: o que querem dizer os termos da pecuária e da lavoura
+O que significam arroba, UA, talhão e GMD?
+Arroba é a medida de 15 kg de carcaça do boi. Unidade animal (UA) equivale a 450 kg de peso vivo. Talhão é a parcela da lavoura onde se registra cada operação. GMD é o ganho médio diário: quanto o animal engordou por dia entre duas pesagens. Abaixo estão 45 termos do rebanho, da lavoura, do dinheiro e da terra.
+Atualizado em 08/10/2026
+Termos do rebanho
+Palavras do curral, da pesagem e da reprodução. Cada uma leva para a página com a conta.
+ArrobaMedida de peso usada na compra e venda de gado. No boi, mede a carcaça: 1 arroba são 15 kg (a medida exata é 14,788 kg, arredondada para 15). Veja a calculadora de arroba.Rendimento de carcaçaPeso da carcaça dividido pelo peso vivo, vezes 100. O peso vivo muda com o que o animal comeu e bebeu, por isso se prefere o peso depois de cerca de 12 horas só com dieta líquida. Veja rendimento de carcaça.Unidade animal (UA)Unidade que equivale a 450 kg de peso vivo. Serve para somar animais de pesos diferentes numa mesma conta de lotação. Veja taxa de lotação.Taxa de lotaçãoQuantidade de peso animal mantida na área, normalmente expressa em UA por hectare. Mede a lotação presente, não a capacidade do pasto. Veja taxa de lotação.GMDGanho médio diário: quanto o animal engordou por dia entre duas pesagens. É o peso final menos o peso inicial, dividido pelos dias entre elas. Veja a calculadora de GMD.Conversão alimentarRação consumida dividida pelo ganho de peso. Quanto menor o número, melhor o aproveitamento do alimento. Veja conversão alimentar.Escore de condição corporalNota dada pelo olho e pela mão, pela cobertura de músculo e gordura sobre marcos do corpo como costelas e coluna. No gado de corte há duas escalas, de 1 a 5 e de 1 a 9. Veja escore de condição corporal.Estação de montaPeríodo do ano em que as vacas são cobertas, para concentrar os nascimentos. A Embrapa recomenda três meses. Veja estação de monta.Taxa de prenhezDas vacas expostas ao touro ou à inseminação no ano, quantas ficaram prenhes, em %. Veja índices zootécnicos.Taxa de desmamaQuantos bezerros chegaram à desmama por matriz no ano. Veja índices zootécnicos.Cria, recria e engordaAs três fases do gado de corte. A cria vai da reprodução e do nascimento até a desmama. A recria acompanha o animal desmamado em crescimento. A engorda, também chamada terminação, prepara o bovino para sair gordo. Veja cria, recria e engorda.
+Termos da lavoura
+Do talhão à saca, e a chuva que cai sobre eles.
+TalhãoParcela da lavoura com cultura, variedade e área próprias, onde se registra cada operação do caderno de campo. Veja o caderno de campo.SafraO ciclo produtivo de uma cultura. No FINAGRO a safra reúne a cultura, os talhões e o período, e cada operação registrada entra no custo dela.Caderno de campoRegistro de tudo o que se faz em cada talhão: plantio, adubação, aplicação de defensivo, irrigação e colheita. Serve para rastrear o produto e calcular o custo por hectare. Veja o caderno de campo.CarênciaNa lavoura, a data a partir da qual a colheita está liberada depois da aplicação de um defensivo. Anote no caderno de campo.SacaMedida de venda do grão. O peso da saca muda conforme a cultura e a praça, e é ele que converte o peso da carga em sacas. Veja produtividade em sacas por hectare.Produtividade (sc/ha)Sacas colhidas divididas pela área colhida em hectares. A mesma colheita também se expressa em kg/ha ou t/ha. Veja produtividade em sacas por hectare.Custo de produçãoSoma dos valores de todos os recursos, insumos e serviços, usados no processo produtivo de uma atividade agropecuária. Veja custo de produção por hectare.Custo por hectareCusto total da lavoura dividido pela área plantada. Dividido pela produção colhida, vira custo por saca. Veja custo de produção por hectare.Ponto de equilíbrioNa lavoura, o custo por hectare dividido pelo preço esperado de cada saca: as sacas por hectare que cobrem o custo. Veja custo de produção por hectare.PluviômetroInstrumento usado para coletar e medir a chuva. A água captada é mostrada em milímetros. Veja pluviômetro.Milímetro de chuvaUm milímetro de chuva acumulada equivale a 1 litro de água em 1 metro quadrado, ou 10.000 litros por hectare. Veja pluviômetro.
+Dinheiro e imposto
+O que entra, o que sai, o que o governo cobra e o que a Embrapa soma no custo.
+Fluxo de caixa ruralLista, por data, do dinheiro que entra e sai da fazenda: venda de animais, leite e grãos, compra de insumos, diárias, parcelas e impostos. Mostra o saldo previsto antes de o dinheiro faltar. Veja o fluxo de caixa rural.Previsto e realizadoRealizado é o que já entrou e saiu. Previsto é o que ainda vai vencer, como o boleto da ração ou a parcela do custeio. Os dois juntos mostram se vai faltar dinheiro antes da próxima venda.Centro de custoMarca que diz para onde foi o dinheiro dentro da fazenda, como cria, engorda, leite ou lavoura.Custo operacional efetivo (COE)Todos os gastos da propriedade ao longo de um ano que são consumidos nesse mesmo ano, como mão de obra, suplementação, vacinas, pastagem, fretes, taxas e impostos. Veja o custo da arroba produzida.Custo operacional total (COT)O COE mais a depreciação de benfeitorias, máquinas, implementos e animais de serviço e o pró-labore do produtor. Veja o custo da arroba produzida.DepreciaçãoProcedimento que acumula recursos para repor bens como curral, máquina e cerca no fim da vida útil. É um custo que não sai do bolso no dia a dia. Veja o custo da arroba produzida.Pró-laborePagamento do trabalho do produtor como administrador da fazenda. A Embrapa o conta no custo de produção. Veja o custo da arroba produzida.Imposto de renda do produtor ruralO resultado da atividade rural é a diferença entre as receitas recebidas e as despesas pagas no ano. Veja imposto de renda do produtor rural.FunruralContribuição do produtor rural pessoa física sobre a receita bruta da venda: previdência, seguro de acidente de trabalho (RAT) e Senar. Em geral o comprador desconta e recolhe. Veja o Funrural.LCDPRLivro Caixa Digital do Produtor Rural: arquivo em que o produtor pessoa física registra receitas, despesas de custeio e investimentos da atividade rural para a Receita Federal. Veja o LCDPR.PronafCrédito rural do governo para a agricultura familiar. A família precisa do CAF, e quem contrata é o banco ou outra instituição financeira autorizada. Veja o Pronaf.
+Terra e documentos
+Medidas de área, cadastros do imóvel e papéis que acompanham o gado. Regras e prazos podem mudar por estado: confirme com o órgão do seu estado.
+HectareÁrea de 10.000 metros quadrados, e não 10.000 metros de comprimento. Um quadrado de 100 m por 100 m tem 1 hectare, e um retângulo de 200 m por 50 m também. Veja quantos metros tem um hectare.AlqueireMedida antiga de área que muda de região para região. O paulista tem 24.200 m², ou 2,42 hectares, e o mineiro 48.400 m². Veja alqueire em hectare.TarefaMedida antiga de área que varia de município para município. Em Fortaleza aparece como 3.025 m², e a tarefa baiana tem 4.356 m². Veja tarefa e linha de terra.CCIRCertificado de Cadastro de Imóvel Rural: documento do Incra que comprova a regularidade cadastral do imóvel. Veja o CCIR.NIRF (CIB)Cadastro do imóvel rural na Receita Federal, usado para cobrar o ITR. A Receita hoje chama o número de CIB. Veja o CCIR.ITRImposto sobre a Propriedade Territorial Rural, declarado à Receita Federal pela DITR por quem é dono ou possuidor de imóvel rural. Veja o ITR.CARCadastro Ambiental Rural: registro público eletrônico, obrigatório para todos os imóveis rurais, com informações ambientais da propriedade. Veja o CAR.APPÁrea de Preservação Permanente: área protegida, coberta ou não por vegetação nativa, que preserva a água, a paisagem e a biodiversidade. Veja o CAR.Reserva LegalParte do imóvel que deve manter vegetação nativa e pode ser usada de forma sustentável. Veja o CAR.CAFCadastro Nacional da Agricultura Familiar, que substituiu a DAP como documento para acessar o Pronaf e outros programas. Veja o CAF.GTAGuia de Trânsito Animal: documento oficial obrigatório para transportar animais vivos, dentro e entre estados. É emitida pela defesa agropecuária do estado. Veja como emitir a GTA.Declaração de rebanhoAtualização do número de animais da propriedade no órgão de defesa do estado. As etapas e os prazos mudam de estado para estado, e em vários estados a GTA só sai com a declaração em dia. Veja a declaração de rebanho.
+Os termos no FINAGRO
+Animal com ficha e lote de qualquer tamanho, com pesagens e o ganho entre elas (GMD).
+Safras, talhões e caderno de campo, com o custo por hectare e a chuva do pluviômetro.
+Receitas, despesas, contas a pagar e a receber, fluxo de caixa com saldo previsto e centro de custo.
+Registro das GTAs emitidas e lista do que vence no seu estado; o app não emite a GTA nem transmite nada à Receita.
+Os termos do glossário viram tela no seu celular.
+Grátis até 1.000 animais com ficha, sem cartão.
+Começar grátis
+Perguntas sobre os termos rurais
+O que é arroba?
+Arroba é a medida de peso usada para negociar gado. No boi, 1 arroba tem 15 kg de carcaça. A medida exata é 14,788 kg, arredondada para 15.
+O que é unidade animal (UA)?
+É a unidade de 450 kg de peso vivo. Ela permite somar animais de pesos diferentes para calcular a lotação do pasto, em UA por hectare.
+O que é talhão?
+Talhão é a parcela da lavoura, com cultura, variedade e área próprias, onde se registra cada operação, do plantio à colheita.
+O que é GMD?
+GMD é o ganho médio diário: o peso final menos o peso inicial, dividido pelos dias entre as duas pesagens. Um boi que foi de 300 para 360 kg em 60 dias ganhou 1 kg por dia.
+Qual a diferença entre hectare e alqueire?
+Hectare tem sempre 10.000 metros quadrados. O alqueire muda de região: o paulista tem 2,42 hectares e o mineiro tem 4,84 hectares.
+Fontes
+Embrapa Gado de Corte, diferenças entre peso em quilogramas e em arrobas
+Embrapa Pantanal, custo de produção da pecuária de corte (Circular Técnica 126)
+Serviço Geológico do Brasil, elementos que caracterizam o clima
+Lei 12.651/2012 (Código Florestal), no Planalto
+Veja também
+Calculadora de arrobaTaxa de lotaçãoCusto por hectareTodos os guias
+Nesta página
+Termos do rebanho
+Termos da lavoura
+Dinheiro e imposto
+Terra e documentos
+Os termos no FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
 Grátis até 1.000 animais com ficha

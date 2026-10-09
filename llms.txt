@@ -2,7 +2,7 @@
 
 > O FINAGRO é um aplicativo brasileiro de gestão rural, no celular e no computador, que reúne rebanho, lavoura, dinheiro e equipe da fazenda e é grátis até 1.000 animais com ficha.
 
-Site: https://finagro.app/ · Sistema: https://app.finagro.app/ · Android: https://play.google.com/store/apps/details?id=com.raykkony.fblogin · Desenvolvido pela VisionX (https://visionxma.com/). Atualizado em 08/10/2026.
+Site: https://finagro.app/ · Sistema: https://app.finagro.app/ · Android: https://play.google.com/store/apps/details?id=com.raykkony.fblogin · LinkedIn: https://www.linkedin.com/company/finagro-app/ · Desenvolvido pela VisionX (https://visionxma.com/). Atualizado em 08/10/2026.
 
 ## O que faz
 - Rebanho: animal com ficha (brinco, raça, peso, foto), lote de qualquer tamanho, vacinas e sanidade, reprodução com parto previsto, pesagem e GMD, registro de GTA com lembrete de vencimento.
@@ -38,6 +38,7 @@ Produtor rural brasileiro de qualquer tamanho: do sítio com 12 vacas de leite �
 - [GTA: Guia de Trânsito Animal](https://finagro.app/gta): O que é, quem emite, o que trava a guia e como o app lembra o vencimento.
 - [LCDPR: Livro Caixa Digital do Produtor Rural](https://finagro.app/lcdpr): Quem é obrigado, prazo, multa e como gerar o arquivo com os lançamentos.
 - [Calculadora de GMD do gado](https://finagro.app/calculadora-gmd): Ganho médio diário: a conta, a calculadora e como usar o resultado na engorda.
+- [Gestão da pecuária de corte no celular](https://finagro.app/gestao-da-pecuaria-de-corte): Para quem toca gado de corte: o que a caderneta não soma, o que o app põe no lugar e o que cabe no plano grátis.
 - [Guias, calculadoras e modelos do produtor rural](https://finagro.app/guias): Todas as páginas gratuitas do FINAGRO, por assunto.
 
 ### Escolher um aplicativo
@@ -50,8 +51,10 @@ Produtor rural brasileiro de qualquer tamanho: do sítio com 12 vacas de leite �
 - [Calculadora de arroba do boi: peso vivo em @ e valor](https://finagro.app/calculadora-de-arroba) (calculadora): Peso vivo em arrobas e o valor do boi, na hora.
 - [Calculadora de gestação bovina: data do parto da vaca](https://finagro.app/calculadora-de-gestacao-bovina) (calculadora): Data do parto da vaca pela cobertura ou IA.
 - [Como emitir GTA: passo a passo e sistema de cada estado](https://finagro.app/como-emitir-gta) (guia): Passo a passo e o sistema de cada estado.
+- [Confinamento de gado de corte: como fazer e o que medir](https://finagro.app/confinamento-de-gado) (guia): Confinamento e semiconfinamento: prazos e o que medir.
 - [Contrato de compra e venda de gado e recibo: modelos](https://finagro.app/contrato-de-compra-e-venda-de-gado) (modelo pronto): Contrato de compra e venda de gado e recibo, prontos.
 - [Cria, recria e engorda: fases do gado de corte](https://finagro.app/cria-recria-e-engorda) (guia): Entenda as fases e o registro que cada uma pede.
+- [Custo da arroba produzida: calculadora e planilha](https://finagro.app/custo-da-arroba-produzida) (calculadora): Custo por arroba e margem, com planilha de custos.
 - [Declaração de rebanho 2026: prazo por estado e como fazer](https://finagro.app/declaracao-de-rebanho) (guia): Prazo de 2026 por estado e como declarar.
 - [Escore de condição corporal em bovinos: notas e como avaliar](https://finagro.app/escore-de-condicao-corporal) (guia): Notas de 1 a 5 e de 1 a 9 e quando avaliar.
 - [Estação de monta no gado de corte: como fazer e planejar](https://finagro.app/estacao-de-monta) (guia): Como planejar a monta e concentrar os partos.
@@ -70,12 +73,14 @@ Produtor rural brasileiro de qualquer tamanho: do sítio com 12 vacas de leite �
 
 ### Lavoura
 - [Custo de produção por hectare: calcule por saca](https://finagro.app/custo-de-producao-por-hectare) (calculadora): Custo por hectare, por saca e ponto de equilíbrio.
+- [Pluviômetro: como instalar, ler e quanto é 1 mm de chuva](https://finagro.app/pluviometro) (guia): Como instalar, ler e anotar a chuva da fazenda.
 - [Sacas por hectare: calcule a produtividade da lavoura](https://finagro.app/produtividade-em-sacas-por-hectare) (calculadora): Passe a colheita em kg para sacas por hectare.
 
 ### Dinheiro e imposto
 - [Funrural 2026: calculadora e como funciona o desconto](https://finagro.app/funrural) (calculadora): Funrural de uma venda: parcelas e total, na hora.
 - [Contrato de safra: modelo pronto e direitos do safrista](https://finagro.app/contrato-de-safra) (modelo pronto): Modelo pronto e os direitos do safrista pela lei.
 - [Gestão rural: por onde começar a organizar a fazenda](https://finagro.app/gestao-rural) (guia): Os quatro controles que organizam a fazenda.
+- [Glossário rural: termos da pecuária e da lavoura](https://finagro.app/glossario-rural) (guia): Termos da pecuária, da lavoura e do dinheiro.
 - [Imposto de renda do produtor rural 2026: quem declara](https://finagro.app/imposto-de-renda-produtor-rural) (guia): Quem declara, como apurar e o que guardar.
 - [Nota fiscal de produtor rural eletrônica: como emitir](https://finagro.app/nota-fiscal-de-produtor-rural) (guia): NF-e do produtor: quem emite, app e inscrição.
 - [Planilha de gestão rural grátis: receitas e despesas](https://finagro.app/planilha-de-gestao-rural) (planilha): Receitas e despesas da fazenda, grátis em Excel.

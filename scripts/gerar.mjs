@@ -4,7 +4,7 @@
 // Rodar a cada mudança de texto, preço ou página:  node scripts/gerar.mjs
 import fs from 'node:fs';
 import path from 'node:path';
-import { SITE, ATUALIZADO, ENTIDADE, PLANOS, EMPRESARIAL, COMPLEMENTOS, TESTE_DIAS, PERGUNTAS, PAGINAS, brl } from '../conteudo/site.mjs';
+import { SITE, ATUALIZADO, ENTIDADE, PLANOS, LIMITES, EMPRESARIAL, COMPLEMENTOS, TESTE_DIAS, PERGUNTAS, PAGINAS, brl } from '../conteudo/site.mjs';
 import { montarGuias, GRUPOS, TIPOS } from './guias.mjs';
 
 const RAIZ = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
@@ -70,6 +70,7 @@ const rodape = () => `<footer class="rodape">
       </div>
       <div><h2>O app</h2><ul>
         ${SECOES.map(([h, t]) => `<li><a href="${h}">${t}</a></li>`).join('')}
+        <li><a href="/gestao-da-pecuaria-de-corte">Para gado de corte</a></li>
         <li><a href="${ENTIDADE.app}">Entrar no app</a></li><li><a href="${PLAY}">App para Android</a></li>
       </ul></div>
       <div><h2>Guias</h2><ul>
@@ -78,6 +79,7 @@ const rodape = () => `<footer class="rodape">
       </ul></div>
       <div><h2>Contato</h2><ul>
         <li><a href="${ENTIDADE.instagram}" rel="me">Instagram @finagro.app</a></li>
+        <li><a href="${ENTIDADE.linkedin}" rel="me">LinkedIn</a></li>
         <li><a href="https://www.instagram.com/visionx.dev/">Instagram @visionx.dev</a></li>
         <li><a href="${ENTIDADE.privacidade}">Política de privacidade</a></li>
         <li><a href="/llms.txt">Resumo para IA (llms.txt)</a></li>
@@ -125,9 +127,9 @@ ${lista.map(([p, r], k) => `  <details name="faq"${k >= visiveis ? ' class="extr
 ${lista.length > visiveis ? `<button class="botao botao--linha ver-mais" type="button" data-ver-mais="faq">Ver mais perguntas (+${lista.length - visiveis})</button>` : ''}`;
 }
 
-function cabeca(pagina, titulo, descricao) {
+function cabeca(pagina, titulo, descricao, vitrine = false) {
   const url = SITE + (pagina === '/' ? '/' : pagina);
-  return `<meta property="og:type" content="${pagina === '/' ? 'website' : 'article'}">
+  return `<meta property="og:type" content="${pagina === '/' || vitrine ? 'website' : 'article'}">
 <meta property="og:site_name" content="FINAGRO">
 <meta property="og:locale" content="pt_BR">
 <meta property="og:url" content="${url}">
@@ -158,13 +160,20 @@ const app = {
   description: ENTIDADE.frase, applicationCategory: 'BusinessApplication', applicationSubCategory: 'Gestão rural',
   operatingSystem: 'Android, navegador (iPhone, tablet e computador)', inLanguage: 'pt-BR',
   image: ENTIDADE.imagem, screenshot: `${SITE}/assets/telas/inicio-824.webp`,
-  installUrl: ENTIDADE.android, downloadUrl: ENTIDADE.android, sameAs: [ENTIDADE.instagram, ENTIDADE.android],
+  installUrl: ENTIDADE.android, downloadUrl: ENTIDADE.android, sameAs: [ENTIDADE.instagram, ENTIDADE.linkedin, ENTIDADE.android],
   author: { '@id': ORG_ID }, publisher: { '@id': ORG_ID },
   offers: [
     ...PLANOS.filter((p) => !p.mes).map((p) => ({ '@type': 'Offer', name: `Plano ${p.nome}`, price: '0.00', priceCurrency: 'BRL', description: p.itens.slice(0, 3).join(', '), url: `${SITE}/#comecar`, category: 'grátis' })),
   ],
   featureList: ['Rebanho com ficha e lote', 'Vacinas e sanidade', 'Reprodução e parto previsto', 'Registro de GTA', 'Receitas, despesas e contas', 'Fluxo de caixa', 'Arquivo do LCDPR', 'Safras, talhões e caderno de campo', 'Área por GPS', 'Máquinas e estoque', 'Mão de obra e equipe', 'Cotação do boi (CONAB)', 'Simulador PRONAF', 'FINAGRO AI'],
 };
+
+// Cartão "veja o que cabe no grátis" da página de captação: os limites saem do catálogo, sem preço
+// (o site não mostra tabela de preço enquanto a cobrança do app está desligada).
+function capPlanos() {
+  const planos = PLANOS.map((p) => { const [fazendas, pessoas, animais] = LIMITES[p.id]; return { id: p.id, nome: p.nome, fazendas, pessoas, animais: Number.isFinite(animais) ? animais : null }; });
+  return `<script type="application/json" id="cap-planos">${JSON.stringify({ planos })}</script>`;
+}
 
 function faqDaPagina(html) {
   const out = [];
@@ -182,6 +191,14 @@ function jsonld(p, html, titulo, descricao) {
   if (topo) lista.unshift([semTags(topo[1]), semTags(topo[2])]);
   if (pagina === '/') {
     grafo.push(site, app);
+  } else if (p.captacao) {
+    const url = SITE + pagina;
+    grafo.push(site, app);
+    grafo.push({ '@type': 'BreadcrumbList', itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'FINAGRO', item: `${SITE}/` },
+      { '@type': 'ListItem', position: 2, name: titulo.replace(/\s*\|.*$/, ''), item: url } ] });
+    grafo.push({ '@type': 'WebPage', '@id': `${url}#pagina`, url, name: titulo.replace(/\s*\|.*$/, ''), description: descricao, inLanguage: 'pt-BR',
+      isPartOf: { '@id': `${SITE}/#site` }, about: { '@id': APP_ID }, mainEntity: { '@id': APP_ID }, dateModified: p.atualizado || ATUALIZADO, primaryImageOfPage: ENTIDADE.imagem, publisher: { '@id': ORG_ID } });
   } else if (p.hub) {
     const url = SITE + pagina;
     grafo.push(site);
@@ -223,8 +240,9 @@ for (const p of [...TODAS, { caminho: '/404' }]) {
   let html = fs.readFileSync(arq, 'utf8');
   const titulo = semTags((html.match(/<title>([\s\S]*?)<\/title>/) || [])[1] || '');
   const descricao = (html.match(/<meta name="description" content="([^"]*)"/) || [])[1] || '';
-  html = preencher(html, 'cabeca', cabeca(p.caminho, titulo, descricao));
-  html = preencher(html, 'topo', topo(p.caminho === '/'));
+  html = preencher(html, 'cabeca', cabeca(p.caminho, titulo, descricao, p.captacao));
+  html = preencher(html, 'topo', topo(p.caminho === '/' || p.heroi));
+  if (p.captacao) html = preencher(html, 'cap-planos', capPlanos());
   html = preencher(html, 'rodape', rodape());
   if (p.caminho === '/') html = preencher(html, 'faq', faq(PERGUNTAS));
   if (p.caminho !== '/404') html = preencher(html, 'jsonld', jsonld(p, html, titulo, descricao));
@@ -266,7 +284,7 @@ const llms = `# FINAGRO
 
 > ${ENTIDADE.frase}
 
-Site: ${SITE}/ · Sistema: ${ENTIDADE.app} · Android: ${ENTIDADE.android} · Desenvolvido pela VisionX (https://visionxma.com/). Atualizado em ${ATUALIZADO.split('-').reverse().join('/')}.
+Site: ${SITE}/ · Sistema: ${ENTIDADE.app} · Android: ${ENTIDADE.android} · LinkedIn: ${ENTIDADE.linkedin} · Desenvolvido pela VisionX (https://visionxma.com/). Atualizado em ${ATUALIZADO.split('-').reverse().join('/')}.
 
 ## O que faz
 - Rebanho: animal com ficha (brinco, raça, peso, foto), lote de qualquer tamanho, vacinas e sanidade, reprodução com parto previsto, pesagem e GMD, registro de GTA com lembrete de vencimento.

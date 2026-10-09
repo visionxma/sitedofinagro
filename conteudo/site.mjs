@@ -14,6 +14,7 @@ export const ENTIDADE = {
   app: 'https://app.finagro.app/',
   android: 'https://play.google.com/store/apps/details?id=com.raykkony.fblogin',
   instagram: 'https://www.instagram.com/finagro.app/',
+  linkedin: 'https://www.linkedin.com/company/finagro-app/',
   privacidade: 'https://projeto.finagro.app/pol%C3%ADtica-de-privacidade',
   logo: `${SITE}/icone-512.png`,
   imagem: `${SITE}/assets/og/finagro-og-20261008b.png`,
@@ -68,4 +69,6 @@ export const PAGINAS = [
   { caminho: '/gta', titulo: 'GTA: Guia de Trânsito Animal', resumo: 'O que é, quem emite, o que trava a guia e como o app lembra o vencimento.' },
   { caminho: '/lcdpr', titulo: 'LCDPR: Livro Caixa Digital do Produtor Rural', resumo: 'Quem é obrigado, prazo, multa e como gerar o arquivo com os lançamentos.' },
   { caminho: '/calculadora-gmd', titulo: 'Calculadora de GMD do gado', resumo: 'Ganho médio diário: a conta, a calculadora e como usar o resultado na engorda.' },
+  // Página de captação (chegada de anúncio e de busca de compra): hero de tela inteira, por isso o topo nasce estendido.
+  { caminho: '/gestao-da-pecuaria-de-corte', titulo: 'Gestão da pecuária de corte no celular', resumo: 'Para quem toca gado de corte: o que a caderneta não soma, o que o app põe no lugar e o que cabe no plano grátis.', heroi: true, captacao: true },
 ];

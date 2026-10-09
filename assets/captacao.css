@@ -1,0 +1,243 @@
+/* ==========================================================================
+   FINAGRO — página de captação /gestao-da-pecuaria-de-corte
+   Clone da página do anunciante mais forte do nicho que manda anúncio para página própria (08/10/2026): a MESMA ordem
+   de seções e os MESMOS componentes (herói com cartão de formulário, lista numerada de travas, quadro 2 x 2 com
+   etiquetas, faixa de números, linha do tempo, citação central, chamada com painel), trocando conteúdo, marca, cores
+   e família de letra. Tamanho, peso e caixa dos títulos são os da referência. Usa os tokens de /styles.css.
+   O que NÃO vem da referência: o herói cobre a tela inteira (100svh) e o celular copia a composição do computador.
+   ========================================================================== */
+
+.cap { --cap-h1: clamp(1.75rem, 3.8vw, 3.375rem); --cap-h2: clamp(1.625rem, 3.2vw, 2.875rem); --cap-h2b: clamp(1.5rem, 2.8vw, 2.625rem); --cap-h2c: clamp(1.375rem, 2.8vw, 2.375rem); }
+.cap h1, .cap h2, .cap h3 { text-transform: uppercase; }
+.cap .secao { padding-top: clamp(3rem, 1.6rem + 5.6vw, 5.625rem); padding-bottom: clamp(3rem, 1.6rem + 5.6vw, 5.625rem); }
+
+/* a barra de leitura no alto (a referência tem a mesma): anda com a rolagem, sem script */
+.cap-progresso { display: none; }
+@supports (animation-timeline: scroll()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .cap-progresso { display: block; position: fixed; inset: 0 0 auto; z-index: 70; height: 3px; background: var(--verde-vivo); transform-origin: 0 50%; transform: scaleX(0); animation: cap-leitura linear both; animation-timeline: scroll(root); pointer-events: none; }
+  }
+}
+@keyframes cap-leitura { to { transform: scaleX(1); } }
+
+/* etiqueta acima do título (a "badge" da referência) */
+.cap-etiqueta { display: inline-block; margin-bottom: 1.25rem; padding: .35rem .85rem; border-radius: 4px; font-family: var(--f-titulo); font-size: .8125rem; font-weight: 700; line-height: 1.3; letter-spacing: .09em; text-transform: uppercase; }
+.cap-etiqueta--clara { background: rgb(27 122 75 / .08); border: 1px solid var(--verde); color: var(--verde-fundo); }
+.cap-etiqueta--escura { background: rgb(8 24 15 / .62); border: 1px solid rgb(70 227 148 / .6); color: #c9f5dd; }
+
+/* ---------- HERÓI: vídeo do campo de ponta a ponta, texto à esquerda, o app no celular e o cartão "veja o seu plano" ---------- */
+.cap-heroi { grid-template-rows: minmax(0, 1fr); }
+.cap-heroi__grade { display: grid; grid-template-columns: minmax(0, 1fr) clamp(7.5rem, 33vw, 11rem); column-gap: .875rem; align-content: center; align-items: center; max-width: 82rem; padding-top: clamp(1rem, 3svh, 2rem); padding-bottom: clamp(1.5rem, 4svh, 2.75rem); }
+.cap-heroi__texto { display: contents; }
+.cap-heroi .cap-etiqueta { grid-column: 1 / -1; justify-self: start; margin-bottom: .875rem; }
+.cap-heroi h1 { grid-column: 1 / -1; grid-row: auto; font-size: var(--cap-h1); font-weight: 800; line-height: 1.12; letter-spacing: -.012em; text-shadow: 0 2px 20px rgb(0 0 0 / .35); }
+.cap-heroi h1 .destaque { color: var(--verde-luz); }
+.cap-heroi__apoio { grid-column: 1; align-self: center; margin-top: 1rem; }
+.cap-heroi__apoio p { font-size: 1rem; line-height: 1.6; color: rgb(255 255 255 / .92); max-width: 30rem; }
+.cap-heroi__sem { display: grid; gap: .4rem; margin-top: .9rem; }
+.cap-heroi__sem li { display: flex; align-items: center; gap: .5rem; font-size: .9375rem; line-height: 1.3; color: #fff; }
+.cap-heroi__sem svg { width: 1.1rem; height: 1.1rem; flex: none; color: var(--trigo); }
+.cap-heroi__aparelho { grid-column: 2; margin-top: 1rem; }
+.cap-heroi__aparelho .celular { width: 100%; }
+.cap-heroi .cap-plano { grid-column: 1 / -1; margin-top: 1.5rem; }
+@media (prefers-reduced-motion: no-preference) { .cap-heroi__aparelho .celular { animation: flutuar 7s ease-in-out infinite; } }
+
+@media (min-width: 48rem) {
+  .cap-heroi__grade { grid-template-columns: minmax(0, 1fr) clamp(11rem, 24vw, 15rem); column-gap: 2.5rem; }
+  .cap-heroi__texto { display: block; grid-column: 1; grid-row: 1; }
+  .cap-heroi .cap-etiqueta { margin-bottom: 1.375rem; }
+  .cap-heroi__apoio { margin-top: 1.375rem; }
+  .cap-heroi__apoio p { font-size: 1.125rem; }
+  .cap-heroi__sem { display: flex; flex-wrap: wrap; gap: .5rem 1.25rem; margin-top: 1.25rem; }
+  .cap-heroi__sem li { font-size: 1rem; }
+  .cap-heroi__aparelho { grid-column: 2; grid-row: 1; margin-top: 0; }
+  .cap-heroi .cap-plano { grid-row: 2; justify-self: center; width: 100%; max-width: 40rem; margin-top: 2rem; }
+}
+@media (min-width: 64rem) {
+  .cap-heroi__grade { grid-template-columns: minmax(0, 1fr) clamp(9.5rem, 14.5vw, 13.5rem) minmax(0, clamp(23.5rem, 35.5vw, 31.875rem)); column-gap: clamp(1.5rem, 2.8vw, 3rem); }
+  .cap-heroi .cap-plano { grid-column: 3; grid-row: 1; max-width: none; margin-top: 0; }
+  /* com o cartão claro à direita, a sombra atrás do texto vai até o meio e o vídeo respira entre os dois */
+  .cap-heroi .heroi__veu { background:
+    linear-gradient(100deg, rgb(5 9 7 / .86) 0%, rgb(5 9 7 / .74) 38%, rgb(5 9 7 / .3) 60%, rgb(5 9 7 / .14) 100%),
+    linear-gradient(180deg, rgb(5 9 7 / .62) 0%, rgb(5 9 7 / .3) 12%, transparent 26%, transparent 78%, rgb(5 9 7 / .7) 100%); }
+}
+@media (max-width: 47.99rem) {
+  .cap-heroi .heroi__veu { background: linear-gradient(180deg, rgb(5 9 7 / .8) 0%, rgb(5 9 7 / .7) 45%, rgb(5 9 7 / .78) 100%); }
+}
+
+/* ---------- o cartão "veja o seu plano": no lugar e no tamanho do formulário da referência ---------- */
+.cap-plano { display: grid; gap: .875rem; align-content: start; padding: 1.25rem 1.125rem; border-radius: 1rem; background: var(--superficie); color: var(--tinta); box-shadow: 0 20px 60px rgb(0 0 0 / .28); text-align: left; }
+.cap-plano__titulo { font-family: var(--f-titulo); font-size: 1.0625rem; font-weight: 800; line-height: 1.25; letter-spacing: 0; text-transform: uppercase; color: var(--tinta); }
+.cap-plano__sub { margin-top: -.5rem; font-size: 1rem; line-height: 1.45; color: var(--tinta-3); }
+.cap-campo { display: grid; gap: .4rem; min-width: 0; border: 0; padding: 0; }
+.cap-campo > legend, .cap-campo > label { padding: 0; font-family: var(--f-titulo); font-size: .9375rem; font-weight: 600; color: var(--tinta); }
+.cap-campo > legend { margin-bottom: .4rem; }
+.cap-opcoes { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .375rem; }
+.cap-opcao { position: relative; display: block; }
+.cap-opcao input { position: absolute; inset: 0; width: 100%; height: 100%; margin: 0; opacity: 0; cursor: pointer; }
+.cap-opcao span { display: grid; place-items: center; min-height: 2.75rem; padding: .3rem .4rem; border-radius: .625rem; background: var(--papel); border: 1.5px solid var(--linha); font-size: 1rem; line-height: 1.2; text-align: center; color: var(--tinta-2); transition: background-color .18s ease, border-color .18s ease, color .18s ease; }
+.cap-opcao input:checked + span { background: var(--verde-claro); border-color: var(--verde); color: var(--verde-fundo); font-weight: 650; }
+.cap-opcao input:focus-visible + span { outline: 3px solid var(--verde-vivo); outline-offset: 2px; }
+.cap-opcao:active span { transform: scale(.98); }
+.cap-numero { width: 100%; min-height: 3rem; padding: .5rem .875rem; border-radius: .625rem; background: var(--papel); border: 1.5px solid var(--linha); font: 650 1.1875rem/1.2 var(--f-titulo); color: var(--tinta); }
+.cap-numero:focus-visible { outline: 3px solid var(--verde-vivo); outline-offset: 2px; border-color: var(--verde); }
+.cap-atalhos { display: flex; gap: .375rem; }
+.cap-atalhos button { flex: 1 1 0; min-width: 44px; min-height: 2.75rem; padding: .25rem; border-radius: .625rem; border: 1.5px solid var(--linha); background: var(--superficie); font: 600 .9375rem/1 var(--f-titulo); color: var(--tinta-2); transition: background-color .18s ease, border-color .18s ease, transform .15s var(--saida); }
+.cap-atalhos button[aria-pressed="true"] { border-color: var(--verde); background: var(--verde-claro); color: var(--verde-fundo); }
+.cap-atalhos button:active { transform: scale(.97); }
+.cap-resposta { display: grid; justify-items: center; gap: .15rem; padding: .875rem .75rem; border-radius: .75rem; background: var(--verde-claro); text-align: center; }
+.cap-resposta__selo { font-family: var(--f-titulo); font-size: 1rem; font-weight: 700; line-height: 1.25; color: var(--verde-fundo); }
+.cap-resposta__preco { display: grid; justify-items: center; font-family: var(--f-titulo); color: var(--tinta); }
+.cap-resposta__preco strong { font-size: 2rem; font-weight: 800; line-height: 1.1; letter-spacing: -.02em; }
+.cap-resposta__preco span { font-size: .9375rem; color: var(--tinta-2); }
+.cap-resposta__linha { font-size: .9375rem; line-height: 1.4; color: var(--tinta-2); }
+.cap-resposta__cria { margin-top: .2rem; font-size: .9375rem; line-height: 1.4; color: var(--tinta); }
+.cap-resposta.pisca .cap-resposta__preco strong { animation: cap-troca .32s var(--saida); }
+@keyframes cap-troca { from { opacity: .2; transform: translateY(.3rem); } to { opacity: 1; transform: none; } }
+.cap-plano__acoes { display: flex; gap: .5rem; }
+.cap-plano__acoes .botao { flex: 1 1 0; min-width: 0; padding-left: .6rem; padding-right: .6rem; font-size: .9375rem; }
+.cap-plano__nota { display: flex; gap: .45rem; align-items: flex-start; font-size: .875rem; line-height: 1.4; color: var(--tinta-3); }
+.cap-plano__nota svg { width: 1rem; height: 1rem; flex: none; margin-top: .12rem; color: var(--verde); }
+/* as 4 opções cabem numa linha só quando o CARTÃO tem largura para isso (a tela não diz: o painel da chamada é estreito) */
+.cap-plano { container-type: inline-size; }
+@container (min-width: 26.5rem) { .cap-opcoes { grid-template-columns: repeat(4, minmax(0, 1fr)); } .cap-opcao span { font-size: .9375rem; } }
+@media (min-width: 48rem) {
+  .cap-plano { gap: 1rem; padding: 2.125rem 2rem; }
+  .cap-plano__acoes .botao { font-size: 1rem; }
+}
+/* celular: a copy do cartão fica resumida (título, campos, resposta e botões), para o herói não passar de tela e meia */
+@media (max-width: 47.99rem) { .cap-plano__sub, .cap-resposta__cria { display: none; } .cap-plano { gap: .75rem; } }
+@media (prefers-reduced-motion: reduce) { .cap-resposta.pisca .cap-resposta__preco strong { animation: none; } }
+
+/* ---------- AS 4 TRAVAS: lista editorial numerada, tom claro ---------- */
+.cap-travas { background: var(--papel); }
+.cap-cabeca { max-width: 45rem; margin: 0 auto clamp(1.75rem, 1rem + 3.4vw, 3.75rem); text-align: center; }
+.cap-cabeca h2 { font-size: var(--cap-h2); font-weight: 800; line-height: 1.15; color: var(--tinta); }
+.cap-cabeca h2 .acento { color: var(--verde); }
+.cap-cabeca p { margin-top: 1rem; font-size: 1.0625rem; line-height: 1.65; color: var(--tinta-2); }
+.cap-travas__lista { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem .875rem; counter-reset: trava; }
+.cap-trava { display: grid; grid-template-columns: minmax(0, 1fr); gap: .5rem; align-content: start; counter-increment: trava; }
+/* o número é desenho (como na referência, apagado atrás do texto): vai em pseudo-elemento, fora do texto da página */
+.cap-trava::before { content: "0" counter(trava); font-family: var(--f-titulo); font-size: 2rem; font-weight: 800; line-height: 1; color: rgb(27 122 75 / .22); }
+.cap-trava__topo { display: flex; align-items: center; gap: .6rem; }
+.cap-trava__topo svg { width: 1.75rem; height: 1.75rem; flex: none; color: var(--verde); }
+.cap-trava h3 { font-size: 1rem; font-weight: 700; line-height: 1.25; letter-spacing: .01em; color: var(--tinta); }
+.cap-trava p { font-size: .9375rem; line-height: 1.55; color: var(--tinta-2); }
+/* celular: o ícone sobe para o canto da célula, ao lado do número, e o título usa a largura toda da coluna */
+@media (max-width: 47.99rem) { .cap-trava { position: relative; } .cap-trava__topo svg { position: absolute; top: .1rem; right: 0; } }
+@media (min-width: 48rem) {
+  .cap-travas__lista { gap: 0 4rem; }
+  .cap-trava { grid-template-columns: 6.25rem minmax(0, 1fr); column-gap: 2rem; padding: 2rem 0; border-bottom: 1px solid var(--linha); }
+  .cap-trava:nth-child(-n+2) { padding-top: 0; }
+  .cap-trava:nth-last-child(-n+2) { border-bottom: 0; padding-bottom: 0; }
+  .cap-trava::before { grid-row: 1 / span 2; font-size: 3.5rem; }
+  .cap-trava__topo, .cap-trava p { grid-column: 2; }
+  .cap-trava h3 { font-size: 1.1875rem; }
+  .cap-trava p { font-size: 1rem; line-height: 1.6; }
+}
+@media (min-width: 48rem) and (max-width: 63.99rem) { .cap-travas__lista { column-gap: 2rem; } .cap-trava { grid-template-columns: 3.5rem minmax(0, 1fr); column-gap: 1rem; } .cap-trava::before { font-size: 2.25rem; } }
+
+/* ---------- O QUE ENTRA NO LUGAR: quadro 2 x 2 com etiquetas ---------- */
+.cap-quadro-sec { background: var(--superficie); }
+.cap-quadro-sec .cap-cabeca h2 { font-size: var(--cap-h2b); }
+.cap-quadro { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); border: 1px solid var(--linha); border-radius: 1rem; overflow: clip; counter-reset: quadro; }
+.cap-quadro__item { display: grid; align-content: start; gap: .5rem; padding: 1rem .875rem; border-right: 1px solid var(--linha); border-bottom: 1px solid var(--linha); counter-increment: quadro; }
+.cap-quadro__item:nth-child(2n) { border-right: 0; }
+.cap-quadro__item:nth-last-child(-n+2) { border-bottom: 0; }
+.cap-quadro__item::before { content: "0" counter(quadro); font-family: var(--f-titulo); font-size: .9375rem; font-weight: 800; line-height: 1; color: var(--verde); }
+.cap-quadro__item h3 { font-size: 1rem; font-weight: 700; line-height: 1.25; letter-spacing: .01em; color: var(--tinta); }
+.cap-quadro__item p { font-size: 1rem; line-height: 1.6; color: var(--tinta-2); }
+.cap-fichas { display: flex; flex-wrap: wrap; gap: .375rem; margin-top: .25rem; }
+.cap-fichas li { display: inline-flex; align-items: flex-start; gap: .35rem; padding: .35rem .55rem; border-radius: 4px; background: rgb(27 122 75 / .07); border: 1px solid rgb(27 122 75 / .28); font-size: .875rem; font-weight: 600; line-height: 1.3; color: var(--verde-fundo); }
+.cap-fichas li::before { content: "✓"; font-size: .8125rem; color: var(--verde); }
+@media (max-width: 47.99rem) { .cap-quadro__item p { display: none; } }
+@media (min-width: 48rem) {
+  .cap-quadro__item { gap: .6rem; padding: 2.25rem 2.5rem; }
+  .cap-quadro__item h3 { font-size: 1.25rem; }
+  .cap-fichas { gap: .5rem; margin-top: .5rem; }
+  .cap-fichas li { align-items: center; padding: .375rem .75rem; }
+}
+@media (hover: hover) and (pointer: fine) { .cap-quadro__item { transition: background-color .25s ease; } .cap-quadro__item:hover { background: var(--papel); } }
+
+/* ---------- OS NÚMEROS DA OFERTA: destaque assimétrico em faixa verde ---------- */
+.cap-numeros { position: relative; isolation: isolate; background: var(--verde-fundo); color: #fff; overflow: clip; }
+.cap-numeros::before { content: ""; position: absolute; inset: 0; z-index: -1; background: radial-gradient(55% 90% at 12% 50%, rgb(39 163 101 / .34), transparent 70%), radial-gradient(40% 70% at 96% 10%, rgb(243 193 75 / .1), transparent 70%); }
+.cap-numeros::after { content: ""; position: absolute; inset: 0; z-index: -1; opacity: .06; mix-blend-mode: overlay; pointer-events: none; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23g)'/%3E%3C/svg%3E"); }
+.cap-numeros__par { display: grid; gap: 1.75rem; align-items: center; }
+.cap-numeros__grande { display: block; font-family: var(--f-titulo); font-size: clamp(3.5rem, 7vw, 6rem); font-weight: 800; line-height: .95; letter-spacing: -.03em; font-variant-numeric: tabular-nums; }
+.cap-numeros__desc { margin-top: .75rem; max-width: 24rem; font-size: 1.0625rem; line-height: 1.55; color: rgb(255 255 255 / .9); }
+.cap-numeros__lado { display: flex; gap: .75rem; }
+.cap-numeros__item { flex: 1 1 0; min-width: 0; display: grid; gap: .25rem; align-content: start; text-align: center; }
+.cap-numeros__item strong { font-family: var(--f-titulo); font-size: clamp(1rem, 4.7vw, 1.25rem); font-weight: 800; line-height: 1.2; white-space: nowrap; }
+.cap-numeros__item span { font-size: .875rem; line-height: 1.4; color: rgb(255 255 255 / .88); }
+.cap-numeros__fonte { margin-top: 1.5rem; font-size: .875rem; line-height: 1.5; color: rgb(255 255 255 / .8); }
+/* celular: o número domina o centro da faixa e os três limites ficam numa linha só, embaixo dele */
+@media (max-width: 47.99rem) {
+  .cap-numeros { display: grid; align-content: center; min-height: 28rem; }
+  .cap-numeros__par > :first-child, .cap-numeros__fonte { text-align: center; }
+  .cap-numeros__grande { font-size: 4.5rem; }
+  .cap-numeros__desc { margin-inline: auto; }
+  .cap-numeros__item + .cap-numeros__item { box-shadow: -1px 0 0 rgb(255 255 255 / .2); padding-left: .75rem; }
+}
+@media (min-width: 48rem) {
+  .cap-numeros__lado { display: block; box-shadow: 0 -1px 0 rgb(255 255 255 / .2); }
+  .cap-numeros__item { display: flex; align-items: baseline; gap: 1rem; padding: 1.125rem 0; border-bottom: 1px solid rgb(255 255 255 / .2); text-align: left; }
+  .cap-numeros__item strong { flex: none; min-width: 8.75rem; font-size: 1.625rem; }
+  .cap-numeros__item span { font-size: 1rem; line-height: 1.5; }
+  .cap-numeros__fonte { margin-top: 1.75rem; }
+}
+@media (min-width: 64rem) { .cap-numeros__par { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 3.75rem; } }
+/* celular estreito (320 px): os três limites e o quadro 2 × 2 continuam lado a lado, com menos respiro para a palavra caber */
+@media (max-width: 22.49rem) {
+  .cap-numeros__lado { gap: .5rem; }
+  .cap-numeros__item + .cap-numeros__item { padding-left: .5rem; }
+  .cap-quadro__item { padding: 1rem .625rem; }
+  .cap-quadro__item h3 { font-size: .9375rem; }
+}
+
+/* ---------- COMO COMEÇA: linha do tempo vertical ---------- */
+.cap-como { background: var(--papel); }
+.cap-como h2 { margin-bottom: clamp(1.75rem, 1rem + 3vw, 3.5rem); font-size: var(--cap-h2c); font-weight: 800; line-height: 1.15; text-align: center; color: var(--tinta); }
+.cap-linha { position: relative; max-width: 45rem; margin-inline: auto; }
+.cap-linha::before, .cap-linha::after { content: ""; position: absolute; top: .5rem; bottom: .5rem; left: calc(1.75rem - 1px); width: 2px; background: var(--linha); }
+.cap-linha::after { background: var(--verde-vivo); transform-origin: 50% 0; transform: scaleY(0); transition: transform 1.6s var(--saida) .2s; }
+.cap-linha.ativo::after { transform: scaleY(1); }
+.cap-linha li { position: relative; z-index: 1; display: grid; grid-template-columns: 3.5rem minmax(0, 1fr); column-gap: 1.125rem; padding-bottom: 1.75rem; }
+.cap-linha li:last-child { padding-bottom: 0; }
+.cap-linha__num { display: grid; place-items: center; width: 3.5rem; height: 3.5rem; border-radius: 50%; background: var(--superficie); border: 2px solid var(--verde); font-family: var(--f-titulo); font-size: 1.25rem; font-weight: 800; color: var(--verde-fundo); }
+.cap-linha__corpo { padding-top: .5rem; }
+.cap-linha h3 { font-size: 1.0625rem; font-weight: 700; line-height: 1.25; color: var(--tinta); }
+.cap-linha p { margin-top: .35rem; font-size: 1rem; line-height: 1.55; color: var(--tinta-2); }
+@media (min-width: 48rem) { .cap-linha li { column-gap: 1.5rem; padding-bottom: 2.5rem; } }
+@media (prefers-reduced-motion: reduce) { .cap-linha::after { transition: none; } }
+
+/* ---------- A PERGUNTA NO LUGAR DO DEPOIMENTO: citação editorial ao centro, sem cartão ---------- */
+.cap-pergunta { background: var(--superficie); }
+.cap-pergunta__bloco { max-width: 47.5rem; margin-inline: auto; text-align: center; }
+.cap-pergunta__marca { display: block; width: 3rem; height: 3rem; margin: 0 auto .75rem; color: var(--verde-vivo); }
+.cap-pergunta h2 { font-size: 1.125rem; font-weight: 700; line-height: 1.3; letter-spacing: .03em; color: var(--verde-fundo); }
+.cap-pergunta__resposta { margin-top: .875rem; font-family: var(--f-titulo); font-size: clamp(1.0625rem, .95rem + .6vw, 1.3125rem); font-weight: 600; line-height: 1.55; letter-spacing: -.005em; color: var(--tinta); }
+.cap-pergunta .faq { max-width: 62rem; margin: clamp(1.75rem, 1.2rem + 2vw, 2.75rem) auto 0; text-align: left; }
+.cap-pergunta .faq summary { text-transform: none; }
+
+/* ---------- CHAMADA: o pasto de fundo, texto à esquerda e o painel "veja o seu plano" à direita ---------- */
+.cap-chamada { position: relative; isolation: isolate; background: var(--noite); color: #fff; overflow: clip; }
+.cap-chamada__fundo { position: absolute; inset: 0; z-index: -1; }
+.cap-chamada__fundo picture { position: absolute; inset: 0; }
+.cap-chamada__fundo img { width: 100%; height: 100%; object-fit: cover; }
+.cap-chamada__fundo::after { content: ""; position: absolute; inset: 0; background:
+  radial-gradient(44rem 25rem at 50% -6rem, rgb(39 163 101 / .3), transparent 70%),
+  linear-gradient(100deg, rgb(8 24 15 / .93) 0%, rgb(8 24 15 / .86) 50%, rgb(8 24 15 / .8) 100%); }
+.cap-chamada__par { display: grid; gap: 1.75rem; align-items: center; }
+.cap-chamada h2 { font-size: var(--cap-h2); font-weight: 800; line-height: 1.15; }
+.cap-chamada h2 .acento { color: var(--verde-luz); }
+.cap-chamada__apoio { margin-top: 1rem; max-width: 36rem; font-size: 1.0625rem; line-height: 1.65; color: rgb(255 255 255 / .9); }
+.cap-garantias { display: grid; gap: .6rem; margin-top: 1.5rem; }
+.cap-garantias li { display: flex; align-items: flex-start; gap: .6rem; font-size: 1rem; line-height: 1.4; color: rgb(255 255 255 / .94); }
+.cap-garantias svg { width: 1.2rem; height: 1.2rem; flex: none; margin-top: .1rem; color: var(--verde-luz); }
+.cap-painel { padding: 1.125rem; border-radius: .75rem; background: rgb(255 255 255 / .07); border: 1px solid rgb(255 255 255 / .16); -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); }
+.cap-painel__titulo { font-family: var(--f-titulo); font-size: 1.0625rem; font-weight: 700; color: #fff; }
+.cap-painel__sub { margin: .2rem 0 1rem; font-size: .9375rem; color: rgb(255 255 255 / .86); }
+.cap-painel .cap-plano { padding: 1.125rem; border-radius: .625rem; box-shadow: none; }
+@media (min-width: 48rem) { .cap-painel { padding: 2.25rem 2rem; } .cap-painel .cap-plano { padding: 1.375rem; } }
+@media (min-width: 64rem) { .cap-chamada__par { grid-template-columns: minmax(0, 1fr) 26.25rem; gap: 3.75rem; } }
