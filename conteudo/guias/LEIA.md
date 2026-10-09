@@ -12,6 +12,15 @@ cd /Users/victorgabryellferreiraqueiroz/BACKUP_VICTOR/Projetos/VISIONX/FINAGRO-L
 /Users/victorgabryellferreiraqueiroz/.nvm/versions/node/v24.20.0/bin/node scripts/conferir-guia.mjs conteudo/guias/<slug>.mjs
 ```
 
+Portão da página montada (roda depois de `scripts/gerar.mjs`, com o site servido por `scripts/servir.mjs 4795` e o Chrome
+sem janela na porta 9444). Passa por todas as páginas do `sitemap.xml` em seis larguras e sai 1 se achar rolagem lateral,
+conteúdo cortado por `overflow` escondido (tabela de 3 colunas que não cabia em 320 px foi achada assim em 08/10/2026),
+erro de JavaScript, calculadora sem número, alvo de toque baixo ou imagem quebrada:
+
+```bash
+/Users/victorgabryellferreiraqueiroz/.nvm/versions/node/v24.20.0/bin/node scripts/varrer.mjs http://localhost:4795
+```
+
 ## Para quem se escreve
 
 Produtor rural brasileiro, do sítio à fazenda grande, lendo no celular, muitas vezes com pouco sinal. Ele pesquisou
@@ -58,7 +67,8 @@ export default {
 
 - `{ p: 'parágrafo' }` · `{ ul: ['item'] }` · `{ ol: ['passo'] }` · `{ destaque: 'aviso curto' }`
 - `{ tabela: { colunas: ['Rótulo da linha', 'Coluna 2', 'Coluna 3'], linhas: [['rótulo', 'valor', 'valor']], nota: 'de onde saiu' } }`
-  No celular cada linha vira um cartão: no máximo 4 colunas contando a do rótulo, textos curtos.
+  No celular a tabela de 4 colunas, a de texto comprido e a que não cabe em 320 px (palavra comprida em cada coluna)
+  viram um cartão por linha; o gerador decide sozinho. No máximo 4 colunas contando a do rótulo, textos curtos.
 - `{ glossario: [['Termo', 'definição']] }`
 - `{ planilha: { arquivo: 'planilha-controle-de-gado', titulo: 'Planilha de controle de gado', aba: 'Rebanho',
      colunas: ['Brinco', 'Sexo', …], linhas: [['001', 'F', …], …], nota: 'como usar' } }`

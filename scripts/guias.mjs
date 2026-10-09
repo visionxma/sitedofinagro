@@ -61,10 +61,16 @@ function celular(tela) {
 }
 
 // ---------- blocos ----------
-function tabela(t) {
+// No celular a tabela só continua tabela quando a palavra mais comprida de cada coluna cabe lado a lado em 320 px
+// (286 px de miolo; dentro do bloco de planilha, 247). Senão vira um cartão por linha, que nunca corta texto.
+const semMarca = (c) => String(c ?? '').replace(/\*\*/g, '').replace(/\[([^\]]+)\]\([^)]+\)/g, '$1');
+const palavraMaior = (c) => Math.max(0, ...semMarca(c).split(/[\s/]+|(?<=-)/).map((w) => w.length));
+function tabela(t, cabe = 286) {
   const n = t.colunas.length;
   const comprida = t.linhas.some((l) => l.slice(1).some((c) => String(c).length > 44));
-  return `<div class="tabela tabela--c${n}${n >= 4 || comprida ? ' tabela--cartoes' : ''}${comprida ? ' tabela--texto' : ''}"><table>
+  const minimo = t.colunas.reduce((soma, c, k) => soma + Math.max(palavraMaior(c), ...t.linhas.map((l) => palavraMaior(l[k]))) * 8.6 + 22.4, 0);
+  const cartoes = n >= 4 || comprida || minimo > cabe;
+  return `<div class="tabela tabela--c${n}${cartoes ? ' tabela--cartoes' : ''}${comprida ? ' tabela--texto' : ''}"><table>
 <thead><tr>${t.colunas.map((c) => `<th scope="col">${rico(c)}</th>`).join('')}</tr></thead>
 <tbody>
 ${t.linhas.map((l) => `<tr><th scope="row">${rico(l[0])}</th>${l.slice(1).map((c, k) => `<td data-rotulo="${esc(t.colunas[k + 1])}">${rico(c)}</td>`).join('')}</tr>`).join('\n')}
@@ -183,7 +189,7 @@ function planilha(p) {
   const mostra = p.linhas.slice(0, 3), n = Math.min(p.colunas.length, 4);
   return `<div class="baixar">
   <div class="baixar__topo"><strong>${esc(p.titulo)}</strong><span>${p.colunas.length} colunas prontas: ${esc(p.colunas.join(', '))}.</span></div>
-  ${tabela({ colunas: p.colunas.slice(0, n), linhas: mostra.map((l) => l.slice(0, n)) })}
+  ${tabela({ colunas: p.colunas.slice(0, n), linhas: mostra.map((l) => l.slice(0, n)) }, 247)}
   <div class="baixar__acoes"><a class="botao botao--cheio" href="/arquivos/${esc(p.arquivo)}.xlsx" download>Baixar em Excel</a><a class="botao botao--linha" href="/arquivos/${esc(p.arquivo)}.csv" download>Baixar em CSV</a></div>
   ${p.nota ? `<p class="tabela__nota">${rico(p.nota)}</p>` : ''}
 </div>`;

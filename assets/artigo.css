@@ -141,7 +141,7 @@ div.resposta p { margin: 0; }
 .tabela__nota { font-size: .9375rem; color: var(--tinta-3); }
 .artigo__corpo p.tabela__nota { margin-top: .5rem; color: var(--tinta-3); }
 @media (max-width: 34rem) {
-  .tabela th, .tabela td { padding: .65rem .7rem; font-size: 1rem; }
+  .artigo__corpo th, .artigo__corpo td { padding: .65rem .7rem; font-size: 1rem; }
   .tabela--cartoes thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
   .tabela--cartoes tbody tr { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .35rem .6rem; padding: .85rem .9rem; border-bottom: 1px solid var(--linha); }
   .tabela--cartoes tbody tr:last-child { border-bottom: 0; }
@@ -149,6 +149,10 @@ div.resposta p { margin: 0; }
   .tabela--cartoes.tabela--texto tbody tr { grid-template-columns: minmax(0, 1fr); }
   .tabela--cartoes tbody th { grid-column: 1 / -1; padding: 0; border: 0; font-family: var(--f-titulo); }
   .tabela--cartoes tbody td { display: grid; gap: .1rem; align-content: start; padding: 0; border: 0; }
+  /* palavra só se parte com hífen quando é comprida (11 letras ou mais); a curta desce inteira para a linha de baixo */
+  .tabela--cartoes tbody th, .tabela--cartoes tbody td { min-width: 0; overflow-wrap: anywhere; -webkit-hyphens: auto; hyphens: auto; hyphenate-limit-chars: 11 4 4; -webkit-hyphenate-limit-before: 4; -webkit-hyphenate-limit-after: 4; }
+  .tabela--cartoes tbody td:empty { display: none; }
+  .tabela--cartoes tbody td[colspan] { grid-column: 1 / -1; }
   .tabela--cartoes tbody td::before { content: attr(data-rotulo); font-size: .8125rem; font-weight: 600; color: var(--tinta-3); }
 }
 

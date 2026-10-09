@@ -1,0 +1,23 @@
+﻿Linha de custo;Degrau;Valor no ano (R$)
+Mão de obra (campeiros, vaqueiros, ajudantes);COE;42.000,00
+Sal mineral, proteinado e ração;COE;38.500,00
+Vacinas e medicamentos;COE;6.200,00
+Sêmen, nitrogênio e protocolo de IATF;COE;3.800,00
+Limpeza e reforma de pastagem;COE;9.500,00
+Arrendamento de pastagem;COE;12.000,00
+Fretes, taxas e impostos (ITR, contribuição sindical);COE;5.400,00
+Combustível e manutenção de máquinas e cercas;COE;7.300,00
+Assessoria técnica (veterinário, agrônomo);COE;3.600,00
+Total do COE;COE;128.300,00
+Depreciação de benfeitorias (curral, cercas);COT;6.000,00
+Depreciação de máquinas e implementos;COT;5.200,00
+Depreciação de animais de serviço;COT;800,00
+Pró-labore do produtor;COT;24.000,00
+Total do COT;COT;164.300,00
+Remuneração do capital investido;Custo total;18.700,00
+Custo de oportunidade da terra;Custo total;16.000,00
+Custo total (CT);Custo total;199.000,00
+Arrobas produzidas no ano;;1.200
+Custo do COE por arroba;;106,92
+Custo do COT por arroba;;136,92
+Custo total por arroba;;165,83
