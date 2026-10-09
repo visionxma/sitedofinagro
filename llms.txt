@@ -100,6 +100,10 @@ Produtor rural brasileiro de qualquer tamanho: do sítio com 12 vacas de leite �
 
 ### Outras criações
 - [Conversão alimentar: como calcular frango, suíno e peixe](https://finagro.app/conversao-alimentar) (calculadora): Ração por quilo ganho e eficiência do lote.
+- [Criação de abelhas: apicultura, sem ferrão e a lei](https://finagro.app/criacao-de-abelhas) (guia): Apicultura, abelha sem ferrão, a lei e o que anotar.
+- [Criação de galinha caipira: corte, postura e conta do lucro](https://finagro.app/criacao-de-galinha-caipira) (guia): Corte e postura, galinheiro, piquete e a conta do lucro.
+- [Criação de porcos: fases, o que anotar por baia e a GTA](https://finagro.app/criacao-de-porcos) (guia): Fases, o que anotar por baia, conversão e GTA.
+- [Criação de tilápia em tanque escavado: do viveiro à despesca](https://finagro.app/criacao-de-tilapia) (guia): Água, licença, povoamento, biometria, ração e despesca.
 
 ## Perguntas frequentes
 ### O FINAGRO é grátis mesmo?

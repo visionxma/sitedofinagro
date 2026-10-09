@@ -518,8 +518,8 @@ Endereço: https://finagro.app/guias
 FINAGRO
 Guias
 Guias, calculadoras e modelos para tocar a fazenda
-52 páginas gratuitas, com a conta feita na hora e a fonte oficial de cada regra. Sem cadastro para ler, calcular ou baixar.
-52páginas
+56 páginas gratuitas, com a conta feita na hora e a fonte oficial de cada regra. Sem cadastro para ler, calcular ou baixar.
+56páginas
 14calculadoras
 8modelos e planilhas
 Escolher um aplicativoGado de corteLeiteLavouraDinheiro e impostoTerra e documentosOutras criações
@@ -589,6 +589,10 @@ GuiaTarefa e linha de terraComo cubar e converter medidas que mudam por região.
 Outras criações
 Aves, suínos, peixes e abelhas.
 CalculadoraConversão alimentarRação por quilo ganho e eficiência do lote.
+GuiaCriação de abelhasApicultura, abelha sem ferrão, a lei e o que anotar.
+GuiaCriação de galinha caipiraCorte e postura, galinheiro, piquete e a conta do lucro.
+GuiaCriação de porcosFases, o que anotar por baia, conversão e GTA.
+GuiaCriação de tilápiaÁgua, licença, povoamento, biometria, ração e despesca.
 O que estas páginas calculam uma vez, o FINAGRO acompanha todo dia.
 Rebanho, lavoura, dinheiro e equipe da fazenda num app só. Grátis até 1.000 animais com ficha, sem cartão.
 Começar grátis
@@ -4994,6 +4998,408 @@ No galpão, no chiqueiro e no tanque
 O que costuma piorar a conversão
 Como usar o resultado na próxima rodada
 Lotes, pesagens e custos no FINAGRO
+Perguntas frequentes
+FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
+Grátis até 1.000 animais com ficha
+Lote sem limite de cabeças
+Sem cartão
+Começar grátisBaixar para Android
+
+
+---
+
+## Criação de abelhas: apicultura, sem ferrão e a lei
+Endereço: https://finagro.app/criacao-de-abelhas
+
+
+FINAGRO
+Guias
+Criação de abelhas
+GuiaOutras criações
+Criação de abelhas: apicultura, abelha sem ferrão e o que anotar
+Precisa de autorização para criar abelhas sem ferrão?
+Precisa, em regra. A Resolução Conama 496, de 2020, diz que o uso e o manejo de abelhas nativas sem ferrão dependem de ato autorizativo do órgão ambiental competente. Ficam dispensados o uso e o manejo sem exploração econômica de até 49 colônias. A abelha com ferrão, da apicultura, não entra nessa resolução.
+Atualizado em 08/10/2026
+Apicultura e meliponicultura: qual a diferença
+Apicultura é a criação da abelha com ferrão, a Apis mellifera, que no Brasil é a africanizada. Pede macacão, luva, fumigador e um apiário longe de gente e de bicho.
+Meliponicultura é a criação de abelhas sem ferrão, nativas do Brasil. A Resolução Conama 496 as define como abelhas da tribo Meliponini, de ferrão atrofiado e hábito social. A jataí é uma delas, ao lado de uruçu, tiúba, jandaíra e mandaçaia, espécies que a Embrapa lista entre as criadas no país.
+PontoApiculturaSem ferrão
+AbelhaApis mellifera, africanizadaNativas: jataí, uruçu, mandaçaia
+Mel por colônia ao anoEm média 15 kgDe 1 a 10 kg
+Onde fica o melQuadros da melgueiraPotes de cerume
+Norma ambiental federalNão é a Conama 496Resolução Conama 496/2020
+Produção de mel: Embrapa, Criação de abelhas-sem-ferrão. Varia com a espécie e a região.
+A produção por colônia é só uma referência da Embrapa, e muda com a espécie e a região. Segundo a Embrapa, o mel de abelha sem ferrão tem sabor diferenciado, mais ácido que o da Apis.
+O que a lei pede para criar abelha sem ferrão
+A norma federal é a Resolução Conama nº 496, de 19 de agosto de 2020, que disciplina o uso e o manejo das abelhas nativas sem ferrão. Ela revogou a Resolução nº 346, de 2004. Os pontos que pesam para quem cria:
+O uso e o manejo dependem de ato autorizativo do órgão ambiental competente.
+O pedido informa, no mínimo: as espécies, a localização do meliponário com coordenadas, o CNPJ ou CPF e de onde vieram as colônias do plantel inicial.
+Depois da autorização e do registro na plataforma nacional, o meliponário é inscrito no CTF, o Cadastro Técnico Federal de Atividades Potencialmente Poluidoras ou Utilizadoras de Recursos Ambientais.
+O uso e o manejo sem exploração econômica de até 49 colônias são dispensados de autorização ambiental.
+A criação fica restrita à região de ocorrência natural da espécie. Fora dela, a criação poderá ser autorizada pelo órgão ambiental, segundo a análise de risco que ele fizer.
+A obtenção de colônias matrizes também é autorizada pelo órgão ambiental: por recipiente-isca, compra de meliponário autorizado, depósito do órgão ou resgate. Quem tem até 49 colônias, sem fins comerciais, fica dispensado de pedir a autorização de apanha por recipiente-isca.
+O meliponário autorizado só vende colônias que vieram da multiplicação das suas próprias matrizes.
+A venda de mel e dos outros produtos dispensa autorização ambiental, menos quando envolve partes da colônia ou as próprias abelhas.
+O procedimento da autorização é definido por cada órgão ambiental, e muda de estado para estado. Antes de comprar a primeira caixa de jataí, procure o órgão ambiental do seu estado. A resolução também avisa que ela não dispensa as exigências sanitárias.
+As coordenadas do meliponário saem do celular. Se você ainda não tem a área medida, veja aplicativo para medir área rural.
+Onde instalar o apiário e o meliponário
+Para a abelha com ferrão, a Embrapa Meio-Norte dá as distâncias do apiário:
+No mínimo 400 metros de currais, casas, escolas, estradas movimentadas e aviários.
+Água limpa a no mínimo 100 metros e a no máximo 500 metros das colmeias.
+Um modelo só de colmeia no apiário inteiro, para as peças servirem em qualquer caixa.
+Para a abelha sem ferrão, o sistema de criação da Embrapa indica colmeias em cavaletes individuais, a cerca de 0,5 metro do chão.
+Revisão, alimentação e colheita do mel
+Revisão é abrir a colmeia para ver como ela está. A frequência muda com a abelha e com a época.
+ManejoApiculturaSem ferrão
+RevisãoA cada 15 dias na florada; mensal na entressafraA cada 30 dias, ou antes se preciso
+AlimentaçãoNa entressafra, se a revisão mostrar faltaColônia fraca e sem florada no campo
+ColheitaQuadro com 90% ou mais de alvéolos operculadosSeringa ou bomba, só de pote fechado
+Embrapa Meio-Norte, Sistema de Produção de Mel, e Embrapa, Criação de abelhas-sem-ferrão.
+Alvéolo operculado é o que a abelha já fechou com cera: sinal de que o mel está maduro. A Embrapa também manda não colher em dia chuvoso ou de ar muito úmido, porque o mel puxa umidade.
+Na abelha sem ferrão, a revisão olha a cria, a rainha, o alimento guardado e a presença de inimigos naturais. Furar os potes e deixar o mel escorrer pela caixa não é recomendado pela Embrapa, porque contamina o produto.
+O que anotar por colmeia e por apiário
+Colmeia sem anotação vira memória, e memória não mostra qual caixa produz e qual só dá trabalho. O mínimo:
+AnotaçãoPor colmeiaPor apiário
+RevisãoData, cria, rainha e alimentoData da visita e caixas vistas
+AlimentaçãoData e o que foi dadoGasto com açúcar e insumos
+ColheitaData e quilos de melQuilos do apiário e destino
+EnxamesDivisão, captura ou perdaTotal de colmeias no mês
+VendaColônia vendida, se autorizadoQuilos, comprador e valor
+Modelo de anotação. Numere cada caixa para a ficha acompanhar a colmeia.
+Com quilos colhidos e gasto do apiário, sai o custo do quilo de mel: gasto do período dividido pelos quilos colhidos. A venda e os gastos ficam mais claros no fluxo de caixa rural, e, para vender com nota, veja nota fiscal de produtor rural.
+Este guia é informativo. Autorização ambiental, registro do mel para venda e exigências sanitárias dependem do seu estado e do seu município. Confirme com o órgão ambiental, com a defesa agropecuária e com o técnico que acompanha a criação.
+Aplicativo para apicultura: o apiário no FINAGRO
+Cada apiário vira um lote, contado em colmeias, com o tipo de abelha escolhido numa lista que traz africanizada, jataí, mandaçaia, uruçu e tiúba.
+No apiário você lança o que aconteceu: chegaram colmeias, novos enxames, vendi ou morreram.
+O mel colhido é lançado em quilos, com o preço do quilo e o destino, e o app soma a produção do mês.
+Revisão das colmeias (caixas sem rainha, com pouca cria, com pouco alimento, doença ou praga) e tratamento ficam no histórico do apiário. O app não sugere calendário de vacina para abelhas.
+Açúcar, caixas e cera entram como despesa, e a venda do mel como receita, no fluxo de caixa da propriedade.
+Colmeias, mel colhido e venda no celular, por apiário.
+Grátis, sem cartão. Apiário conta como lote, com quantas colmeias você tiver.
+Começar grátis
+Perguntas sobre criação de abelhas
+Qual a diferença entre apicultura e meliponicultura?
+Apicultura é a criação da abelha com ferrão, a Apis mellifera, que no Brasil é a africanizada. Meliponicultura é a criação de abelhas nativas sem ferrão, como jataí, uruçu e mandaçaia.
+Posso criar abelha jataí em casa sem autorização?
+A Resolução Conama 496, de 2020, dispensa de autorização ambiental o uso e o manejo sem exploração econômica de até 49 colônias. Com venda, ou acima disso, é preciso o ato autorizativo do órgão ambiental. Confirme o procedimento no seu estado.
+A que distância de casa pode ficar o apiário?
+Para a abelha com ferrão, a Embrapa Meio-Norte indica no mínimo 400 metros de currais, casas, escolas, estradas movimentadas e aviários.
+Quando colher o mel?
+Na apicultura, a Embrapa orienta colher os quadros com pelo menos 90% dos alvéolos operculados, fora de dia chuvoso. Na abelha sem ferrão, só de potes já fechados, com seringa ou bomba de sucção.
+De quanto em quanto tempo se revisa a colmeia?
+Segundo a Embrapa, na apicultura as melgueiras são revisadas a cada 15 dias durante a florada e, na entressafra, geralmente uma vez por mês. Nas abelhas sem ferrão, a cada 30 dias, ou antes se preciso.
+Fontes
+Resolução Conama nº 496, de 19 de agosto de 2020 (Diário Oficial da União)
+Embrapa Meio-Norte, Sistema de Produção de Mel
+Embrapa, Criação de abelhas-sem-ferrão
+Veja também
+Fluxo de caixa ruralNota fiscal de produtorApp para medir áreaTodos os guias
+Nesta página
+Apicultura e meliponicultura: qual a diferença
+O que a lei pede para criar abelha sem ferrão
+Onde instalar o apiário e o meliponário
+Revisão, alimentação e colheita do mel
+O que anotar por colmeia e por apiário
+Aplicativo para apicultura: o apiário no FINAGRO
+Perguntas frequentes
+FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
+Grátis até 1.000 animais com ficha
+Lote sem limite de cabeças
+Sem cartão
+Começar grátisBaixar para Android
+
+
+---
+
+## Criação de galinha caipira: corte, postura e conta do lucro
+Endereço: https://finagro.app/criacao-de-galinha-caipira
+
+
+FINAGRO
+Guias
+Criação de galinha caipira
+GuiaOutras criações
+Criação de galinha caipira: galinheiro, lote e a conta do lucro
+Como começar uma criação de galinha caipira?
+Defina se o lote é de corte, de postura ou dos dois, monte o galinheiro com acesso a piquete e anote tudo por lote. No sistema da Embrapa Meio-Norte, o frango caipira passa pela cria até 30 dias, recria até 60 e engorda até 120 dias. A galinha começa a botar com 18 a 22 semanas.
+Atualizado em 08/10/2026
+Corte ou postura: o que muda na criação
+A criação de galinha caipira para corte gira em torno do lote: entram pintinhos, eles crescem juntos e saem juntos. No sistema alternativo de criação de galinhas caipiras da Embrapa Meio-Norte, o caminho tem três fases.
+FaseIdade
+Criado nascimento aos 30 dias
+Recriados 31 aos 60 dias
+Engorda ou terminaçãodos 61 aos 120 dias
+Embrapa Meio-Norte, Sistema Alternativo de Criação de Galinhas Caipiras.
+Na criação de galinha caipira poedeira, o número do dia é outro: ovos colhidos. Segundo a Embrapa, a postura começa com 18 a 22 semanas de vida. Até lá a franga só gasta ração, e esse gasto entra no custo do ovo.
+Muita criação junta os dois: vende ovo e vende ave. Nesse caso, separe os lotes na anotação. Misturar a ração da poedeira com a do frango de corte esconde qual dos dois está pagando a conta.
+Galinheiro e piquete: as medidas da Embrapa
+O modelo completo da Embrapa Meio-Norte, com todas as fases no mesmo lugar, sugere 1.744 m² de área total. São 28 m² de aviário coberto e 1.716 m² de piquetes, que são as áreas cercadas onde as aves pastam.
+DivisãoÁrea cobertaPiquete
+Reprodução6 m²40 m²
+Recria3,75 m²20 m²
+Engordacom poleiros1.656 m²
+Medidas do modelo completo da Embrapa Meio-Norte. A área de reprodução se divide em postura (3,75 m²) e incubação (2,25 m²).
+O galinheiro é feito com o que a propriedade tem: madeira redonda, estacas e palha. O que importa é ser limpo, protegido de predador e arejado.
+O piso leva uma cama de palha, maravalha ou casca de arroz com 5 a 8 cm de espessura, trocada de tempos em tempos.
+Na reprodução, a relação indicada é de 1 galo para 12 galinhas.
+Os piquetes são cercados com material que impeça a entrada de predadores.
+Antes de levantar o galinheiro, meça a área que vai virar piquete. Se a conta do terreno ainda está em tarefa ou alqueire, passe para metro quadrado em quantos metros tem um hectare.
+Ração, vacina e ave que chega de fora
+A ração é onde o dinheiro vai. A Embrapa registra que a alimentação representa cerca de 70% do custo de produção de aves, ou mais, conforme o sistema e a região. Por isso o piquete conta: a ave busca ali parte do que come.
+Para o começo da vida, a recomendação é ração comercial nos primeiros 30 dias dos pintinhos, porque reduz a mortalidade nessa fase. Depois, dá para misturar a ração na propriedade, com os ingredientes que ela tem. Para isso, a Embrapa pede uma fórmula passada por agrônomo, zootecnista ou médico-veterinário, de acordo com o tipo de ave e a fase de vida.
+Na sanidade, a Embrapa pede que os programas de vacinação e de vermifugação sejam definidos antes de o lote chegar. O exemplo de calendário do documento traz Newcastle, bronquite infecciosa e Gumboro por via ocular, todo mês, e bouba aviária na asa, na primeira semana de vida.
+O calendário de vacina muda com o histórico de doenças da região. Monte o seu com o veterinário e confira na defesa agropecuária do estado o que é exigido para a sua criação.
+Ave comprada de fora passa por quarentena antes de entrar no plantel, em instalação fechada e longe do piquete das outras.
+O que anotar em cada lote
+A Embrapa manda anotar os dados básicos da produção: mortalidade, nascimento de pintinhos, número de aves em cada fase, consumo de ração de cada grupo e ganho de peso. Na prática, são cinco anotações.
+O que anotarQuandoPara que serve
+LoteNa chegadaData, quantas aves e de quem veio
+MortalidadeTodo diaMortes ÷ aves alojadas
+RaçãoA cada compraCusto por ave e por dúzia
+Ovos por diaTodo diaPostura do lote e ovos para vender
+VendaA cada saídaReceita por lote
+Aves alojadas são todas as que entraram no lote desde o começo.
+No ovo, a Embrapa ensina a marcar a lápis, na casca, a data de postura. É o que permite decidir entre vender, consumir ou chocar na hora certa.
+Se você ainda controla no caderno, a planilha de gestão rural serve de ponto de partida. E a conta de ração por quilo ganho no lote de corte está em conversão alimentar.
+Criação de galinha caipira dá lucro? Faça a conta
+Ninguém responde isso sem os seus números. O que dá para fazer é a conta, e ela é a mesma no corte e na postura.
+Some o custo do lote: pintinhos ou frangas, ração, vacina e remédio, cama, energia, frete e mão de obra, inclusive a sua.
+Some a receita do lote: aves vendidas, ovos vendidos e esterco, se você vende.
+Receita menos custo é o resultado do lote.
+Divida o custo pelo número de aves vendidas, ou pelas dúzias vendidas, para saber o custo de cada uma.
+Um exemplo só para mostrar a conta, com números de exemplo, que não são referência de preço: um lote de corte custou R$ 3.000 e vendeu 180 aves. O custo por ave foi de R$ 16,67. Se cada ave saiu por R$ 30, a receita foi de R$ 5.400 e o resultado do lote, R$ 2.400. Troque pelos seus números: preço de ração e de venda mudam de praça para praça.
+A Embrapa orienta começar com poucas aves e, conforme a venda de ovos e de animais der lucro, reinvestir parte em mais pintinhos, ração e equipamentos. O resultado de cada lote aparece melhor com o dinheiro no fluxo de caixa rural.
+Este guia é informativo. Ração, vacina e tratamento dependem do seu plantel e da sua região: confirme com o veterinário ou o técnico que acompanha a criação.
+O galinheiro no FINAGRO
+Cada galpão ou galinheiro vira um lote, contado em aves, com categoria de frango caipira, poedeiras em produção, frangas em recria ou pintinhos.
+No lote você lança o que aconteceu: chegaram, nasceram, vendi, morreram, abate ou consumo. A mortalidade é calculada sozinha: mortes divididas pelas aves alojadas.
+Os ovos do dia são lançados em unidades, com o preço da dúzia, e o app soma o mês em ovos e em dúzias.
+A vacina aplicada no lote fica registrada, e o tratamento guarda a carência do abate e a dos ovos em dias.
+A ração entra como despesa e a venda como receita, e as duas caem no fluxo de caixa da propriedade.
+Lote, mortalidade, ovos do dia e venda no celular.
+Grátis, sem cartão. Galpão conta como lote, com quantas aves você tiver.
+Começar grátis
+Perguntas sobre galinha caipira
+Com quantos dias a galinha caipira está pronta para o abate?
+No sistema da Embrapa Meio-Norte, a engorda ou terminação vai dos 61 aos 120 dias de idade, depois da cria, até 30 dias, e da recria, até 60 dias.
+Com quanto tempo a galinha caipira começa a botar?
+Segundo a Embrapa Meio-Norte, a postura começa com 18 a 22 semanas de vida. Antes disso, a franga está na fase que a Embrapa chama de pré-postura.
+Qual o tamanho do galinheiro de galinha caipira?
+O modelo completo da Embrapa Meio-Norte, com cria, recria, engorda e reprodução, sugere 1.744 metros quadrados no total: 28 de aviário coberto e 1.716 de piquetes.
+Criação de galinha caipira dá lucro?
+Depende do custo do seu lote e do preço na sua praça. Some pintinhos, ração, vacina, cama e mão de obra, e compare com o que entrou da venda de aves e de ovos. A Embrapa registra que a alimentação é cerca de 70% do custo.
+Precisa vacinar galinha caipira?
+A Embrapa pede que os programas de vacinação e de vermifugação sejam definidos antes. O exemplo dela traz Newcastle, bronquite infecciosa, Gumboro e bouba aviária. O calendário certo para a sua região quem monta é o veterinário.
+Fontes
+Embrapa Meio-Norte, Sistema Alternativo de Criação de Galinhas Caipiras (2018)
+Embrapa Meio-Norte, Galinha Caipira: instalações e fases de criação
+Veja também
+Conversão alimentarFluxo de caixa ruralPlanilha de gestão ruralTodos os guias
+Nesta página
+Corte ou postura: o que muda na criação
+Galinheiro e piquete: as medidas da Embrapa
+Ração, vacina e ave que chega de fora
+O que anotar em cada lote
+Criação de galinha caipira dá lucro? Faça a conta
+O galinheiro no FINAGRO
+Perguntas frequentes
+FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
+Grátis até 1.000 animais com ficha
+Lote sem limite de cabeças
+Sem cartão
+Começar grátisBaixar para Android
+
+
+---
+
+## Criação de porcos: fases, o que anotar por baia e a GTA
+Endereço: https://finagro.app/criacao-de-porcos
+
+
+FINAGRO
+Guias
+Criação de porcos
+GuiaOutras criações
+Criação de porcos: as fases, o que anotar por baia e a GTA
+Quais são as fases da criação de porcos?
+Segundo a Embrapa Suínos e Aves, a produção de suínos tem pré-cobrição e gestação, maternidade, creche, crescimento e terminação. Em criação tecnificada, o leitão desmama entre 21 e 28 dias. Sai da creche por volta dos 63 dias, com cerca de 24 kg. Cresce até os 55 kg e termina até o abate, com 100 a 120 kg.
+Atualizado em 08/10/2026
+As fases da criação de porcos
+A criação de porcos se organiza por fase, e cada fase tem a sua instalação, a sua ração e o seu número para acompanhar. A Embrapa Suínos e Aves descreve o sistema assim: pré-cobrição e gestação, maternidade, creche, crescimento e terminação.
+FaseVai deAté
+GestaçãoCoberturaParto, cerca de 114 dias depois
+MaternidadeNascimentoDesmame, entre 21 e 28 dias
+CrecheDesmameCerca de 63 dias, com uns 24 kg
+CrescimentoSaída da crechePeso médio de 55 kg
+Terminação55 kgAbate, com 100 a 120 kg
+Embrapa Suínos e Aves. Idades de desmame de criações tecnificadas; a sua granja pode trabalhar com outras.
+Quem só engorda compra o leitão na saída da creche e cuida do crescimento e da terminação. Quem faz ciclo completo tem todas as fases na mesma propriedade, das matrizes ao porco pronto.
+Com a data da cobertura anotada, o parto fica previsível: cerca de 114 dias depois. Isso deixa preparar a maternidade antes de a porca parir.
+Criação em família e em pequenas propriedades
+A criação de porcos em família não precisa copiar a granja grande. A Embrapa Suínos e Aves acompanhou um sistema de ciclo completo planejado para 21 porcas, com um lote a cada 21 dias. O desmame foi programado para 28 dias, a saída de creche para 63 e o abate para 167 dias de idade.
+O ponto central desse sistema, que a Embrapa chama de produção em família, é não misturar leitão: cada leitegada fica junta da maternidade à terminação. Menos mistura é menos briga e menos doença passando de um grupo para outro.
+Na criação de porcos caipira, solta ou em piquete, as fases e as anotações são as mesmas. O que muda é a instalação e o tempo até o abate, e isso se define com o técnico que conhece a sua região e a raça que você cria.
+Antes de começar ou de ampliar, procure a defesa agropecuária do seu estado. Em Minas Gerais, por exemplo, o IMA cadastra granjas comerciais, criações de subsistência e transportadores de suídeos.
+O que anotar por baia ou lote
+No sistema acompanhado pela Embrapa, toda informação de produção, de consumo de ração e de uso de medicamento ia para uma ficha. Os leitões eram pesados um a um no nascimento e no desmame. Na propriedade, o mínimo por baia ou lote é este:
+O que anotarQuandoPara que serve
+EntradaNa chegada ou no partoData, quantos e de onde vieram
+PesoEntrada, troca de fase e saídaGanho de peso do lote
+RaçãoA cada compra e a cada tratoConversão alimentar e custo
+Vacina e remédioNo dia da aplicaçãoHistórico e carência do abate
+MortesNo diaMortalidade da fase
+SaídaNa venda ou no abateQuantos, peso, comprador e valor
+Carência é o prazo da bula entre o remédio e o abate.
+Nas matrizes, anote por porca: data da cobertura, cachaço ou sêmen, parto, leitões nascidos e desmamados. É a ficha da porca que mostra qual matriz fica e qual sai do plantel.
+Quem ainda controla no papel pode partir da planilha de gestão rural e levar depois para o aplicativo.
+Conversão alimentar dos suínos
+A conversão alimentar é a ração consumida dividida pelo ganho de peso do lote. No porco, ela se mede por fase, porque o leitão de creche e o suíno de terminação comem e ganham de jeitos diferentes. A Embrapa avaliou justamente ganho de peso diário, conversão alimentar e mortalidade em cada fase.
+No estudo da produção em família, a conversão alimentar da creche à terminação ficou em 2,253 na média, ou seja, cerca de 2,25 kg de ração para cada quilo ganho. É o resultado daquele sistema, com aquela ração e aquela genética. Sirva-se dele como comparação, não como meta.
+Pese o lote na entrada da fase e anote.
+Some toda a ração que entrou na baia e desconte a sobra que foi pesada.
+Pese o lote na saída. O ganho é o peso final menos o inicial.
+Divida a ração pelo ganho. A calculadora de conversão alimentar faz a conta.
+Conversão que piora de um lote para o outro pede olhar a ração desperdiçada no comedouro, a saúde do lote e a lotação da baia antes de trocar a ração.
+Sanidade e a guia de trânsito (GTA)
+O programa de vacinas e de vermífugo do porco é definido pelo veterinário da granja ou da integradora, conforme as doenças da região. Anote cada aplicação com a data, o produto, o lote e a carência da bula. Sem essa anotação, não dá para saber quando o lote está liberado para o abate.
+Para tirar porco da propriedade, vale a GTA, a Guia de Trânsito Animal. Ela é documento oficial obrigatório em todo o país, para o trânsito dentro do estado e entre estados. A Adepará, agência de defesa do Pará, escreve que o trânsito de suídeos, para qualquer destino e finalidade, está condicionado à emissão da GTA. A regra vale também para os demais documentos sanitários e fiscais.
+O passo a passo, estado por estado, está em como emitir GTA.
+As exigências para emitir a GTA de suínos mudam de estado para estado. Confira na defesa agropecuária do seu estado. Este guia é informativo e não substitui o veterinário nem o técnico da criação.
+A criação de porcos no FINAGRO
+Cada baia vira um lote, com categoria de matrizes, leitões na maternidade, creche, recria ou terminação, e com a raça ou a linhagem.
+No lote você lança o que aconteceu: chegaram, nasceram, vendi, morreram, abate ou consumo. A mortalidade é calculada sozinha a partir das mortes registradas.
+Na porca com ficha, a cobertura lançada já mostra o parto previsto, contado em 114 dias, e o parto registra a leitegada.
+Vacina e tratamento ficam no histórico do lote, com a carência de abate em dias.
+O app não emite GTA: ele guarda as GTAs que você emitiu e lembra 1 dia antes do vencimento. A ração entra como despesa e no estoque.
+Baias, pesos, vacinas e vendas da criação de porcos no celular.
+Grátis, sem cartão. Baia conta como lote, com quantas cabeças você tiver.
+Começar grátis
+Perguntas sobre criação de porcos
+Com quantos quilos o porco vai para o abate?
+Segundo a Embrapa Suínos e Aves, a terminação começa aos 55 kg e vai até o abate, que normalmente ocorre por volta dos 100 a 120 kg.
+Com quantos dias se desmama o leitão?
+Em criações tecnificadas, a Embrapa registra o desmame normalmente entre 21 e 28 dias. No sistema em família que ela acompanhou, o desmame foi programado para 28 dias.
+Qual é a conversão alimentar dos suínos?
+Depende da fase, da ração, da genética e do manejo. Num sistema em família acompanhado pela Embrapa, a conversão da creche à terminação ficou em 2,253 na média. Compare cada lote com o seu próprio histórico.
+Precisa de GTA para transportar porcos?
+Sim. A GTA é documento oficial obrigatório em todo o país para o trânsito de animais. As exigências para emitir a guia de suínos mudam de estado para estado, então confira na defesa agropecuária do seu.
+Quanto tempo dura a gestação da porca?
+Cerca de 114 dias. No sistema em família descrito pela Embrapa, os partos acontecem aproximadamente 114 dias depois da cobertura.
+Fontes
+Embrapa Suínos e Aves, instalações por fases da produção de suínos
+Embrapa Suínos e Aves, categorias de animais na produção de suínos
+Embrapa Suínos e Aves, Produção de suínos em família, sem uso preventivo de antimicrobiano
+Adepará, Programa de Sanidade Suídea
+IMA (Minas Gerais), Programa Nacional de Sanidade Suídea
+Veja também
+Como emitir GTAConversão alimentarPlanilha de gestão ruralTodos os guias
+Nesta página
+As fases da criação de porcos
+Criação em família e em pequenas propriedades
+O que anotar por baia ou lote
+Conversão alimentar dos suínos
+Sanidade e a guia de trânsito (GTA)
+A criação de porcos no FINAGRO
+Perguntas frequentes
+FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
+Grátis até 1.000 animais com ficha
+Lote sem limite de cabeças
+Sem cartão
+Começar grátisBaixar para Android
+
+
+---
+
+## Criação de tilápia em tanque escavado: do viveiro à despesca
+Endereço: https://finagro.app/criacao-de-tilapia
+
+
+FINAGRO
+Guias
+Criação de tilápia
+GuiaOutras criações
+Criação de tilápia: o que decidir antes e o que medir no tanque
+Como começar uma criação de tilápia em tanque escavado?
+Comece pela água e pelos papéis: fonte que abasteça o viveiro o ciclo inteiro, licença ambiental e outorga de uso da água. Depois vêm a obra, o povoamento e a rotina: oxigênio acima de 4 mg/L, biometria quinzenal e ração ajustada pelo peso. Para peixe de viveiro escavado, a Embrapa considera satisfatória a conversão alimentar entre 1,0 e 1,5.
+Atualizado em 08/10/2026
+Antes de escavar: água, licença e outorga
+A criação de peixe em tanque começa pela água. O manual de piscicultura em viveiros escavados da Embrapa pede uma fonte que abasteça todos os viveiros ao longo do cultivo e que esteja livre de contaminação. Sem isso, o resto do projeto não se sustenta.
+Depois vêm os papéis. No mesmo manual, a licença ambiental aparece como etapa da construção, logo depois de avaliar a água, a topografia e o solo. A Embrapa também lembra que o produtor precisa conhecer as regras federais, estaduais e municipais sobre o uso dos recursos naturais.
+A outorga é a autorização para usar a água. A Lei 9.433, de 1997, sujeita a outorga a captação de água de um corpo de água para insumo de processo produtivo. É o caso de quem enche viveiro com água de rio, córrego ou represa.
+Licença e outorga mudam de estado para estado. Antes de contratar a máquina, procure o órgão ambiental e o órgão de recursos hídricos do seu estado. Pergunte o que vale para o tamanho do seu projeto, inclusive se a sua captação entra em dispensa.
+Se o imóvel ainda não tem o Cadastro Ambiental Rural, veja antes o guia do CAR.
+Tanque escavado ou tanque-rede: o sistema de criação
+A Embrapa aponta três sistemas principais no Brasil: os viveiros escavados, os tanques-rede instalados em grandes reservatórios e os sistemas integrados com reutilização de água. Este guia trata do viveiro escavado, que o produtor chama de tanque escavado.
+A tilápia responde à temperatura da água. Na tabela da Embrapa para a tilápia-do-nilo, o crescimento é ótimo entre 26 e 30 °C. Entre 30 e 34 °C o peixe come menos e cresce menos. Em região de inverno frio, converse com o técnico sobre a época de povoar.
+O oxigênio dissolvido é a variável que mais pesa. O manual indica valores acima de 4 mg/L. Manda medir cedo, entre 6h e 8h, de preferência antes do primeiro trato, porque é a hora em que a água tem menos oxigênio.
+Como fazer tanque de peixe: as etapas da obra
+O manual da Embrapa resume a construção do viveiro escavado nesta ordem:
+Avaliar a aptidão da área: água, topografia e solo.
+Obter a licença ambiental.
+Fazer o levantamento planialtimétrico, que mostra o desnível do terreno.
+Definir o local, a posição e as medidas dos viveiros.
+Retirar a vegetação, incluindo de 10 cm a 30 cm abaixo da superfície do solo.
+Fazer a terraplanagem dos taludes, que são as paredes inclinadas do viveiro.
+Deixar o fundo com declive e construir o abastecimento e a drenagem.
+Proteger os taludes com vegetação ou pedra.
+Cada etapa é um gasto com data. Lance a máquina, o projeto e a tubulação como despesa da piscicultura desde o primeiro dia, para saber quanto o viveiro custou antes de entrar o primeiro alevino. A conta de quanto o hectare custa está em custo de produção por hectare.
+Povoamento: quantos alevinos soltar
+No manual da Embrapa para piscicultura familiar em viveiro escavado, a conta do povoamento parte do peso que o peixe vai ter na despesca. Quanto mais pesado o peixe na saída, menos alevinos por área.
+Peso na despescaAlevinos por 1.000 m²
+1,0 kg1.000
+1,5 kg667
+2,0 kg500
+2,5 kg400
+Embrapa, Manual de piscicultura familiar em viveiros escavados, tabela 4. Vale para peixe mantido no mesmo viveiro o ciclo todo; não é tabela exclusiva de tilápia.
+O manual avisa que, com manejo adequado, a mortalidade total fica em torno de 10% e que dá para soltar 10% a mais para compensar. Num viveiro de 1.000 m² com meta de 1 kg, seriam 1.100 alevinos.
+A tabela é de viveiro familiar. O mesmo manual diz que piscicultura em sistema intensivo, de alta densidade, precisa de aerador. Se o seu projeto tem aeração, confira a densidade com o técnico que acompanha a criação.
+No dia do povoamento, anote a data, o fornecedor, a quantidade e o peso médio dos alevinos. Nos dias seguintes, conte e registre os peixes mortos: a Embrapa pede esse registro para controlar a biomassa e a ração.
+O que medir no ciclo: biometria e ração
+Biometria é pesar uma amostra dos peixes para saber o peso médio do tanque. Para a tilápia, a Embrapa recomenda biometria quinzenal ou, no máximo, a cada 21 dias, com uma amostra de cerca de 3% a 5% dos peixes.
+Com o peso médio e o número de peixes vivos, sai a biomassa: peso médio × peixes vivos. É a biomassa que diz quanta ração dar. Para viveiros de crescimento, a Embrapa indica ração com 28 a 32% de proteína bruta.
+A cada biometria: data, peso médio, peixes vivos e biomassa.
+Todo dia: ração oferecida em cada tanque e peixes mortos retirados.
+Na água: oxigênio pela manhã, temperatura e transparência.
+No caixa: cada compra de ração, alevino e energia.
+Conversão alimentar da tilápia e a despesca
+A conversão alimentar é a ração consumida dividida pelo ganho de peso. O manual da Embrapa traz a conta pronta: mil peixes de 50 g somam 50 kg. Trinta dias depois, 985 peixes vivos com 120 g somam 118 kg. O ganho foi de 68 kg. Com 82 kg de ração no período, a conversão deu 1,2.
+Isso quer dizer 1,2 kg de ração para cada quilo de peixe. No glossário do mesmo manual, que trata de peixe de viveiro escavado em geral, conversão entre 1,0 e 1,5 é considerada satisfatória. O número não é próprio da tilápia. Faça a sua conta na calculadora de conversão alimentar e compare tanque com tanque, sempre na mesma fase.
+Na despesca, que é a retirada dos peixes do tanque, anote a data, os quilos, o número de peixes, o comprador e o valor. Se houve tratamento no tanque, respeite a carência da bula antes de despescar. Com quilos vendidos e ração gasta, você fecha a conversão do ciclo inteiro.
+Este guia é informativo. Licença, outorga, densidade, ração e tratamento dependem do seu estado e do seu projeto: confirme com o órgão ambiental e com o técnico ou veterinário que acompanha a criação.
+O tanque de tilápia no FINAGRO
+Cada tanque vira um lote, contado em peixes, com a espécie escolhida numa lista que traz tilápia, tilápia GIFT e tambaqui, entre outras.
+No tanque você lança o que aconteceu: chegaram alevinos, morreram, vendi ou despesca. A mortalidade é calculada sozinha a partir das mortes registradas.
+O tratamento lançado no tanque guarda a carência da despesca em dias, e o app mostra até quando o peixe fica retido.
+A venda com valor já deixa a receita pronta para conferir, e a ração entra como despesa e no estoque de insumos.
+No dia a dia do tanque há três lançamentos. Trato do dia: quilos de ração e em quantas vezes. Água do tanque: oxigênio, com aviso quando fica abaixo do crítico, e temperatura. Pesar a amostra: peso médio. O app não mede a água: você digita a leitura do seu aparelho.
+Cada tanque com povoamento, mortes, despesca e custo no celular.
+Grátis, sem cartão. Tanque conta como lote, com quantos peixes você tiver.
+Começar grátis
+Perguntas sobre criação de tilápia
+Precisa de licença para criar tilápia em tanque escavado?
+O manual da Embrapa coloca a licença ambiental como etapa da construção do viveiro. As exigências mudam de estado para estado, por isso procure o órgão ambiental do seu estado antes de começar a obra.
+Como saber se a conversão alimentar da tilápia está boa?
+Compare tanque com tanque e ciclo com ciclo, sempre na mesma fase. Para peixe de viveiro escavado, em geral, o manual da Embrapa considera satisfatória a conversão entre 1,0 e 1,5. Isso dá de 1 kg a 1,5 kg de ração para o peixe engordar 1 kg. Esse número não é próprio da tilápia.
+Quantas tilápias cabem em um tanque escavado?
+No manual da Embrapa para viveiro familiar, a conta parte do peso na despesca: para peixe de 1 kg, 1.000 alevinos por 1.000 m² de lâmina de água. Se o projeto tem aeração, confira a densidade com o técnico.
+De quanto em quanto tempo se faz a biometria?
+Para a tilápia, a Embrapa recomenda biometria quinzenal ou, no máximo, a cada 21 dias. Pesa-se uma amostra de cerca de 3% a 5% dos peixes para corrigir a quantidade de ração.
+Qual a temperatura da água para a tilápia?
+Na tabela da Embrapa para a tilápia-do-nilo, o crescimento é ótimo com a água entre 26 e 30 graus. Entre 30 e 34 graus o consumo de ração e o crescimento caem.
+Fontes
+Embrapa, Manual de piscicultura familiar em viveiros escavados
+Embrapa Meio Ambiente, manejo alimentar e da qualidade da água na produção de tilápia-do-nilo
+Lei nº 9.433, de 1997, Política Nacional de Recursos Hídricos
+Veja também
+Conversão alimentarCusto por hectareCAR: Cadastro AmbientalTodos os guias
+Nesta página
+Antes de escavar: água, licença e outorga
+Tanque escavado ou tanque-rede: o sistema de criação
+Como fazer tanque de peixe: as etapas da obra
+Povoamento: quantos alevinos soltar
+O que medir no ciclo: biometria e ração
+Conversão alimentar da tilápia e a despesca
+O tanque de tilápia no FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
 Grátis até 1.000 animais com ficha

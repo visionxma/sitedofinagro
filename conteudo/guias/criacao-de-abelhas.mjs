@@ -1,0 +1,135 @@
+// Consulta-alvo: "criação de abelhas", "criação de abelhas sem ferrão", "apicultura", "criação de abelhas jataí" e
+// "aplicativo para apicultura" (terceira leva, outras criações, 08/10/2026).
+// RASCUNHO: só vai para conteudo/guias depois de uma pessoa ler.
+const CONAMA = 'https://www.in.gov.br/en/web/dou/-/resolucao-n-496-de-19-de-agosto-de-2020-273217120';
+const MEL = 'https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1156063/1/SistemaProducaoMelVersaoEletronica2023.pdf';
+const SEM_FERRAO = 'https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1079116/1/CriacaoAbelhaSemFerrao.pdf';
+
+export const provas = [
+  { afirmacao: 'a apicultura no Brasil trabalha com a abelha africanizada', trecho: 'O Brasil apresenta características especiais de flora e clima que, aliado a presença da abelha africanizada, lhe conferem um potencial fabuloso para a atividade apícola', url: MEL },
+  { afirmacao: 'a Resolução Conama 496/2020 define abelha-nativa-sem-ferrão como a da tribo Meliponini, de ferrão atrofiado e hábito social', trecho: 'Abelhas-nativas-sem-ferrão: insetos da Ordem Hymenoptera, Família Apidae, Subfamília Apinae, Tribo Meliponini, que possuem ferrão atrofiado e hábito social', url: CONAMA },
+  { afirmacao: 'a jataí (Tetragonisca angustula) está entre as espécies sem ferrão criadas no Brasil, ao lado de uruçu, tiúba, jandaíra e mandaçaia', trecho: 'a mandaçaia (Melipona quadrifasciata anthidioides) e a jataí (Tetragonisca angustula)', url: SEM_FERRAO },
+  { afirmacao: 'as abelhas sem ferrão produzem de 1 a 10 kg de mel por ano, e uma colônia de Apis mellifera, em média 15 kg', trecho: 'No Brasil, os meliponineos produzem entre 1 e 10 kg de mel ao ano, dependendo da espécie e da região, enquanto que uma colônia de A. mellifera produz, em média, 15 kg de mel', url: SEM_FERRAO },
+  { afirmacao: 'o mel de abelha sem ferrão é mais ácido que o da Apis mellifera', trecho: 'O mel das abelhas-sem-ferrão possui sabor diferenciado, mais ácido que o mel de Apis mellifera', url: SEM_FERRAO },
+  { afirmacao: 'criar abelha nativa sem ferrão depende de ato autorizativo do órgão ambiental competente', trecho: 'O uso e manejo de abelhas-nativas-sem-ferrão dependerá de ato autorizativo do órgão ambiental competente, após análise dos seguintes requisitos mínimos', url: CONAMA },
+  { afirmacao: 'os requisitos mínimos: espécies, localização do meliponário com coordenadas, CNPJ ou CPF e origem das colônias', trecho: 'relação das espécies requeridas; II - localização do meliponário, com coordenadas geográficas; III - CNPJ ou CPF; IV - informação sobre a obtenção das colônias para o plantel inicial', url: CONAMA },
+  { afirmacao: 'cada órgão ambiental define o procedimento da autorização e da renovação', trecho: 'Os procedimentos para concessão do ato autorizativo e sua renovação serão definidos pelos órgãos ambientais competentes', url: CONAMA },
+  { afirmacao: 'até 49 colônias sem exploração econômica dispensam a autorização ambiental', trecho: 'São dispensados de autorização ambiental o uso e manejo sem exploração econômica de até 49 (quarenta e nove) colônias', url: CONAMA },
+  { afirmacao: 'a criação fica restrita à região de ocorrência natural da espécie', trecho: 'A criação de abelhas-nativas-sem-ferrão será restrita à região geográfica de ocorrência natural das espécies', url: CONAMA },
+  { afirmacao: 'a obtenção de colônias matrizes precisa de autorização: isca, compra de meliponário autorizado, depósito do órgão ou resgate', trecho: 'A obtenção de colônias matrizes para meliponicultura deverá ser autorizada pelo órgão ambiental competente, mediante: I - apanha na natureza por meio de recipiente-isca; II - aquisição de meliponário devidamente autorizado; III - depósito pelo órgão ambiental competente; ou IV - resgate de colônias', url: CONAMA },
+  { afirmacao: 'criatório de até 49 colônias, sem fins comerciais, fica dispensado de pedir a autorização de apanha por recipiente-isca', trecho: 'É dispensada a solicitação de autorização de apanha na natureza por meio de instalação de recipientes-iscas, para a aquisição e manutenção de criatórios de produtores com até 49 colônias e sem fins comerciais', url: CONAMA },
+  { afirmacao: 'depois da autorização e do registro na plataforma nacional, o meliponário é inscrito no CTF', trecho: 'Após a sua autorização, e registro na plataforma nacional instituída pela Resolução CONAMA nº 487, de 15 de maio de 2018, pelo órgão ambiental competente, o meliponário deve ser inscrito no Cadastro Técnico Federal de Atividades Potencialmente Poluidoras ou Utilizadoras de Recursos Ambientais - CTF', url: CONAMA },
+  { afirmacao: 'a criação fora da região de ocorrência natural poderá ser autorizada pelo órgão ambiental, segundo sua análise de risco', trecho: 'A criação de espécies de abelhas-nativas-sem-ferrão fora da região de sua ocorrência natural poderá ser autorizada pelo órgão ambiental competente, segundo sua análise de risco', url: CONAMA },
+  { afirmacao: 'a Resolução Conama 496 revogou a Resolução nº 346, de 2004', trecho: 'Art. 14. Fica revogada a Resolução nº 346, de 17 de agosto de 2004', url: CONAMA },
+  { afirmacao: 'o meliponário autorizado só vende colônias que vieram da multiplicação das suas matrizes', trecho: 'O meliponário regularmente autorizado poderá comercializar colônias, ou parte delas, desde que seja resultado de multiplicação das suas matrizes', url: CONAMA },
+  { afirmacao: 'a venda de mel e dos outros produtos dispensa autorização ambiental, menos quando envolve partes da colônia ou abelhas', trecho: 'é dispensável de autorização ambiental, exceto quando envolver partes da colônia ou espécimes', url: CONAMA },
+  { afirmacao: 'cumprir a resolução não dispensa as exigências sanitárias', trecho: 'O cumprimento das exigências constantes nesta Resolução não isenta o meliponicultor de atender às exigências sanitárias e outras previstas na legislação vigente', url: CONAMA },
+  { afirmacao: 'o apiário fica a pelo menos 400 metros de currais, casas, escolas, estradas movimentadas e aviários', trecho: 'O apiário deve estar localizado a uma distância mínima de 400 metros de currais, casas, escolas, estradas movimentadas, aviários e outros', url: MEL },
+  { afirmacao: 'a água deve ficar a no mínimo 100 metros do apiário', trecho: 'Deve-se fornecer para as abelhas fonte de água pura a uma distância de, no mínimo, 100 metros', url: MEL },
+  { afirmacao: 'a água deve ficar a no máximo 500 metros do apiário', trecho: 'e no máximo de 500 metros (evitando-se gasto energético acentuado para a sua coleta)', url: MEL },
+  { afirmacao: 'o apicultor deve padronizar o modelo de colmeia do apiário', trecho: 'o apicultor deve padronizar seu apiário, evitando a utilização de diferentes modelos', url: MEL },
+  { afirmacao: 'na florada, a revisão das melgueiras é a cada 15 dias', trecho: 'Durante as floradas, devem-se realizar revisões nas melgueiras a cada 15 dias, para verificar como está a produção de mel', url: MEL },
+  { afirmacao: 'na entressafra as revisões são geralmente mensais e rápidas, para ver se é preciso alimentar', trecho: 'Na entressafra, as revisões devem ser menos freqüentes, geralmente mensais, para evitar desgaste aos enxames', url: MEL },
+  { afirmacao: 'só se colhe quadro com pelo menos 90% dos alvéolos operculados', trecho: 'priorizando a retirada apenas dos quadros que apresentarem no mínimo 90% de seus alvéolos operculados', url: MEL },
+  { afirmacao: 'não se colhe mel em dia chuvoso ou de ar muito úmido', trecho: 'A colheita do mel não deve ser realizada em dias chuvosos ou com alta umidade relativa do ar', url: MEL },
+  { afirmacao: 'nas abelhas sem ferrão a revisão é a cada 30 dias, olhando cria, rainha e alimento', trecho: 'A revisão das colônias deve ser realizada a cada 30 dias, ou em menor tempo se necessário, observando-se presença de cria e rainha, disponibilidade de alimento', url: SEM_FERRAO },
+  { afirmacao: 'as colmeias de abelha sem ferrão ficam em cavaletes individuais a cerca de 0,5 metro do chão', trecho: 'As colmeias devem ser instaladas a uma altura aproximada de 0,5 metro do chão, em cavaletes individuais', url: SEM_FERRAO },
+  { afirmacao: 'a colônia sem ferrão recebe alimento quando está fraca e falta florada', trecho: 'O fornecimento de alimento deve ser realizado sempre que as colônias estiverem fracas e que não houver disponibilidade no campo', url: SEM_FERRAO },
+  { afirmacao: 'o mel de abelha sem ferrão se colhe com bomba de sucção ou seringa, só de potes fechados', trecho: 'Para a colheita do mel o produtor deve usar uma bomba de sucção ou seringa e só retirar mel de potes que já estejam fechados', url: SEM_FERRAO },
+];
+
+export default {
+  slug: 'criacao-de-abelhas',
+  grupo: 'criacoes',
+  tipo: 'guia',
+  curto: 'Criação de abelhas',
+  resumo: 'Apicultura, abelha sem ferrão, a lei e o que anotar.',
+  title: 'Criação de abelhas: apicultura, sem ferrão e a lei',
+  description: 'Criação de abelhas com e sem ferrão: a diferença entre apicultura e meliponicultura, o que a Resolução Conama 496 pede e o que anotar por colmeia e apiário.',
+  h1: 'Criação de abelhas: apicultura, abelha sem ferrão e o que anotar',
+  pergunta: 'Precisa de autorização para criar abelhas sem ferrão?',
+  resposta: 'Precisa, em regra. A Resolução Conama 496, de 2020, diz que o uso e o manejo de abelhas nativas sem ferrão dependem de ato autorizativo do órgão ambiental competente. Ficam dispensados o uso e o manejo sem exploração econômica de até 49 colônias. A abelha com ferrão, da apicultura, não entra nessa resolução.',
+  tela: 'producao',
+  atualizado: '2026-10-08',
+  secoes: [
+    { h2: 'Apicultura e meliponicultura: qual a diferença', blocos: [
+      { p: '**Apicultura** é a criação da abelha com ferrão, a Apis mellifera, que no Brasil é a africanizada. Pede macacão, luva, fumigador e um apiário longe de gente e de bicho.' },
+      { p: '**Meliponicultura** é a criação de abelhas sem ferrão, nativas do Brasil. A Resolução Conama 496 as define como abelhas da tribo Meliponini, de ferrão atrofiado e hábito social. A jataí é uma delas, ao lado de uruçu, tiúba, jandaíra e mandaçaia, espécies que a Embrapa lista entre as criadas no país.' },
+      { tabela: { colunas: ['Ponto', 'Apicultura', 'Sem ferrão'], linhas: [
+        ['Abelha', 'Apis mellifera, africanizada', 'Nativas: jataí, uruçu, mandaçaia'],
+        ['Mel por colônia ao ano', 'Em média 15 kg', 'De 1 a 10 kg'],
+        ['Onde fica o mel', 'Quadros da melgueira', 'Potes de cerume'],
+        ['Norma ambiental federal', 'Não é a Conama 496', 'Resolução Conama 496/2020'],
+      ], nota: 'Produção de mel: Embrapa, Criação de abelhas-sem-ferrão. Varia com a espécie e a região.' } },
+      { p: 'A produção por colônia é só uma referência da Embrapa, e muda com a espécie e a região. Segundo a Embrapa, o mel de abelha sem ferrão tem sabor diferenciado, mais ácido que o da Apis.' },
+    ] },
+    { h2: 'O que a lei pede para criar abelha sem ferrão', blocos: [
+      { p: 'A norma federal é a **Resolução Conama nº 496, de 19 de agosto de 2020**, que disciplina o uso e o manejo das abelhas nativas sem ferrão. Ela revogou a Resolução nº 346, de 2004. Os pontos que pesam para quem cria:' },
+      { ul: [
+        'O uso e o manejo dependem de ato autorizativo do órgão ambiental competente.',
+        'O pedido informa, no mínimo: as espécies, a localização do meliponário com coordenadas, o CNPJ ou CPF e de onde vieram as colônias do plantel inicial.',
+        'Depois da autorização e do registro na plataforma nacional, o meliponário é inscrito no CTF, o Cadastro Técnico Federal de Atividades Potencialmente Poluidoras ou Utilizadoras de Recursos Ambientais.',
+        'O uso e o manejo sem exploração econômica de até 49 colônias são dispensados de autorização ambiental.',
+        'A criação fica restrita à região de ocorrência natural da espécie. Fora dela, a criação poderá ser autorizada pelo órgão ambiental, segundo a análise de risco que ele fizer.',
+        'A obtenção de colônias matrizes também é autorizada pelo órgão ambiental: por recipiente-isca, compra de meliponário autorizado, depósito do órgão ou resgate. Quem tem até 49 colônias, sem fins comerciais, fica dispensado de pedir a autorização de apanha por recipiente-isca.',
+        'O meliponário autorizado só vende colônias que vieram da multiplicação das suas próprias matrizes.',
+        'A venda de mel e dos outros produtos dispensa autorização ambiental, menos quando envolve partes da colônia ou as próprias abelhas.',
+      ] },
+      { destaque: 'O procedimento da autorização é definido por cada órgão ambiental, e muda de estado para estado. Antes de comprar a primeira caixa de jataí, procure o órgão ambiental do seu estado. A resolução também avisa que ela não dispensa as exigências sanitárias.' },
+      { p: 'As coordenadas do meliponário saem do celular. Se você ainda não tem a área medida, veja [aplicativo para medir área rural](/aplicativo-para-medir-area-rural).' },
+    ] },
+    { h2: 'Onde instalar o apiário e o meliponário', blocos: [
+      { p: 'Para a abelha com ferrão, a Embrapa Meio-Norte dá as distâncias do apiário:' },
+      { ul: [
+        'No mínimo 400 metros de currais, casas, escolas, estradas movimentadas e aviários.',
+        'Água limpa a no mínimo 100 metros e a no máximo 500 metros das colmeias.',
+        'Um modelo só de colmeia no apiário inteiro, para as peças servirem em qualquer caixa.',
+      ] },
+      { p: 'Para a abelha sem ferrão, o sistema de criação da Embrapa indica colmeias em cavaletes individuais, a cerca de 0,5 metro do chão.' },
+    ] },
+    { h2: 'Revisão, alimentação e colheita do mel', blocos: [
+      { p: 'Revisão é abrir a colmeia para ver como ela está. A frequência muda com a abelha e com a época.' },
+      { tabela: { colunas: ['Manejo', 'Apicultura', 'Sem ferrão'], linhas: [
+        ['Revisão', 'A cada 15 dias na florada; mensal na entressafra', 'A cada 30 dias, ou antes se preciso'],
+        ['Alimentação', 'Na entressafra, se a revisão mostrar falta', 'Colônia fraca e sem florada no campo'],
+        ['Colheita', 'Quadro com 90% ou mais de alvéolos operculados', 'Seringa ou bomba, só de pote fechado'],
+      ], nota: 'Embrapa Meio-Norte, Sistema de Produção de Mel, e Embrapa, Criação de abelhas-sem-ferrão.' } },
+      { p: 'Alvéolo operculado é o que a abelha já fechou com cera: sinal de que o mel está maduro. A Embrapa também manda não colher em dia chuvoso ou de ar muito úmido, porque o mel puxa umidade.' },
+      { p: 'Na abelha sem ferrão, a revisão olha a cria, a rainha, o alimento guardado e a presença de inimigos naturais. Furar os potes e deixar o mel escorrer pela caixa não é recomendado pela Embrapa, porque contamina o produto.' },
+    ] },
+    { h2: 'O que anotar por colmeia e por apiário', blocos: [
+      { p: 'Colmeia sem anotação vira memória, e memória não mostra qual caixa produz e qual só dá trabalho. O mínimo:' },
+      { tabela: { colunas: ['Anotação', 'Por colmeia', 'Por apiário'], linhas: [
+        ['Revisão', 'Data, cria, rainha e alimento', 'Data da visita e caixas vistas'],
+        ['Alimentação', 'Data e o que foi dado', 'Gasto com açúcar e insumos'],
+        ['Colheita', 'Data e quilos de mel', 'Quilos do apiário e destino'],
+        ['Enxames', 'Divisão, captura ou perda', 'Total de colmeias no mês'],
+        ['Venda', 'Colônia vendida, se autorizado', 'Quilos, comprador e valor'],
+      ], nota: 'Modelo de anotação. Numere cada caixa para a ficha acompanhar a colmeia.' } },
+      { p: 'Com quilos colhidos e gasto do apiário, sai o custo do quilo de mel: gasto do período dividido pelos quilos colhidos. A venda e os gastos ficam mais claros no [fluxo de caixa rural](/fluxo-de-caixa-rural), e, para vender com nota, veja [nota fiscal de produtor rural](/nota-fiscal-de-produtor-rural).' },
+      { destaque: 'Este guia é informativo. Autorização ambiental, registro do mel para venda e exigências sanitárias dependem do seu estado e do seu município. Confirme com o órgão ambiental, com a defesa agropecuária e com o técnico que acompanha a criação.' },
+    ] },
+  ],
+  noFinagro: { h2: 'Aplicativo para apicultura: o apiário no FINAGRO', itens: [
+    'Cada apiário vira um lote, contado em colmeias, com o tipo de abelha escolhido numa lista que traz africanizada, jataí, mandaçaia, uruçu e tiúba.',
+    'No apiário você lança o que aconteceu: chegaram colmeias, novos enxames, vendi ou morreram.',
+    'O mel colhido é lançado em quilos, com o preço do quilo e o destino, e o app soma a produção do mês.',
+    'Revisão das colmeias (caixas sem rainha, com pouca cria, com pouco alimento, doença ou praga) e tratamento ficam no histórico do apiário. O app não sugere calendário de vacina para abelhas.',
+    'Açúcar, caixas e cera entram como despesa, e a venda do mel como receita, no fluxo de caixa da propriedade.',
+  ] },
+  cta: { forte: 'Colmeias, mel colhido e venda no celular, por apiário.', texto: 'Grátis, sem cartão. Apiário conta como lote, com quantas colmeias você tiver.' },
+  faqTitulo: 'Perguntas sobre criação de abelhas',
+  faq: [
+    ['Qual a diferença entre apicultura e meliponicultura?', 'Apicultura é a criação da abelha com ferrão, a Apis mellifera, que no Brasil é a africanizada. Meliponicultura é a criação de abelhas nativas sem ferrão, como jataí, uruçu e mandaçaia.'],
+    ['Posso criar abelha jataí em casa sem autorização?', 'A Resolução Conama 496, de 2020, dispensa de autorização ambiental o uso e o manejo sem exploração econômica de até 49 colônias. Com venda, ou acima disso, é preciso o ato autorizativo do órgão ambiental. Confirme o procedimento no seu estado.'],
+    ['A que distância de casa pode ficar o apiário?', 'Para a abelha com ferrão, a Embrapa Meio-Norte indica no mínimo 400 metros de currais, casas, escolas, estradas movimentadas e aviários.'],
+    ['Quando colher o mel?', 'Na apicultura, a Embrapa orienta colher os quadros com pelo menos 90% dos alvéolos operculados, fora de dia chuvoso. Na abelha sem ferrão, só de potes já fechados, com seringa ou bomba de sucção.'],
+    ['De quanto em quanto tempo se revisa a colmeia?', 'Segundo a Embrapa, na apicultura as melgueiras são revisadas a cada 15 dias durante a florada e, na entressafra, geralmente uma vez por mês. Nas abelhas sem ferrão, a cada 30 dias, ou antes se preciso.'],
+  ],
+  fontes: [
+    { nome: 'Resolução Conama nº 496, de 19 de agosto de 2020 (Diário Oficial da União)', url: CONAMA },
+    { nome: 'Embrapa Meio-Norte, Sistema de Produção de Mel', url: MEL },
+    { nome: 'Embrapa, Criação de abelhas-sem-ferrão', url: SEM_FERRAO },
+  ],
+  relacionados: ['fluxo-de-caixa-rural', 'nota-fiscal-de-produtor-rural', 'aplicativo-para-medir-area-rural'],
+};

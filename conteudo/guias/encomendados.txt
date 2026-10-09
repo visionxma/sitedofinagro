@@ -42,3 +42,7 @@ custo-da-arroba-produzida
 glossario-rural
 confinamento-de-gado
 pluviometro
+criacao-de-tilapia
+criacao-de-galinha-caipira
+criacao-de-abelhas
+criacao-de-porcos

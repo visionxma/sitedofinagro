@@ -1,0 +1,122 @@
+// Consulta-alvo: "criação de tilápia", "criação de tilápia em tanque escavado", "criação de peixe em tanque",
+// "conversão alimentar tilápia" e "como fazer tanque de peixe" (terceira leva, outras criações, 08/10/2026).
+// RASCUNHO: só vai para conteudo/guias depois de uma pessoa ler.
+const MANUAL = 'https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1038462/1/manual-piscicultura-familiar-viveiros-escavados-2015.pdf';
+const TILAPIA = 'https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1131706/1/SERIE-DOCUMENTOS-130-JULIO-06-05-21.pdf';
+const LEI_AGUAS = 'https://www.planalto.gov.br/ccivil_03/leis/l9433.htm';
+
+export const provas = [
+  { afirmacao: 'a licença ambiental é uma das etapas da construção do viveiro, logo depois de avaliar água, topografia e solo', trecho: 'A construção de um viveiro envolve as seguintes etapas: • Avaliação da aptidão da área (água, topografia e solo). • Obtenção da licença ambiental. • Levantamento planialtimétrico.', url: MANUAL },
+  { afirmacao: 'o produtor precisa conhecer as regras federais, estaduais e municipais e o caminho das licenças ambientais', trecho: 'que o produtor conheça as regulamentações federais, estaduais e municipais quanto ao uso dos recursos naturais, bem como os procedimentos para a obtenção das licenças ambientais', url: MANUAL },
+  { afirmacao: 'a Lei 9.433/1997 sujeita a outorga a captação de água de um corpo de água para insumo de processo produtivo', trecho: 'derivação ou captação de parcela da água existente em um corpo de água para consumo final, inclusive abastecimento público, ou insumo de processo produtivo', url: LEI_AGUAS },
+  { afirmacao: 'a fonte de água tem de abastecer todos os viveiros o ciclo inteiro e estar livre de contaminação', trecho: 'A fonte de água deve garantir volume suficiente para abastecer todos os viveiros ao longo do cultivo e estar livre de contaminação', url: MANUAL },
+  { afirmacao: 'viveiro escavado, tanque-rede em reservatório e sistema com reutilização de água são os principais sistemas no Brasil', trecho: 'Os principais sistemas de produção em uso no Brasil são os viveiros escavados, os tanques-rede instalados em grandes reservatórios e os sistemas integrados com reutilização de água', url: TILAPIA },
+  { afirmacao: 'as etapas seguintes da construção: definir local e medidas, retirar a vegetação e fazer a terraplanagem dos taludes', trecho: 'Definição do local, do posicionamento e das medidas dos viveiros. • Retirada da vegetação, incluindo 10 cm a 30 cm abaixo da superfície do solo. • Terraplanagem dos taludes.', url: MANUAL },
+  { afirmacao: 'a obra termina com fundo em declive, abastecimento, drenagem e proteção dos taludes', trecho: 'Adaptação do fundo do viveiro à declividade adequada. • Construção do sistema de abastecimento. • Construção do sistema de drenagem. • Proteção dos taludes com vegetação/enrocamento.', url: MANUAL },
+  { afirmacao: 'a tilápia cresce melhor com a água entre 26 e 30 °C e come menos entre 30 e 34 °C', trecho: '30 a 34 Redução no consumo de ração e no crescimento 26 a 30 Crescimento ótimo', url: TILAPIA },
+  { afirmacao: 'o oxigênio dissolvido deve ficar acima de 4 mg/L', trecho: 'Os valores adequados de oxigênio devem estar acima de 4 mg/L', url: MANUAL },
+  { afirmacao: 'o oxigênio se mede cedo, entre 6h e 8h, antes do primeiro trato', trecho: 'Recomenda-se a medição do oxigênio nas primeiras horas da manhã (entre 6h e 8h), preferencialmente antes da primeira alimentação dos peixes', url: MANUAL },
+  { afirmacao: 'o início da manhã é a hora do dia com menos oxigênio na água', trecho: 'o período do dia com menor concentração de oxigênio é no início da manhã', url: MANUAL },
+  { afirmacao: 'a tabela da Embrapa liga o peso do peixe na despesca ao número de alevinos por 1.000 m² de lâmina de água', trecho: 'Densidade de estocagem recomendada para uma área de lâmina d’água de 1.000 m2 em relação ao peso do peixe no momento da despesca', url: MANUAL },
+  { afirmacao: 'para despescar com 1 kg, a tabela indica 1.000 alevinos por 1.000 m²; com 1,5 kg, 667', trecho: 'Peso final (kg) Alevinos/1.000 m2 1,0 1.000 1,5 667 2,0 500 2,5 400', url: MANUAL },
+  { afirmacao: 'com manejo adequado a mortalidade total fica em torno de 10%, e dá para soltar 10% a mais', trecho: 'Se houver um manejo adequado, a mortalidade total (ou inicial) ficará em torno de 10% dos animais. Assim, pode-se acrescentar 10% da quantidade calculada de peixes no momento da estocagem', url: MANUAL },
+  { afirmacao: 'sistema intensivo, de alta densidade, precisa de aerador', trecho: 'Em pisciculturas com sistemas intensivos (altas densidades), é necessário utilizar aeradores para aumentar a concentração de oxigênio na água', url: MANUAL },
+  { afirmacao: 'peixe morto se registra, para controlar a biomassa e a ração', trecho: 'É importante registrar a quantidade de peixes mortos, para posterior controle da biomassa e da alimentação', url: MANUAL },
+  { afirmacao: 'na tilápia a biometria é quinzenal ou, no máximo, a cada 21 dias, para corrigir a ração', trecho: 'Realizar biometria dos peixes com periodicidade quinzenal, ou no máximo, a cada 21 dias para fazer a correção da taxa de alimentação', url: TILAPIA },
+  { afirmacao: 'na biometria se pesa uma amostra de cerca de 3% a 5% dos peixes', trecho: 'Selecionar aleatoriamente apenas cerca de 3% a 5% dos peixes para a biometria', url: TILAPIA },
+  { afirmacao: 'ração de crescimento com 28 a 32% de proteína bruta', trecho: 'Para viveiros de crescimento e tanques-rede usar rações que contenham entre 28 a 32% de proteína bruta', url: TILAPIA },
+  { afirmacao: 'no glossário do manual, para peixe de viveiro escavado em geral, conversão alimentar entre 1,0 e 1,5 é considerada satisfatória: de 1 kg a 1,5 kg de ração para o peixe engordar 1 kg', trecho: 'Uma conversão alimentar entre 1,0 e 1,5 é considerada satisfatória. Ou seja, para o peixe engordar 1 kg, o ideal é que ele coma de 1 kg a 1,5 kg de ração', url: MANUAL },
+  { afirmacao: 'o exemplo da Embrapa parte de mil peixes com peso médio de 50 g, que somam 50 kg de biomassa', trecho: 'mil peixes transferidos para a engorda, com peso médio de 50 g, totalizando uma biomassa de 50 kg', url: MANUAL },
+  { afirmacao: 'trinta dias depois, 985 peixes vivos com 120 g somam cerca de 118 kg', trecho: 'o valor aproximado de 118 kg de biomassa (120 g x 985 peixes)', url: MANUAL },
+  { afirmacao: 'no exemplo foram usados 82 kg de ração no período', trecho: 'Supondo-se que, nessa fase, tenham sido utilizados 82 kg de ração', url: MANUAL },
+  { afirmacao: 'no exemplo da Embrapa, a biomassa foi de 50 kg para 118 kg em 30 dias: ganho de 68 kg', trecho: '118 kg - 50 kg = 68 kg de ganho em biomassa no período de 30 dias', url: MANUAL },
+  { afirmacao: 'no exemplo, com 82 kg de ração a conversão deu 1,2: 1,2 kg de ração por quilo de peixe', trecho: 'O valor de conversão alimentar de 1,2 significa que, para 1 kg de peixe produzido, foi gasto 1,2 kg de ração', url: MANUAL },
+];
+
+export default {
+  slug: 'criacao-de-tilapia',
+  grupo: 'criacoes',
+  tipo: 'guia',
+  curto: 'Criação de tilápia',
+  resumo: 'Água, licença, povoamento, biometria, ração e despesca.',
+  title: 'Criação de tilápia em tanque escavado: do viveiro à despesca',
+  description: 'Criação de tilápia em tanque escavado: água, licença e outorga, povoamento, biometria, ração, conversão alimentar e despesca, com os números da Embrapa.',
+  h1: 'Criação de tilápia: o que decidir antes e o que medir no tanque',
+  pergunta: 'Como começar uma criação de tilápia em tanque escavado?',
+  resposta: 'Comece pela água e pelos papéis: fonte que abasteça o viveiro o ciclo inteiro, licença ambiental e outorga de uso da água. Depois vêm a obra, o povoamento e a rotina: oxigênio acima de 4 mg/L, biometria quinzenal e ração ajustada pelo peso. Para peixe de viveiro escavado, a Embrapa considera satisfatória a conversão alimentar entre 1,0 e 1,5.',
+  tela: 'lotes',
+  atualizado: '2026-10-08',
+  secoes: [
+    { h2: 'Antes de escavar: água, licença e outorga', blocos: [
+      { p: 'A criação de peixe em tanque começa pela água. O manual de piscicultura em viveiros escavados da Embrapa pede uma fonte que abasteça todos os viveiros ao longo do cultivo e que esteja livre de contaminação. Sem isso, o resto do projeto não se sustenta.' },
+      { p: 'Depois vêm os papéis. No mesmo manual, a **licença ambiental** aparece como etapa da construção, logo depois de avaliar a água, a topografia e o solo. A Embrapa também lembra que o produtor precisa conhecer as regras federais, estaduais e municipais sobre o uso dos recursos naturais.' },
+      { p: 'A **outorga** é a autorização para usar a água. A Lei 9.433, de 1997, sujeita a outorga a captação de água de um corpo de água para insumo de processo produtivo. É o caso de quem enche viveiro com água de rio, córrego ou represa.' },
+      { destaque: 'Licença e outorga mudam de estado para estado. Antes de contratar a máquina, procure o órgão ambiental e o órgão de recursos hídricos do seu estado. Pergunte o que vale para o tamanho do seu projeto, inclusive se a sua captação entra em dispensa.' },
+      { p: 'Se o imóvel ainda não tem o Cadastro Ambiental Rural, veja antes o guia do [CAR](/car-cadastro-ambiental-rural).' },
+    ] },
+    { h2: 'Tanque escavado ou tanque-rede: o sistema de criação', blocos: [
+      { p: 'A Embrapa aponta três sistemas principais no Brasil: os viveiros escavados, os tanques-rede instalados em grandes reservatórios e os sistemas integrados com reutilização de água. Este guia trata do viveiro escavado, que o produtor chama de tanque escavado.' },
+      { p: 'A tilápia responde à temperatura da água. Na tabela da Embrapa para a tilápia-do-nilo, o crescimento é ótimo entre 26 e 30 °C. Entre 30 e 34 °C o peixe come menos e cresce menos. Em região de inverno frio, converse com o técnico sobre a época de povoar.' },
+      { p: 'O oxigênio dissolvido é a variável que mais pesa. O manual indica valores acima de 4 mg/L. Manda medir cedo, entre 6h e 8h, de preferência antes do primeiro trato, porque é a hora em que a água tem menos oxigênio.' },
+    ] },
+    { h2: 'Como fazer tanque de peixe: as etapas da obra', blocos: [
+      { p: 'O manual da Embrapa resume a construção do viveiro escavado nesta ordem:' },
+      { ol: [
+        'Avaliar a aptidão da área: água, topografia e solo.',
+        'Obter a licença ambiental.',
+        'Fazer o levantamento planialtimétrico, que mostra o desnível do terreno.',
+        'Definir o local, a posição e as medidas dos viveiros.',
+        'Retirar a vegetação, incluindo de 10 cm a 30 cm abaixo da superfície do solo.',
+        'Fazer a terraplanagem dos taludes, que são as paredes inclinadas do viveiro.',
+        'Deixar o fundo com declive e construir o abastecimento e a drenagem.',
+        'Proteger os taludes com vegetação ou pedra.',
+      ] },
+      { p: 'Cada etapa é um gasto com data. Lance a máquina, o projeto e a tubulação como despesa da piscicultura desde o primeiro dia, para saber quanto o viveiro custou antes de entrar o primeiro alevino. A conta de quanto o hectare custa está em [custo de produção por hectare](/custo-de-producao-por-hectare).' },
+    ] },
+    { h2: 'Povoamento: quantos alevinos soltar', blocos: [
+      { p: 'No manual da Embrapa para piscicultura familiar em viveiro escavado, a conta do povoamento parte do peso que o peixe vai ter na despesca. Quanto mais pesado o peixe na saída, menos alevinos por área.' },
+      { tabela: { colunas: ['Peso na despesca', 'Alevinos por 1.000 m²'], linhas: [['1,0 kg', '1.000'], ['1,5 kg', '667'], ['2,0 kg', '500'], ['2,5 kg', '400']], nota: 'Embrapa, Manual de piscicultura familiar em viveiros escavados, tabela 4. Vale para peixe mantido no mesmo viveiro o ciclo todo; não é tabela exclusiva de tilápia.' } },
+      { p: 'O manual avisa que, com manejo adequado, a mortalidade total fica em torno de 10% e que dá para soltar 10% a mais para compensar. Num viveiro de 1.000 m² com meta de 1 kg, seriam 1.100 alevinos.' },
+      { destaque: 'A tabela é de viveiro familiar. O mesmo manual diz que piscicultura em sistema intensivo, de alta densidade, precisa de aerador. Se o seu projeto tem aeração, confira a densidade com o técnico que acompanha a criação.' },
+      { p: 'No dia do povoamento, anote a data, o fornecedor, a quantidade e o peso médio dos alevinos. Nos dias seguintes, conte e registre os peixes mortos: a Embrapa pede esse registro para controlar a biomassa e a ração.' },
+    ] },
+    { h2: 'O que medir no ciclo: biometria e ração', blocos: [
+      { p: '**Biometria** é pesar uma amostra dos peixes para saber o peso médio do tanque. Para a tilápia, a Embrapa recomenda biometria quinzenal ou, no máximo, a cada 21 dias, com uma amostra de cerca de 3% a 5% dos peixes.' },
+      { p: 'Com o peso médio e o número de peixes vivos, sai a **biomassa**: peso médio × peixes vivos. É a biomassa que diz quanta ração dar. Para viveiros de crescimento, a Embrapa indica ração com 28 a 32% de proteína bruta.' },
+      { ul: [
+        'A cada biometria: data, peso médio, peixes vivos e biomassa.',
+        'Todo dia: ração oferecida em cada tanque e peixes mortos retirados.',
+        'Na água: oxigênio pela manhã, temperatura e transparência.',
+        'No caixa: cada compra de ração, alevino e energia.',
+      ] },
+    ] },
+    { h2: 'Conversão alimentar da tilápia e a despesca', blocos: [
+      { p: 'A conversão alimentar é a ração consumida dividida pelo ganho de peso. O manual da Embrapa traz a conta pronta: mil peixes de 50 g somam 50 kg. Trinta dias depois, 985 peixes vivos com 120 g somam 118 kg. O ganho foi de 68 kg. Com 82 kg de ração no período, a conversão deu 1,2.' },
+      { p: 'Isso quer dizer 1,2 kg de ração para cada quilo de peixe. No glossário do mesmo manual, que trata de peixe de viveiro escavado em geral, conversão entre 1,0 e 1,5 é considerada satisfatória. O número não é próprio da tilápia. Faça a sua conta na calculadora de [conversão alimentar](/conversao-alimentar) e compare tanque com tanque, sempre na mesma fase.' },
+      { p: 'Na despesca, que é a retirada dos peixes do tanque, anote a data, os quilos, o número de peixes, o comprador e o valor. Se houve tratamento no tanque, respeite a carência da bula antes de despescar. Com quilos vendidos e ração gasta, você fecha a conversão do ciclo inteiro.' },
+      { destaque: 'Este guia é informativo. Licença, outorga, densidade, ração e tratamento dependem do seu estado e do seu projeto: confirme com o órgão ambiental e com o técnico ou veterinário que acompanha a criação.' },
+    ] },
+  ],
+  noFinagro: { h2: 'O tanque de tilápia no FINAGRO', itens: [
+    'Cada tanque vira um lote, contado em peixes, com a espécie escolhida numa lista que traz tilápia, tilápia GIFT e tambaqui, entre outras.',
+    'No tanque você lança o que aconteceu: chegaram alevinos, morreram, vendi ou despesca. A mortalidade é calculada sozinha a partir das mortes registradas.',
+    'O tratamento lançado no tanque guarda a carência da despesca em dias, e o app mostra até quando o peixe fica retido.',
+    'A venda com valor já deixa a receita pronta para conferir, e a ração entra como despesa e no estoque de insumos.',
+    'No dia a dia do tanque há três lançamentos. Trato do dia: quilos de ração e em quantas vezes. Água do tanque: oxigênio, com aviso quando fica abaixo do crítico, e temperatura. Pesar a amostra: peso médio. O app não mede a água: você digita a leitura do seu aparelho.',
+  ] },
+  cta: { forte: 'Cada tanque com povoamento, mortes, despesca e custo no celular.', texto: 'Grátis, sem cartão. Tanque conta como lote, com quantos peixes você tiver.' },
+  faqTitulo: 'Perguntas sobre criação de tilápia',
+  faq: [
+    ['Precisa de licença para criar tilápia em tanque escavado?', 'O manual da Embrapa coloca a licença ambiental como etapa da construção do viveiro. As exigências mudam de estado para estado, por isso procure o órgão ambiental do seu estado antes de começar a obra.'],
+    ['Como saber se a conversão alimentar da tilápia está boa?', 'Compare tanque com tanque e ciclo com ciclo, sempre na mesma fase. Para peixe de viveiro escavado, em geral, o manual da Embrapa considera satisfatória a conversão entre 1,0 e 1,5. Isso dá de 1 kg a 1,5 kg de ração para o peixe engordar 1 kg. Esse número não é próprio da tilápia.'],
+    ['Quantas tilápias cabem em um tanque escavado?', 'No manual da Embrapa para viveiro familiar, a conta parte do peso na despesca: para peixe de 1 kg, 1.000 alevinos por 1.000 m² de lâmina de água. Se o projeto tem aeração, confira a densidade com o técnico.'],
+    ['De quanto em quanto tempo se faz a biometria?', 'Para a tilápia, a Embrapa recomenda biometria quinzenal ou, no máximo, a cada 21 dias. Pesa-se uma amostra de cerca de 3% a 5% dos peixes para corrigir a quantidade de ração.'],
+    ['Qual a temperatura da água para a tilápia?', 'Na tabela da Embrapa para a tilápia-do-nilo, o crescimento é ótimo com a água entre 26 e 30 graus. Entre 30 e 34 graus o consumo de ração e o crescimento caem.'],
+  ],
+  fontes: [
+    { nome: 'Embrapa, Manual de piscicultura familiar em viveiros escavados', url: MANUAL },
+    { nome: 'Embrapa Meio Ambiente, manejo alimentar e da qualidade da água na produção de tilápia-do-nilo', url: TILAPIA },
+    { nome: 'Lei nº 9.433, de 1997, Política Nacional de Recursos Hídricos', url: LEI_AGUAS },
+  ],
+  relacionados: ['conversao-alimentar', 'custo-de-producao-por-hectare', 'car-cadastro-ambiental-rural'],
+};
