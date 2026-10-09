@@ -119,6 +119,13 @@ roda os `exemplos` e reprova se a conta não bater. Rótulos com até 34 caracte
    embrapa.br, conab.gov.br, ibge.gov.br, órgão estadual `*.gov.br`). Blog, portal de notícia, portal jurídico e site
    de fornecedor NÃO valem. Texto riscado (revogado) no Planalto não vale. O portão baixa a página e procura o trecho
    palavra por palavra: copie de 8 a 30 palavras seguidas, exatamente como estão.
+   **O trecho tem de trazer o número que a afirmação diz** (percentual, prazo, área, valor): trecho que só fala do
+   assunto não prova o número, e o portão reprova (`scripts/numeros-da-prova.mjs`, desde 08/10/2026). Estenda o trecho
+   até o número ou acrescente outra prova. Não contam o número que identifica o documento (Lei 5.889, art. 7º), data e
+   ano. Se a página escreve o número de outro jeito (por extenso com fração, tabela), a prova leva
+   `semNumero: 'como a página escreve'`. Número que não está na fonte sai do texto.
+   **Lei posterior muda decreto:** antes de escrever uma exigência tirada de decreto, confira se uma lei mais nova a
+   dispensou (caso real: a anuência dos vizinhos no georreferenciamento, dispensada pela Lei 6.015, art. 213, § 13).
    Antes de registrar, confira você mesmo:
    `curl -4 -sL --compressed -m 60 -A 'Mozilla/5.0' -H 'Accept-Language: pt-BR,pt;q=0.9' '<url>' | iconv -f latin1 -t utf-8 2>/dev/null | sed 's/<[^>]*>/ /g' | grep -c '<pedaço do trecho>'`
    (o Planalto vem em latin1; nas outras páginas tire o `iconv`). Prefira a norma em HTML; PDF também passa.

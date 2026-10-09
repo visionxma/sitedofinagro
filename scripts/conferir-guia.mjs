@@ -10,6 +10,7 @@ import { existsSync, mkdirSync, readFileSync, readdirSync, statSync, writeFileSy
 import { dirname, join, basename } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { GRUPOS, TIPOS, TELAS, FIXAS } from './guias.mjs';
+import { numerosForaDoTrecho } from './numeros-da-prova.mjs';
 
 const AQUI = dirname(fileURLToPath(import.meta.url));
 const PASTA = join(AQUI, '..', 'conteudo', 'guias');
@@ -229,6 +230,11 @@ async function confere(arquivo) {
       if (!p.afirmacao || !p.trecho || !p.url) { falha(`prova incompleta: ${JSON.stringify(p).slice(0, 90)}`); continue; }
       let host; try { host = new URL(p.url).hostname; } catch { falha(`prova com endereço inválido: ${p.url}`); continue; }
       if (!(OFICIAL.test(host) || p.empresa === true)) { falha(`prova em site que não é oficial (${host}): ${p.afirmacao.slice(0, 60)}`); continue; }
+      // O trecho tem de trazer o número que a afirmação diz: trecho que só fala do assunto não prova o número.
+      // Quando a página escreve o número de outro jeito (por extenso com fração, tabela), a prova leva
+      // `semNumero: '<como a página escreve>'`, que fica à vista de quem revisa.
+      const fora = numerosForaDoTrecho(p);
+      if (fora.length && !(typeof p.semNumero === 'string' && p.semNumero.trim().length >= 12)) falha(`o trecho não traz o número da afirmação (${fora.join(', ')}): "${String(p.afirmacao).slice(0, 70)}". Estenda o trecho até o número, acrescente outra prova ou tire o número do texto`);
       const k = chave(p.trecho);
       if (k.length < 40) { falha(`trecho curto demais para provar algo: "${p.trecho}"`); continue; }
       if (semRede) continue;
