@@ -4,6 +4,7 @@
 // Rodar a cada mudança de texto, preço ou página:  node scripts/gerar.mjs
 import fs from 'node:fs';
 import path from 'node:path';
+import crypto from 'node:crypto';
 import { SITE, ATUALIZADO, ENTIDADE, PLANOS, LIMITES, EMPRESARIAL, COMPLEMENTOS, TESTE_DIAS, PERGUNTAS, PAGINAS, brl } from '../conteudo/site.mjs';
 import { montarGuias, GRUPOS, TIPOS } from './guias.mjs';
 
@@ -341,6 +342,28 @@ ${GUIAS.map((g) => `  <entry><title>${xml(g.titulo)}</title><link href="${SITE}$
 // ---------- portão de links internos: nenhuma página aponta para o que não existe ----------
 // `node scripts/gerar.mjs --estrito` sai com erro se houver link quebrado (é o que roda antes de publicar).
 const existe = (c) => c === '/' || fs.existsSync(path.join(RAIZ, c.replace(/^\//, '') + '.html')) || fs.existsSync(path.join(RAIZ, c.replace(/^\//, '')));
+// ---------- versão no endereço de todo arquivo de /assets ----------
+// Imagem, vídeo e fonte ficam 30 dias guardados no navegador (vercel.json). Arquivo que muda de conteúdo com o MESMO
+// nome continua velho para quem já visitou: em 09/10/2026 o logo e o vídeo do app trocaram de cor, a página nova chegou e
+// o Victor seguiu vendo o logo e as telas antigas. Por isso todo endereço de /assets leva ?v=<pedaço do resumo do
+// conteúdo>: mudou o arquivo, mudou o endereço, e o navegador busca de novo. Roda por cima do que já tem versão.
+const resumos = new Map();
+const versaoDe = (rel) => {
+  if (!resumos.has(rel)) { const f = path.join(RAIZ, rel); resumos.set(rel, fs.existsSync(f) ? crypto.createHash('md5').update(fs.readFileSync(f)).digest('hex').slice(0, 8) : null); }
+  return resumos.get(rel);
+};
+const RE_ATIVO = /(?<=["'(\s,=])\/(assets\/[\w./-]+\.(?:avif|webp|png|jpe?g|svg|mp4|webm|woff2))(?:\?v=[0-9a-f]+)?/g;
+const semArquivo = []; let versionados = 0;
+for (const f of [...fs.readdirSync(RAIZ).filter((x) => x.endsWith('.html')), 'styles.css', 'assets/artigo.css', 'assets/captacao.css', 'script.js', 'assets/captacao.js']) {
+  const arq = path.join(RAIZ, f);
+  if (!fs.existsSync(arq)) continue;
+  const antes = fs.readFileSync(arq, 'utf8');
+  const depois = antes.replace(RE_ATIVO, (_, rel) => { const v = versaoDe(rel); if (!v) { semArquivo.push(`${f}: /${rel}`); return `/${rel}`; } versionados++; return `/${rel}?v=${v}`; });
+  if (depois !== antes) fs.writeFileSync(arq, depois);
+}
+console.log(`endereços de /assets com a versão do conteúdo: ${versionados} (${resumos.size} arquivos)${semArquivo.length ? `\nARQUIVO QUE NÃO EXISTE (${semArquivo.length}):\n  ` + [...new Set(semArquivo)].join('\n  ') : ''}`);
+if (semArquivo.length && process.argv.includes('--estrito')) process.exit(1);
+
 const quebrados = [];
 for (const p of TODAS) {
   const html = fs.readFileSync(path.join(RAIZ, arquivoDe(p.caminho)), 'utf8');

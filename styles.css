@@ -6,8 +6,8 @@
    uma cena com tela real do app. Escrito do celular para cima (skill responsivo-de-cara).
    ========================================================================== */
 
-@font-face { font-family: "Outfit"; src: url("/assets/fontes/outfit-latin.woff2") format("woff2"); font-weight: 100 900; font-display: swap; }
-@font-face { font-family: "Afacad Flux"; src: url("/assets/fontes/afacad-flux-latin.woff2") format("woff2"); font-weight: 100 1000; font-display: swap; }
+@font-face { font-family: "Outfit"; src: url("/assets/fontes/outfit-latin.woff2?v=98ccc2b7") format("woff2"); font-weight: 100 900; font-display: swap; }
+@font-face { font-family: "Afacad Flux"; src: url("/assets/fontes/afacad-flux-latin.woff2?v=67f35050") format("woff2"); font-weight: 100 1000; font-display: swap; }
 
 :root {
   /* a marca do FINAGRO: os verdes do logotipo original e de projeto.finagro.app (#058301 e #014b00), pedidos pelo Victor em 09/10/2026 */
