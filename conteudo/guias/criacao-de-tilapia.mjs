@@ -30,7 +30,7 @@ export const provas = [
   { afirmacao: 'trinta dias depois, 985 peixes vivos com 120 g somam cerca de 118 kg', trecho: 'o valor aproximado de 118 kg de biomassa (120 g x 985 peixes)', url: MANUAL },
   { afirmacao: 'no exemplo foram usados 82 kg de ração no período', trecho: 'Supondo-se que, nessa fase, tenham sido utilizados 82 kg de ração', url: MANUAL },
   { afirmacao: 'no exemplo da Embrapa, a biomassa foi de 50 kg para 118 kg em 30 dias: ganho de 68 kg', trecho: '118 kg - 50 kg = 68 kg de ganho em biomassa no período de 30 dias', url: MANUAL },
-  { afirmacao: 'no exemplo, com 82 kg de ração a conversão deu 1,2: 1,2 kg de ração por quilo de peixe', trecho: 'O valor de conversão alimentar de 1,2 significa que, para 1 kg de peixe produzido, foi gasto 1,2 kg de ração', url: MANUAL },
+  { afirmacao: 'no exemplo, com 82 kg de ração a conversão deu 1,2: 1,2 kg de ração por quilo de peixe', trecho: 'Supondo-se que, nessa fase, tenham sido utilizados 82 kg de ração, é possível fazer o cálculo da conversão alimentar (CA): CA = Consumo de ração (kg) no período (30 dias)/ganho de peso (kg) no período (30 dias) Então: CA = 82 kg/68 kg = 1,2 • O valor de conversão alimentar de 1,2 significa que, para 1 kg de peixe produzido, foi gasto 1,2 kg de ração', url: MANUAL },
 ];
 
 export default {

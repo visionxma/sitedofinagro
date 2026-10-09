@@ -518,8 +518,8 @@ Endereço: https://finagro.app/guias
 FINAGRO
 Guias
 Guias, calculadoras e modelos para tocar a fazenda
-56 páginas gratuitas, com a conta feita na hora e a fonte oficial de cada regra. Sem cadastro para ler, calcular ou baixar.
-56páginas
+60 páginas gratuitas, com a conta feita na hora e a fonte oficial de cada regra. Sem cadastro para ler, calcular ou baixar.
+60páginas
 14calculadoras
 8modelos e planilhas
 Escolher um aplicativoGado de corteLeiteLavouraDinheiro e impostoTerra e documentosOutras criações
@@ -571,6 +571,7 @@ CalculadoraCalculadora de FunruralFunrural de uma venda: parcelas e total, na ho
 GuiaGestão ruralOs quatro controles que organizam a fazenda.
 GuiaGlossário ruralTermos da pecuária, da lavoura e do dinheiro.
 GuiaImposto de renda ruralQuem declara, como apurar e o que guardar.
+GuiaInscrição estadualComo tirar e consultar a inscrição do produtor, por estado.
 GuiaNota fiscal de produtorNF-e do produtor: quem emite, app e inscrição.
 PlanilhaPlanilha de gestão ruralReceitas e despesas da fazenda, grátis em Excel.
 GuiaPronaf 2026Quem tem direito, linhas, juros e documentos.
@@ -583,8 +584,11 @@ GuiaCAR: Cadastro AmbientalO que é o CAR rural, como fazer e como consultar.
 GuiaCCIR: como emitirEmitir o CCIR do Incra, pagar a taxa e atualizar o cadastro.
 Modelo prontoContrato de arrendamentoModelo pronto, prazo mínimo e limite do preço pela lei.
 Modelo prontoContrato de parceria ruralModelo pronto, cota máxima do dono da terra e prazo mínimo.
+GuiaGeorreferenciamento ruralQuando é exigido, o prazo, quem faz e como certificar.
 GuiaITR: declaração e multaPrazo, multa e como entregar a declaração do ITR.
+GuiaMódulo fiscalO que é, quanto vale no seu município e para que serve.
 CalculadoraMetros por hectareComprimento e largura viram m² e hectares.
+GuiaReserva legalPorcentagem por região, diferença para APP e registro no CAR.
 GuiaTarefa e linha de terraComo cubar e converter medidas que mudam por região.
 Outras criações
 Aves, suínos, peixes e abelhas.
@@ -3626,6 +3630,121 @@ Começar grátisBaixar para Android
 
 ---
 
+## Inscrição estadual de produtor rural: como tirar e consultar
+Endereço: https://finagro.app/inscricao-estadual-produtor-rural
+
+
+FINAGRO
+Guias
+Inscrição estadual
+GuiaDinheiro e imposto
+Inscrição estadual de produtor rural: como tirar e consultar, por estado
+Como tirar a inscrição estadual de produtor rural?
+A inscrição estadual de produtor rural é pedida na Secretaria da Fazenda do estado onde fica a terra. Em Minas Gerais o pedido é pelo SIARE, em São Paulo pelo Portal da Redesim, em Mato Grosso pelo e-Process e no Rio Grande do Sul na prefeitura conveniada. No Paraná o cadastro é o CAD/PRO. A situação se consulta pelo Sintegra.
+Atualizado em 08/10/2026
+O que é a inscrição estadual de produtor rural
+A inscrição estadual é o número do produtor no cadastro de contribuintes da Secretaria da Fazenda do estado. É com ela que o estado sabe quem está vendendo boi, leite, grão ou hortaliça, e é ela que vai impressa na nota fiscal da venda. Costuma aparecer abreviada como IE.
+Ela é do estado, e não do governo federal. Cada Secretaria tem o seu cadastro, com nome próprio: em Minas Gerais é o Cadastro de Produtor Rural Pessoa Física, no Paraná é o CAD/PRO, em Mato Grosso do Sul é o CAP, o Cadastro da Agropecuária. O nome muda, a função é a mesma.
+Quem tem terra em dois estados precisa olhar a regra de cada um: a inscrição é feita na Fazenda do estado onde fica o imóvel.
+Para que serve a inscrição estadual
+O uso de todo dia é emitir a nota fiscal de produtor. Os estados acordaram, no Confaz, a obrigatoriedade da nota fiscal eletrônica para o produtor rural, e a inscrição é o número que identifica o produtor na nota. As datas, quem está obrigado e o passo a passo estão no guia da nota fiscal de produtor rural.
+Vender com nota: boi, leite, grão, café, hortaliça.
+Emitir pelo celular: o aplicativo Nota Fiscal Fácil é gratuito e dispensa certificado digital.
+Identificar quem vende: é pelo número da inscrição que a Fazenda do estado reconhece o produtor em cada nota.
+A nota e a guia de trânsito andam juntas na venda de gado. Se você ainda não emite a guia, veja como emitir GTA.
+Como tirar a inscrição estadual: o caminho geral
+O passo a passo é de cada estado, mas a ordem costuma ser esta:
+Ache a página do cadastro de produtor rural no site da Secretaria da Fazenda do seu estado. A tabela abaixo traz oito delas.
+Separe os documentos pessoais e os da terra. Em Goiás, por exemplo, a Fazenda pede o comprovante do cadastro do imóvel na Receita Federal, que pode ser o recibo da declaração do ITR, e um documento que comprove o domínio do imóvel.
+Se a terra não é sua, tenha o contrato em mãos. Em São Paulo, quem produz em propriedade alheia pode ter de apresentar o contrato ou a declaração de permissão de uso do imóvel. Veja o modelo de contrato de arrendamento rural.
+Faça o pedido pelo canal do estado: sistema na internet, portal ou unidade de atendimento.
+Guarde o número e o comprovante. Você vai usar toda vez que emitir nota.
+Em Goiás, quando falta o registro da escritura no cartório de registro de imóveis, a inscrição é concedida na condição de posseiro. Cada estado trata esses casos do seu jeito: leia a página oficial antes de sair de casa.
+Inscrição estadual de produtor rural por estado
+Cada linha abaixo foi conferida na página da Secretaria da Fazenda do próprio estado, em 08 de outubro de 2026:
+EstadoNome do cadastroOnde pedir
+Minas GeraisCadastro de Produtor Rural Pessoa FísicaInternet, no sistema SIARE, ou unidade da SEF-MG
+São PauloInscrição Estadual (IE)Portal da Redesim
+ParanáCAD/PRO, o Cadastro de Produtores RuraisCAD/PRO, na Receita Estadual do Paraná
+GoiásCadastramento de Produtor RuralUnidade de atendimento da Secretaria da Economia
+Mato Grosso do SulCAP, o Cadastro da AgropecuáriaCAP, na Sefaz-MS
+Mato GrossoInscrição Estadual de produtor ruralSistema e-Process da Sefaz-MT
+Rio Grande do SulInscrição Estadual para Produtor RuralPrefeitura do município, conveniada à Receita Estadual
+RondôniaInscrição Estadual para Produtor RuralAgência Virtual da Sefin-RO
+Fonte: página oficial da Fazenda de cada estado, listada logo abaixo.
+Minas Gerais (MG): Cadastro de Produtor Rural, SEF-MG. A página traz documentos, manuais e o passo a passo do cadastro.
+São Paulo (SP): Produtor Rural: abertura, baixa e alterações. Em regra, não há documentos a apresentar, mas a Fazenda pode pedir o ITR ou a matrícula.
+Paraná (PR): perguntas da Receita Estadual sobre o CAD/PRO e a nota do produtor. A inscrição no CAD/PRO vem antes do início da atividade. A página informa que, com o CAD/PRO baixado, o cadastro novo é pedido na prefeitura do município do imóvel.
+Goiás (GO): Cadastramento de Produtor Rural, pessoa física, com a lista de documentos.
+Mato Grosso (MT): Como obter Inscrição Estadual, Sefaz-MT. O pedido do produtor rural pessoa física é enviado pelo sistema e-Process, com comprovante de vínculo com o imóvel rural. É obrigatório indicar contabilista ativo na Sefaz, exceto para o microprodutor rural, que a página define como a pessoa física com faturamento do ano anterior de até 5.350 UPF/MT.
+Rio Grande do Sul (RS): Solicitar Inscrição para Produtor Rural, Secretaria da Fazenda do RS. O pedido é na prefeitura do seu município, conveniada à Receita Estadual, no prazo de até trinta dias antes do início das atividades.
+Mato Grosso do Sul (MS): CAP, inscrição de produtor rural.
+Rondônia (RO): Inscrição Estadual para Produtor Rural, na Agência Virtual.
+No Pará, no Tocantins, na Bahia e nos demais estados, procure "produtor rural" no site da Secretaria da Fazenda do estado ou vá a uma unidade de atendimento.
+Como consultar a inscrição estadual de produtor rural
+Para saber se uma inscrição existe e está ativa, a sua ou a de quem vai comprar o seu gado, há dois caminhos oficiais:
+Sintegra. Abra sintegra.gov.br. A página reúne os cadastros estaduais: escolha a unidade da federação e você cai na consulta daquele estado.
+Site da Fazenda do estado. A mesma consulta fica no portal da Secretaria, junto dos serviços de cadastro.
+Informe o número da inscrição ou o CPF ou CNPJ, conforme o que a consulta do estado pedir.
+Confira o nome, o município e a situação cadastral. Se aparecer algo diferente de ativa, procure a Fazenda antes de emitir nota.
+Vale conferir a inscrição de quem compra antes de emitir a nota: é um minuto de consulta, e os dados da nota já saem certos.
+Mantenha a inscrição em dia
+Mudou algo, avise a Fazenda. Troca de endereço, de atividade ou de contrato pede alteração cadastral. As páginas estaduais trazem serviços próprios de alteração, baixa e reativação.
+Contrato com data de fim. Quem produz em terra arrendada deve acompanhar o vencimento do contrato e levar o contrato novo à Fazenda quando o estado pedir.
+Parou de produzir. Peça a baixa, para não ficar com cadastro aberto sem uso.
+Imposto de quem vende. A nota é do estado, mas a venda também entra na conta do Funrural e do imposto de renda.
+Este texto é informativo e não substitui contador. Nome do cadastro, documentos e canal de pedido mudam por estado e por ano: confirme na página da Secretaria da Fazenda do seu estado antes de dar entrada.
+A inscrição e as vendas na rotina do FINAGRO
+O FINAGRO não faz a inscrição estadual e não emite nota fiscal. A inscrição é na Secretaria da Fazenda; a nota sai no sistema do estado ou no Nota Fiscal Fácil.
+A tela Documentos guarda a inscrição como outro documento, com o número, ao lado do CCIR, do ITR e dos contratos. Se o seu estado dá prazo de validade, o app avisa antes de vencer.
+A venda feita com nota entra como receita, e o valor a receber fica em contas a receber, com a data do acerto.
+Contrato de arrendamento ou parceria guardado em Documentos tem aviso antes do fim do prazo.
+Relatórios em PDF e em planilha (CSV) reúnem vendas e despesas do período para o contador conferir com as notas.
+Número da inscrição guardado e cada venda anotada no celular.
+Grátis até 1.000 animais com ficha, sem cartão.
+Começar grátis
+Perguntas sobre inscrição estadual de produtor rural
+Como tirar a inscrição estadual de produtor rural?
+Na Secretaria da Fazenda do estado onde fica a terra. Em Minas Gerais o pedido é pela internet, no sistema SIARE. Em São Paulo é pelo Portal da Redesim. No Paraná o produtor entra no CAD/PRO. Em Goiás o pedido é numa unidade de atendimento da Secretaria da Economia.
+Como consultar a inscrição estadual de produtor rural?
+Pelo Sintegra, em sintegra.gov.br, escolhendo o estado, ou pela consulta de cadastro no site da Secretaria da Fazenda. A consulta mostra o nome, o município e a situação cadastral da inscrição.
+Como fazer a inscrição estadual de produtor rural em MG?
+Em Minas Gerais todo produtor rural pessoa física deve se inscrever no cadastro informatizado da SEF-MG. O pedido é pela internet, no sistema SIARE, ou nas unidades de atendimento da Secretaria de Estado de Fazenda.
+Como é a inscrição estadual de produtor rural no PR?
+No Paraná o produtor se inscreve no Cadastro de Produtores Rurais, o CAD/PRO, antes de iniciar a atividade. A nota fiscal de produtor eletrônica é emitida em sistema da Secretaria da Fazenda, no Portal Receita/PR.
+E a inscrição estadual de produtor rural em MT e no RS?
+Em Mato Grosso o pedido do produtor rural pessoa física é enviado pelo sistema e-Process da Sefaz-MT, e é obrigatório indicar contabilista ativo, exceto para o microprodutor rural. No Rio Grande do Sul o pedido é feito na prefeitura do município, conveniada à Receita Estadual, no prazo de até trinta dias antes do início das atividades.
+Fontes
+SEF-MG, Cadastro de Produtor Rural Pessoa Física
+Sefaz-SP, Produtor Rural: abertura, baixa e outras alterações
+Receita Estadual do Paraná, perguntas sobre CAD/PRO e NFP-e
+Secretaria da Economia de Goiás, Cadastramento de Produtor Rural
+Sefaz-MS, Cadastro da Agropecuária (CAP)
+Sefin-RO, Inscrição Estadual para Produtor Rural
+Sefaz-MT, Como obter Inscrição Estadual
+Secretaria da Fazenda do RS, Solicitar Inscrição para Produtor Rural
+Sintegra, consulta aos cadastros estaduais
+Confaz, Ajuste SINIEF 10/2022 (nota eletrônica do produtor rural)
+Veja também
+Nota fiscal de produtorComo emitir GTACalculadora de FunruralTodos os guias
+Nesta página
+O que é a inscrição estadual de produtor rural
+Para que serve a inscrição estadual
+Como tirar a inscrição estadual: o caminho geral
+Inscrição estadual de produtor rural por estado
+Como consultar a inscrição estadual de produtor rural
+Mantenha a inscrição em dia
+A inscrição e as vendas na rotina do FINAGRO
+Perguntas frequentes
+FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
+Grátis até 1.000 animais com ficha
+Lote sem limite de cabeças
+Sem cartão
+Começar grátisBaixar para Android
+
+
+---
+
 ## Nota fiscal de produtor rural eletrônica: como emitir
 Endereço: https://finagro.app/nota-fiscal-de-produtor-rural
 
@@ -4624,6 +4743,113 @@ Começar grátisBaixar para Android
 
 ---
 
+## Georreferenciamento rural: é obrigatório? Prazo e quem faz
+Endereço: https://finagro.app/georreferenciamento-rural
+
+
+FINAGRO
+Guias
+Georreferenciamento rural
+GuiaTerra e documentos
+Georreferenciamento rural: quando é obrigatório, o prazo e quem pode fazer
+O georreferenciamento rural é obrigatório?
+Depende do ato. Para desmembrar, parcelar ou remembrar imóvel rural, a Lei 6.015/1973 já pede o memorial georreferenciado, sem data. Para transferir, a lei remete ao prazo do Poder Executivo, e o decreto em vigor fixou 21 de outubro de 2029. O profissional credenciado faz o levantamento, e o Incra certifica pelo Sigef. Confirme no cartório.
+Atualizado em 08/10/2026
+O que é o georreferenciamento de imóvel rural
+Georreferenciar um imóvel é definir a sua forma, dimensão e localização por levantamento topográfico. O resultado é um memorial descritivo, feito e assinado por profissional habilitado, com Anotação de Responsabilidade Técnica (ART), que traz as coordenadas de cada vértice da divisa no Sistema Geodésico Brasileiro. A lei manda a precisão posicional ser fixada pelo Incra. A página de perguntas frequentes do Incra fala em 50 cm na determinação de cada vértice; o número que vale para o seu serviço é o da norma técnica em vigor, que o profissional credenciado segue.
+A exigência veio com a Lei 10.267/2001, que mudou a Lei de Registros Públicos (Lei 6.015/1973), e foi regulamentada pelo Decreto 4.449/2002. O Incra confere o trabalho e emite a certificação: a garantia de que os limites do imóvel não se sobrepõem a outros do cadastro e de que o levantamento seguiu as especificações técnicas.
+A certificação não prova que a terra é sua. O decreto diz que ela não implica reconhecimento do domínio nem da exatidão dos limites indicados pelo proprietário. Quem prova a propriedade é a matrícula.
+Georreferenciamento rural é obrigatório? Quando o cartório exige
+Segundo o Incra, o georreferenciamento e a certificação são exigidos apenas quando ocorre alguma transação imobiliária. Ou seja: a cobrança aparece quando você vai ao cartório de registro de imóveis mexer na terra. A certificação é necessária para toda alteração de área ou de titular em cartório, como compra, venda, desmembramento ou partilha.
+Desmembramento, parcelamento ou remembramento: dividir a fazenda, vender um pedaço ou juntar duas áreas.
+Transferência do imóvel: venda, doação e partilha.
+Ação judicial sobre imóvel rural: a lei manda que localização, limites e confrontações venham de memorial descritivo de profissional habilitado.
+O decreto é direto: a adequação da matrícula não pode ser feita sem a certificação do memorial descritivo expedida pelo Incra.
+Prazo do georreferenciamento rural: o que diz o decreto em vigor
+A Lei de Registros Públicos trata os atos de dois jeitos, e o prazo não é o mesmo para os dois:
+Desmembrar, parcelar ou remembrar. O art. 176, § 3º, da Lei 6.015/1973 manda a identificação do imóvel sair de memorial descritivo georreferenciado. Esse parágrafo não traz data: conte com a exigência no cartório desde já.
+Transferir a qualquer título, como venda, doação e partilha. O § 4º do mesmo artigo diz que a identificação se torna obrigatória nos prazos fixados pelo Poder Executivo. O prazo em vigor é o do Decreto 12.689, de 21 de outubro de 2025, que deu nova redação ao art. 10 do Decreto 4.449/2002: a partir de 21 de outubro de 2029.
+O texto do decreto cita os quatro atos juntos na data de 2029: desmembramento, parcelamento, remembramento e transferência. Como a lei vale mais que o decreto e o § 3º não depende de prazo, quem vai dividir ou juntar área faz melhor em tratar o georreferenciamento como exigido hoje e confirmar no cartório.
+O mesmo decreto revogou os incisos que escalonavam os prazos por faixa de área. Passada a data, o oficial do registro de imóveis fica proibido de praticar, sem a identificação do imóvel, três tipos de ato: desmembramento, parcelamento ou remembramento; transferência de área total; e criação ou alteração da descrição do imóvel que resulte de procedimento judicial ou administrativo.
+Ato no cartórioO que a norma dizOnde está
+Desmembrar, parcelar ou remembrarMemorial georreferenciado, sem data na leiLei 6.015, art. 176, § 3º
+Transferir o imóvelA partir de 21 de outubro de 2029Lei 6.015, art. 176, § 4º, e Decreto 4.449, art. 10
+Mudar a descrição por processoVedado sem a identificação, depois do prazoDecreto 4.449, art. 10, § 2º, III
+Quem certificaO IncraLei 6.015, art. 176, § 5º
+Lei 6.015/1973 e Decreto 4.449/2002, com a redação do Decreto 12.689/2025, lidos no Planalto em 08/10/2026.
+As páginas do Incra ainda mostram os prazos antigos por faixa de área, com as datas de 20/11/2023 e 20/11/2025, e o cartório pode manter a exigência para imóvel que já estava obrigado. Antes de qualquer ato, confirme no cartório de registro de imóveis da sua comarca o que ele está exigindo.
+Esperar o último ano não é bom negócio. O levantamento depende de serviço de campo e da análise do Incra no Sigef. Quem pensa em vender, dividir entre os filhos ou dar a terra em garantia ganha tempo fazendo antes.
+Quem pode fazer o georreferenciamento rural
+O dono do imóvel contrata um responsável técnico. Segundo o Incra, o profissional deve estar habilitado em conselho regional profissional e credenciado junto ao Incra. O serviço é assinado com ART.
+Abra o Sigef, o Sistema de Gestão Fundiária do Incra, em sigef.incra.gov.br.
+Consulte a relação de profissionais credenciados no seu estado. A pesquisa é pública.
+Peça orçamento a mais de um e confira o nome na lista antes de fechar.
+Combine no contrato quem leva os papéis ao cartório e quem prepara a sua declaração de que os limites foram respeitados.
+O dono de imóveis rurais que, somados, não passam de quatro módulos fiscais tem, pela Lei de Registros Públicos, garantia de isenção de custos financeiros. Pergunte no Incra do seu estado como pedir. Para saber quantos módulos tem a sua terra, veja o guia do módulo fiscal.
+Como fazer: do campo à certificação no Sigef
+Papéis em dia. Separe a matrícula, o CCIR e a prova de quitação do ITR dos últimos cinco exercícios. O decreto pede os três no cartório.
+Levantamento. O profissional mede as divisas no campo, conforme a 2ª edição do Manual Técnico para Georreferenciamento de Imóveis Rurais do Incra.
+Declaração de limites. A Lei 6.015/1973, art. 176, § 13, dispensa a anuência dos confrontantes: basta a declaração do requerente de que respeitou os limites e as confrontações. O Decreto 4.449/2002, que é de antes dessa mudança, ainda fala em declaração dos confinantes com firma reconhecida. Vale a lei, e o cartório diz o que ele aceita: pergunte antes.
+Envio ao Sigef. O técnico credenciado envia o arquivo digital com os dados do imóvel.
+Certificação. Sem inconsistência nem sobreposição, o próprio sistema gera a planta e o memorial descritivo certificados.
+Cartório. Os documentos, assinados digitalmente, vão ao registro de imóveis para atualizar a matrícula.
+Se o sistema acusar inconsistência, ele notifica o interessado, que corrige e envia de novo. Depois da matrícula, atualize o cadastro do imóvel no Incra e confira se o CAR bate com a nova descrição.
+Medir pelo GPS do celular não é georreferenciamento
+Vale deixar claro, porque a confusão custa caro. Medir o pasto caminhando com o celular, ou marcando pontos no mapa, não é georreferenciamento e não vale para o cartório nem para o Incra. Faltam três coisas que a norma exige: o profissional habilitado e credenciado, a ART e a precisão posicional fixada pelo Incra.
+O que compararGPS do celularGeorreferenciamento
+Quem fazVocê mesmoProfissional credenciado no Incra
+Precisão de referência9 m no Censo Agro do IBGEFixada pelo Incra, que cita 50 cm
+Vale no cartórioNãoSim, com a certificação
+Para que serveLida: pasto, talhão, cercaMatrícula, venda e partilha
+Os 9 metros são o limite que o IBGE aceitou para o aparelho de coleta do Censo Agropecuário 2017: servem só de referência do que um aparelho móvel entrega.
+A medida do celular tem o seu lugar: dividir piquete, calcular adubo, conferir a área de um talhão e ter uma noção antes de chamar o profissional. O guia do aplicativo para medir área rural mostra como fazer e o que esperar da precisão.
+Este texto é informativo e não substitui advogado, engenheiro nem o cartório. Prazo e exigência mudam por decreto: confira o texto em vigor no Planalto e a orientação do registro de imóveis antes de fechar negócio.
+O que o FINAGRO faz e o que ele não faz aqui
+O FINAGRO não faz georreferenciamento, não gera memorial descritivo e não envia nada ao Sigef. A área medida no app é para a lida, não para o cartório.
+A medição por GPS no celular dá área e perímetro de pastos e talhões, com até 100 áreas salvas no plano grátis.
+Na ficha da fazenda, a área declarada fica ao lado da área mapeada, e o app aponta quando as duas divergem.
+A tela Documentos guarda a matrícula, que fica sem validade, e o CCIR, o ITR e o CAR com número e data de validade. Os que vencem avisam antes: CAR com 90 dias, CCIR com 60 e ITR com 45.
+O custo do profissional entra como despesa, e as parcelas ficam em contas a pagar, no fluxo de caixa.
+Papéis da terra guardados e pastos medidos para a lida.
+Grátis até 1.000 animais com ficha, sem cartão.
+Começar grátis
+Perguntas sobre georreferenciamento rural
+Georreferenciamento rural é obrigatório?
+Depende do ato. Para desmembrar, parcelar ou remembrar, a Lei 6.015/1973, art. 176, § 3º, já pede o memorial georreferenciado, sem data. Para transferir o imóvel, o decreto em vigor fixou a exigência a partir de 21 de outubro de 2029. Confirme no registro de imóveis da sua comarca.
+Qual é o prazo do georreferenciamento rural?
+Para a transferência do imóvel, o Decreto 4.449/2002, na redação do Decreto 12.689/2025, fixa a exigência a partir de 21 de outubro de 2029. Para desmembrar, parcelar ou remembrar, a lei não traz data. As páginas do Incra ainda mostram prazos antigos por faixa de área: confirme no cartório antes de qualquer ato.
+Quem pode fazer georreferenciamento rural?
+Profissional habilitado em conselho regional profissional e credenciado no Incra, com Anotação de Responsabilidade Técnica. A relação de credenciados de cada estado é pública e fica no Sigef, o sistema do Incra.
+Posso fazer o georreferenciamento com o celular?
+Não. A medida do GPS do celular serve para a lida, como dividir pasto e conferir talhão. O georreferenciamento exige profissional credenciado, ART e a precisão da norma do Incra, e só ele recebe a certificação que o cartório aceita.
+O que é a certificação do Incra?
+É a garantia, dada só pelo Incra, de que os limites do imóvel não se sobrepõem a outros do cadastro e de que o levantamento seguiu a norma técnica. Ela sai pelo Sigef e não reconhece a propriedade: quem prova a propriedade é a matrícula.
+Fontes
+Decreto 4.449/2002, arts. 9º e 10 (texto em vigor)
+Decreto 12.689/2025, que fixou a data de 21 de outubro de 2029
+Lei 6.015/1973, arts. 176 e 225, com a Lei 10.267/2001 e a Lei 13.838/2019
+Incra, Certificação de imóveis rurais e Sigef
+Incra, perguntas frequentes sobre georreferenciamento
+Veja também
+App para medir áreaCCIR: como emitirCAR: Cadastro AmbientalTodos os guias
+Nesta página
+O que é o georreferenciamento de imóvel rural
+Georreferenciamento rural é obrigatório? Quando o cartório exige
+Prazo do georreferenciamento rural: o que diz o decreto em vigor
+Quem pode fazer o georreferenciamento rural
+Como fazer: do campo à certificação no Sigef
+Medir pelo GPS do celular não é georreferenciamento
+O que o FINAGRO faz e o que ele não faz aqui
+Perguntas frequentes
+FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
+Grátis até 1.000 animais com ficha
+Lote sem limite de cabeças
+Sem cartão
+Começar grátisBaixar para Android
+
+
+---
+
 ## ITR 2026: declaração, prazo, multa e quem é obrigado
 Endereço: https://finagro.app/itr
 
@@ -4811,6 +5037,212 @@ Are, centiare e hectare sem confusão
 Tabela de hectare para metros quadrados
 E quando o terreno não é retangular
 Hectares organizados no FINAGRO
+Perguntas frequentes
+FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
+Grátis até 1.000 animais com ficha
+Lote sem limite de cabeças
+Sem cartão
+Começar grátisBaixar para Android
+
+
+---
+
+## Módulo fiscal: o que é e como consultar por município
+Endereço: https://finagro.app/modulo-fiscal
+
+
+FINAGRO
+Guias
+Módulo fiscal
+GuiaTerra e documentos
+Módulo fiscal: quantos hectares tem e como consultar o do seu município
+Quantos hectares tem um módulo fiscal?
+Depende do município. Módulo fiscal é uma unidade de medida em hectares que o Incra fixa para cada município, e no Brasil vai de 5 a 110 hectares. Com ele se classifica o imóvel: até 4 módulos é pequena propriedade, de 4 a 15 é média e acima de 15 é grande.
+Atualizado em 08/10/2026
+Quantos módulos fiscais tem o imóvel
+Área (ha)Módulo fiscal do município (ha)
+6,00módulos fiscais
+120hectares em 4 módulos
+450hectares em 15 módulos
+Coloque o módulo fiscal do seu município, consultado no Incra ou na Embrapa. A conta oficial é a do Incra, e o resultado vem no CCIR, que traz a área e a classificação fundiária do imóvel: use a área que está lá. Esta calculadora serve para conferir.
+O que é módulo fiscal
+Módulo fiscal é uma unidade de medida em hectares, com um valor para cada município, fixado pelo Incra. O conceito entrou na lei em 1979, com a Lei 6.746, que alterou o Estatuto da Terra. Ele não é uma medida de chão como o alqueire ou a tarefa: é uma régua que a lei usa para dizer o tamanho de um imóvel rural em relação ao lugar onde ele fica.
+Por isso a pergunta "quantos hectares tem um módulo fiscal" só tem resposta com o nome do município. Segundo a Embrapa, o valor no Brasil vai de 5 a 110 hectares. Dois sítios do mesmo tamanho, em municípios diferentes, podem ter números de módulos bem distantes.
+Não confunda com as medidas de terra da região. Para converter alqueire, veja alqueire em hectare. Para tarefa e linha, veja tarefa e linha de terra.
+Por que o módulo fiscal muda de município para município
+A Lei 6.746/1979 manda o módulo de cada município ser determinado em hectares levando em conta quatro fatores:
+O tipo de exploração que predomina no município: hortifrutigranjeira, cultura permanente, cultura temporária, pecuária ou florestal.
+A renda obtida nessa exploração predominante.
+Outras explorações do município que, mesmo sem predominar, pesam na renda ou na área usada.
+O conceito de propriedade familiar.
+É por isso que o número muda: o que se explora e a renda que a terra dá não são os mesmos de um município para outro. O módulo fiscal é um dos Índices Básicos Cadastrais do Incra, e os índices em vigor foram definidos pela Instrução Especial nº 5 de 2022.
+Como consultar o módulo fiscal do seu município
+Este guia não traz tabela de municípios de propósito: o valor é do Incra e pode ser revisto. Consulte na fonte, por um destes dois caminhos oficiais:
+No Incra. Abra a página Módulo Fiscal do Incra e entre na ferramenta Consultar Índices Básicos. Ela mostra o módulo fiscal e os demais índices do município.
+Na Embrapa. Abra a página Módulos Fiscais da Embrapa, escolha o estado e o município e leia a dimensão em hectares. A fonte dos números é o Incra.
+No seu CCIR. O certificado do Incra traz a área e a classificação fundiária do imóvel. Se você ainda não tem o do exercício, veja como emitir no guia do CCIR.
+Anote o número do seu município. Ele volta toda vez que você for ao banco, ao sindicato, ao órgão ambiental ou ao cartório.
+Como calcular quantos módulos fiscais tem o imóvel
+A conta é uma divisão: a área, em hectares, pelo módulo fiscal do município. A Lei 6.746/1979, que criou o módulo fiscal, manda dividir a área aproveitável total do imóvel, que é a que pode ser explorada com agricultura, pecuária ou floresta. Pela mesma lei, não se considera aproveitável a área ocupada por benfeitoria, a ocupada por floresta ou mata de efetiva preservação permanente ou reflorestada com essências nativas, e a comprovadamente imprestável para qualquer exploração.
+Quem faz a conta oficial é o Incra, e o resultado vem no CCIR, com a área e a classificação fundiária do imóvel. Para conferir em casa, use a área que está no certificado.
+Exemplo com números supostos: imóvel de 180 hectares, num município em que o módulo fiscal é de 30 hectares. 180 dividido por 30 dá 6 módulos fiscais. Outro imóvel, de 72 hectares, num município com módulo de 20 hectares: 72 dividido por 20 dá 3,6 módulos.
+Para saber a área de pasto e de lavoura com o celular, veja o guia do aplicativo para medir área rural. A medida do celular serve para a lida e para conferir o cadastro. A área que vale no papel é a da matrícula e a do cadastro no Incra.
+Pequena, média e grande propriedade: a classificação
+O uso mais conhecido do módulo fiscal é classificar o imóvel rural pelo tamanho. A regra está na Lei 8.629/1993, com a redação da Lei 13.465/2017, e na página do Incra:
+ClasseTamanho em módulos fiscais
+MinifúndioMenor que a fração mínima de parcelamento
+Pequena propriedadeAté 4, respeitada a fração mínima
+Média propriedadeMais de 4 e até 15
+Grande propriedadeMais de 15
+Lei 8.629/1993, art. 4º, e página Módulo Fiscal do Incra. A fração mínima de parcelamento também é um índice do Incra, consultado na mesma ferramenta.
+Nos dois exemplos acima, o imóvel de 6 módulos é média propriedade, e o de 3,6 módulos é pequena propriedade. A classificação do seu imóvel vem escrita no CCIR, e é essa que o cartório e o banco leem.
+Para que serve o módulo fiscal no dia a dia do produtor
+Agricultura familiar. A Lei 11.326/2006 exige que o agricultor familiar não tenha, a qualquer título, área maior que 4 módulos fiscais. É o limite da Lei da Agricultura Familiar. Veja o que ele muda nos guias do CAF e do Pronaf.
+Reforma agrária. A pequena e a média propriedade não podem ser desapropriadas para reforma agrária, desde que o dono não tenha outra propriedade rural.
+Código Florestal. A Lei 12.651/2012 usa o módulo fiscal em vários pontos: benefícios da pequena propriedade, faixas de recomposição de área de preservação permanente e reserva legal. O imóvel que tinha até 4 módulos em 22 de julho de 2008 tem regra própria de reserva, explicada no guia do CAR.
+Cartório. A Lei de Registros Públicos garante isenção de custos na identificação georreferenciada ao dono de imóveis rurais que, somados, não passam de quatro módulos fiscais.
+O conceito nasceu numa lei que tratava do imposto sobre a terra. A conta do imposto de hoje está no guia do ITR.
+Este texto é informativo e não substitui advogado, contador nem técnico. O valor do módulo fiscal é do Incra: confira o do seu município na fonte antes de assinar contrato, pedir crédito ou fazer cadastro.
+A área da fazenda no FINAGRO
+O FINAGRO não classifica o imóvel nem altera cadastro no Incra. A classificação oficial vem no CCIR; o app organiza a área e os papéis em volta dela.
+Cada fazenda tem a área declarada na ficha, e as áreas medidas por GPS no celular ficam ligadas a ela (100 áreas no plano grátis).
+A tela Documentos guarda a matrícula de cada fazenda, que fica sem validade, e o CCIR, o CAR e o ITR com número e data de validade. Os que vencem avisam antes: CAR com 90 dias, CCIR com 60 e ITR com 45.
+Safras e talhões ficam com a área em hectares, e o custo por hectare sai da própria lavoura.
+Área, talhões e papéis da fazenda no mesmo lugar.
+Grátis até 1.000 animais com ficha, sem cartão.
+Começar grátis
+Perguntas sobre módulo fiscal
+Quantos hectares tem um módulo fiscal?
+Não há um valor único. O Incra fixa o módulo fiscal em hectares para cada município, e no Brasil ele vai de 5 a 110 hectares. Para saber o do seu, consulte a ferramenta Consultar Índices Básicos do Incra ou a página Módulos Fiscais da Embrapa.
+Onde consultar o módulo fiscal por município?
+Na página Módulo Fiscal do Incra, pela ferramenta Consultar Índices Básicos, ou na página Módulos Fiscais da Embrapa, escolhendo o estado e o município. As duas usam os números do Incra.
+Quantos módulos fiscais tem uma pequena propriedade?
+Pela Lei 8.629/1993, pequena propriedade é o imóvel rural de até quatro módulos fiscais, respeitada a fração mínima de parcelamento. Média propriedade tem mais de 4 e até 15 módulos, e grande propriedade tem mais de 15.
+Como calcular quantos módulos fiscais tem minha terra?
+Divida a área do imóvel, em hectares, pelo módulo fiscal do município. Um imóvel de 180 hectares num município com módulo de 30 hectares tem 6 módulos fiscais. A conta oficial é a do Incra: use a área que está no CCIR, que também traz a classificação do imóvel.
+O módulo fiscal é o mesmo no estado inteiro?
+Não. O valor é fixado por município, conforme a exploração que predomina ali e a renda que ela dá. Municípios vizinhos podem ter módulos diferentes, e por isso a consulta é sempre pelo nome do município.
+Fontes
+Incra, Módulo Fiscal e índices básicos cadastrais
+Embrapa, Código Florestal: Módulos Fiscais (consulta por município)
+Lei 6.746/1979, que criou o módulo fiscal
+Lei 8.629/1993, art. 4º (pequena e média propriedade)
+Veja também
+CCIR: como emitirCAF da agricultura familiarAlqueire em hectareTodos os guias
+Nesta página
+Quantos módulos fiscais tem o imóvel
+O que é módulo fiscal
+Por que o módulo fiscal muda de município para município
+Como consultar o módulo fiscal do seu município
+Como calcular quantos módulos fiscais tem o imóvel
+Pequena, média e grande propriedade: a classificação
+Para que serve o módulo fiscal no dia a dia do produtor
+A área da fazenda no FINAGRO
+Perguntas frequentes
+FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
+Grátis até 1.000 animais com ficha
+Lote sem limite de cabeças
+Sem cartão
+Começar grátisBaixar para Android
+
+
+---
+
+## Reserva legal: porcentagem por região, APP e CAR
+Endereço: https://finagro.app/reserva-legal
+
+
+FINAGRO
+Guias
+Reserva legal
+GuiaTerra e documentos
+Reserva legal: porcentagem por região, diferença para APP e registro no CAR
+Qual é a porcentagem de reserva legal de um imóvel rural?
+Pelo art. 12 do Código Florestal (Lei 12.651/2012), a reserva legal mínima é de 80% do imóvel em área de florestas da Amazônia Legal, 35% em área de cerrado da Amazônia Legal, 20% em campos gerais da Amazônia Legal e 20% nas demais regiões do país. Ela é registrada no CAR.
+Atualizado em 08/10/2026
+Calcule a reserva legal mínima
+Área do imóvel (ha)Onde fica o imóvel20%: demais regiões e campos gerais80%: florestas da Amazônia Legal35%: cerrado da Amazônia Legal
+40,0hectares de reserva legal
+160,0restante do imóvel (inclui a APP)
+Percentuais mínimos do art. 12 da Lei 12.651/2012, sobre a área do imóvel. O restante do imóvel não é todo área livre: a APP, que tem regra própria, está dentro dele. A conta não considera os casos dos arts. 15 e 68. Se o imóvel tinha até 4 módulos fiscais em 22 de julho de 2008 e menos vegetação nativa que o percentual, esta conta não vale para ele: pelo art. 67, a reserva legal é a vegetação nativa que existia naquela data, sem obrigação de recompor até o percentual do art. 12 e sem novas conversões. O número que vale é o analisado pelo órgão ambiental no CAR.
+O que é reserva legal
+Reserva legal é a área dentro do imóvel rural que deve ficar com cobertura de vegetação nativa. O Código Florestal, a Lei 12.651/2012, define a reserva como a área que assegura o uso econômico sustentável dos recursos naturais do imóvel. A regra vale para todo imóvel rural: o art. 12 manda manter a reserva sem prejuízo das normas sobre as áreas de preservação permanente.
+Quem deve conservar é o proprietário, o possuidor ou o ocupante a qualquer título, pessoa física ou jurídica. A obrigação é do imóvel: quem compra a terra leva a reserva junto.
+Reserva legal: a porcentagem por região e por vegetação
+Os percentuais são mínimos e contados sobre a área do imóvel. Mudam conforme a região do país e, dentro da Amazônia Legal, conforme o tipo de vegetação:
+Onde fica o imóvelReserva mínimaEm 200 ha
+Amazônia Legal, área de florestas80%160 ha
+Amazônia Legal, área de cerrado35%70 ha
+Amazônia Legal, campos gerais20%40 ha
+Demais regiões do país20%40 ha
+Lei 12.651/2012, art. 12, incisos I e II. A coluna de hectares é só a conta do percentual sobre 200 ha.
+Para a lei, a Amazônia Legal reúne os estados do Acre, Pará, Amazonas, Roraima, Rondônia, Amapá e Mato Grosso, mais as regiões ao norte do paralelo 13º S do Tocantins e de Goiás e a oeste do meridiano de 44º W do Maranhão.
+Mais de um tipo de vegetação no mesmo imóvel: na Amazônia Legal, cada índice se aplica em separado à parte de floresta, de cerrado e de campos gerais.
+Terra dividida: se o imóvel for fracionado, a qualquer título, a lei considera a área de antes do fracionamento.
+Conta de exemplo: fazenda de 300 hectares em área de cerrado da Amazônia Legal. 300 vezes 35% dá 105 hectares de reserva legal.
+A lei prevê casos em que o poder público pode reduzir a reserva de área de florestas da Amazônia Legal para até 50%, ligados a unidades de conservação e terras indígenas, e casos de ampliação em até 50% dos percentuais, quando o zoneamento indicar. Quem diz se o seu imóvel entra em alguma delas é o órgão ambiental do estado.
+Reserva legal e APP: qual é a diferença
+As duas protegem vegetação, mas não são a mesma coisa. A área de preservação permanente, a APP, é definida pelo lugar: beira de rio, nascente, entorno de lago e outros pontos que a lei lista. A reserva legal é definida por percentual do imóvel.
+O que compararReserva legalAPP
+Como se definePercentual da área do imóvelPelo local: rio, nascente, lago
+Função na leiUso sustentável dos recursosProteger água, solo e paisagem
+Pode ter usoManejo sustentável aprovadoSó os usos que a lei autoriza
+Onde se registraNo CARNo CAR
+Lei 12.651/2012, arts. 3º, 7º, 12, 17 e 18. As faixas de APP por largura do rio estão no guia do CAR.
+A lei admite somar a APP no cálculo do percentual da reserva legal, desde que três condições se cumpram: o benefício não leve à abertura de novas áreas, a APP esteja conservada ou em recuperação e o imóvel tenha pedido de inclusão no CAR. Somada à reserva, a APP continua com o mesmo regime de proteção.
+As faixas de APP, como os 30 metros de cada margem do rio com menos de 10 metros de largura, estão com o trecho da lei no guia do CAR.
+Reserva legal no CAR: como se registra
+A reserva legal é registrada no órgão ambiental por meio da inscrição no CAR, o Cadastro Ambiental Rural. A inscrição pede planta e memorial descritivo, com coordenadas geográficas e pelo menos um ponto de amarração.
+Confira se o imóvel já tem CAR e se a reserva foi desenhada. O passo a passo está no guia do CAR.
+Meça no campo onde está a mata. Para ter uma primeira noção da área com o celular, veja o aplicativo para medir área rural.
+Compare a área de vegetação nativa com o percentual da tabela acima.
+Leve o resultado ao técnico que cuida do seu CAR. A planta que vai ao cadastro é trabalho dele.
+O registro da reserva no CAR desobriga a averbação no cartório de registro de imóveis. E a destinação da área não pode ser alterada na venda nem no desmembramento, salvo as exceções da própria lei. O número do recibo do CAR também vai na declaração do ITR.
+A regra do imóvel de até 4 módulos fiscais
+O art. 67 traz uma regra própria. No imóvel que tinha, em 22 de julho de 2008, área de até 4 módulos fiscais e vegetação nativa em percentual menor que o do art. 12, a reserva legal é constituída com a área de vegetação nativa que existia naquela data. Novas conversões para uso alternativo do solo ficam vedadas.
+Em palavras de curral: quem se enquadra não precisa plantar mata até fechar o percentual do art. 12, mas também não pode derrubar o que tinha em 2008. A regra vale em qualquer região do país. O tamanho do módulo fiscal muda de município para município. Veja como consultar o seu no guia do módulo fiscal.
+Há ainda o art. 68: quem suprimiu vegetação respeitando o percentual de reserva da lei em vigor na época fica dispensado de recompor para os percentuais atuais. A lei diz que essa situação se prova com documentos.
+Posso usar a reserva legal? E se faltar área
+Reserva legal não é área intocável. A lei admite a exploração econômica por manejo sustentável, aprovado antes pelo órgão ambiental. O manejo pode ser sem propósito comercial, para consumo na propriedade, ou com propósito comercial. E é livre a coleta de produtos florestais não madeireiros, como frutos, cipós, folhas e sementes, dentro dos cuidados que a lei lista.
+Quem tinha, em 22 de julho de 2008, reserva menor que a exigida pode regularizar por três caminhos, sozinhos ou combinados:
+Recompor: plantar. A recomposição deve ser concluída em até 20 anos, cobrindo a cada 2 anos pelo menos um décimo da área que falta.
+Deixar regenerar: permitir a regeneração natural da vegetação na área da reserva.
+Compensar: pelas formas que a lei lista, como a compra de Cota de Reserva Ambiental. A compensação exige inscrição prévia no CAR.
+A obrigação acompanha a terra e passa a quem compra ou herda. Em reserva desmatada irregularmente depois de 22 de julho de 2008, a lei manda suspender as atividades de imediato.
+Este texto é informativo e não substitui advogado, engenheiro florestal nem técnico ambiental. Cada estado tem regras e sistema próprios de CAR: confirme o percentual e a situação do seu imóvel no órgão ambiental do estado.
+Como fica no FINAGRO
+O FINAGRO não faz o CAR, não desenha a reserva legal e não envia nada ao órgão ambiental. Ele organiza a área e os papéis em volta disso.
+A medição por GPS no celular dá a área e o perímetro de pastos, talhões e da mata, com até 100 áreas salvas no plano grátis. É medida para a lida, não a planta do CAR.
+A ficha da fazenda guarda a situação do CAR, e a tela Documentos guarda o recibo com número e validade, com aviso antes de vencer.
+Safras e talhões ficam com a área em hectares, o que ajuda a ver quanto do imóvel está em produção.
+Meça a mata e os pastos e guarde o recibo do CAR no celular.
+Grátis até 1.000 animais com ficha, sem cartão.
+Começar grátis
+Perguntas sobre reserva legal
+Qual é a porcentagem de reserva legal?
+Pelo art. 12 da Lei 12.651/2012, o mínimo é 80% do imóvel em área de florestas da Amazônia Legal, 35% em área de cerrado da Amazônia Legal, 20% em campos gerais da Amazônia Legal e 20% nas demais regiões do país.
+Qual é a diferença entre reserva legal e APP?
+A reserva legal é um percentual da área do imóvel que mantém vegetação nativa e admite manejo sustentável aprovado. A APP é definida pelo local, como beira de rio e nascente, e protege água, solo e biodiversidade.
+A APP conta como reserva legal?
+A lei admite somar a APP no cálculo do percentual da reserva legal, desde que isso não leve à abertura de novas áreas, que a APP esteja conservada ou em recuperação e que o imóvel tenha pedido de inclusão no CAR.
+Preciso averbar a reserva legal no cartório?
+O registro da reserva legal no CAR desobriga a averbação no cartório de registro de imóveis, segundo o art. 18 do Código Florestal. O registro é feito no órgão ambiental, pela inscrição no CAR.
+Imóvel de até 4 módulos fiscais precisa de 20% de reserva?
+Se tinha até 4 módulos fiscais em 22 de julho de 2008 e menos vegetação nativa que o percentual da lei, a reserva é a vegetação que existia naquela data. Novas conversões de área ficam vedadas.
+Fontes
+Lei 12.651/2012, Código Florestal (arts. 3º, 12, 15, 17, 18, 66, 67 e 68)
+Receita Federal, Perguntas e Respostas do ITR 2026
+Veja também
+CAR: Cadastro AmbientalITR: declaração e multaApp para medir áreaTodos os guias
+Nesta página
+Calcule a reserva legal mínima
+O que é reserva legal
+Reserva legal: a porcentagem por região e por vegetação
+Reserva legal e APP: qual é a diferença
+Reserva legal no CAR: como se registra
+A regra do imóvel de até 4 módulos fiscais
+Posso usar a reserva legal? E se faltar área
+Como fica no FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
 Grátis até 1.000 animais com ficha

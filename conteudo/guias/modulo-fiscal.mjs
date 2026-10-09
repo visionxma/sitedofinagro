@@ -22,7 +22,7 @@ export const provas = [
   { afirmacao: 'o conceito foi introduzido pela Lei 6.746/1979, que alterou o Estatuto da Terra', trecho: 'O conceito de módulo fiscal foi introduzido pela Lei nº 6.746/1979, que alterou alguns dispositivos do Estatuto da Terra', url: EMBRAPA },
   { afirmacao: 'o número de módulos fiscais é a área aproveitável total dividida pelo módulo fiscal do município', trecho: 'O número de módulos fiscais de um imóvel rural será obtido dividindo-se sua área aproveitável total pelo modulo fiscal do Município', url: L6746 },
   { afirmacao: 'área aproveitável é a que pode ser explorada com agricultura, pecuária ou floresta', trecho: 'constitui área aproveitável do imóvel rural a que for passível de exploração agrícola, pecuária ou florestal', url: L6746 },
-  { afirmacao: 'não contam como aproveitável a benfeitoria, a mata de preservação permanente e a área imprestável', trecho: 'a) a área ocupada por benfeitoria; b) a área ocupada por floresta ou mata de efetiva preservação permanente, ou reflorestada com essências nativas; c) a área comprovadamente imprestável para qualquer exploração agrícola, pecuária ou florestal', url: L6746 },
+  { afirmacao: 'não se considera aproveitável a área de benfeitoria, a de floresta ou mata de efetiva preservação permanente ou reflorestada com essências nativas e a comprovadamente imprestável', trecho: 'a) a área ocupada por benfeitoria; b) a área ocupada por floresta ou mata de efetiva preservação permanente, ou reflorestada com essências nativas; c) a área comprovadamente imprestável para qualquer exploração agrícola, pecuária ou florestal', url: L6746 },
   { afirmacao: 'pequena propriedade é o imóvel rural de até quatro módulos fiscais, respeitada a fração mínima de parcelamento', trecho: 'II - Pequena Propriedade - o imóvel rural: a) de área até quatro módulos fiscais, respeitada a fração mínima de parcelamento', url: L8629 },
   { afirmacao: 'média propriedade é o imóvel rural de mais de 4 e até 15 módulos fiscais', trecho: 'III - Média Propriedade - o imóvel rural: a) de área superior a 4 (quatro) e até 15 (quinze) módulos fiscais', url: L8629 },
   { afirmacao: 'grande propriedade é o imóvel rural de mais de 15 módulos fiscais', trecho: 'Grande Propriedade: imóvel rural de área superior a 15 módulos fiscais', url: INCRA },
@@ -56,7 +56,7 @@ export default {
   calc: {
     titulo: 'Quantos módulos fiscais tem o imóvel',
     campos: [
-      { id: 'area', rotulo: 'Área do imóvel (ha)', valor: 180, min: 0, passo: 1 },
+      { id: 'area', rotulo: 'Área (ha)', valor: 180, min: 0, passo: 1 },
       { id: 'modulo', rotulo: 'Módulo fiscal do município (ha)', valor: 30, min: 1, passo: 1 },
     ],
     saidas: [
@@ -65,7 +65,7 @@ export default {
       { id: 'quinze', rotulo: 'hectares em 15 módulos', casas: 0 },
     ],
     calcular: (v) => ({ modulos: v.modulo > 0 ? v.area / v.modulo : 0, quatro: v.modulo * 4, quinze: v.modulo * 15 }),
-    nota: 'Coloque o módulo fiscal do seu município, consultado no Incra ou na Embrapa. A Lei 6.746/1979 manda usar a área aproveitável na divisão. A classificação que vale para cartório e banco é a que vem impressa no CCIR.',
+    nota: 'Coloque o módulo fiscal do seu município, consultado no Incra ou na Embrapa. A conta oficial é a do Incra, e o resultado vem no [CCIR](/ccir), que traz a área e a classificação fundiária do imóvel: use a área que está lá. Esta calculadora serve para conferir.',
     exemplos: [
       { entrada: { area: 180, modulo: 30 }, saida: { modulos: 6, quatro: 120, quinze: 450 } },
       { entrada: { area: 72, modulo: 20 }, saida: { modulos: 3.6, quatro: 80, quinze: 300 } },
@@ -88,8 +88,9 @@ export default {
       { p: 'Anote o número do seu município. Ele volta toda vez que você for ao banco, ao sindicato, ao órgão ambiental ou ao cartório.' },
     ] },
     { h2: 'Como calcular quantos módulos fiscais tem o imóvel', blocos: [
-      { p: 'A conta é uma divisão. A Lei 6.746/1979 diz que o número de módulos fiscais se obtém dividindo a **área aproveitável total** do imóvel pelo módulo fiscal do município. Área aproveitável é a que pode ser explorada com agricultura, pecuária ou floresta. Ficam fora a área ocupada por benfeitoria, a mata de preservação permanente e a área comprovadamente imprestável.' },
-      { p: '**Exemplo com números supostos:** imóvel com 180 hectares aproveitáveis, num município em que o módulo fiscal é de 30 hectares. 180 dividido por 30 dá **6 módulos fiscais**. Outro imóvel, de 72 hectares, num município com módulo de 20 hectares: 72 dividido por 20 dá **3,6 módulos**.' },
+      { p: 'A conta é uma divisão: a área, em hectares, pelo módulo fiscal do município. A Lei 6.746/1979, que criou o módulo fiscal, manda dividir a **área aproveitável total** do imóvel, que é a que pode ser explorada com agricultura, pecuária ou floresta. Pela mesma lei, não se considera aproveitável a área ocupada por benfeitoria, a ocupada por floresta ou mata de efetiva preservação permanente ou reflorestada com essências nativas, e a comprovadamente imprestável para qualquer exploração.' },
+      { p: 'Quem faz a conta oficial é o Incra, e o resultado vem no [CCIR](/ccir), com a área e a classificação fundiária do imóvel. Para conferir em casa, use a área que está no certificado.' },
+      { p: '**Exemplo com números supostos:** imóvel de 180 hectares, num município em que o módulo fiscal é de 30 hectares. 180 dividido por 30 dá **6 módulos fiscais**. Outro imóvel, de 72 hectares, num município com módulo de 20 hectares: 72 dividido por 20 dá **3,6 módulos**.' },
       { p: 'Para saber a área de pasto e de lavoura com o celular, veja o guia do [aplicativo para medir área rural](/aplicativo-para-medir-area-rural). A medida do celular serve para a lida e para conferir o cadastro. A área que vale no papel é a da matrícula e a do cadastro no Incra.' },
     ] },
     { h2: 'Pequena, média e grande propriedade: a classificação', blocos: [
@@ -98,7 +99,7 @@ export default {
       { p: 'Nos dois exemplos acima, o imóvel de 6 módulos é **média propriedade**, e o de 3,6 módulos é **pequena propriedade**. A classificação do seu imóvel vem escrita no CCIR, e é essa que o cartório e o banco leem.' },
     ] },
     { h2: 'Para que serve o módulo fiscal no dia a dia do produtor', blocos: [
-      { ul: ['**Agricultura familiar.** A Lei 11.326/2006 exige que o agricultor familiar não tenha, a qualquer título, área maior que 4 módulos fiscais. É o limite que aparece no [CAF](/caf-agricultura-familiar) e no [Pronaf](/pronaf).', '**Reforma agrária.** A pequena e a média propriedade não podem ser desapropriadas para reforma agrária, desde que o dono não tenha outra propriedade rural.', '**Código Florestal.** A Lei 12.651/2012 usa o módulo fiscal em vários pontos: benefícios da pequena propriedade, faixas de recomposição de área de preservação permanente e reserva legal. O imóvel que tinha até 4 módulos em 22 de julho de 2008 tem regra própria de reserva, explicada no guia do [CAR](/car-cadastro-ambiental-rural).', '**Cartório.** A Lei de Registros Públicos garante isenção de custos na identificação georreferenciada ao dono de imóveis rurais que, somados, não passam de quatro módulos fiscais.'] },
+      { ul: ['**Agricultura familiar.** A Lei 11.326/2006 exige que o agricultor familiar não tenha, a qualquer título, área maior que 4 módulos fiscais. É o limite da Lei da Agricultura Familiar. Veja o que ele muda nos guias do [CAF](/caf-agricultura-familiar) e do [Pronaf](/pronaf).', '**Reforma agrária.** A pequena e a média propriedade não podem ser desapropriadas para reforma agrária, desde que o dono não tenha outra propriedade rural.', '**Código Florestal.** A Lei 12.651/2012 usa o módulo fiscal em vários pontos: benefícios da pequena propriedade, faixas de recomposição de área de preservação permanente e reserva legal. O imóvel que tinha até 4 módulos em 22 de julho de 2008 tem regra própria de reserva, explicada no guia do [CAR](/car-cadastro-ambiental-rural).', '**Cartório.** A Lei de Registros Públicos garante isenção de custos na identificação georreferenciada ao dono de imóveis rurais que, somados, não passam de quatro módulos fiscais.'] },
       { p: 'O conceito nasceu numa lei que tratava do imposto sobre a terra. A conta do imposto de hoje está no guia do [ITR](/itr).' },
       { destaque: 'Este texto é informativo e não substitui advogado, contador nem técnico. O valor do módulo fiscal é do Incra: confira o do seu município na fonte antes de assinar contrato, pedir crédito ou fazer cadastro.' },
     ] },
@@ -106,7 +107,7 @@ export default {
   noFinagro: { h2: 'A área da fazenda no FINAGRO', itens: [
     'O FINAGRO não classifica o imóvel nem altera cadastro no Incra. A classificação oficial vem no CCIR; o app organiza a área e os papéis em volta dela.',
     'Cada fazenda tem a área declarada na ficha, e as áreas medidas por GPS no celular ficam ligadas a ela (100 áreas no plano grátis).',
-    'A tela Documentos guarda CCIR, CAR, ITR e a matrícula de cada fazenda, com número e validade, e avisa antes de vencer.',
+    'A tela Documentos guarda a matrícula de cada fazenda, que fica sem validade, e o CCIR, o CAR e o ITR com número e data de validade. Os que vencem avisam antes: CAR com 90 dias, CCIR com 60 e ITR com 45.',
     'Safras e talhões ficam com a área em hectares, e o custo por hectare sai da própria lavoura.',
   ] },
   cta: { forte: 'Área, talhões e papéis da fazenda no mesmo lugar.', texto: 'Grátis até 1.000 animais com ficha, sem cartão.' },
@@ -115,7 +116,7 @@ export default {
     ['Quantos hectares tem um módulo fiscal?', 'Não há um valor único. O Incra fixa o módulo fiscal em hectares para cada município, e no Brasil ele vai de 5 a 110 hectares. Para saber o do seu, consulte a ferramenta Consultar Índices Básicos do Incra ou a página Módulos Fiscais da Embrapa.'],
     ['Onde consultar o módulo fiscal por município?', 'Na página Módulo Fiscal do Incra, pela ferramenta Consultar Índices Básicos, ou na página Módulos Fiscais da Embrapa, escolhendo o estado e o município. As duas usam os números do Incra.'],
     ['Quantos módulos fiscais tem uma pequena propriedade?', 'Pela Lei 8.629/1993, pequena propriedade é o imóvel rural de até quatro módulos fiscais, respeitada a fração mínima de parcelamento. Média propriedade tem mais de 4 e até 15 módulos, e grande propriedade tem mais de 15.'],
-    ['Como calcular quantos módulos fiscais tem minha terra?', 'Divida a área aproveitável do imóvel, em hectares, pelo módulo fiscal do município. Um imóvel de 180 hectares aproveitáveis num município com módulo de 30 hectares tem 6 módulos fiscais.'],
+    ['Como calcular quantos módulos fiscais tem minha terra?', 'Divida a área do imóvel, em hectares, pelo módulo fiscal do município. Um imóvel de 180 hectares num município com módulo de 30 hectares tem 6 módulos fiscais. A conta oficial é a do Incra: use a área que está no CCIR, que também traz a classificação do imóvel.'],
     ['O módulo fiscal é o mesmo no estado inteiro?', 'Não. O valor é fixado por município, conforme a exploração que predomina ali e a renda que ela dá. Municípios vizinhos podem ter módulos diferentes, e por isso a consulta é sempre pelo nome do município.'],
   ],
   fontes: [

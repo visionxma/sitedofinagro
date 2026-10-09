@@ -214,7 +214,9 @@ div.resposta p { margin: 0; }
 .guias-grupo__sub { margin-top: .3rem; color: var(--tinta-3); }
 .guias-grade { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .625rem; margin-top: 1rem; }
 .guia-cartao { display: grid; gap: .45rem; align-content: start; height: 100%; padding: 1rem; border-radius: 1rem; border: 1px solid var(--linha); background: var(--superficie); box-shadow: var(--sombra-1); transition: translate .3s var(--saida), box-shadow .3s var(--saida); }
-.guia-cartao strong { font: 700 1.0625rem/1.25 var(--f-titulo); color: var(--tinta); }
+/* título com palavra comprida ("Georreferenciamento") parte com hífen em vez de estourar o cartão estreito */
+.guia-cartao { grid-template-columns: minmax(0, 1fr); }
+.guia-cartao strong { font: 700 1.0625rem/1.25 var(--f-titulo); color: var(--tinta); overflow-wrap: anywhere; -webkit-hyphens: auto; hyphens: auto; hyphenate-limit-chars: 11 4 4; -webkit-hyphenate-limit-before: 4; -webkit-hyphenate-limit-after: 4; }
 .guia-cartao__resumo { font-size: .9375rem; line-height: 1.4; color: var(--tinta-3); }
 .guia-cartao:active { scale: .98; }
 @media (max-width: 34rem) { .guia-cartao { padding: .85rem; } .guia-cartao__resumo { display: none; } }

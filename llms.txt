@@ -82,6 +82,7 @@ Produtor rural brasileiro de qualquer tamanho: do sítio com 12 vacas de leite �
 - [Gestão rural: por onde começar a organizar a fazenda](https://finagro.app/gestao-rural) (guia): Os quatro controles que organizam a fazenda.
 - [Glossário rural: termos da pecuária e da lavoura](https://finagro.app/glossario-rural) (guia): Termos da pecuária, da lavoura e do dinheiro.
 - [Imposto de renda do produtor rural 2026: quem declara](https://finagro.app/imposto-de-renda-produtor-rural) (guia): Quem declara, como apurar e o que guardar.
+- [Inscrição estadual de produtor rural: como tirar e consultar](https://finagro.app/inscricao-estadual-produtor-rural) (guia): Como tirar e consultar a inscrição do produtor, por estado.
 - [Nota fiscal de produtor rural eletrônica: como emitir](https://finagro.app/nota-fiscal-de-produtor-rural) (guia): NF-e do produtor: quem emite, app e inscrição.
 - [Planilha de gestão rural grátis: receitas e despesas](https://finagro.app/planilha-de-gestao-rural) (planilha): Receitas e despesas da fazenda, grátis em Excel.
 - [Pronaf 2026: quem tem direito, linhas e juros](https://finagro.app/pronaf) (guia): Quem tem direito, linhas, juros e documentos.
@@ -94,8 +95,11 @@ Produtor rural brasileiro de qualquer tamanho: do sítio com 12 vacas de leite �
 - [CCIR: como emitir o certificado do Incra e pagar a taxa](https://finagro.app/ccir) (guia): Emitir o CCIR do Incra, pagar a taxa e atualizar o cadastro.
 - [Contrato de arrendamento rural: modelo e prazo mínimo](https://finagro.app/contrato-de-arrendamento-rural) (modelo pronto): Modelo pronto, prazo mínimo e limite do preço pela lei.
 - [Contrato de parceria rural: modelo, cotas e prazo mínimo](https://finagro.app/contrato-de-parceria-rural) (modelo pronto): Modelo pronto, cota máxima do dono da terra e prazo mínimo.
+- [Georreferenciamento rural: é obrigatório? Prazo e quem faz](https://finagro.app/georreferenciamento-rural) (guia): Quando é exigido, o prazo, quem faz e como certificar.
 - [ITR 2026: declaração, prazo, multa e quem é obrigado](https://finagro.app/itr) (guia): Prazo, multa e como entregar a declaração do ITR.
 - [Quantos metros tem um hectare? Calcule a área](https://finagro.app/quantos-metros-tem-um-hectare) (calculadora): Comprimento e largura viram m² e hectares.
+- [Módulo fiscal: o que é e como consultar por município](https://finagro.app/modulo-fiscal) (guia): O que é, quanto vale no seu município e para que serve.
+- [Reserva legal: porcentagem por região, APP e CAR](https://finagro.app/reserva-legal) (guia): Porcentagem por região, diferença para APP e registro no CAR.
 - [Tarefa de terra e linha: como cubar e converter](https://finagro.app/tarefa-e-linha-de-terra) (guia): Como cubar e converter medidas que mudam por região.
 
 ### Outras criações

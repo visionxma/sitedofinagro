@@ -67,10 +67,10 @@ export default {
     ],
     saidas: [
       { id: 'reserva', rotulo: 'hectares de reserva legal', casas: 1 },
-      { id: 'resto', rotulo: 'hectares fora da reserva', casas: 1 },
+      { id: 'resto', rotulo: 'restante do imóvel (inclui a APP)', casas: 1 },
     ],
     calcular: (v) => ({ reserva: v.area * Number(v.pct) / 100, resto: v.area - v.area * Number(v.pct) / 100 }),
-    nota: 'Percentuais mínimos do art. 12 da Lei 12.651/2012, sobre a área do imóvel. A conta não considera a APP, que tem regra própria, nem os casos dos arts. 15, 67 e 68. O número que vale é o analisado pelo órgão ambiental no CAR.',
+    nota: 'Percentuais mínimos do art. 12 da Lei 12.651/2012, sobre a área do imóvel. O restante do imóvel não é todo área livre: a APP, que tem regra própria, está dentro dele. A conta não considera os casos dos arts. 15 e 68. **Se o imóvel tinha até 4 módulos fiscais em 22 de julho de 2008** e menos vegetação nativa que o percentual, esta conta não vale para ele: pelo art. 67, a reserva legal é a vegetação nativa que existia naquela data, sem obrigação de recompor até o percentual do art. 12 e sem novas conversões. O número que vale é o analisado pelo órgão ambiental no CAR.',
     exemplos: [
       { entrada: { area: 200, pct: '20' }, saida: { reserva: 40, resto: 160 } },
       { entrada: { area: 500, pct: '80' }, saida: { reserva: 400, resto: 100 } },
@@ -102,7 +102,7 @@ export default {
     ] },
     { h2: 'A regra do imóvel de até 4 módulos fiscais', blocos: [
       { p: 'O art. 67 traz uma regra própria. No imóvel que tinha, em **22 de julho de 2008**, área de **até 4 módulos fiscais** e vegetação nativa em percentual menor que o do art. 12, a reserva legal é constituída com a área de vegetação nativa **que existia naquela data**. Novas conversões para uso alternativo do solo ficam vedadas.' },
-      { p: 'Em palavras de curral: quem se enquadra não precisa plantar mata até fechar os 20%, mas também não pode derrubar o que tinha em 2008. O tamanho do módulo fiscal muda de município para município. Veja como consultar o seu no guia do [módulo fiscal](/modulo-fiscal).' },
+      { p: 'Em palavras de curral: quem se enquadra não precisa plantar mata até fechar o percentual do art. 12, mas também não pode derrubar o que tinha em 2008. A regra vale em qualquer região do país. O tamanho do módulo fiscal muda de município para município. Veja como consultar o seu no guia do [módulo fiscal](/modulo-fiscal).' },
       { p: 'Há ainda o art. 68: quem suprimiu vegetação respeitando o percentual de reserva da lei em vigor na época fica dispensado de recompor para os percentuais atuais. A lei diz que essa situação se prova com documentos.' },
     ] },
     { h2: 'Posso usar a reserva legal? E se faltar área', blocos: [

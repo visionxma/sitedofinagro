@@ -46,3 +46,7 @@ criacao-de-tilapia
 criacao-de-galinha-caipira
 criacao-de-abelhas
 criacao-de-porcos
+georreferenciamento-rural
+modulo-fiscal
+reserva-legal
+inscricao-estadual-produtor-rural
