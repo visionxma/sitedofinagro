@@ -19,6 +19,7 @@ export const provas = [
   { afirmacao: 'na segunda etapa de 2025 o prazo foi até 1º de dezembro, sem previsão de prorrogação', trecho: 'O prazo para declaração vai até 1º de dezembro, sem previsão de prorrogação', url: NOV25 },
   { afirmacao: 'a declaração semestral se faz junto com a atualização cadastral', trecho: 'A Declaração Semestral de Rebanhos deve ser realizada concomitantemente à Atualização Cadastral', url: NOV25 },
   { afirmacao: 'a declaração abrange bovinos, bubalinos, aves, suínos, caprinos, ovinos, equídeos, abelhas, bicho-da-seda e animais aquáticos', trecho: 'suíno, caprino e ovino, equino, asinino e muar, abelha, bicho-da-seda e animais aquáticos', url: NOV25 },
+  { afirmacao: 'a obrigação se aplica às aves e aos suínos de subsistência, e os núcleos comerciais registrados seguem normativa própria', trecho: 'A obrigatoriedade se aplica às aves e suínos de subsistência. Os núcleos comerciais registrados dessas espécies seguem normativa específica', url: NOV25 },
   { afirmacao: 'fora do prazo, a exploração pecuária fica bloqueada até a atualização e a aplicação das penalidades', trecho: 'as explorações pecuárias ficarão bloqueadas, sendo liberadas somente após a realização das atualizações e a aplicação das penalidades previstas na legislação vigente', url: PORTARIA },
   { afirmacao: 'a declaração cabe ao produtor ou ao representante legal, em caráter compulsório', trecho: 'deverão ser realizadas pelo produtor rural ou seu representante legal, em caráter compulsório', url: PORTARIA },
 ];
@@ -33,12 +34,12 @@ export default {
   description: 'Declaração de rebanho em MS: etapas de maio e novembro na Iagro, como declarar no e-SANIAGRO, o que informar e o que acontece com a GTA de quem atrasa.',
   h1: 'Declaração de rebanho em MS: prazo de 2026 e como declarar na Iagro',
   pergunta: 'Como fazer a declaração de rebanho em Mato Grosso do Sul?',
-  resposta: 'Em Mato Grosso do Sul a declaração de rebanho é semestral e obrigatória: de 1º a 31 de maio e de 1º a 30 de novembro, com ajuste quando a data cai em fim de semana. Ela é feita de graça no e-SANIAGRO ou numa Unidade Local da Iagro. Enquanto não declara, a guia de trânsito fica bloqueada.',
+  resposta: 'Em Mato Grosso do Sul a declaração de rebanho é semestral e obrigatória: de 1º a 31 de maio e de 1º a 30 de novembro. A data se ajusta quando cai em fim de semana. É feita de graça no e-SANIAGRO ou numa Unidade Local da Iagro. Desde o 1º dia da etapa, a guia fica bloqueada até declarar.',
   tela: 'animais',
   atualizado: '2026-10-09',
   secoes: [
     { h2: 'Como a Iagro chama e quem é obrigado', blocos: [
-      { p: 'O nome oficial em Mato Grosso do Sul é Declaração Semestral de Rebanho e Atualização Cadastral. São duas obrigações feitas de uma vez: a Iagro (Agência Estadual de Defesa Sanitária Animal e Vegetal) pede que a declaração do saldo seja feita junto com a atualização do cadastro da propriedade.' },
+      { p: 'O nome oficial em Mato Grosso do Sul é Declaração Semestral de Rebanho e Atualização Cadastral. São duas obrigações feitas de uma vez. A Iagro (Agência Estadual de Defesa Sanitária Animal e Vegetal) pede a declaração do saldo junto com a atualização do cadastro da propriedade.' },
       { p: 'Declara todo produtor que tem saldo de animais, de qualquer porte de propriedade. A obrigação é do produtor ou do representante legal, em caráter compulsório. Entram bovinos e bubalinos, aves, suínos, caprinos e ovinos, equinos, asininos e muares, abelhas, bicho-da-seda e animais aquáticos.' },
       { p: 'Há uma exceção: para quem cria aves e suínos comerciais a declaração é facultativa, desde que não exista outra espécie na mesma ficha cadastral. Se houver uma cabeça de gado na ficha, a obrigação volta a valer.' },
       { p: 'O motivo da regra e o prazo dos outros estados estão na página geral de [declaração de rebanho](/declaracao-de-rebanho).' },
@@ -48,8 +49,9 @@ export default {
         ['1ª etapa', '1º a 31 de maio', 'Em 2026 o prazo foi até segunda-feira, 1º de junho'],
         ['2ª etapa', '1º a 30 de novembro', 'A data se ajusta se cair em feriado ou fim de semana'],
       ], nota: 'Períodos da página de serviço e das notícias da Iagro, lidas em 09/10/2026. Confirme a data final da etapa de novembro de 2026 no site da Iagro antes de contar com ela.' } },
-      { p: 'A regra é fixa, mas o último dia anda. Quando o fim do mês cai em sábado ou domingo, a Iagro ajusta o prazo, como fez em maio de 2026. Não conte com prorrogação longa: na segunda etapa de 2025 o prazo foi até 1º de dezembro e a agência avisou que não havia previsão de prorrogar.' },
-      { p: 'Na etapa de maio dá para resolver outra pendência no mesmo acesso: o registro da vacina de brucelose das fêmeas bovinas de 3 a 8 meses, que em 2026 teve prazo até 30 de junho. As outras vacinas estão no [calendário de vacinação bovina](/calendario-de-vacinacao-bovina).' },
+      { p: 'A regra é fixa, mas o último dia anda. Quando o fim do mês cai em sábado ou domingo, a Iagro ajusta o prazo, como fez em maio de 2026. Não conte com prorrogação longa. Na segunda etapa de 2025 o prazo foi até 1º de dezembro, e a agência avisou que não havia previsão de prorrogar.' },
+      { p: 'A etapa de maio de 2026 já passou. A próxima é a de novembro de 2026, que pela regra vai de 1º a 30: confirme o último dia na Iagro.' },
+      { p: 'Na etapa de maio dá para resolver outra pendência no mesmo acesso: o registro da vacina de brucelose das fêmeas bovinas de 3 a 8 meses. Em 2026 esse registro teve prazo até 30 de junho. As outras vacinas estão no [calendário de vacinação bovina](/calendario-de-vacinacao-bovina).' },
     ] },
     { h2: 'Como declarar no e-SANIAGRO, passo a passo', blocos: [
       { ol: [
@@ -75,23 +77,23 @@ export default {
   noFinagro: { h2: 'A declaração de MS e o FINAGRO', itens: [
     'O app não envia a declaração à Iagro: ela é feita por você no e-SANIAGRO ou na Unidade Local.',
     'A tela "O que vence" lista a declaração de rebanho de Mato Grosso do Sul com as duas etapas, onde declarar e o que acontece com quem não faz.',
-    'Como em MS a guia trava no primeiro dia, o aviso no celular chega 7 dias antes de a etapa abrir. Ao marcar "Já fiz", o aviso daquela etapa some.',
+    'Em MS a guia trava no primeiro dia da etapa. Por isso, com o aviso ligado, o app avisa 7 dias antes de a etapa abrir e na véspera, e de novo antes do fim. Ao marcar "Já fiz", o aviso daquela etapa some.',
     'Cada animal tem ficha e o lote guarda as cabeças, então você abre o e-SANIAGRO com a contagem do rebanho pronta.',
   ] },
   cta: { forte: 'Rebanho contado e etapa da Iagro lembrada antes de abrir.', texto: 'Grátis até 1.000 animais com ficha, sem cartão.' },
   faqTitulo: 'Perguntas sobre declaração de rebanho em MS',
   faq: [
-    ['Qual o prazo da declaração de rebanho 2026 em MS?', 'A regra da Iagro é de 1º a 31 de maio e de 1º a 30 de novembro, com ajuste quando a data cai em feriado ou fim de semana. Em 2026 a primeira etapa foi até segunda-feira, 1º de junho. Confirme o último dia da etapa de novembro no site da Iagro.'],
+    ['Qual o prazo da declaração de rebanho 2026 em MS?', 'A regra da Iagro é de 1º a 31 de maio e de 1º a 30 de novembro, com ajuste quando a data cai em feriado ou fim de semana. Em 2026 a primeira etapa foi até segunda-feira, 1º de junho, e já passou. Confirme o último dia da etapa de novembro de 2026 no site da Iagro.'],
     ['Onde faço a declaração de rebanho em MS?', 'No e-SANIAGRO, pela internet, de graça, ou presencialmente em qualquer Unidade Local da Iagro.'],
     ['Posso emitir GTA em MS sem ter declarado o rebanho?', 'Durante a campanha, só para abate. A Iagro informa que a e-GTA fica bloqueada para todas as outras finalidades desde o início da etapa, até o produtor declarar e atualizar o cadastro.'],
-    ['Quem cria só galinha ou porco para consumo precisa declarar em MS?', 'Sim. Aves e suínos de subsistência entram na declaração. A dispensa vale só para núcleos comerciais de aves e suínos sem outra espécie na mesma ficha cadastral.'],
+    ['Quem cria só galinha ou porco para consumo precisa declarar em MS?', 'Sim. Na etapa de novembro de 2025 a Iagro informou que a obrigação se aplica às aves e aos suínos de subsistência. A dispensa vale só para núcleos comerciais de aves e suínos sem outra espécie na mesma ficha cadastral.'],
     ['O FINAGRO faz a declaração de rebanho na Iagro por mim?', 'Não. O app não envia nada à Iagro. Ele guarda a contagem do rebanho e lembra o prazo; a declaração é feita por você no e-SANIAGRO.'],
   ],
   fontes: [
     { nome: 'Iagro (MS), declarar saldo de rebanho e atualizar cadastro', url: SERVICO },
-    { nome: 'Iagro (MS), última semana para a declaração obrigatória de rebanho', url: MAIO26 },
-    { nome: 'Iagro (MS), segunda etapa da campanha de declaração de rebanho', url: NOV25 },
+    { nome: 'Iagro (MS), última semana para a declaração obrigatória de rebanho (26/05/2026)', url: MAIO26 },
+    { nome: 'Iagro (MS), segunda etapa da campanha de declaração de rebanho (27/10/2025)', url: NOV25 },
     { nome: 'Iagro (MS), prazo para atualização cadastral e declaração de rebanhos', url: PORTARIA },
   ],
-  relacionados: ['declaracao-de-rebanho', 'como-emitir-gta', 'calendario-de-vacinacao-bovina'],
+  relacionados: ['declaracao-de-rebanho', 'como-emitir-gta', 'declaracao-de-rebanho-mt'],
 };

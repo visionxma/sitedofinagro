@@ -19,8 +19,13 @@ const PR = 'https://www.adapar.pr.gov.br/servicos/Agropecuaria/Pecuaria/Atualiza
 const RJ = 'https://www.rj.gov.br/agricultura/sites/default/files/2026-09/CADASTRO%20REBANHO.pdf';
 const RR = 'https://portal.rr.gov.br/campanha-de-atualizacao-cadastral-de-rebanhos-em-roraima-comeca-em-1o-de-abril/';
 const RS = 'https://www.agricultura.rs.gov.br/declaracao';
+const RO_DECRETO = 'https://ditel.casacivil.ro.gov.br/COTEL/Livros/Files/D25105.pdf';
+const RO_MAIO = 'https://rondonia.ro.gov.br/sistema-online-de-declaracao-de-rebanhos-ja-registra-38-de-adesao-atualizacao-obrigatoria-encerra-dia-31-de-maio/';
 
 export const provas = [
+  { afirmacao: 'em Rondônia a declaração de rebanho é obrigatória para todas as propriedades (Decreto nº 25.105, de 2020)', trecho: 'As declarações de rebanho serão obrigatórias para todas as propriedades existentes no Estado de Rondônia e poderão ser realizadas em todas as unidades da IDARON ou pelos canais de autoatendimento on-line', url: RO_DECRETO },
+  { afirmacao: 'em Rondônia os prazos de cada campanha são definidos pelo presidente da Idaron, por ato próprio', trecho: 'O presidente da IDARON estabelecerá, mediante ato próprio, os prazos e as condições para campanhas de declaração de rebanhos pecuários com finalidade de atualização cadastral', url: RO_DECRETO },
+  { afirmacao: 'em Rondônia a declaração é feita em duas etapas anuais, em maio e em novembro', trecho: 'A declaração de rebanhos é feita em duas etapas anuais, em maio e em novembro', url: RO_MAIO },
   { afirmacao: 'as campanhas de atualização cadastral são obrigatórias nos estados que suspenderam a vacinação contra aftosa', trecho: 'As campanhas de atualização cadastral são obrigatórias em todos os Estados que suspenderam a vacinação contra a febre aftosa', url: ES },
   { afirmacao: 'a estratégia do programa nacional de aftosa é manter zonas livres sem uso de vacinação', trecho: 'tem como estratégia principal a manutenção de zonas livres da doença , sem o uso da vacinação', url: MAPA_AFTOSA },
   { afirmacao: 'a Portaria MAPA nº 574/2023 suspendeu a vacinação contra aftosa e o cadastro estadual foi ajustado a ela', trecho: 'adequar o cadastro agropecuário estadual à Portaria do Ministério da Agricultura, Pecuária e Abastecimento (Mapa) nº 574, de 31 de março de 2023, que suspendeu a vacinação contra a febre aftosa', url: MS },
@@ -117,7 +122,8 @@ export default {
         ['Roraima', '2026: 1º a 30 de abril', 'Aderr'],
         ['São Paulo', 'Etapas de maio e de novembro (Resolução SAA 28/2024)', 'GEDAVE (Defesa Agropecuária)'],
       ], nota: 'Onde a linha traz 2026, a página oficial cita o ano. Nas demais, vale a regra publicada pelo órgão, que pode ser prorrogada ou antecipada. Conferido nos sites oficiais em 08/10/2026.' } },
-      { p: 'Ficaram fora da tabela, por falta de página oficial com data que abrisse para conferência: Amazonas, Amapá, Bahia, Ceará, Maranhão, Paraíba, Rio Grande do Norte, Rondônia, Santa Catarina, Sergipe e Tocantins. Em Sergipe a declaração é feita pela Emdagro, por formulário, WhatsApp ou e-mail. Nos outros, consulte o órgão do seu estado.' },
+      { p: 'Ficaram fora da tabela, por falta de página oficial com data que abrisse para conferência: Amazonas, Amapá, Bahia, Ceará, Maranhão, Paraíba, Rio Grande do Norte, Santa Catarina, Sergipe e Tocantins. Em Sergipe a declaração é feita pela Emdagro, por formulário, WhatsApp ou e-mail. Nos outros, consulte o órgão do seu estado.' },
+      { p: 'Rondônia também não tem linha na tabela. Lá a declaração é obrigatória para todas as propriedades e é feita em duas etapas, em maio e em novembro, mas a data de cada ano é definida pela Idaron. Confirme no órgão a data de 2026.' },
       { p: 'Em São Paulo a Coordenadoria de Defesa Agropecuária pode prorrogar ou antecipar a campanha, então vale confirmar a data da etapa no GEDAVE.' },
     ] },
     { h2: 'Passo a passo para declarar online', blocos: [

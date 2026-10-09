@@ -59,3 +59,12 @@ nota-fiscal-de-produtor-rural-ba
 nota-fiscal-de-produtor-rural-es
 nota-fiscal-de-produtor-rural-sp
 nota-fiscal-de-produtor-rural-df
+declaracao-de-rebanho-ms
+declaracao-de-rebanho-sp
+declaracao-de-rebanho-go
+declaracao-de-rebanho-pr
+declaracao-de-rebanho-ro
+declaracao-de-rebanho-rs
+declaracao-de-rebanho-ac
+declaracao-de-rebanho-mt
+declaracao-de-rebanho-mg

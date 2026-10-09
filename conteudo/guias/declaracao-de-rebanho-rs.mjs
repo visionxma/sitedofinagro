@@ -37,8 +37,8 @@ export default {
   atualizado: '2026-10-09',
   secoes: [
     { h2: 'Como o RS chama e quem é obrigado', blocos: [
-      { p: 'O nome oficial é Declaração Anual de Rebanho. Quem recebe é a Seapi (Secretaria da Agricultura, Pecuária, Produção Sustentável e Irrigação), pelo serviço de defesa agropecuária, e a página da secretaria aponta a Instrução Normativa 01 de 2025 como a norma da declaração.' },
-      { p: 'Todos os produtores rurais do estado que possuem animais são obrigados a declarar. A declaração gaúcha pede mais do que a contagem: tem uma etapa de atualização cadastral do produtor, informações gerais da propriedade e, para cada espécie criada, o saldo e a infraestrutura. Entram equinos, suínos, bovinos, aves, peixes, abelhas e as demais espécies do estabelecimento.' },
+      { p: 'O nome oficial é Declaração Anual de Rebanho. Quem recebe é a Seapi (Secretaria da Agricultura, Pecuária, Produção Sustentável e Irrigação), pelo serviço de defesa agropecuária. A página da secretaria aponta a Instrução Normativa 01 de 2025 como a norma da declaração.' },
+      { p: 'Todos os produtores rurais do estado que possuem animais são obrigados a declarar. A declaração gaúcha pede mais do que a contagem. Tem uma etapa de atualização cadastral do produtor e as informações gerais da propriedade. Para cada espécie criada, pede o saldo e a infraestrutura. Entram equinos, suínos, bovinos, aves, peixes, abelhas e as demais espécies do estabelecimento.' },
       { p: 'A secretaria diz para que usa os dados: saber mais sobre a infraestrutura, os controles sanitários e os saldos dos rebanhos nas propriedades do estado. O que os outros estados pedem está na página geral de [declaração de rebanho](/declaracao-de-rebanho).' },
     ] },
     { h2: 'Prazo da declaração de rebanho no RS em 2026', blocos: [
@@ -58,7 +58,7 @@ export default {
         'Com todos os itens preenchidos, clique em Finalizar a Declaração Anual e aguarde a mensagem de declaração concluída.',
       ] },
       { p: 'O item de saldo é diferente dos outros: nele dá para alterar o número de animais lançando nascimentos, mortes, consumo próprio, evolução de idade e roubo. É onde o seu controle do ano inteiro faz diferença.' },
-      { p: 'Quem prefere o atendimento presencial entrega os formulários em PDF já preenchidos ou informa os dados verbalmente na Inspetoria ou no Escritório de Defesa Agropecuária, com a ajuda dos servidores, e assina com a senha do Produtor Online. É lá também que se tira dúvida.' },
+      { p: 'Quem prefere o atendimento presencial vai à Inspetoria ou ao Escritório de Defesa Agropecuária. Lá entrega os formulários em PDF já preenchidos ou informa os dados verbalmente, com a ajuda dos servidores, e assina com a senha do Produtor Online. É lá também que se tira dúvida.' },
     ] },
     { h2: 'O que acontece com quem não entrega', blocos: [
       { p: 'A secretaria trata a declaração como obrigação sanitária legal e cita, como sanção para quem não cumpre, o bloqueio da movimentação de animais. Na prática, sem movimentação não há guia de trânsito, e sem guia não há venda, leilão nem transferência entre propriedades.' },
@@ -88,5 +88,5 @@ export default {
     { nome: 'Secretaria da Agricultura do RS, manual de acesso à declaração de rebanho digital', url: MANUAL },
     { nome: 'Secretaria da Agricultura do RS, produtores têm 20 dias para entregar a declaração', url: NOTICIA },
   ],
-  relacionados: ['declaracao-de-rebanho', 'como-emitir-gta', 'calendario-de-vacinacao-bovina'],
+  relacionados: ['declaracao-de-rebanho', 'como-emitir-gta', 'declaracao-de-rebanho-pr'],
 };

@@ -65,7 +65,7 @@ export default {
     ] },
     { h2: 'O que acontece com quem não declara', blocos: [
       { ul: [
-        '**Trânsito proibido desde o primeiro dia.** A partir de 1º de maio ou de 1º de novembro fica proibido o trânsito de animais de qualquer espécie quando a propriedade de origem ou a de destino não está com todo o rebanho declarado no SIDAGO. A exceção são os animais destinados ao abate imediato.',
+        '**Trânsito proibido desde o primeiro dia.** A partir de 1º de maio ou de 1º de novembro, fica proibido o trânsito de animais de qualquer espécie para propriedade pendente. Vale para a origem e para o destino: as duas precisam estar com todo o rebanho declarado no SIDAGO. A exceção são os animais destinados ao abate imediato.',
         '**Inadimplência depois do prazo.** Quem não declara é considerado inadimplente, fica sujeito ao bloqueio da GTA, a multas e a outras sanções.',
         '**Regularização presencial.** Passado o prazo, o produtor inadimplente precisa ir a uma unidade da Agrodefesa para regularizar.',
       ] },
@@ -96,5 +96,5 @@ export default {
     { nome: 'Agência Goiás, declaração de rebanho 2026 começa em 1º de maio', url: NOTICIA },
     { nome: 'Agência Goiás, prazo da 1ª etapa entra na reta final', url: RETA },
   ],
-  relacionados: ['declaracao-de-rebanho', 'como-emitir-gta', 'calendario-de-vacinacao-bovina'],
+  relacionados: ['declaracao-de-rebanho', 'como-emitir-gta', 'declaracao-de-rebanho-mg'],
 };

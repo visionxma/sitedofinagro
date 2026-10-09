@@ -35,7 +35,7 @@ export default {
   atualizado: '2026-10-09',
   secoes: [
     { h2: 'Como a Adapar chama e quem é obrigado', blocos: [
-      { p: 'Quem pesquisa declaração de rebanho no Paraná encontra o serviço com outro nome: atualização do cadastro do rebanho, feita na Campanha de Atualização de Rebanhos. O órgão é a Adapar (Agência de Defesa Agropecuária do Paraná).' },
+      { p: 'Quem pesquisa declaração de rebanho no Paraná encontra o serviço com outro nome: atualização do cadastro do rebanho. Ela é feita na Campanha de Atualização de Rebanhos. O órgão é a Adapar (Agência de Defesa Agropecuária do Paraná).' },
       { p: 'A atualização é obrigatória para todo produtor rural com animais de produção de qualquer espécie sob sua guarda. A campanha cobre todos os animais da propriedade: bois, búfalos, cabras, ovelhas, suínos, cavalos, jumentos, mulas, abelhas, galinhas e peixes.' },
       { p: 'Quem tem meia dúzia de galinhas e dois cavalos junto com o gado atualiza as três espécies. É esse detalhe que mais segura guia no estado, como se vê adiante. O que os outros estados pedem está na página geral de [declaração de rebanho](/declaracao-de-rebanho).' },
     ] },
@@ -87,5 +87,5 @@ export default {
     { nome: 'Adapar (PR), atualizar cadastro do rebanho', url: SERVICO },
     { nome: 'Adapar (PR), início da Campanha de Atualização de Rebanhos 2026', url: NOTICIA },
   ],
-  relacionados: ['declaracao-de-rebanho', 'como-emitir-gta', 'calendario-de-vacinacao-bovina'],
+  relacionados: ['declaracao-de-rebanho', 'como-emitir-gta', 'declaracao-de-rebanho-sp'],
 };

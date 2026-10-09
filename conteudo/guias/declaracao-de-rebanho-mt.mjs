@@ -3,6 +3,7 @@
 const CAMPANHA = 'https://www.indea.mt.gov.br/-/14250081-campanha-de-atualizacao-de-estoque-de-rebanho';
 const GTA = 'https://www.indea.mt.gov.br/en/-/produtor-que-n%C3%A3o-atualizar-estoque-de-rebanho-ao-indea-fica-impedido-de-emitir-gta';
 const NOVEMBRO = 'https://www.indea.mt.gov.br/w/campanha-de-atualiza%C3%A7%C3%A3o-de-estoque-de-rebanhos-come%C3%A7a-nesta-sexta-feira-01-em-mt';
+const NOV25 = 'https://www.indea.mt.gov.br/w/campanha-de-atualiza%C3%A7%C3%A3o-de-estoque-de-rebanhos-come%C3%A7a-dia-1%C2%BA-de-novembro';   // outubro de 2025; a de cima (NOVEMBRO) é de 01/11/2024
 const CADASTRO = 'https://www.indea.mt.gov.br/-/16784836-cadastramento-pecuario';
 
 export const provas = [
@@ -13,8 +14,10 @@ export const provas = [
   { afirmacao: 'a Portaria nº 105/2023 do Indea estabelece as diretrizes das campanhas', trecho: 'Estabelece as diretrizes para as Campanhas de Atualização de Estoques de Rebanhos no Estado de Mato Grosso', url: CAMPANHA },
   { afirmacao: 'o Indea notifica e autua quem descumpre o prazo de comunicação de estoque', trecho: 'Proceder com a notificação e autuação dos produtores rurais que descumprirem os prazos de comunicação de estoque de rebanho', url: CAMPANHA },
   { afirmacao: 'a comunicação de estoque também pode ser feita em Posto Avançado', trecho: 'Presencialmente em alguma Unidade Local do INDEA ou Posto Avançado; Online através do acesso ao Módulo do Produtor', url: CAMPANHA },
-  { afirmacao: 'a campanha de novembro vai de 1º de novembro até 10 de dezembro e é obrigatória a todos os produtores', trecho: 'começa hoje (01.11) e vai até o dia 10 de dezembro a Campanha Estadual de Atualização do Estoque de Rebanhos, obrigatória a todos os produtores rurais de Mato Grosso', url: NOVEMBRO },
-  { afirmacao: 'a campanha dura 40 dias e, naquela etapa, o Indea avisou que não haveria prorrogação', trecho: 'Não haverá prorrogação do prazo da comunicação de estoque de rebanhos e o produtor rural que não realizar a atualização dentro do prazo de 40 dias de vigência da campanha', url: NOVEMBRO },
+  { afirmacao: 'em 2025 a campanha de novembro começou no dia 1º de novembro', trecho: 'No dia 1º de novembro começa a Campanha de Atualização do Estoque de Rebanhos em que produtores rurais de bovinos, bubalinos, suínos e aves comerciais têm a obrigatoriedade de informar', url: NOV25 },
+  { afirmacao: 'a campanha é feita duas vezes por ano, nos meses de maio e novembro', trecho: 'Realizada duas vezes por ano, nos meses de maio e novembro, a campanha de atualização de estoque de rebanho substituiu a campanha de vacinação contra a febre aftosa', url: NOV25 },
+  { afirmacao: 'em 2024 a campanha de novembro foi de 1º de novembro até 10 de dezembro, obrigatória a todos os produtores', trecho: 'começa hoje (01.11) e vai até o dia 10 de dezembro a Campanha Estadual de Atualização do Estoque de Rebanhos, obrigatória a todos os produtores rurais de Mato Grosso', url: NOVEMBRO },
+  { afirmacao: 'em novembro de 2024 a campanha teve 40 dias e o Indea avisou que não haveria prorrogação', trecho: 'Não haverá prorrogação do prazo da comunicação de estoque de rebanhos e o produtor rural que não realizar a atualização dentro do prazo de 40 dias de vigência da campanha', url: NOVEMBRO },
   { afirmacao: 'quem não atualiza o estoque fica impedido de emitir a GTA, menos para abate', trecho: 'obrigatória para a movimentação de animais dentro de Mato Grosso ou para outro estado. Exceto se os animais estiverem indo para abate', url: GTA },
   { afirmacao: 'a guia para qualquer finalidade só é permitida depois da comunicação de estoque', trecho: 'só será permitida após a comunicação de estoque do seu rebanho ao Indea', url: GTA },
   { afirmacao: 'para ter login e senha do módulo do produtor, o termo de compromisso é levado ao Indea', trecho: 'O termo deve ser levado ao Indea para obter o login e senha de acesso', url: GTA },
@@ -46,9 +49,9 @@ export default {
     { h2: 'Prazo da declaração de rebanho em MT em 2026', blocos: [
       { tabela: { colunas: ['Campanha', 'Período publicado pelo Indea'], linhas: [
         ['Maio de 2026', '1º de maio a 10 de junho de 2026'],
-        ['Novembro', '1º de novembro até 10 de dezembro, na etapa que o Indea noticiou'],
-      ], nota: 'Página da campanha e notícia do Indea, lidas em 09/10/2026. Confirme no site do Indea o período da campanha de novembro de 2026.' } },
-      { p: 'Na etapa de novembro noticiada pelo instituto, a campanha teve 40 dias e o aviso foi direto: não haveria prorrogação do prazo. Não conte com dia a mais.' },
+        ['Novembro', 'Em 2024, de 1º de novembro até 10 de dezembro. Confirme no Indea a data de 2026'],
+      ], nota: 'Página da campanha e notícias do Indea de 01/11/2024 e de outubro de 2025, lidas em 09/10/2026. Confirme no site do Indea o período da campanha de novembro de 2026.' } },
+      { p: 'A campanha de maio de 2026 já passou, e a próxima é a de novembro. Em novembro de 2024 a campanha teve 40 dias, e o aviso do Indea foi direto: não haveria prorrogação do prazo. Em 2025 ela começou outra vez no dia 1º de novembro. Confirme no órgão a data de 2026 e não conte com dia a mais.' },
       { p: 'A página da campanha no site do Indea é atualizada a cada etapa, com o período no topo. É lá que se confere a data antes de marcar embarque para novembro ou dezembro.' },
     ] },
     { h2: 'Como comunicar o estoque, passo a passo', blocos: [
@@ -58,7 +61,7 @@ export default {
         'Abra a comunicação de estoque da propriedade e informe a quantidade de cada espécie.',
         'Confira, envie e guarde o comprovante.',
       ] },
-      { p: 'Quem ainda não tem acesso ao Módulo do Produtor preenche o termo de compromisso de uso do sistema, disponível no site do Indea, e leva ao instituto para receber login e senha. Vale fazer isso antes de a campanha abrir.' },
+      { p: 'Quem ainda não tem acesso ao Módulo do Produtor preenche o termo de compromisso de uso do sistema, disponível no site do Indea. Depois leva o termo ao instituto para receber login e senha. Vale fazer isso antes de a campanha abrir.' },
       { p: 'Sem internet, a comunicação é presencial: em qualquer Unidade Local do Indea ou num Posto Avançado. O site traz as folhas de atualização para bovinos e bubalinos, para aves comerciais e para suínos comerciais. Dúvida se tira na unidade local do município.' },
     ] },
     { h2: 'O que acontece com quem não atualiza', blocos: [
@@ -80,7 +83,7 @@ export default {
   cta: { forte: 'Estoque contado e a campanha do Indea lembrada antes de vencer.', texto: 'Grátis até 1.000 animais com ficha, sem cartão.' },
   faqTitulo: 'Perguntas sobre declaração de rebanho em MT',
   faq: [
-    ['Qual o prazo da declaração de rebanho 2026 em MT?', 'A campanha de maio de 2026 foi de 1º de maio a 10 de junho de 2026. A de novembro, na etapa noticiada pelo Indea, foi de 1º de novembro até 10 de dezembro. Confirme o período de novembro de 2026 no site do Indea.'],
+    ['Qual o prazo da declaração de rebanho 2026 em MT?', 'A campanha de maio de 2026 foi de 1º de maio a 10 de junho de 2026 e já passou. A de novembro de 2024 foi de 1º de novembro até 10 de dezembro. Confirme o período de novembro de 2026 no site do Indea.'],
     ['Onde faço a declaração de rebanho em Mato Grosso?', 'Pela internet, no Módulo do Produtor, ou presencialmente em qualquer Unidade Local do Indea ou Posto Avançado.'],
     ['Qual a multa para quem não atualiza o rebanho no Indea?', 'A página da campanha de 2026 informa que a falta de atualização no prazo pode gerar multa de R$ 6.961,41 ao produtor rural.'],
     ['Posso emitir GTA em MT sem atualizar o estoque?', 'Só para abate. Para as outras finalidades, a guia só é permitida depois da comunicação de estoque do rebanho ao Indea.'],
@@ -89,8 +92,9 @@ export default {
   fontes: [
     { nome: 'Indea-MT, Campanha de Atualização de Estoque de Rebanho', url: CAMPANHA },
     { nome: 'Indea-MT, produtor que não atualizar o estoque fica impedido de emitir GTA', url: GTA },
-    { nome: 'Indea-MT, campanha de atualização de estoque de rebanhos de novembro', url: NOVEMBRO },
+    { nome: 'Indea-MT, campanha de atualização de estoque de rebanhos de novembro de 2024 (01/11/2024)', url: NOVEMBRO },
+    { nome: 'Indea-MT, campanha de atualização de estoque de rebanhos começa dia 1º de novembro (outubro de 2025)', url: NOV25 },
     { nome: 'Indea-MT, cadastramento pecuário', url: CADASTRO },
   ],
-  relacionados: ['declaracao-de-rebanho', 'como-emitir-gta', 'calendario-de-vacinacao-bovina'],
+  relacionados: ['declaracao-de-rebanho', 'como-emitir-gta', 'declaracao-de-rebanho-ms'],
 };

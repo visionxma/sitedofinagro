@@ -518,8 +518,8 @@ Endereço: https://finagro.app/guias
 FINAGRO
 Guias
 Guias, calculadoras e modelos para tocar a fazenda
-69 páginas gratuitas, com a conta feita na hora e a fonte oficial de cada regra. Sem cadastro para ler, calcular ou baixar.
-69páginas
+78 páginas gratuitas, com a conta feita na hora e a fonte oficial de cada regra. Sem cadastro para ler, calcular ou baixar.
+78páginas
 14calculadoras
 8modelos e planilhas
 Escolher um aplicativoGado de corteLeiteLavouraDinheiro e impostoTerra e documentosOutras criações
@@ -542,6 +542,15 @@ GuiaConfinamento de gadoConfinamento e semiconfinamento: prazos e o que medir.
 Modelo prontoContrato e recibo de gadoContrato de compra e venda de gado e recibo, prontos.
 GuiaCria, recria e engordaEntenda as fases e o registro que cada uma pede.
 CalculadoraCusto da arroba produzidaCusto por arroba e margem, com planilha de custos.
+GuiaDeclaração de rebanho ACCampanha do Idaf de outubro a novembro e como declarar.
+GuiaDeclaração de rebanho GOEtapas de maio e novembro na Agrodefesa e o SIDAGO.
+GuiaDeclaração de rebanho MGAtualização de rebanhos no IMA, de maio a junho.
+GuiaDeclaração de rebanho MSEtapas de maio e novembro na Iagro e o e-SANIAGRO.
+GuiaDeclaração de rebanho MTAtualização de estoque no Indea, em maio e novembro.
+GuiaDeclaração de rebanho PRCampanha da Adapar de maio a junho e como atualizar.
+GuiaDeclaração de rebanho ROO decreto, as etapas de maio e novembro e a Idaron.
+GuiaDeclaração de rebanho RSDeclaração anual na Seapi e o Produtor Online.
+GuiaDeclaração de rebanho SPEtapas de maio e novembro e o GEDAVE.
 GuiaDeclaração de rebanhoPrazo de 2026 por estado e como declarar.
 GuiaEscore corporal bovinoNotas de 1 a 5 e de 1 a 9 e quando avaliar.
 GuiaEstação de montaComo planejar a monta e concentrar os partos.
@@ -1250,7 +1259,7 @@ Cidasc (SC), SIGEN+
 Governo de Rondônia, GTA online da Idaron
 Veja também
 GTADeclaração de rebanhoVacinação bovinaTodos os guiasDo mesmo assunto
-Confinamento de gadoContrato e recibo de gadoCria, recria e engordaCusto da arroba produzidaEscore corporal bovino
+Confinamento de gadoContrato e recibo de gadoCria, recria e engordaCusto da arroba produzidaDeclaração de rebanho AC
 Nesta página
 O que precisa estar em dia antes de abrir o sistema
 Passo a passo para emitir a GTA online
@@ -1357,7 +1366,7 @@ Fontes
 Embrapa, Estratégias alimentares para gado de corte: suplementação a pasto, semiconfinamento e confinamento
 Veja também
 Calculadora de GMDCusto da arroba produzidaCria, recria e engordaTodos os guiasDo mesmo assunto
-Contrato e recibo de gadoDeclaração de rebanhoEscore corporal bovinoEstação de montaFicha de controle de gado
+Contrato e recibo de gadoDeclaração de rebanho ACDeclaração de rebanho GODeclaração de rebanho MGDeclaração de rebanho MS
 Nesta página
 Calcule o ganho e o custo no cocho
 O que é confinamento e o que é semiconfinamento
@@ -1476,7 +1485,7 @@ IDAF-ES, perguntas frequentes sobre a Guia de Trânsito Animal
 Confaz, Ajuste SINIEF 10/2022, nota fiscal eletrônica do produtor rural
 Veja também
 Calculadora de arrobaNota fiscal de produtorGTATodos os guiasDo mesmo assunto
-Cria, recria e engordaCusto da arroba produzidaDeclaração de rebanhoEscore corporal bovinoEstação de monta
+Cria, recria e engordaCusto da arroba produzidaDeclaração de rebanho ACDeclaração de rebanho GODeclaração de rebanho MG
 Nesta página
 Modelo de contrato de compra e venda de gado
 Modelo de recibo de venda de gado
@@ -1569,7 +1578,7 @@ Fontes
 Embrapa Gado de Corte, considerações econômicas sobre a produção de bezerros de corte
 Veja também
 Controle de rebanhoCalculadora de GMDRendimento de carcaçaTodos os guiasDo mesmo assunto
-Custo da arroba produzidaDeclaração de rebanhoEscore corporal bovinoEstação de montaFicha de controle de gado
+Custo da arroba produzidaDeclaração de rebanho ACDeclaração de rebanho GODeclaração de rebanho MGDeclaração de rebanho MS
 Nesta página
 As três fases do gado de corte
 Cria: do nascimento à desmama
@@ -1677,7 +1686,7 @@ Embrapa Pantanal, Custo de produção da pecuária de corte no Pantanal de Corum
 Embrapa Gado de Corte, diferenças entre peso em quilogramas e em arrobas
 Veja também
 Calculadora de arrobaCria, recria e engordaCusto por hectareTodos os guiasDo mesmo assunto
-Declaração de rebanhoEscore corporal bovinoEstação de montaFicha de controle de gadoÍndices zootécnicos
+Declaração de rebanho ACDeclaração de rebanho GODeclaração de rebanho MGDeclaração de rebanho MSDeclaração de rebanho MT
 Nesta página
 Calcule o custo e a margem da arroba
 Como calcular o custo da arroba produzida
@@ -1738,7 +1747,8 @@ Rio Grande do Sul2026: prorrogada até 10 de julhoSDA Produtor Online
 Roraima2026: 1º a 30 de abrilAderr
 São PauloEtapas de maio e de novembro (Resolução SAA 28/2024)GEDAVE (Defesa Agropecuária)
 Onde a linha traz 2026, a página oficial cita o ano. Nas demais, vale a regra publicada pelo órgão, que pode ser prorrogada ou antecipada. Conferido nos sites oficiais em 08/10/2026.
-Ficaram fora da tabela, por falta de página oficial com data que abrisse para conferência: Amazonas, Amapá, Bahia, Ceará, Maranhão, Paraíba, Rio Grande do Norte, Rondônia, Santa Catarina, Sergipe e Tocantins. Em Sergipe a declaração é feita pela Emdagro, por formulário, WhatsApp ou e-mail. Nos outros, consulte o órgão do seu estado.
+Ficaram fora da tabela, por falta de página oficial com data que abrisse para conferência: Amazonas, Amapá, Bahia, Ceará, Maranhão, Paraíba, Rio Grande do Norte, Santa Catarina, Sergipe e Tocantins. Em Sergipe a declaração é feita pela Emdagro, por formulário, WhatsApp ou e-mail. Nos outros, consulte o órgão do seu estado.
+Rondônia também não tem linha na tabela. Lá a declaração é obrigatória para todas as propriedades e é feita em duas etapas, em maio e em novembro, mas a data de cada ano é definida pela Idaron. Confirme no órgão a data de 2026.
 Em São Paulo a Coordenadoria de Defesa Agropecuária pode prorrogar ou antecipar a campanha, então vale confirmar a data da etapa no GEDAVE.
 Passo a passo para declarar online
 Conte os animais por espécie, sexo e faixa etária e some os nascimentos e as mortes desde a última declaração.
@@ -1792,7 +1802,8 @@ Alagoas Digital, declaração de atualização cadastral dos produtores
 Adagro (PE), campanha de atualização cadastral 2026
 Adepará (PA), campanha de atualização cadastral
 Veja também
-Como emitir GTAVacinação bovinaControle de rebanhoTodos os guiasDo mesmo assunto
+Como emitir GTAVacinação bovinaControle de rebanhoTodos os guiasPor estado
+Declaração de rebanho ACDeclaração de rebanho GODeclaração de rebanho MGDeclaração de rebanho MSDeclaração de rebanho MTDeclaração de rebanho PRDeclaração de rebanho RODeclaração de rebanho RSDeclaração de rebanho SPDo mesmo assunto
 Escore corporal bovinoEstação de montaFicha de controle de gadoÍndices zootécnicosPeso do boi pela fita
 Nesta página
 O que é a declaração de rebanho e por que existe
@@ -1801,6 +1812,753 @@ Prazos por estado e onde declarar
 Passo a passo para declarar online
 O que acontece com quem não declara
 A declaração e o FINAGRO
+Perguntas frequentes
+FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
+Grátis até 1.000 animais com ficha
+Lote sem limite de cabeças
+Sem cartão
+Começar grátisBaixar para Android
+
+
+---
+
+## Declaração de rebanho no Acre: prazo e como fazer
+Endereço: https://finagro.app/declaracao-de-rebanho-ac
+
+
+FINAGRO
+Guias
+Declaração de rebanho AC
+GuiaGado de corte
+Declaração de rebanho no Acre: prazo, como declarar no Idaf e a GTA
+Como fazer a declaração de rebanho no Acre?
+No Acre a Declaração Anual de Rebanho é feita numa única campanha por ano, de 1º de outubro a 30 de novembro. A de 2026 está em curso. É obrigatória para todo criador. Faz-se nas unidades do Idaf ou pelo autoatendimento online do órgão. Desde o primeiro dia da campanha, a guia de trânsito depende da declaração.
+Atualizado em 09/10/2026
+Como o Idaf chama e quem é obrigado
+O nome oficial é Declaração Anual de Rebanho, feita na Campanha de Declaração de Rebanhos. O órgão é o Idaf (Instituto de Defesa Agropecuária e Florestal do Estado do Acre).
+A declaração é obrigatória para todos os criadores de animais, de qualquer tamanho de propriedade e com qualquer número de cabeças. Entram bois, búfalos, cavalos, porcos, bodes, ovelhas, carneiros, criação de peixes, galinhas, pintos e colmeias de abelhas, entre outros.
+O produtor apresenta dados atualizados de quantidade, espécie e movimentação dos animais e, quando se aplica, de vacinação. A etapa inclui também a atualização do cadastro do produtor e as informações gerais da propriedade.
+O Idaf explica que a campanha serve de base para o reconhecimento do Acre como zona livre de doenças como a febre aftosa. O prazo dos outros estados está na página geral de declaração de rebanho.
+Prazo da declaração de rebanho no Acre
+CampanhaPeríodo
+Única no ano1º de outubro a 30 de novembro
+Campanha de 20261º de outubro a 30 de novembro de 2026, pela portaria: em curso
+Portaria Idaf nº 270, de 20/12/2022, e notícia do Idaf de 17/09/2025, lidas em 09/10/2026.
+Pela portaria, a campanha de 2026 vai de 1º de outubro a 30 de novembro de 2026 e está em curso. Quem ainda não declarou já pode fazer.
+O Acre declara no fim do ano, quando a maioria dos estados já fechou a campanha de maio. O calendário é da Portaria nº 270, de 2022, que juntou as declarações numa campanha só, em outubro e novembro.
+A mesma portaria diz que qualquer mudança no calendário sai por portaria complementar do Idaf. Nos dois últimos anos o último dia andou. Em 2024 o Idaf recebeu a declaração até segunda-feira, 2 de dezembro. Em 2025 prorrogou o prazo até 31 de dezembro de 2025, pela Portaria IDAF nº 532. Confirme no Idaf a data de 2026 e não conte com prorrogação.
+No mesmo período corre a campanha de vacinação contra a brucelose. Dá para resolver as duas pendências na mesma ida ao Idaf. As idades e as vacinas estão no calendário de vacinação bovina.
+Como declarar no Idaf, passo a passo
+Conte os animais por espécie e anote as entradas e saídas do ano: compras, vendas, nascimentos e mortes.
+Separe os comprovantes de vacinação, quando a espécie tem vacina obrigatória.
+Entre no autoatendimento do Idaf com o seu acesso de produtor. No site do instituto, é o mesmo acesso que serve para emitir a GTA.
+Atualize o cadastro do produtor e da propriedade e informe a quantidade de cada espécie.
+Envie e guarde o comprovante da declaração.
+Quem não tem acesso à internet ou ainda não tem senha declara em qualquer unidade do Idaf. A portaria prevê as duas formas: nas unidades do instituto ou pelos canais de autoatendimento online. Dúvida se tira na unidade do município.
+Durante a campanha o Idaf pode pedir outras informações de interesse da defesa sanitária. Vale ter à mão os dados da propriedade.
+O que acontece com quem não declara
+GTA condicionada desde o primeiro dia. A partir do primeiro dia da campanha, a emissão da guia de trânsito fica condicionada à atualização cadastral do rebanho. Quem vai embarcar gado em outubro declara antes.
+Multa. Quem deixa de declarar no prazo fica sujeito a penalidades, entre elas multa.
+Restrição de serviços. O Idaf cita restrição nos serviços do órgão, como a emissão de GTA e a participação em programas de incentivo.
+O Idaf não publica o valor da multa nas páginas da campanha. Pergunte na unidade local. O caminho da guia está em como emitir GTA.
+Prazo, sistema e punição são do Idaf e mudam. Este texto é informativo e não substitui o veterinário nem a defesa agropecuária: confirme a data no Idaf antes de contar com ela. O FINAGRO não envia a declaração ao Idaf.
+A declaração do Acre e o FINAGRO
+O app não envia a declaração ao Idaf: ela é feita por você no autoatendimento do órgão ou na unidade local.
+A tela "O que vence" lista a declaração de rebanho do Acre com o período, onde declarar e o que acontece com quem não faz.
+O app pode avisar no celular 7 dias antes do fim da campanha e na véspera. Ao marcar "Já fiz", o aviso some.
+Cada animal tem ficha, as vacinas ficam anotadas e o lote guarda as cabeças, então a quantidade de cada espécie está pronta na hora de declarar.
+Rebanho contado e a campanha do Idaf lembrada antes de vencer.
+Grátis até 1.000 animais com ficha, sem cartão.
+Começar grátis
+Perguntas sobre declaração de rebanho no Acre
+Qual o prazo da declaração de rebanho no Acre?
+A campanha é única no ano e vai de 1º de outubro a 30 de novembro, pela Portaria Idaf 270, de 2022. A de 2026 está em curso. Em 2025 o Idaf prorrogou até 31 de dezembro: confirme no órgão se o prazo de 2026 mudou.
+Onde faço a declaração de rebanho no Acre?
+Em qualquer unidade do Idaf ou pelos canais de autoatendimento online do órgão, com o acesso de produtor.
+Quem tem poucas cabeças precisa declarar no Acre?
+Sim. A declaração é obrigatória para todos os criadores, de qualquer tamanho de propriedade e com qualquer número de cabeças.
+Posso emitir GTA no Acre sem declarar o rebanho?
+Desde o primeiro dia da campanha, a emissão da guia fica condicionada à atualização cadastral do rebanho. Quem não declara no prazo fica sujeito a multa e a restrição de serviços do Idaf.
+O FINAGRO envia a declaração ao Idaf?
+Não. O app não envia nada ao Idaf. Ele guarda a contagem do rebanho e lembra o prazo; a declaração é feita por você no órgão.
+Fontes
+Idaf (AC), declaração anual de rebanho entre 1º de outubro e 30 de novembro (17/09/2025)
+Idaf (AC), prazo da declaração de 2024 até 2 de dezembro (27/11/2024)
+Idaf (AC), prorrogação da declaração de 2025 pela Portaria IDAF nº 532 (28/11/2025)
+Idaf (AC), Portaria nº 270, de 20/12/2022
+Idaf (AC), emissão de GTA e declaração de rebanhos
+Idaf (AC), vacinação contra brucelose e declaração de rebanhos
+Veja também
+Declaração de rebanhoComo emitir GTADeclaração de rebanho ROTodos os guiasEm outros estados
+Declaração de rebanho GODeclaração de rebanho MGDeclaração de rebanho MSDeclaração de rebanho MTDeclaração de rebanho PRDeclaração de rebanho RODeclaração de rebanho RSDeclaração de rebanho SPDo mesmo assunto
+Escore corporal bovinoEstação de montaFicha de controle de gadoÍndices zootécnicosPeso do boi pela fita
+Nesta página
+Como o Idaf chama e quem é obrigado
+Prazo da declaração de rebanho no Acre
+Como declarar no Idaf, passo a passo
+O que acontece com quem não declara
+A declaração do Acre e o FINAGRO
+Perguntas frequentes
+FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
+Grátis até 1.000 animais com ficha
+Lote sem limite de cabeças
+Sem cartão
+Começar grátisBaixar para Android
+
+
+---
+
+## Declaração de rebanho em GO: prazo 2026 e SIDAGO
+Endereço: https://finagro.app/declaracao-de-rebanho-go
+
+
+FINAGRO
+Guias
+Declaração de rebanho GO
+GuiaGado de corte
+Declaração de rebanho em GO: prazo de 2026 e como declarar no SIDAGO
+Como fazer a declaração de rebanho em Goiás?
+Em Goiás a declaração de rebanho é obrigatória em duas etapas por ano: de 1º a 31 de maio e de 1º a 30 de novembro. Em 2026 a primeira foi prorrogada até 10 de junho. Ela é feita no SIDAGO, com login e senha próprios. Desde o primeiro dia da etapa, propriedade sem declaração não movimenta animais.
+Atualizado em 09/10/2026
+Como a Agrodefesa chama e quem é obrigado
+Em Goiás o nome é Declaração de Rebanho mesmo. Quem cuida é a Agrodefesa (Agência Goiana de Defesa Agropecuária), e a regra de 2026 está na Portaria nº 173/2026, que fixa a obrigação e o calendário anual.
+Declara todo produtor rural com animais de interesse pecuário cadastrados na Agrodefesa, qualquer que seja a quantidade. Entram bovinos, bubalinos, equinos, muares, asininos, caprinos, ovinos, aves e suínos de subsistência, animais aquáticos e abelhas.
+O produtor informa o saldo exato de todas as espécies da propriedade, por sexo e faixa etária, contando nascimentos e mortes desde a última declaração. Para as abelhas, a quantidade de colmeias. Em 2026 a Agrodefesa também pediu a idade das bezerras de 1 a 12 meses.
+O prazo dos outros estados está na página geral de declaração de rebanho.
+Prazo da declaração de rebanho em GO em 2026
+EtapaPeríodo da portariaEm 2026
+1ª etapa1º a 31 de maioProrrogada até 10 de junho de 2026
+2ª etapa1º a 30 de novembroVale o período da portaria
+Portarias Agrodefesa nº 173/2026 e nº 239/2026, lidas em 09/10/2026 no site da Agrodefesa. Confirme no site se a etapa de novembro teve prorrogação.
+A prorrogação de maio veio por portaria própria, em caráter excepcional, e só foi publicada no fim do mês. Quem deixa para o último dia contando com mais prazo fica com a guia parada enquanto espera.
+Como declarar no SIDAGO, passo a passo
+Conte os animais de cada espécie por sexo e faixa etária e some nascimentos e mortes desde a última etapa.
+Entre no SIDAGO (Sistema de Defesa Agropecuária de Goiás), em sidago.agrodefesa.go.gov.br, com o seu login e a sua senha.
+Abra a declaração de rebanho da propriedade e informe o saldo de todas as espécies.
+Confira os números, envie e guarde o comprovante.
+Login e senha são individuais. Parente ou prestador de serviço só preenche a declaração com acesso de procurador, e essa senha se cadastra no próprio SIDAGO com procuração registrada em cartório.
+Quando não dá para fazer pela internet, o produtor ou o procurador declara presencialmente numa Unidade Operacional Local da Agrodefesa. Propriedade em espólio declara só presencialmente, com os documentos do espólio. A portaria não aceita declaração por fax, correio, e-mail ou aplicativo de mensagens. Dúvida se tira na unidade da Agrodefesa mais perto da propriedade.
+O que acontece com quem não declara
+Trânsito proibido desde o primeiro dia. A partir de 1º de maio ou de 1º de novembro, fica proibido o trânsito de animais de qualquer espécie para propriedade pendente. Vale para a origem e para o destino: as duas precisam estar com todo o rebanho declarado no SIDAGO. A exceção são os animais destinados ao abate imediato.
+Inadimplência depois do prazo. Quem não declara é considerado inadimplente, fica sujeito ao bloqueio da GTA, a multas e a outras sanções.
+Regularização presencial. Passado o prazo, o produtor inadimplente precisa ir a uma unidade da Agrodefesa para regularizar.
+Repare que o destino também conta: comprar gado de quem declarou não resolve se a sua propriedade está pendente. O caminho da guia está em como emitir GTA, e as vacinas que também travam a venda, no calendário de vacinação bovina.
+O valor da multa não está na portaria nem na página de perguntas da Agrodefesa. Pergunte na unidade local.
+Prazo, sistema e punição são da Agrodefesa e mudam. Este texto é informativo e não substitui o veterinário nem a defesa agropecuária: confirme a data na Agrodefesa antes de contar com ela. O FINAGRO não envia a declaração ao SIDAGO.
+A declaração de GO e o FINAGRO
+O app não envia a declaração à Agrodefesa: ela é feita por você no SIDAGO ou na unidade local.
+A tela "O que vence" lista a declaração de rebanho de Goiás com as duas etapas, onde declarar e o que acontece com quem não faz.
+O app pode avisar no celular 7 dias antes do fim da etapa e na véspera. Ao marcar "Já fiz", o aviso daquela etapa some.
+Cada animal tem ficha e o lote guarda as cabeças, então você abre o SIDAGO com a contagem do rebanho pronta.
+Rebanho contado e etapa da Agrodefesa lembrada antes de vencer.
+Grátis até 1.000 animais com ficha, sem cartão.
+Começar grátis
+Perguntas sobre declaração de rebanho em GO
+Qual o prazo da declaração de rebanho 2026 em GO?
+A Portaria 173/2026 fixa de 1º a 31 de maio e de 1º a 30 de novembro. Em 2026 a primeira etapa foi prorrogada até 10 de junho. Confirme no site da Agrodefesa se a etapa de novembro teve prorrogação.
+Onde faço a declaração de rebanho em Goiás?
+De preferência no SIDAGO, com login e senha próprios. Quando necessário, presencialmente numa Unidade Operacional Local da Agrodefesa.
+Posso emitir GTA em Goiás sem declarar o rebanho?
+Durante a etapa, não. Desde o primeiro dia fica proibido o trânsito de animais de propriedade de origem ou de destino sem todo o rebanho declarado. A exceção é o abate imediato.
+Outra pessoa pode fazer a minha declaração no SIDAGO?
+Só com acesso de procurador. A senha de procurador se cadastra no próprio SIDAGO, com procuração registrada em cartório.
+O FINAGRO envia a declaração ao SIDAGO?
+Não. O app não envia nada à Agrodefesa. Ele guarda a contagem do rebanho e lembra o prazo; a declaração é feita por você no SIDAGO.
+Fontes
+Agrodefesa (GO), Portaria nº 173/2026
+Agrodefesa (GO), Portaria nº 239/2026, prorrogação da 1ª etapa
+Agrodefesa (GO), perguntas e respostas de defesa sanitária animal
+Agência Goiás, declaração de rebanho 2026 começa em 1º de maio
+Agência Goiás, prazo da 1ª etapa entra na reta final
+Veja também
+Declaração de rebanhoComo emitir GTADeclaração de rebanho MGTodos os guiasEm outros estados
+Declaração de rebanho ACDeclaração de rebanho MGDeclaração de rebanho MSDeclaração de rebanho MTDeclaração de rebanho PRDeclaração de rebanho RODeclaração de rebanho RSDeclaração de rebanho SPDo mesmo assunto
+Escore corporal bovinoEstação de montaFicha de controle de gadoÍndices zootécnicosPeso do boi pela fita
+Nesta página
+Como a Agrodefesa chama e quem é obrigado
+Prazo da declaração de rebanho em GO em 2026
+Como declarar no SIDAGO, passo a passo
+O que acontece com quem não declara
+A declaração de GO e o FINAGRO
+Perguntas frequentes
+FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
+Grátis até 1.000 animais com ficha
+Lote sem limite de cabeças
+Sem cartão
+Começar grátisBaixar para Android
+
+
+---
+
+## Declaração de rebanho em MG: prazo e como fazer no IMA
+Endereço: https://finagro.app/declaracao-de-rebanho-mg
+
+
+FINAGRO
+Guias
+Declaração de rebanho MG
+GuiaGado de corte
+Declaração de rebanho em MG: prazo e como atualizar no IMA
+Como fazer a declaração de rebanho em Minas Gerais?
+Em Minas Gerais a declaração de rebanho se chama atualização de rebanhos e acontece uma vez ao ano, de 1º de maio a 30 de junho. É obrigatória para todos os produtores. Faz-se pelo Portal de Serviços do Produtor ou num escritório do IMA. Quem não atualiza fica impedido de emitir a guia de trânsito.
+Atualizado em 09/10/2026
+Como o IMA chama e quem é obrigado
+Em Minas a declaração de rebanho aparece como atualização de dados de rebanhos, ou etapa de Atualização de Rebanhos. O órgão é o IMA (Instituto Mineiro de Agropecuária).
+A Portaria IMA nº 2.227, de 2023, estabelece que a etapa é obrigatória para todos os produtores rurais de Minas Gerais, de qualquer tamanho de produção. Todo ano o proprietário informa ao instituto a quantidade e as características dos animais que tem.
+Entram bovinos, bubalinos, equinos, asininos, muares, ovinos, caprinos, animais aquáticos (peixes, crustáceos, moluscos, anfíbios e répteis), abelhas, suínos e aves de subsistência.
+O prazo dos outros estados está na página geral de declaração de rebanho.
+Prazo da declaração de rebanho em MG
+CampanhaPeríodo
+Uma vez ao ano1º de maio a 30 de junho
+Campanha de 20261º de maio a 30 de junho de 2026: já passou
+Carta de serviços do Governo de Minas e notícia do IMA de 05/05/2026, lidas em 09/10/2026.
+Minas tem uma campanha só por ano, com dois meses de prazo. A de 2026 começou em 1º de maio e seguiu até 30 de junho, como o IMA noticiou em 05/05/2026, e já passou. Quem ficou sem atualizar procura o escritório seccional do IMA que atende o município da propriedade, porque a pendência segura a guia até ser resolvida.
+O período de 2027 se confirma no site do IMA perto de maio. Não marque embarque de maio ou junho sem conferir a data.
+Como atualizar pelo Portal do Produtor
+Conte os animais de cada espécie e separe nascimentos, mortes, compras e vendas desde a última atualização.
+Entre no Portal de Serviços do Produtor, do IMA, com o seu login.
+Abra a atualização cadastral de animais e informe os dados de cada rebanho.
+Se vacinou bovinos, bubalinos, equídeos, caprinos ou ovinos contra a raiva dos herbívoros, informe na mesma tela.
+Confira, envie e guarde o comprovante.
+O passo a passo com as telas está no manual do usuário, na página do serviço no portal do Governo de Minas, e o IMA publicou um tutorial em vídeo. Quem ainda não tem acesso ao portal pede antes, pelo serviço de solicitação de acesso ao Portal de Serviços do Produtor Rural.
+Presencialmente, a atualização é feita num escritório do IMA e leva até 48 horas para ser concluída. Leve a Declaração do Produtor preenchida: é o formulário que junta a atualização cadastral do rebanho e a declaração da vacinação contra raiva, disponível na página do serviço.
+Se outra pessoa for fazer por você, ela apresenta a procuração e um documento de identificação com foto e CPF. Dúvida se tira no escritório seccional do IMA.
+O que acontece com quem não atualiza
+GTA impedida. O produtor que não atualiza os dados do rebanho fica impedido de emitir a Guia de Trânsito Animal.
+Penalidades. O IMA avisa que o descumprimento pode resultar em penalidades e em restrições na emissão de documentos sanitários.
+O IMA não publica valor de multa nas páginas da campanha. Pergunte no escritório seccional.
+Sem a guia não sai gado para venda, leilão nem transferência. Em Minas ela é pedida no mesmo Portal de Serviços do Produtor: veja como emitir GTA. A vacina de raiva e as demais estão no calendário de vacinação bovina.
+Prazo, sistema e punição são do IMA e mudam. Este texto é informativo e não substitui o veterinário nem a defesa agropecuária: confirme a data no IMA antes de contar com ela. O FINAGRO não envia a atualização de rebanhos ao IMA.
+A declaração de MG e o FINAGRO
+O app não envia a declaração ao IMA: a atualização é feita por você no Portal de Serviços do Produtor ou no escritório do instituto.
+A tela "O que vence" lista a atualização de rebanhos de Minas Gerais com o período, onde fazer e o que acontece com quem não faz.
+O app pode avisar no celular 7 dias antes do fim da campanha e na véspera. Ao marcar "Já fiz", o aviso some.
+Cada animal tem ficha, as vacinas ficam anotadas e o lote guarda as cabeças, então a contagem e a vacina de raiva estão à mão na hora de atualizar.
+Rebanho contado e a campanha do IMA lembrada antes de vencer.
+Grátis até 1.000 animais com ficha, sem cartão.
+Começar grátis
+Perguntas sobre declaração de rebanho em MG
+Qual o prazo da declaração de rebanho em MG?
+A campanha de atualização de rebanhos acontece uma vez ao ano, de 1º de maio a 30 de junho. A de 2026 já passou. Confirme a data de 2027 no site do IMA.
+Onde faço a declaração de rebanho em Minas Gerais?
+Pelo Portal de Serviços do Produtor, do IMA, ou presencialmente num escritório do instituto. No escritório, a atualização leva até 48 horas para ser concluída.
+Pequeno produtor precisa atualizar o rebanho no IMA?
+Sim. A etapa é obrigatória para todos os produtores rurais de Minas Gerais, de qualquer tamanho de produção.
+Quem não atualiza o rebanho em MG pode emitir GTA?
+Não. O produtor que não atualiza os dados do rebanho fica impedido de emitir a Guia de Trânsito Animal.
+O FINAGRO envia a atualização de rebanhos ao IMA?
+Não. O app não envia nada ao IMA. Ele guarda a contagem do rebanho e lembra o prazo; a atualização é feita por você no portal do instituto.
+Fontes
+Governo de Minas Gerais, atualizar dados de rebanhos
+IMA (MG), tutorial de atualização do rebanho no Portal do Produtor
+IMA (MG), Minas inicia a etapa de atualização de rebanhos (05/05/2026)
+Veja também
+Declaração de rebanhoComo emitir GTADeclaração de rebanho GOTodos os guiasEm outros estados
+Declaração de rebanho ACDeclaração de rebanho GODeclaração de rebanho MSDeclaração de rebanho MTDeclaração de rebanho PRDeclaração de rebanho RODeclaração de rebanho RSDeclaração de rebanho SPDo mesmo assunto
+Escore corporal bovinoEstação de montaFicha de controle de gadoÍndices zootécnicosPeso do boi pela fita
+Nesta página
+Como o IMA chama e quem é obrigado
+Prazo da declaração de rebanho em MG
+Como atualizar pelo Portal do Produtor
+O que acontece com quem não atualiza
+A declaração de MG e o FINAGRO
+Perguntas frequentes
+FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
+Grátis até 1.000 animais com ficha
+Lote sem limite de cabeças
+Sem cartão
+Começar grátisBaixar para Android
+
+
+---
+
+## Declaração de rebanho em MS: prazo 2026 e como fazer
+Endereço: https://finagro.app/declaracao-de-rebanho-ms
+
+
+FINAGRO
+Guias
+Declaração de rebanho MS
+GuiaGado de corte
+Declaração de rebanho em MS: prazo de 2026 e como declarar na Iagro
+Como fazer a declaração de rebanho em Mato Grosso do Sul?
+Em Mato Grosso do Sul a declaração de rebanho é semestral e obrigatória: de 1º a 31 de maio e de 1º a 30 de novembro. A data se ajusta quando cai em fim de semana. É feita de graça no e-SANIAGRO ou numa Unidade Local da Iagro. Desde o 1º dia da etapa, a guia fica bloqueada até declarar.
+Atualizado em 09/10/2026
+Como a Iagro chama e quem é obrigado
+O nome oficial em Mato Grosso do Sul é Declaração Semestral de Rebanho e Atualização Cadastral. São duas obrigações feitas de uma vez. A Iagro (Agência Estadual de Defesa Sanitária Animal e Vegetal) pede a declaração do saldo junto com a atualização do cadastro da propriedade.
+Declara todo produtor que tem saldo de animais, de qualquer porte de propriedade. A obrigação é do produtor ou do representante legal, em caráter compulsório. Entram bovinos e bubalinos, aves, suínos, caprinos e ovinos, equinos, asininos e muares, abelhas, bicho-da-seda e animais aquáticos.
+Há uma exceção: para quem cria aves e suínos comerciais a declaração é facultativa, desde que não exista outra espécie na mesma ficha cadastral. Se houver uma cabeça de gado na ficha, a obrigação volta a valer.
+O motivo da regra e o prazo dos outros estados estão na página geral de declaração de rebanho.
+Prazo da declaração de rebanho em MS em 2026
+EtapaPeríodo da regraO que a Iagro publicou
+1ª etapa1º a 31 de maioEm 2026 o prazo foi até segunda-feira, 1º de junho
+2ª etapa1º a 30 de novembroA data se ajusta se cair em feriado ou fim de semana
+Períodos da página de serviço e das notícias da Iagro, lidas em 09/10/2026. Confirme a data final da etapa de novembro de 2026 no site da Iagro antes de contar com ela.
+A regra é fixa, mas o último dia anda. Quando o fim do mês cai em sábado ou domingo, a Iagro ajusta o prazo, como fez em maio de 2026. Não conte com prorrogação longa. Na segunda etapa de 2025 o prazo foi até 1º de dezembro, e a agência avisou que não havia previsão de prorrogar.
+A etapa de maio de 2026 já passou. A próxima é a de novembro de 2026, que pela regra vai de 1º a 30: confirme o último dia na Iagro.
+Na etapa de maio dá para resolver outra pendência no mesmo acesso: o registro da vacina de brucelose das fêmeas bovinas de 3 a 8 meses. Em 2026 esse registro teve prazo até 30 de junho. As outras vacinas estão no calendário de vacinação bovina.
+Como declarar no e-SANIAGRO, passo a passo
+Conte o rebanho por espécie, sexo e era (a faixa de idade). Some os nascimentos e as mortes desde a última etapa.
+Entre no e-SANIAGRO, em eservicos.sefaz.ms.gov.br, com o seu acesso de produtor.
+Atualize o cadastro: endereço da propriedade, telefones, e-mail, coordenadas geográficas e via de acesso.
+Lance os nascimentos, as mortes e a evolução das eras, e confira o saldo de cada espécie.
+Envie a declaração e guarde o comprovante.
+A declaração é gratuita. Quem não consegue pela internet pode fazer presencialmente em qualquer Unidade Local da Iagro; os endereços estão no site da agência.
+Dúvida durante a campanha se tira com a própria Iagro. Na etapa de maio de 2026 o atendimento era pelo WhatsApp (67) 99875-3796. O número pode mudar de uma etapa para outra, então confira no site antes de mandar mensagem.
+O que acontece com quem não declara
+GTA bloqueada desde o primeiro dia. A partir do início da campanha a e-GTA fica bloqueada para todas as finalidades, menos abate, até o produtor declarar. Quem tem embarque marcado para o começo de maio ou de novembro declara antes de tudo.
+Exploração bloqueada depois do prazo. Passada a etapa sem declaração, a exploração pecuária fica bloqueada e só é liberada depois da atualização e da aplicação das penalidades.
+Multa. A Iagro cita multa, bloqueio da guia e outras restrições sanitárias para quem não cumpre o prazo. O valor não está nas páginas da campanha: pergunte na Unidade Local.
+Com a guia travada não há venda para recria nem leilão. O caminho completo da guia está em como emitir GTA.
+Prazo, sistema e punição são da Iagro e mudam. Este texto é informativo e não substitui o veterinário nem a defesa agropecuária: confirme a data na Iagro antes de contar com ela. O FINAGRO não envia a declaração à Iagro.
+A declaração de MS e o FINAGRO
+O app não envia a declaração à Iagro: ela é feita por você no e-SANIAGRO ou na Unidade Local.
+A tela "O que vence" lista a declaração de rebanho de Mato Grosso do Sul com as duas etapas, onde declarar e o que acontece com quem não faz.
+Em MS a guia trava no primeiro dia da etapa. Por isso, com o aviso ligado, o app avisa 7 dias antes de a etapa abrir e na véspera, e de novo antes do fim. Ao marcar "Já fiz", o aviso daquela etapa some.
+Cada animal tem ficha e o lote guarda as cabeças, então você abre o e-SANIAGRO com a contagem do rebanho pronta.
+Rebanho contado e etapa da Iagro lembrada antes de abrir.
+Grátis até 1.000 animais com ficha, sem cartão.
+Começar grátis
+Perguntas sobre declaração de rebanho em MS
+Qual o prazo da declaração de rebanho 2026 em MS?
+A regra da Iagro é de 1º a 31 de maio e de 1º a 30 de novembro, com ajuste quando a data cai em feriado ou fim de semana. Em 2026 a primeira etapa foi até segunda-feira, 1º de junho, e já passou. Confirme o último dia da etapa de novembro de 2026 no site da Iagro.
+Onde faço a declaração de rebanho em MS?
+No e-SANIAGRO, pela internet, de graça, ou presencialmente em qualquer Unidade Local da Iagro.
+Posso emitir GTA em MS sem ter declarado o rebanho?
+Durante a campanha, só para abate. A Iagro informa que a e-GTA fica bloqueada para todas as outras finalidades desde o início da etapa, até o produtor declarar e atualizar o cadastro.
+Quem cria só galinha ou porco para consumo precisa declarar em MS?
+Sim. Na etapa de novembro de 2025 a Iagro informou que a obrigação se aplica às aves e aos suínos de subsistência. A dispensa vale só para núcleos comerciais de aves e suínos sem outra espécie na mesma ficha cadastral.
+O FINAGRO faz a declaração de rebanho na Iagro por mim?
+Não. O app não envia nada à Iagro. Ele guarda a contagem do rebanho e lembra o prazo; a declaração é feita por você no e-SANIAGRO.
+Fontes
+Iagro (MS), declarar saldo de rebanho e atualizar cadastro
+Iagro (MS), última semana para a declaração obrigatória de rebanho (26/05/2026)
+Iagro (MS), segunda etapa da campanha de declaração de rebanho (27/10/2025)
+Iagro (MS), prazo para atualização cadastral e declaração de rebanhos
+Veja também
+Declaração de rebanhoComo emitir GTADeclaração de rebanho MTTodos os guiasEm outros estados
+Declaração de rebanho ACDeclaração de rebanho GODeclaração de rebanho MGDeclaração de rebanho MTDeclaração de rebanho PRDeclaração de rebanho RODeclaração de rebanho RSDeclaração de rebanho SPDo mesmo assunto
+Escore corporal bovinoEstação de montaFicha de controle de gadoÍndices zootécnicosPeso do boi pela fita
+Nesta página
+Como a Iagro chama e quem é obrigado
+Prazo da declaração de rebanho em MS em 2026
+Como declarar no e-SANIAGRO, passo a passo
+O que acontece com quem não declara
+A declaração de MS e o FINAGRO
+Perguntas frequentes
+FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
+Grátis até 1.000 animais com ficha
+Lote sem limite de cabeças
+Sem cartão
+Começar grátisBaixar para Android
+
+
+---
+
+## Declaração de rebanho em MT: prazo 2026 no Indea
+Endereço: https://finagro.app/declaracao-de-rebanho-mt
+
+
+FINAGRO
+Guias
+Declaração de rebanho MT
+GuiaGado de corte
+Declaração de rebanho em MT: prazo de 2026 e como comunicar ao Indea
+Como fazer a declaração de rebanho em Mato Grosso?
+Em Mato Grosso a declaração de rebanho se chama atualização de estoque de rebanho e é feita no Indea em duas campanhas: maio e novembro. A de maio de 2026 foi de 1º de maio a 10 de junho. Comunica-se pelo Módulo do Produtor ou numa unidade do Indea. Quem não atualiza fica sem guia de trânsito.
+Atualizado em 09/10/2026
+Como o Indea chama e quem é obrigado
+Quem pesquisa declaração de rebanho em Mato Grosso encontra outro nome: Campanha de Atualização de Estoque de Rebanho, ou comunicação de estoque. O órgão é o Indea (Instituto de Defesa Agropecuária do Estado de Mato Grosso), e as diretrizes estão na Portaria nº 105/2023.
+A regra do instituto diz que a atualização de cadastro é obrigatória depois da suspensão da vacinação contra a febre aftosa, e que ela se faz nessa campanha. Devem atualizar todos os produtores rurais.
+Entram bovinos, bubalinos, suínos, ovinos, caprinos, equinos, muares, asininos, aves, peixes, colmeias e rainhas. O apicultor informa o número de colmeias. Cabe ao produtor atualizar o estoque por morte, nascimento e evolução de faixa etária, de qualquer espécie.
+O prazo dos outros estados está na página geral de declaração de rebanho.
+Prazo da declaração de rebanho em MT em 2026
+CampanhaPeríodo publicado pelo Indea
+Maio de 20261º de maio a 10 de junho de 2026
+NovembroEm 2024, de 1º de novembro até 10 de dezembro. Confirme no Indea a data de 2026
+Página da campanha e notícias do Indea de 01/11/2024 e de outubro de 2025, lidas em 09/10/2026. Confirme no site do Indea o período da campanha de novembro de 2026.
+A campanha de maio de 2026 já passou, e a próxima é a de novembro. Em novembro de 2024 a campanha teve 40 dias, e o aviso do Indea foi direto: não haveria prorrogação do prazo. Em 2025 ela começou outra vez no dia 1º de novembro. Confirme no órgão a data de 2026 e não conte com dia a mais.
+A página da campanha no site do Indea é atualizada a cada etapa, com o período no topo. É lá que se confere a data antes de marcar embarque para novembro ou dezembro.
+Como comunicar o estoque, passo a passo
+Conte os animais de cada espécie e separe mortes, nascimentos e animais que mudaram de faixa etária.
+Entre no Módulo do Produtor, pelo site do Indea, com o seu login e a sua senha.
+Abra a comunicação de estoque da propriedade e informe a quantidade de cada espécie.
+Confira, envie e guarde o comprovante.
+Quem ainda não tem acesso ao Módulo do Produtor preenche o termo de compromisso de uso do sistema, disponível no site do Indea. Depois leva o termo ao instituto para receber login e senha. Vale fazer isso antes de a campanha abrir.
+Sem internet, a comunicação é presencial: em qualquer Unidade Local do Indea ou num Posto Avançado. O site traz as folhas de atualização para bovinos e bubalinos, para aves comerciais e para suínos comerciais. Dúvida se tira na unidade local do município.
+O que acontece com quem não atualiza
+Sem GTA. O produtor que não atualiza o estoque fica impedido de emitir a Guia de Trânsito Animal para movimentar dentro do estado ou para outro estado. A exceção são os animais que vão para abate.
+Multa. A página da campanha de 2026 avisa que a falta de atualização no prazo pode gerar multa de R$ 6.961,41 ao produtor rural.
+Notificação e autuação. Entre os objetivos da campanha está notificar e autuar quem descumpre o prazo de comunicação de estoque.
+A guia para recria, engorda, reprodução, leilão ou exposição só é permitida depois da comunicação de estoque. O caminho da guia está em como emitir GTA, e as vacinas que também seguram a venda, no calendário de vacinação bovina.
+Prazo, multa e sistema são do Indea e mudam. Este texto é informativo e não substitui o veterinário nem a defesa agropecuária: confirme a data no Indea antes de contar com ela. O FINAGRO não envia a comunicação de estoque ao Indea.
+A declaração de MT e o FINAGRO
+O app não envia a declaração ao Indea: a comunicação de estoque é feita por você no Módulo do Produtor ou na unidade local.
+A tela "O que vence" lista a atualização de estoque de Mato Grosso com as duas campanhas, onde comunicar e o que acontece com quem não faz.
+O app pode avisar no celular 7 dias antes do fim da campanha e na véspera. Ao marcar "Já fiz", o aviso daquela etapa some.
+Cada animal tem ficha, com nascimento anotado, e o lote guarda as cabeças, então o estoque de cada espécie chega pronto ao Módulo do Produtor.
+Estoque contado e a campanha do Indea lembrada antes de vencer.
+Grátis até 1.000 animais com ficha, sem cartão.
+Começar grátis
+Perguntas sobre declaração de rebanho em MT
+Qual o prazo da declaração de rebanho 2026 em MT?
+A campanha de maio de 2026 foi de 1º de maio a 10 de junho de 2026 e já passou. A de novembro de 2024 foi de 1º de novembro até 10 de dezembro. Confirme o período de novembro de 2026 no site do Indea.
+Onde faço a declaração de rebanho em Mato Grosso?
+Pela internet, no Módulo do Produtor, ou presencialmente em qualquer Unidade Local do Indea ou Posto Avançado.
+Qual a multa para quem não atualiza o rebanho no Indea?
+A página da campanha de 2026 informa que a falta de atualização no prazo pode gerar multa de R$ 6.961,41 ao produtor rural.
+Posso emitir GTA em MT sem atualizar o estoque?
+Só para abate. Para as outras finalidades, a guia só é permitida depois da comunicação de estoque do rebanho ao Indea.
+O FINAGRO envia a declaração ao Indea?
+Não. O app não envia nada ao Indea. Ele guarda a contagem do rebanho e lembra o prazo; a comunicação de estoque é feita por você no Módulo do Produtor.
+Fontes
+Indea-MT, Campanha de Atualização de Estoque de Rebanho
+Indea-MT, produtor que não atualizar o estoque fica impedido de emitir GTA
+Indea-MT, campanha de atualização de estoque de rebanhos de novembro de 2024 (01/11/2024)
+Indea-MT, campanha de atualização de estoque de rebanhos começa dia 1º de novembro (outubro de 2025)
+Indea-MT, cadastramento pecuário
+Veja também
+Declaração de rebanhoComo emitir GTADeclaração de rebanho MSTodos os guiasEm outros estados
+Declaração de rebanho ACDeclaração de rebanho GODeclaração de rebanho MGDeclaração de rebanho MSDeclaração de rebanho PRDeclaração de rebanho RODeclaração de rebanho RSDeclaração de rebanho SPDo mesmo assunto
+Escore corporal bovinoEstação de montaFicha de controle de gadoÍndices zootécnicosPeso do boi pela fita
+Nesta página
+Como o Indea chama e quem é obrigado
+Prazo da declaração de rebanho em MT em 2026
+Como comunicar o estoque, passo a passo
+O que acontece com quem não atualiza
+A declaração de MT e o FINAGRO
+Perguntas frequentes
+FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
+Grátis até 1.000 animais com ficha
+Lote sem limite de cabeças
+Sem cartão
+Começar grátisBaixar para Android
+
+
+---
+
+## Declaração de rebanho no PR: prazo 2026 na Adapar
+Endereço: https://finagro.app/declaracao-de-rebanho-pr
+
+
+FINAGRO
+Guias
+Declaração de rebanho PR
+GuiaGado de corte
+Declaração de rebanho no PR: prazo de 2026 e como atualizar na Adapar
+Como fazer a declaração de rebanho no Paraná?
+No Paraná a declaração se chama atualização do cadastro do rebanho e acontece em etapa única, de 1º de maio a 30 de junho. É obrigatória para quem tem animal de produção de qualquer espécie. Faz-se pela internet, no aplicativo Paraná Agro ou numa unidade da Adapar. A guia de trânsito só sai com todas as espécies atualizadas.
+Atualizado em 09/10/2026
+Como a Adapar chama e quem é obrigado
+Quem pesquisa declaração de rebanho no Paraná encontra o serviço com outro nome: atualização do cadastro do rebanho. Ela é feita na Campanha de Atualização de Rebanhos. O órgão é a Adapar (Agência de Defesa Agropecuária do Paraná).
+A atualização é obrigatória para todo produtor rural com animais de produção de qualquer espécie sob sua guarda. A campanha cobre todos os animais da propriedade: bois, búfalos, cabras, ovelhas, suínos, cavalos, jumentos, mulas, abelhas, galinhas e peixes.
+Quem tem meia dúzia de galinhas e dois cavalos junto com o gado atualiza as três espécies. É esse detalhe que mais segura guia no estado, como se vê adiante. O que os outros estados pedem está na página geral de declaração de rebanho.
+Prazo da declaração de rebanho no PR em 2026
+EtapaPeríodoEm 2026
+Etapa única1º de maio a 30 de junhoComeçou na sexta-feira, 1º de maio, e seguiu até 30 de junho
+Página do serviço e notícia da Adapar sobre a campanha de 2026, lidas em 09/10/2026.
+O Paraná tem uma campanha só por ano, diferente dos estados vizinhos que declaram em maio e em novembro. Quem compra gado de São Paulo ou de Mato Grosso do Sul precisa olhar o calendário dos dois lados.
+A campanha de 2026 já terminou. Quem ficou com espécie pendente procura a unidade local da Adapar para regularizar, porque a pendência continua travando a guia depois de junho. A data de 2027 se confirma no site da Adapar perto de maio.
+Como atualizar o rebanho pela internet
+Conte os animais de cada espécie que existe na propriedade.
+Entre no site da Adapar ou no aplicativo Paraná Agro. No primeiro acesso, faça o cadastro: informe o CPF e siga o passo a passo para criar login e senha.
+Selecione a propriedade que aparece com pendência de comprovação de rebanho.
+Escolha a espécie, preencha os dados pedidos e clique em Comprovar.
+Repita para cada espécie com pendência, até não sobrar nenhuma.
+Pela internet a atualização é imediata: terminou de comprovar, o cadastro já está em dia.
+Quem prefere fazer pessoalmente vai a um escritório da Adapar, a um sindicato rural ou à unidade de atendimento do município, na prefeitura. Lá pede o formulário de atualização, preenche, assina e devolve na mesma unidade. Nesse caso o prazo para o cadastro ficar atualizado varia, então não deixe o formulário para a véspera de um embarque.
+Dúvida sobre a campanha se tira na unidade local da Adapar que atende o município da propriedade.
+O que acontece com quem não atualiza
+GTA só com todas as espécies. A guia de trânsito somente é emitida depois da atualização de todas as espécies animais existentes na propriedade. Um cavalo sem comprovar segura a guia do lote de boi.
+Sem guia, sem venda. A Adapar lembra que sem o documento não há trânsito entre propriedades nem transporte até o abatedouro, o que impede o comércio.
+Autuação e multa. A agência cita autuações e multas para quem movimenta sem estar em dia. O valor não está nas páginas da campanha: pergunte na unidade local.
+O caminho da guia no estado, pelo sistema e-GTA, está em como emitir GTA. As vacinas que também seguram a venda estão no calendário de vacinação bovina.
+Prazo, sistema e punição são da Adapar e mudam. Este texto é informativo e não substitui o veterinário nem a defesa agropecuária: confirme a data na Adapar antes de contar com ela. O FINAGRO não envia a atualização do rebanho à Adapar.
+A declaração do PR e o FINAGRO
+O app não envia a declaração à Adapar: a atualização é feita por você no site, no aplicativo Paraná Agro ou na unidade local.
+A tela "O que vence" lista a atualização do rebanho do Paraná com o período, onde fazer e o que acontece com quem não faz.
+O app pode avisar no celular 7 dias antes do fim da campanha e na véspera. Ao marcar "Já fiz", o aviso daquela etapa some.
+Cada animal tem ficha e o lote guarda as cabeças, de galpão e tanque também, então a contagem de cada espécie está pronta na hora de comprovar.
+Todas as espécies contadas e a campanha da Adapar lembrada.
+Grátis até 1.000 animais com ficha, sem cartão.
+Começar grátis
+Perguntas sobre declaração de rebanho no PR
+Qual o prazo da declaração de rebanho 2026 no PR?
+A campanha da Adapar é em etapa única, de 1º de maio a 30 de junho. Em 2026 ela começou na sexta-feira, 1º de maio, e seguiu até 30 de junho.
+Onde faço a declaração de rebanho no Paraná?
+Pela internet, no site da Adapar ou no aplicativo Paraná Agro, ou pessoalmente numa unidade local da Adapar, num sindicato rural ou no escritório de atendimento do município.
+Preciso atualizar galinha, cavalo e peixe também?
+Sim. A campanha cobre todos os animais da propriedade, e a guia de trânsito só é emitida depois da atualização de todas as espécies existentes nela.
+Perdi o prazo da atualização do rebanho no PR, e agora?
+Quem não atualiza fica impedido de emitir a GTA. Procure a unidade local da Adapar para regularizar o cadastro antes de marcar qualquer embarque.
+O FINAGRO envia a atualização do rebanho à Adapar?
+Não. O app não envia nada à Adapar. Ele guarda a contagem do rebanho e lembra o prazo; a atualização é feita por você no sistema da Adapar.
+Fontes
+Adapar (PR), atualizar cadastro do rebanho
+Adapar (PR), início da Campanha de Atualização de Rebanhos 2026
+Veja também
+Declaração de rebanhoComo emitir GTADeclaração de rebanho SPTodos os guiasEm outros estados
+Declaração de rebanho ACDeclaração de rebanho GODeclaração de rebanho MGDeclaração de rebanho MSDeclaração de rebanho MTDeclaração de rebanho RODeclaração de rebanho RSDeclaração de rebanho SPDo mesmo assunto
+Escore corporal bovinoEstação de montaFicha de controle de gadoÍndices zootécnicosPeso do boi pela fita
+Nesta página
+Como a Adapar chama e quem é obrigado
+Prazo da declaração de rebanho no PR em 2026
+Como atualizar o rebanho pela internet
+O que acontece com quem não atualiza
+A declaração do PR e o FINAGRO
+Perguntas frequentes
+FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
+Grátis até 1.000 animais com ficha
+Lote sem limite de cabeças
+Sem cartão
+Começar grátisBaixar para Android
+
+
+---
+
+## Declaração de rebanho em Rondônia: etapas e Idaron
+Endereço: https://finagro.app/declaracao-de-rebanho-ro
+
+
+FINAGRO
+Guias
+Declaração de rebanho RO
+GuiaGado de corte
+Declaração de rebanho em Rondônia: a regra e como declarar na Idaron
+Como fazer a declaração de rebanho em Rondônia?
+Em Rondônia a declaração de rebanhos é obrigatória para todas as propriedades, pelo Decreto 25.105, de 2020, e o calendário de cada ano é da Idaron. Em 2024 a etapa de novembro foi de 1º a 30. Em 2025 a de maio encerrou dia 31. Confirme na Idaron a data de 2026. Sem declarar, a guia de trânsito não sai.
+Atualizado em 09/10/2026
+A regra de Rondônia e quem é obrigado
+A regra permanente é o Decreto nº 25.105, de 1º de junho de 2020. Ele torna a declaração de rebanho obrigatória para todas as propriedades do estado. Quem cuida é a Idaron (Agência de Defesa Sanitária Agrosilvopastoril do Estado de Rondônia), que trata a declaração como atualização cadastral dos animais de produção.
+Pelo decreto, declara-se todo o rebanho das espécies suscetíveis à febre aftosa: bovinos, bubalinos, ovinos, caprinos e suínos. Vale para qualquer idade e sexo, inclusive os animais que vão para o abate.
+A notícia mais recente do governo sobre a campanha, de maio de 2025, põe na lista dos obrigados também os criadores de equídeos e de aves. Se você cria só cavalo ou galinha, confirme na unidade da Idaron.
+A agência explica o motivo: a declaração sustenta os status sanitários que o estado já tem. Entre eles estão o de livre de febre aftosa sem vacinação e o de livre de peste suína clássica.
+O prazo dos outros estados está na página geral de declaração de rebanho.
+Prazo da declaração de rebanho em Rondônia
+O decreto não traz as datas. Ele manda o presidente da Idaron definir, por ato próprio, os prazos e as condições de cada campanha. O calendário oficial do ano tem de sair até 31 de janeiro.
+EtapaÚltima data publicada
+MaioEm 2025, encerrou no dia 31 de maio
+NovembroEm 2024, de 1º a 30 de novembro
+Notícias do portal do Governo de Rondônia de 20/05/2025 e de 03/12/2024, lidas em 09/10/2026. Confirme no órgão a data de 2026.
+O governo informa que a declaração é feita em duas etapas anuais, em maio e em novembro. Maio de 2026 já passou, e a próxima etapa é a de novembro. As datas da tabela são de 2024 e de 2025: confirme no órgão a data de 2026 antes de contar com ela.
+Quem tem venda ou transferência marcada para o começo de novembro declara logo na abertura da etapa. Deixar para o fim é arriscar a guia do embarque.
+Como declarar na Idaron, passo a passo
+Conte os animais de cada espécie que você cria e separe os nascimentos e as mortes desde a última etapa.
+Anote a produção de leite, a suplementação e, se tiver, os dados de abelhas, peixes e frutas que a Idaron pergunta.
+Entre no site da Idaron e acesse a declaração de rebanhos com o seu cadastro de produtor.
+Informe os animais de cada espécie e responda às perguntas de produção.
+Envie e guarde o comprovante da declaração.
+A cada etapa a agência levanta outras informações da propriedade: produção de leite, suplementação animal, abelhas, peixes e alguns tipos de frutas, como cacau e banana. Vale ter esses números à mão.
+O decreto prevê as duas formas: nas unidades da Idaron ou pelos canais de autoatendimento online. Quem não tem acesso à internet declara na unidade local do município, que é também onde se tira dúvida.
+O mesmo cadastro vale para a guia. Para emitir a GTA pela internet, o produtor e as propriedades de origem e de destino precisam estar cadastrados no sistema online da Idaron. O caminho está em como emitir GTA.
+O que acontece com quem não declara
+Inadimplente. Pelo decreto, quem descumpre a obrigação é considerado inadimplente por não declaração.
+GTA impedida. Quem deixa de declarar fica impedido de emitir a Guia de Trânsito Animal até atualizar a situação cadastral na Idaron.
+Advertência. Na etapa de novembro de 2024, o governo informou que os criadores que não declararam no período seriam advertidos.
+Regularização só presencial. Passada a etapa, o produtor só volta a emitir a guia e outros documentos sanitários depois de regularizar o cadastro. Isso só pode ser feito presencialmente, nas unidades locais da agência.
+Ou seja, o site resolve durante a etapa. Depois dela, é viagem até a unidade. A Idaron não publica o valor da multa nas páginas da campanha: pergunte na unidade local.
+A vacina de brucelose das bezerras é outra pendência que costuma segurar a venda. Veja o calendário de vacinação bovina.
+Prazo, sistema e punição são da Idaron e mudam. Este texto é informativo e não substitui o veterinário nem a defesa agropecuária: confirme a data da etapa de 2026 na Idaron antes de contar com ela. O FINAGRO não envia a declaração à Idaron.
+A declaração de Rondônia e o FINAGRO
+O app não envia a declaração à Idaron: ela é feita por você no site da agência ou na unidade local.
+A tela "O que vence" lista a declaração de rebanho de Rondônia com as duas etapas, onde declarar e o que acontece com quem não faz.
+Com o aviso ligado, o app avisa 7 dias antes de a etapa abrir e na véspera, e de novo antes do fim. Ao marcar "Já fiz", o aviso daquela etapa some.
+Cada animal tem ficha e o lote guarda as cabeças, e a produção de leite fica registrada, então os números que a Idaron pede estão à mão.
+Rebanho contado e etapa da Idaron lembrada antes de abrir.
+Grátis até 1.000 animais com ficha, sem cartão.
+Começar grátis
+Perguntas sobre declaração de rebanho em Rondônia
+Quando é a declaração de rebanho em Rondônia?
+Em duas etapas por ano, em maio e em novembro, com calendário definido pela Idaron. Em 2025 a etapa de maio encerrou no dia 31. Em 2024 a de novembro foi de 1º a 30. Confirme na Idaron a data de 2026.
+Onde faço a declaração de rebanho em Rondônia?
+Pelo site da Idaron, sem precisar ir à unidade, ou presencialmente na unidade local da agência. O Decreto 25.105, de 2020, prevê as duas formas.
+Quem não declara o rebanho em Rondônia pode emitir GTA?
+Não. Quem deixa de declarar fica impedido de emitir a guia até atualizar a situação cadastral na Idaron.
+Perdi o prazo da declaração de rebanho em Rondônia, e agora?
+Depois da etapa a regularização só pode ser feita presencialmente, numa unidade local da Idaron. Até lá a guia de trânsito não sai.
+O FINAGRO envia a declaração à Idaron?
+Não. O app não envia nada à Idaron. Ele guarda a contagem do rebanho e lembra a etapa; a declaração é feita por você no site da agência.
+Fontes
+Governo de Rondônia, Decreto nº 25.105, de 1º/06/2020 (declaração de rebanho obrigatória)
+Governo de Rondônia, notícia sobre o Decreto nº 25.105 (07/06/2020)
+Governo de Rondônia, sistema online de declaração de rebanhos (20/05/2025)
+Governo de Rondônia, encerramento da etapa de novembro de 2024 (03/12/2024)
+Governo de Rondônia, GTA online da Idaron
+Veja também
+Declaração de rebanhoComo emitir GTADeclaração de rebanho ACTodos os guiasEm outros estados
+Declaração de rebanho ACDeclaração de rebanho GODeclaração de rebanho MGDeclaração de rebanho MSDeclaração de rebanho MTDeclaração de rebanho PRDeclaração de rebanho RSDeclaração de rebanho SPDo mesmo assunto
+Escore corporal bovinoEstação de montaFicha de controle de gadoÍndices zootécnicosPeso do boi pela fita
+Nesta página
+A regra de Rondônia e quem é obrigado
+Prazo da declaração de rebanho em Rondônia
+Como declarar na Idaron, passo a passo
+O que acontece com quem não declara
+A declaração de Rondônia e o FINAGRO
+Perguntas frequentes
+FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
+Grátis até 1.000 animais com ficha
+Lote sem limite de cabeças
+Sem cartão
+Começar grátisBaixar para Android
+
+
+---
+
+## Declaração de rebanho no RS: prazo 2026 e como fazer
+Endereço: https://finagro.app/declaracao-de-rebanho-rs
+
+
+FINAGRO
+Guias
+Declaração de rebanho RS
+GuiaGado de corte
+Declaração de rebanho no RS: prazo de 2026 e o passo a passo
+Como fazer a declaração de rebanho no Rio Grande do Sul?
+No Rio Grande do Sul a Declaração Anual de Rebanho é obrigatória para todo produtor que tem animais. Em 2026 o prazo foi de 1º de abril a 30 de junho, prorrogado até 10 de julho. Ela é entregue pela internet, no Produtor Online, ou na Inspetoria de Defesa Agropecuária. Quem não entrega pode ter a movimentação de animais bloqueada.
+Atualizado em 09/10/2026
+Como o RS chama e quem é obrigado
+O nome oficial é Declaração Anual de Rebanho. Quem recebe é a Seapi (Secretaria da Agricultura, Pecuária, Produção Sustentável e Irrigação), pelo serviço de defesa agropecuária. A página da secretaria aponta a Instrução Normativa 01 de 2025 como a norma da declaração.
+Todos os produtores rurais do estado que possuem animais são obrigados a declarar. A declaração gaúcha pede mais do que a contagem. Tem uma etapa de atualização cadastral do produtor e as informações gerais da propriedade. Para cada espécie criada, pede o saldo e a infraestrutura. Entram equinos, suínos, bovinos, aves, peixes, abelhas e as demais espécies do estabelecimento.
+A secretaria diz para que usa os dados: saber mais sobre a infraestrutura, os controles sanitários e os saldos dos rebanhos nas propriedades do estado. O que os outros estados pedem está na página geral de declaração de rebanho.
+Prazo da declaração de rebanho no RS em 2026
+AnoPeríodoProrrogação
+20261º de abril a 30 de junhoAté 10 de julho de 2026
+Páginas da Secretaria da Agricultura do RS, lidas em 09/10/2026.
+O Rio Grande do Sul declara uma vez por ano e começa antes dos outros estados, em abril. São três meses de prazo, e ainda assim a secretaria prorrogou em 2026.
+O prazo de 2026 já passou. Quem não entregou procura a Inspetoria ou o Escritório de Defesa Agropecuária do município para regularizar. O período de 2027 se confirma no site da secretaria no começo do ano.
+Passo a passo no Produtor Online
+Conte os animais por espécie e separe nascimentos, mortes e consumo próprio desde a última declaração.
+Acesse produtoronline.rs.gov.br e entre com o CPF e a senha do Produtor Online. Também dá para entrar com a conta Gov.br.
+No menu, abra o item Declaração de Rebanho.
+Escolha a propriedade que vai declarar e clique em Ver Declarações. Depois, em Nova Declaração.
+Preencha cada item: produtor, dados da propriedade, endereço e localização, características da área, infraestrutura, saldo das espécies e raças, exploração predominante. Em cada um, confira, confirme e salve.
+Com todos os itens preenchidos, clique em Finalizar a Declaração Anual e aguarde a mensagem de declaração concluída.
+O item de saldo é diferente dos outros: nele dá para alterar o número de animais lançando nascimentos, mortes, consumo próprio, evolução de idade e roubo. É onde o seu controle do ano inteiro faz diferença.
+Quem prefere o atendimento presencial vai à Inspetoria ou ao Escritório de Defesa Agropecuária. Lá entrega os formulários em PDF já preenchidos ou informa os dados verbalmente, com a ajuda dos servidores, e assina com a senha do Produtor Online. É lá também que se tira dúvida.
+O que acontece com quem não entrega
+A secretaria trata a declaração como obrigação sanitária legal e cita, como sanção para quem não cumpre, o bloqueio da movimentação de animais. Na prática, sem movimentação não há guia de trânsito, e sem guia não há venda, leilão nem transferência entre propriedades.
+As páginas da secretaria não trazem valor de multa. Pergunte na Inspetoria do município.
+O caminho da guia no estado, também pelo Produtor Online, está em como emitir GTA. As vacinas que seguram a venda estão no calendário de vacinação bovina.
+Prazo, sistema e punição são da Secretaria da Agricultura do RS e mudam. Este texto é informativo e não substitui o veterinário nem a defesa agropecuária: confirme a data na secretaria antes de contar com ela. O FINAGRO não envia a declaração ao Produtor Online.
+A declaração do RS e o FINAGRO
+O app não envia a declaração à Secretaria da Agricultura: ela é feita por você no Produtor Online ou na Inspetoria.
+A tela "O que vence" lista a declaração anual de rebanho do Rio Grande do Sul com o período, onde entregar e o que acontece com quem não faz.
+O app pode avisar no celular 7 dias antes do fim do prazo e na véspera. Ao marcar "Já fiz", o aviso some.
+Cada animal tem ficha, com nascimento anotado, e o lote guarda as cabeças, então o saldo de cada espécie chega pronto ao Produtor Online.
+Saldo do rebanho pronto e a declaração anual lembrada.
+Grátis até 1.000 animais com ficha, sem cartão.
+Começar grátis
+Perguntas sobre declaração de rebanho no RS
+Qual o prazo da declaração de rebanho 2026 no RS?
+O prazo de 2026 foi de 1º de abril a 30 de junho e a secretaria prorrogou a entrega até 10 de julho de 2026.
+Onde faço a declaração de rebanho no RS?
+Pela internet, no SDA Produtor Online, em produtoronline.rs.gov.br, ou presencialmente na Inspetoria ou no Escritório de Defesa Agropecuária do município.
+Preciso de senha para declarar no Produtor Online?
+Sim. O acesso é com o CPF e a senha do Produtor Online, ou com a conta Gov.br.
+Quem não entrega a declaração de rebanho no RS pode vender gado?
+A secretaria cita o bloqueio da movimentação de animais como sanção para quem não declara. Sem movimentação liberada, a venda fica parada até regularizar.
+O FINAGRO envia a declaração ao Produtor Online?
+Não. O app não envia nada à secretaria. Ele guarda a contagem do rebanho e lembra o prazo; a declaração é feita por você no Produtor Online.
+Fontes
+Secretaria da Agricultura do RS, Declaração Anual de Rebanho
+Secretaria da Agricultura do RS, Epidemiologia e Estatística
+Secretaria da Agricultura do RS, manual de acesso à declaração de rebanho digital
+Secretaria da Agricultura do RS, produtores têm 20 dias para entregar a declaração
+Veja também
+Declaração de rebanhoComo emitir GTADeclaração de rebanho PRTodos os guiasEm outros estados
+Declaração de rebanho ACDeclaração de rebanho GODeclaração de rebanho MGDeclaração de rebanho MSDeclaração de rebanho MTDeclaração de rebanho PRDeclaração de rebanho RODeclaração de rebanho SPDo mesmo assunto
+Escore corporal bovinoEstação de montaFicha de controle de gadoÍndices zootécnicosPeso do boi pela fita
+Nesta página
+Como o RS chama e quem é obrigado
+Prazo da declaração de rebanho no RS em 2026
+Passo a passo no Produtor Online
+O que acontece com quem não entrega
+A declaração do RS e o FINAGRO
+Perguntas frequentes
+FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
+Grátis até 1.000 animais com ficha
+Lote sem limite de cabeças
+Sem cartão
+Começar grátisBaixar para Android
+
+
+---
+
+## Declaração de rebanho em SP: etapas, GEDAVE e taxa
+Endereço: https://finagro.app/declaracao-de-rebanho-sp
+
+
+FINAGRO
+Guias
+Declaração de rebanho SP
+GuiaGado de corte
+Declaração de rebanho em SP: etapas, GEDAVE e a taxa dos bovinos
+Como fazer a declaração de rebanho em São Paulo?
+Em São Paulo a atualização do rebanho é obrigatória em duas etapas por ano. A Resolução SAA 28, de 2024, fixa de 1º de maio a 7 de junho e de 1º de novembro a 7 de dezembro. É feita no GEDAVE, com a senha do produtor. Durante a etapa, a guia só sai com o rebanho atualizado.
+Atualizado em 09/10/2026
+Como São Paulo chama e quem é obrigado
+O nome oficial é declaração de atualização do rebanho, e a campanha é a Campanha de Atualização de Rebanhos. Quem cuida é a Defesa Agropecuária do Estado, pela Coordenadoria de Defesa Agropecuária (CDA), com base na Resolução SAA nº 28, de 2024.
+A obrigação é de quem tem os animais sob sua guarda: proprietário, depositário ou detentor a qualquer título, ou o representante legal. Ela é compulsória e vale mesmo quando o número de animais não mudou desde a última etapa.
+Entram bovinos, bubalinos, aves, suínos, caprinos, ovinos, equinos, asininos, muares, abelhas e animais aquáticos. O que os outros estados pedem está na página geral de declaração de rebanho.
+Prazo da declaração de rebanho em SP
+EtapaPeríodo da Resolução SAA 28/2024
+1ª etapa1º de maio a 7 de junho
+2ª etapa1º de novembro a 7 de dezembro
+Resolução SAA nº 28, de 08/04/2024, lida em 09/10/2026 no site da Defesa Agropecuária.
+Esse é o período da norma de 2024. A mesma resolução deixa a CDA prorrogar ou antecipar a campanha. A 1ª etapa de 2026 já passou. A 2ª é a próxima: confirme a data de 2026 na Defesa Agropecuária, pelo GEDAVE ou na CDA Regional, antes de marcar embarque.
+Fora das campanhas também dá para atualizar o rebanho, por requerimento à CDA Regional do município da propriedade.
+Como atualizar o rebanho no GEDAVE
+Conte os animais por espécie, sexo e faixa etária. Separe os nascimentos, as mortes, o consumo e os animais que mudaram de idade.
+Entre no GEDAVE (Sistema de Gestão de Defesa Animal e Vegetal) com a sua senha pessoal de produtor.
+Abra a atualização do rebanho da propriedade e informe o saldo de cada espécie, mesmo que nada tenha mudado.
+Quem tem bovinos ou bubalinos emite o DARE da taxa no próprio sistema e paga dentro da validade, que é de 7 dias corridos.
+Guarde o comprovante da declaração e do pagamento.
+Sem acesso à internet, a declaração pode ser feita em formulário, no modelo que está no site da CDA, em duas vias assinadas. Durante a campanha ele é entregue em qualquer CDA Regional ou enviado ao e-mail da CDA Regional do município da propriedade. Dúvida se tira na mesma CDA Regional.
+Depois que o prazo termina, o sistema deixa de servir para regularizar: a comprovação só é aceita pelo formulário, entregue na CDA Regional ou enviado ao e-mail dela.
+A taxa dos bovinos e bubalinos desde 2026
+A Resolução SAA nº 27, de 2026, ligou a declaração a uma taxa de vigilância destinada ao fundo de sanidade animal do estado. Ela é calculada pelo número de bovinos e bubalinos que constam no cadastro do produtor. O pagamento é por DARE (Documento de Arrecadação de Receitas Estaduais), emitido no ato da declaração.
+O valor depende do saldo de cada produtor. A resolução não repete o valor por cabeça: manda calcular conforme a Lei nº 18.077, de 2024. O total a pagar aparece no DARE. Nascimento registrado depois da declaração ou correção que aumenta o saldo gera um DARE complementar.
+O que acontece com quem não declara
+GTA condicionada durante a etapa. A guia, para qualquer finalidade, só sai com o rebanho daquela espécie atualizado na origem e no destino. Bovinos e bubalinos contam juntos: os dois precisam estar atualizados para mover qualquer um.
+GTA de bovinos suspensa no começo. Pela resolução de 2026, a guia de bovinos e bubalinos fica suspensa no início dos períodos oficiais e só volta depois da declaração e do pagamento da taxa.
+Cobrança sem declaração. Quem deixa passar o prazo recebe o DARE emitido pela Defesa, com notificação, e continua obrigado a declarar em 30 dias contados da notificação.
+Multa e propriedade parada. O folheto que a Defesa publicou em 30/04/2024 diz que, depois da etapa, a movimentação de toda a propriedade fica suspensa. Ele cita multa de 100 UFESP para quem deixa de prestar informações. Confirme na CDA Regional o que vale em 2026.
+Sem a guia não há venda nem transferência. Veja o caminho em como emitir GTA e as vacinas que também travam a guia no calendário de vacinação bovina.
+Prazo, taxa e punição são da Defesa Agropecuária de São Paulo e mudam. Este texto é informativo e não substitui o veterinário nem a defesa agropecuária: confirme a data da etapa no GEDAVE. O FINAGRO não envia a declaração ao GEDAVE.
+A declaração de SP e o FINAGRO
+O app não envia a declaração à Defesa Agropecuária: ela é feita por você no GEDAVE.
+A tela "O que vence" lista a declaração de rebanho de São Paulo com as etapas, onde declarar e o que acontece com quem não faz.
+Em SP a guia depende da declaração desde o começo da etapa. Por isso, com o aviso ligado, o app avisa 7 dias antes de a etapa abrir e na véspera, e de novo antes do fim. Ao marcar "Já fiz", o aviso daquela etapa some.
+Cada animal tem ficha e o lote guarda as cabeças, então você abre o GEDAVE com a contagem do rebanho pronta.
+Rebanho contado e etapa do GEDAVE lembrada antes de abrir.
+Grátis até 1.000 animais com ficha, sem cartão.
+Começar grátis
+Perguntas sobre declaração de rebanho em SP
+Qual o prazo da declaração de rebanho 2026 em SP?
+A Resolução SAA 28, de 2024, fixa duas etapas por ano: de 1º de maio a 7 de junho e de 1º de novembro a 7 de dezembro. A 1ª etapa de 2026 já passou. A Defesa pode prorrogar ou antecipar, então confirme a data da 2ª etapa de 2026 no GEDAVE ou na CDA Regional.
+Onde faço a declaração de rebanho em SP?
+No GEDAVE, com a senha pessoal do produtor. Sem internet, por formulário entregue em qualquer CDA Regional ou enviado ao e-mail da CDA Regional do município da propriedade.
+Preciso declarar se o rebanho não mudou?
+Sim. A resolução diz que a atualização deve ser feita mesmo que não tenha ocorrido alteração no número de animais.
+Tem taxa para declarar o rebanho em SP?
+Para bovinos e bubalinos, sim, desde a Resolução SAA 27, de 2026. A taxa é calculada pelo saldo do cadastro e paga por DARE, que vale 7 dias corridos. A resolução manda calcular pela Lei 18.077, de 2024, e o total aparece no DARE.
+O FINAGRO envia a declaração ao GEDAVE?
+Não. O app não envia nada à Defesa Agropecuária. Ele guarda a contagem do rebanho e lembra a etapa; a declaração é feita por você no GEDAVE.
+Fontes
+Defesa Agropecuária de São Paulo, Resolução SAA nº 28, de 08/04/2024
+Defesa Agropecuária de São Paulo, Resolução SAA nº 27, de 29/04/2026
+Defesa Agropecuária de São Paulo, folheto da Campanha de Atualização dos Rebanhos (30/04/2024)
+Veja também
+Declaração de rebanhoComo emitir GTADeclaração de rebanho PRTodos os guiasEm outros estados
+Declaração de rebanho ACDeclaração de rebanho GODeclaração de rebanho MGDeclaração de rebanho MSDeclaração de rebanho MTDeclaração de rebanho PRDeclaração de rebanho RODeclaração de rebanho RSDo mesmo assunto
+Escore corporal bovinoEstação de montaFicha de controle de gadoÍndices zootécnicosPeso do boi pela fita
+Nesta página
+Como São Paulo chama e quem é obrigado
+Prazo da declaração de rebanho em SP
+Como atualizar o rebanho no GEDAVE
+A taxa dos bovinos e bubalinos desde 2026
+O que acontece com quem não declara
+A declaração de SP e o FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
 Grátis até 1.000 animais com ficha
@@ -2706,7 +3464,7 @@ Adapar (PR), vacinação contra raiva no Oeste
 Embrapa Gado de Corte, cronograma sanitário e reprodutivo para bovinos de corte
 Veja também
 Como emitir GTADeclaração de rebanhoRastreabilidade bovinaTodos os guiasDo mesmo assunto
-Confinamento de gadoContrato e recibo de gadoCria, recria e engordaCusto da arroba produzidaEscore corporal bovino
+Confinamento de gadoContrato e recibo de gadoCria, recria e engordaCusto da arroba produzidaDeclaração de rebanho AC
 Nesta página
 O calendário em uma tabela
 Brucelose: a vacina obrigatória do PNCEBT
@@ -3679,7 +4437,7 @@ GuiaDinheiro e imposto
 Inscrição estadual de produtor rural: como tirar e consultar, por estado
 Como tirar a inscrição estadual de produtor rural?
 A inscrição estadual de produtor rural é pedida na Secretaria da Fazenda do estado onde fica a terra. Em Minas Gerais o pedido é pelo SIARE, em São Paulo pelo Portal da Redesim, em Mato Grosso pelo e-Process e no Rio Grande do Sul na prefeitura conveniada. No Paraná o cadastro é o CAD/PRO. A situação se consulta pelo Sintegra.
-Atualizado em 08/10/2026
+Atualizado em 09/10/2026
 O que é a inscrição estadual de produtor rural
 A inscrição estadual é o número do produtor no cadastro de contribuintes da Secretaria da Fazenda do estado. É com ela que o estado sabe quem está vendendo boi, leite, grão ou hortaliça, e é ela que vai impressa na nota fiscal da venda. Costuma aparecer abreviada como IE.
 Ela é do estado, e não do governo federal. Cada Secretaria tem o seu cadastro, com nome próprio: em Minas Gerais é o Cadastro de Produtor Rural Pessoa Física, no Paraná é o CAD/PRO, em Mato Grosso do Sul é o CAP, o Cadastro da Agropecuária. O nome muda, a função é a mesma.
@@ -3692,14 +4450,14 @@ Identificar quem vende: é pelo número da inscrição que a Fazenda do estado r
 A nota e a guia de trânsito andam juntas na venda de gado. Se você ainda não emite a guia, veja como emitir GTA.
 Como tirar a inscrição estadual: o caminho geral
 O passo a passo é de cada estado, mas a ordem costuma ser esta:
-Ache a página do cadastro de produtor rural no site da Secretaria da Fazenda do seu estado. A tabela abaixo traz oito delas.
+Ache a página do cadastro de produtor rural no site da Secretaria da Fazenda do seu estado. A tabela abaixo traz doze delas.
 Separe os documentos pessoais e os da terra. Em Goiás, por exemplo, a Fazenda pede o comprovante do cadastro do imóvel na Receita Federal, que pode ser o recibo da declaração do ITR, e um documento que comprove o domínio do imóvel.
 Se a terra não é sua, tenha o contrato em mãos. Em São Paulo, quem produz em propriedade alheia pode ter de apresentar o contrato ou a declaração de permissão de uso do imóvel. Veja o modelo de contrato de arrendamento rural.
 Faça o pedido pelo canal do estado: sistema na internet, portal ou unidade de atendimento.
 Guarde o número e o comprovante. Você vai usar toda vez que emitir nota.
 Em Goiás, quando falta o registro da escritura no cartório de registro de imóveis, a inscrição é concedida na condição de posseiro. Cada estado trata esses casos do seu jeito: leia a página oficial antes de sair de casa.
 Inscrição estadual de produtor rural por estado
-Cada linha abaixo foi conferida na página da Secretaria da Fazenda do próprio estado, em 08 de outubro de 2026:
+Cada linha abaixo foi conferida na página da Secretaria da Fazenda do próprio estado, em 08 e 09 de outubro de 2026:
 EstadoNome do cadastroOnde pedir
 Minas GeraisCadastro de Produtor Rural Pessoa FísicaInternet, no sistema SIARE, ou unidade da SEF-MG
 São PauloInscrição Estadual (IE)Portal da Redesim
@@ -3709,6 +4467,10 @@ Mato Grosso do SulCAP, o Cadastro da AgropecuáriaCAP, na Sefaz-MS
 Mato GrossoInscrição Estadual de produtor ruralSistema e-Process da Sefaz-MT
 Rio Grande do SulInscrição Estadual para Produtor RuralPrefeitura do município, conveniada à Receita Estadual
 RondôniaInscrição Estadual para Produtor RuralAgência Virtual da Sefin-RO
+Santa CatarinaCPP, o Cadastro de Produtor PrimárioUnidade conveniada da SEF/SC na prefeitura
+BahiaCAD-ICMS, na condição de produtor ruralPlataforma ba.gov.br
+Espírito SantoInscrição estadual de produtor ruralSistema de Produtor Rural e Pescador, da Sefaz-ES
+Distrito FederalCadastro Fiscal do DFAtendimento Virtual da Receita do DF
 Fonte: página oficial da Fazenda de cada estado, listada logo abaixo.
 Minas Gerais (MG): Cadastro de Produtor Rural, SEF-MG. A página traz documentos, manuais e o passo a passo do cadastro.
 São Paulo (SP): Produtor Rural: abertura, baixa e alterações. Em regra, não há documentos a apresentar, mas a Fazenda pode pedir o ITR ou a matrícula.
@@ -3718,7 +4480,11 @@ Mato Grosso (MT): Como obter Inscrição Estadual, Sefaz-MT. O pedido do produto
 Rio Grande do Sul (RS): Solicitar Inscrição para Produtor Rural, Secretaria da Fazenda do RS. O pedido é na prefeitura do seu município, conveniada à Receita Estadual, no prazo de até trinta dias antes do início das atividades.
 Mato Grosso do Sul (MS): CAP, inscrição de produtor rural.
 Rondônia (RO): Inscrição Estadual para Produtor Rural, na Agência Virtual.
-No Pará, no Tocantins, na Bahia e nos demais estados, procure "produtor rural" no site da Secretaria da Fazenda do estado ou vá a uma unidade de atendimento.
+Santa Catarina (SC): Cadastro de Produtor Primário, na Secretaria da Fazenda de SC. O cadastramento é feito pelas unidades conveniadas da SEF/SC nas prefeituras. A inscrição serve para fins fiscais e não reconhece posse nem propriedade do imóvel.
+Bahia (BA): Inscrição, alteração, reativação ou baixa do produtor rural no CAD-ICMS. O pedido é feito pela plataforma ba.gov.br, com o Documento de Informação Cadastral (DIC) preenchido e assinado.
+Espírito Santo (ES): perguntas da Sefaz-ES sobre a inscrição do produtor rural. A abertura é pedida no Sistema de Produtor Rural e Pescador, com formulário e documentos conforme o vínculo do produtor com o imóvel.
+Distrito Federal (DF): Inscrição no Cadastro Fiscal de Produtor Rural Pessoa Física. O pedido é pelo Atendimento Virtual da Receita do DF. Não há atendimento presencial para esse serviço.
+No Pará, no Tocantins e nos demais estados, procure "produtor rural" no site da Secretaria da Fazenda do estado ou vá a uma unidade de atendimento.
 Como consultar a inscrição estadual de produtor rural
 Para saber se uma inscrição existe e está ativa, a sua ou a de quem vai comprar o seu gado, há dois caminhos oficiais:
 Sintegra. Abra sintegra.gov.br. A página reúne os cadastros estaduais: escolha a unidade da federação e você cai na consulta daquele estado.
@@ -3761,6 +4527,11 @@ Sefaz-MS, Cadastro da Agropecuária (CAP)
 Sefin-RO, Inscrição Estadual para Produtor Rural
 Sefaz-MT, Como obter Inscrição Estadual
 Secretaria da Fazenda do RS, Solicitar Inscrição para Produtor Rural
+Secretaria da Fazenda de SC, inclusão de assentados no Cadastro de Produtor Primário (08/03/2024)
+Governo da Bahia, serviço da Sefaz-BA de inscrição do produtor rural no CAD-ICMS
+Sefaz-BA, serviços do produtor rural pela plataforma ba.gov.br (30/01/2024)
+Sefaz-ES, Receita Orienta: produtor rural
+Receita do DF, inscrição no Cadastro Fiscal de Produtor Rural Pessoa Física
 Sintegra, consulta aos cadastros estaduais
 Confaz, Ajuste SINIEF 10/2022 (nota eletrônica do produtor rural)
 Veja também

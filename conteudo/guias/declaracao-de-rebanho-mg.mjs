@@ -2,9 +2,12 @@
 // Regra sanitária de Minas Gerais: período, sistema e punição só com trecho do Governo de Minas e do IMA (mg.gov.br, ima.mg.gov.br).
 const SERVICO = 'https://www.mg.gov.br/servico/atualizar-dados-de-rebanhos';
 const TUTORIAL = 'https://www.ima.mg.gov.br/noticias/2497-tutorial-ima-como-atualizar-seu-rebanho-no-portal-do-produtor';
+const ETAPA26 = 'https://www.ima.mg.gov.br/noticias/2615-minas-inicia-a-etapa-mais-importante-do-ano-para-o-produtor-rural';   // publicada em 05/05/2026
 
 export const provas = [
   { afirmacao: 'em Minas Gerais a campanha acontece uma vez ao ano, de 1º de maio a 30 de junho', trecho: 'A campanha acontece uma vez ao ano , no período de 1º de maio a 30 de junho', url: SERVICO },
+  { afirmacao: 'em 2026 a etapa anual de Atualização de Rebanhos começou em 1º de maio', trecho: 'Minas Gerais iniciou, em 1º de maio, a etapa anual de Atualização de Rebanhos', url: ETAPA26 },
+  { afirmacao: 'a campanha de 2026 seguiu até 30 de junho, conforme a Portaria nº 2.227/2023', trecho: 'a campanha é obrigatória e segue até 30 de junho, conforme estabelece a Portaria nº 2.227/2023', url: ETAPA26 },
   { afirmacao: 'a Portaria IMA nº 2.227, de 2023, torna a atualização obrigatória para todos os produtores de Minas Gerais, de qualquer tamanho de produção', trecho: 'estabelece que a etapa de Atualização de Rebanhos é obrigatória para todos os produtores rurais de Minas Gerais , independentemente do tamanho da produção', url: TUTORIAL },
   { afirmacao: 'todo ano, entre 1º de maio e 30 de junho, o proprietário informa ao IMA a quantidade e as características dos animais', trecho: 'entre 1º de maio e 30 de junho , os proprietários devem informar ao Instituto Mineiro de Agropecuária (IMA) a quantidade e as características dos animais em suas propriedades', url: TUTORIAL },
   { afirmacao: 'entram bovinos, bubalinos, equídeos, ovinos, caprinos, animais aquáticos, abelhas, suínos e aves de subsistência', trecho: 'bovinos, bubalinos, equinos, asininos, muares, ovinos, caprinos, animais aquáticos (peixes, crustáceos, moluscos, anfíbios e répteis), abelhas, suínos e aves de subsistência', url: SERVICO },
@@ -42,8 +45,9 @@ export default {
     { h2: 'Prazo da declaração de rebanho em MG', blocos: [
       { tabela: { colunas: ['Campanha', 'Período'], linhas: [
         ['Uma vez ao ano', '1º de maio a 30 de junho'],
-      ], nota: 'Carta de serviços do Governo de Minas e página do IMA, lidas em 09/10/2026.' } },
-      { p: 'Minas tem uma campanha só por ano, com dois meses de prazo. A campanha de 2026 já passou. Quem ficou sem atualizar procura o escritório seccional do IMA que atende o município da propriedade, porque a pendência segura a guia até ser resolvida.' },
+              ['Campanha de 2026', '1º de maio a 30 de junho de 2026: já passou'],
+      ], nota: 'Carta de serviços do Governo de Minas e notícia do IMA de 05/05/2026, lidas em 09/10/2026.' } },
+      { p: 'Minas tem uma campanha só por ano, com dois meses de prazo. A de 2026 começou em 1º de maio e seguiu até 30 de junho, como o IMA noticiou em 05/05/2026, e já passou. Quem ficou sem atualizar procura o escritório seccional do IMA que atende o município da propriedade, porque a pendência segura a guia até ser resolvida.' },
       { p: 'O período de 2027 se confirma no site do IMA perto de maio. Não marque embarque de maio ou junho sem conferir a data.' },
     ] },
     { h2: 'Como atualizar pelo Portal do Produtor', blocos: [
@@ -63,7 +67,7 @@ export default {
         '**GTA impedida.** O produtor que não atualiza os dados do rebanho fica impedido de emitir a Guia de Trânsito Animal.',
         '**Penalidades.** O IMA avisa que o descumprimento pode resultar em penalidades e em restrições na emissão de documentos sanitários.',
       ] },
-      { p: 'As páginas do IMA não trazem valor de multa. Pergunte no escritório seccional.' },
+      { p: 'O IMA não publica valor de multa nas páginas da campanha. Pergunte no escritório seccional.' },
       { p: 'Sem a guia não sai gado para venda, leilão nem transferência. Em Minas ela é pedida no mesmo Portal de Serviços do Produtor: veja [como emitir GTA](/como-emitir-gta). A vacina de raiva e as demais estão no [calendário de vacinação bovina](/calendario-de-vacinacao-bovina).' },
       { destaque: 'Prazo, sistema e punição são do IMA e mudam. Este texto é informativo e não substitui o veterinário nem a defesa agropecuária: confirme a data no IMA antes de contar com ela. O FINAGRO não envia a atualização de rebanhos ao IMA.' },
     ] },
@@ -77,7 +81,7 @@ export default {
   cta: { forte: 'Rebanho contado e a campanha do IMA lembrada antes de vencer.', texto: 'Grátis até 1.000 animais com ficha, sem cartão.' },
   faqTitulo: 'Perguntas sobre declaração de rebanho em MG',
   faq: [
-    ['Qual o prazo da declaração de rebanho em MG?', 'A campanha de atualização de rebanhos acontece uma vez ao ano, de 1º de maio a 30 de junho. Confirme a data do ano no site do IMA.'],
+    ['Qual o prazo da declaração de rebanho em MG?', 'A campanha de atualização de rebanhos acontece uma vez ao ano, de 1º de maio a 30 de junho. A de 2026 já passou. Confirme a data de 2027 no site do IMA.'],
     ['Onde faço a declaração de rebanho em Minas Gerais?', 'Pelo Portal de Serviços do Produtor, do IMA, ou presencialmente num escritório do instituto. No escritório, a atualização leva até 48 horas para ser concluída.'],
     ['Pequeno produtor precisa atualizar o rebanho no IMA?', 'Sim. A etapa é obrigatória para todos os produtores rurais de Minas Gerais, de qualquer tamanho de produção.'],
     ['Quem não atualiza o rebanho em MG pode emitir GTA?', 'Não. O produtor que não atualiza os dados do rebanho fica impedido de emitir a Guia de Trânsito Animal.'],
@@ -86,6 +90,7 @@ export default {
   fontes: [
     { nome: 'Governo de Minas Gerais, atualizar dados de rebanhos', url: SERVICO },
     { nome: 'IMA (MG), tutorial de atualização do rebanho no Portal do Produtor', url: TUTORIAL },
+    { nome: 'IMA (MG), Minas inicia a etapa de atualização de rebanhos (05/05/2026)', url: ETAPA26 },
   ],
-  relacionados: ['declaracao-de-rebanho', 'como-emitir-gta', 'calendario-de-vacinacao-bovina'],
+  relacionados: ['declaracao-de-rebanho', 'como-emitir-gta', 'declaracao-de-rebanho-go'],
 };

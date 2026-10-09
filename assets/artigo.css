@@ -98,7 +98,8 @@ div.resposta p { margin: 0; }
 
 /* fontes em lista e "veja também" em botões: todo link com 44 px de toque */
 .artigo__grade .artigo__corpo h2 { line-height: 1.25; }
-.fontes__lista { display: grid; margin-top: .25rem; }
+/* lista de fontes em colunas quando cabe: com 15 fontes ficava numa pilha só no tablet e no computador */
+.fontes__lista {  margin-top: .25rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr)); column-gap: 1.25rem; }
 .artigo__corpo .fontes__lista li { padding-left: 0; }
 .artigo__corpo .fontes__lista li::before { content: none; }
 .artigo__corpo .fontes__lista a { display: inline-flex; align-items: center; min-height: 44px; padding: .35rem 0; font-size: .9375rem; line-height: 1.35; }

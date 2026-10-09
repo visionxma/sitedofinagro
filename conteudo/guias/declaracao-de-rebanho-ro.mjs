@@ -37,7 +37,7 @@ export default {
   description: 'Declaração de rebanho em Rondônia: o decreto que obriga, as etapas de maio e novembro na Idaron, como declarar pelo site e o que acontece com a GTA no atraso.',
   h1: 'Declaração de rebanho em Rondônia: a regra e como declarar na Idaron',
   pergunta: 'Como fazer a declaração de rebanho em Rondônia?',
-  resposta: 'Em Rondônia a declaração de rebanhos é obrigatória para todas as propriedades, pelo Decreto 25.105, de 2020, e o calendário de cada ano é da Idaron. Em 2024 a etapa de novembro foi de 1º a 30. Em 2025 a de maio encerrou no dia 31. Confirme na Idaron a data de 2026. Quem não declara fica sem guia de trânsito.',
+  resposta: 'Em Rondônia a declaração de rebanhos é obrigatória para todas as propriedades, pelo Decreto 25.105, de 2020, e o calendário de cada ano é da Idaron. Em 2024 a etapa de novembro foi de 1º a 30. Em 2025 a de maio encerrou dia 31. Confirme na Idaron a data de 2026. Sem declarar, a guia de trânsito não sai.',
   tela: 'animais',
   atualizado: '2026-10-09',
   secoes: [

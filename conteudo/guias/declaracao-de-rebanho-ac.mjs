@@ -2,12 +2,16 @@
 // Regra sanitária do Acre: período, sistema e punição só com trecho de página do Idaf (idaf.ac.gov.br).
 const NOTICIA = 'https://idaf.ac.gov.br/produtores-rurais-do-acre-devem-fazer-declaracao-anual-de-rebanho-entre-1o-de-outubro-e-30-de-novembro/';
 const PORTARIA = 'https://idaf.ac.gov.br/wp-content/uploads/2025/11/PORTARIA-270-DECLARACAO-ANUAL-DE-REBANHOS-1.pdf';
+const PRAZO24 = 'https://idaf.ac.gov.br/prazo-para-regularizar-declaracao-anual-de-rebanho-se-encerra-no-dia-2-de-dezembro/';   // 27/11/2024
+const PRORROGA25 = 'https://idaf.ac.gov.br/idaf-prorroga-prazo-para-declaracao-de-rebanhos-e-reforca-campanha-de-vacinacao-contra-a-brucelose-no-acre/';   // 28/11/2025
 const SISTEMA = 'https://idaf.ac.gov.br/emissao-de-gta/';
 const CAMPANHAS = 'https://idaf.ac.gov.br/idaf-reforca-a-importancia-da-vacinacao-contra-brucelose-e-da-declaracao-de-rebanhos-para-o-setor-pecuario-no-acre/';
 
 export const provas = [
   { afirmacao: 'no Acre a campanha é única no ano, de 1º de outubro a 30 de novembro', trecho: 'será executado em uma única campanha anual no período de 1o (prímeiro) de outubro ao 30o (trígésimo) dia de novembro', url: PORTARIA },
-  { afirmacao: 'o prazo da Declaração de Rebanho começa em 1º de outubro e vai até 30 de novembro', trecho: 'Prazo para Declaração de Rebanho começa no dia 1º de outubro e se estende até 30 de novembro', url: NOTICIA },
+  { afirmacao: 'em 2024 o Idaf recebeu a declaração até segunda-feira, 2 de dezembro', trecho: 'O produtor rural que ainda não declarou o rebanho tem até a próxima segunda-feira, 2, para regularizar a ficha cadastral junto ao Instituto de Defesa Agropecuária e Florestal do Acre (Idaf)', url: PRAZO24 },
+  { afirmacao: 'em 2025 o Idaf prorrogou o prazo até 31 de dezembro de 2025, pela Portaria IDAF nº 532', trecho: 'prorrogou, por meio da Portaria IDAF Nº 532, de 25 de novembro de 2025, o prazo para a realização da Declaração Anual de Rebanhos em todo o estado. Os produtores rurais têm até 31 de dezembro de 2025', url: PRORROGA25 },
+  { afirmacao: 'na notícia de 17/09/2025, o prazo da Declaração de Rebanho começa em 1º de outubro e vai até 30 de novembro', trecho: 'Prazo para Declaração de Rebanho começa no dia 1º de outubro e se estende até 30 de novembro', url: NOTICIA },
   { afirmacao: 'a declaração é obrigatória para todo criador, de qualquer tamanho de propriedade ou número de cabeças', trecho: 'a declaração é obrigatória para todos os criadores de animais, independentemente do tamanho da propriedade ou do número de cabeças', url: NOTICIA },
   { afirmacao: 'entram bois, búfalos, cavalos, porcos, bodes, ovelhas, carneiros, peixes, galinhas, pintos e colmeias', trecho: 'abrangendo bois, búfalos, cavalos, porcos, bodes, ovelhas, carneiros, criação de peixes, galinhas, pintos e colmeias de abelhas', url: NOTICIA },
   { afirmacao: 'o produtor apresenta quantidade, espécie e movimentação dos animais e, quando se aplica, vacinação', trecho: 'O produtor deve apresentar dados atualizados sobre a quantidade, espécie e movimentação dos animais, além de informações sobre vacinação, quando aplicável', url: NOTICIA },
@@ -32,7 +36,7 @@ export default {
   description: 'Declaração de rebanho no Acre: a campanha do Idaf vai de 1º de outubro a 30 de novembro. Veja quem declara, como fazer e o que acontece com a GTA no atraso.',
   h1: 'Declaração de rebanho no Acre: prazo, como declarar no Idaf e a GTA',
   pergunta: 'Como fazer a declaração de rebanho no Acre?',
-  resposta: 'No Acre a Declaração Anual de Rebanho é feita numa única campanha por ano, de 1º de outubro a 30 de novembro. É obrigatória para todo criador, de qualquer tamanho. Faz-se nas unidades do Idaf ou pelo autoatendimento online do órgão. Desde o primeiro dia da campanha, a guia de trânsito depende da declaração.',
+  resposta: 'No Acre a Declaração Anual de Rebanho é feita numa única campanha por ano, de 1º de outubro a 30 de novembro. A de 2026 está em curso. É obrigatória para todo criador. Faz-se nas unidades do Idaf ou pelo autoatendimento online do órgão. Desde o primeiro dia da campanha, a guia de trânsito depende da declaração.',
   tela: 'animais',
   atualizado: '2026-10-09',
   secoes: [
@@ -45,9 +49,11 @@ export default {
     { h2: 'Prazo da declaração de rebanho no Acre', blocos: [
       { tabela: { colunas: ['Campanha', 'Período'], linhas: [
         ['Única no ano', '1º de outubro a 30 de novembro'],
-      ], nota: 'Portaria Idaf nº 270, de 20/12/2022, e notícia do Idaf, lidas em 09/10/2026.' } },
+        ['Campanha de 2026', '1º de outubro a 30 de novembro de 2026, pela portaria: em curso'],
+      ], nota: 'Portaria Idaf nº 270, de 20/12/2022, e notícia do Idaf de 17/09/2025, lidas em 09/10/2026.' } },
+      { p: 'Pela portaria, a campanha de 2026 vai de 1º de outubro a 30 de novembro de 2026 e está em curso. Quem ainda não declarou já pode fazer.' },
       { p: 'O Acre declara no fim do ano, quando a maioria dos estados já fechou a campanha de maio. O calendário é da Portaria nº 270, de 2022, que juntou as declarações numa campanha só, em outubro e novembro.' },
-      { p: 'A mesma portaria diz que qualquer mudança no calendário sai por portaria complementar do Idaf. Por isso, perto do fim de novembro, confira no site do órgão se o prazo de 2026 foi alterado, sem contar com isso.' },
+      { p: 'A mesma portaria diz que qualquer mudança no calendário sai por portaria complementar do Idaf. Nos dois últimos anos o último dia andou. Em 2024 o Idaf recebeu a declaração até segunda-feira, 2 de dezembro. Em 2025 prorrogou o prazo até 31 de dezembro de 2025, pela Portaria IDAF nº 532. Confirme no Idaf a data de 2026 e não conte com prorrogação.' },
       { p: 'No mesmo período corre a campanha de vacinação contra a brucelose. Dá para resolver as duas pendências na mesma ida ao Idaf. As idades e as vacinas estão no [calendário de vacinação bovina](/calendario-de-vacinacao-bovina).' },
     ] },
     { h2: 'Como declarar no Idaf, passo a passo', blocos: [
@@ -67,7 +73,7 @@ export default {
         '**Multa.** Quem deixa de declarar no prazo fica sujeito a penalidades, entre elas multa.',
         '**Restrição de serviços.** O Idaf cita restrição nos serviços do órgão, como a emissão de GTA e a participação em programas de incentivo.',
       ] },
-      { p: 'As páginas do Idaf não trazem o valor da multa. Pergunte na unidade local. O caminho da guia está em [como emitir GTA](/como-emitir-gta).' },
+      { p: 'O Idaf não publica o valor da multa nas páginas da campanha. Pergunte na unidade local. O caminho da guia está em [como emitir GTA](/como-emitir-gta).' },
       { destaque: 'Prazo, sistema e punição são do Idaf e mudam. Este texto é informativo e não substitui o veterinário nem a defesa agropecuária: confirme a data no Idaf antes de contar com ela. O FINAGRO não envia a declaração ao Idaf.' },
     ] },
   ],
@@ -80,17 +86,19 @@ export default {
   cta: { forte: 'Rebanho contado e a campanha do Idaf lembrada antes de vencer.', texto: 'Grátis até 1.000 animais com ficha, sem cartão.' },
   faqTitulo: 'Perguntas sobre declaração de rebanho no Acre',
   faq: [
-    ['Qual o prazo da declaração de rebanho no Acre?', 'A campanha é única no ano e vai de 1º de outubro a 30 de novembro, pela Portaria Idaf 270, de 2022. Confira no site do Idaf se houve portaria alterando o prazo de 2026.'],
+    ['Qual o prazo da declaração de rebanho no Acre?', 'A campanha é única no ano e vai de 1º de outubro a 30 de novembro, pela Portaria Idaf 270, de 2022. A de 2026 está em curso. Em 2025 o Idaf prorrogou até 31 de dezembro: confirme no órgão se o prazo de 2026 mudou.'],
     ['Onde faço a declaração de rebanho no Acre?', 'Em qualquer unidade do Idaf ou pelos canais de autoatendimento online do órgão, com o acesso de produtor.'],
     ['Quem tem poucas cabeças precisa declarar no Acre?', 'Sim. A declaração é obrigatória para todos os criadores, de qualquer tamanho de propriedade e com qualquer número de cabeças.'],
     ['Posso emitir GTA no Acre sem declarar o rebanho?', 'Desde o primeiro dia da campanha, a emissão da guia fica condicionada à atualização cadastral do rebanho. Quem não declara no prazo fica sujeito a multa e a restrição de serviços do Idaf.'],
     ['O FINAGRO envia a declaração ao Idaf?', 'Não. O app não envia nada ao Idaf. Ele guarda a contagem do rebanho e lembra o prazo; a declaração é feita por você no órgão.'],
   ],
   fontes: [
-    { nome: 'Idaf (AC), declaração anual de rebanho entre 1º de outubro e 30 de novembro', url: NOTICIA },
+    { nome: 'Idaf (AC), declaração anual de rebanho entre 1º de outubro e 30 de novembro (17/09/2025)', url: NOTICIA },
+    { nome: 'Idaf (AC), prazo da declaração de 2024 até 2 de dezembro (27/11/2024)', url: PRAZO24 },
+    { nome: 'Idaf (AC), prorrogação da declaração de 2025 pela Portaria IDAF nº 532 (28/11/2025)', url: PRORROGA25 },
     { nome: 'Idaf (AC), Portaria nº 270, de 20/12/2022', url: PORTARIA },
     { nome: 'Idaf (AC), emissão de GTA e declaração de rebanhos', url: SISTEMA },
     { nome: 'Idaf (AC), vacinação contra brucelose e declaração de rebanhos', url: CAMPANHAS },
   ],
-  relacionados: ['declaracao-de-rebanho', 'como-emitir-gta', 'calendario-de-vacinacao-bovina'],
+  relacionados: ['declaracao-de-rebanho', 'como-emitir-gta', 'declaracao-de-rebanho-ro'],
 };
