@@ -518,8 +518,8 @@ Endereço: https://finagro.app/guias
 FINAGRO
 Guias
 Guias, calculadoras e modelos para tocar a fazenda
-60 páginas gratuitas, com a conta feita na hora e a fonte oficial de cada regra. Sem cadastro para ler, calcular ou baixar.
-60páginas
+69 páginas gratuitas, com a conta feita na hora e a fonte oficial de cada regra. Sem cadastro para ler, calcular ou baixar.
+69páginas
 14calculadoras
 8modelos e planilhas
 Escolher um aplicativoGado de corteLeiteLavouraDinheiro e impostoTerra e documentosOutras criações
@@ -572,6 +572,15 @@ GuiaGestão ruralOs quatro controles que organizam a fazenda.
 GuiaGlossário ruralTermos da pecuária, da lavoura e do dinheiro.
 GuiaImposto de renda ruralQuem declara, como apurar e o que guardar.
 GuiaInscrição estadualComo tirar e consultar a inscrição do produtor, por estado.
+GuiaNota de produtor na BANota fiscal avulsa eletrônica da Sefaz-BA: como emitir.
+GuiaNota de produtor no DFNF-e do produtor rural do DF e o Nota Fiscal Fácil.
+GuiaNota de produtor no ESA nota avulsa acabou no ES: emita pelo Nota Fiscal Fácil.
+GuiaNota de produtor em GONFA-e via web e Nota Fiscal Fácil: como emitir em GO.
+GuiaNota de produtor em MGNFA-e no SIARE e Nota Fiscal Fácil: como emitir em MG.
+GuiaNota de produtor no PRNFP-e no Receita/PR: quem emite e o passo a passo.
+GuiaNota de produtor no RSNota Fiscal Fácil e NFA-e: como emitir no RS.
+GuiaNota de produtor em SCNFP-e no SAT e Nota Fiscal Fácil: como emitir em SC.
+GuiaNota de produtor em SPNF-e do produtor paulista pelo Nota Fiscal Fácil.
 GuiaNota fiscal de produtorNF-e do produtor: quem emite, app e inscrição.
 PlanilhaPlanilha de gestão ruralReceitas e despesas da fazenda, grátis em Excel.
 GuiaPronaf 2026Quem tem direito, linhas, juros e documentos.
@@ -3263,7 +3272,7 @@ Lei 9.528/1997, art. 6º, contribuição ao Senar (Planalto)
 Lei 13.606/2018, opção pela folha de pagamento (Planalto)
 Veja também
 Fluxo de caixa ruralImposto de renda ruralNota fiscal de produtorTodos os guiasDo mesmo assunto
-Gestão ruralGlossário ruralInscrição estadualPlanilha de gestão ruralPronaf 2026
+Gestão ruralGlossário ruralInscrição estadualNota de produtor na BANota de produtor no DF
 Nesta página
 Calcule o Funrural da venda
 O que é o Funrural e quanto custa
@@ -3392,7 +3401,7 @@ Lei 8.036/1990, FGTS, arts. 15 e 20
 Constituição Federal, art. 7º
 Veja também
 Contrato de parceria ruralCalculadora de FunruralFluxo de caixa ruralTodos os guiasDo mesmo assunto
-Gestão ruralGlossário ruralImposto de renda ruralInscrição estadualNota fiscal de produtor
+Gestão ruralGlossário ruralImposto de renda ruralInscrição estadualNota de produtor na BA
 Nesta página
 Modelo de contrato de safra
 O que a lei diz do contrato de safra
@@ -3477,7 +3486,7 @@ Qual a diferença entre gestão rural e contabilidade?
 A contabilidade cuida dos impostos e das declarações, olhando o que já passou. A gestão usa os mesmos lançamentos para decidir o mês que vem. Uma alimenta a outra, e o contador continua necessário.
 Veja também
 Fluxo de caixa ruralControle de rebanhoPlanilha de gestão ruralTodos os guiasDo mesmo assunto
-Glossário ruralImposto de renda ruralInscrição estadualNota fiscal de produtorPronaf 2026
+Glossário ruralImposto de renda ruralInscrição estadualNota de produtor na BANota de produtor no DF
 Nesta página
 Os quatro controles
 A primeira semana: um controle por dia
@@ -3546,7 +3555,7 @@ Serviço Geológico do Brasil, elementos que caracterizam o clima
 Lei 12.651/2012 (Código Florestal), no Planalto
 Veja também
 Calculadora de arrobaTaxa de lotaçãoCusto por hectareTodos os guiasDo mesmo assunto
-Imposto de renda ruralInscrição estadualNota fiscal de produtorPlanilha de gestão ruralPronaf 2026
+Imposto de renda ruralInscrição estadualNota de produtor na BANota de produtor no DFNota de produtor no ES
 Nesta página
 Termos do rebanho
 Termos da lavoura
@@ -3640,7 +3649,7 @@ Receita Federal, manual IRPF Atividade Rural (versão 2.0, novembro de 2025)
 Lei 8.023/1990, tributação do resultado da atividade rural (Planalto)
 Veja também
 LCDPRFluxo de caixa ruralCalculadora de FunruralTodos os guiasDo mesmo assunto
-Inscrição estadualNota fiscal de produtorPlanilha de gestão ruralPronaf 2026Contrato de safra
+Inscrição estadualNota de produtor na BANota de produtor no DFNota de produtor no ESNota de produtor em GO
 Nesta página
 Quem precisa declarar pela atividade rural
 Como se apura o resultado da atividade rural
@@ -3756,7 +3765,7 @@ Sintegra, consulta aos cadastros estaduais
 Confaz, Ajuste SINIEF 10/2022 (nota eletrônica do produtor rural)
 Veja também
 Nota fiscal de produtorComo emitir GTACalculadora de FunruralTodos os guiasDo mesmo assunto
-Planilha de gestão ruralPronaf 2026Fluxo de caixa ruralLCDPRContrato de safra
+Nota de produtor na BANota de produtor no DFNota de produtor no ESNota de produtor em GONota de produtor em MG
 Nesta página
 O que é a inscrição estadual de produtor rural
 Para que serve a inscrição estadual
@@ -3765,6 +3774,822 @@ Inscrição estadual de produtor rural por estado
 Como consultar a inscrição estadual de produtor rural
 Mantenha a inscrição em dia
 A inscrição e as vendas na rotina do FINAGRO
+Perguntas frequentes
+FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
+Grátis até 1.000 animais com ficha
+Lote sem limite de cabeças
+Sem cartão
+Começar grátisBaixar para Android
+
+
+---
+
+## Nota fiscal de produtor rural em Goiás: como emitir
+Endereço: https://finagro.app/nota-fiscal-de-produtor-rural-go
+
+
+FINAGRO
+Guias
+Nota de produtor em GO
+GuiaDinheiro e imposto
+Nota fiscal de produtor rural em Goiás: nota avulsa e aplicativo
+Como emitir nota fiscal de produtor rural em Goiás?
+Em Goiás o produtor rural emite a Nota Fiscal Avulsa Eletrônica (NFA-e) pela internet, no serviço da Secretaria de Estado da Economia, com certificado digital. O produtor rural pessoa física também tem o aplicativo Nota Fiscal Fácil, lançado em março de 2022 para frutas, verduras e legumes. Quem quiser pode se credenciar para emitir a própria nota eletrônica.
+Atualizado em 09/10/2026
+Qual é o sistema de emissão em Goiás
+Em Goiás quem cuida da nota é a Secretaria de Estado da Economia. Ela publica três caminhos para o produtor rural:
+NFA-e via web: a Nota Fiscal Avulsa Eletrônica é o serviço oferecido aos produtores goianos para emitir documento fiscal pela internet. Tem o mesmo código de modelo da nota fiscal eletrônica, o modelo 55, e pode ser consultada pela chave de acesso.
+Nota Fiscal Fácil (NFF): aplicativo de celular disponível para o produtor rural pessoa física. No lançamento, em março de 2022, a Secretaria informou que os produtores cadastrados tinham sido inseridos automaticamente no sistema.
+Emissão da própria nota: o produtor pode se credenciar na Secretaria da Economia e emitir NF-e em sistema próprio, atendendo aos requisitos da nota eletrônica.
+Na NFA-e, a Secretaria já deixa cadastrados vários produtos com valores de pauta e benefícios fiscais, o que poupa conta na hora de preencher. Também há possibilidade de emitir para produto que não está na lista.
+O calendário nacional que vale no estado
+A Secretaria da Economia de Goiás não publica data própria na página da nota avulsa. O que vale no estado é o Ajuste SINIEF 10/2022 do Confaz, o Conselho Nacional de Política Fazendária, acordado pelos estados e pelo Distrito Federal:
+SituaçãoObrigatória a partir de
+Saída para outro estado3 de fevereiro de 2025
+Saída interna, produtor com receita rural acima de R$ 360.000,00 em 2023 ou 20243 de fevereiro de 2025
+Todos os outros produtores rurais5 de janeiro de 2026
+Confaz, Ajuste SINIEF 10/2022 com as alterações posteriores.
+O texto do Confaz admite prazo menor por decisão do estado. Confirme na Secretaria da Economia se há regra goiana para o seu produto. A sequência dos adiamentos está contada no guia geral da nota fiscal de produtor rural.
+Como emitir a nota fiscal avulsa eletrônica em Goiás
+A página da NFA-e não traz um roteiro tela a tela. Ela informa as condições do serviço:
+Acesso: pela internet, no link do serviço de emissão da NFA, com certificado digital.
+Quem pode usar: produtores rurais, pessoas físicas ou jurídicas, que não estejam no regime do Simples Nacional.
+Pessoa jurídica: o certificado precisa corresponder a um CNPJ vinculado a uma inscrição estadual cadastrada na Secretaria.
+Produtos: vários já estão cadastrados com valores de pauta e benefícios fiscais. Há possibilidade de emitir para produto fora da lista.
+Consulta: a nota emitida é consultada pela chave de acesso.
+Pelo celular: em março de 2022 a Secretaria da Economia lançou o Nota Fiscal Fácil para o produtor rural pessoa física. Naquela data, o aplicativo atendia os agricultores de frutas, verduras e legumes de produção própria, nas saídas internas isentas de impostos. A notícia é antiga. O que está liberado hoje para Goiás se confere na Lista de Operações PPR e na Lista de Produtos PPR, no Portal Nacional da Nota Fiscal Fácil (dfe-portal.svrs.rs.gov.br/Nff).
+O roteiro do aplicativo está no Manual de Orientação ao Produtor Rural, do mesmo portal, em Documentos. É uma fonte nacional, escrita para o produtor pessoa física com inscrição estadual regular. Os primeiros passos são instalar o aplicativo, entrar com a conta gov.br e escolher o perfil Produtor Primário. Depois vêm a escolha dos produtos e o cadastro dos clientes.
+Quem não é obrigado à inscrição estadual, mas precisa de documento fiscal, pode procurar uma unidade de atendimento da Secretaria. Leve os documentos pessoais, a nota fiscal de origem do produto e os dados do destinatário.
+O que precisa antes de emitir
+Em Goiás a inscrição de produtor rural é pedida numa unidade de atendimento da Secretaria da Economia, pelo produtor ou por seu representante. O guia da inscrição estadual de produtor rural mostra o caminho.
+Certificado digital: sem ele não se entra no serviço da NFA-e pela internet.
+Regime de tributação: o serviço é para quem não está no Simples Nacional.
+Cadastro de pessoa física na Secretaria: foi por ele que os produtores entraram no Nota Fiscal Fácil no lançamento.
+Com o certificado instalado, falta reunir os dados do destinatário, o produto, a quantidade e o valor da venda. Para embarcar animais, a nota vai acompanhada da guia de trânsito, explicada em como emitir GTA. Para entender o desconto na venda, veja Funrural.
+Onde tirar dúvida em Goiás
+A página da NFA-e, no site da Secretaria da Economia (goias.gov.br/economia), traz a legislação estadual, a lista de produtos e o acesso ao serviço. O atendimento presencial é nas unidades de atendimento ao público da Secretaria.
+Guia informativo, que não substitui o contador. Valores de pauta, benefícios e operações liberadas mudam: confirme na Secretaria da Economia de Goiás antes de emitir.
+A nota fiscal na rotina do FINAGRO
+O FINAGRO não emite nota fiscal e não transmite nada à Fazenda. A nota sai na NFA-e da Secretaria da Economia de Goiás ou no aplicativo Nota Fiscal Fácil.
+A venda feita com nota entra no app como receita, com descrição, categoria e forma de pagamento. O número da nota e o nome de quem comprou cabem na descrição.
+Na venda de gado, a saída do animal guarda o destino ou comprador. O valor que ainda vai entrar se lança em contas a receber, com a data do acerto.
+A tela Documentos guarda a inscrição estadual como outro documento, com o número, ao lado do CCIR, do ITR e dos contratos.
+Relatórios em PDF e em planilha (CSV) reúnem as vendas e as despesas do período para o contador conferir com as notas.
+A nota sai no sistema da Fazenda. A venda fica anotada no FINAGRO.
+Grátis até 1.000 animais com ficha, sem cartão, no Android e no navegador.
+Começar grátis
+Perguntas sobre nota fiscal de produtor em Goiás
+Como emitir nota fiscal de produtor rural em Goiás?
+Pela internet, no serviço de Nota Fiscal Avulsa Eletrônica da Secretaria de Estado da Economia, com certificado digital. O produtor rural pessoa física também tem o aplicativo Nota Fiscal Fácil, conforme as operações liberadas.
+O que é a nota fiscal avulsa de produtor rural em Goiás?
+É a NFA-e via web, o serviço que a Secretaria da Economia oferece aos produtores goianos para emitir documento fiscal pela internet. Tem o mesmo modelo 55 da nota fiscal eletrônica e pode ser consultada pela chave de acesso.
+Preciso de certificado digital para emitir a NFA-e em GO?
+Sim. A Secretaria da Economia informa que o serviço pela internet está disponível mediante o uso de certificado digital, para produtores rurais que não estejam no Simples Nacional.
+Dá para emitir nota de produtor rural pelo celular em Goiás?
+Dá, pelo aplicativo Nota Fiscal Fácil, disponível para o produtor rural pessoa física. Em março de 2022 ele foi lançado para frutas, verduras e legumes de produção própria, em saídas internas isentas. As operações liberadas hoje estão na Lista de Operações PPR do Portal Nacional da Nota Fiscal Fácil.
+Posso emitir a minha própria nota eletrônica em Goiás?
+Pode. O produtor rural pode se credenciar na Secretaria da Economia para emitir a própria nota, atendendo aos requisitos da nota fiscal eletrônica.
+Fontes
+Secretaria da Economia de Goiás, NFA-e, Nota Fiscal Avulsa Eletrônica
+Secretaria da Economia de Goiás, Nota Fiscal Fácil para produtores rurais
+Secretaria da Economia de Goiás, Cadastramento de Produtor Rural
+Portal Nacional da Nota Fiscal Fácil, listas de operações e de produtos do produtor rural
+Portal Nacional da Nota Fiscal Fácil, Manual de Orientação ao Produtor Rural 2026 (em Documentos)
+Confaz, Ajuste SINIEF 10/2022 (redação do Ajuste SINIEF 27/2024)
+Veja também
+Nota fiscal de produtorInscrição estadualNota de produtor em MGTodos os guiasEm outros estados
+Nota de produtor na BANota de produtor no DFNota de produtor no ESNota de produtor em MGNota de produtor no PRNota de produtor no RSNota de produtor em SCNota de produtor em SPDo mesmo assunto
+Planilha de gestão ruralPronaf 2026Fluxo de caixa ruralLCDPRContrato de safra
+Nesta página
+Qual é o sistema de emissão em Goiás
+O calendário nacional que vale no estado
+Como emitir a nota fiscal avulsa eletrônica em Goiás
+O que precisa antes de emitir
+Onde tirar dúvida em Goiás
+A nota fiscal na rotina do FINAGRO
+Perguntas frequentes
+FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
+Grátis até 1.000 animais com ficha
+Lote sem limite de cabeças
+Sem cartão
+Começar grátisBaixar para Android
+
+
+---
+
+## Nota fiscal de produtor rural em MG: como emitir
+Endereço: https://finagro.app/nota-fiscal-de-produtor-rural-mg
+
+
+FINAGRO
+Guias
+Nota de produtor em MG
+GuiaDinheiro e imposto
+Nota fiscal de produtor rural em MG: nota avulsa no SIARE e app
+Como emitir nota fiscal de produtor rural em Minas Gerais?
+Em Minas Gerais o produtor rural pessoa física emite a Nota Fiscal Avulsa Eletrônica (NFA-e) pela internet, com login no SIARE, o sistema da Secretaria de Estado de Fazenda. Para saídas dentro do estado com hortifrutigranjeiros existe também o aplicativo Nota Fiscal Fácil, que entra com a conta gov.br do CPF do produtor. A inscrição estadual vem antes.
+Atualizado em 09/10/2026
+Qual é o sistema de emissão em Minas Gerais
+A Secretaria de Estado de Fazenda de Minas Gerais (SEF-MG) publica dois caminhos para a nota fiscal de produtor rural:
+Nota Fiscal Avulsa Eletrônica (NFA-e), no SIARE: o SIARE é o Sistema Integrado de Administração da Receita Estadual. O produtor rural pessoa física, que tem CPF e inscrição estadual, faz login no SIARE para emitir a nota avulsa.
+Nota Fiscal Fácil (NFF): aplicativo de celular. Basta baixar e vincular à conta gov.br do CPF do produtor. A página da SEF-MG informa que a primeira versão emite só saídas em operações internas com hortifrutigranjeiros, e que uma portaria indica as operações disponíveis.
+Para as demais vendas, como boi, leite, café ou grão, o caminho que a SEF-MG publica é a nota avulsa no SIARE. Confira a lista de operações do aplicativo antes de contar com o celular.
+O calendário nacional que vale no estado
+A página da SEF-MG sobre a nota do produtor não traz data própria de obrigatoriedade. Vale em Minas o calendário que os estados fecharam no Confaz, o Conselho Nacional de Política Fazendária, no Ajuste SINIEF 10/2022:
+OperaçãoNota eletrônica desde
+Venda para fora de Minas3 de fevereiro de 2025
+Venda dentro de Minas, com receita rural acima de R$ 360.000,00 em 2023 ou 20243 de fevereiro de 2025
+Demais produtores mineiros5 de janeiro de 2026
+Ajuste SINIEF 10/2022, redação em vigor no site do Confaz.
+O mesmo ajuste permite ao estado fixar prazo menor que esse. Se a sua operação foge do comum, pergunte à SEF-MG antes de embarcar. As mudanças de data ao longo dos anos estão no guia geral da nota fiscal de produtor rural.
+Passo a passo da nota fiscal avulsa no SIARE
+Entre no SIARE pela internet, com o seu acesso de produtor rural.
+Abra a emissão da Nota Fiscal Avulsa Eletrônica e preencha o formulário eletrônico com os dados da operação.
+Conclua a solicitação. O sistema gera um protocolo e uma senha para acompanhamento: anote ou imprima a página.
+Se o deferimento for automático, imprima a nota fiscal na hora.
+Se a solicitação for para análise, acompanhe pelo protocolo. A página de orientações da SEF-MG informa prazo de análise de 2 dias úteis.
+Atenção à pendência: se a Fazenda registrar alguma no protocolo, ela precisa ser resolvida até a data de saída informada no pedido. Passou da data, o protocolo é indeferido automaticamente pelo sistema. Por isso, peça a nota com folga em relação ao dia do embarque.
+O produtor não precisa fazer tudo sozinho. A SEF-MG tem a Emissão Especial: cooperativas, sindicatos, associações e leiloeiros cadastrados como usuários no SIARE podem emitir a NFA-e para o produtor rural pessoa física.
+O que precisa antes de emitir
+Em Minas a nota avulsa sai no nome do produtor rural pessoa física, que tem CPF e inscrição estadual. O cadastro é feito pela internet, no SIARE, ou nas unidades de atendimento da SEF-MG. O caminho completo está no guia da inscrição estadual de produtor rural.
+Acesso ao SIARE: é nele que o pedido da nota avulsa é preenchido e acompanhado.
+Data de saída da carga: vai no requerimento, e é até ela que qualquer pendência precisa estar resolvida.
+Conta gov.br do CPF do produtor: só para quem vai emitir hortifrutigranjeiros pelo Nota Fiscal Fácil.
+Cartão de inscrição: é atualizado pelo próprio uso da nota fiscal avulsa de produtor rural.
+O formulário eletrônico pede os dados da operação. Separe antes o nome e o documento do comprador, o produto, a quantidade e o valor. Na venda de boi, vaca ou bezerro, a guia de trânsito anda com a nota: veja como emitir GTA. Sobre a contribuição retida na venda, leia Funrural.
+Onde tirar dúvida em Minas Gerais
+A página de orientações da nota fiscal avulsa, no site da SEF-MG (fazenda.mg.gov.br), traz os manuais ilustrados e o acompanhamento do protocolo. Para o que não se resolve por lá, a própria página manda procurar os Canais de Atendimento da SEF/MG.
+Conteúdo informativo, que não substitui o contador. Prazo de análise, operações do aplicativo e tributação podem mudar: confirme na SEF-MG antes de pedir a nota.
+A nota fiscal na rotina do FINAGRO
+O FINAGRO não emite nota fiscal e não transmite nada à Fazenda. A nota sai no SIARE da SEF-MG ou no aplicativo Nota Fiscal Fácil.
+A venda feita com nota entra no app como receita, com descrição, categoria e forma de pagamento. O número da nota e o nome de quem comprou cabem na descrição.
+Na venda de gado, a saída do animal guarda o destino ou comprador. O valor que ainda vai entrar se lança em contas a receber, com a data do acerto.
+A tela Documentos guarda a inscrição estadual como outro documento, com o número, ao lado do CCIR, do ITR e dos contratos.
+Relatórios em PDF e em planilha (CSV) reúnem as vendas e as despesas do período para o contador conferir com as notas.
+A nota sai no sistema da Fazenda. A venda fica anotada no FINAGRO.
+Grátis até 1.000 animais com ficha, sem cartão, no Android e no navegador.
+Começar grátis
+Perguntas sobre nota fiscal de produtor em MG
+Como emitir nota fiscal de produtor rural em MG?
+Pela internet, no SIARE, o sistema da Secretaria de Estado de Fazenda. O produtor rural pessoa física, com CPF e inscrição estadual, faz login e emite a Nota Fiscal Avulsa Eletrônica. Para hortifrutigranjeiros em saídas internas há também o aplicativo Nota Fiscal Fácil.
+O que é a nota fiscal avulsa de produtor rural em MG?
+É a NFA-e, a Nota Fiscal Avulsa Eletrônica, pedida em formulário eletrônico no SIARE. Sai na hora quando o deferimento é automático, ou depois da análise da Fazenda.
+Quanto tempo demora a nota fiscal avulsa em MG?
+Quando o deferimento é automático, a nota é impressa na hora. Quando a solicitação vai para análise, a página de orientações da SEF-MG informa prazo de 2 dias úteis.
+O sindicato ou a cooperativa pode emitir a nota para o produtor em MG?
+Sim. A SEF-MG tem a Emissão Especial de Nota Fiscal Avulsa: cooperativas, sindicatos, associações e leiloeiros cadastrados como usuários no SIARE podem emitir a NFA-e para o produtor rural pessoa física.
+Dá para emitir nota de produtor rural pelo celular em MG?
+Dá, pelo aplicativo Nota Fiscal Fácil, vinculado à conta gov.br do CPF do produtor. A página da SEF-MG informa que a primeira versão emite só saídas internas com hortifrutigranjeiros.
+Fontes
+SEF-MG, Nota Fiscal Avulsa: orientações e procedimentos para emissão
+SEF-MG, Emissão Especial de Nota Fiscal Avulsa para Produtor Rural
+SEF-MG, Nota Fiscal Fácil do Produtor Rural Pessoa Física
+SEF-MG, Cadastro de Produtor Rural Pessoa Física
+Confaz, Ajuste SINIEF 10/2022 (redação do Ajuste SINIEF 27/2024)
+Veja também
+Nota fiscal de produtorInscrição estadualNota de produtor em GOTodos os guiasEm outros estados
+Nota de produtor na BANota de produtor no DFNota de produtor no ESNota de produtor em GONota de produtor no PRNota de produtor no RSNota de produtor em SCNota de produtor em SPDo mesmo assunto
+Planilha de gestão ruralPronaf 2026Fluxo de caixa ruralLCDPRContrato de safra
+Nesta página
+Qual é o sistema de emissão em Minas Gerais
+O calendário nacional que vale no estado
+Passo a passo da nota fiscal avulsa no SIARE
+O que precisa antes de emitir
+Onde tirar dúvida em Minas Gerais
+A nota fiscal na rotina do FINAGRO
+Perguntas frequentes
+FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
+Grátis até 1.000 animais com ficha
+Lote sem limite de cabeças
+Sem cartão
+Começar grátisBaixar para Android
+
+
+---
+
+## Nota fiscal de produtor rural em SC: como emitir
+Endereço: https://finagro.app/nota-fiscal-de-produtor-rural-sc
+
+
+FINAGRO
+Guias
+Nota de produtor em SC
+GuiaDinheiro e imposto
+Nota fiscal de produtor rural em SC: NFP-e no SAT ou pelo celular
+Como emitir nota fiscal de produtor rural em Santa Catarina?
+Em Santa Catarina o produtor primário inscrito na Secretaria de Estado da Fazenda emite a NFP-e, a nota fiscal de produtor eletrônica. Ela sai no SAT, o sistema da Fazenda, no Perfil Produtor Primário. A outra opção é o aplicativo Nota Fiscal Fácil, no celular ou no computador, com login gov.br de nível prata ou ouro.
+Atualizado em 09/10/2026
+Qual é o sistema de emissão em Santa Catarina
+Em Santa Catarina a Fazenda chama o produtor rural de produtor primário. A Secretaria de Estado da Fazenda (SEF-SC) oferece dois caminhos para a nota:
+NFP-e no SAT: a Nota Fiscal de Produtor Eletrônica é emitida dentro do SAT, o Sistema de Administração Tributária da SEF. O acesso é pelo Perfil Produtor Primário, com usuário e senha.
+Nota Fiscal Fácil (NFF): aplicativo de celular que permite ao produtor primário emitir nota eletrônica de forma simplificada. Agora também tem versão web, para uso no computador. Ela mantém os cadastros sincronizados com o celular.
+Os dois valem para o produtor inscrito e ativo no cadastro de produtor primário. A escolha é de quem emite: o SAT para quem prefere o computador e já tem senha, o aplicativo para quem quer emitir da porteira.
+Quem é obrigado à NFP-e em SC e desde quando
+A SEF-SC publicou para o produtor catarinense as datas definidas pelo Confaz, o Conselho Nacional de Política Fazendária:
+OperaçãoNFP-e obrigatória desde
+Venda para outro estado, independentemente do valor3 de fevereiro de 2025
+Venda interna de quem teve receita bruta acima de R$ 360 mil em 2023 ou 20243 de fevereiro de 2025
+Demais operações de produtores rurais5 de janeiro de 2026
+Secretaria de Estado da Fazenda de SC, notícia de dezembro de 2024.
+A SEF-SC avisa que, uma vez adotado o regime da nota eletrônica, não é mais permitido o retorno para a nota em papel. O histórico dos adiamentos está no guia geral da nota fiscal de produtor rural.
+Passo a passo da NFP-e no SAT e do Nota Fiscal Fácil
+Para emitir a NFP-e no SAT, a página do serviço da SEF-SC lista esta ordem:
+Se você não tem usuário e senha, faça a habilitação de produtor primário no SAT. A identificação é com o CPF do produtor, por certificado digital ou pela conta gov.br de nível ouro ou prata.
+Aceite o termo de compromisso e abra o link recebido por e-mail para definir a senha de acesso.
+Entre no SAT com usuário e senha.
+No Perfil Produtor Primário, abra o aplicativo "NFP-e - Emissão de Nota para Produtor Rural".
+Preencha os dados da NFP-e, valide e autorize a nota.
+Para conferir, abra "NFP-e - Consulta a Situação de Emissão".
+A habilitação também pode ser feita na Unidade Conveniada da SEF no município, que atende a nota de produtor.
+Para emitir pelo Nota Fiscal Fácil, baixe o aplicativo, faça o acesso e o cadastro com o login gov.br e aceite os Termos de Uso. Precisa que alguém da família ou de confiança emita em seu nome? Não passe a senha do gov.br. O titular entra com a própria conta e autoriza a pessoa na tela de cadastro de operadores.
+O que precisa antes de emitir
+Em Santa Catarina o cadastro é o de Produtores Primários (CPP), e o pedido é na SEF-SC. Quem ainda não tem cadastro para emitir a nota eletrônica pode procurar uma das unidades conveniadas da SEF/SC no município, com a documentação.
+Cadastro de produtor primário ativo: é o primeiro requisito da habilitação no SAT.
+Conta gov.br de nível prata ou ouro, ou certificado digital: para se identificar com o CPF do produtor.
+E-mail e telefone: o link para definir a senha do SAT chega por e-mail.
+Antes de abrir a NFP-e, anote quem compra, com CPF ou CNPJ, o produto, a quantidade e o valor. Carga de animais sai com a nota e com a guia de trânsito: confira como emitir GTA. O que é descontado do produtor na venda está no guia do Funrural.
+Onde tirar dúvida em Santa Catarina
+Dúvidas e sugestões vão para a Central de Atendimento Fazendária (CAF), pelo Fale Conosco do site da SEF-SC (sef.sc.gov.br). O próprio aplicativo também tem botão de ajuda. O atendimento presencial da nota de produtor é na Unidade Conveniada da SEF no município. A página do aplicativo traz os manuais do Nota Fiscal Fácil do produtor.
+Informação geral, que não substitui o contador. Perfil no SAT, nível da conta gov.br e operações do aplicativo são regras da SEF-SC: confirme com a Fazenda antes de emitir.
+A nota fiscal na rotina do FINAGRO
+O FINAGRO não emite nota fiscal e não transmite nada à Fazenda. A nota sai no SAT da SEF-SC ou no aplicativo Nota Fiscal Fácil.
+A venda feita com nota entra no app como receita, com descrição, categoria e forma de pagamento. O número da nota e o nome de quem comprou cabem na descrição.
+Na venda de gado, a saída do animal guarda o destino ou comprador. O valor que ainda vai entrar se lança em contas a receber, com a data do acerto.
+A tela Documentos guarda a inscrição estadual como outro documento, com o número, ao lado do CCIR, do ITR e dos contratos.
+Relatórios em PDF e em planilha (CSV) reúnem as vendas e as despesas do período para o contador conferir com as notas.
+A nota sai no sistema da Fazenda. A venda fica anotada no FINAGRO.
+Grátis até 1.000 animais com ficha, sem cartão, no Android e no navegador.
+Começar grátis
+Perguntas sobre nota fiscal de produtor em SC
+Como emitir nota fiscal de produtor rural em Santa Catarina?
+No SAT, o sistema da Secretaria de Estado da Fazenda. Entre com usuário e senha e abra, no Perfil Produtor Primário, o aplicativo de emissão de NFP-e. Preencha, valide e autorize a nota. A outra opção é o aplicativo Nota Fiscal Fácil, com login gov.br.
+Preciso de certificado digital para emitir a NFP-e em SC?
+Não necessariamente. A habilitação no SAT é feita com o CPF do produtor, por certificado digital ou pela conta gov.br de nível ouro ou prata. Também pode ser feita na Unidade Conveniada da SEF no município.
+Dá para emitir nota de produtor pelo celular em SC?
+Dá. O Nota Fiscal Fácil é um aplicativo de celular para o produtor primário emitir nota eletrônica de forma simplificada, e tem também versão web para o computador. A SEF-SC exige conta gov.br de nível prata ou ouro.
+Minha esposa ou meu filho pode emitir a nota no meu nome?
+Pode, sem usar a sua senha do gov.br. No Nota Fiscal Fácil, o titular da inscrição entra com a própria conta e autoriza a outra pessoa na tela de cadastro de operadores.
+Onde tirar dúvida sobre nota fiscal de produtor rural em SC?
+Na Central de Atendimento Fazendária, pelo Fale Conosco do site da SEF-SC, no botão de ajuda do aplicativo ou na Unidade Conveniada da SEF no seu município.
+Fontes
+SEF-SC, Emitir NFP-e, Nota Fiscal de Produtor Eletrônica
+SEF-SC, Habilitar-se para emissão de NFP-e
+SEF-SC, Nota Fiscal Fácil do Produtor Primário
+SEF-SC, Emitir Nota Fiscal Fácil
+SEF-SC, NFP-e obrigatória a partir de fevereiro de 2025 (notícia de 12/12/2024)
+SEF-SC, nota eletrônica obrigatória em 3 de fevereiro (notícia de 24/01/2025)
+Confaz, Ajuste SINIEF 10/2022 (redação do Ajuste SINIEF 27/2024)
+Veja também
+Nota fiscal de produtorInscrição estadualNota de produtor no RSTodos os guiasEm outros estados
+Nota de produtor na BANota de produtor no DFNota de produtor no ESNota de produtor em GONota de produtor em MGNota de produtor no PRNota de produtor no RSNota de produtor em SPDo mesmo assunto
+Planilha de gestão ruralPronaf 2026Fluxo de caixa ruralLCDPRContrato de safra
+Nesta página
+Qual é o sistema de emissão em Santa Catarina
+Quem é obrigado à NFP-e em SC e desde quando
+Passo a passo da NFP-e no SAT e do Nota Fiscal Fácil
+O que precisa antes de emitir
+Onde tirar dúvida em Santa Catarina
+A nota fiscal na rotina do FINAGRO
+Perguntas frequentes
+FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
+Grátis até 1.000 animais com ficha
+Lote sem limite de cabeças
+Sem cartão
+Começar grátisBaixar para Android
+
+
+---
+
+## Nota fiscal de produtor rural em SP: como emitir
+Endereço: https://finagro.app/nota-fiscal-de-produtor-rural-sp
+
+
+FINAGRO
+Guias
+Nota de produtor em SP
+GuiaDinheiro e imposto
+Nota fiscal de produtor rural em SP: como emitir pelo celular
+Como emitir nota fiscal de produtor rural em São Paulo?
+Em São Paulo o produtor rural emite nota fiscal eletrônica no lugar do talão modelo 4, e a obrigação alcançou todos os produtores em 5 de janeiro de 2026. A Secretaria da Fazenda e Planejamento oferece o aplicativo Nota Fiscal Fácil, gratuito e sem certificado digital, disponível para o produtor rural desde 16/09/2024. É preciso ter inscrição estadual.
+Atualizado em 09/10/2026
+Qual é o sistema de emissão em São Paulo
+A Secretaria da Fazenda e Planejamento de São Paulo (Sefaz-SP) indica ao produtor rural o Nota Fiscal Fácil (NFF). É uma forma simplificada de emitir documento fiscal eletrônico para transportadores autônomos, microempreendedores individuais e produtores primários.
+Para quem: em São Paulo o aplicativo está disponível para o produtor rural desde 16/09/2024.
+O que emite: NF-e e NFC-e de vendas, remessas, transferência ou devolução.
+Onde vale: tanto em operações internas quanto em interestaduais.
+Quanto custa: nada. A Sefaz-SP informa que o aplicativo é totalmente gratuito e dispensa certificado digital.
+Sem sinal: há possibilidade de emissão sem internet, com os documentos guardados na memória do celular.
+A Sefaz-SP avisa que o Nota Fiscal Fácil não substitui os emissores convencionais. Ele é uma alternativa mais simples, que pode ser usada junto com outra forma de emissão. Quem já emite NF-e em sistema próprio, com certificado digital, pode continuar.
+Quem é obrigado à nota eletrônica em SP e desde quando
+A regra é a do Ajuste SINIEF 27/2024, do Confaz, aplicada em São Paulo. A Defesa Agropecuária do estado resumiu assim:
+QuemDesde quando
+Receita bruta rural acima de R$ 360.000,00 em 2023 ou 20243 de fevereiro de 2025
+Vendas para outro estado, independente do faturamentoJá obrigatória
+Todos os demais produtores5 de janeiro de 2026
+Defesa Agropecuária do Estado de São Paulo, notícia de janeiro de 2026, e Ajuste SINIEF 10/2022 no site do Confaz.
+Quem antes usava a nota fiscal modelo 4, a do talão, passa obrigatoriamente a usar a NF-e ou a nota fiscal de consumidor eletrônica, a NFC-e. O histórico das datas está no guia geral da nota fiscal de produtor rural.
+Passo a passo no Nota Fiscal Fácil
+A página da Sefaz-SP não traz o roteiro de telas: aponta o Portal Nacional da Nota Fiscal Fácil e o manual para usuários. É de lá o Manual de Orientação ao Produtor Rural, de janeiro de 2026, fonte nacional dos passos abaixo:
+Na loja de aplicativos do celular, pesquise por "NFF" e instale o Nota Fiscal Fácil.
+Entre com a conta gov.br: digite o CPF, avance e informe a senha.
+Na escolha do tipo de nota, selecione Produtor Primário.
+Informe o telefone, valide o código recebido e defina o PIN de 4 dígitos.
+Dê um nome a cada inscrição estadual listada. Depois escolha os produtos e cadastre os clientes.
+Na hora da venda, abra uma nova nota. Escolha a propriedade, o cliente e o tipo de operação.
+Informe o produto, a quantidade e o tipo de transporte.
+Confira o resumo da nota e envie.
+O manual informa que a tributação e o cálculo do imposto são feitos de forma automática pelo aplicativo. O que fica com você é informar certo o produto, a quantidade, o valor e quem está comprando.
+Se a sua operação não aparece no aplicativo, ou se o volume de notas é grande, o caminho é o emissor convencional de NF-e, com ajuda do contador.
+O que precisa antes de emitir
+No estado de São Paulo o produtor rural precisa de Inscrição Estadual (IE), e o pedido é pelo Portal da Redesim. O guia da inscrição estadual de produtor rural detalha esse caminho.
+Inscrição Estadual regular: o manual do aplicativo informa que o uso é liberado sem pedido de credenciamento para quem está com a IE regular.
+Conta gov.br do seu CPF: é o login do aplicativo.
+Certificado digital: o Nota Fiscal Fácil dispensa. Emissor convencional costuma pedir.
+Para a primeira nota, tenha o nome e o CPF ou CNPJ do comprador, o produto, a quantidade e o preço. Venda de gado leva nota e guia de trânsito, e o guia de como emitir GTA cuida da segunda. O Funrural, descontado na venda, tem guia à parte.
+Onde tirar dúvida em São Paulo
+A página do Nota Fiscal Fácil fica no portal da Sefaz-SP (portal.fazenda.sp.gov.br/servicos/nff). O Fale Conosco da Secretaria atende pelo 0800-0170110, de telefone fixo, e pelo 11-2930-3750, de telefone móvel. O mesmo portal traz o mapa das unidades de atendimento.
+Material informativo, que não substitui o contador. Dúvida sobre operação, produto ou imposto se resolve na Sefaz-SP, pelo Fale Conosco, antes de emitir.
+A nota fiscal na rotina do FINAGRO
+O FINAGRO não emite nota fiscal e não transmite nada à Fazenda. A nota sai no aplicativo Nota Fiscal Fácil ou em emissor de NF-e.
+A venda feita com nota entra no app como receita, com descrição, categoria e forma de pagamento. O número da nota e o nome de quem comprou cabem na descrição.
+Na venda de gado, a saída do animal guarda o destino ou comprador. O valor que ainda vai entrar se lança em contas a receber, com a data do acerto.
+A tela Documentos guarda a inscrição estadual como outro documento, com o número, ao lado do CCIR, do ITR e dos contratos.
+Relatórios em PDF e em planilha (CSV) reúnem as vendas e as despesas do período para o contador conferir com as notas.
+A nota sai no sistema da Fazenda. A venda fica anotada no FINAGRO.
+Grátis até 1.000 animais com ficha, sem cartão, no Android e no navegador.
+Começar grátis
+Perguntas sobre nota fiscal de produtor em SP
+Como emitir nota fiscal de produtor rural em SP?
+Pelo aplicativo Nota Fiscal Fácil, que a Secretaria da Fazenda e Planejamento oferece ao produtor rural desde 16/09/2024. Ele é gratuito, dispensa certificado digital e emite NF-e e NFC-e de vendas, remessas, transferência ou devolução.
+O talão de produtor rural ainda vale em São Paulo?
+Não. Quem usava a nota fiscal modelo 4 passa obrigatoriamente a usar a NF-e ou a NFC-e. A obrigação alcançou todos os produtores em 5 de janeiro de 2026.
+Preciso de certificado digital para emitir nota de produtor em SP?
+No Nota Fiscal Fácil não. A Sefaz-SP informa que o aplicativo torna o preenchimento simples e funciona sem necessidade de certificado digital.
+O Nota Fiscal Fácil serve para vender para outro estado?
+Serve. A Sefaz-SP informa que os contribuintes podem usar o Nota Fiscal Fácil tanto para operações internas quanto para interestaduais.
+Preciso de inscrição estadual para emitir nota em SP?
+Sim. No estado de São Paulo o produtor rural precisa de Inscrição Estadual, pedida pelo Portal da Redesim.
+Fontes
+Sefaz-SP, NFF, Nota Fiscal Fácil
+Defesa Agropecuária de São Paulo, nota fiscal eletrônica obrigatória para o produtor rural
+Sefaz-SP, Produtor Rural: abertura, baixa e outras alterações
+Portal Nacional da Nota Fiscal Fácil, Manual de Orientação ao Produtor Rural 2026 (em Documentos)
+Confaz, Ajuste SINIEF 10/2022 (redação do Ajuste SINIEF 27/2024)
+Veja também
+Nota fiscal de produtorInscrição estadualNota de produtor no PRTodos os guiasEm outros estados
+Nota de produtor na BANota de produtor no DFNota de produtor no ESNota de produtor em GONota de produtor em MGNota de produtor no PRNota de produtor no RSNota de produtor em SCDo mesmo assunto
+Planilha de gestão ruralPronaf 2026Fluxo de caixa ruralLCDPRContrato de safra
+Nesta página
+Qual é o sistema de emissão em São Paulo
+Quem é obrigado à nota eletrônica em SP e desde quando
+Passo a passo no Nota Fiscal Fácil
+O que precisa antes de emitir
+Onde tirar dúvida em São Paulo
+A nota fiscal na rotina do FINAGRO
+Perguntas frequentes
+FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
+Grátis até 1.000 animais com ficha
+Lote sem limite de cabeças
+Sem cartão
+Começar grátisBaixar para Android
+
+
+---
+
+## Nota fiscal avulsa de produtor rural na Bahia: como emitir
+Endereço: https://finagro.app/nota-fiscal-de-produtor-rural-ba
+
+
+FINAGRO
+Guias
+Nota de produtor na BA
+GuiaDinheiro e imposto
+Nota fiscal avulsa de produtor rural na Bahia: como emitir a NFA-e
+Como emitir nota fiscal avulsa de produtor rural na Bahia?
+Na Bahia o produtor rural emite a Nota Fiscal Avulsa Eletrônica (NFA-e) no site da Secretaria da Fazenda, a Sefaz-BA. O caminho é Inspetoria Eletrônica, ICMS, Documentos Fiscais, Nota Fiscal Eletrônica Avulsa, com a senha de serviços da Sefaz. Nas vendas internas há também o aplicativo Nota Fiscal Fácil. Dúvida de preenchimento é atendida por videochamada no Balcão Virtual.
+Atualizado em 09/10/2026
+Qual é o sistema de emissão na Bahia
+Na Bahia a nota do produtor rural que a Secretaria da Fazenda (Sefaz-BA) publica é a Nota Fiscal Avulsa Eletrônica, a NFA-e. Segundo a Sefaz-BA, ela serve às operações de circulação de mercadorias ou bens feitas por produtores rurais e por microempreendedores individuais. Vale também para pessoas não inscritas no cadastro de contribuintes do ICMS.
+Em janeiro de 2024 a Sefaz-BA passou a emitir a nota avulsa em formato eletrônico, com a mesma metodologia da nota fiscal eletrônica. Na prática, a tela de preenchimento ficou quase igual à de antes. A nota emitida passou a ficar disponível para consulta no site da Sefaz-BA e no Portal Nacional da NF-e.
+A emissão é pela internet, dentro da Inspetoria Eletrônica, a área de serviços do site da Sefaz-BA.
+Há também o Nota Fiscal Fácil (NFF). Em outubro de 2024 a Sefaz-BA informou que o aplicativo facilita as vendas internas dos pequenos produtores em qualquer um dos 417 municípios baianos. Ele pode ser baixado gratuitamente e usa a conta gov.br, com o CPF associado à inscrição estadual. Para emitir, o produtor seleciona o produto e informa a quantidade, o preço e, se quiser, o CPF do cliente.
+O calendário nacional que vale no estado
+A Sefaz-BA não publica calendário próprio nas páginas da nota avulsa. A obrigação da nota eletrônica para o produtor rural vem do Confaz, o Conselho Nacional de Política Fazendária, e as datas são as do Ajuste SINIEF 10/2022:
+QuemData
+Quem vende para outro estado3 de fevereiro de 2025
+Quem vende dentro da Bahia e teve receita rural acima de R$ 360.000,00 em 2023 ou 20243 de fevereiro de 2025
+Os demais produtores baianos5 de janeiro de 2026
+Texto do Ajuste SINIEF 10/2022 publicado pelo Confaz.
+Pelo ajuste, a Bahia pode adotar prazo inferior. Vale conferir com a Sefaz-BA se a sua venda tem tratamento próprio. Como as datas chegaram até aqui está no guia geral da nota fiscal de produtor rural.
+Passo a passo da nota fiscal avulsa eletrônica
+Abra o site da Sefaz-BA (sefaz.ba.gov.br).
+Se você ainda não tem senha, peça primeiro: clique em "senha de serviços Sefaz" e siga as orientações. Sem senha não dá para solicitar pela internet.
+Entre em Inspetoria Eletrônica, depois ICMS, depois Documentos Fiscais, depois Nota Fiscal Eletrônica Avulsa.
+Preencha os dados da operação: quem vende, quem compra, o produto, a quantidade e o valor.
+Confira e emita. A nota fica disponível para consulta no próprio site da Sefaz-BA.
+A Carta de Serviços da Sefaz-BA informa que a nota avulsa eletrônica é emitida nas situações previstas no artigo 193 do regulamento do ICMS da Bahia. Se a sua operação foge do comum, como venda para outro estado ou produto com imposto a recolher, vale confirmar antes de carregar.
+Na mesma página da Carta de Serviços há um link com as orientações de preenchimento da nota.
+O que precisa antes de emitir
+Na Bahia o pedido de inscrição estadual de produtor é na Sefaz-BA. A nota avulsa também atende quem não é inscrito no cadastro de contribuintes do ICMS.
+Senha de serviços da Sefaz-BA: é a chave de entrada da Inspetoria Eletrônica. Sem ela não dá para solicitar pela internet.
+Conta gov.br: só para quem vai emitir pelo Nota Fiscal Fácil, com o CPF associado à inscrição estadual.
+Orientações de preenchimento: estão num link da Carta de Serviços e valem a leitura antes da primeira nota.
+Anote antes o nome e o documento de quem compra, a mercadoria, a quantidade e o preço. Se a venda é de animais, a guia de trânsito segue com a nota, e o guia de como emitir GTA mostra como tirar. A contribuição sobre a venda da produção tem página própria: Funrural.
+Onde tirar dúvida na Bahia
+Balcão Virtual: em sefaz.ba.gov.br/balcao-virtual, o serviço "Orientação sobre Emissão de NFA-e" atende por videochamada, de segunda a sexta-feira, das 8h às 17h30. Tenha em mãos um documento de identificação com foto e habilite a câmera e o microfone.
+Call center da Sefaz-BA: 0800 0710071, para ligações de telefone fixo, ou (71) 3319-2501, para celular ou fixo, de segunda a sexta-feira, das 8h às 18h.
+Carta de Serviços: traz o serviço de emissão, o pedido de senha e as orientações de preenchimento.
+Leitura informativa, que não substitui o contador. As situações em que a nota avulsa cabe estão no regulamento do ICMS da Bahia: confirme na Sefaz-BA antes de carregar.
+A nota fiscal na rotina do FINAGRO
+O FINAGRO não emite nota fiscal e não transmite nada à Fazenda. A nota sai na Inspetoria Eletrônica da Sefaz-BA ou no aplicativo Nota Fiscal Fácil.
+A venda feita com nota entra no app como receita, com descrição, categoria e forma de pagamento. O número da nota e o nome de quem comprou cabem na descrição.
+Na venda de gado, a saída do animal guarda o destino ou comprador. O valor que ainda vai entrar se lança em contas a receber, com a data do acerto.
+A tela Documentos guarda a inscrição estadual como outro documento, com o número, ao lado do CCIR, do ITR e dos contratos.
+Relatórios em PDF e em planilha (CSV) reúnem as vendas e as despesas do período para o contador conferir com as notas.
+A nota sai no sistema da Fazenda. A venda fica anotada no FINAGRO.
+Grátis até 1.000 animais com ficha, sem cartão, no Android e no navegador.
+Começar grátis
+Perguntas sobre nota fiscal de produtor na Bahia
+Como emitir nota fiscal avulsa de produtor rural na Bahia?
+No site da Sefaz-BA, pelo caminho Inspetoria Eletrônica, ICMS, Documentos Fiscais, Nota Fiscal Eletrônica Avulsa. É preciso ter a senha de serviços da Sefaz. Quem não tem clica em senha de serviços Sefaz e segue as orientações.
+Preciso de senha para emitir a nota avulsa na Bahia?
+Sim. A Carta de Serviços da Sefaz-BA informa que, para solicitar pela internet, é necessário possuir senha. Quem não tem pede antes, pelo serviço de Senha.
+A nota fiscal avulsa da Bahia é eletrônica?
+É. A Sefaz-BA passou a emitir a nota avulsa em formato eletrônico em janeiro de 2024, com a mesma metodologia da nota fiscal eletrônica. A nota pode ser consultada no site da Sefaz-BA e no Portal Nacional da NF-e.
+Onde tirar dúvida sobre a nota avulsa de produtor rural na Bahia?
+No Balcão Virtual da Sefaz-BA, que atende por videochamada de segunda a sexta-feira, das 8h às 17h30. Há também o call center, pelo 0800 0710071 de telefone fixo ou pelo (71) 3319-2501.
+Dá para emitir nota de produtor rural pelo celular na Bahia?
+Dá, nas vendas internas, pelo aplicativo Nota Fiscal Fácil. A Sefaz-BA informa que ele pode ser baixado gratuitamente e que usa a conta gov.br, com o CPF associado à inscrição estadual.
+Fontes
+Sefaz-BA, Carta de Serviços: Emissão de Nota Fiscal Avulsa Eletrônica
+Governo da Bahia, Sefaz-BA passa a emitir Nota Fiscal Avulsa em formato eletrônico
+Sefaz-BA, suporte para emissão da NFA-e no Balcão Virtual
+Sefaz-BA, Nota Fiscal Fácil para pequenos produtores rurais (notícia de 04/10/2024)
+Confaz, Ajuste SINIEF 10/2022 (redação do Ajuste SINIEF 27/2024)
+Veja também
+Nota fiscal de produtorInscrição estadualNota de produtor no ESTodos os guiasEm outros estados
+Nota de produtor no DFNota de produtor no ESNota de produtor em GONota de produtor em MGNota de produtor no PRNota de produtor no RSNota de produtor em SCNota de produtor em SPDo mesmo assunto
+Planilha de gestão ruralPronaf 2026Fluxo de caixa ruralLCDPRContrato de safra
+Nesta página
+Qual é o sistema de emissão na Bahia
+O calendário nacional que vale no estado
+Passo a passo da nota fiscal avulsa eletrônica
+O que precisa antes de emitir
+Onde tirar dúvida na Bahia
+A nota fiscal na rotina do FINAGRO
+Perguntas frequentes
+FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
+Grátis até 1.000 animais com ficha
+Lote sem limite de cabeças
+Sem cartão
+Começar grátisBaixar para Android
+
+
+---
+
+## Nota fiscal de produtor rural no DF: como emitir
+Endereço: https://finagro.app/nota-fiscal-de-produtor-rural-df
+
+
+FINAGRO
+Guias
+Nota de produtor no DF
+GuiaDinheiro e imposto
+Nota fiscal de produtor rural no DF: como emitir a NF-e
+Como emitir nota fiscal de produtor rural no Distrito Federal?
+No Distrito Federal o produtor rural emite nota fiscal eletrônica, a NF-e modelo 55. A pessoa física com faturamento até o previsto para o MEI fica dispensada e pode emitir por opção. O aplicativo Nota Fiscal Fácil atende a pessoa física, com CPF no gov.br. A Secretaria de Economia informa que o módulo do produtor ainda está em parametrização.
+Atualizado em 09/10/2026
+Qual é o sistema de emissão no Distrito Federal
+No Distrito Federal quem cuida da nota é a Secretaria de Estado de Economia (SEEC), pelo Portal de Serviços da Receita. A página de informações da nota fiscal do produtor rural separa três casos:
+QuemO que emite
+Produtor rural pessoa física não equiparado a pessoa jurídicaNF-e modelo 55, podendo usar o aplicativo Nota Fiscal Fácil, Módulo Produtor Rural
+Produtor rural pessoa física equiparado a pessoa jurídicaNF-e modelo 55
+Produtor rural pessoa jurídicaNF-e modelo 55
+Portal de Serviços da Receita do DF, Secretaria de Estado de Economia.
+O aplicativo aparece na página com o nome "NFF Fácil". É o mesmo Nota Fiscal Fácil dos outros estados, construído pela Sefaz Virtual do Rio Grande do Sul, e pode ser baixado gratuitamente. No DF ele pode ser usado pelo produtor rural pessoa física para emitir NF-e. A Secretaria avisa, porém, que o Módulo Produtor Rural ainda está em fase de parametrização.
+O calendário nacional que vale no estado
+A página da Secretaria de Economia diz que todos os produtores rurais devem emitir NF-e, independentemente do enquadramento. A mesma página abre uma exceção. A pessoa física com faturamento igual ou inferior ao previsto para o microempreendedor individual (MEI) está dispensada de emitir documento fiscal. Se quiser, pode emitir da forma prevista para o produtor rural pessoa física.
+A página também explica quem é não contribuinte. É o produtor com faturamento anual até R$ 3,6 milhões, que não é contribuinte do IBS e da CBS, os tributos da reforma tributária, pela Lei Complementar 214/2025. Em 2026, o Nota Fiscal Fácil é de uso restrito a esses produtores. Quem passa do limite deve confirmar na Receita do DF por onde emitir.
+A Secretaria de Economia do DF não publica data própria nessas páginas. O calendário é o do Confaz, o Conselho Nacional de Política Fazendária, no Ajuste SINIEF 10/2022:
+OperaçãoInício
+Venda para fora do Distrito Federal3 de fevereiro de 2025
+Venda interna, receita rural acima de R$ 360.000,00 em 2023 ou 20243 de fevereiro de 2025
+Demais produtores rurais do DF5 de janeiro de 2026
+Confaz, Ajuste SINIEF 10/2022, redação vigente.
+O ajuste permite prazo inferior por decisão local. As prorrogações anteriores estão no guia geral da nota fiscal de produtor rural.
+O que a Secretaria publica sobre o Nota Fiscal Fácil
+Baixe gratuitamente o aplicativo, que a página chama de "NFF Fácil".
+Faça a autenticação com o seu CPF, pela plataforma gov.br.
+Consulte o Manual de uso do aplicativo, indicado na mesma página.
+O passo seguinte ainda não foi liberado no Distrito Federal. A Secretaria informa que o Módulo Produtor Rural está em fase de parametrização das mercadorias, das atividades e de outras informações. A emissão pelo aplicativo depende dessa liberação. Antes da venda, confirme na Receita do DF se o módulo já está no ar e, se não estiver, por onde emitir a NF-e.
+O que precisa antes de emitir
+No Distrito Federal o pedido de inscrição de produtor rural é na Secretaria de Estado de Economia, pelo Portal de Serviços da Receita.
+Enquadramento: pessoa física, pessoa física equiparada a pessoa jurídica ou pessoa jurídica. É ele que define o que a página manda emitir.
+Faturamento do ano: é ele que diz se há dispensa e se o produtor é contribuinte do IBS e da CBS.
+Conta gov.br do seu CPF: é por ela que o aplicativo autentica.
+Para a NF-e modelo 55, reúna os dados do comprador, com CPF ou CNPJ, o produto, a quantidade e o valor. Animal que sai da propriedade leva a nota e a guia de trânsito, tema do guia de como emitir GTA. A contribuição sobre a receita da venda está em Funrural.
+Onde tirar dúvida no Distrito Federal
+O Portal de Serviços da Receita do DF (receita.fazenda.df.gov.br) tem duas páginas para o assunto. Uma é "Obter Informações de Nota Fiscal de Produtor Rural Pessoa Física". A outra é "Nota Fiscal Fácil NFF, Obter Informações". As duas trazem os endereços, telefones e horários de atendimento da Receita.
+Texto de orientação geral, que não substitui o contador. Dispensa, enquadramento e liberação do aplicativo dependem da Secretaria de Economia do DF: confirme na Receita antes de vender.
+A nota fiscal na rotina do FINAGRO
+O FINAGRO não emite nota fiscal e não transmite nada à Fazenda. A nota sai no aplicativo Nota Fiscal Fácil ou em outro emissor de NF-e.
+A venda feita com nota entra no app como receita, com descrição, categoria e forma de pagamento. O número da nota e o nome de quem comprou cabem na descrição.
+Na venda de gado, a saída do animal guarda o destino ou comprador. O valor que ainda vai entrar se lança em contas a receber, com a data do acerto.
+A tela Documentos guarda a inscrição estadual como outro documento, com o número, ao lado do CCIR, do ITR e dos contratos.
+Relatórios em PDF e em planilha (CSV) reúnem as vendas e as despesas do período para o contador conferir com as notas.
+A nota sai no sistema da Fazenda. A venda fica anotada no FINAGRO.
+Grátis até 1.000 animais com ficha, sem cartão, no Android e no navegador.
+Começar grátis
+Perguntas sobre nota fiscal de produtor no DF
+Como emitir nota fiscal de produtor rural no DF?
+O produtor rural pessoa física não equiparado a pessoa jurídica emite NF-e modelo 55. A página da Secretaria prevê o aplicativo Nota Fiscal Fácil, com autenticação por CPF na plataforma gov.br, mas o Módulo Produtor Rural ainda está em parametrização. Os demais emitem a mesma NF-e modelo 55.
+Todo produtor rural do DF precisa emitir nota eletrônica?
+Depende do faturamento. A Secretaria de Estado de Economia informa que os produtores rurais devem emitir NF-e. A mesma página dispensa a pessoa física com faturamento igual ou inferior ao previsto para o MEI, que pode emitir por opção.
+Quem pode usar o Nota Fiscal Fácil no Distrito Federal?
+O produtor rural pessoa física. Em 2026 o uso é restrito aos produtores rurais não contribuintes, que são os de faturamento anual até R$ 3,6 milhões. A Secretaria informa que o módulo do produtor ainda está em parametrização.
+O aplicativo Nota Fiscal Fácil é pago no DF?
+Não. A Secretaria de Economia informa que o aplicativo está disponível para ser baixado gratuitamente.
+Fontes
+Receita do DF, Obter Informações de Nota Fiscal de Produtor Rural Pessoa Física
+Receita do DF, Nota Fiscal Fácil NFF: Obter Informações
+Confaz, Ajuste SINIEF 10/2022 (redação do Ajuste SINIEF 27/2024)
+Veja também
+Nota fiscal de produtorInscrição estadualNota de produtor em GOTodos os guiasEm outros estados
+Nota de produtor na BANota de produtor no ESNota de produtor em GONota de produtor em MGNota de produtor no PRNota de produtor no RSNota de produtor em SCNota de produtor em SPDo mesmo assunto
+Planilha de gestão ruralPronaf 2026Fluxo de caixa ruralLCDPRContrato de safra
+Nesta página
+Qual é o sistema de emissão no Distrito Federal
+O calendário nacional que vale no estado
+O que a Secretaria publica sobre o Nota Fiscal Fácil
+O que precisa antes de emitir
+Onde tirar dúvida no Distrito Federal
+A nota fiscal na rotina do FINAGRO
+Perguntas frequentes
+FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
+Grátis até 1.000 animais com ficha
+Lote sem limite de cabeças
+Sem cartão
+Começar grátisBaixar para Android
+
+
+---
+
+## Nota fiscal avulsa de produtor rural no ES acabou: e agora?
+Endereço: https://finagro.app/nota-fiscal-de-produtor-rural-es
+
+
+FINAGRO
+Guias
+Nota de produtor no ES
+GuiaDinheiro e imposto
+Nota fiscal avulsa de produtor rural no ES acabou: o que usar agora
+Como emitir nota fiscal de produtor rural no Espírito Santo?
+No Espírito Santo a nota fiscal avulsa eletrônica do site da Secretaria da Fazenda não serve mais ao produtor rural. As novas emissões de NFA-e foram encerradas a partir de 01/01/2026. A Sefaz-ES indica o aplicativo Nota Fiscal Fácil, gratuito, que emite NF-e e NFC-e. Quem preferir pode contratar aplicativo próprio para emitir esses documentos.
+Atualizado em 09/10/2026
+Qual é o sistema de emissão no Espírito Santo
+A Nota Fiscal Avulsa Eletrônica (NFA-e) do site da Secretaria de Estado da Fazenda (Sefaz-ES) deixou de receber novas emissões. A tela de acesso informa que o ambiente de NFA-e está em manutenção. O motivo dado é o encerramento das novas emissões a partir de 01/01/2026.
+No mesmo aviso a Sefaz-ES aponta o que usar no lugar:
+Nota Fiscal Fácil (NFF): aplicativo gratuito, que emite NF-e, a nota fiscal eletrônica, e NFC-e, a nota fiscal de consumidor eletrônica.
+Aplicativo próprio: o produtor também pode contratar um emissor para esses documentos fiscais.
+A tela da nota avulsa traz ainda um aviso em letras maiúsculas. Aquele documento não pode ser utilizado em operações por microempreendedor individual, produtor rural, pescador ou artesão. Quem procura "nota fiscal avulsa de produtor rural" no Espírito Santo deve, portanto, ir direto para o aplicativo.
+O calendário nacional que vale no estado
+Fora o fim da nota avulsa, a tela da Sefaz-ES não traz data própria. O calendário da nota eletrônica do produtor é o do Confaz, o Conselho Nacional de Política Fazendária, no Ajuste SINIEF 10/2022:
+CasoVale desde
+Venda interestadual3 de fevereiro de 2025
+Venda no Espírito Santo, com receita rural acima de R$ 360.000,00 em 2023 ou 20243 de fevereiro de 2025
+Demais produtores capixabas5 de janeiro de 2026
+Ajuste SINIEF 10/2022, consultado no site do Confaz.
+O ajuste autoriza cada unidade da federação a encurtar o prazo. No Espírito Santo, o fim das novas emissões de nota avulsa em 01/01/2026 veio poucos dias antes da última data nacional. O caminho das datas, ano a ano, está no guia geral da nota fiscal de produtor rural.
+Passo a passo pelo Nota Fiscal Fácil
+A Sefaz-ES indica o aplicativo, mas a tela do aviso não traz o roteiro. O passo a passo abaixo é o do Manual de Orientação ao Produtor Rural, do Portal Nacional da Nota Fiscal Fácil (dfe-portal.svrs.rs.gov.br/Nff, em Documentos). É uma fonte nacional, escrita para o produtor pessoa física com inscrição estadual regular:
+Procure por "NFF" na loja de aplicativos do celular e instale o Nota Fiscal Fácil.
+Quem já tem conta gov.br digita o CPF e a senha.
+Quando o aplicativo perguntar o tipo de nota, escolha Produtor Primário.
+Crie a senha PIN de 4 dígitos. Ela é pedida em cada emissão.
+Escolha os produtos da propriedade e cadastre os clientes e, se houver, os transportadores.
+Para emitir, abra uma nova nota e escolha a propriedade, o cliente e o tipo de operação.
+Confira o resumo. Se estiver certo, acione o botão de enviar a nota.
+O manual informa que não é preciso pedir credenciamento para usar o aplicativo: basta a inscrição estadual estar regular. Se o seu produto ou a sua operação não aparecem, fale com a Sefaz-ES pelo Receita Orienta antes de carregar. A outra saída é o emissor próprio, com ajuda do contador.
+O endereço antigo da nota avulsa continua no ar, com a área restrita e o aviso "Sistema será descontinuado". Para nota nova, o caminho é o aplicativo.
+O que precisa antes de emitir
+No Espírito Santo o pedido de inscrição estadual de produtor é na Sefaz-ES. Com a inscrição regular, o manual nacional informa que o uso do aplicativo é liberado de forma automática.
+Inscrição estadual regular na Sefaz-ES: é ela que o aplicativo lista para você emitir.
+Conta gov.br: quem já tem entra com o CPF e a senha.
+Telefone celular: o aplicativo envia um código de verificação para o número informado.
+No cadastro do cliente o aplicativo pede nome, CPF ou CNPJ e a inscrição estadual, se houver. Tenha também a quantidade e o preço combinados. Na carga de animais, a guia de trânsito vai junto com a nota: leia como emitir GTA. E o guia do Funrural explica o desconto sobre a venda.
+Onde tirar dúvida no Espírito Santo
+A Sefaz-ES atende pelo Receita Orienta, o canal de perguntas da Receita Estadual, no endereço s1-internet.sefaz.es.gov.br/ReceitaOrienta. É o contato que a própria tela da nota avulsa indica para falar com a equipe técnica.
+Este conteúdo é informativo e não substitui o contador. O roteiro do aplicativo vem do manual nacional, e a regra do estado é a da Sefaz-ES: confirme pelo Receita Orienta antes de emitir.
+A nota fiscal na rotina do FINAGRO
+O FINAGRO não emite nota fiscal e não transmite nada à Fazenda. A nota sai no aplicativo Nota Fiscal Fácil ou em emissor próprio.
+A venda feita com nota entra no app como receita, com descrição, categoria e forma de pagamento. O número da nota e o nome de quem comprou cabem na descrição.
+Na venda de gado, a saída do animal guarda o destino ou comprador. O valor que ainda vai entrar se lança em contas a receber, com a data do acerto.
+A tela Documentos guarda a inscrição estadual como outro documento, com o número, ao lado do CCIR, do ITR e dos contratos.
+Relatórios em PDF e em planilha (CSV) reúnem as vendas e as despesas do período para o contador conferir com as notas.
+A nota sai no sistema da Fazenda. A venda fica anotada no FINAGRO.
+Grátis até 1.000 animais com ficha, sem cartão, no Android e no navegador.
+Começar grátis
+Perguntas sobre nota fiscal de produtor no ES
+Como emitir nota fiscal avulsa de produtor rural no ES?
+Não se emite mais. A Secretaria da Fazenda do Espírito Santo encerrou as novas emissões de NFA-e a partir de 01/01/2026 e indica o aplicativo Nota Fiscal Fácil, gratuito, que emite NF-e e NFC-e.
+Qual aplicativo o produtor rural usa para emitir nota no Espírito Santo?
+O Nota Fiscal Fácil, indicado pela Sefaz-ES e gratuito. O produtor também pode contratar aplicativo próprio para emitir NF-e e NFC-e.
+O Nota Fiscal Fácil é pago?
+Não. A Sefaz-ES informa que os usuários têm o aplicativo à disposição de forma gratuita.
+Onde tirar dúvida sobre a nota de produtor rural no ES?
+No Receita Orienta, o canal de atendimento da Sefaz-ES pela internet. É o contato indicado na tela do antigo sistema de nota avulsa.
+Fontes
+Sefaz-ES, sistema de Nota Fiscal Avulsa Eletrônica (aviso de encerramento)
+Portal Nacional da Nota Fiscal Fácil, Manual de Orientação ao Produtor Rural 2026 (em Documentos)
+Confaz, Ajuste SINIEF 10/2022 (redação do Ajuste SINIEF 27/2024)
+Veja também
+Nota fiscal de produtorInscrição estadualNota de produtor na BATodos os guiasEm outros estados
+Nota de produtor na BANota de produtor no DFNota de produtor em GONota de produtor em MGNota de produtor no PRNota de produtor no RSNota de produtor em SCNota de produtor em SPDo mesmo assunto
+Planilha de gestão ruralPronaf 2026Fluxo de caixa ruralLCDPRContrato de safra
+Nesta página
+Qual é o sistema de emissão no Espírito Santo
+O calendário nacional que vale no estado
+Passo a passo pelo Nota Fiscal Fácil
+O que precisa antes de emitir
+Onde tirar dúvida no Espírito Santo
+A nota fiscal na rotina do FINAGRO
+Perguntas frequentes
+FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
+Grátis até 1.000 animais com ficha
+Lote sem limite de cabeças
+Sem cartão
+Começar grátisBaixar para Android
+
+
+---
+
+## Nota fiscal de produtor rural no Paraná: como emitir
+Endereço: https://finagro.app/nota-fiscal-de-produtor-rural-pr
+
+
+FINAGRO
+Guias
+Nota de produtor no PR
+GuiaDinheiro e imposto
+Nota fiscal de produtor rural no Paraná: como emitir a NFP-e
+Como emitir nota fiscal de produtor rural no Paraná?
+No Paraná a nota do produtor é a NFP-e, nota fiscal de produtor eletrônica, modelo 55. Ela é emitida no portal Receita/PR, da Secretaria da Fazenda, com chave e senha. Desde 05/01/2026 a nota eletrônica vale nas vendas dentro do estado para todos os produtores. Antes de tudo, o produtor precisa estar inscrito no CAD/PRO.
+Atualizado em 09/10/2026
+Qual é o sistema de emissão no Paraná
+A Secretaria da Fazenda do Paraná (Sefa) chama a nota do produtor de NFP-e. É uma nota fiscal eletrônica, modelo 55, adequada para o produtor rural. Ele emite em sistema eletrônico da própria Sefa, no Portal Receita/PR. A NFP-e tem as mesmas atribuições da antiga Nota Fiscal de Produtor modelo 4, a do talão de papel.
+A emissão é no endereço receita.pr.gov.br/login, ambiente acessado com chave e senha. Há um teto de faturamento. Quem ultrapassa R$ 3.600.000,00 no ano passa a ser contribuinte do IBS e da CBS, os tributos da reforma tributária, pela Lei Complementar 214/2025. Nessa condição, a Receita Estadual não permite emitir a NFP-e pelo Receita/PR nem pelo Nota Fiscal Fácil. O produtor emite NF-e em sistema emissor próprio autorizado.
+Quem emite é o titular do cadastro. O associado vinculado ao CAD/PRO do titular também pode emitir, desde que seja usuário do Receita/PR e esteja autorizado pelo titular. O nome do associado aparece no campo de informações complementares da nota.
+Quem é obrigado à NFP-e no Paraná e desde quando
+A Receita Estadual do Paraná publica o calendário com base no Ajuste SINIEF 27/2024:
+OperaçãoA partir de
+Vendas para outro estado, independente do faturamento03/02/2025
+Vendas dentro do estado, faturamento superior a R$ 360.000,00 em 202301/07/2025
+Vendas dentro do estado, demais produtores05/01/2026
+Receita Estadual do Paraná, perguntas frequentes sobre a NFP-e.
+Com a última data, a nota eletrônica alcança todos os produtores do estado. Quem ainda tem talão guardado deve confirmar na Receita Estadual o que fazer com ele.
+Passo a passo para emitir a NFP-e
+Confira se o seu CAD/PRO está ativo e tenha um e-mail ativo.
+Faça o cadastro de usuário no portal Receita/PR, pelo serviço "Torne-se Usuário", na página da Fazenda do Paraná.
+Aguarde o e-mail de retorno e complete as informações pedidas. Ao abrir esse e-mail, o sistema gera o Termo de Adesão.
+Assine o Termo de Adesão e reconheça firma. Envie em até 30 dias, de preferência pelo e-Protocolo, ou entregue na Agência da Receita Estadual mais próxima da propriedade.
+Não perca esse prazo: sem a entrega do termo em 30 dias, o pedido é indeferido automaticamente.
+Aguarde o e-mail de confirmação da homologação, que traz a senha inicial.
+Entre em receita.pr.gov.br/login com chave e senha e abra o sistema de emissão de NFP-e.
+Escolha o CAD/PRO, preencha a nota e transmita.
+Errou a nota? Dá para cancelar em até 168 horas contadas da autorização de uso, no menu de consulta da NFP-e. Depois desse prazo, o cancelamento é feito com uma NF-e de estorno.
+Se o sistema mostra o CAD/PRO mas não deixa emitir, a Receita explica que pode existir pendência de recolhimento de alguma nota emitida antes. Se o CAD/PRO nem aparece, as causas listadas são falta de vínculo do CPF com o cadastro, cadastro inativo ou associado sem autorização do titular.
+O que precisa antes de emitir
+No Paraná a inscrição do produtor se chama CAD/PRO, o Cadastro de Produtores Rurais, e vem antes do início da atividade. É o CAD/PRO que aparece no sistema na hora de emitir. Veja o caminho no guia da inscrição estadual de produtor rural.
+CAD/PRO ativo: com o cadastro baixado, o novo é pedido na prefeitura do município do imóvel.
+CPF vinculado ao CAD/PRO e e-mail ativo: são pedidos no cadastro de usuário do Receita/PR.
+Termo de Adesão com firma reconhecida: entregue em até 30 dias, ou o pedido é indeferido.
+Chave e senha do Receita/PR: a senha inicial chega por e-mail depois da homologação.
+Para preencher a NFP-e, deixe separados os dados do comprador, o produto, a quantidade e o valor combinado. Se a carga é de gado, a guia de trânsito acompanha a nota: o passo a passo está em como emitir GTA. O desconto feito na venda da produção é assunto do guia do Funrural.
+Onde tirar dúvida no Paraná
+A Receita Estadual mantém a página de perguntas frequentes sobre a NFP-e no portal de atendimento da Sefa (atendimento.fazenda.pr.gov.br). Ela responde sobre emissão, cancelamento e cadastro. As questões de CAD/PRO se resolvem na prefeitura do município do imóvel.
+Este guia é informativo e não substitui o contador. Calendário, teto de faturamento e regras de cancelamento são os publicados pela Receita Estadual do Paraná: confirme lá antes de emitir.
+A nota fiscal na rotina do FINAGRO
+O FINAGRO não emite nota fiscal e não transmite nada à Fazenda. A nota sai no portal Receita/PR, da Secretaria da Fazenda do Paraná.
+A venda feita com nota entra no app como receita, com descrição, categoria e forma de pagamento. O número da nota e o nome de quem comprou cabem na descrição.
+Na venda de gado, a saída do animal guarda o destino ou comprador. O valor que ainda vai entrar se lança em contas a receber, com a data do acerto.
+A tela Documentos guarda a inscrição estadual como outro documento, com o número, ao lado do CCIR, do ITR e dos contratos.
+Relatórios em PDF e em planilha (CSV) reúnem as vendas e as despesas do período para o contador conferir com as notas.
+A nota sai no sistema da Fazenda. A venda fica anotada no FINAGRO.
+Grátis até 1.000 animais com ficha, sem cartão, no Android e no navegador.
+Começar grátis
+Perguntas sobre nota fiscal de produtor no Paraná
+Como emitir nota fiscal de produtor rural no Paraná?
+No portal Receita/PR, em receita.pr.gov.br/login, com chave e senha. O produtor inscrito no CAD/PRO se cadastra como usuário, recebe a senha inicial por e-mail e emite a NFP-e, a nota fiscal de produtor eletrônica.
+Quem é obrigado a emitir a NFP-e no PR?
+A Receita Estadual do Paraná lista três datas. Desde 03/02/2025 nas vendas para outro estado. Desde 01/07/2025 nas vendas internas de quem faturou mais de R$ 360.000,00 em 2023. Desde 05/01/2026 para os demais produtores.
+Dá para cancelar a nota fiscal de produtor no Paraná?
+Sim, em até 168 horas contadas da autorização de uso, pelo menu de consulta da NFP-e no Receita/PR. Depois desse prazo, o cancelamento é feito com uma NF-e de estorno.
+Quem fatura mais de R$ 3.600.000,00 por ano pode emitir a NFP-e?
+Não. A Receita Estadual informa que quem ultrapassa R$ 3.600.000,00 no ano-calendário passa a ser contribuinte do IBS e da CBS. Nessa condição não emite pelo Receita/PR nem pelo Nota Fiscal Fácil e precisa de sistema emissor próprio autorizado.
+Preciso de CAD/PRO para emitir nota de produtor rural no PR?
+Sim. O CAD/PRO é o Cadastro de Produtores Rurais do Paraná, e a inscrição vem antes do início da atividade. Com o cadastro baixado, o novo é pedido na prefeitura do município do imóvel.
+Fontes
+Receita Estadual do Paraná, perguntas frequentes sobre a NFP-e e o CAD/PRO
+Confaz, Ajuste SINIEF 10/2022 (redação do Ajuste SINIEF 27/2024)
+Veja também
+Nota fiscal de produtorInscrição estadualNota de produtor em SPTodos os guiasEm outros estados
+Nota de produtor na BANota de produtor no DFNota de produtor no ESNota de produtor em GONota de produtor em MGNota de produtor no RSNota de produtor em SCNota de produtor em SPDo mesmo assunto
+Planilha de gestão ruralPronaf 2026Fluxo de caixa ruralLCDPRContrato de safra
+Nesta página
+Qual é o sistema de emissão no Paraná
+Quem é obrigado à NFP-e no Paraná e desde quando
+Passo a passo para emitir a NFP-e
+O que precisa antes de emitir
+Onde tirar dúvida no Paraná
+A nota fiscal na rotina do FINAGRO
+Perguntas frequentes
+FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
+Grátis até 1.000 animais com ficha
+Lote sem limite de cabeças
+Sem cartão
+Começar grátisBaixar para Android
+
+
+---
+
+## Nota fiscal de produtor rural no RS: como emitir
+Endereço: https://finagro.app/nota-fiscal-de-produtor-rural-rs
+
+
+FINAGRO
+Guias
+Nota de produtor no RS
+GuiaDinheiro e imposto
+Nota fiscal de produtor rural no RS: como emitir pelo celular
+Como emitir nota fiscal de produtor rural no Rio Grande do Sul?
+No Rio Grande do Sul a nota de produtor é eletrônica para todos desde 5 de janeiro de 2026. O talão de papel deixou de valer em 1º de maio de 2026. A Secretaria da Fazenda recomenda o aplicativo Nota Fiscal Fácil, gratuito, com login gov.br. Para operações mais complexas existe a Nota Fiscal Avulsa eletrônica.
+Atualizado em 09/10/2026
+Qual é o sistema de emissão no Rio Grande do Sul
+A Secretaria da Fazenda do RS (Sefaz), pela Receita Estadual, oferece dois caminhos gratuitos para a nota fiscal de produtor rural:
+Nota Fiscal Fácil (NFF): aplicativo de celular, a alternativa que a Sefaz recomenda. Entra com o login gov.br e tem uso sem internet, para quem está no campo sem sinal.
+Nota Fiscal Avulsa eletrônica (NFA-e): sistema da Receita Estadual, também gratuito, indicado para operações mais complexas, como as de exportação.
+Quem prefere outro emissor pode usar. A Sefaz informa que há soluções oferecidas por associações e por cooperativas, e que é permitido o desenvolvimento de modelos próprios.
+Quem é obrigado à nota eletrônica no RS e desde quando
+No RS a troca do talão pela nota eletrônica foi feita por etapas. As datas abaixo são as que a Sefaz publicou:
+QuemDesde quando
+Faturamento superior a R$ 4,8 milhões2021
+Receita bruta de R$ 360 mil ou mais e todas as vendas para outro estadoJaneiro de 2025
+Todos os produtores rurais, nas vendas dentro do estado5 de janeiro de 2026
+Secretaria da Fazenda do RS, notícias de janeiro e de maio de 2026.
+Houve uma tolerância para o talão já impresso, o modelo 4. A Sefaz prorrogou o uso até 30 de abril de 2026 para quem tem receita bruta inferior a R$ 360 mil. Esse prazo acabou. Desde 1º de maio de 2026, a nota em papel não pode mais ser utilizada. Quem usa emite documento sem validade fiscal, segundo a Sefaz.
+Passo a passo no Nota Fiscal Fácil
+Baixe o aplicativo Nota Fiscal Fácil no celular.
+Entre com o login gov.br.
+Cadastre os produtos que você vende e os clientes. O primeiro tutorial em vídeo da Sefaz mostra essas operações básicas.
+Na hora da venda, informe o produto, o cliente e a forma de transporte.
+Confira e envie. Informados os dados, a operação é autorizada, a nota é emitida e pode ser compartilhada com quem comprou.
+A Sefaz mantém três tutoriais em vídeo e um manual do aplicativo. Eles cobrem também o ambiente de testes, a emissão sem internet, o cadastro de operadores e transportadores, a venda de merenda escolar, a venda para a Ceasa e a contranota.
+Se a sua operação não está no aplicativo, o caminho da própria Sefaz é a NFA-e.
+O que precisa antes de emitir
+No Rio Grande do Sul a nota sai no nome do produtor inscrito na Receita Estadual. O pedido de inscrição é feito na prefeitura do seu município, que é conveniada à Receita. Os outros estados estão no guia da inscrição estadual de produtor rural.
+Conta gov.br: é o login do Nota Fiscal Fácil.
+Aplicativo no celular: a função sem internet atende quem emite longe do sinal.
+Produtos e clientes cadastrados: o primeiro tutorial da Sefaz mostra como cadastrar antes da primeira nota.
+Na hora da venda o aplicativo pede o produto, o nome do cliente e a forma de transporte. Vai vender gado? A carga também leva a guia de trânsito: veja como emitir GTA. A contribuição descontada na venda está explicada em Funrural.
+Onde tirar dúvida no Rio Grande do Sul
+A Receita Estadual reúne os serviços de ICMS na Carta de Serviços, em atendimento.receita.rs.gov.br. As notícias e os tutoriais sobre a nota do produtor ficam no site da Secretaria da Fazenda, em fazenda.rs.gov.br.
+Texto informativo, que não substitui o contador. Datas e sistemas são os que a Sefaz do RS publicou: confirme na Receita Estadual a regra do seu produto antes de emitir.
+A nota fiscal na rotina do FINAGRO
+O FINAGRO não emite nota fiscal e não transmite nada à Fazenda. A nota sai no aplicativo Nota Fiscal Fácil ou na NFA-e da Receita Estadual do RS.
+A venda feita com nota entra no app como receita, com descrição, categoria e forma de pagamento. O número da nota e o nome de quem comprou cabem na descrição.
+Na venda de gado, a saída do animal guarda o destino ou comprador. O valor que ainda vai entrar se lança em contas a receber, com a data do acerto.
+A tela Documentos guarda a inscrição estadual como outro documento, com o número, ao lado do CCIR, do ITR e dos contratos.
+Relatórios em PDF e em planilha (CSV) reúnem as vendas e as despesas do período para o contador conferir com as notas.
+A nota sai no sistema da Fazenda. A venda fica anotada no FINAGRO.
+Grátis até 1.000 animais com ficha, sem cartão, no Android e no navegador.
+Começar grátis
+Perguntas sobre nota fiscal de produtor no RS
+Como emitir nota fiscal de produtor rural no RS?
+Pelo aplicativo Nota Fiscal Fácil, que a Secretaria da Fazenda do RS recomenda. Baixe no celular, entre com o login gov.br, informe o produto, o cliente e a forma de transporte e envie. A outra opção da Sefaz é a Nota Fiscal Avulsa eletrônica.
+O talão de produtor rural ainda vale no RS?
+Não. A Secretaria da Fazenda informa que, desde 1º de maio de 2026, a nota em papel não pode mais ser utilizada. Quem usa o talão emite documento sem validade fiscal.
+O que é a nota fiscal avulsa de produtor rural no RS?
+É a NFA-e, o sistema de Nota Fiscal Avulsa da Receita Estadual. A Sefaz informa que ela é gratuita e indicada para operações mais complexas, como as de exportação.
+O Nota Fiscal Fácil funciona sem internet?
+Sim. A Secretaria da Fazenda do RS informa que o aplicativo tem uma funcionalidade de uso sem internet, pensada para quem trabalha no campo.
+Preciso de inscrição estadual para emitir nota no RS?
+Sim. A nota sai no nome do produtor inscrito. No Rio Grande do Sul o pedido de inscrição é feito na prefeitura do município, conveniada à Receita Estadual.
+Fontes
+Secretaria da Fazenda do RS, nota eletrônica obrigatória para todos os produtores rurais
+Secretaria da Fazenda do RS, obrigatoriedade a partir de janeiro de 2026
+Governo do RS, Receita Estadual orienta sobre a NF-e e o Nota Fiscal Fácil
+Secretaria da Fazenda do RS, Solicitar Inscrição para Produtor Rural
+Veja também
+Nota fiscal de produtorInscrição estadualNota de produtor em SCTodos os guiasEm outros estados
+Nota de produtor na BANota de produtor no DFNota de produtor no ESNota de produtor em GONota de produtor em MGNota de produtor no PRNota de produtor em SCNota de produtor em SPDo mesmo assunto
+Planilha de gestão ruralPronaf 2026Fluxo de caixa ruralLCDPRContrato de safra
+Nesta página
+Qual é o sistema de emissão no Rio Grande do Sul
+Quem é obrigado à nota eletrônica no RS e desde quando
+Passo a passo no Nota Fiscal Fácil
+O que precisa antes de emitir
+Onde tirar dúvida no Rio Grande do Sul
+A nota fiscal na rotina do FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
 Grátis até 1.000 animais com ficha
@@ -3847,7 +4672,8 @@ Secretaria da Fazenda do Paraná, perguntas sobre a NFP-e
 Secretaria da Fazenda de São Paulo, Nota Fiscal Fácil
 Secretaria da Fazenda de Minas Gerais, NFF do produtor rural
 Veja também
-GTACalculadora de FunruralFluxo de caixa ruralTodos os guiasDo mesmo assunto
+GTACalculadora de FunruralFluxo de caixa ruralTodos os guiasPor estado
+Nota de produtor na BANota de produtor no DFNota de produtor no ESNota de produtor em GONota de produtor em MGNota de produtor no PRNota de produtor no RSNota de produtor em SCNota de produtor em SPDo mesmo assunto
 Planilha de gestão ruralPronaf 2026LCDPRContrato de safraGestão rural
 Nesta página
 O talão de papel acabou: desde quando e para quem

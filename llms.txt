@@ -83,6 +83,15 @@ Produtor rural brasileiro de qualquer tamanho: do sítio com 12 vacas de leite �
 - [Glossário rural: termos da pecuária e da lavoura](https://finagro.app/glossario-rural) (guia): Termos da pecuária, da lavoura e do dinheiro.
 - [Imposto de renda do produtor rural 2026: quem declara](https://finagro.app/imposto-de-renda-produtor-rural) (guia): Quem declara, como apurar e o que guardar.
 - [Inscrição estadual de produtor rural: como tirar e consultar](https://finagro.app/inscricao-estadual-produtor-rural) (guia): Como tirar e consultar a inscrição do produtor, por estado.
+- [Nota fiscal de produtor rural em Goiás: como emitir](https://finagro.app/nota-fiscal-de-produtor-rural-go) (guia): NFA-e via web e Nota Fiscal Fácil: como emitir em GO.
+- [Nota fiscal de produtor rural em MG: como emitir](https://finagro.app/nota-fiscal-de-produtor-rural-mg) (guia): NFA-e no SIARE e Nota Fiscal Fácil: como emitir em MG.
+- [Nota fiscal de produtor rural em SC: como emitir](https://finagro.app/nota-fiscal-de-produtor-rural-sc) (guia): NFP-e no SAT e Nota Fiscal Fácil: como emitir em SC.
+- [Nota fiscal de produtor rural em SP: como emitir](https://finagro.app/nota-fiscal-de-produtor-rural-sp) (guia): NF-e do produtor paulista pelo Nota Fiscal Fácil.
+- [Nota fiscal avulsa de produtor rural na Bahia: como emitir](https://finagro.app/nota-fiscal-de-produtor-rural-ba) (guia): Nota fiscal avulsa eletrônica da Sefaz-BA: como emitir.
+- [Nota fiscal de produtor rural no DF: como emitir](https://finagro.app/nota-fiscal-de-produtor-rural-df) (guia): NF-e do produtor rural do DF e o Nota Fiscal Fácil.
+- [Nota fiscal avulsa de produtor rural no ES acabou: e agora?](https://finagro.app/nota-fiscal-de-produtor-rural-es) (guia): A nota avulsa acabou no ES: emita pelo Nota Fiscal Fácil.
+- [Nota fiscal de produtor rural no Paraná: como emitir](https://finagro.app/nota-fiscal-de-produtor-rural-pr) (guia): NFP-e no Receita/PR: quem emite e o passo a passo.
+- [Nota fiscal de produtor rural no RS: como emitir](https://finagro.app/nota-fiscal-de-produtor-rural-rs) (guia): Nota Fiscal Fácil e NFA-e: como emitir no RS.
 - [Nota fiscal de produtor rural eletrônica: como emitir](https://finagro.app/nota-fiscal-de-produtor-rural) (guia): NF-e do produtor: quem emite, app e inscrição.
 - [Planilha de gestão rural grátis: receitas e despesas](https://finagro.app/planilha-de-gestao-rural) (planilha): Receitas e despesas da fazenda, grátis em Excel.
 - [Pronaf 2026: quem tem direito, linhas e juros](https://finagro.app/pronaf) (guia): Quem tem direito, linhas, juros e documentos.

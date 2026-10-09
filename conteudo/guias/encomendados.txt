@@ -50,3 +50,12 @@ georreferenciamento-rural
 modulo-fiscal
 reserva-legal
 inscricao-estadual-produtor-rural
+nota-fiscal-de-produtor-rural-rs
+nota-fiscal-de-produtor-rural-mg
+nota-fiscal-de-produtor-rural-pr
+nota-fiscal-de-produtor-rural-sc
+nota-fiscal-de-produtor-rural-go
+nota-fiscal-de-produtor-rural-ba
+nota-fiscal-de-produtor-rural-es
+nota-fiscal-de-produtor-rural-sp
+nota-fiscal-de-produtor-rural-df

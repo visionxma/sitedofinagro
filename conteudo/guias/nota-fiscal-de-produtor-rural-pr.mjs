@@ -1,0 +1,85 @@
+// Consultas-alvo: "nota fiscal produtor rural pr", "como emitir nota fiscal de produtor rural no paraná" (colheita de 4.045 pesquisas, 58 delas de nota fiscal com o nome do estado).
+// Fonte: páginas oficiais do estado e do Confaz, lidas por curl em 09/10/2026. A página geral é /nota-fiscal-de-produtor-rural.
+export const provas = [
+  {"afirmacao":"a NFP-e do Paraná é uma nota fiscal eletrônica modelo 55 emitida em sistema da Sefa no Portal Receita/PR","trecho":"A NFP-e é uma Nota Fiscal eletrônica, modelo 55, que foi adequada para o produtor rural emitir através de sistema eletrônico disponibilizado pela SEFA/PR no Portal Receita/PR","url":"https://atendimento.fazenda.pr.gov.br/sacsefa/portal/assuntosReferente/45"},
+  {"afirmacao":"a NFP-e tem as mesmas atribuições da nota de produtor modelo 4, de papel","trecho":"A NFP-e possui as mesmas atribuições da Nota Fiscal de Produtor - NFP modelo 4 (papel)","url":"https://atendimento.fazenda.pr.gov.br/sacsefa/portal/assuntosReferente/45"},
+  {"afirmacao":"no Paraná a obrigatoriedade vale a partir de 03/02/2025 nas operações interestaduais, independente do faturamento","trecho":"a partir de 03/02/2025, nas operações interestaduais, independente do faturamento","url":"https://atendimento.fazenda.pr.gov.br/sacsefa/portal/assuntosReferente/45"},
+  {"afirmacao":"a partir de 01/07/2025 nas operações internas de quem faturou mais de R$ 360.000,00 em 2023","trecho":"a partir de 01/07/2025, nas operações dentro do Estado (operações internas), para os produtores com faturamento superior a R$ 360.000,00 (trezentos e sessenta mil reais), referente ao ano de 2023","url":"https://atendimento.fazenda.pr.gov.br/sacsefa/portal/assuntosReferente/45"},
+  {"afirmacao":"a partir de 05/01/2026 nas operações internas dos demais produtores","trecho":"a partir de 05/01/2026, nas operações internas, para os demais produtores","url":"https://atendimento.fazenda.pr.gov.br/sacsefa/portal/assuntosReferente/45"},
+  {"afirmacao":"a NFP-e é emitida no portal Receita/PR, com chave e senha","trecho":"A NFP-e, será emitida no portal do Receita/PR (receita.pr.gov.br/login) , ambiente seguro e acessado com chave e senha","url":"https://atendimento.fazenda.pr.gov.br/sacsefa/portal/assuntosReferente/45"},
+  {"afirmacao":"o produtor precisa obter chave e senha de acesso ao portal Receita/PR","trecho":"O produtor precisa obter a sua chave e senha de acesso ao portal Receita/PR, para poder emitir a sua Nota Fiscal com a utilização do sistema de emissão de NFP-e","url":"https://atendimento.fazenda.pr.gov.br/sacsefa/portal/assuntosReferente/45"},
+  {"afirmacao":"a senha inicial chega por e-mail depois da homologação","trecho":"Aguarde o e-mail de confirmação da homologação, com a senha inicial de utilização","url":"https://atendimento.fazenda.pr.gov.br/sacsefa/portal/assuntosReferente/45"},
+  {"afirmacao":"o associado vinculado ao CAD/PRO do titular também pode emitir","trecho":"A NFP-e também poderá ser emitida pelo associado que estiver vinculado ao CAD/PRO do titular","url":"https://atendimento.fazenda.pr.gov.br/sacsefa/portal/assuntosReferente/45"},
+  {"afirmacao":"a NFP-e pode ser cancelada em até 168 horas da autorização de uso","trecho":"é possível cancelar uma NFP-e no prazo máximo de 168 horas contadas a partir da autorização de uso","url":"https://atendimento.fazenda.pr.gov.br/sacsefa/portal/assuntosReferente/45"},
+  {"afirmacao":"depois de 168 horas o cancelamento é por NF-e de estorno","trecho":"Após o prazo de 168 horas, o cancelamento da NFP-e deve ser realizado através da emissão de uma NF-e de estorno","url":"https://atendimento.fazenda.pr.gov.br/sacsefa/portal/assuntosReferente/45"},
+  {"afirmacao":"se o sistema não deixa emitir, pode haver pendência de recolhimento de nota anterior","trecho":"é possível que exista pendência de recolhimento de alguma nota fiscal emitida anteriormente","url":"https://atendimento.fazenda.pr.gov.br/sacsefa/portal/assuntosReferente/45"},
+  {"afirmacao":"no Paraná o produtor se inscreve no CAD/PRO antes do início da atividade","trecho":"deverão inscrever-se no Cadastro de Produtores Rurais - CAD/PRO, antes do início de suas atividades","url":"https://atendimento.fazenda.pr.gov.br/sacsefa/portal/assuntosReferente/45"},
+  {"afirmacao":"com o CAD/PRO baixado, o cadastro novo é pedido na prefeitura do município do imóvel","trecho":"No caso de estar BAIXADO é necessário solicitar um novo cadastro na prefeitura do município do imóvel","url":"https://atendimento.fazenda.pr.gov.br/sacsefa/portal/assuntosReferente/45"},
+  {"afirmacao":"quem ultrapassa R$ 3.600.000,00 no ano-calendário passa a ser contribuinte do IBS e da CBS, pela Lei Complementar 214/2025, não emite a NFP-e pelo Receita/PR nem pelo Nota Fiscal Fácil e precisa de sistema emissor próprio autorizado","trecho":"De acordo com o art. 164 da Lei Complementar nº 214/2025, o produtor rural que ultrapassa o limite de R$ 3.600.000,00 no ano-calendário passa a ser considerado contribuinte do IBS e da CBS. Nessa condição, não é permitido emitir a NFP-e por meio do ReceitaPR ou do Nota Fiscal Fácil. O produtor deverá emitir a NF-e (Nota Fiscal eletrônica), sendo necessário, para isso, contratar ou utilizar um sistema emissor próprio devidamente autorizado","url":"https://atendimento.fazenda.pr.gov.br/sacsefa/portal/assuntosReferente/45"},
+  {"afirmacao":"o cadastro de usuário pede CPF com vínculo a um CAD/PRO e um e-mail ativo","trecho":"que tenha vínculo com uma inscrição estadual \"CAD/PRO\" e possuir um e-mail ativo","url":"https://atendimento.fazenda.pr.gov.br/sacsefa/portal/assuntosReferente/45"},
+  {"afirmacao":"ao abrir o e-mail de retorno é gerado o Termo de Adesão","trecho":"sendo gerado o Termo de Adesão com os dados informados no formulário eletrônico","url":"https://atendimento.fazenda.pr.gov.br/sacsefa/portal/assuntosReferente/45"},
+  {"afirmacao":"o Termo de Adesão é assinado, tem firma reconhecida e é encaminhado em 30 dias, de preferência pelo e-Protocolo, ou entregue na Agência da Receita Estadual mais próxima da propriedade","trecho":"O Termo de Adesão deverá ser assinado, reconhecido firma e encaminhado, no prazo de 30 dias, preferencialmente via e-Protocolo para homologação pela Receita Estadual, ou poderá ser entregue na Agência da Receita Estadual mais próxima da propriedade","url":"https://atendimento.fazenda.pr.gov.br/sacsefa/portal/assuntosReferente/45"},
+  {"afirmacao":"sem a entrega do Termo de Adesão em 30 dias o pedido é indeferido automaticamente","trecho":"A não entrega do Termo de Adesão no prazo de 30 dias, implicará no indeferimento automático do pedido","url":"https://atendimento.fazenda.pr.gov.br/sacsefa/portal/assuntosReferente/45"},
+];
+
+export default {
+  slug: "nota-fiscal-de-produtor-rural-pr",
+  grupo: "dinheiro",
+  tipo: "guia",
+  curto: "Nota de produtor no PR",
+  resumo: "NFP-e no Receita/PR: quem emite e o passo a passo.",
+  title: "Nota fiscal de produtor rural no Paraná: como emitir",
+  description: "Como emitir nota fiscal de produtor rural no Paraná: a NFP-e sai no portal Receita/PR, com chave e senha. Veja quem é obrigado, as datas e o passo a passo.",
+  h1: "Nota fiscal de produtor rural no Paraná: como emitir a NFP-e",
+  pergunta: "Como emitir nota fiscal de produtor rural no Paraná?",
+  resposta: "No Paraná a nota do produtor é a NFP-e, nota fiscal de produtor eletrônica, modelo 55. Ela é emitida no portal Receita/PR, da Secretaria da Fazenda, com chave e senha. Desde 05/01/2026 a nota eletrônica vale nas vendas dentro do estado para todos os produtores. Antes de tudo, o produtor precisa estar inscrito no CAD/PRO.",
+  tela: "fluxo",
+  atualizado: "2026-10-09",
+  secoes: [
+    { h2: "Qual é o sistema de emissão no Paraná", blocos: [
+      {"p":"A Secretaria da Fazenda do Paraná (Sefa) chama a nota do produtor de **NFP-e**. É uma nota fiscal eletrônica, modelo 55, adequada para o produtor rural. Ele emite em sistema eletrônico da própria Sefa, no **Portal Receita/PR**. A NFP-e tem as mesmas atribuições da antiga Nota Fiscal de Produtor modelo 4, a do talão de papel."},
+      {"p":"A emissão é no endereço receita.pr.gov.br/login, ambiente acessado com chave e senha. Há um teto de faturamento. Quem ultrapassa R$ 3.600.000,00 no ano passa a ser contribuinte do IBS e da CBS, os tributos da reforma tributária, pela Lei Complementar 214/2025. Nessa condição, a Receita Estadual não permite emitir a NFP-e pelo Receita/PR nem pelo Nota Fiscal Fácil. O produtor emite NF-e em sistema emissor próprio autorizado."},
+      {"p":"Quem emite é o titular do cadastro. O associado vinculado ao CAD/PRO do titular também pode emitir, desde que seja usuário do Receita/PR e esteja autorizado pelo titular. O nome do associado aparece no campo de informações complementares da nota."},
+    ] },
+    { h2: "Quem é obrigado à NFP-e no Paraná e desde quando", blocos: [
+      {"p":"A Receita Estadual do Paraná publica o calendário com base no Ajuste SINIEF 27/2024:"},
+      {"tabela":{"colunas":["Operação","A partir de"],"linhas":[["Vendas para outro estado, independente do faturamento","03/02/2025"],["Vendas dentro do estado, faturamento superior a R$ 360.000,00 em 2023","01/07/2025"],["Vendas dentro do estado, demais produtores","05/01/2026"]],"nota":"Receita Estadual do Paraná, perguntas frequentes sobre a NFP-e."}},
+      {"p":"Com a última data, a nota eletrônica alcança todos os produtores do estado. Quem ainda tem talão guardado deve confirmar na Receita Estadual o que fazer com ele."},
+    ] },
+    { h2: "Passo a passo para emitir a NFP-e", blocos: [
+      {"ol":["Confira se o seu CAD/PRO está ativo e tenha um e-mail ativo.","Faça o cadastro de usuário no portal Receita/PR, pelo serviço \"Torne-se Usuário\", na página da Fazenda do Paraná.","Aguarde o e-mail de retorno e complete as informações pedidas. Ao abrir esse e-mail, o sistema gera o Termo de Adesão.","Assine o Termo de Adesão e reconheça firma. Envie em até 30 dias, de preferência pelo e-Protocolo, ou entregue na Agência da Receita Estadual mais próxima da propriedade.","Não perca esse prazo: sem a entrega do termo em 30 dias, o pedido é indeferido automaticamente.","Aguarde o e-mail de confirmação da homologação, que traz a senha inicial.","Entre em receita.pr.gov.br/login com chave e senha e abra o sistema de emissão de NFP-e.","Escolha o CAD/PRO, preencha a nota e transmita."]},
+      {"p":"Errou a nota? Dá para cancelar em até 168 horas contadas da autorização de uso, no menu de consulta da NFP-e. Depois desse prazo, o cancelamento é feito com uma NF-e de estorno."},
+      {"p":"Se o sistema mostra o CAD/PRO mas não deixa emitir, a Receita explica que pode existir pendência de recolhimento de alguma nota emitida antes. Se o CAD/PRO nem aparece, as causas listadas são falta de vínculo do CPF com o cadastro, cadastro inativo ou associado sem autorização do titular."},
+    ] },
+    { h2: "O que precisa antes de emitir", blocos: [
+      {"p":"No Paraná a inscrição do produtor se chama **CAD/PRO**, o Cadastro de Produtores Rurais, e vem antes do início da atividade. É o CAD/PRO que aparece no sistema na hora de emitir. Veja o caminho no guia da [inscrição estadual de produtor rural](/inscricao-estadual-produtor-rural)."},
+      {"ul":["**CAD/PRO ativo:** com o cadastro baixado, o novo é pedido na prefeitura do município do imóvel.","**CPF vinculado ao CAD/PRO e e-mail ativo:** são pedidos no cadastro de usuário do Receita/PR.","**Termo de Adesão com firma reconhecida:** entregue em até 30 dias, ou o pedido é indeferido.","**Chave e senha do Receita/PR:** a senha inicial chega por e-mail depois da homologação."]},
+      {"p":"Para preencher a NFP-e, deixe separados os dados do comprador, o produto, a quantidade e o valor combinado. Se a carga é de gado, a guia de trânsito acompanha a nota: o passo a passo está em [como emitir GTA](/como-emitir-gta). O desconto feito na venda da produção é assunto do guia do [Funrural](/funrural)."},
+    ] },
+    { h2: "Onde tirar dúvida no Paraná", blocos: [
+      {"p":"A Receita Estadual mantém a página de perguntas frequentes sobre a NFP-e no portal de atendimento da Sefa (atendimento.fazenda.pr.gov.br). Ela responde sobre emissão, cancelamento e cadastro. As questões de CAD/PRO se resolvem na prefeitura do município do imóvel."},
+      {"destaque":"Este guia é informativo e não substitui o contador. Calendário, teto de faturamento e regras de cancelamento são os publicados pela Receita Estadual do Paraná: confirme lá antes de emitir."},
+    ] },
+  ],
+  noFinagro: { h2: "A nota fiscal na rotina do FINAGRO", itens: [
+    "O FINAGRO não emite nota fiscal e não transmite nada à Fazenda. A nota sai no portal Receita/PR, da Secretaria da Fazenda do Paraná.",
+    "A venda feita com nota entra no app como receita, com descrição, categoria e forma de pagamento. O número da nota e o nome de quem comprou cabem na descrição.",
+    "Na venda de gado, a saída do animal guarda o destino ou comprador. O valor que ainda vai entrar se lança em contas a receber, com a data do acerto.",
+    "A tela Documentos guarda a inscrição estadual como outro documento, com o número, ao lado do CCIR, do ITR e dos contratos.",
+    "Relatórios em PDF e em planilha (CSV) reúnem as vendas e as despesas do período para o contador conferir com as notas.",
+  ] },
+  cta: {"forte":"A nota sai no sistema da Fazenda. A venda fica anotada no FINAGRO.","texto":"Grátis até 1.000 animais com ficha, sem cartão, no Android e no navegador."},
+  faqTitulo: "Perguntas sobre nota fiscal de produtor no Paraná",
+  faq: [
+    ["Como emitir nota fiscal de produtor rural no Paraná?","No portal Receita/PR, em receita.pr.gov.br/login, com chave e senha. O produtor inscrito no CAD/PRO se cadastra como usuário, recebe a senha inicial por e-mail e emite a NFP-e, a nota fiscal de produtor eletrônica."],
+    ["Quem é obrigado a emitir a NFP-e no PR?","A Receita Estadual do Paraná lista três datas. Desde 03/02/2025 nas vendas para outro estado. Desde 01/07/2025 nas vendas internas de quem faturou mais de R$ 360.000,00 em 2023. Desde 05/01/2026 para os demais produtores."],
+    ["Dá para cancelar a nota fiscal de produtor no Paraná?","Sim, em até 168 horas contadas da autorização de uso, pelo menu de consulta da NFP-e no Receita/PR. Depois desse prazo, o cancelamento é feito com uma NF-e de estorno."],
+    ["Quem fatura mais de R$ 3.600.000,00 por ano pode emitir a NFP-e?","Não. A Receita Estadual informa que quem ultrapassa R$ 3.600.000,00 no ano-calendário passa a ser contribuinte do IBS e da CBS. Nessa condição não emite pelo Receita/PR nem pelo Nota Fiscal Fácil e precisa de sistema emissor próprio autorizado."],
+    ["Preciso de CAD/PRO para emitir nota de produtor rural no PR?","Sim. O CAD/PRO é o Cadastro de Produtores Rurais do Paraná, e a inscrição vem antes do início da atividade. Com o cadastro baixado, o novo é pedido na prefeitura do município do imóvel."],
+  ],
+  fontes: [
+    {"nome":"Receita Estadual do Paraná, perguntas frequentes sobre a NFP-e e o CAD/PRO","url":"https://atendimento.fazenda.pr.gov.br/sacsefa/portal/assuntosReferente/45"},
+    {"nome":"Confaz, Ajuste SINIEF 10/2022 (redação do Ajuste SINIEF 27/2024)","url":"https://www.confaz.fazenda.gov.br/legislacao/ajustes/2022/AJ010_22"},
+  ],
+  relacionados: ['nota-fiscal-de-produtor-rural', 'inscricao-estadual-produtor-rural', 'nota-fiscal-de-produtor-rural-sp'],
+};
