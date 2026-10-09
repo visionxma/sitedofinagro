@@ -222,7 +222,7 @@ function pagina(g, mapa) {
 <meta name="description" content="${esc(g.description)}">
 <link rel="canonical" href="${mapa.SITE}/${g.slug}">
 <meta name="robots" content="index, follow, max-image-preview:large">
-<meta name="theme-color" content="#0c3321">
+<meta name="theme-color" content="#014b00">
 <!--gerado:cabeca-->
 <!--/gerado:cabeca-->
 <link rel="preload" href="/assets/fontes/outfit-latin.woff2" as="font" type="font/woff2" crossorigin>
@@ -303,7 +303,7 @@ function indice(mapa) {
 <meta name="description" content="${esc(descricao)}">
 <link rel="canonical" href="${mapa.SITE}/guias">
 <meta name="robots" content="index, follow, max-image-preview:large">
-<meta name="theme-color" content="#0c3321">
+<meta name="theme-color" content="#014b00">
 <!--gerado:cabeca-->
 <!--/gerado:cabeca-->
 <link rel="preload" href="/assets/fontes/outfit-latin.woff2" as="font" type="font/woff2" crossorigin>

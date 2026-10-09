@@ -50,7 +50,7 @@
 .campo { display: grid; gap: .35rem; }
 .campo label { font-size: .9375rem; font-weight: 600; color: var(--tinta-2); line-height: 1.3; }
 .campo input { width: 100%; min-width: 0; min-height: 3rem; padding: .6rem .8rem; border-radius: .75rem; border: 1.5px solid var(--linha); background: var(--papel); color: var(--tinta); font: 600 1.0625rem/1.2 var(--f-texto); }
-.campo input:focus-visible { outline: none; border-color: var(--verde); box-shadow: 0 0 0 3px rgb(39 163 101 / .25); }
+.campo input:focus-visible { outline: none; border-color: var(--verde); box-shadow: 0 0 0 3px rgb(0 166 0 / .25); }
 .campo--estreito { max-width: 16rem; }
 .calc__saida { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr) minmax(0, 1fr); gap: .5rem; }
 .calc__saida > div { display: grid; justify-items: center; align-content: center; gap: .25rem; padding: 1rem; border-radius: .875rem; background: var(--verde-claro); text-align: center; }
@@ -113,7 +113,7 @@ div.resposta p { margin: 0; }
 .calc--auto .campo { grid-template-rows: 1fr auto; align-items: end; }
 .calc__campos--auto { grid-template-columns: repeat(auto-fit, minmax(min(100%, 8.25rem), 1fr)); }
 .campo select { width: 100%; min-width: 0; min-height: 3rem; padding: .6rem 2.2rem .6rem .8rem; border-radius: .75rem; border: 1.5px solid var(--linha); background: var(--papel) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M6 9l6 6 6-6' fill='none' stroke='%23135133' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") right .7rem center / 1.1rem no-repeat; color: var(--tinta); font: 600 1.0625rem/1.2 var(--f-texto); -webkit-appearance: none; appearance: none; }
-.campo select:focus-visible { outline: none; border-color: var(--verde); box-shadow: 0 0 0 3px rgb(39 163 101 / .25); }
+.campo select:focus-visible { outline: none; border-color: var(--verde); box-shadow: 0 0 0 3px rgb(0 166 0 / .25); }
 .campo input[type="date"] { min-height: 3rem; }
 .calc--auto .calc__saida b { display: block; width: 100%; min-width: 0; white-space: nowrap; line-height: 1.15; text-align: center; }
 .calc--auto .calc__saida > div { justify-items: stretch; }

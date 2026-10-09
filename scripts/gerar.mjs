@@ -319,7 +319,7 @@ fs.writeFileSync(path.join(RAIZ, 'llms-full.txt'), `# FINAGRO: o site inteiro em
 fs.writeFileSync(path.join(RAIZ, `${INDEXNOW}.txt`), INDEXNOW);
 // Segundo caminho de posse no Bing Webmaster (o primeiro é a marca msvalidate.01 na página inicial).
 fs.writeFileSync(path.join(RAIZ, 'BingSiteAuth.xml'), `<?xml version="1.0"?>\n<users>\n\t<user>${VERIFICACAO_BING}</user>\n</users>\n`);
-fs.writeFileSync(path.join(RAIZ, 'site.webmanifest'), JSON.stringify({ name: 'FINAGRO', short_name: 'FINAGRO', lang: 'pt-BR', start_url: '/', display: 'browser', background_color: '#f6f7f4', theme_color: '#0f2b1d',
+fs.writeFileSync(path.join(RAIZ, 'site.webmanifest'), JSON.stringify({ name: 'FINAGRO', short_name: 'FINAGRO', lang: 'pt-BR', start_url: '/', display: 'browser', background_color: '#f6f7f4', theme_color: '#014b00',
   icons: [{ src: '/icone-192.png', sizes: '192x192', type: 'image/png' }, { src: '/icone-512.png', sizes: '512x512', type: 'image/png' }] }, null, 1));
 console.log('sitemap, robots, llms, llms-full, indexnow e manifest escritos');
 
