@@ -20,6 +20,24 @@
         ],
         "createdAt": "2026-10-08T13:24:11.139Z",
         "reason": "Falso positivo da leitura estática (08/10/2026): os h2 das seções usam var(--t-h2) = clamp(1.75rem, …, 2.875rem) e a leitura sem navegador só enxerga os h2 do rodapé (17px). No navegador real: h2 28–46px, corpo 17–19px; detector na URL dá zero."
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "gestao-da-pecuaria-de-corte.html"
+        ],
+        "createdAt": "2026-10-09T23:23:06.292Z",
+        "reason": "Falso positivo da leitura estática (09/10/2026), o mesmo já registrado para index.html: .secao tem padding-top/bottom var(--sp-sec), .heroi é grade de 100svh com padding-top, e .cap-trava tem padding 2rem 0 junto da borda a partir de 48rem (assets/captacao.css). A página passou no de qa em 5 larguras, no portao-lp-victor e nos 58 tamanhos."
+      },
+      {
+        "rule": "hero-eyebrow-chip",
+        "value": "*",
+        "files": [
+          "gestao-da-pecuaria-de-corte.html"
+        ],
+        "createdAt": "2026-10-09T23:23:06.443Z",
+        "reason": "Exceção sancionada (09/10/2026): página de captação clonada da referência por regra do Victor (LP clona a referência; a hero fica e não se troca sem pedido); o selo acima do título carrega a palavra-chave da página e ela passou no anti-slop e no portao-lp-victor. Tirar é decisão dele."
       }
     ]
   }
