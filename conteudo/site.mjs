@@ -16,6 +16,13 @@ export const ENTIDADE = {
   instagram: 'https://www.instagram.com/finagro.app/',
   linkedin: 'https://www.linkedin.com/company/finagro-app/',
   privacidade: 'https://projeto.finagro.app/pol%C3%ADtica-de-privacidade',
+  // Contato por WhatsApp da VisionX (15/10/2026): o número antigo (99984680391) caiu. Um número só, aqui; o rodapé de
+  // todas as páginas e a chamada final da inicial leem daqui.
+  whatsapp: {
+    numero: '5599984304630',
+    exibicao: '(99) 98430-4630',
+    mensagem: 'Olá! Vim pelo site do FINAGRO e quero conversar sobre o aplicativo.',
+  },
   logo: `${SITE}/icone-512.png`,
   imagem: `${SITE}/assets/og/finagro-og-20261009b.png`,
   desenvolvedor: { nome: 'VisionX', url: 'https://visionxma.com/' },
