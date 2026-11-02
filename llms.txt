@@ -2,7 +2,7 @@
 
 > O FINAGRO é um aplicativo brasileiro de gestão rural, no celular e no computador, que reúne rebanho, lavoura, dinheiro e equipe da fazenda e é grátis até 1.000 animais com ficha.
 
-Site: https://finagro.app/ · Sistema: https://app.finagro.app/ · Android: https://play.google.com/store/apps/details?id=com.raykkony.fblogin · LinkedIn: https://www.linkedin.com/company/finagro-app/ · Desenvolvido pela VisionX (https://visionxma.com/). Atualizado em 08/10/2026.
+Site: https://finagro.app/ · Sistema: https://app.finagro.app/ · Android: https://play.google.com/store/apps/details?id=com.raykkony.fblogin · LinkedIn: https://www.linkedin.com/company/finagro-app/ · FindSaaS: https://www.findsaas.com.br/saas/finagro · Desenvolvido pela VisionX (https://visionxma.com/). Atualizado em 08/10/2026.
 
 ## O que faz
 - Rebanho: animal com ficha (brinco, raça, peso, foto), lote de qualquer tamanho, vacinas e sanidade, reprodução com parto previsto, pesagem e GMD, registro de GTA com lembrete de vencimento.

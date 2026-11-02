@@ -15,6 +15,8 @@ export const ENTIDADE = {
   android: 'https://play.google.com/store/apps/details?id=com.raykkony.fblogin',
   instagram: 'https://www.instagram.com/finagro.app/',
   linkedin: 'https://www.linkedin.com/company/finagro-app/',
+  // Ficha no diretório FindSaaS (no ar em 02/11/2026): entra no sameAs do app e no llms.txt.
+  findsaas: 'https://www.findsaas.com.br/saas/finagro',
   privacidade: 'https://projeto.finagro.app/pol%C3%ADtica-de-privacidade',
   // Contato por WhatsApp da VisionX (15/10/2026): o número antigo (99984680391) caiu. Um número só, aqui; o rodapé de
   // todas as páginas e a chamada final da inicial leem daqui.

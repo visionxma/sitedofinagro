@@ -163,7 +163,7 @@ const app = {
   description: ENTIDADE.frase, applicationCategory: 'BusinessApplication', applicationSubCategory: 'Gestão rural',
   operatingSystem: 'Android, navegador (iPhone, tablet e computador)', inLanguage: 'pt-BR',
   image: ENTIDADE.imagem, screenshot: `${SITE}/assets/telas/inicio-824.webp`,
-  installUrl: ENTIDADE.android, downloadUrl: ENTIDADE.android, sameAs: [ENTIDADE.instagram, ENTIDADE.linkedin, ENTIDADE.android],
+  installUrl: ENTIDADE.android, downloadUrl: ENTIDADE.android, sameAs: [ENTIDADE.instagram, ENTIDADE.linkedin, ENTIDADE.android, ENTIDADE.findsaas],
   author: { '@id': ORG_ID }, publisher: { '@id': ORG_ID },
   offers: [
     ...PLANOS.filter((p) => !p.mes).map((p) => ({ '@type': 'Offer', name: `Plano ${p.nome}`, price: '0.00', priceCurrency: 'BRL', description: p.itens.slice(0, 3).join(', '), url: `${SITE}/#comecar`, category: 'grátis' })),
@@ -287,7 +287,7 @@ const llms = `# FINAGRO
 
 > ${ENTIDADE.frase}
 
-Site: ${SITE}/ · Sistema: ${ENTIDADE.app} · Android: ${ENTIDADE.android} · LinkedIn: ${ENTIDADE.linkedin} · Desenvolvido pela VisionX (https://visionxma.com/). Atualizado em ${ATUALIZADO.split('-').reverse().join('/')}.
+Site: ${SITE}/ · Sistema: ${ENTIDADE.app} · Android: ${ENTIDADE.android} · LinkedIn: ${ENTIDADE.linkedin} · FindSaaS: ${ENTIDADE.findsaas} · Desenvolvido pela VisionX (https://visionxma.com/). Atualizado em ${ATUALIZADO.split('-').reverse().join('/')}.
 
 ## O que faz
 - Rebanho: animal com ficha (brinco, raça, peso, foto), lote de qualquer tamanho, vacinas e sanidade, reprodução com parto previsto, pesagem e GMD, registro de GTA com lembrete de vencimento.
