@@ -3975,7 +3975,7 @@ Calculadora de Funrural
 CalculadoraDinheiro e imposto
 Funrural 2026: valor, cálculo e desconto na venda do produtor
 Qual o valor do Funrural em 2026?
-Desde a competência de abril de 2026, o Funrural do produtor rural pessoa física é de **1,63%** da receita bruta da venda: 1,32% de previdência, 0,11% de RAT e 0,2% de Senar. O segurado especial segue com 1,5%. Numa venda de R$ 100.000, o desconto é de R$ 1.630. Em geral, quem compra desconta e recolhe.
+Desde a competência de abril de 2026, o Funrural do produtor rural pessoa física é de 1,63% da receita bruta da venda: 1,32% de previdência, 0,11% de RAT e 0,2% de Senar. O segurado especial segue com 1,5%. Numa venda de R$ 100.000, o desconto é de R$ 1.630. Em geral, quem compra desconta e recolhe.
 Atualizado em 02/11/2026
 Calcule o Funrural da venda
 Receita bruta da venda (R$)Quem vendeProdutor pessoa física (1,63%)Segurado especial (1,5%)
@@ -4680,7 +4680,7 @@ Nota de produtor em MG
 GuiaDinheiro e imposto
 Nota fiscal avulsa MG: como emitir a nota de produtor rural no SIARE
 Como emitir nota fiscal avulsa de produtor rural em MG?
-Em Minas Gerais o produtor rural pessoa física emite a **Nota Fiscal Avulsa Eletrônica (NFA-e)** no SIARE, o sistema da Secretaria de Estado de Fazenda. Com deferimento automático, a nota sai na hora; se for para análise, o prazo informado é de 2 dias úteis. Hortifrutigranjeiros em venda interna também saem pelo aplicativo Nota Fiscal Fácil.
+Em Minas Gerais o produtor rural pessoa física emite a Nota Fiscal Avulsa Eletrônica (NFA-e) no SIARE, o sistema da Secretaria de Estado de Fazenda. Com deferimento automático, a nota sai na hora; se for para análise, o prazo informado é de 2 dias úteis. Hortifrutigranjeiros em venda interna também saem pelo aplicativo Nota Fiscal Fácil.
 Atualizado em 02/11/2026
 Qual é o sistema de emissão em Minas Gerais
 A Secretaria de Estado de Fazenda de Minas Gerais (SEF-MG) publica dois caminhos para a nota fiscal de produtor rural:
@@ -4771,7 +4771,7 @@ Nota de produtor em SC
 GuiaDinheiro e imposto
 Nota fiscal de produtor rural SC: a NFP-e no SAT ou pelo celular
 Como emitir a nota fiscal de produtor rural em SC?
-Em Santa Catarina a nota fiscal de produtor rural é a **NFP-e**, a nota fiscal de produtor eletrônica, exigida em todas as operações desde 5 de janeiro de 2026. Ela sai no SAT da Secretaria de Estado da Fazenda, no Perfil Produtor Primário, ou no aplicativo Nota Fiscal Fácil, com login gov.br de nível prata ou ouro.
+Em Santa Catarina a nota fiscal de produtor rural é a NFP-e, a nota fiscal de produtor eletrônica, exigida em todas as operações desde 5 de janeiro de 2026. Ela sai no SAT da Secretaria de Estado da Fazenda, no Perfil Produtor Primário, ou no aplicativo Nota Fiscal Fácil, com login gov.br de nível prata ou ouro.
 Atualizado em 02/11/2026
 Qual é o sistema de emissão em Santa Catarina
 Em Santa Catarina a Fazenda chama o produtor rural de produtor primário. A Secretaria de Estado da Fazenda (SEF-SC) oferece dois caminhos para a nota:
@@ -5704,7 +5704,7 @@ Alqueire em hectare
 CalculadoraTerra e documentos
 Um alqueire tem quantos hectares? Converta pela região
 Quantos hectares dá um alqueire?
-Um alqueire paulista tem **2,42 hectares** (24.200 m²); o mineiro e o goiano, **4,84 hectares**; o baiano, 9,68 hectares; e o do norte, 2,7225 hectares. O tamanho muda pela região. Escolha o tipo na calculadora e informe a quantidade: ela entrega a área em hectares e metros quadrados.
+Um alqueire paulista tem 2,42 hectares (24.200 m²); o mineiro e o goiano, 4,84 hectares; o baiano, 9,68 hectares; e o do norte, 2,7225 hectares. O tamanho muda pela região. Escolha o tipo na calculadora e informe a quantidade: ela entrega a área em hectares e metros quadrados.
 Atualizado em 02/11/2026
 Converta alqueires em hectares
 Tipo de alqueirePaulistaMineiroGoianoBaianoDo norteQuantidade de alqueires
@@ -6072,7 +6072,7 @@ CCIR: como emitir
 GuiaTerra e documentos
 Baixar CCIR: como emitir o certificado do Incra e pagar a taxa
 Como baixar o CCIR do Incra pela internet?
-Para baixar o CCIR, entre no site do SNCR do Incra, informe o código do imóvel, o CPF ou CNPJ do titular, o estado e o município, e pague a taxa de serviços cadastrais por GRU, cartão ou Pix. Depois, use a opção **Baixar CCIR** para salvar o PDF. O CCIR 2026 está liberado desde 19 de maio de 2026.
+Para baixar o CCIR, entre no site do SNCR do Incra, informe o código do imóvel, o CPF ou CNPJ do titular, o estado e o município, e pague a taxa de serviços cadastrais por GRU, cartão ou Pix. Depois, use a opção Baixar CCIR para salvar o PDF. O CCIR 2026 está liberado desde 19 de maio de 2026.
 Atualizado em 02/11/2026
 O que é o CCIR e para que ele é exigido
 O Certificado de Cadastro de Imóvel Rural, o CCIR, é o documento do Incra que comprova a regularidade cadastral do imóvel rural. Nele constam o titular, a área, a localização, a exploração e a classificação fundiária. Os dados são declarados por você e servem só para o cadastro: o CCIR não prova que a terra é sua.
@@ -6635,7 +6635,7 @@ Metros por hectare
 CalculadoraTerra e documentos
 Quantos metros tem um hectare de terra? Calcule em m²
 Quantos metros tem um hectare de terra?
-Um hectare (1 ha) tem **10.000 metros quadrados**, não 10.000 metros de comprimento. Um quadrado de 100 m por 100 m forma 1 hectare, mas um retângulo de 200 m por 50 m também. Multiplique comprimento por largura para achar os m² e divida por 10.000 para achar os hectares.
+Um hectare (1 ha) tem 10.000 metros quadrados, não 10.000 metros de comprimento. Um quadrado de 100 m por 100 m forma 1 hectare, mas um retângulo de 200 m por 50 m também. Multiplique comprimento por largura para achar os m² e divida por 10.000 para achar os hectares.
 Atualizado em 02/11/2026
 Calcule os hectares do terreno
 Comprimento do terreno (m)Largura do terreno (m)
@@ -6935,7 +6935,7 @@ Tarefa e linha de terra
 GuiaTerra e documentos
 Linha e tarefa de terra: quantos metros tem e como cubar
 Quantos metros é uma linha de terra?
-Pela tabela de medidas agrárias do Ipea, uma **linha de terra** mede 25 por 25 braças, ou 55 m por 55 m: **3.025 m²**, cerca de 0,30 hectare, no Maranhão, Piauí e Pernambuco. A tarefa comum tem o mesmo tamanho. A tarefa baiana tem 4.356 m² e a cearense, 3.630 m². Confirme o padrão do município.
+Pela tabela de medidas agrárias do Ipea, uma linha de terra mede 25 por 25 braças, ou 55 m por 55 m: 3.025 m², cerca de 0,30 hectare, no Maranhão, Piauí e Pernambuco. A tarefa comum tem o mesmo tamanho. A tarefa baiana tem 4.356 m² e a cearense, 3.630 m². Confirme o padrão do município.
 Atualizado em 02/11/2026
 Tarefa e linha não têm um tamanho único
 Tarefa, linha, braça e quadra são nomes tradicionais usados para cubar terra. O problema é que o mesmo nome pode representar áreas diferentes. A própria tabela do Censo Agropecuário do IBGE registra tarefa com 3.025 m², tarefa com 3.630 m² e tarefa baiana com 4.356 m².

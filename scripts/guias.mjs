@@ -253,7 +253,7 @@ function pagina(g, mapa) {
       <div>
         <p class="artigo__tipo"><span class="artigo__tipo-nome artigo__tipo-nome--${g.tipo}">${esc(TIPOS[g.tipo])}</span><a href="/guias#${g.grupo}">${esc(GRUPOS[g.grupo][0])}</a></p>
         <h1>${esc(g.h1)}</h1>
-        <div class="resposta"><h2 class="resposta__pergunta">${esc(g.pergunta)}</h2><p>${esc(g.resposta)}</p></div>
+        <div class="resposta"><h2 class="resposta__pergunta">${esc(g.pergunta)}</h2><p>${rico(g.resposta)}</p></div>
         ${g.grupo === 'escolha' ? `<div class="artigo__acoes"><a class="botao botao--cheio" href="${APP}">Começar grátis</a><a class="botao botao--linha" href="${PLAY}">Baixar no Android</a></div>` : ''}
         <p class="artigo__data">Atualizado em ${data}</p>
       </div>
