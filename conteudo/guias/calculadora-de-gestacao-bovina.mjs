@@ -80,7 +80,6 @@ export default {
       { p: 'Saber cedo quem não pegou barriga permite cobrir de novo a vaca vazia ou descartá-la. Pela Embrapa, a palpação retal, feita por profissional qualificado, vale a partir de **60 dias** de gestação. A ultrassonografia pode ser feita a partir de **25 dias**.' },
       { p: 'A calculadora já mostra as duas datas, contadas da cobertura. Combine a visita do veterinário com o dia em que o lote inteiro estiver apto, para não chamar duas vezes.' },
       { p: 'Com muitas vacas cobertas, a conta à mão vira bagunça. Um [aplicativo para controle de gado](/aplicativo-para-controle-de-gado) guarda a cobertura de cada vaca e marca o parto previsto, com aviso no celular.' },
-      { p: 'Com muitas vacas cobertas, a conta à mão vira bagunça. Um [aplicativo para controle de gado](/aplicativo-para-controle-de-gado) guarda a data da cobertura de cada vaca e calcula o parto previsto sozinho.' },
     ] },
     { h2: 'Data de secagem da vaca de leite', blocos: [
       { p: 'Vaca de leite precisa parar de ser ordenhada antes do parto para o úbere se recuperar. A Embrapa diz que o mais importante é garantir um descanso mínimo de **2 meses** antes do parto, e que vaca com período seco menor que 60 dias pode não recuperar a glândula mamária e render menos na lactação seguinte.' },

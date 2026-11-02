@@ -103,7 +103,6 @@ export default {
       { p: 'O conceito nasceu numa lei que tratava do imposto sobre a terra. A conta do imposto de hoje está no guia do [ITR](/itr).' },
       { destaque: 'Este texto é informativo e não substitui advogado, contador nem técnico. O valor do módulo fiscal é do Incra: confira o do seu município na fonte antes de assinar contrato, pedir crédito ou fazer cadastro.' },
       { p: 'A área da fazenda, os talhões e o custo por hectare ficam mais fáceis de acompanhar num [sistema de gestão rural](/software-de-gestao-rural), que guarda a medição e os gastos de cada pedaço da propriedade.' },
-      { p: 'A área da fazenda, os talhões e o custo por hectare ficam mais fáceis de acompanhar num [sistema de gestão rural](/software-de-gestao-rural), que guarda a medição e os gastos de cada pedaço da propriedade.' },
     ] },
   ],
   noFinagro: { h2: 'A área da fazenda no FINAGRO', itens: [

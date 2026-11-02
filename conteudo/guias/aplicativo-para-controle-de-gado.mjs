@@ -61,8 +61,8 @@ export default {
         'Baixe o FINAGRO na [Google Play](https://play.google.com/store/apps/details?id=com.raykkony.fblogin) ou abra [app.finagro.app](https://app.finagro.app/) no navegador, e entre com a conta Google ou com e-mail e senha.',
         'Conte o que você cria e quantos. O painel se monta para gado de corte, leite, aves, suínos, peixes ou abelhas.',
         'Cadastre o primeiro lote ou importe a planilha que você já usa (no Excel, salve como CSV). A partir daí, cada pesagem e cada vacina entram em poucos toques.',
-      { p: 'Três contas aparecem logo na primeira semana de uso: o peso em arroba na [calculadora de arroba do boi](/calculadora-de-arroba), as doses do [calendário de vacinação bovina](/calendario-de-vacinacao-bovina) e a data do parto na [calculadora de gestação bovina](/calculadora-de-gestacao-bovina).' },
       ] },
+      { p: 'Três contas aparecem logo na primeira semana de uso: o peso em arroba na [calculadora de arroba do boi](/calculadora-de-arroba), as doses do [calendário de vacinação bovina](/calendario-de-vacinacao-bovina) e a data do parto na [calculadora de gestação bovina](/calculadora-de-gestacao-bovina).' },
     ] },
   ],
   noFinagro: { h2: 'O que o FINAGRO faz no rebanho', depoisDe: 2, itens: [

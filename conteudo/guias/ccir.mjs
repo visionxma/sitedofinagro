@@ -80,7 +80,6 @@ export default {
       { ul: ['**Validade:** o CCIR é anual. O de cada exercício substitui os anteriores.', '**Vencimento perdido:** reemita o CCIR. O sistema atualiza os valores sozinho e você paga a guia nova.', '**Débito de anos anteriores:** você consegue emitir. O valor soma o débito, com multa e juros, e a taxa vigente.', '**Comprovante:** guarde o comprovante de pagamento. Ele é a garantia de que o certificado está quitado.'] },
       { p: 'Cartório e banco conferem a autenticidade do CCIR e a quitação da taxa na **Consulta de Autenticidade** do Incra. Por isso o certificado só impresso, sem o pagamento, não adianta.' },
       { p: 'Para não perder o prazo do ano seguinte, o número, a emissão e a validade do CCIR podem ficar na tela de documentos de um [sistema de gestão rural](/software-de-gestao-rural), com aviso antes de vencer.' },
-      { p: 'Para não perder o prazo do ano seguinte, o número, a emissão e a validade do CCIR podem ficar na tela de documentos de um [sistema de gestão rural](/software-de-gestao-rural), com aviso antes de vencer.' },
     ] },
     { h2: 'O cadastro está desatualizado: o que fazer', blocos: [
       { p: 'Se o sistema não deixa emitir, ele costuma mostrar uma destas mensagens. Cada uma tem o seu caminho:' },

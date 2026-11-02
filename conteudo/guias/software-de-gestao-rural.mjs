@@ -65,8 +65,8 @@ export default {
         'Cadastre a fazenda e conte o que ela produz. O painel se monta para o que você cria e planta.',
         'Importe a planilha com o rebanho, as despesas ou as receitas que você já tem. No Excel, salve como CSV antes de enviar.',
         'Convide a equipe e escolha o papel de cada pessoa. Quem está no curral lança; quem está na sede confere.',
-      { p: 'O escritório da fazenda costuma esbarrar em três contas que o sistema ajuda a organizar: o desconto do [Funrural de 2026](/funrural) em cada venda, a [nota fiscal de produtor rural](/nota-fiscal-de-produtor-rural) que acompanha a carga e a renda que o [CAF da agricultura familiar](/caf-agricultura-familiar) pede para comprovar.' },
       ] },
+      { p: 'O escritório da fazenda costuma esbarrar em três contas que o sistema ajuda a organizar: o desconto do [Funrural de 2026](/funrural) em cada venda, a [nota fiscal de produtor rural](/nota-fiscal-de-produtor-rural) que acompanha a carga e a renda que o [CAF da agricultura familiar](/caf-agricultura-familiar) pede para comprovar.' },
     ] },
   ],
   noFinagro: { h2: 'O que vem no plano grátis do FINAGRO', depoisDe: 3, itens: [

@@ -680,7 +680,7 @@ Como começar hoje
 Baixe o FINAGRO na Google Play ou abra app.finagro.app no navegador, e entre com a conta Google ou com e-mail e senha.
 Conte o que você cria e quantos. O painel se monta para gado de corte, leite, aves, suínos, peixes ou abelhas.
 Cadastre o primeiro lote ou importe a planilha que você já usa (no Excel, salve como CSV). A partir daí, cada pesagem e cada vacina entram em poucos toques.
-[object Object]
+Três contas aparecem logo na primeira semana de uso: o peso em arroba na calculadora de arroba do boi, as doses do calendário de vacinação bovina e a data do parto na calculadora de gestação bovina.
 Seu rebanho no celular ainda hoje, sem agendar demonstração.
 Grátis até 1.000 animais com ficha, com lote sem limite de cabeças e sem cartão.
 Começar grátis
@@ -949,7 +949,7 @@ Abra app.finagro.app no computador ou baixe o aplicativo na Google Play, e entre
 Cadastre a fazenda e conte o que ela produz. O painel se monta para o que você cria e planta.
 Importe a planilha com o rebanho, as despesas ou as receitas que você já tem. No Excel, salve como CSV antes de enviar.
 Convide a equipe e escolha o papel de cada pessoa. Quem está no curral lança; quem está na sede confere.
-[object Object]
+O escritório da fazenda costuma esbarrar em três contas que o sistema ajuda a organizar: o desconto do Funrural de 2026 em cada venda, a nota fiscal de produtor rural que acompanha a carga e a renda que o CAF da agricultura familiar pede para comprovar.
 Teste na sua fazenda antes de falar com qualquer vendedor.
 Grátis até 3 fazendas, 5 pessoas e 1.000 animais com ficha. Sem cartão.
 Começar grátis
@@ -1036,7 +1036,6 @@ Com as arrobas na mão, o valor é multiplicação: arrobas × preço da arroba.
 Confira sempre de que preço se está falando. O indicador do boi gordo do Cepea, por exemplo, é publicado como valor à vista por arroba de 15 kg, sem Funrural. Preço a prazo e desconto do Funrural mudam o que entra no caixa.
 A calculadora faz a conta. O rendimento e o preço quem dá é o mercado: combine os dois com o comprador antes de embarcar.
 Para vender pelo peso certo, a pesagem de cada animal precisa estar anotada. Um aplicativo para controle de gado guarda cada pesagem na ficha do animal e mostra o ganho de peso entre uma pesagem e outra.
-Para vender pelo peso certo, a pesagem de cada animal precisa estar anotada. Um aplicativo para controle de gado guarda as pesagens por brinco e mostra o ganho de peso até o dia da venda.
 O peso e a venda no FINAGRO
 Cada pesagem lançada fica na ficha do animal, e o app mostra o ganho entre uma pesagem e a outra.
 A tela de lotes mostra as cabeças e o peso bruto de cada lote, para a conta partir do peso certo.
@@ -1130,7 +1129,6 @@ Quando fazer o diagnóstico de gestação
 Saber cedo quem não pegou barriga permite cobrir de novo a vaca vazia ou descartá-la. Pela Embrapa, a palpação retal, feita por profissional qualificado, vale a partir de 60 dias de gestação. A ultrassonografia pode ser feita a partir de 25 dias.
 A calculadora já mostra as duas datas, contadas da cobertura. Combine a visita do veterinário com o dia em que o lote inteiro estiver apto, para não chamar duas vezes.
 Com muitas vacas cobertas, a conta à mão vira bagunça. Um aplicativo para controle de gado guarda a cobertura de cada vaca e marca o parto previsto, com aviso no celular.
-Com muitas vacas cobertas, a conta à mão vira bagunça. Um aplicativo para controle de gado guarda a data da cobertura de cada vaca e calcula o parto previsto sozinho.
 O parto previsto no FINAGRO
 Na reprodução, você registra a cobertura da fêmea e o app marca o parto previsto, com o aviso no celular.
 O app usa 283 dias para vaca, dentro da faixa de 280 a 290 dias da Embrapa, e lembra que o parto pode vir antes ou depois.
@@ -3441,7 +3439,6 @@ Clostridioses, botulismo, leptospirose, IBR e BVD não têm obrigação nacional
 A própria Embrapa diz que o cronograma deve ser acompanhado com um médico-veterinário, que adapta ao sistema de produção de cada propriedade. A região, o histórico de doença e o tipo de criação mudam o calendário.
 A obrigação e o prazo são da defesa agropecuária do seu estado, e mudam. Este texto é informativo e não substitui o veterinário nem a defesa agropecuária: confirme a regra local antes de vacinar ou de marcar o embarque.
 Para não esquecer a próxima dose, um aplicativo para controle de gado registra a vacina de cada animal ou lote, com a data, e lista o que está para vencer.
-Para não esquecer a próxima dose, um aplicativo para controle de gado registra a vacina de cada animal ou lote e avisa antes da data marcada.
 Controle de vacinas no FINAGRO
 Cada vacina fica na ficha do animal ou do lote, com a data, para você saber o que já foi feito.
 O app avisa quando há bezerras na idade da vacina de brucelose sem a vacina anotada.
@@ -5926,7 +5923,6 @@ Biodiesel (PNPB) e beneficiário especial da Previdência Social.
 Cada programa tem requisitos próprios além do CAF. Quem pede o Pronaf, por exemplo, ainda passa pelos requisitos próprios do programa. Veja o guia do Pronaf.
 Este texto é informativo e não substitui contador, advogado nem o atendimento da Rede CAF. Regras do CAF mudam por portaria: confira sempre a versão atual no site do Ministério do Desenvolvimento Agrário.
 Banco e programa público pedem números da produção e da renda. Um sistema de gestão rural grátis organiza vendas e despesas por período, com relatório em PDF ou planilha para levar ao técnico ou ao contador.
-Banco e programa público pedem números da produção e da renda. Um sistema de gestão rural grátis junta receitas, despesas e rebanho num relatório pronto para levar ao técnico ou ao contador.
 Como fica no FINAGRO
 O FINAGRO não emite o CAF nem transmite nada ao Ministério. A inscrição é na Rede CAF; o app guarda os dados e lembra as datas.
 Na ficha da fazenda, marque "Tenho CAF" e guarde número, titular, município e validade. Foto ou PDF do CAF pode ser lido pela IA do app para preencher os campos, que você confere antes de salvar.
@@ -6101,7 +6097,6 @@ Vencimento perdido: reemita o CCIR. O sistema atualiza os valores sozinho e voc�
 Débito de anos anteriores: você consegue emitir. O valor soma o débito, com multa e juros, e a taxa vigente.
 Comprovante: guarde o comprovante de pagamento. Ele é a garantia de que o certificado está quitado.
 Cartório e banco conferem a autenticidade do CCIR e a quitação da taxa na Consulta de Autenticidade do Incra. Por isso o certificado só impresso, sem o pagamento, não adianta.
-Para não perder o prazo do ano seguinte, o número, a emissão e a validade do CCIR podem ficar na tela de documentos de um sistema de gestão rural, com aviso antes de vencer.
 Para não perder o prazo do ano seguinte, o número, a emissão e a validade do CCIR podem ficar na tela de documentos de um sistema de gestão rural, com aviso antes de vencer.
 O cadastro está desatualizado: o que fazer
 Se o sistema não deixa emitir, ele costuma mostrar uma destas mensagens. Cada uma tem o seu caminho:
@@ -6777,7 +6772,6 @@ Código Florestal. A Lei 12.651/2012 usa o módulo fiscal em vários pontos: ben
 Cartório. A Lei de Registros Públicos garante isenção de custos na identificação georreferenciada ao dono de imóveis rurais que, somados, não passam de quatro módulos fiscais.
 O conceito nasceu numa lei que tratava do imposto sobre a terra. A conta do imposto de hoje está no guia do ITR.
 Este texto é informativo e não substitui advogado, contador nem técnico. O valor do módulo fiscal é do Incra: confira o do seu município na fonte antes de assinar contrato, pedir crédito ou fazer cadastro.
-A área da fazenda, os talhões e o custo por hectare ficam mais fáceis de acompanhar num sistema de gestão rural, que guarda a medição e os gastos de cada pedaço da propriedade.
 A área da fazenda, os talhões e o custo por hectare ficam mais fáceis de acompanhar num sistema de gestão rural, que guarda a medição e os gastos de cada pedaço da propriedade.
 A área da fazenda no FINAGRO
 O FINAGRO não classifica o imóvel nem altera cadastro no Incra. A classificação oficial vem no CCIR; o app organiza a área e os papéis em volta dela.
