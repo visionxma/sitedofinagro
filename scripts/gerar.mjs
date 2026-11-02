@@ -378,3 +378,18 @@ if (quebrados.length) {
   console.log(`LINKS QUEBRADOS (${quebrados.length}):\n  ` + [...new Set(quebrados)].join('\n  '));
   if (process.argv.includes('--estrito')) process.exit(1);
 } else console.log('links internos: todos existem');
+
+// ---------- portão de marcação crua: **negrito** ou [texto](link) não podem chegar à página ----------
+// Em 02/11/2026 a caixa de resposta de 7 guias (o do hectare tem 20 mil aparições no Google em 28 dias) mostrou
+// "**10.000 metros quadrados**" com os asteriscos, na página e no dado estruturado, porque um campo passava por esc()
+// e não por rico(). O texto da página e o JSON-LD se leem aqui; o resto dos <script> fica de fora.
+const crus = [];
+for (const p of TODAS) {
+  const html = fs.readFileSync(path.join(RAIZ, arquivoDe(p.caminho)), 'utf8');
+  const semScript = html.replace(/<script(?![^>]*application\/ld\+json)[^>]*>[\s\S]*?<\/script>/g, '');
+  for (const m of semScript.matchAll(/\*\*[^*\n]{1,80}\*\*|\]\((?:\/|https?:)[^)\s]{1,120}\)/g)) crus.push(`${p.caminho}: ${m[0].slice(0, 60)}`);
+}
+if (crus.length) {
+  console.log(`MARCAÇÃO CRUA NA PÁGINA (${crus.length}):\n  ` + [...new Set(crus)].slice(0, 30).join('\n  '));
+  if (process.argv.includes('--estrito')) process.exit(1);
+} else console.log('marcação crua: nenhuma');
