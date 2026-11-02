@@ -12,13 +12,13 @@ export default {
   tipo: 'calculadora',
   curto: 'Alqueire em hectare',
   resumo: 'Converta alqueire paulista, mineiro, goiano e baiano.',
-  title: 'Quantos hectares tem um alqueire? Calculadora',
-  description: 'Veja quantos hectares tem um alqueire paulista, mineiro, goiano, baiano ou do norte. Escolha a região e converta alqueires em hectares e m².',
-  h1: 'Quantos hectares tem um alqueire? Converta pela região',
-  pergunta: 'Quantos hectares tem um alqueire?',
-  resposta: 'Depende da região. Um alqueire paulista tem 2,42 hectares; o mineiro e o goiano, 4,84 hectares; o baiano, 9,68 hectares; e o do norte, 2,7225 hectares. Escolha o tipo na calculadora e informe a quantidade. Ela entrega a área em hectares e metros quadrados.',
+  title: 'Um alqueire tem quantos hectares? Tabela e calculadora',
+  description: 'Um alqueire paulista tem 2,42 ha; o mineiro e o goiano, 4,84 ha; o baiano, 9,68 ha. Tabela de 1 a 50 alqueires e calculadora de alqueire em hectare.',
+  h1: 'Um alqueire tem quantos hectares? Converta pela região',
+  pergunta: 'Quantos hectares dá um alqueire?',
+  resposta: 'Um alqueire paulista tem **2,42 hectares** (24.200 m²); o mineiro e o goiano, **4,84 hectares**; o baiano, 9,68 hectares; e o do norte, 2,7225 hectares. O tamanho muda pela região. Escolha o tipo na calculadora e informe a quantidade: ela entrega a área em hectares e metros quadrados.',
   tela: 'inicio',
-  atualizado: '2026-10-08',
+  atualizado: '2026-11-02',
   calc: {
     titulo: 'Converta alqueires em hectares',
     campos: [
@@ -53,6 +53,7 @@ export default {
     { h2: 'Qual alqueire usar na conta', blocos: [
       { p: 'Use o nome que aparece no título, na matrícula, no contrato de arrendamento ou na conversa registrada com quem negociou a área. “Alqueire da região” não basta quando há dinheiro, divisão de herança ou limite de propriedade envolvido.' },
       { ul: ['São Paulo e Paraná costumam usar o alqueire paulista de 2,42 ha.', 'Minas Gerais usa com frequência o mineiro de 4,84 ha.', 'Goiás usa o goiano de 4,84 ha.', 'Bahia pode usar o baiano de 9,68 ha.', 'O nome popular pode mudar dentro do mesmo estado; o documento da área é o que precisa mandar na conta.'] },
+      { p: 'Quando a dúvida é o tamanho real do pasto ou da roça, e não o que diz o papel, um [aplicativo para medir área rural pelo GPS](/aplicativo-para-medir-area-rural) mede o contorno em hectares e a conta para alqueire sai daqui.' },
       { p: 'A calculadora converte o padrão escolhido, mas não identifica sozinha qual alqueire está no seu papel. Se o documento disser apenas “alqueire”, peça a equivalência em hectares ao cartório ou ao profissional que fez a medição.' },
     ] },
   ],
@@ -68,8 +69,8 @@ export default {
     ['Quantos hectares tem um alqueire paulista?', 'Um alqueire paulista tem 2,42 hectares, o mesmo que 24.200 metros quadrados.'],
     ['Quantos hectares tem um alqueire mineiro ou goiano?', 'Tanto o alqueire mineiro quanto o goiano têm 4,84 hectares, equivalentes a 48.400 metros quadrados.'],
     ['Quantos hectares tem um alqueire baiano?', 'Um alqueire baiano tem 9,68 hectares, equivalentes a 96.800 metros quadrados.'],
-    ['Como converter hectares para alqueires?', 'Divida os hectares pelo tamanho regional. Para o paulista, divida por 2,42; para mineiro ou goiano, por 4,84; para baiano, por 9,68.'],
-    ['Por que o alqueire muda de tamanho?', 'Alqueire é uma medida tradicional que ganhou padrões diferentes conforme a região. Por isso o tipo precisa acompanhar todo valor em alqueires.'],
+    ['12 hectares equivalem a quantos alqueires?', 'Divida os hectares pelo tamanho regional: 12 ÷ 2,42 dá cerca de 4,96 alqueires paulistas e 12 ÷ 4,84 dá cerca de 2,48 alqueires mineiros ou goianos.'],
+    ['Quantos hectares são 50 alqueires?', 'São 121 hectares no alqueire paulista, 242 hectares no mineiro ou goiano e 484 hectares no baiano. O tipo precisa acompanhar todo valor em alqueires.'],
   ],
   fontes: [
     { nome: 'Secretaria da Agricultura do Paraná, glossário de alqueire', url: 'https://www.agricultura.pr.gov.br/Pagina/A' },

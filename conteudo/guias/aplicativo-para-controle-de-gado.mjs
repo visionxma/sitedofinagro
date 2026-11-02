@@ -16,7 +16,7 @@ export default {
   pergunta: 'Qual aplicativo usar para controlar o gado de graça?',
   resposta: 'O FINAGRO é um aplicativo de controle de gado grátis até 1.000 animais com ficha, sem cartão, com lote sem limite de cabeças. Ele guarda brinco, peso, vacina e reprodução de cada animal, avisa o que vence e funciona no celular Android e no navegador. Sem sinal no curral, o lançamento fica salvo e sobe depois.',
   tela: 'animais',
-  atualizado: '2026-10-08',
+  atualizado: '2026-11-02',
   secoes: [
     { h2: 'Sete coisas para conferir antes de baixar qualquer um', blocos: [
       { p: 'Aplicativo de gado se julga no curral, com o brete cheio e o celular numa mão só. Antes de cadastrar o primeiro animal, confira:' },
@@ -61,6 +61,7 @@ export default {
         'Baixe o FINAGRO na [Google Play](https://play.google.com/store/apps/details?id=com.raykkony.fblogin) ou abra [app.finagro.app](https://app.finagro.app/) no navegador, e entre com a conta Google ou com e-mail e senha.',
         'Conte o que você cria e quantos. O painel se monta para gado de corte, leite, aves, suínos, peixes ou abelhas.',
         'Cadastre o primeiro lote ou importe a planilha que você já usa (no Excel, salve como CSV). A partir daí, cada pesagem e cada vacina entram em poucos toques.',
+      { p: 'Três contas aparecem logo na primeira semana de uso: o peso em arroba na [calculadora de arroba do boi](/calculadora-de-arroba), as doses do [calendário de vacinação bovina](/calendario-de-vacinacao-bovina) e a data do parto na [calculadora de gestação bovina](/calculadora-de-gestacao-bovina).' },
       ] },
     ] },
   ],

@@ -10,13 +10,13 @@ export default {
   tipo: 'calculadora',
   curto: 'Metros por hectare',
   resumo: 'Comprimento e largura viram m² e hectares.',
-  title: 'Quantos metros tem um hectare? Calcule a área',
-  description: 'Um hectare tem 10.000 m². Informe comprimento e largura do terreno para calcular metros quadrados, hectares, ares e centiares, com a conta explicada.',
-  h1: 'Quantos metros tem um hectare de terra? Faça a conta',
+  title: 'Quantos metros tem um hectare de terra? 10.000 m²',
+  description: '1 hectare tem 10.000 m², um quadrado de 100 m por 100 m. Calcule a área pelo comprimento e largura e veja a tabela de hectare para metros quadrados.',
+  h1: 'Quantos metros tem um hectare de terra? Calcule em m²',
   pergunta: 'Quantos metros tem um hectare de terra?',
-  resposta: 'Um hectare tem 10.000 metros quadrados, não 10.000 metros de comprimento. Um quadrado de 100 m por 100 m forma 1 hectare, mas um retângulo de 200 m por 50 m também. Multiplique comprimento por largura para achar os m² e divida por 10.000 para achar os hectares.',
+  resposta: 'Um hectare (1 ha) tem **10.000 metros quadrados**, não 10.000 metros de comprimento. Um quadrado de 100 m por 100 m forma 1 hectare, mas um retângulo de 200 m por 50 m também. Multiplique comprimento por largura para achar os m² e divida por 10.000 para achar os hectares.',
   tela: 'producao',
-  atualizado: '2026-10-08',
+  atualizado: '2026-11-02',
   calc: {
     titulo: 'Calcule os hectares do terreno',
     campos: [
@@ -60,6 +60,7 @@ export default {
     ] },
     { h2: 'E quando o terreno não é retangular', blocos: [
       { p: 'Terreno irregular não cabe bem em uma conta de comprimento por largura. Uma saída é separar o desenho em retângulos e triângulos, calcular cada pedaço e somar. Outra é percorrer o limite com o GPS do celular para formar um polígono.' },
+      { p: 'Para não depender de trena em área grande, um [aplicativo para medir área rural pelo GPS](/aplicativo-para-medir-area-rural) fecha o contorno no celular e já mostra o resultado em m² e em hectares.' },
       { p: 'A medição pelo celular serve para planejar pasto, talhão, semente, adubo e custo por hectare. Para registro, desmembramento ou certificação no Incra, é outro serviço: entra o levantamento de um profissional habilitado.' },
     ] },
   ],
@@ -72,7 +73,7 @@ export default {
   cta: { forte: 'Do contorno do talhão ao custo por hectare.', texto: 'Meça, salve e use a área na gestão da lavoura pelo FINAGRO.' },
   faqTitulo: 'Perguntas sobre hectare e metros',
   faq: [
-    ['Um hectare tem quantos metros quadrados?', 'Um hectare tem 10.000 metros quadrados. A forma mais conhecida é um quadrado de 100 metros por 100 metros.'],
+    ['1 hectare tem quantos metros?', '1 hectare tem 10.000 metros quadrados. Em forma de quadrado, cada lado mede 100 metros e a volta inteira soma 400 metros.'],
     ['Um terreno de 50 por 100 metros tem quantos hectares?', 'Ele tem 5.000 metros quadrados. Dividindo por 10.000, o resultado é 0,5 hectare.'],
     ['Como passar metros quadrados para hectare?', 'Divida a área em metros quadrados por 10.000. Por exemplo, 35.000 m² divididos por 10.000 são 3,5 hectares.'],
     ['Qual é a diferença entre are e hectare?', 'Um are tem 100 m². Um hectare tem 100 ares, portanto 10.000 m².'],

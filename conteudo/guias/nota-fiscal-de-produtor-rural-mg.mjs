@@ -26,13 +26,13 @@ export default {
   tipo: "guia",
   curto: "Nota de produtor em MG",
   resumo: "NFA-e no SIARE e Nota Fiscal Fácil: como emitir em MG.",
-  title: "Nota fiscal de produtor rural em MG: como emitir",
-  description: "Nota fiscal de produtor rural em MG: a nota fiscal avulsa eletrônica sai pelo SIARE e o Nota Fiscal Fácil cobre parte das vendas. Veja o passo a passo oficial.",
-  h1: "Nota fiscal de produtor rural em MG: nota avulsa no SIARE e app",
-  pergunta: "Como emitir nota fiscal de produtor rural em Minas Gerais?",
-  resposta: "Em Minas Gerais o produtor rural pessoa física emite a Nota Fiscal Avulsa Eletrônica (NFA-e) pela internet, com login no SIARE, o sistema da Secretaria de Estado de Fazenda. Para saídas dentro do estado com hortifrutigranjeiros existe também o aplicativo Nota Fiscal Fácil, que entra com a conta gov.br do CPF do produtor. A inscrição estadual vem antes.",
+  title: "Nota fiscal avulsa MG: como o produtor rural emite no SIARE",
+  description: "Nota fiscal avulsa MG: o produtor rural emite a NFA-e no SIARE, na hora ou após análise de até 2 dias úteis. Passo a passo e o app Nota Fiscal Fácil.",
+  h1: "Nota fiscal avulsa MG: como emitir a nota de produtor rural no SIARE",
+  pergunta: "Como emitir nota fiscal avulsa de produtor rural em MG?",
+  resposta: "Em Minas Gerais o produtor rural pessoa física emite a **Nota Fiscal Avulsa Eletrônica (NFA-e)** no SIARE, o sistema da Secretaria de Estado de Fazenda. Com deferimento automático, a nota sai na hora; se for para análise, o prazo informado é de 2 dias úteis. Hortifrutigranjeiros em venda interna também saem pelo aplicativo Nota Fiscal Fácil.",
   tela: "fluxo",
-  atualizado: "2026-10-09",
+  atualizado: "2026-11-02",
   secoes: [
     { h2: "Qual é o sistema de emissão em Minas Gerais", blocos: [
       {"p":"A Secretaria de Estado de Fazenda de Minas Gerais (SEF-MG) publica dois caminhos para a nota fiscal de produtor rural:"},
@@ -53,6 +53,7 @@ export default {
       {"p":"Em Minas a nota avulsa sai no nome do produtor rural pessoa física, que tem CPF e inscrição estadual. O cadastro é feito pela internet, no SIARE, ou nas unidades de atendimento da SEF-MG. O caminho completo está no guia da [inscrição estadual de produtor rural](/inscricao-estadual-produtor-rural)."},
       {"ul":["**Acesso ao SIARE:** é nele que o pedido da nota avulsa é preenchido e acompanhado.","**Data de saída da carga:** vai no requerimento, e é até ela que qualquer pendência precisa estar resolvida.","**Conta gov.br do CPF do produtor:** só para quem vai emitir hortifrutigranjeiros pelo Nota Fiscal Fácil.","**Cartão de inscrição:** é atualizado pelo próprio uso da nota fiscal avulsa de produtor rural."]},
       {"p":"O formulário eletrônico pede os dados da operação. Separe antes o nome e o documento do comprador, o produto, a quantidade e o valor. Na venda de boi, vaca ou bezerro, a guia de trânsito anda com a nota: veja [como emitir GTA](/como-emitir-gta). Sobre a contribuição retida na venda, leia [Funrural](/funrural)."},
+      {"p":"Com a nota avulsa em mãos, lance a venda num [sistema de gestão rural](/software-de-gestao-rural) com o mesmo valor da NFA-e: receita, Funrural descontado e saldo do mês ficam no mesmo lugar para o contador."},
     ] },
     { h2: "Onde tirar dúvida em Minas Gerais", blocos: [
       {"p":"A página de orientações da nota fiscal avulsa, no site da SEF-MG (fazenda.mg.gov.br), traz os manuais ilustrados e o acompanhamento do protocolo. Para o que não se resolve por lá, a própria página manda procurar os Canais de Atendimento da SEF/MG."},
@@ -69,7 +70,7 @@ export default {
   cta: {"forte":"A nota sai no sistema da Fazenda. A venda fica anotada no FINAGRO.","texto":"Grátis até 1.000 animais com ficha, sem cartão, no Android e no navegador."},
   faqTitulo: "Perguntas sobre nota fiscal de produtor em MG",
   faq: [
-    ["Como emitir nota fiscal de produtor rural em MG?","Pela internet, no SIARE, o sistema da Secretaria de Estado de Fazenda. O produtor rural pessoa física, com CPF e inscrição estadual, faz login e emite a Nota Fiscal Avulsa Eletrônica. Para hortifrutigranjeiros em saídas internas há também o aplicativo Nota Fiscal Fácil."],
+    ["Como emitir nota fiscal avulsa de produtor rural em MG?","Pela internet, no SIARE, o sistema da Secretaria de Estado de Fazenda. O produtor rural pessoa física, com CPF e inscrição estadual, faz login e emite a Nota Fiscal Avulsa Eletrônica. Para hortifrutigranjeiros em saídas internas há também o aplicativo Nota Fiscal Fácil."],
     ["O que é a nota fiscal avulsa de produtor rural em MG?","É a NFA-e, a Nota Fiscal Avulsa Eletrônica, pedida em formulário eletrônico no SIARE. Sai na hora quando o deferimento é automático, ou depois da análise da Fazenda."],
     ["Quanto tempo demora a nota fiscal avulsa em MG?","Quando o deferimento é automático, a nota é impressa na hora. Quando a solicitação vai para análise, a página de orientações da SEF-MG informa prazo de 2 dias úteis."],
     ["O sindicato ou a cooperativa pode emitir a nota para o produtor em MG?","Sim. A SEF-MG tem a Emissão Especial de Nota Fiscal Avulsa: cooperativas, sindicatos, associações e leiloeiros cadastrados como usuários no SIARE podem emitir a NFA-e para o produtor rural pessoa física."],

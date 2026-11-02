@@ -14,13 +14,13 @@ export default {
   tipo: 'guia',
   curto: 'App para medir área',
   resumo: 'Meça pasto e talhão pelo GPS do celular, até sem sinal.',
-  title: 'Aplicativo para medir área rural pelo celular',
-  description: 'Veja como medir pasto, terreno e talhão pelo GPS do celular no FINAGRO, caminhando o contorno ou marcando pontos, mesmo sem internet, e entenda o erro.',
-  h1: 'Aplicativo para medir área rural pelo GPS do celular',
-  pergunta: 'Como medir uma área de terra pelo celular?',
-  resposta: 'No FINAGRO, abra Áreas e GPS, permita a localização e escolha entre marcar os pontos do contorno no mapa ou medir caminhando pela borda. Feche o polígono, confira a área e salve. No Android, o GPS mede sem internet; sem mapa baixado, o fundo pode ficar branco.',
+  title: 'Aplicativo para medir área rural e terreno pelo celular',
+  description: 'Como medir terra pelo celular: o app FINAGRO mede pasto, terreno e talhão pelo GPS, por pontos ou caminhando, em m² e hectares, mesmo sem internet.',
+  h1: 'Aplicativo para medir área rural: como medir terra pelo celular',
+  pergunta: 'Como medir terra pelo celular?',
+  resposta: 'Para medir terra pelo celular, abra Áreas e GPS no FINAGRO, permita a localização e marque os cantos no mapa ou caminhe pela borda. Feche o polígono e a área aparece em m², hectares ou km². O plano grátis guarda até 100 áreas e, no Android, o GPS mede sem internet.',
   tela: 'inicio',
-  atualizado: '2026-10-08',
+  atualizado: '2026-11-02',
   secoes: [
     { h2: 'Como o GPS do celular calcula a área', blocos: [
       { p: 'O sistema global de navegação por satélite, conhecido pela sigla **GNSS**, calcula a posição do aparelho a partir de sinais de satélites. A Agência Espacial Brasileira informa que são necessários pelo menos quatro satélites visíveis para calcular os primeiros parâmetros da posição.' },
@@ -44,6 +44,7 @@ export default {
     { h2: 'Para que a medição serve e para que não serve', blocos: [
       { p: 'A área medida no celular ajuda a dividir pasto, estimar lotação, calcular quantidade de insumo pela dose por hectare, separar talhões e comparar custo por hectare. É uma medida prática de manejo e planejamento.' },
       { p: 'Ela **não substitui georreferenciamento para registro, desmembramento, compra e venda formal ou certificação no Incra**. O Incra manda contratar responsável técnico para a demarcação georreferenciada; o profissional precisa estar habilitado em conselho e credenciado no instituto.' },
+      { p: 'Com a área em hectares, a conversão para as medidas da região sai nos guias de [quantos metros tem um hectare](/quantos-metros-tem-um-hectare), de [alqueire em hectare](/alqueire-em-hectare) e de [tarefa e linha de terra](/tarefa-e-linha-de-terra). A área salva também entra no [sistema de gestão rural](/software-de-gestao-rural), junto de talhões, safra e custo por hectare.' },
       { destaque: 'Use o aplicativo para tocar a fazenda. Para mexer em matrícula, limite legal ou certificação, contrate profissional habilitado.' },
     ] },
   ],

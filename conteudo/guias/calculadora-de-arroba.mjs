@@ -69,6 +69,8 @@ export default {
       { p: 'Com as arrobas na mão, o valor é multiplicação: arrobas × preço da arroba. Para o lote, multiplique pelo número de cabeças ou some o peso de todos e faça a conta uma vez só.' },
       { p: 'Confira sempre de que preço se está falando. O indicador do boi gordo do Cepea, por exemplo, é publicado como valor à vista por arroba de 15 kg, sem Funrural. Preço a prazo e desconto do [Funrural](/funrural) mudam o que entra no caixa.' },
       { destaque: 'A calculadora faz a conta. O rendimento e o preço quem dá é o mercado: combine os dois com o comprador antes de embarcar.' },
+      { p: 'Para vender pelo peso certo, a pesagem de cada animal precisa estar anotada. Um [aplicativo para controle de gado](/aplicativo-para-controle-de-gado) guarda cada pesagem na ficha do animal e mostra o ganho de peso entre uma pesagem e outra.' },
+      { p: 'Para vender pelo peso certo, a pesagem de cada animal precisa estar anotada. Um [aplicativo para controle de gado](/aplicativo-para-controle-de-gado) guarda as pesagens por brinco e mostra o ganho de peso até o dia da venda.' },
     ] },
   ],
   noFinagro: { h2: 'O peso e a venda no FINAGRO', itens: [

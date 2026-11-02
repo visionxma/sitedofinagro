@@ -1,6 +1,7 @@
 // Página de captação para quem procura "sistema" (costuma ser quem cuida do escritório da fazenda, no computador).
 // Consultas (colheita de 08/10/2026): "software de gestão rural", "sistema de gestão rural", "sistema para fazenda",
 // "sistema para produtor rural", "programa para fazenda". Comparação por tipo de solução, sem citar marca.
+// 02/11/2026: título passa a cobrir também "sistema de gestão rural" e "software de gestão de fazenda".
 export const provas = [];
 
 export default {
@@ -9,13 +10,13 @@ export default {
   tipo: 'guia',
   curto: 'Software de gestão rural',
   resumo: 'O que cobrar de um sistema antes de contratar.',
-  title: 'Software de gestão rural grátis: o que cobrar do sistema',
-  description: 'Software de gestão rural: o que um sistema para fazenda tem de cobrir, sete perguntas antes de contratar e onde entra o FINAGRO, grátis até 3 fazendas.',
-  h1: 'Software de gestão rural: o que um sistema para fazenda tem de entregar',
-  pergunta: 'Qual software de gestão rural usar na fazenda?',
-  resposta: 'Um software de gestão rural precisa juntar rebanho, lavoura, dinheiro, estoque, máquinas e equipe na mesma conta, no celular e no computador. O FINAGRO faz isso e é grátis até 3 fazendas, 5 pessoas e 1.000 animais com ficha, sem cartão. Antes de contratar qualquer sistema, peça o preço por escrito e teste a saída dos dados.',
+  title: 'Software e sistema de gestão rural grátis para fazenda',
+  description: 'Software e sistema de gestão rural para fazenda: o que cobrar antes de contratar e o FINAGRO, grátis até 3 fazendas, 5 pessoas e 1.000 animais com ficha.',
+  h1: 'Software e sistema de gestão rural: o que a fazenda tem de exigir',
+  pergunta: 'Qual software ou sistema de gestão rural usar na fazenda?',
+  resposta: 'Um software ou sistema de gestão rural precisa juntar rebanho, lavoura, dinheiro, estoque, máquinas e equipe na mesma conta, no celular e no computador. O FINAGRO faz isso e é grátis até 3 fazendas, 5 pessoas e 1.000 animais com ficha, sem cartão. Antes de contratar qualquer sistema, peça o preço por escrito e teste a saída dos dados.',
   tela: 'inicio',
-  atualizado: '2026-10-08',
+  atualizado: '2026-11-02',
   secoes: [
     { h2: 'O que o sistema tem de cobrir', blocos: [
       { p: 'Sistema que cuida só do gado deixa o dinheiro na planilha. Sistema que cuida só do dinheiro não sabe quantas cabeças tem no pasto. Na fazenda, as seis áreas abaixo conversam o tempo todo:' },
@@ -64,6 +65,7 @@ export default {
         'Cadastre a fazenda e conte o que ela produz. O painel se monta para o que você cria e planta.',
         'Importe a planilha com o rebanho, as despesas ou as receitas que você já tem. No Excel, salve como CSV antes de enviar.',
         'Convide a equipe e escolha o papel de cada pessoa. Quem está no curral lança; quem está na sede confere.',
+      { p: 'O escritório da fazenda costuma esbarrar em três contas que o sistema ajuda a organizar: o desconto do [Funrural de 2026](/funrural) em cada venda, a [nota fiscal de produtor rural](/nota-fiscal-de-produtor-rural) que acompanha a carga e a renda que o [CAF da agricultura familiar](/caf-agricultura-familiar) pede para comprovar.' },
       ] },
     ] },
   ],

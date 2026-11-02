@@ -120,6 +120,10 @@ Grátis para sempre no plano Campo, com o app inteiro: até 3 fazendas, 5 pessoa
 Baixar para AndroidBaixar grátis
 Usar no navegadorNo navegador
 Prefere conversar antes? Falar no WhatsApp
+Quer uma segunda opinião? Pergunte a uma IA.
+ChatGPT
+Google IA
+Perplexity
 
 
 ---
@@ -635,7 +639,7 @@ Aplicativo para controle de gado: o que ele precisa fazer no curral
 Qual aplicativo usar para controlar o gado de graça?
 O FINAGRO é um aplicativo de controle de gado grátis até 1.000 animais com ficha, sem cartão, com lote sem limite de cabeças. Ele guarda brinco, peso, vacina e reprodução de cada animal, avisa o que vence e funciona no celular Android e no navegador. Sem sinal no curral, o lançamento fica salvo e sobe depois.
 Começar grátisBaixar no Android
-Atualizado em 08/10/2026
+Atualizado em 02/11/2026
 Sete coisas para conferir antes de baixar qualquer um
 Aplicativo de gado se julga no curral, com o brete cheio e o celular numa mão só. Antes de cadastrar o primeiro animal, confira:
 Lança sem sinal? No pasto e no curral a internet some. O lançamento tem de ficar salvo no aparelho e subir sozinho quando o sinal voltar.
@@ -676,6 +680,7 @@ Como começar hoje
 Baixe o FINAGRO na Google Play ou abra app.finagro.app no navegador, e entre com a conta Google ou com e-mail e senha.
 Conte o que você cria e quantos. O painel se monta para gado de corte, leite, aves, suínos, peixes ou abelhas.
 Cadastre o primeiro lote ou importe a planilha que você já usa (no Excel, salve como CSV). A partir daí, cada pesagem e cada vacina entram em poucos toques.
+[object Object]
 Seu rebanho no celular ainda hoje, sem agendar demonstração.
 Grátis até 1.000 animais com ficha, com lote sem limite de cabeças e sem cartão.
 Começar grátis
@@ -889,7 +894,7 @@ Começar grátisBaixar para Android
 
 ---
 
-## Software de gestão rural grátis: o que cobrar do sistema
+## Software e sistema de gestão rural grátis para fazenda
 Endereço: https://finagro.app/software-de-gestao-rural
 
 
@@ -897,11 +902,11 @@ FINAGRO
 Guias
 Software de gestão rural
 GuiaEscolher um aplicativo
-Software de gestão rural: o que um sistema para fazenda tem de entregar
-Qual software de gestão rural usar na fazenda?
-Um software de gestão rural precisa juntar rebanho, lavoura, dinheiro, estoque, máquinas e equipe na mesma conta, no celular e no computador. O FINAGRO faz isso e é grátis até 3 fazendas, 5 pessoas e 1.000 animais com ficha, sem cartão. Antes de contratar qualquer sistema, peça o preço por escrito e teste a saída dos dados.
+Software e sistema de gestão rural: o que a fazenda tem de exigir
+Qual software ou sistema de gestão rural usar na fazenda?
+Um software ou sistema de gestão rural precisa juntar rebanho, lavoura, dinheiro, estoque, máquinas e equipe na mesma conta, no celular e no computador. O FINAGRO faz isso e é grátis até 3 fazendas, 5 pessoas e 1.000 animais com ficha, sem cartão. Antes de contratar qualquer sistema, peça o preço por escrito e teste a saída dos dados.
 Começar grátisBaixar no Android
-Atualizado em 08/10/2026
+Atualizado em 02/11/2026
 O que o sistema tem de cobrir
 Sistema que cuida só do gado deixa o dinheiro na planilha. Sistema que cuida só do dinheiro não sabe quantas cabeças tem no pasto. Na fazenda, as seis áreas abaixo conversam o tempo todo:
 ÁreaO que controlarNo FINAGRO
@@ -944,6 +949,7 @@ Abra app.finagro.app no computador ou baixe o aplicativo na Google Play, e entre
 Cadastre a fazenda e conte o que ela produz. O painel se monta para o que você cria e planta.
 Importe a planilha com o rebanho, as despesas ou as receitas que você já tem. No Excel, salve como CSV antes de enviar.
 Convide a equipe e escolha o papel de cada pessoa. Quem está no curral lança; quem está na sede confere.
+[object Object]
 Teste na sua fazenda antes de falar com qualquer vendedor.
 Grátis até 3 fazendas, 5 pessoas e 1.000 animais com ficha. Sem cartão.
 Começar grátis
@@ -1029,6 +1035,8 @@ Quanto vale o boi e quanto vale o lote
 Com as arrobas na mão, o valor é multiplicação: arrobas × preço da arroba. Para o lote, multiplique pelo número de cabeças ou some o peso de todos e faça a conta uma vez só.
 Confira sempre de que preço se está falando. O indicador do boi gordo do Cepea, por exemplo, é publicado como valor à vista por arroba de 15 kg, sem Funrural. Preço a prazo e desconto do Funrural mudam o que entra no caixa.
 A calculadora faz a conta. O rendimento e o preço quem dá é o mercado: combine os dois com o comprador antes de embarcar.
+Para vender pelo peso certo, a pesagem de cada animal precisa estar anotada. Um aplicativo para controle de gado guarda cada pesagem na ficha do animal e mostra o ganho de peso entre uma pesagem e outra.
+Para vender pelo peso certo, a pesagem de cada animal precisa estar anotada. Um aplicativo para controle de gado guarda as pesagens por brinco e mostra o ganho de peso até o dia da venda.
 O peso e a venda no FINAGRO
 Cada pesagem lançada fica na ficha do animal, e o app mostra o ganho entre uma pesagem e a outra.
 A tela de lotes mostra as cabeças e o peso bruto de cada lote, para a conta partir do peso certo.
@@ -1087,10 +1095,10 @@ A gestação da vaca dura em média 290 dias no gado de corte, cerca de nove mes
 Atualizado em 08/10/2026
 Calcule o parto, a secagem e o diagnóstico
 Data da cobertura ou da IADias de gestaçãoDias de secagem antes do parto
-26/07/2027parto previsto
-27/05/2027secar a vaca de leite em
-03/11/2026ultrassom a partir de
-08/12/2026palpação a partir de
+19/08/2027parto previsto
+20/06/2027secar a vaca de leite em
+27/11/2026ultrassom a partir de
+01/01/2027palpação a partir de
 Os 290 dias são a média do gado de corte segundo a Embrapa. Zebuíno tende a gestar mais dias e raça europeia menos: ajuste o campo se o seu rebanho tem a média própria. A secagem só vale para vaca de leite. O parto é uma previsão: pode vir alguns dias antes ou depois. No aplicativo FINAGRO o parto previsto sai com 283 dias, dentro da mesma faixa.
 Quantos dias dura a gestação da vaca
 No gado de corte, a Embrapa Gado de Corte dá 290 dias como duração média da gestação. É perto de nove meses e meio. A conta do parto é simples: data da cobertura mais 290 dias.
@@ -1121,6 +1129,8 @@ Conta: data da cobertura mais 280 ou 290 dias, faixa citada pela Embrapa. A data
 Quando fazer o diagnóstico de gestação
 Saber cedo quem não pegou barriga permite cobrir de novo a vaca vazia ou descartá-la. Pela Embrapa, a palpação retal, feita por profissional qualificado, vale a partir de 60 dias de gestação. A ultrassonografia pode ser feita a partir de 25 dias.
 A calculadora já mostra as duas datas, contadas da cobertura. Combine a visita do veterinário com o dia em que o lote inteiro estiver apto, para não chamar duas vezes.
+Com muitas vacas cobertas, a conta à mão vira bagunça. Um aplicativo para controle de gado guarda a cobertura de cada vaca e marca o parto previsto, com aviso no celular.
+Com muitas vacas cobertas, a conta à mão vira bagunça. Um aplicativo para controle de gado guarda a data da cobertura de cada vaca e calcula o parto previsto sozinho.
 O parto previsto no FINAGRO
 Na reprodução, você registra a cobertura da fêmea e o app marca o parto previsto, com o aviso no celular.
 O app usa 283 dias para vaca, dentro da faixa de 280 a 290 dias da Embrapa, e lembra que o parto pode vir antes ou depois.
@@ -3430,6 +3440,8 @@ O que é recomendação técnica e depende do veterinário
 Clostridioses, botulismo, leptospirose, IBR e BVD não têm obrigação nacional. A Embrapa Gado de Corte publica um cronograma de referência: carbúnculo sintomático com a 1ª dose aos 4 a 6 meses e a 2ª seis meses depois; botulismo com a 1ª dose no 4º mês, a 2ª 40 dias depois, repetindo todo ano; IBR e BVD nas vacas 60 dias antes da monta; leptospirose conforme o sorotipo da região.
 A própria Embrapa diz que o cronograma deve ser acompanhado com um médico-veterinário, que adapta ao sistema de produção de cada propriedade. A região, o histórico de doença e o tipo de criação mudam o calendário.
 A obrigação e o prazo são da defesa agropecuária do seu estado, e mudam. Este texto é informativo e não substitui o veterinário nem a defesa agropecuária: confirme a regra local antes de vacinar ou de marcar o embarque.
+Para não esquecer a próxima dose, um aplicativo para controle de gado registra a vacina de cada animal ou lote, com a data, e lista o que está para vencer.
+Para não esquecer a próxima dose, um aplicativo para controle de gado registra a vacina de cada animal ou lote e avisa antes da data marcada.
 Controle de vacinas no FINAGRO
 Cada vacina fica na ficha do animal ou do lote, com a data, para você saber o que já foi feito.
 O app avisa quando há bezerras na idade da vacina de brucelose sem a vacina anotada.
@@ -3956,7 +3968,7 @@ Começar grátisBaixar para Android
 
 ---
 
-## Funrural 2026: calculadora e como funciona o desconto
+## Funrural 2026: valor, cálculo e desconto na venda
 Endereço: https://finagro.app/funrural
 
 
@@ -3964,26 +3976,36 @@ FINAGRO
 Guias
 Calculadora de Funrural
 CalculadoraDinheiro e imposto
-Funrural 2026: quanto você paga na venda e como funciona o desconto
-Quanto é o Funrural do produtor rural pessoa física?
-Para o produtor rural pessoa física, o Funrural soma 1,5% da receita bruta da venda: 1,2% de previdência, 0,1% de seguro de acidente de trabalho (RAT) e 0,2% do Senar. Em geral a empresa que compra desconta e recolhe. Numa venda de R$ 100.000, são R$ 1.500. Valores conforme as leis em vigor em outubro de 2026.
-Atualizado em 08/10/2026
+Funrural 2026: valor, cálculo e desconto na venda do produtor
+Qual o valor do Funrural em 2026?
+Desde a competência de abril de 2026, o Funrural do produtor rural pessoa física é de **1,63%** da receita bruta da venda: 1,32% de previdência, 0,11% de RAT e 0,2% de Senar. O segurado especial segue com 1,5%. Numa venda de R$ 100.000, o desconto é de R$ 1.630. Em geral, quem compra desconta e recolhe.
+Atualizado em 02/11/2026
 Calcule o Funrural da venda
-Receita bruta da venda (R$)
-R$ 1.500,00Funrural total da venda
-R$ 1.200,00previdência (1,2%)
-R$ 100,00seguro de acidente, RAT (0,1%)
+Receita bruta da venda (R$)Quem vendeProdutor pessoa física (1,63%)Segurado especial (1,5%)
+R$ 1.630,00Funrural total da venda
+R$ 1.320,00previdência (1,32% ou 1,2%)
+R$ 110,00RAT (0,11% ou 0,1%)
 R$ 200,00Senar (0,2%)
-Vale para o produtor rural pessoa física que NÃO optou pela folha de pagamento. Use a receita bruta da venda, sem descontar frete nem outras despesas. Venda de semente, muda ou animal para reprodução fica fora da base: tire esse valor antes de digitar.
+Alíquotas da Receita a partir da competência 04/2026. Segurado especial é o agricultor familiar que trabalha sem empregado permanente. Vale para quem NÃO optou pela folha de pagamento. Use a receita bruta da venda, sem descontar frete nem outras despesas. Venda de semente, muda ou animal para reprodução fica fora da base: tire esse valor antes de digitar.
+Valor do Funrural em 2026: o que mudou em abril
+A partir da competência de abril de 2026, a Receita Federal passou a aplicar um acréscimo de 10% sobre a previdência e o seguro de acidente de trabalho do produtor rural pessoa física, por conta da Lei Complementar 224/2025. O Senar não mudou. Venda feita até março de 2026 segue a conta antiga, de 1,5%.
+Quem vendePrevidênciaRATTotal com Senar
+Produtor pessoa física, desde 04/20261,32%0,11%1,63%
+Segurado especial1,2%0,1%1,5%
+Produtor pessoa física, até 03/20261,2%0,1%1,5%
+Quem optou pela folhana folhana folha0,2% (só Senar)
+Tabela da Receita Federal (EFD-Reinf, contribuições sobre a comercialização da produção rural), lida em 02/11/2026.
+Segurado especial é o agricultor familiar que trabalha com a família, sem empregado permanente. Na dúvida sobre o seu enquadramento, o contador ou o sindicato rural confirma.
 O que é o Funrural e quanto custa
 Funrural é o nome que o produtor deu à contribuição que incide sobre a venda da produção rural. Hoje ela se divide em três parcelas, todas calculadas sobre a receita bruta da comercialização: o valor da nota, antes de qualquer despesa.
-ParcelaAlíquotaPara quê
-Previdência1,2%Seguridade Social (Lei 8.212, art. 25)
-Seguro de acidente (RAT)0,1%Benefícios por acidente do trabalho
+ParcelaAlíquota em 2026Para quê
+Previdência1,32%Seguridade Social (Lei 8.212, art. 25)
+Seguro de acidente (RAT)0,11%Benefícios por acidente do trabalho
 Senar0,2%Formação profissional rural (Lei 9.528, art. 6º)
-Total1,5%sobre a receita bruta da venda
-Produtor rural pessoa física, empregador, que não optou pela folha. Textos das leis lidos no Planalto em 08/10/2026.
-Conta de exemplo: o produtor vende 400 arrobas de boi a R$ 300 e fatura R$ 120.000. Previdência: R$ 1.440. RAT: R$ 120. Senar: R$ 240. Total: R$ 1.800.
+Total1,63%sobre a receita bruta da venda
+Produtor rural pessoa física que não optou pela folha, desde a competência 04/2026. A lei traz a base de 1,2% e 0,1%; o acréscimo de 10% é aplicado pela Receita.
+Conta de exemplo: o produtor vende 400 arrobas de boi a R$ 300 e fatura R$ 120.000. Previdência: R$ 1.584. RAT: R$ 132. Senar: R$ 240. Total: R$ 1.956. Se for segurado especial, o total fica em R$ 1.800.
+O Funrural cai direto no resultado da fazenda. Lançar a venda pelo valor bruto e o desconto como despesa num sistema de gestão rural mostra quanto sobrou de fato em cada acerto com o comprador.
 Quem desconta e quem recolhe
 Quando você vende para uma empresa, quem recolhe é ela. A lei diz que o comprador, o consignatário ou a cooperativa ficam responsáveis pelas obrigações do produtor pessoa física. Na prática, o valor já vem descontado do que você recebe. A empresa deve recolher até o dia 20 do mês seguinte à venda.
 Em três casos a conta é sua, direto com o governo:
@@ -3998,11 +4020,11 @@ Funrural sobre a folha de pagamento: a opção
 O produtor pessoa física pode escolher pagar a contribuição sobre a folha de pagamento dos empregados, em vez de pagar sobre a venda. Quem opta paga 20% sobre as remunerações do mês, mais o seguro de acidente de trabalho (RAT), que é o inciso II do mesmo artigo. Outras contribuições sobre a folha dependem da atividade: o contador confirma.
 A opção se faz pagando a contribuição da folha de janeiro, ou da primeira competência após o início da atividade rural.
 Ela vale para o ano-calendário inteiro e não pode ser desfeita no meio do ano.
-Quem opta deixa de pagar os 1,2% e os 0,1% sobre a venda.
-Para ter uma ideia, compare o que sairia dos dois lados. Uma fazenda que vende R$ 2.000.000 por ano paga R$ 30.000 de Funrural sobre a venda. Se a folha anual for de R$ 100.000, os 20% dão R$ 20.000, mais o RAT e eventuais outras contribuições. Já uma fazenda com muita gente e venda pequena pode ter conta pior pela folha. Quem decide é o contador, com os números do ano.
+Quem opta deixa de pagar a previdência e o RAT sobre a venda e continua pagando os 0,2% do Senar.
+Para ter uma ideia, compare o que sairia dos dois lados. Uma fazenda que vende R$ 2.000.000 por ano paga R$ 32.600 de Funrural sobre a venda, com a alíquota de 1,63%. Se a folha anual for de R$ 100.000, os 20% dão R$ 20.000, mais o RAT e eventuais outras contribuições. Já uma fazenda com muita gente e venda pequena pode ter conta pior pela folha. Quem decide é o contador, com os números do ano.
 Como conferir o desconto na nota
 Pegue o valor bruto da nota de venda.
-Multiplique por 0,015 para ter o total do Funrural.
+Multiplique por 0,0163 para ter o total do Funrural (por 0,015 se você é segurado especial ou se a venda é de antes de abril de 2026).
 Compare com o desconto que o comprador fez no acerto. Diferença pequena pode vir de arredondamento ou de venda para reprodução.
 Guarde o demonstrativo do comprador junto da nota: ele prova o recolhimento.
 Este texto é informativo e não substitui o contador. Alíquota, prazo e opção pela folha podem mudar por lei nova e dependem do seu caso: confirme antes de decidir.
@@ -4016,16 +4038,17 @@ Grátis até 1.000 animais com ficha, sem cartão, no Android e no navegador.
 Começar grátis
 Perguntas sobre Funrural
 Qual a alíquota do Funrural para pessoa física em 2026?
-São 1,5% da receita bruta da venda: 1,2% de previdência, 0,1% de seguro de acidente de trabalho e 0,2% do Senar, conforme a Lei 8.212 e a Lei 9.528 em vigor em outubro de 2026.
+Desde a competência de abril de 2026, são 1,63% da receita bruta da venda: 1,32% de previdência, 0,11% de seguro de acidente de trabalho e 0,2% do Senar. O segurado especial paga 1,5%. Venda até março de 2026 segue em 1,5%.
+Como calcular o Funrural de uma venda?
+Multiplique o valor bruto da nota por 0,0163. Numa venda de R$ 50.000, o desconto é de R$ 815. Para o segurado especial, multiplique por 0,015, o que dá R$ 750.
 Quem recolhe o Funrural, o produtor ou o comprador?
 Quando o comprador é empresa ou cooperativa, ele desconta e recolhe. Se você vende ao exterior, a outro produtor pessoa física ou direto ao consumidor, o recolhimento é seu.
 Posso pagar o Funrural sobre a folha de pagamento?
 Pode. O produtor pessoa física escolhe pagando a contribuição da folha de janeiro. A escolha vale o ano inteiro e não pode ser desfeita. Peça ao contador para comparar as duas contas.
 Venda de animal para reprodução paga Funrural?
 A lei deixa fora da base o produto animal destinado à reprodução ou criação, quando vendido pelo próprio produtor. Separe essa nota das demais.
-Até que dia o comprador paga o Funrural?
-A empresa compradora deve recolher até o dia 20 do mês seguinte ao da venda. Quando a obrigação é sua, o prazo é o mesmo.
 Fontes
+Receita Federal: contribuições sobre a comercialização da produção rural (EFD-Reinf)
 Lei 8.212/1991, art. 22, 25 e 30 (Planalto)
 Lei 9.528/1997, art. 6º, contribuição ao Senar (Planalto)
 Lei 13.606/2018, opção pela folha de pagamento (Planalto)
@@ -4034,6 +4057,7 @@ Fluxo de caixa ruralImposto de renda ruralNota fiscal de produtorTodos os guiasD
 Gestão ruralGlossário ruralInscrição estadualNota de produtor na BANota de produtor no DF
 Nesta página
 Calcule o Funrural da venda
+Valor do Funrural em 2026: o que mudou em abril
 O que é o Funrural e quanto custa
 Quem desconta e quem recolhe
 O que entra e o que não entra na base
@@ -4649,7 +4673,7 @@ Começar grátisBaixar para Android
 
 ---
 
-## Nota fiscal de produtor rural em MG: como emitir
+## Nota fiscal avulsa MG: como o produtor rural emite no SIARE
 Endereço: https://finagro.app/nota-fiscal-de-produtor-rural-mg
 
 
@@ -4657,10 +4681,10 @@ FINAGRO
 Guias
 Nota de produtor em MG
 GuiaDinheiro e imposto
-Nota fiscal de produtor rural em MG: nota avulsa no SIARE e app
-Como emitir nota fiscal de produtor rural em Minas Gerais?
-Em Minas Gerais o produtor rural pessoa física emite a Nota Fiscal Avulsa Eletrônica (NFA-e) pela internet, com login no SIARE, o sistema da Secretaria de Estado de Fazenda. Para saídas dentro do estado com hortifrutigranjeiros existe também o aplicativo Nota Fiscal Fácil, que entra com a conta gov.br do CPF do produtor. A inscrição estadual vem antes.
-Atualizado em 09/10/2026
+Nota fiscal avulsa MG: como emitir a nota de produtor rural no SIARE
+Como emitir nota fiscal avulsa de produtor rural em MG?
+Em Minas Gerais o produtor rural pessoa física emite a **Nota Fiscal Avulsa Eletrônica (NFA-e)** no SIARE, o sistema da Secretaria de Estado de Fazenda. Com deferimento automático, a nota sai na hora; se for para análise, o prazo informado é de 2 dias úteis. Hortifrutigranjeiros em venda interna também saem pelo aplicativo Nota Fiscal Fácil.
+Atualizado em 02/11/2026
 Qual é o sistema de emissão em Minas Gerais
 A Secretaria de Estado de Fazenda de Minas Gerais (SEF-MG) publica dois caminhos para a nota fiscal de produtor rural:
 Nota Fiscal Avulsa Eletrônica (NFA-e), no SIARE: o SIARE é o Sistema Integrado de Administração da Receita Estadual. O produtor rural pessoa física, que tem CPF e inscrição estadual, faz login no SIARE para emitir a nota avulsa.
@@ -4689,6 +4713,7 @@ Data de saída da carga: vai no requerimento, e é até ela que qualquer pendên
 Conta gov.br do CPF do produtor: só para quem vai emitir hortifrutigranjeiros pelo Nota Fiscal Fácil.
 Cartão de inscrição: é atualizado pelo próprio uso da nota fiscal avulsa de produtor rural.
 O formulário eletrônico pede os dados da operação. Separe antes o nome e o documento do comprador, o produto, a quantidade e o valor. Na venda de boi, vaca ou bezerro, a guia de trânsito anda com a nota: veja como emitir GTA. Sobre a contribuição retida na venda, leia Funrural.
+Com a nota avulsa em mãos, lance a venda num sistema de gestão rural com o mesmo valor da NFA-e: receita, Funrural descontado e saldo do mês ficam no mesmo lugar para o contador.
 Onde tirar dúvida em Minas Gerais
 A página de orientações da nota fiscal avulsa, no site da SEF-MG (fazenda.mg.gov.br), traz os manuais ilustrados e o acompanhamento do protocolo. Para o que não se resolve por lá, a própria página manda procurar os Canais de Atendimento da SEF/MG.
 Conteúdo informativo, que não substitui o contador. Prazo de análise, operações do aplicativo e tributação podem mudar: confirme na SEF-MG antes de pedir a nota.
@@ -4702,7 +4727,7 @@ A nota sai no sistema da Fazenda. A venda fica anotada no FINAGRO.
 Grátis até 1.000 animais com ficha, sem cartão, no Android e no navegador.
 Começar grátis
 Perguntas sobre nota fiscal de produtor em MG
-Como emitir nota fiscal de produtor rural em MG?
+Como emitir nota fiscal avulsa de produtor rural em MG?
 Pela internet, no SIARE, o sistema da Secretaria de Estado de Fazenda. O produtor rural pessoa física, com CPF e inscrição estadual, faz login e emite a Nota Fiscal Avulsa Eletrônica. Para hortifrutigranjeiros em saídas internas há também o aplicativo Nota Fiscal Fácil.
 O que é a nota fiscal avulsa de produtor rural em MG?
 É a NFA-e, a Nota Fiscal Avulsa Eletrônica, pedida em formulário eletrônico no SIARE. Sai na hora quando o deferimento é automático, ou depois da análise da Fazenda.
@@ -4739,7 +4764,7 @@ Começar grátisBaixar para Android
 
 ---
 
-## Nota fiscal de produtor rural em SC: como emitir
+## Nota fiscal de produtor rural SC: NFP-e no SAT e no celular
 Endereço: https://finagro.app/nota-fiscal-de-produtor-rural-sc
 
 
@@ -4747,10 +4772,10 @@ FINAGRO
 Guias
 Nota de produtor em SC
 GuiaDinheiro e imposto
-Nota fiscal de produtor rural em SC: NFP-e no SAT ou pelo celular
-Como emitir nota fiscal de produtor rural em Santa Catarina?
-Em Santa Catarina o produtor primário inscrito na Secretaria de Estado da Fazenda emite a NFP-e, a nota fiscal de produtor eletrônica. Ela sai no SAT, o sistema da Fazenda, no Perfil Produtor Primário. A outra opção é o aplicativo Nota Fiscal Fácil, no celular ou no computador, com login gov.br de nível prata ou ouro.
-Atualizado em 09/10/2026
+Nota fiscal de produtor rural SC: a NFP-e no SAT ou pelo celular
+Como emitir a nota fiscal de produtor rural em SC?
+Em Santa Catarina a nota fiscal de produtor rural é a **NFP-e**, a nota fiscal de produtor eletrônica, exigida em todas as operações desde 5 de janeiro de 2026. Ela sai no SAT da Secretaria de Estado da Fazenda, no Perfil Produtor Primário, ou no aplicativo Nota Fiscal Fácil, com login gov.br de nível prata ou ouro.
+Atualizado em 02/11/2026
 Qual é o sistema de emissão em Santa Catarina
 Em Santa Catarina a Fazenda chama o produtor rural de produtor primário. A Secretaria de Estado da Fazenda (SEF-SC) oferece dois caminhos para a nota:
 NFP-e no SAT: a Nota Fiscal de Produtor Eletrônica é emitida dentro do SAT, o Sistema de Administração Tributária da SEF. O acesso é pelo Perfil Produtor Primário, com usuário e senha.
@@ -4780,6 +4805,7 @@ Cadastro de produtor primário ativo: é o primeiro requisito da habilitação n
 Conta gov.br de nível prata ou ouro, ou certificado digital: para se identificar com o CPF do produtor.
 E-mail e telefone: o link para definir a senha do SAT chega por e-mail.
 Antes de abrir a NFP-e, anote quem compra, com CPF ou CNPJ, o produto, a quantidade e o valor. Carga de animais sai com a nota e com a guia de trânsito: confira como emitir GTA. O que é descontado do produtor na venda está no guia do Funrural.
+Depois de autorizada, lance a venda num sistema de gestão rural com o mesmo valor da NFP-e: o fluxo de caixa e o relatório do contador ficam batendo com as notas do mês.
 Onde tirar dúvida em Santa Catarina
 Dúvidas e sugestões vão para a Central de Atendimento Fazendária (CAF), pelo Fale Conosco do site da SEF-SC (sef.sc.gov.br). O próprio aplicativo também tem botão de ajuda. O atendimento presencial da nota de produtor é na Unidade Conveniada da SEF no município. A página do aplicativo traz os manuais do Nota Fiscal Fácil do produtor.
 Informação geral, que não substitui o contador. Perfil no SAT, nível da conta gov.br e operações do aplicativo são regras da SEF-SC: confirme com a Fazenda antes de emitir.
@@ -4801,8 +4827,8 @@ Dá para emitir nota de produtor pelo celular em SC?
 Dá. O Nota Fiscal Fácil é um aplicativo de celular para o produtor primário emitir nota eletrônica de forma simplificada, e tem também versão web para o computador. A SEF-SC exige conta gov.br de nível prata ou ouro.
 Minha esposa ou meu filho pode emitir a nota no meu nome?
 Pode, sem usar a sua senha do gov.br. No Nota Fiscal Fácil, o titular da inscrição entra com a própria conta e autoriza a outra pessoa na tela de cadastro de operadores.
-Onde tirar dúvida sobre nota fiscal de produtor rural em SC?
-Na Central de Atendimento Fazendária, pelo Fale Conosco do site da SEF-SC, no botão de ajuda do aplicativo ou na Unidade Conveniada da SEF no seu município.
+A nota fiscal eletrônica de produtor rural é obrigatória em SC?
+Sim. Venda para outro estado e venda interna de quem teve receita acima de R$ 360 mil em 2023 ou 2024 exigem a NFP-e desde 3 de fevereiro de 2025. As demais operações, desde 5 de janeiro de 2026.
 Fontes
 SEF-SC, Emitir NFP-e, Nota Fiscal de Produtor Eletrônica
 SEF-SC, Habilitar-se para emissão de NFP-e
@@ -5671,7 +5697,7 @@ Começar grátisBaixar para Android
 
 ---
 
-## Quantos hectares tem um alqueire? Calculadora
+## Um alqueire tem quantos hectares? Tabela e calculadora
 Endereço: https://finagro.app/alqueire-em-hectare
 
 
@@ -5679,10 +5705,10 @@ FINAGRO
 Guias
 Alqueire em hectare
 CalculadoraTerra e documentos
-Quantos hectares tem um alqueire? Converta pela região
-Quantos hectares tem um alqueire?
-Depende da região. Um alqueire paulista tem 2,42 hectares; o mineiro e o goiano, 4,84 hectares; o baiano, 9,68 hectares; e o do norte, 2,7225 hectares. Escolha o tipo na calculadora e informe a quantidade. Ela entrega a área em hectares e metros quadrados.
-Atualizado em 08/10/2026
+Um alqueire tem quantos hectares? Converta pela região
+Quantos hectares dá um alqueire?
+Um alqueire paulista tem **2,42 hectares** (24.200 m²); o mineiro e o goiano, **4,84 hectares**; o baiano, 9,68 hectares; e o do norte, 2,7225 hectares. O tamanho muda pela região. Escolha o tipo na calculadora e informe a quantidade: ela entrega a área em hectares e metros quadrados.
+Atualizado em 02/11/2026
 Converta alqueires em hectares
 Tipo de alqueirePaulistaMineiroGoianoBaianoDo norteQuantidade de alqueires
 2,4200hectares
@@ -5719,6 +5745,7 @@ Minas Gerais usa com frequência o mineiro de 4,84 ha.
 Goiás usa o goiano de 4,84 ha.
 Bahia pode usar o baiano de 9,68 ha.
 O nome popular pode mudar dentro do mesmo estado; o documento da área é o que precisa mandar na conta.
+Quando a dúvida é o tamanho real do pasto ou da roça, e não o que diz o papel, um aplicativo para medir área rural pelo GPS mede o contorno em hectares e a conta para alqueire sai daqui.
 A calculadora converte o padrão escolhido, mas não identifica sozinha qual alqueire está no seu papel. Se o documento disser apenas “alqueire”, peça a equivalência em hectares ao cartório ou ao profissional que fez a medição.
 A área da fazenda no FINAGRO
 Meça pastos e talhões pelo GPS do celular e guarde até 100 áreas no plano grátis.
@@ -5735,10 +5762,10 @@ Quantos hectares tem um alqueire mineiro ou goiano?
 Tanto o alqueire mineiro quanto o goiano têm 4,84 hectares, equivalentes a 48.400 metros quadrados.
 Quantos hectares tem um alqueire baiano?
 Um alqueire baiano tem 9,68 hectares, equivalentes a 96.800 metros quadrados.
-Como converter hectares para alqueires?
-Divida os hectares pelo tamanho regional. Para o paulista, divida por 2,42; para mineiro ou goiano, por 4,84; para baiano, por 9,68.
-Por que o alqueire muda de tamanho?
-Alqueire é uma medida tradicional que ganhou padrões diferentes conforme a região. Por isso o tipo precisa acompanhar todo valor em alqueires.
+12 hectares equivalem a quantos alqueires?
+Divida os hectares pelo tamanho regional: 12 ÷ 2,42 dá cerca de 4,96 alqueires paulistas e 12 ÷ 4,84 dá cerca de 2,48 alqueires mineiros ou goianos.
+Quantos hectares são 50 alqueires?
+São 121 hectares no alqueire paulista, 242 hectares no mineiro ou goiano e 484 hectares no baiano. O tipo precisa acompanhar todo valor em alqueires.
 Fontes
 Secretaria da Agricultura do Paraná, glossário de alqueire
 Secretaria Municipal de Educação de Goiânia, unidades de medidas
@@ -5762,7 +5789,7 @@ Começar grátisBaixar para Android
 
 ---
 
-## Aplicativo para medir área rural pelo celular
+## Aplicativo para medir área rural e terreno pelo celular
 Endereço: https://finagro.app/aplicativo-para-medir-area-rural
 
 
@@ -5770,10 +5797,10 @@ FINAGRO
 Guias
 App para medir área
 GuiaTerra e documentos
-Aplicativo para medir área rural pelo GPS do celular
-Como medir uma área de terra pelo celular?
-No FINAGRO, abra Áreas e GPS, permita a localização e escolha entre marcar os pontos do contorno no mapa ou medir caminhando pela borda. Feche o polígono, confira a área e salve. No Android, o GPS mede sem internet; sem mapa baixado, o fundo pode ficar branco.
-Atualizado em 08/10/2026
+Aplicativo para medir área rural: como medir terra pelo celular
+Como medir terra pelo celular?
+Para medir terra pelo celular, abra Áreas e GPS no FINAGRO, permita a localização e marque os cantos no mapa ou caminhe pela borda. Feche o polígono e a área aparece em m², hectares ou km². O plano grátis guarda até 100 áreas e, no Android, o GPS mede sem internet.
+Atualizado em 02/11/2026
 Como o GPS do celular calcula a área
 O sistema global de navegação por satélite, conhecido pela sigla GNSS, calcula a posição do aparelho a partir de sinais de satélites. A Agência Espacial Brasileira informa que são necessários pelo menos quatro satélites visíveis para calcular os primeiros parâmetros da posição.
 O aplicativo junta os pontos de latitude e longitude em volta do pasto ou talhão, fecha um polígono e calcula a superfície dentro dele. No FINAGRO, a área aparece automaticamente em m², ha ou km², conforme o tamanho. Também dá para trocar a unidade depois.
@@ -5801,6 +5828,7 @@ Repita a medição quando o resultado parecer fora da realidade.
 Para que a medição serve e para que não serve
 A área medida no celular ajuda a dividir pasto, estimar lotação, calcular quantidade de insumo pela dose por hectare, separar talhões e comparar custo por hectare. É uma medida prática de manejo e planejamento.
 Ela não substitui georreferenciamento para registro, desmembramento, compra e venda formal ou certificação no Incra. O Incra manda contratar responsável técnico para a demarcação georreferenciada; o profissional precisa estar habilitado em conselho e credenciado no instituto.
+Com a área em hectares, a conversão para as medidas da região sai nos guias de quantos metros tem um hectare, de alqueire em hectare e de tarefa e linha de terra. A área salva também entra no sistema de gestão rural, junto de talhões, safra e custo por hectare.
 Use o aplicativo para tocar a fazenda. Para mexer em matrícula, limite legal ou certificação, contrate profissional habilitado.
 O que a medição do FINAGRO entrega
 Medição por pontos no mapa ou caminhando o contorno com o GPS do celular.
@@ -5897,6 +5925,8 @@ Compras públicas: Programa de Aquisição de Alimentos (PAA) e merenda escolar 
 Biodiesel (PNPB) e beneficiário especial da Previdência Social.
 Cada programa tem requisitos próprios além do CAF. Quem pede o Pronaf, por exemplo, ainda passa pelos requisitos próprios do programa. Veja o guia do Pronaf.
 Este texto é informativo e não substitui contador, advogado nem o atendimento da Rede CAF. Regras do CAF mudam por portaria: confira sempre a versão atual no site do Ministério do Desenvolvimento Agrário.
+Banco e programa público pedem números da produção e da renda. Um sistema de gestão rural grátis organiza vendas e despesas por período, com relatório em PDF ou planilha para levar ao técnico ou ao contador.
+Banco e programa público pedem números da produção e da renda. Um sistema de gestão rural grátis junta receitas, despesas e rebanho num relatório pronto para levar ao técnico ou ao contador.
 Como fica no FINAGRO
 O FINAGRO não emite o CAF nem transmite nada ao Ministério. A inscrição é na Rede CAF; o app guarda os dados e lembra as datas.
 Na ficha da fazenda, marque "Tenho CAF" e guarde número, titular, município e validade. Foto ou PDF do CAF pode ser lido pela IA do app para preencher os campos, que você confere antes de salvar.
@@ -6036,7 +6066,7 @@ Começar grátisBaixar para Android
 
 ---
 
-## CCIR: como emitir o certificado do Incra e pagar a taxa
+## Baixar CCIR: como emitir e pagar o certificado do Incra
 Endereço: https://finagro.app/ccir
 
 
@@ -6044,10 +6074,10 @@ FINAGRO
 Guias
 CCIR: como emitir
 GuiaTerra e documentos
-CCIR: como emitir o Certificado de Cadastro de Imóvel Rural e pagar a taxa
-Como emitir o CCIR do Incra pela internet?
-O CCIR é o certificado do Incra que comprova o cadastro do imóvel rural. Para emitir, entre no site do SNCR, informe o código do imóvel, o CPF ou CNPJ do titular, o estado e o município, e pague a taxa de serviços cadastrais por GRU, cartão ou Pix. Só com a taxa quitada o certificado vale.
-Atualizado em 08/10/2026
+Baixar CCIR: como emitir o certificado do Incra e pagar a taxa
+Como baixar o CCIR do Incra pela internet?
+Para baixar o CCIR, entre no site do SNCR do Incra, informe o código do imóvel, o CPF ou CNPJ do titular, o estado e o município, e pague a taxa de serviços cadastrais por GRU, cartão ou Pix. Depois, use a opção **Baixar CCIR** para salvar o PDF. O CCIR 2026 está liberado desde 19 de maio de 2026.
+Atualizado em 02/11/2026
 O que é o CCIR e para que ele é exigido
 O Certificado de Cadastro de Imóvel Rural, o CCIR, é o documento do Incra que comprova a regularidade cadastral do imóvel rural. Nele constam o titular, a área, a localização, a exploração e a classificação fundiária. Os dados são declarados por você e servem só para o cadastro: o CCIR não prova que a terra é sua.
 É o papel que cartório e banco pedem. Sem ele, o dono não pode desmembrar, arrendar, hipotecar, vender ou prometer em venda o imóvel rural, sob pena de nulidade. Na herança, a partilha, amigável ou judicial, também não é homologada sem o certificado. E o banco o exige na hora do crédito rural.
@@ -6071,6 +6101,8 @@ Vencimento perdido: reemita o CCIR. O sistema atualiza os valores sozinho e voc�
 Débito de anos anteriores: você consegue emitir. O valor soma o débito, com multa e juros, e a taxa vigente.
 Comprovante: guarde o comprovante de pagamento. Ele é a garantia de que o certificado está quitado.
 Cartório e banco conferem a autenticidade do CCIR e a quitação da taxa na Consulta de Autenticidade do Incra. Por isso o certificado só impresso, sem o pagamento, não adianta.
+Para não perder o prazo do ano seguinte, o número, a emissão e a validade do CCIR podem ficar na tela de documentos de um sistema de gestão rural, com aviso antes de vencer.
+Para não perder o prazo do ano seguinte, o número, a emissão e a validade do CCIR podem ficar na tela de documentos de um sistema de gestão rural, com aviso antes de vencer.
 O cadastro está desatualizado: o que fazer
 Se o sistema não deixa emitir, ele costuma mostrar uma destas mensagens. Cada uma tem o seu caminho:
 Mensagem na telaO que significaO que fazer
@@ -6103,8 +6135,8 @@ Começar grátis
 Perguntas sobre o CCIR
 O que é o CCIR?
 É o Certificado de Cadastro de Imóvel Rural, emitido pelo Incra. Comprova que o imóvel está cadastrado e regular no Sistema Nacional de Cadastro Rural, mas não prova que a terra é do titular.
-O CCIR precisa ser emitido todo ano?
-O certificado tem periodicidade anual, e o emitido para um exercício substitui os anteriores. Para vender, arrendar ou pedir crédito, emita o do exercício e pague a taxa.
+Como baixar o CCIR 2026?
+O CCIR 2026 pode ser emitido desde 19 de maio de 2026 no SNCR. O certificado é anual e substitui os anteriores: emita, pague a taxa e use a opção Baixar CCIR para salvar o PDF.
 Posso vender a terra sem o CCIR?
 Não. Sem o certificado, o dono não pode desmembrar, arrendar, hipotecar, vender ou prometer em venda o imóvel rural, sob pena de nulidade. Na herança, a partilha também depende dele.
 Esqueci de pagar a taxa do CCIR, e agora?
@@ -6598,7 +6630,7 @@ Começar grátisBaixar para Android
 
 ---
 
-## Quantos metros tem um hectare? Calcule a área
+## Quantos metros tem um hectare de terra? 10.000 m²
 Endereço: https://finagro.app/quantos-metros-tem-um-hectare
 
 
@@ -6606,10 +6638,10 @@ FINAGRO
 Guias
 Metros por hectare
 CalculadoraTerra e documentos
-Quantos metros tem um hectare de terra? Faça a conta
+Quantos metros tem um hectare de terra? Calcule em m²
 Quantos metros tem um hectare de terra?
-Um hectare tem 10.000 metros quadrados, não 10.000 metros de comprimento. Um quadrado de 100 m por 100 m forma 1 hectare, mas um retângulo de 200 m por 50 m também. Multiplique comprimento por largura para achar os m² e divida por 10.000 para achar os hectares.
-Atualizado em 08/10/2026
+Um hectare (1 ha) tem **10.000 metros quadrados**, não 10.000 metros de comprimento. Um quadrado de 100 m por 100 m forma 1 hectare, mas um retângulo de 200 m por 50 m também. Multiplique comprimento por largura para achar os m² e divida por 10.000 para achar os hectares.
+Atualizado em 02/11/2026
 Calcule os hectares do terreno
 Comprimento do terreno (m)Largura do terreno (m)
 10.000,00metros quadrados
@@ -6645,6 +6677,7 @@ Conversão: m² ÷ 10.000 = ha; m² ÷ 100 = a.
 Para passar de hectare para m², faça o contrário: multiplique por 10.000. Uma área de 7,5 ha tem 7,5 × 10.000 = 75.000 m².
 E quando o terreno não é retangular
 Terreno irregular não cabe bem em uma conta de comprimento por largura. Uma saída é separar o desenho em retângulos e triângulos, calcular cada pedaço e somar. Outra é percorrer o limite com o GPS do celular para formar um polígono.
+Para não depender de trena em área grande, um aplicativo para medir área rural pelo GPS fecha o contorno no celular e já mostra o resultado em m² e em hectares.
 A medição pelo celular serve para planejar pasto, talhão, semente, adubo e custo por hectare. Para registro, desmembramento ou certificação no Incra, é outro serviço: entra o levantamento de um profissional habilitado.
 Hectares organizados no FINAGRO
 Meça a área por GPS no celular e salve até 100 áreas no plano grátis.
@@ -6655,8 +6688,8 @@ Do contorno do talhão ao custo por hectare.
 Meça, salve e use a área na gestão da lavoura pelo FINAGRO.
 Começar grátis
 Perguntas sobre hectare e metros
-Um hectare tem quantos metros quadrados?
-Um hectare tem 10.000 metros quadrados. A forma mais conhecida é um quadrado de 100 metros por 100 metros.
+1 hectare tem quantos metros?
+1 hectare tem 10.000 metros quadrados. Em forma de quadrado, cada lado mede 100 metros e a volta inteira soma 400 metros.
 Um terreno de 50 por 100 metros tem quantos hectares?
 Ele tem 5.000 metros quadrados. Dividindo por 10.000, o resultado é 0,5 hectare.
 Como passar metros quadrados para hectare?
@@ -6744,6 +6777,8 @@ Código Florestal. A Lei 12.651/2012 usa o módulo fiscal em vários pontos: ben
 Cartório. A Lei de Registros Públicos garante isenção de custos na identificação georreferenciada ao dono de imóveis rurais que, somados, não passam de quatro módulos fiscais.
 O conceito nasceu numa lei que tratava do imposto sobre a terra. A conta do imposto de hoje está no guia do ITR.
 Este texto é informativo e não substitui advogado, contador nem técnico. O valor do módulo fiscal é do Incra: confira o do seu município na fonte antes de assinar contrato, pedir crédito ou fazer cadastro.
+A área da fazenda, os talhões e o custo por hectare ficam mais fáceis de acompanhar num sistema de gestão rural, que guarda a medição e os gastos de cada pedaço da propriedade.
+A área da fazenda, os talhões e o custo por hectare ficam mais fáceis de acompanhar num sistema de gestão rural, que guarda a medição e os gastos de cada pedaço da propriedade.
 A área da fazenda no FINAGRO
 O FINAGRO não classifica o imóvel nem altera cadastro no Incra. A classificação oficial vem no CCIR; o app organiza a área e os papéis em volta dela.
 Cada fazenda tem a área declarada na ficha, e as áreas medidas por GPS no celular ficam ligadas a ela (100 áreas no plano grátis).
@@ -6896,7 +6931,7 @@ Começar grátisBaixar para Android
 
 ---
 
-## Tarefa de terra e linha: como cubar e converter
+## Linha e tarefa de terra: quantos metros tem cada uma
 Endereço: https://finagro.app/tarefa-e-linha-de-terra
 
 
@@ -6904,23 +6939,25 @@ FINAGRO
 Guias
 Tarefa e linha de terra
 GuiaTerra e documentos
-Tarefa e linha de terra: como cubar sem errar a medida
-Quantas tarefas tem um hectare de terra?
-Depende do tamanho de tarefa usado no município. Com a tarefa de 3.025 m², 1 hectare tem cerca de 3,31 tarefas. Com a tarefa baiana de 4.356 m², tem cerca de 2,30. Antes de converter tarefa ou linha, confirme a equivalência no cartório ou no sindicato rural.
-Atualizado em 08/10/2026
+Linha e tarefa de terra: quantos metros tem e como cubar
+Quantos metros é uma linha de terra?
+Pela tabela de medidas agrárias do Ipea, uma **linha de terra** mede 25 por 25 braças, ou 55 m por 55 m: **3.025 m²**, cerca de 0,30 hectare, no Maranhão, Piauí e Pernambuco. A tarefa comum tem o mesmo tamanho. A tarefa baiana tem 4.356 m² e a cearense, 3.630 m². Confirme o padrão do município.
+Atualizado em 02/11/2026
 Tarefa e linha não têm um tamanho único
 Tarefa, linha, braça e quadra são nomes tradicionais usados para cubar terra. O problema é que o mesmo nome pode representar áreas diferentes. A própria tabela do Censo Agropecuário do IBGE registra tarefa com 3.025 m², tarefa com 3.630 m² e tarefa baiana com 4.356 m².
-Linha é usada em partes do Maranhão e do Piauí, mas não foi localizado um valor oficial único e acessível que pudesse sustentar uma conversão para os dois estados. Por isso este guia não fixa “uma linha = tantos metros”. Peça a equivalência local em m² ou hectares.
+Linha é usada no Maranhão, no Piauí e em Pernambuco. A tabela de medidas agrárias não decimais do Ipea dá a linha como 25 por 25 braças, ou 55 m por 55 m, o que soma 3.025 m². A meia linha, registrada no Maranhão, tem 12,5 por 25 braças, ou 27,5 m por 55 m: 1.512,5 m². Mesmo assim, peça a equivalência local em m² antes de fechar negócio.
 Para escritura, arrendamento, compra, venda ou herança, use a medida do documento e confirme no cartório ou no sindicato rural.
 Medidas que têm fonte oficial conferida
 Nome usadoMetros quadradosHectares
+Linha (MA, PI, PE)3.025 m²0,3025 ha
+Meia linha (MA)1.512,5 m²0,1513 ha
 Tarefa3.025 m²0,3025 ha
 Tarefa3.630 m²0,3630 ha
 Tarefa baiana4.356 m²0,4356 ha
 Tarefa cearense citada3.025 m²0,3025 ha
 Quadra, tipo 1948 m²0,0948 ha
 Quadra, tipo 21.250 m²0,1250 ha
-Tarefas e quadras da tabela de unidades do IBGE; uso cearense documentado no Acervo de Fortaleza.
+Linha e meia linha da tabela de medidas agrárias do Ipea; tarefas e quadras da tabela de unidades do IBGE; uso cearense documentado no Acervo de Fortaleza.
 Uma braça linear aparece como 2,2 m na referência do Conselho Regional de Corretores de Imóveis de Santa Catarina. Quando a medida é “25 braças em quadro”, são 25 braças de um lado e 25 do outro. Ainda assim, confira qual braça foi usada no papel antigo.
 Os nomes tarefa sergipana e tarefa alagoana aparecem no uso local, mas o valor não entrou nesta página sem uma fonte oficial acessível pelo portão. Não é seguro copiar um número de tabela comercial e tratar como padrão estadual.
 Como cubar uma tarefa ou linha de terra
@@ -6947,6 +6984,7 @@ Abra a medição por GPS e vá para um ponto do contorno.
 Marque os cantos ou caminhe pela borda até voltar perto do início.
 Feche o polígono e anote o resultado em m² e hectares.
 Só depois converta para tarefa ou linha usando a equivalência do município.
+Para não depender de trena, um aplicativo para medir área rural pelo GPS dá a área em m² e hectares, e a conversão para tarefa ou linha sai com a tabela desta página.
 O celular ajuda no planejamento da lida, mas a conversão regional continua dependendo do padrão local. Se o vizinho chama 3.025 m² de uma tarefa e o documento usa outro tamanho, é o documento que precisa ser esclarecido.
 A medição da terra no FINAGRO
 Meça o contorno por GPS no celular e salve até 100 áreas no plano grátis.
@@ -6957,17 +6995,18 @@ Cube a área no campo e leve o hectare para a gestão.
 O FINAGRO mede pelo GPS e organiza talhões, safra e custo por hectare.
 Começar grátis
 Perguntas sobre tarefa e linha de terra
-Quantos metros quadrados tem uma tarefa de terra?
-O IBGE registra mais de um tamanho: 3.025 m², 3.630 m² e tarefa baiana de 4.356 m². Confirme qual vale no município.
+Qual o tamanho de uma tarefa de terra?
+O IBGE registra mais de um tamanho: 3.025 m², que é 55 m por 55 m, 3.630 m² e a tarefa baiana de 4.356 m². Confirme qual vale no município.
 Quantas tarefas de 3.025 m² tem um hectare?
 Um hectare dividido por 3.025 m² dá cerca de 3,31 tarefas. O resultado muda quando a tarefa local tem outro tamanho.
 Quanto mede uma linha de terra no Maranhão ou Piauí?
-Não há um tamanho único seguro para os dois estados. Peça a equivalência em metros quadrados no cartório ou no sindicato rural do município.
+Pela tabela do Ipea, a linha tem 25 por 25 braças, ou 55 m por 55 m, somando 3.025 m², cerca de 0,30 hectare. Um hectare tem aproximadamente 3,3 linhas. Confirme o padrão no cartório do município.
 O que significa cubar uma terra?
 Significa medir as dimensões e calcular a área. Em terreno retangular, multiplique comprimento por largura; em área irregular, divida em partes ou use GPS.
 Posso usar a medição do celular na escritura?
 Use o celular para planejamento. Medição para registro, divisão ou certificação exige o procedimento e o profissional aceitos pelo cartório e pelo Incra.
 Fontes
+Ipea, tabela de medidas agrárias não decimais
 IBGE, Manual do Recenseador do Censo Agropecuário 2006, unidades de superfície
 Acervo da Prefeitura de Fortaleza, medidas agrárias usadas no Ceará
 CRECI-SC, informações úteis sobre medidas

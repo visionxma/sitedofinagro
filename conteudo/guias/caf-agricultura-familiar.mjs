@@ -100,6 +100,8 @@ export default {
       { ul: ['**Pronaf**, o crédito rural da agricultura familiar.', '**Assistência técnica e extensão rural** (ATER).', '**Seguro da Agricultura Familiar** e **Garantia-Safra**.', '**Preços mínimos** (PGPM e PGPAF).', '**Compras públicas**: Programa de Aquisição de Alimentos (PAA) e merenda escolar (PNAE).', '**Biodiesel** (PNPB) e **beneficiário especial da Previdência Social**.'] },
       { p: 'Cada programa tem requisitos próprios além do CAF. Quem pede o Pronaf, por exemplo, ainda passa pelos requisitos próprios do programa. Veja o guia do [Pronaf](/pronaf).' },
       { destaque: 'Este texto é informativo e não substitui contador, advogado nem o atendimento da Rede CAF. Regras do CAF mudam por portaria: confira sempre a versão atual no site do Ministério do Desenvolvimento Agrário.' },
+      { p: 'Banco e programa público pedem números da produção e da renda. Um [sistema de gestão rural](/software-de-gestao-rural) grátis organiza vendas e despesas por período, com relatório em PDF ou planilha para levar ao técnico ou ao contador.' },
+      { p: 'Banco e programa público pedem números da produção e da renda. Um [sistema de gestão rural](/software-de-gestao-rural) grátis junta receitas, despesas e rebanho num relatório pronto para levar ao técnico ou ao contador.' },
     ] },
   ],
   noFinagro: { h2: 'Como fica no FINAGRO', itens: [

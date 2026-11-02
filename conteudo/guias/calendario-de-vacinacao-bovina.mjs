@@ -107,6 +107,8 @@ export default {
       { p: 'Clostridioses, botulismo, leptospirose, IBR e BVD não têm obrigação nacional. A Embrapa Gado de Corte publica um cronograma de referência: carbúnculo sintomático com a 1ª dose aos 4 a 6 meses e a 2ª seis meses depois; botulismo com a 1ª dose no 4º mês, a 2ª 40 dias depois, repetindo todo ano; IBR e BVD nas vacas 60 dias antes da monta; leptospirose conforme o sorotipo da região.' },
       { p: 'A própria Embrapa diz que o cronograma deve ser acompanhado com um médico-veterinário, que adapta ao sistema de produção de cada propriedade. A região, o histórico de doença e o tipo de criação mudam o calendário.' },
       { destaque: 'A obrigação e o prazo são da defesa agropecuária do seu estado, e mudam. Este texto é informativo e não substitui o veterinário nem a defesa agropecuária: confirme a regra local antes de vacinar ou de marcar o embarque.' },
+      { p: 'Para não esquecer a próxima dose, um [aplicativo para controle de gado](/aplicativo-para-controle-de-gado) registra a vacina de cada animal ou lote, com a data, e lista o que está para vencer.' },
+      { p: 'Para não esquecer a próxima dose, um [aplicativo para controle de gado](/aplicativo-para-controle-de-gado) registra a vacina de cada animal ou lote e avisa antes da data marcada.' },
     ] },
   ],
   noFinagro: { h2: 'Controle de vacinas no FINAGRO', itens: [

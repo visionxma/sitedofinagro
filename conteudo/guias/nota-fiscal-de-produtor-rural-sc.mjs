@@ -31,13 +31,13 @@ export default {
   tipo: "guia",
   curto: "Nota de produtor em SC",
   resumo: "NFP-e no SAT e Nota Fiscal Fácil: como emitir em SC.",
-  title: "Nota fiscal de produtor rural em SC: como emitir",
-  description: "Como emitir nota fiscal de produtor rural em Santa Catarina: a NFP-e sai no SAT da Fazenda e o Nota Fiscal Fácil emite pelo celular. Veja o passo a passo.",
-  h1: "Nota fiscal de produtor rural em SC: NFP-e no SAT ou pelo celular",
-  pergunta: "Como emitir nota fiscal de produtor rural em Santa Catarina?",
-  resposta: "Em Santa Catarina o produtor primário inscrito na Secretaria de Estado da Fazenda emite a NFP-e, a nota fiscal de produtor eletrônica. Ela sai no SAT, o sistema da Fazenda, no Perfil Produtor Primário. A outra opção é o aplicativo Nota Fiscal Fácil, no celular ou no computador, com login gov.br de nível prata ou ouro.",
+  title: "Nota fiscal de produtor rural SC: NFP-e no SAT e no celular",
+  description: "Em SC, a nota fiscal de produtor rural é a NFP-e, obrigatória para todos desde 5/1/2026. Emita no SAT da Fazenda ou no app Nota Fiscal Fácil.",
+  h1: "Nota fiscal de produtor rural SC: a NFP-e no SAT ou pelo celular",
+  pergunta: "Como emitir a nota fiscal de produtor rural em SC?",
+  resposta: "Em Santa Catarina a nota fiscal de produtor rural é a **NFP-e**, a nota fiscal de produtor eletrônica, exigida em todas as operações desde 5 de janeiro de 2026. Ela sai no SAT da Secretaria de Estado da Fazenda, no Perfil Produtor Primário, ou no aplicativo Nota Fiscal Fácil, com login gov.br de nível prata ou ouro.",
   tela: "fluxo",
-  atualizado: "2026-10-09",
+  atualizado: "2026-11-02",
   secoes: [
     { h2: "Qual é o sistema de emissão em Santa Catarina", blocos: [
       {"p":"Em Santa Catarina a Fazenda chama o produtor rural de **produtor primário**. A Secretaria de Estado da Fazenda (SEF-SC) oferece dois caminhos para a nota:"},
@@ -59,6 +59,7 @@ export default {
       {"p":"Em Santa Catarina o cadastro é o de Produtores Primários (CPP), e o pedido é na SEF-SC. Quem ainda não tem cadastro para emitir a nota eletrônica pode procurar uma das unidades conveniadas da SEF/SC no município, com a documentação."},
       {"ul":["**Cadastro de produtor primário ativo:** é o primeiro requisito da habilitação no SAT.","**Conta gov.br de nível prata ou ouro, ou certificado digital:** para se identificar com o CPF do produtor.","**E-mail e telefone:** o link para definir a senha do SAT chega por e-mail."]},
       {"p":"Antes de abrir a NFP-e, anote quem compra, com CPF ou CNPJ, o produto, a quantidade e o valor. Carga de animais sai com a nota e com a guia de trânsito: confira [como emitir GTA](/como-emitir-gta). O que é descontado do produtor na venda está no guia do [Funrural](/funrural)."},
+      {"p":"Depois de autorizada, lance a venda num [sistema de gestão rural](/software-de-gestao-rural) com o mesmo valor da NFP-e: o fluxo de caixa e o relatório do contador ficam batendo com as notas do mês."},
     ] },
     { h2: "Onde tirar dúvida em Santa Catarina", blocos: [
       {"p":"Dúvidas e sugestões vão para a **Central de Atendimento Fazendária (CAF)**, pelo Fale Conosco do site da SEF-SC (sef.sc.gov.br). O próprio aplicativo também tem botão de ajuda. O atendimento presencial da nota de produtor é na Unidade Conveniada da SEF no município. A página do aplicativo traz os manuais do Nota Fiscal Fácil do produtor."},
@@ -79,7 +80,7 @@ export default {
     ["Preciso de certificado digital para emitir a NFP-e em SC?","Não necessariamente. A habilitação no SAT é feita com o CPF do produtor, por certificado digital ou pela conta gov.br de nível ouro ou prata. Também pode ser feita na Unidade Conveniada da SEF no município."],
     ["Dá para emitir nota de produtor pelo celular em SC?","Dá. O Nota Fiscal Fácil é um aplicativo de celular para o produtor primário emitir nota eletrônica de forma simplificada, e tem também versão web para o computador. A SEF-SC exige conta gov.br de nível prata ou ouro."],
     ["Minha esposa ou meu filho pode emitir a nota no meu nome?","Pode, sem usar a sua senha do gov.br. No Nota Fiscal Fácil, o titular da inscrição entra com a própria conta e autoriza a outra pessoa na tela de cadastro de operadores."],
-    ["Onde tirar dúvida sobre nota fiscal de produtor rural em SC?","Na Central de Atendimento Fazendária, pelo Fale Conosco do site da SEF-SC, no botão de ajuda do aplicativo ou na Unidade Conveniada da SEF no seu município."],
+    ["A nota fiscal eletrônica de produtor rural é obrigatória em SC?","Sim. Venda para outro estado e venda interna de quem teve receita acima de R$ 360 mil em 2023 ou 2024 exigem a NFP-e desde 3 de fevereiro de 2025. As demais operações, desde 5 de janeiro de 2026."],
   ],
   fontes: [
     {"nome":"SEF-SC, Emitir NFP-e, Nota Fiscal de Produtor Eletrônica","url":"https://www.sef.sc.gov.br/servicos/emitir-nfp-e-nota-fiscal-de-produtor-eletronica"},
