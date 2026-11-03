@@ -1,0 +1,161 @@
+/* vestir.css — molde wise-conversor (02/11/2026): a marca FINAGRO sobre a estrutura da Wise.
+   Só vale na rota publicada (o [data-molde] do <main>); a prova no modo origem não carrega este arquivo.
+   O que troca: cor papel por papel (verde-floresta da Wise → --verde-fundo; verde-limão → --verde-luz),
+   a família de letra (Wise Sans → Outfit; Inter → Afacad Flux) e as peças próprias do guia (mx-*).
+   Tamanho de letra, espaçamento e ordem das seções continuam os da Wise. */
+
+/* ---------- cor e letra: os tokens da Wise apontando para os do FINAGRO ---------- */
+.mx-wise-conversor[data-molde] .np-theme-personal {
+  --font-family-regular: var(--f-texto) !important;
+  --font-family-display: var(--f-titulo);
+  --color-forest-green: var(--verde-fundo);
+  --color-bright-green: var(--verde-luz);
+  --color-content-primary: var(--tinta);
+  --color-content-secondary: var(--tinta-2);
+  --color-content-tertiary: var(--tinta-3);
+  --color-content-link: var(--verde-fundo);
+  --color-content-link-hover: #013800;
+  --color-content-link-active: var(--tinta);
+  --color-interactive-primary: var(--verde-fundo);
+  --color-interactive-primary-hover: #013800;
+  --color-interactive-primary-active: var(--tinta);
+  --color-interactive-accent: var(--verde-luz);
+  --color-interactive-accent-hover: #4fd44a;
+  --color-interactive-accent-active: #3cc237;
+  --color-interactive-control: var(--verde-fundo);
+  --color-interactive-control-hover: #013800;
+  --color-interactive-control-active: var(--tinta);
+  --color-interactive-contrast: var(--verde-luz);
+  --color-interactive-neutral: var(--verde-claro);
+  --color-interactive-neutral-hover: #dcefd9;
+  --color-interactive-neutral-active: #cde7c9;
+  --color-border-neutral: rgba(18, 36, 15, .12);
+  --color-border-overlay: rgba(18, 36, 15, .12);
+  --color-background-screen-hover: rgba(1, 75, 0, .08);
+  --color-background-screen-active: rgba(1, 75, 0, .13);
+  --color-background-neutral: rgba(1, 75, 0, .07);
+  --color-background-neutral-hover: rgba(1, 75, 0, .12);
+  --color-background-neutral-active: rgba(1, 75, 0, .17);
+  --color-background-overlay: rgba(1, 75, 0, .07);
+  --color-sentiment-positive: var(--verde);
+  --color-sentiment-positive-primary: var(--verde);
+  --color-sentiment-positive-secondary: var(--verde-claro);
+  font-family: var(--f-texto);
+}
+.mx-wise-conversor[data-molde] .np-theme-personal.np-theme-personal--forest-green {
+  --color-forest-green: var(--verde-fundo);
+  --color-background-screen: var(--verde-fundo);
+  --color-content-primary: var(--verde-luz);
+  --color-content-secondary: #e9f4e8;
+  --color-content-tertiary: #cfe3cc;
+  --color-content-link: var(--verde-luz);
+  --color-content-link-hover: #a9f5a6;
+  --color-content-link-active: #e9f4e8;
+  --color-interactive-primary: var(--verde-luz);
+  --color-interactive-primary-hover: #a9f5a6;
+  --color-interactive-accent: var(--verde-luz);
+  --color-interactive-accent-hover: #8ef08a;
+  --color-interactive-control: var(--verde-fundo);
+  --color-interactive-contrast: var(--verde-fundo);
+  --color-interactive-neutral: rgba(95, 227, 90, .2);
+  --color-border-neutral: rgba(255, 255, 255, .2);
+  --color-border-overlay: rgba(255, 255, 255, .2);
+}
+/* A Wise hifeniza o título (feito para a Wise Sans em inglês); em português ela partia "hec-tare". */
+.mx-wise-conversor[data-molde], .mx-wise-conversor[data-molde] * { hyphens: manual !important; }
+/* Palavra sem espaço (endereço, código) quebra em qualquer ponto em vez de abrir rolagem lateral. */
+.mx-wise-conversor[data-molde] { overflow-wrap: anywhere; }
+.mx-wise-conversor[data-molde] :is(.mw-display-2, .mw-display-3, .mw-display-4, .mw-heading-2) { font-weight: 800; letter-spacing: -.02em; }
+
+/* ---------- herói: cobre a tela, abaixo do cabeçalho fixo do site ---------- */
+.mx-wise-conversor[data-molde] .mx-heroi { min-height: 100svh; padding-top: var(--topo-h); }
+/* fundo de ponta a ponta no PRÓPRIO herói: luz verde reta que desce do topo e se apaga na cor base antes do pé,
+   sem costura com a faixa verde da calculadora logo abaixo */
+.mx-wise-conversor[data-molde] .mx-heroi { background-image: linear-gradient(180deg, rgba(95, 227, 90, .14) 0%, rgba(95, 227, 90, 0) 62%); }
+/* o mosaico da Wise atrás do cartão da calculadora vira o degradê do campo FINAGRO (a foto deles não vai ao ar) */
+.mx-wise-conversor[data-molde] .bg-tapestry-3 { background-image: linear-gradient(115deg, var(--verde-fundo) 0%, var(--verde) 48%, var(--verde-luz) 100%); }
+
+.mx-wise-conversor[data-molde] .mx-migalhas ol { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 0 .5rem; margin: 0 0 .25rem; padding: 0; list-style: none; font-size: 15px; color: var(--color-content-secondary); }
+.mx-wise-conversor[data-molde] .mx-migalhas li { display: inline-flex; align-items: center; gap: .5rem; }
+.mx-wise-conversor[data-molde] .mx-migalhas li + li::before { content: "/"; opacity: .55; }
+.mx-wise-conversor[data-molde] .mx-migalhas a { display: inline-flex; align-items: center; min-height: 44px; color: inherit; text-decoration: underline; text-underline-offset: .25em; text-decoration-color: rgba(233, 244, 232, .45); }
+.mx-wise-conversor[data-molde] .mx-tipo { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: .5rem; margin: 0 0 1.25rem; font-size: 15px; }
+.mx-wise-conversor[data-molde] .mx-tipo span { padding: .25rem .75rem; border-radius: 999px; background: var(--verde-luz); color: var(--verde-fundo); font-weight: 700; }
+.mx-wise-conversor[data-molde] .mx-tipo a { display: inline-flex; align-items: center; min-height: 44px; color: var(--color-content-secondary); text-decoration: underline; text-underline-offset: .25em; }
+.mx-wise-conversor[data-molde] .mx-resposta .resposta__pergunta { margin: 0 0 .5rem; font-family: var(--f-titulo); font-size: clamp(1.125rem, 1rem + .6vw, 1.5rem); font-weight: 700; color: var(--verde-luz); }
+.mx-wise-conversor[data-molde] .mx-resposta p { margin: 0; font-size: clamp(1.0625rem, 1rem + .3vw, 1.25rem); line-height: 1.5; color: var(--color-content-secondary); }
+.mx-wise-conversor[data-molde] .mx-resposta strong { color: #fff; }
+.mx-wise-conversor[data-molde] .mx-data { margin: 1rem 0 0; font-size: 15px; color: var(--color-content-tertiary); }
+
+/* ---------- calculadora ---------- */
+.mx-wise-conversor[data-molde] .mx-calc-titulo { margin: 0; font-family: var(--f-titulo); font-size: 1.25rem; font-weight: 700; color: var(--tinta); }
+.mx-wise-conversor[data-molde] .mx-trocar { display: inline-flex; align-items: center; justify-content: center; width: 48px; height: 48px; padding: 0; border: 0; border-radius: 50%; background: var(--verde-luz); color: var(--verde-fundo); cursor: pointer; transition: transform .18s cubic-bezier(.22, 1, .36, 1), background-color .18s ease-out; }
+.mx-wise-conversor[data-molde] .mx-trocar ._ccCalculator__reverseIcon_lbutx_1 { background: none; width: auto; height: auto; }
+.mx-wise-conversor[data-molde] .mx-trocar svg { display: block; width: 24px; height: 24px; }
+.mx-wise-conversor[data-molde] .mx-trocar:active { transform: scale(.94); }
+@media (hover: hover) and (pointer: fine) { .mx-wise-conversor[data-molde] .mx-trocar:hover { background: #8ef08a; transform: rotate(90deg); } }
+.mx-wise-conversor[data-molde] .mx-saidas { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .5rem; margin-top: 1rem; }
+.mx-wise-conversor[data-molde] .mx-saidas > div { display: grid; gap: .125rem; padding: .75rem .625rem; border-radius: 16px; background: var(--verde-claro); text-align: center; min-width: 0; }
+.mx-wise-conversor[data-molde] .mx-saidas b { font-family: var(--f-titulo); font-size: clamp(1rem, .9rem + .5vw, 1.25rem); font-weight: 700; color: var(--verde-fundo); font-variant-numeric: tabular-nums; }
+.mx-wise-conversor[data-molde] .mx-saidas span { font-size: 14px; color: var(--tinta-2); }
+.mx-wise-conversor[data-molde] .mx-calc-nota { margin: 1rem 0 0; font-size: 16px; line-height: 1.5; color: var(--tinta-2); }
+.mx-wise-conversor[data-molde] .mx-selos { display: flex; flex-wrap: wrap; gap: .5rem; margin: 1rem 0 0; padding: 0; list-style: none; }
+.mx-wise-conversor[data-molde] .mx-selos li { display: inline-flex; align-items: center; gap: .375rem; padding: .375rem .75rem; border-radius: 999px; background: var(--verde-claro); color: var(--verde-fundo); font-size: 14px; font-weight: 600; }
+.mx-wise-conversor[data-molde] .mx-selos li::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--verde); }
+
+/* ---------- siglas no lugar das bandeiras (mesmo círculo, mesmo tamanho) ---------- */
+.mx-wise-conversor[data-molde] .mx-sigla { display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; width: 32px; height: 32px; border-radius: 50%; background: var(--verde-fundo); background-image: none; color: var(--verde-luz); font: 700 11px/1 var(--f-titulo); letter-spacing: -.01em; box-shadow: 0 0 0 2px var(--color-background-screen, #fff); }
+.mx-wise-conversor[data-molde] .currency-flag-container .mx-sigla, .mx-wise-conversor[data-molde] .mx-sigla--grande { width: 48px; height: 48px; font-size: 15px; }
+.mx-wise-conversor[data-molde] ._flexCell_133i7_149 .mx-sigla { width: 24px; height: 24px; font-size: 9px; margin-right: .5rem; }
+.mx-wise-conversor[data-molde] .mx-sigla :is(.tw-icon, svg) { color: inherit; fill: currentColor; }
+.mx-wise-conversor[data-molde] .mx-sigla svg { display: block; width: 20px; height: 20px; }
+/* par de siglas: a segunda encosta na primeira (−2 px, não os −8 da bandeira da Wise: o limão sob o "GPS" dava
+   contraste 1,22 no portão), e o texto da primeira vai para a parte à vista */
+.mx-wise-conversor[data-molde] .mx-sigla:has(+ ._currencyTableTargetFlag_ig5uw_32) { justify-content: flex-start; padding-left: 5px; font-size: 10px; }
+.mx-wise-conversor[data-molde] .mx-sigla--grande svg { width: 24px; height: 24px; }
+.mx-wise-conversor[data-molde] .mx-sigla._currencyTableTargetFlag_ig5uw_32 { background: var(--verde-luz); color: var(--verde-fundo); margin-left: -2px; }
+
+/* ---------- figura do hectare (no lugar do gráfico de câmbio) ---------- */
+.mx-wise-conversor[data-molde] .mx-hectare { display: block; width: 100%; height: auto; color: var(--verde-fundo); }
+.mx-wise-conversor[data-molde] .mx-hectare__area { fill: var(--verde-luz); stroke: var(--verde-fundo); stroke-width: 3; }
+.mx-wise-conversor[data-molde] .mx-hectare__cota { fill: var(--tinta-2); font: 600 30px var(--f-texto); }
+/* o retângulo cresce 1,4× a partir do centro do quadro: no celular a cota e a área continuam legíveis (≈13 px) */
+.mx-wise-conversor[data-molde] .mx-hectare [data-mx-forma] { transform: scale(1.4); transform-origin: 510px 175px; }
+.mx-wise-conversor[data-molde] .mx-hectare__miolo { fill: var(--verde-fundo); font: 800 26px var(--f-titulo); paint-order: stroke; stroke: var(--verde-luz); stroke-width: 6px; }
+.mx-wise-conversor[data-molde] .mx-variacao { display: inline-flex; align-items: center; gap: .375rem; margin-top: .25rem; color: var(--tinta-2); font-weight: 600; }
+.mx-wise-conversor[data-molde] .mx-variacao svg { display: block; width: 20px; height: 20px; color: var(--verde); }
+.mx-wise-conversor[data-molde] .np-chip { min-height: 44px; }
+/* destaque no idioma da Wise: o fundo neutro com raio médio dos avisos deles, nunca borda grossa de um lado só */
+.mx-wise-conversor[data-molde] .mx-destaque { padding: .75rem 1rem; border-radius: var(--radius-medium, 16px); background: var(--color-background-neutral); color: var(--tinta); font-weight: 600; }
+
+/* ---------- passos, celular, QR, relógio ---------- */
+.mx-wise-conversor[data-molde] .mx-passo { font: 800 1.25rem/1 var(--f-titulo); color: var(--verde-fundo); }
+.mx-wise-conversor[data-molde] .mx-palco { position: relative; display: grid; justify-items: center; }
+.mx-wise-conversor[data-molde] .mx-ficha { position: absolute; right: 4%; bottom: 8%; display: grid; gap: .125rem; margin: 0; padding: .875rem 1.125rem; border-radius: 20px; background: var(--verde-fundo); color: #e9f4e8; box-shadow: 0 18px 40px rgba(1, 40, 0, .28); font-size: 15px; }
+.mx-wise-conversor[data-molde] .mx-ficha b { font: 800 clamp(1.5rem, 1.2rem + 1vw, 2.25rem)/1 var(--f-titulo); color: var(--verde-luz); }
+.mx-wise-conversor[data-molde] .mx-qr-link { display: block; line-height: 0; }
+.mx-wise-conversor[data-molde] .mx-qr-link svg { display: block; width: 96px; height: 96px; }
+.mx-wise-conversor[data-molde] .mx-relogio { display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: 50%; background: var(--verde-claro); color: var(--verde-fundo); }
+.mx-wise-conversor[data-molde] .mx-relogio svg { display: block; width: 20px; height: 20px; }
+/* a Wise pinta o círculo no invólucro, que com o rótulo mais longo virava elipse: o círculo fica só no ícone */
+.mx-wise-conversor[data-molde] ._expandButton_11tqj_20 { display: flex; flex-direction: column; align-items: center; gap: .5rem; width: auto; height: auto; background: none; border-radius: 0; }
+.mx-wise-conversor[data-molde] ._expandButtonIcon_11tqj_39 { width: 48px; height: 48px; margin-inline: auto; border-radius: 50%; background: var(--verde-luz); color: var(--verde-fundo); }
+.mx-wise-conversor[data-molde] ._expandButtonIcon_11tqj_39 svg { display: block; width: 24px; height: 24px; }
+
+/* ---------- botões: toque e foco ---------- */
+.mx-wise-conversor[data-molde] .np-btn { min-height: 48px; transition: transform .16s cubic-bezier(.22, 1, .36, 1), background-color .16s ease-out; }
+.mx-wise-conversor[data-molde] .np-btn:active { transform: scale(.98); }
+.mx-wise-conversor[data-molde] :is(a, button, summary):focus-visible { outline: 3px solid var(--verde-luz); outline-offset: 3px; }
+
+/* ---------- teto de vão (120 px no computador, 72 no celular; doutrina, 31/10/2026) ----------
+   A Wise respira 96 px em cima e embaixo de cada .section (48 no celular): entre duas seções o vão chegava a 319 px
+   em 1440 e 175 em 390. No ar, o respiro encolhe; a prova (modo origem) continua com o da Wise. */
+.mx-wise-conversor[data-molde] .section { padding-block: 40px; }
+@media (max-width: 47.99rem) {
+  .mx-wise-conversor[data-molde] .section { padding-block: 24px; }
+}
+
+/* ---------- alvos de toque em 320 (varredura de 02/11): campo, "todas as medidas" e "Leia também" ---------- */
+.mx-wise-conversor[data-molde] .tw-money-input .np-input { min-height: 48px; }
+.mx-wise-conversor[data-molde] ._liveExchangeRatesLink_133i7_239 { display: inline-flex; align-items: center; min-height: 44px; }
+.mx-wise-conversor[data-molde] ._sourceCurrencyText_11tqj_16 { display: inline-flex; align-items: center; min-height: 44px; margin-top: 2px; }

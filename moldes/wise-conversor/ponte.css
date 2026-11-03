@@ -1,0 +1,89 @@
+/* ponte.css — molde wise-conversor (02/11/2026)
+   O que a marcação semântica do guia (details/summary, dl, span de unidade) precisa para vestir a pele da Wise.
+   Vale nos DOIS modos (origem, na prova; vestido, no ar): a Wise usa botão de acordeão do Radix, tabela e
+   botão de moeda; o guia usa <details> (o FAQ visível tem de bater com o JSON-LD), <dl> e um rótulo fixo "m". */
+
+/* O aparelho do chassi (o .celular) volta a ter o estilo da camada do site: o reset do molde o apagava. */
+:where(.mx-wise-conversor .celular, .mx-wise-conversor .celular *, .mx-wise-conversor .celular ::before, .mx-wise-conversor .celular ::after) { all: revert-layer; }
+
+.mx-wise-conversor .mx-heroi { display: block; background-color: var(--color-background-screen); color: var(--color-content-primary); }
+
+/* O reset do escopo (all: revert) apaga a dica de tamanho do atributo width/height: as bandeiras voltam ao tamanho que a Wise declara no HTML. */
+.mx-wise-conversor img.wds-flag[width="48"] { width: 48px; height: 48px; }
+.mx-wise-conversor img.wds-flag[width="32"] { width: 32px; height: 32px; }
+.mx-wise-conversor img.wds-flag[width="24"] { width: 24px; height: 24px; }
+
+/* Topo no celular: na captura renderizada da Wise em 390 o título e o subtítulo fecham com 16 px (medido no
+   pixel: 24 px a menos que o m-b-5 de 40 px que a folha capturada declara); no computador continua 40. */
+@media (max-width: 47.99rem) {
+  .mx-wise-conversor .cc__header .m-b-5 { margin-bottom: 16px !important; }
+  /* blocos de recurso (seções 2 e 4): entre título, subtítulo, lista e botões a Wise deixa 48 px em 390 */
+  .mx-wise-conversor .mw-feature__content { row-gap: 48px; }
+  /* Seção do gráfico: em 390 a Wise renderiza o texto de apoio no corpo grande (o mesmo do subtítulo do topo)
+     e o botão na largura toda; a captura do HTML é a de 1440, por isso a ponte repõe o que o React troca. */
+  .mx-wise-conversor .bg-light .mw-row > p.mw-col-md-8 { font-size: 17.2727px; line-height: 26px; padding-inline: 8px; }
+  .mx-wise-conversor .bg-light .text-xs-center > .btn { display: block; width: 100%; }
+  /* Bloco "Dados de 1 BRL": em 390 o título vem centrado e o texto no corpo grande; os números da tabela também. */
+  .mx-wise-conversor ._content_lgtgp_7 > h2 { text-align: center; }
+  .mx-wise-conversor ._content_lgtgp_7 > p { font-size: 17.2727px; line-height: 26px; }
+  .mx-wise-conversor ._table_94pun_1 tbody td { font-size: 17.2727px; }
+}
+
+/* Gráfico: a linha vazia de legenda sob o canvas (.col-xs-12, flutuante) não é limpa no CSS capturado e
+   empurrava os chips (caixa flex = contexto próprio) para a sobra de 0 px à direita. */
+.mx-wise-conversor .tw-rate-graph .col-xs-12:empty { float: none; }
+
+/* Botão nu da tabela de taxas ("Adicionar moeda"): a Wise zera o <button> numa folha que não veio na captura. */
+.mx-wise-conversor ._controlsContainer_133i7_29 button { appearance: none; background: none; border: 0; padding: 0 0 0 var(--size-8); margin: 0; font: inherit; color: inherit; cursor: pointer; }
+.mx-wise-conversor ._controlsContainer_133i7_29 > .m-r-2 { display: flex; align-items: center; flex-shrink: 0; }
+.mx-wise-conversor ._editButtonContainer_133i7_19 { justify-content: flex-end; }
+.mx-wise-conversor ._controlsContainer_133i7_29 button:not(._addCurrencyButton_133i7_214) {
+  font-weight: 600; text-decoration: underline; text-underline-offset: .35em; text-decoration-thickness: 1px;
+  color: var(--color-interactive-primary); white-space: nowrap;
+}
+.mx-wise-conversor ._controlsContainer_133i7_29 .tw-icon svg { display: block; width: 32px; height: 32px; }
+.mx-wise-conversor ._controlsContainer_133i7_29 { padding-block: var(--size-8); }
+.mx-wise-conversor ._addCurrencyButton_133i7_214 { padding: 0; color: var(--color-interactive-primary); }
+.mx-wise-conversor ._controlsContainer_133i7_29 .tw-icon-edit { color: var(--color-content-secondary); }
+
+/* FAQ: o <details> com a cara do .eds-basic-accordion-trigger + .eds-basic-accordion-icon */
+.mx-wise-conversor .eds-basic-accordion-item details { margin: 0; }
+.mx-wise-conversor .eds-basic-accordion-item summary {
+  list-style: none; display: flex; align-items: center; justify-content: space-between; width: 100%;
+  min-height: 48px; padding-block: var(--eds-space-4); cursor: pointer;
+  color: var(--color-content-primary); font-size: var(--font-size-18); font-weight: var(--font-weight-semi-bold, 600);
+  letter-spacing: -.018em; line-height: 125%; text-align: left;
+}
+.mx-wise-conversor .eds-basic-accordion-item summary::-webkit-details-marker { display: none; }
+.mx-wise-conversor .eds-basic-accordion-item summary::after {
+  content: ""; align-self: flex-start; flex-shrink: 0; width: 48px; height: 48px; margin-inline-start: var(--eds-space-4);
+  border-radius: 50%; background-color: var(--color-background-neutral);
+  background-image: linear-gradient(var(--color-interactive-primary), var(--color-interactive-primary)), linear-gradient(var(--color-interactive-primary), var(--color-interactive-primary));
+  background-size: 20px 2px, 2px 20px; background-position: center; background-repeat: no-repeat;
+  transition: transform .3s cubic-bezier(.175, .885, .32, 1.275), background-color .2s ease-out;
+}
+@media (hover: hover) and (pointer: fine) {
+  .mx-wise-conversor .eds-basic-accordion-item summary:hover::after { background-color: var(--color-background-neutral-hover); }
+}
+.mx-wise-conversor .eds-basic-accordion-item details[open] > summary::after {
+  transform: rotate(-45deg); background-color: var(--color-interactive-accent);
+  background-image: linear-gradient(var(--color-interactive-control), var(--color-interactive-control)), linear-gradient(var(--color-interactive-control), var(--color-interactive-control));
+}
+.mx-wise-conversor .eds-basic-accordion-item details > p {
+  margin: 0; padding-block-end: var(--eds-space-4); max-width: calc(100% * 8 / 12);
+  font-size: var(--font-size-18); color: var(--color-content-secondary); line-height: 1.5;
+}
+@media (prefers-reduced-motion: reduce) {
+  .mx-wise-conversor .eds-basic-accordion-item summary::after { transition: none; }
+}
+
+/* Unidade fixa ("m") no lugar do seletor de moeda: mesmo botão, sem a seta e sem clique. */
+.mx-wise-conversor .mx-unidade { display: flex; align-items: center; cursor: default; }
+
+/* Glossário: <dl> com a cara do ._table_94pun_1 (cabeça verde-escura, linhas com fio). */
+.mx-wise-conversor .mx-glossario { display: grid; grid-template-columns: minmax(0, 1fr); width: 100%; max-width: 970px; margin: auto; border-radius: var(--size-24); overflow: clip; background: var(--color-background-screen, #fff); }
+.mx-wise-conversor .mx-glossario > div { display: grid; grid-template-columns: minmax(6.5rem, .38fr) minmax(0, 1fr); gap: 0 var(--size-24); padding: var(--size-24) var(--size-32); border-top: 1px solid var(--color-border-overlay); }
+.mx-wise-conversor .mx-glossario > .mx-glossario__cab { border-top: 0; font-size: 14px; font-weight: 600; background-color: var(--color-forest-green); color: var(--color-white); }
+.mx-wise-conversor .mx-glossario dt { color: var(--color-content-tertiary); font-weight: 600; }
+.mx-wise-conversor .mx-glossario dd { margin: 0; color: var(--color-content-primary); }
+.mx-wise-conversor .mx-glossario > ._ctaRow_94pun_67 { display: flex; justify-content: center; padding: var(--size-16) var(--size-16) var(--size-24); }

@@ -1,0 +1,7 @@
+{
+  "dominio": "finagro.app",
+  "exigir": ["/quantos-metros-tem-um-hectare"],
+  "rotas": {
+    "/quantos-metros-tem-um-hectare": { "molde": "wise-conversor", "referencia": "https://wise.com/br/currency-converter/", "pasta": "moldes/wise-conversor" }
+  }
+}

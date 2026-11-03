@@ -77,27 +77,39 @@ ${t.linhas.map((l) => `<tr><th scope="row">${rico(l[0])}</th>${l.slice(1).map((c
 </tbody></table></div>${t.nota ? `\n<p class="tabela__nota">${rico(t.nota)}</p>` : ''}`;
 }
 
-function calculadora(c, slug) {
-  const p = `c-${slug.slice(0, 18)}`;
-  const dia = (t) => Math.round(Date.parse((t === 'hoje' ? new Date().toISOString().slice(0, 10) : t) + 'T00:00:00Z') / 864e5);
-  const campo = (f) => f.tipo === 'data'
-    ? `<div class="campo"><label for="${p}-${f.id}">${esc(f.rotulo)}</label><input id="${p}-${f.id}" data-campo="${f.id}" data-tipo="data" type="date" value="${f.valor === 'hoje' ? '' : esc(f.valor)}"${f.valor === 'hoje' ? ' data-hoje' : ''}></div>`
+// Peças da calculadora, separadas para o molde por rota (moldes/<nome>/molde.mjs) vestir a MESMA conta com o
+// desenho da referência: o controle (input/select com data-campo), o número inicial de cada saída e o script.
+// O script só depende de [data-calc], [data-campo] e [data-saida]; o desenho em volta é livre.
+const diaDe = (t) => Math.round(Date.parse((t === 'hoje' ? new Date().toISOString().slice(0, 10) : t) + 'T00:00:00Z') / 864e5);
+function controleCalc(f, p, extra = '') {
+  return f.tipo === 'data'
+    ? `<input id="${p}-${f.id}" data-campo="${f.id}" data-tipo="data" type="date" value="${f.valor === 'hoje' ? '' : esc(f.valor)}"${f.valor === 'hoje' ? ' data-hoje' : ''}${extra}>`
     : f.opcoes
-    ? `<div class="campo"><label for="${p}-${f.id}">${esc(f.rotulo)}</label><select id="${p}-${f.id}" data-campo="${f.id}">${f.opcoes.map(([v, r]) => `<option value="${esc(v)}"${String(v) === String(f.valor) ? ' selected' : ''}>${esc(r)}</option>`).join('')}</select></div>`
-    : `<div class="campo"><label for="${p}-${f.id}">${esc(f.rotulo)}</label><input id="${p}-${f.id}" data-campo="${f.id}" type="number" inputmode="decimal" min="${f.min ?? 0}"${f.max != null ? ` max="${f.max}"` : ''} step="${f.passo ?? 'any'}" value="${f.valor}"></div>`;
-  const ini = Object.fromEntries(c.campos.map((f) => [f.id, f.tipo === 'data' ? dia(f.valor) : f.opcoes ? (isNaN(Number(f.valor)) ? f.valor : Number(f.valor)) : Number(f.valor)]));
+    ? `<select id="${p}-${f.id}" data-campo="${f.id}"${extra}>${f.opcoes.map(([v, r]) => `<option value="${esc(v)}"${String(v) === String(f.valor) ? ' selected' : ''}>${esc(r)}</option>`).join('')}</select>`
+    : `<input id="${p}-${f.id}" data-campo="${f.id}" type="number" inputmode="decimal" min="${f.min ?? 0}"${f.max != null ? ` max="${f.max}"` : ''} step="${f.passo ?? 'any'}" value="${f.valor}"${extra}>`;
+}
+function saidasCalc(c) {
+  const ini = Object.fromEntries(c.campos.map((f) => [f.id, f.tipo === 'data' ? diaDe(f.valor) : f.opcoes ? (isNaN(Number(f.valor)) ? f.valor : Number(f.valor)) : Number(f.valor)]));
   const r0 = c.calcular(ini);
   const fmt = (v, s) => (!Number.isFinite(v) ? '–' : s.formato === 'data' ? new Date(v * 864e5).toLocaleDateString('pt-BR', { timeZone: 'UTC' })
     : (s.prefixo || '') + v.toLocaleString('pt-BR', { minimumFractionDigits: s.casas ?? 2, maximumFractionDigits: s.casas ?? 2 }));
+  return c.saidas.map((s) => ({ ...s, inicial: fmt(r0[s.id], s), atributos: `data-saida="${s.id}" data-casas="${s.casas ?? 2}" data-prefixo="${esc(s.prefixo || '')}"${s.formato === 'data' ? ' data-formato="data"' : ''}` }));
+}
+function calculadora(c, slug) {
+  const p = `c-${slug.slice(0, 18)}`;
+  const campo = (f) => `<div class="campo"><label for="${p}-${f.id}">${esc(f.rotulo)}</label>${controleCalc(f, p)}</div>`;
   return `<h2 id="calculadora">${esc(c.titulo)}</h2>
 <div class="calc calc--auto" role="group" aria-labelledby="calculadora" data-calc>
   <div class="calc__campos calc__campos--auto">${c.campos.map(campo).join('')}</div>
   <div class="calc__saida calc__saida--n${c.saidas.length}" aria-live="polite">
-    ${c.saidas.map((s) => `<div><b data-saida="${s.id}" data-casas="${s.casas ?? 2}" data-prefixo="${esc(s.prefixo || '')}"${s.formato === 'data' ? ' data-formato="data"' : ''}>${esc(fmt(r0[s.id], s))}</b><span>${esc(s.rotulo)}</span></div>`).join('\n    ')}
+    ${saidasCalc(c).map((s) => `<div><b ${s.atributos}>${esc(s.inicial)}</b><span>${esc(s.rotulo)}</span></div>`).join('\n    ')}
   </div>
   ${c.nota ? `<p class="calc__nota">${rico(c.nota)}</p>` : ''}
 </div>
-<script>
+${scriptCalc(c)}`;
+}
+function scriptCalc(c) {
+  return `<script>
 (() => {
   const calcular = ${c.calcular.toString()};
   const caixa = document.querySelector('[data-calc]');
@@ -208,9 +220,8 @@ function bloco(b) {
   throw new Error(`bloco desconhecido: ${t}`);
 }
 
-function pagina(g, mapa) {
-  const temModelo = g.secoes.some((s) => s.blocos.some((b) => b.modelo));
-  const data = (g.atualizado || mapa.ATUALIZADO).split('-').reverse().join('/');
+// Ligações de um guia: "Veja também" (relacionados), a família por estado e 5 do mesmo assunto, em roda.
+function relacoes(g, mapa) {
   const veja = g.relacionados.map((s) => mapa.todos.get(s)).filter(Boolean);
   // Do mesmo assunto: as 5 páginas seguintes do grupo, em roda. Sem isso, guia novo só recebia ligação do índice
   // (em 09/10/2026, 11 páginas só eram alcançadas por /guias e pelo mapa do site).
@@ -222,7 +233,14 @@ function pagina(g, mapa) {
   const estados = [...mapa.todos.values()].filter((x) => x.slug !== g.slug && UF.test(x.slug) && x.slug.replace(UF, '') === base);
   const vizinhos = [];
   for (let k = 1; k < doGrupo.length && vizinhos.length < 5; k++) { const v = doGrupo[(eu + k) % doGrupo.length]; if (v.slug !== g.slug && !veja.some((x) => x.slug === v.slug) && !estados.some((x) => x.slug === v.slug)) vizinhos.push(v); }
-  const lista = (itens) => itens.map((x, k) => (k === 0 ? '' : k === itens.length - 1 ? ' e ' : ', ') + x).join('');
+  return { veja, estados, vizinhos, base };
+}
+
+// Cabeça e abertura do <body> de todo guia (o gerador preenche cabeça, topo, rodapé e JSON-LD nos blocos gerados).
+// `estilos` troca a folha do miolo: o molde por rota leva a dele no lugar de /assets/artigo.css.
+// `op.chassiEmCamada`: o /styles.css entra em `@layer chassi`, e o CSS do molde (fora de camada) vence o do chassi
+// dentro do <main> sem disputa de especificidade; o cabeçalho e o rodapé continuam com o desenho de sempre.
+function abrirPagina(g, mapa, estilos = ['/assets/artigo.css'], op = {}) {
   return `<!doctype html>
 <html lang="pt-BR">
 <head>
@@ -237,8 +255,8 @@ function pagina(g, mapa) {
 <!--/gerado:cabeca-->
 <link rel="preload" href="/assets/fontes/outfit-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fontes/afacad-flux-latin.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/styles.css">
-<link rel="stylesheet" href="/assets/artigo.css">
+${op.chassiEmCamada ? '<link rel="preload" href="/styles.css" as="style">\n<style>@import url("/styles.css") layer(chassi);</style>' : '<link rel="stylesheet" href="/styles.css">'}
+${estilos.map((e) => `<link rel="stylesheet" href="${e}">`).join('\n')}
 <script>document.documentElement.classList.add('js');</script>
 </head>
 <body>
@@ -246,7 +264,51 @@ function pagina(g, mapa) {
 <svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="i-seta" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol></svg>
 <!--gerado:topo-->
 <!--/gerado:topo-->
-<main id="conteudo" class="casca artigo-pagina">
+`;
+}
+function fecharPagina(g, scripts = '') {
+  const temModelo = g.secoes.some((s) => s.blocos.some((b) => b.modelo));
+  return `<!--gerado:rodape-->
+<!--/gerado:rodape-->
+<!--gerado:jsonld-->
+<!--/gerado:jsonld-->${temModelo ? '\n' + SCRIPT_MODELO : ''}${scripts}
+<script src="/script.js" defer></script>
+</body>
+</html>
+`;
+}
+// As seções do texto na ordem da página, com a do app ("no FINAGRO") no lugar de `noFinagro.depoisDe`.
+function secoesDoGuia(g) {
+  const l = g.secoes.map((s) => ({ id: id(s.h2), h2: s.h2, blocos: s.blocos }));
+  l.splice(Number.isInteger(g.noFinagro.depoisDe) ? g.noFinagro.depoisDe : l.length, 0, { id: 'no-finagro', h2: g.noFinagro.h2, app: g.noFinagro.itens });
+  return l;
+}
+const dataDoGuia = (g, mapa) => (g.atualizado || mapa.ATUALIZADO).split('-').reverse().join('/');
+
+// O que o molde por rota recebe: o conteúdo inteiro do guia já pronto em peças, e as mesmas funções de texto.
+// O molde só decide o DESENHO; nada de texto, link, FAQ ou conta nasce nele (o portão de SEO compara com o antigo).
+function kitDoMolde(g, mapa, nome) {
+  const r = relacoes(g, mapa);
+  return {
+    g, nome, SITE: mapa.SITE, APP, PLAY, TIPOS, GRUPOS, TELAS, esc, rico, id, seta, celular, tabela, bloco,
+    data: dataDoGuia(g, mapa), secoes: secoesDoGuia(g), ...r,
+    calc: g.calc ? { prefixo: `c-${g.slug.slice(0, 18)}`, campos: g.calc.campos, controle: (f, extra) => controleCalc(f, `c-${g.slug.slice(0, 18)}`, extra), saidas: saidasCalc(g.calc), script: scriptCalc(g.calc) } : null,
+    // O par pergunta/resposta do topo vai SEMPRE nesta forma: o gerador lê dele a 1ª pergunta do FAQPage.
+    resposta: (classe = 'resposta') => `<div class="${classe}"><h2 class="resposta__pergunta">${esc(g.pergunta)}</h2><p>${rico(g.resposta)}</p></div>`,
+    // FAQ: <details><summary>…</summary><p>…</p></details>, a forma que o gerador lê para o JSON-LD (visível = dado).
+    faq: (nomeGrupo = 'faq', classe = '') => g.faq.map(([q, a]) => `<details name="${nomeGrupo}"${classe ? ` class="${classe}"` : ''}><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`),
+    abrir: (estilos, op) => abrirPagina(g, mapa, estilos, op),
+    fechar: (scripts) => fecharPagina(g, scripts),
+  };
+}
+
+function pagina(g, mapa) {
+  const molde = mapa.moldes && mapa.moldes.get(g.slug);
+  if (molde) return molde.render(kitDoMolde(g, mapa, molde.nome));
+  const data = dataDoGuia(g, mapa);
+  const { veja, estados, vizinhos, base } = relacoes(g, mapa);
+  const lista = (itens) => itens.map((x, k) => (k === 0 ? '' : k === itens.length - 1 ? ' e ' : ', ') + x).join('');
+  return abrirPagina(g, mapa) + `<main id="conteudo" class="casca artigo-pagina">
   <nav class="migalhas" aria-label="Você está em"><ol><li><a href="/">FINAGRO</a></li><li><a href="/guias">Guias</a></li><li aria-current="page">${esc(g.curto)}</li></ol></nav>
   <article class="artigo">
     <div class="artigo__topo">
@@ -288,14 +350,7 @@ ${g.faq.map(([q, a]) => `        <details name="faq"><summary>${esc(q)}</summary
     </div>
   </article>
 </main>
-<!--gerado:rodape-->
-<!--/gerado:rodape-->
-<!--gerado:jsonld-->
-<!--/gerado:jsonld-->${temModelo ? '\n' + SCRIPT_MODELO : ''}
-<script src="/script.js" defer></script>
-</body>
-</html>
-`;
+` + fecharPagina(g);
 }
 
 function indice(mapa) {
@@ -364,13 +419,37 @@ export async function carregarGuias() {
   return out;
 }
 
+// Molde por rota (02/11/2026): rota de SEO que é clone de uma LP diferente (regra `rota-de-seo-e-clone-de-lp-diferente`).
+// O contrato rotas-clonadas.json, na raiz, diz rota -> { molde, referencia, pasta }; o mesmo arquivo é o que o portão
+// ~/.jarvis/design-engine/ferramentas/portao-rotas-clonadas.mjs lê. A pasta do molde tem molde.mjs (render do corpo) e
+// molde.css (CSS escopado na classe .mx-<molde>), copiado para /assets/moldes/<molde>.css, que é o que vai ao ar.
+// Guia que não está no contrato continua no molde de sempre (pagina(), acima). Rota só entra no contrato quando o
+// clone passou na prova e ganhou da página antiga, seção por seção.
+export async function carregarMoldes() {
+  const moldes = new Map();
+  const arq = path.join(RAIZ, 'rotas-clonadas.json');
+  if (!fs.existsSync(arq)) return moldes;
+  const contrato = JSON.parse(fs.readFileSync(arq, 'utf8'));
+  for (const [rota, e] of Object.entries(contrato.rotas || {})) {
+    const pasta = path.join(RAIZ, e.pasta);
+    const mod = await import(pathToFileURL(path.join(pasta, 'molde.mjs')).href + `?t=${Date.now()}`);
+    const css = path.join(pasta, 'molde.css');
+    if (fs.existsSync(css)) {
+      fs.mkdirSync(path.join(RAIZ, 'assets', 'moldes'), { recursive: true });
+      fs.copyFileSync(css, path.join(RAIZ, 'assets', 'moldes', `${e.molde}.css`));
+    }
+    moldes.set(rota.replace(/^\//, ''), { nome: e.molde, render: mod.render });
+  }
+  return moldes;
+}
+
 // Escreve as páginas dos guias e o índice /guias; devolve as entradas para o sitemap, o rodapé, o JSON-LD e o llms.txt.
 export async function montarGuias({ SITE, ATUALIZADO }) {
   const guias = await carregarGuias();
   const todos = new Map();
   for (const f of FIXAS) todos.set(f.slug, f);
   for (const g of guias) todos.set(g.slug, { slug: g.slug, grupo: g.grupo, tipo: g.tipo, curto: g.curto, resumo: g.resumo });
-  const mapa = { SITE, ATUALIZADO, todos };
+  const mapa = { SITE, ATUALIZADO, todos, moldes: await carregarMoldes() };
   for (const g of guias) fs.writeFileSync(path.join(RAIZ, `${g.slug}.html`), pagina(g, mapa));
   fs.writeFileSync(path.join(RAIZ, 'guias.html'), indice(mapa));
   const ordem = Object.keys(GRUPOS);

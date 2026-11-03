@@ -1,0 +1,17 @@
+.cc_disclaimer_2230343376 {
+  max-width: 1092px;
+  margin: var(--size-16) auto 0;
+  padding: 0 var(--size-32);
+  color: var(--color-content-secondary);
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .cc_disclaimer_2230343376 {
+    padding: 0 var(--size-16);
+  }
+}
+.cc_disclaimer_2230343376 p {
+  margin: 0;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9jb21wYXJpc29uLXRhYmxlLXYzL2VsZW1lbnRzL0NvbXBhcmlzb25WM1RhYmxlRGlzY2xhaW1lci9Db21wYXJpc29uVjNUYWJsZURpc2NsYWltZXIubW9kdWxlLmxlc3MiLCJDb21wYXJpc29uVjNUYWJsZURpc2NsYWltZXIubW9kdWxlLmxlc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBRUE7RUFDRSxpQkFBQTtFQUNBLDZCQUFBO0VBQ0EseUJBQUE7RUFDQSxxQ0FBQTtFQUNBLGtCQUFBO0FDREY7QURHRTtFQUFBO0lBQ0UseUJBQUE7RUNBRjtBQUNGO0FEVEE7RUFZSSxTQUFBO0FDQUoiLCJmaWxlIjoiQ29tcGFyaXNvblYzVGFibGVEaXNjbGFpbWVyLm1vZHVsZS5sZXNzIn0= */

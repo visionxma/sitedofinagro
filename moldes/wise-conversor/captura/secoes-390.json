@@ -1,0 +1,155 @@
+[
+  {
+    "idx": 0,
+    "papel": "conteudo",
+    "tag": "section",
+    "id": "",
+    "classe": "_section__calculator_glqe0_17 section p-b-0 seo-bg-primary",
+    "y": 56,
+    "altura": 290,
+    "fundo": "rgb(22, 51, 0)",
+    "imagemDeFundo": "",
+    "padding": "60px / 0px",
+    "titulos": [
+      "H1: Conversor de Moedas"
+    ],
+    "imagens": 0,
+    "botoes": []
+  },
+  {
+    "idx": 1,
+    "papel": "conteudo",
+    "tag": "div",
+    "id": "",
+    "classe": "np-theme-personal",
+    "y": 362,
+    "altura": 582,
+    "fundo": "rgb(255, 255, 255)",
+    "imagemDeFundo": "",
+    "padding": "0px / 0px",
+    "titulos": [],
+    "imagens": 6,
+    "botoes": [
+      "BRL",
+      "",
+      "USD",
+      "Envie dinheiro"
+    ]
+  },
+  {
+    "idx": 2,
+    "papel": "conteudo",
+    "tag": "section",
+    "id": "",
+    "classe": "",
+    "y": 944,
+    "altura": 1483,
+    "fundo": "rgb(22, 51, 0)",
+    "imagemDeFundo": "",
+    "padding": "0px / 0px",
+    "titulos": [
+      "H2: Economize quando usar, enviar e receber",
+      "H3: Gerencie o seu dinheiro aonde quer que vá",
+      "H3: Um cartão de débito internacional",
+      "H3: Envie dinheiro para o exterior e economize em tarifas"
+    ],
+    "imagens": 5,
+    "botoes": [
+      "Criar conta",
+      "Saiba mais"
+    ]
+  },
+  {
+    "idx": 4,
+    "papel": "conteudo",
+    "tag": "section",
+    "id": "",
+    "classe": "",
+    "y": 2428,
+    "altura": 1256,
+    "fundo": "rgb(22, 51, 0)",
+    "imagemDeFundo": "",
+    "padding": "0px / 0px",
+    "titulos": [
+      "H2: Baixe o aplicativo de conversão de moedas gratuito da Wise",
+      "H3: Compare serviços de transferência de dinheiro",
+      "H3: Acompanhe taxas de câmbio em tempo real",
+      "H3: Totalmente gratuito, sem anúncios"
+    ],
+    "imagens": 7,
+    "botoes": [
+      "taxa de câmbio comercial"
+    ]
+  },
+  {
+    "idx": 5,
+    "papel": "conteudo",
+    "tag": "section",
+    "id": "",
+    "classe": "",
+    "y": 3684,
+    "altura": 3315,
+    "fundo": "rgb(22, 51, 0)",
+    "imagemDeFundo": "",
+    "padding": "0px / 0px",
+    "titulos": [
+      "H2: Gráfico de BRL para USD",
+      "H2: 1 USD = 5,4379 BRL",
+      "H2: Taxas de câmbio do momento",
+      "H2: Dados de 1 BRL para USD"
+    ],
+    "imagens": 12,
+    "botoes": [
+      "Acompanhe a taxa de câmbio",
+      "Enviar USD",
+      "Enviar EUR",
+      "Enviar CAD"
+    ]
+  },
+  {
+    "idx": 6,
+    "papel": "conteudo",
+    "tag": "div",
+    "id": "",
+    "classe": "np-theme-personal",
+    "y": 6999,
+    "altura": 2958,
+    "fundo": "rgb(255, 255, 255)",
+    "imagemDeFundo": "",
+    "padding": "0px / 0px",
+    "titulos": [
+      "H2: Perguntas frequentes",
+      "H3: Como converter entre moedas?",
+      "H3: Por que as taxas de câmbio oferecidas são distintas entre empresas?",
+      "H3: Como posso converter o meu dinheiro?",
+      "H3: Entre quais moedas posso converter com este conversor de moedas?",
+      "H2: Principais combinações de moedas para Reais brasileiros"
+    ],
+    "imagens": 41,
+    "botoes": [
+      "Como converter entre moedas?",
+      "Por que as taxas de câmbio oferecidas sã",
+      "enviar o seu dinheiro para o exterior",
+      "Como posso converter o meu dinheiro?"
+    ]
+  },
+  {
+    "idx": 7,
+    "papel": "conteudo",
+    "tag": "div",
+    "id": "",
+    "classe": "np-theme-personal",
+    "y": 9956,
+    "altura": 2119,
+    "fundo": "rgb(255, 255, 255)",
+    "imagemDeFundo": "",
+    "padding": "0px / 0px",
+    "titulos": [
+      "H3: Taxas de câmbio de outras moedas hoje"
+    ],
+    "imagens": 124,
+    "botoes": [
+      ""
+    ]
+  }
+]

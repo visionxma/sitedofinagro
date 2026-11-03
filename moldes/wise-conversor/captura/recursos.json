@@ -1,0 +1,1718 @@
+{
+  "imagens": [
+    {
+      "src": "https://wise.com/web-art/assets/illustrations/house-small@2x.webp",
+      "alt": "",
+      "w": 400,
+      "h": 400,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/brl.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        24,
+        24
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/usd.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        24,
+        24
+      ]
+    },
+    {
+      "src": "https://wise.com/public-resources/assets/landing-pages/currency-converter/one_account_mobile_phone_large.png",
+      "alt": "",
+      "w": 605,
+      "h": 806,
+      "caixa": [
+        545,
+        727
+      ]
+    },
+    {
+      "src": "data:image/png;base64,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",
+      "alt": "Baixe o Conversor de Moedas da Wise",
+      "w": 400,
+      "h": 400,
+      "caixa": [
+        101,
+        101
+      ]
+    },
+    {
+      "src": "https://wise.com/static-assets/app/_next/static/media/b60483d23a7cc71e.b60483d2.svg",
+      "alt": "",
+      "w": 605,
+      "h": 806,
+      "caixa": [
+        545,
+        727
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/brl.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        32,
+        32
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/usd.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        32,
+        32
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/brl.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        32,
+        32
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/eur.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        32,
+        32
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/brl.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        32,
+        32
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/gbp.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        32,
+        32
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/brl.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        32,
+        32
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/inr.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        32,
+        32
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/brl.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        32,
+        32
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/jpy.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        32,
+        32
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/brl.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        32,
+        32
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/rub.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        32,
+        32
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/brl.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        32,
+        32
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/aud.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        32,
+        32
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/brl.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        32,
+        32
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/zar.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        32,
+        32
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/czk.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        32,
+        32
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/dkk.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        32,
+        32
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/nok.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        32,
+        32
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/sek.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        32,
+        32
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/aud.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        32,
+        32
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/cad.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        32,
+        32
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/nzd.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        32,
+        32
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/hkd.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        32,
+        32
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/sgd.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        32,
+        32
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/eur.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        32,
+        32
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/huf.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        32,
+        32
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/chf.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        32,
+        32
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/jpy.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/ron.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/bgn.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/gbp.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/try.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/brl.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/myr.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/inr.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/idr.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/ils.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/cny.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/pln.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/usd.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        48,
+        48
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/eur.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        48,
+        48
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/cad.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        48,
+        48
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/gbp.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        48,
+        48
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/ars.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        48,
+        48
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/aud.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        48,
+        48
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/clp.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        48,
+        48
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/mxn.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        48,
+        48
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/uyu.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/nzd.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/chf.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/cop.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/rub.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/nok.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/bob.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/cny.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/crc.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/dop.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/egp.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/fjd.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/gyd.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/idr.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/krw.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/kwd.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/myr.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/pen.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/php.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/pkr.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/pyg.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/qar.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/rsd.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/thb.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/tnd.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/vnd.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/zar.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/isk.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/all.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/amd.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/ang.svg",
+      "alt": "",
+      "w": 0,
+      "h": 0,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/aoa.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/awg.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/azn.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/bam.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/bbd.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/bdt.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/bhd.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/bmd.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/bnd.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/bsd.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/btn.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/bwp.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/bzd.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/cve.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/djf.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/dzd.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/etb.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/fkp.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/gel.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/ggp.svg",
+      "alt": "",
+      "w": 0,
+      "h": 0,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/ghs.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/gip.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/gmd.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/gnf.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/gtq.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/hnl.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/htg.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/ils.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/imp.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/jep.svg",
+      "alt": "",
+      "w": 0,
+      "h": 0,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/jmd.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/jod.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/kes.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/kgs.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/khr.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/kmf.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/kyd.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/kzt.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/lak.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/lbp.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/lkr.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/lrd.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/lsl.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/mad.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/mdl.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/mga.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/mkd.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/mnt.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/mop.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/mru.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/mur.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/mvr.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/mwk.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/mzn.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/nad.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/ngn.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/nio.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/npr.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/omr.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/pab.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/pgk.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/rwf.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/sbd.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/scr.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/shp.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/sll.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/srd.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/svc.svg",
+      "alt": "",
+      "w": 0,
+      "h": 0,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/szl.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/tjs.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/tmt.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/top.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/ttd.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/twd.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/tzs.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/uah.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/ugx.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/uzs.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/vuv.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/wst.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/xcd.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/xof.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/xpf.svg",
+      "alt": "",
+      "w": 0,
+      "h": 0,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://wise.com/web-art/assets/flags/zmw.svg",
+      "alt": "",
+      "w": 64,
+      "h": 64,
+      "caixa": [
+        0,
+        0
+      ]
+    },
+    {
+      "src": "https://bat.bing.com/action/0?ti=5990948&tm=gtm002&Ver=2&mid=5115fedc-fad1-4683-b470-d9299887d2bb&bo=1&sid=d1c71b70d71211f19da18d9c45d8353c&vid=d1c76e30d71211f1a9cea3a683798d23&vids=1&msclkid=N&pi=0&lg=es-MX&sw=1440&sh=900&sc=24&nwd=1&tl=Conversor%20de%20Moeda%20%7C%20Taxa%20de%20C%C3%A2mbio%20%7C%20Wise&p=https%3A%2F%2Fwise.com%2Fbr%2Fcurrency-converter%2F&r=&lt=2297&evt=pageLoad&sv=2&cdb=AQAS&rn=871825",
+      "alt": "",
+      "w": 0,
+      "h": 0,
+      "caixa": [
+        0,
+        0
+      ]
+    }
+  ],
+  "fundos": [
+    "https://wise.com/static-assets/app/_next/static/media/tapestry-3.623fdb4e.jpg",
+    "https://wise.com/web-art/assets/flags/usd.svg",
+    "https://wise.com/web-art/assets/flags/brl.svg",
+    "https://wise.com/web-art/assets/flags/eur.svg",
+    "https://wise.com/web-art/assets/flags/cad.svg"
+  ],
+  "videos": [],
+  "fontes": [
+    "Inter 100 900 normal",
+    "Wise Sans normal normal"
+  ],
+  "titulo": "Conversor de Moeda | Taxa de Câmbio | Wise",
+  "lang": "pt-BR"
+}

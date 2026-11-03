@@ -1,0 +1,43 @@
+.cc_calculatorGrid_2230343376 {
+  padding: 0 var(--size-8);
+}
+.cc_calculatorGrid_2230343376 .form-group {
+  margin-bottom: 0;
+}
+.cc_calculatorGrid_2230343376 .np-label {
+  font-weight: var(--font-weight-regular);
+}
+@media (max-width: 767px) {
+  .cc_calculatorGrid_2230343376 {
+    padding: 0;
+  }
+}
+.cc_pillButton_2230343376 {
+  width: 100%;
+  min-height: var(--size-72);
+  padding-inline: var(--size-16);
+  border-radius: var(--radius-full);
+}
+.cc_pillButton_2230343376 .wds-Button-content,
+.cc_pillButton_2230343376 .wds-Button-label {
+  width: 100%;
+}
+.cc_pillButton_2230343376 .wds-Button-labelText {
+  display: flex;
+  flex: 1;
+  gap: var(--size-12);
+  align-items: center;
+  font-size: var(--font-size-20);
+  font-weight: var(--font-weight-semi-bold);
+  line-height: 1;
+}
+.cc_code_2230343376 {
+  flex: 1;
+  text-align: start;
+}
+.cc_amountInput_2230343376 {
+  height: var(--size-72);
+  padding: 0 var(--size-24);
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9jb21wYXJpc29uLXRhYmxlLXYzL2VsZW1lbnRzL0N1cnJlbmN5SW5wdXRzL0N1cnJlbmN5SW5wdXRzLm1vZHVsZS5sZXNzIiwiQ3VycmVuY3lJbnB1dHMubW9kdWxlLmxlc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBRUE7RUFDRSx3QkFBQTtBQ0RGO0FEQUE7RUFJSSxnQkFBQTtBQ0RKO0FESEE7RUFRSSx1Q0FBQTtBQ0ZKO0FES0U7RUFBQTtJQUNFLFVBQUE7RUNGRjtBQUNGO0FES0E7RUFDRSxXQUFBO0VBQ0EsMEJBQUE7RUFDQSw4QkFBQTtFQUNBLGlDQUFBO0FDSEY7QUREQTs7RUFRSSxXQUFBO0FDSEo7QURMQTtFQVlJLGFBQUE7RUFDQSxPQUFBO0VBQ0EsbUJBQUE7RUFDQSxtQkFBQTtFQUNBLDhCQUFBO0VBQ0EseUNBQUE7RUFDQSxjQUFBO0FDSko7QURRQTtFQUNFLE9BQUE7RUFDQSxpQkFBQTtBQ05GO0FEU0E7RUFDRSxzQkFBQTtFQUNBLHlCQUFBO0FDUEYiLCJmaWxlIjoiQ3VycmVuY3lJbnB1dHMubW9kdWxlLmxlc3MifQ== */

@@ -1094,10 +1094,10 @@ A gestação da vaca dura em média 290 dias no gado de corte, cerca de nove mes
 Atualizado em 08/10/2026
 Calcule o parto, a secagem e o diagnóstico
 Data da cobertura ou da IADias de gestaçãoDias de secagem antes do parto
-19/08/2027parto previsto
-20/06/2027secar a vaca de leite em
-27/11/2026ultrassom a partir de
-01/01/2027palpação a partir de
+20/08/2027parto previsto
+21/06/2027secar a vaca de leite em
+28/11/2026ultrassom a partir de
+02/01/2027palpação a partir de
 Os 290 dias são a média do gado de corte segundo a Embrapa. Zebuíno tende a gestar mais dias e raça europeia menos: ajuste o campo se o seu rebanho tem a média própria. A secagem só vale para vaca de leite. O parto é uma previsão: pode vir alguns dias antes ou depois. No aplicativo FINAGRO o parto previsto sai com 283 dias, dentro da mesma faixa.
 Quantos dias dura a gestação da vaca
 No gado de corte, a Embrapa Gado de Corte dá 290 dias como duração média da gestação. É perto de nove meses e meio. A conta do parto é simples: data da cobertura mais 290 dias.
@@ -6638,50 +6638,48 @@ Quantos metros tem um hectare de terra?
 Um hectare (1 ha) tem 10.000 metros quadrados, não 10.000 metros de comprimento. Um quadrado de 100 m por 100 m forma 1 hectare, mas um retângulo de 200 m por 50 m também. Multiplique comprimento por largura para achar os m² e divida por 10.000 para achar os hectares.
 Atualizado em 02/11/2026
 Calcule os hectares do terreno
-Comprimento do terreno (m)Largura do terreno (m)
-10.000,00metros quadrados
-1,0000hectares
-100,00ares
-10.000,00centiares
-A conta comprimento × largura vale para terreno retangular. Em área torta ou curva, divida em partes ou meça o contorno pelo GPS.
-Hectare mede área, não comprimento
-A pergunta “quantos metros tem um hectare” costuma misturar duas coisas. Metro mede distância. Metro quadrado mede superfície. O hectare também mede superfície: 1 ha = 10.000 m².
-Por isso não existe um comprimento único para um hectare. Ele pode ser um quadrado de 100 m por 100 m, um retângulo de 200 m por 50 m ou outro desenho que feche os mesmos 10.000 m².
-Se alguém disser apenas “10.000 metros”, peça para completar: hectare é 10.000 metros quadrados.
+1,0000 hectaresComprimento do terreno (m)m Largura do terreno (m)m10.000,00metros quadrados100,00ares10.000,00centiaresComeçar grátisBaixar no AndroidA conta comprimento × largura vale para terreno retangular. Em área torta ou curva, divida em partes ou meça o contorno pelo GPS.
+Grátis até 1.000 animais com ficha
+Lote sem limite de cabeças
+Sem cartão
 Como calcular hectares pelo comprimento e largura
-Meça o comprimento do terreno em metros.
-Meça a largura em metros.
-Multiplique comprimento × largura para obter os metros quadrados.
-Divida os metros quadrados por 10.000 para obter hectares.
+1Meça o comprimento do terreno em metros.
+2Meça a largura em metros.
+3Multiplique comprimento × largura para obter os metros quadrados.
+4Divida os metros quadrados por 10.000 para obter hectares.
 Exemplo: um piquete com 250 m de comprimento e 40 m de largura tem 250 × 40 = 10.000 m². Dividindo 10.000 por 10.000, a área é 1 hectare.
 Outro exemplo: um talhão de 300 m por 200 m tem 60.000 m². A conta em hectare é 60.000 ÷ 10.000 = 6 ha.
-Are, centiare e hectare sem confusão
-Centiare (ca)1 metro quadrado. É a centésima parte de um are.Are (a)100 metros quadrados, como um quadrado de 10 m por 10 m.Hectare (ha)100 ares ou 10.000 metros quadrados.
-As três unidades andam de cem em cem. Um hectare tem 100 ares. Um are tem 100 centiares. Como 1 centiare vale 1 m², um hectare também tem 10.000 centiares.
-Tabela de hectare para metros quadrados
-Metros quadradosHectaresAres
-1 m²0,0001 ha0,01 a
-100 m²0,01 ha1 a
-1.000 m²0,10 ha10 a
-5.000 m²0,50 ha50 a
-10.000 m²1,00 ha100 a
-20.000 m²2,00 ha200 a
-50.000 m²5,00 ha500 a
-100.000 m²10,00 ha1.000 a
-Conversão: m² ÷ 10.000 = ha; m² ÷ 100 = a.
-Para passar de hectare para m², faça o contrário: multiplique por 10.000. Uma área de 7,5 ha tem 7,5 × 10.000 = 75.000 m².
-E quando o terreno não é retangular
-Terreno irregular não cabe bem em uma conta de comprimento por largura. Uma saída é separar o desenho em retângulos e triângulos, calcular cada pedaço e somar. Outra é percorrer o limite com o GPS do celular para formar um polígono.
-Para não depender de trena em área grande, um aplicativo para medir área rural pelo GPS fecha o contorno no celular e já mostra o resultado em m² e em hectares.
-A medição pelo celular serve para planejar pasto, talhão, semente, adubo e custo por hectare. Para registro, desmembramento ou certificação no Incra, é outro serviço: entra o levantamento de um profissional habilitado.
+Começar grátisVer a tabela
 Hectares organizados no FINAGRO
+Do contorno do talhão ao custo por hectare. Meça, salve e use a área na gestão da lavoura pelo FINAGRO.
 Meça a área por GPS no celular e salve até 100 áreas no plano grátis.
 Guarde safras, talhões e a área plantada em hectares.
 Veja custo, produção e produtividade por hectare na lavoura.
 O lançamento feito sem sinal fica salvo e sincroniza quando a internet volta.
-Do contorno do talhão ao custo por hectare.
-Meça, salve e use a área na gestão da lavoura pelo FINAGRO.
-Começar grátis
+Baixe o FINAGRO no Android
+1 ha= 10.000 m²
+Hectare mede área, não comprimento
+A pergunta “quantos metros tem um hectare” costuma misturar duas coisas. Metro mede distância. Metro quadrado mede superfície. O hectare também mede superfície: 1 ha = 10.000 m².
+Calcular a minha áreaham²1 ha = 10.000 m²
+100 m × 100 m 100 × 100 m200 × 50 m250 × 40 m400 × 25 mPor isso não existe um comprimento único para um hectare. Ele pode ser um quadrado de 100 m por 100 m, um retângulo de 200 m por 50 m ou outro desenho que feche os mesmos 10.000 m².
+Se alguém disser apenas “10.000 metros”, peça para completar: hectare é 10.000 metros quadrados.
+Tabela de hectare para metros quadrados
+Metros quadradosHectaresAres
+m²1 m²0,0001 ha0,01 a
+m²100 m²0,01 ha1 a
+m²1.000 m²0,10 ha10 a
+m²5.000 m²0,50 ha50 a
+m²10.000 m²1,00 ha100 a
+m²20.000 m²2,00 ha200 a
+m²50.000 m²5,00 ha500 a
+m²100.000 m²10,00 ha1.000 a
+Conversão: m² ÷ 10.000 = ha; m² ÷ 100 = a. Para passar de hectare para m², faça o contrário: multiplique por 10.000. Uma área de 7,5 ha tem 7,5 × 10.000 = 75.000 m².
+Conta exata, sem arredondar
+Atualizado em 02/11/2026
+Terra e documentos: todas as medidas
+Are, centiare e hectare sem confusão
+As três unidades andam de cem em cem. Um hectare tem 100 ares. Um are tem 100 centiares. Como 1 centiare vale 1 m², um hectare também tem 10.000 centiares.
+Calcular agoraAlqueire em hectareUnidadeQuanto valeCentiare (ca)1 metro quadrado. É a centésima parte de um are.Are (a)100 metros quadrados, como um quadrado de 10 m por 10 m.Hectare (ha)100 ares ou 10.000 metros quadrados.Ver a tabela de conversão
 Perguntas sobre hectare e metros
 1 hectare tem quantos metros?
 1 hectare tem 10.000 metros quadrados. Em forma de quadrado, cada lado mede 100 metros e a volta inteira soma 400 metros.
@@ -6693,25 +6691,19 @@ Qual é a diferença entre are e hectare?
 Um are tem 100 m². Um hectare tem 100 ares, portanto 10.000 m².
 Dá para medir hectare só com comprimento e largura?
 Sim, quando o terreno é retangular. Se o contorno for irregular, divida em figuras menores ou use uma medição por GPS.
-Fontes
-Rede e-Tec Brasil, Topografia Geral: unidades de superfície agrárias
 Veja também
-Alqueire em hectareTarefa e linha de terraApp para medir áreaTodos os guiasDo mesmo assunto
-Reserva legalCAF da agricultura familiarCAR: Cadastro AmbientalCCIR: como emitirContrato de arrendamento
-Nesta página
-Calcule os hectares do terreno
-Hectare mede área, não comprimento
-Como calcular hectares pelo comprimento e largura
-Are, centiare e hectare sem confusão
-Tabela de hectare para metros quadrados
+alqhaAlqueire em hectare
+tfhaTarefa e linha de terra
+GPSm²App para medir área
++Todos os guias
+Do mesmo assunto
+Reserva legal CAF da agricultura familiar CAR: Cadastro Ambiental CCIR: como emitir Contrato de arrendamento Terra e documentos Ver todos os guias
 E quando o terreno não é retangular
-Hectares organizados no FINAGRO
-Perguntas frequentes
-FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
-Lote sem limite de cabeças
-Sem cartão
-Começar grátisBaixar para Android
+Divida o desenhoTerreno irregular não cabe bem em uma conta de comprimento por largura. Uma saída é separar o desenho em retângulos e triângulos, calcular cada pedaço e somar. Outra é percorrer o limite com o GPS do celular para formar um polígono.
+Feche o contorno no GPSPara não depender de trena em área grande, um aplicativo para medir área rural pelo GPS fecha o contorno no celular e já mostra o resultado em m² e em hectares.
+Registro é outro serviçoA medição pelo celular serve para planejar pasto, talhão, semente, adubo e custo por hectare. Para registro, desmembramento ou certificação no Incra, é outro serviço: entra o levantamento de um profissional habilitado.
+FonteRede e-Tec Brasil, Topografia Geral: unidades de superfície agráriasAbrir a fonte
+Ver mais guias
 
 
 ---
