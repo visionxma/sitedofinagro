@@ -138,8 +138,20 @@ ${lista.map(([p, r], k) => `  <details name="faq"${k >= visiveis ? ' class="extr
 ${lista.length > visiveis ? `<button class="botao botao--linha ver-mais" type="button" data-ver-mais="faq">Ver mais perguntas (+${lista.length - visiveis})</button>` : ''}`;
 }
 
+// PRÉVIA DE LINK DE CADA PÁGINA (09/11/2026): a imagem que o WhatsApp mostra é a da PRÓPRIA página (título dela, foto do
+// tema e a tela do app que conversa com o assunto), em 1600x1036, a medida que o WhatsApp mostra grande. As artes moram em
+// finagro-previa.pages.dev (repositório visionxma/finagro-previa, refeitas pelo servidor); a lista das que existem está em
+// conteudo/previas.json. A home e página fora da lista usam a arte viva do app (produtor com o app + arroba do dia).
+const PREVIAS = JSON.parse(fs.readFileSync(path.join(RAIZ, 'conteudo', 'previas.json'), 'utf8'));
+const COM_PREVIA = new Set(PREVIAS.paginas);
+function previaDe(pagina) {
+  const slug = String(pagina).replace(/^\//, '');
+  return COM_PREVIA.has(slug) ? `${PREVIAS.base}/lp/${slug}.jpg` : `${PREVIAS.base}/campo.jpg`;
+}
+
 function cabeca(pagina, titulo, descricao, vitrine = false) {
   const url = SITE + (pagina === '/' ? '/' : pagina);
+  const img = previaDe(pagina);
   return `<meta name="apple-itunes-app" content="app-id=${IOS_ID}">
 <meta property="og:type" content="${pagina === '/' || vitrine ? 'website' : 'article'}">
 <meta property="og:site_name" content="FINAGRO">
@@ -147,13 +159,14 @@ function cabeca(pagina, titulo, descricao, vitrine = false) {
 <meta property="og:url" content="${url}">
 <meta property="og:title" content="${esc(titulo)}">
 <meta property="og:description" content="${esc(descricao)}">
-<meta property="og:image" content="${ENTIDADE.imagem}">
-<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="O FINAGRO no celular sobre o pasto: sua fazenda na palma da mão">
+<meta property="og:image" content="${img}">
+<meta property="og:image:width" content="1600"><meta property="og:image:height" content="1036">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:alt" content="${esc(pagina === '/' ? 'Produtor no pasto mostrando o app FINAGRO no celular, com a cotação da arroba do boi' : `${titulo}: prévia com o app FINAGRO no celular`)}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="${esc(titulo)}">
 <meta name="twitter:description" content="${esc(descricao)}">
-<meta name="twitter:image" content="${ENTIDADE.imagem}">
+<meta name="twitter:image" content="${img}">
 <link rel="icon" href="/favicon.ico" sizes="48x48">
 <link rel="icon" href="/icone-192.png" type="image/png" sizes="192x192">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
