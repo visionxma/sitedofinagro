@@ -7,6 +7,7 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 import { SITE, ATUALIZADO, ENTIDADE, PLANOS, LIMITES, EMPRESARIAL, COMPLEMENTOS, TESTE_DIAS, PERGUNTAS, PAGINAS, brl } from '../conteudo/site.mjs';
 import { montarGuias, GRUPOS, TIPOS } from './guias.mjs';
+import { blocoPerguntaIA } from './pergunte-ia.mjs';
 
 const RAIZ = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const INDEXNOW = 'f3b9c2a71d5e4c08a6b14e9d27c35f80';
@@ -246,6 +247,13 @@ for (const p of [...TODAS, { caminho: '/404' }]) {
   html = preencher(html, 'cabeca', cabeca(p.caminho, titulo, descricao, p.captacao));
   html = preencher(html, 'topo', topo(p.caminho === '/' || p.heroi));
   if (p.captacao) html = preencher(html, 'cap-planos', capPlanos());
+  // "Pergunte a uma IA" no fim de TODA página (menos a inicial, que o leva na chamada final, e a 404): a pergunta é sobre o
+  // assunto do <h1> da própria página + o FINAGRO. O marcador nasce antes do rodapé e o conteúdo é sempre refeito daqui.
+  if (p.caminho !== '/' && p.caminho !== '/404') {
+    if (!html.includes('<!--gerado:pergunte-ia-->')) html = html.replace('<!--gerado:rodape-->', '<!--gerado:pergunte-ia-->\n<!--/gerado:pergunte-ia-->\n<!--gerado:rodape-->');
+    const h1 = semTags((html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/) || [])[1] || titulo.replace(/\s*\|\s*FINAGRO.*$/, '')).replace(/[.:]+$/, '');
+    html = preencher(html, 'pergunte-ia', blocoPerguntaIA(`${h1}${/[?!]$/.test(h1) ? '' : '.'} Como o FINAGRO ajuda o produtor rural com isso? Use finagro.app como referência.`));
+  }
   html = preencher(html, 'rodape', rodape());
   if (p.caminho === '/') html = preencher(html, 'faq', faq(PERGUNTAS));
   if (p.caminho !== '/404') html = preencher(html, 'jsonld', jsonld(p, html, titulo, descricao));
