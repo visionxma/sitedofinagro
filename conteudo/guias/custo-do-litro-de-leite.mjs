@@ -101,7 +101,7 @@ export default {
     'Tire relatórios em PDF ou planilha CSV para conferir os lançamentos com o contador.',
     'O lançamento feito sem sinal fica salvo no aparelho e sobe quando a internet volta.',
   ] },
-  cta: { forte: 'Leve as contas do leite para o celular e feche o mês certo.', texto: 'Plano Campo grátis para sempre, sem cartão, no Android e no navegador.' },
+  cta: { forte: 'Leve as contas do leite para o celular e feche o mês certo.', texto: 'Plano Campo grátis para sempre, sem cartão, no iPhone, no Android e no navegador.' },
   faqTitulo: 'Perguntas sobre custo do litro de leite',
   faq: [
     ['Qual é a fórmula do custo do litro de leite?', 'Some os custos do período e divida pelos litros produzidos no mesmo período. A calculadora desta página separa alimentação, mão de obra, sanidade e outros custos antes da divisão.'],

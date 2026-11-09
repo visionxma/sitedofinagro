@@ -38,8 +38,9 @@ function preencher(html, nome, conteudo) {
 // ---------- blocos ----------
 const PLAY = ENTIDADE.android;
 // App na App Store (conta VisionX CO; conferido na API pública da Apple em 09/11/2026): botão "Baixar para iPhone" na navbar de toda página e Smart App Banner.
-const IOS_ID = '6827268381';
-const IOS = `https://apps.apple.com/br/app/finagro/id${IOS_ID}`;
+// O endereço mora em conteudo/site.mjs (ENTIDADE.ios), a fonte única; o id do Smart App Banner sai dele.
+const IOS = ENTIDADE.ios;
+const IOS_ID = IOS.match(/\/id(\d+)/)[1];
 const svgIphone = '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="7" y="2.5" width="10" height="19" rx="2.4" fill="none" stroke="currentColor" stroke-width="2"/><path d="M10.5 18.5h3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>';
 const svgMenu = '<svg data-abrir viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><svg data-fechar viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>';
 const SECOES = [['/#funcionalidades', 'Funcionalidades'], ['/#beneficios', 'Benefícios'], ['/#como-funciona', 'Como funciona'], ['/#para-quem', 'Para quem'], ['/#perguntas', 'Dúvidas']];
@@ -80,7 +81,7 @@ const rodape = () => `<footer class="rodape">
       <div><h2>O app</h2><ul>
         ${SECOES.map(([h, t]) => `<li><a href="${h}">${t}</a></li>`).join('')}
         <li><a href="/gestao-da-pecuaria-de-corte">Para gado de corte</a></li>
-        <li><a href="${ENTIDADE.app}">Entrar no app</a></li><li><a href="${PLAY}">App para Android</a></li>
+        <li><a href="${ENTIDADE.app}">Entrar no app</a></li><li><a href="${PLAY}">App para Android</a></li><li><a href="${IOS}" target="_blank" rel="noopener">App para iPhone</a></li>
       </ul></div>
       <div><h2>Guias</h2><ul>
         ${RODAPE_GUIAS.map((g) => `<li><a href="/${g.slug}">${esc(g.curto)}</a></li>`).join('')}
@@ -169,9 +170,10 @@ const site = { '@type': 'WebSite', '@id': `${SITE}/#site`, url: `${SITE}/`, name
 const app = {
   '@type': 'SoftwareApplication', '@id': APP_ID, name: 'FINAGRO', url: `${SITE}/`,
   description: ENTIDADE.frase, applicationCategory: 'BusinessApplication', applicationSubCategory: 'Gestão rural',
-  operatingSystem: 'Android, navegador (iPhone, tablet e computador)', inLanguage: 'pt-BR',
+  // iPhone pela App Store desde 31/10/2026, Android pela Google Play; o navegador fica para tablet e computador.
+  operatingSystem: 'Android, iOS, navegador (tablet e computador)', inLanguage: 'pt-BR',
   image: ENTIDADE.imagem, screenshot: `${SITE}/assets/telas/inicio-824.webp`,
-  installUrl: ENTIDADE.android, downloadUrl: ENTIDADE.android, sameAs: [ENTIDADE.instagram, ENTIDADE.linkedin, ENTIDADE.android, ENTIDADE.findsaas],
+  installUrl: [ENTIDADE.android, ENTIDADE.ios], downloadUrl: [ENTIDADE.android, ENTIDADE.ios], sameAs: [ENTIDADE.instagram, ENTIDADE.linkedin, ENTIDADE.android, ENTIDADE.ios, ENTIDADE.findsaas],
   author: { '@id': ORG_ID }, publisher: { '@id': ORG_ID },
   offers: [
     ...PLANOS.filter((p) => !p.mes).map((p) => ({ '@type': 'Offer', name: `Plano ${p.nome}`, price: '0.00', priceCurrency: 'BRL', description: p.itens.slice(0, 3).join(', '), url: `${SITE}/#comecar`, category: 'grátis' })),
@@ -302,7 +304,7 @@ const llms = `# FINAGRO
 
 > ${ENTIDADE.frase}
 
-Site: ${SITE}/ · Sistema: ${ENTIDADE.app} · Android: ${ENTIDADE.android} · LinkedIn: ${ENTIDADE.linkedin} · FindSaaS: ${ENTIDADE.findsaas} · Desenvolvido pela VisionX (https://visionxma.com/). Atualizado em ${ATUALIZADO.split('-').reverse().join('/')}.
+Site: ${SITE}/ · Sistema: ${ENTIDADE.app} · Android: ${ENTIDADE.android} · iPhone: ${ENTIDADE.ios} · LinkedIn: ${ENTIDADE.linkedin} · FindSaaS: ${ENTIDADE.findsaas} · Desenvolvido pela VisionX (https://visionxma.com/). Atualizado em ${ATUALIZADO.split('-').reverse().join('/')}.
 
 ## O que faz
 - Rebanho: animal com ficha (brinco, raça, peso, foto), lote de qualquer tamanho, vacinas e sanidade, reprodução com parto previsto, pesagem e GMD, registro de GTA com lembrete de vencimento.
@@ -311,6 +313,7 @@ Site: ${SITE}/ · Sistema: ${ENTIDADE.app} · Android: ${ENTIDADE.android} · Li
 - Campo e equipe: área por GPS, máquinas e manutenção, estoque de insumos, clima da fazenda, mão de obra, pessoas com papel e permissão.
 - Mercado: cotação do boi gordo (CONAB), notícias do agro, marketplace de animais, simulador de crédito do Pronaf (com taxas de referência, não é proposta de banco), assistente FINAGRO AI.
 - O painel se monta pelo perfil da produção (gado de corte, leite, aves, suínos, peixes, abelhas, horta, grãos), com alertas da criação: vacina que trava a GTA, CBT do leite, oxigênio do tanque, vento para pulverizar.
+- Onde funciona: aplicativo para iPhone na App Store (desde 31/10/2026) e para Android na Google Play; no tablet e no computador, pelo navegador em ${ENTIDADE.app}, com a mesma conta e os mesmos dados.
 - Lançamento sem sinal fica no aparelho e sobe quando a internet volta.
 
 ## O que não é

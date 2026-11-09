@@ -119,13 +119,13 @@ const VETADAS = [
   [/\bjornada\b|\brobust[oa]s?\b|\babrangentes?\b|de ponta\b|\binovador[ae]?s?\b|\bdisruptiv/i, 'adjetivo de folheto (jornada, robusto, abrangente, de ponta, inovador)'],
   [/\bdo interior\b|\bbaratinh|\bhumilde|\bsimplesinh/i, 'termo que diminui o produtor (do interior, baratinho, humilde)'],
   [/\b(turma|aluno|aula)s?\b/i, 'termo de escola (turma, aluno, aula)'],
+  [/n[ãa]o (tem|há|possui) (app|aplicativo)[^.]{0,40}(app ?store|iphone)|no iphone,? (é|funciona) (só |apenas )?pelo navegador/i, 'fato vencido: o FINAGRO tem app na App Store desde 31/10/2026 (id 6827268381)'],
 ];
 // O que o FINAGRO NÃO faz: a seção noFinagro e o cta não podem prometer.
 const NAO_FAZ = [
   [/(?<!não |nao |sem )\bemite (a |o |sua |seu )?(gta|nota|nf)/i, 'o FINAGRO não emite GTA nem nota fiscal'],
   [/(?<!não |nao )\b(transmite|envia|entrega) (o |a |sua |seu )?(lcdpr|declaração|itr|dirpf|imposto)/i, 'o FINAGRO não transmite nada à Receita'],
   [/balança (conectada|integrada)|brinco eletrônico (lido|integrado)|leitor de brinco/i, 'o FINAGRO não integra balança nem leitor de brinco'],
-  [/app store|aplicativo (para|de) iphone|\bios\b/i, 'não há app na App Store: no iPhone é pelo navegador'],
   [/imagem de satélite|ndvi|drone/i, 'o FINAGRO não tem imagem de satélite nem drone'],
 ];
 

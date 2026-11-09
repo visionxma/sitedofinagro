@@ -74,7 +74,7 @@ export default {
     "A tela Documentos guarda a inscrição estadual como outro documento, com o número, ao lado do CCIR, do ITR e dos contratos.",
     "Relatórios em PDF e em planilha (CSV) reúnem as vendas e as despesas do período para o contador conferir com as notas.",
   ] },
-  cta: {"forte":"A nota sai no sistema da Fazenda. A venda fica anotada no FINAGRO.","texto":"Grátis até 1.000 animais com ficha, sem cartão, no Android e no navegador."},
+  cta: {"forte":"A nota sai no sistema da Fazenda. A venda fica anotada no FINAGRO.","texto":"Grátis até 1.000 animais com ficha, sem cartão, no iPhone, no Android e no navegador."},
   faqTitulo: "Perguntas sobre nota fiscal de produtor no ES",
   faq: [
     ["Como emitir nota fiscal avulsa de produtor rural no ES?","Não se emite mais. A Secretaria da Fazenda do Espírito Santo encerrou as novas emissões de NFA-e a partir de 01/01/2026 e indica o aplicativo Nota Fiscal Fácil, gratuito, que emite NF-e e NFC-e."],

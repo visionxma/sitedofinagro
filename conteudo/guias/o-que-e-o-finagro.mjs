@@ -15,7 +15,7 @@ export default {
   description: 'FINAGRO é um aplicativo brasileiro de gestão rural feito pela VisionX: o que ele faz, o que não faz, quanto custa cada plano e como começar de graça.',
   h1: 'O que é o FINAGRO, o aplicativo de gestão rural',
   pergunta: 'O que é o FINAGRO?',
-  resposta: 'O FINAGRO é um aplicativo brasileiro de gestão rural, feito pela VisionX, que reúne rebanho, lavoura, dinheiro e equipe da fazenda no celular Android e no navegador. É grátis para sempre até 3 fazendas, 5 pessoas e 1.000 animais com ficha, sem cartão. Não tem relação com o Finagro da Colômbia, que é um fundo de crédito.',
+  resposta: 'O FINAGRO é um aplicativo brasileiro de gestão rural, feito pela VisionX, que reúne rebanho, lavoura, dinheiro e equipe da fazenda no iPhone, no Android e no navegador. É grátis para sempre até 3 fazendas, 5 pessoas e 1.000 animais com ficha, sem cartão. Não tem relação com o Finagro da Colômbia, que é um fundo de crédito.',
   tela: 'inicio',
   atualizado: '2026-10-08',
   secoes: [
@@ -23,7 +23,7 @@ export default {
       { tabela: { colunas: ['Item', 'FINAGRO'], linhas: [
         ['O que é', 'Aplicativo de gestão rural para fazenda, sítio e granja'],
         ['Quem faz', 'VisionX, desenvolvedora brasileira de software'],
-        ['Onde funciona', 'Celular Android (Google Play) e navegador, em app.finagro.app'],
+        ['Onde funciona', 'iPhone (App Store), Android (Google Play) e navegador, em app.finagro.app'],
         ['Preço', 'Plano Campo grátis para sempre; pagos a partir de R$ 59,90 por mês'],
         ['Limite do grátis', '3 fazendas, 5 pessoas, 1.000 animais com ficha, lote sem limite'],
         ['Idioma', 'Português do Brasil'],
@@ -47,7 +47,6 @@ export default {
         '**Não emite GTA nem nota fiscal.** A guia e a nota saem nos sistemas oficiais; o app registra e lembra o vencimento.',
         '**Não envia nada à Receita.** Ele gera o arquivo do LCDPR com os lançamentos; o contador completa, valida e entrega.',
         '**Não se liga a balança, leitor de brinco, coleira ou sensor.** O que aparece no app é o que alguém lançou.',
-        '**Não tem aplicativo na loja da Apple.** No iPhone, abre pelo navegador com a mesma conta.',
       ] },
     ] },
     { h2: 'Quanto custa', blocos: [
@@ -60,7 +59,7 @@ export default {
     ] },
     { h2: 'Como começar', blocos: [
       { ol: [
-        'Baixe o FINAGRO na [Google Play](https://play.google.com/store/apps/details?id=com.raykkony.fblogin) ou abra [app.finagro.app](https://app.finagro.app/) no navegador.',
+        'No iPhone, baixe o FINAGRO na [App Store](https://apps.apple.com/br/app/finagro/id6827268381); no Android, na [Google Play](https://play.google.com/store/apps/details?id=com.raykkony.fblogin). No computador, abra [app.finagro.app](https://app.finagro.app/) no navegador.',
         'Entre com a conta Google ou com e-mail e senha e cadastre a fazenda.',
         'Conte o que você cria e planta, e lance o primeiro lote, a primeira despesa ou importe a planilha que você já usa, salva como CSV.',
       ] },
@@ -78,7 +77,7 @@ export default {
     ['O FINAGRO é gratuito?', 'O plano Campo é grátis para sempre e sem cartão, com até 3 fazendas, 5 pessoas e 1.000 animais com ficha. Os planos pagos, de R$ 59,90 a R$ 299,90 por mês, são para quem precisa de mais fazendas, pessoas ou animais com ficha.'],
     ['O FINAGRO é do governo ou de algum banco?', 'Não. É um aplicativo privado, desenvolvido pela VisionX. Ele também não tem relação com o Finagro da Colômbia, que é um fundo de crédito agropecuário com sede em Bogotá.'],
     ['Quem desenvolve o FINAGRO?', 'A VisionX, desenvolvedora brasileira de software, que mantém o aplicativo, o site finagro.app e o sistema em app.finagro.app.'],
-    ['Tem FINAGRO para iPhone?', 'O aplicativo instalado é para Android e está na Google Play. No iPhone, no tablet e no computador, o FINAGRO funciona pelo navegador, com a mesma conta e os mesmos dados.'],
+    ['Tem FINAGRO para iPhone?', 'Tem. O aplicativo está na App Store para iPhone desde 31 de outubro de 2026, e na Google Play para Android. No tablet e no computador, o FINAGRO funciona pelo navegador, com a mesma conta e os mesmos dados.'],
     ['Os meus dados ficam presos no aplicativo?', 'Não. As listas e os relatórios saem em PDF e em planilha quando você quiser, e os dados ficam guardados na sua conta: ao trocar de celular, está tudo lá.'],
   ],
   fontes: [

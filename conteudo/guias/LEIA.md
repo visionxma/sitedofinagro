@@ -162,7 +162,8 @@ roda os `exemplos` e reprova se a conta não bater. Rótulos com até 34 caracte
   insumos, clima da fazenda, mão de obra e trabalhadores, pessoas da equipe com papel e permissão, tarefas.
 - **Mercado e apoio:** cotação do boi gordo (CONAB), notícias do agro, marketplace de animais, simulador de crédito
   rural (só linhas do Pronaf, com taxas de referência fixas: não é proposta de banco), assistente FINAGRO AI (15 perguntas por dia no grátis), importação de planilha em CSV (animais, despesas, receitas, fornecedores e estoque; arquivo .xlsx é recusado: salva-se como CSV).
-- **Geral:** celular Android (Google Play) e navegador em app.finagro.app (iPhone, tablet e computador); lançamento sem
+- **Geral:** aplicativo no iPhone (App Store, desde 31/10/2026) e no Android (Google Play), e navegador em app.finagro.app
+  (tablet e computador); lançamento sem
   sinal fica salvo no aparelho e sobe quando a internet volta; o painel se monta pelo que o produtor cria (gado de
   corte, leite, aves, suínos, peixes, abelhas, horta, grãos).
 - **Preço:** plano Campo grátis para sempre, sem cartão: até 3 fazendas, 5 pessoas e 1.000 animais com ficha, com lote
@@ -170,7 +171,7 @@ roda os `exemplos` e reprova se a conta não bater. Rótulos com até 34 caracte
 
 **O que o FINAGRO NÃO faz (nunca prometer):** não emite GTA nem nota fiscal; não transmite nada à Receita, ao INCRA ou
 à defesa agropecuária; não integra balança, leitor de brinco eletrônico, coleira ou sensor; não tem imagem de satélite
-nem drone; não tem aplicativo na App Store (no iPhone é pelo navegador); não faz a declaração do ITR, do CAR ou do
+nem drone; não faz a declaração do ITR, do CAR ou do
 imposto de renda; não redige contrato. Quando o assunto do guia for uma dessas coisas, diga com todas as letras o que
 o app NÃO faz e mostre o que ele faz em volta (guardar, lembrar, somar, organizar).
 

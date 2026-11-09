@@ -94,7 +94,7 @@ export default {
     'Separe receitas e despesas por centro de custo e acompanhe o fluxo de caixa.',
     'Registre a colheita com o comprador e leve os relatórios em PDF ou planilha CSV.',
   ] },
-  cta: { forte: 'Leve o custo do talhão e da safra no celular.', texto: 'Plano Campo grátis para sempre, sem cartão, no Android e no navegador.' },
+  cta: { forte: 'Leve o custo do talhão e da safra no celular.', texto: 'Plano Campo grátis para sempre, sem cartão, no iPhone, no Android e no navegador.' },
   faqTitulo: 'Perguntas sobre custo por hectare',
   faq: [
     ['Como calcular o custo de produção por hectare?', 'Some os gastos atribuídos à safra e divida pela área plantada em hectares. Se a safra custou R$ 60.000 em 100 hectares, o custo foi de R$ 600 por hectare.'],

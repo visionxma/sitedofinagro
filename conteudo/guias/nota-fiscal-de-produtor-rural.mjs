@@ -67,7 +67,7 @@ export default {
     'Relatórios em PDF e em planilha (CSV) reúnem vendas e despesas do período para o contador conferir com as notas.',
     'O app não emite nota fiscal e não faz inscrição estadual: a nota se emite no Nota Fiscal Fácil ou no sistema da Secretaria da Fazenda.',
   ] },
-  cta: { forte: 'A nota sai no aplicativo da Fazenda. A venda fica anotada no FINAGRO.', texto: 'Grátis até 1.000 animais com ficha, sem cartão, no Android e no navegador.' },
+  cta: { forte: 'A nota sai no aplicativo da Fazenda. A venda fica anotada no FINAGRO.', texto: 'Grátis até 1.000 animais com ficha, sem cartão, no iPhone, no Android e no navegador.' },
   faqTitulo: 'Perguntas sobre nota fiscal de produtor',
   faq: [
     ['O talão de nota fiscal de produtor rural ainda vale?', 'Não. Com a obrigatoriedade da nota eletrônica, o Confaz vedou a emissão da nota fiscal modelo 4. Para os produtores de menor faturamento, a obrigação começou em 5 de janeiro de 2026.'],

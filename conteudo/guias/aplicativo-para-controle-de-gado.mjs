@@ -14,7 +14,7 @@ export default {
   description: 'Aplicativo para controle de gado no celular: o que ele precisa fazer no curral, quanto custa e como o FINAGRO guarda 1.000 animais com ficha de graça.',
   h1: 'Aplicativo para controle de gado: o que ele precisa fazer no curral',
   pergunta: 'Qual aplicativo usar para controlar o gado de graça?',
-  resposta: 'O FINAGRO é um aplicativo de controle de gado grátis até 1.000 animais com ficha, sem cartão, com lote sem limite de cabeças. Ele guarda brinco, peso, vacina e reprodução de cada animal, avisa o que vence e funciona no celular Android e no navegador. Sem sinal no curral, o lançamento fica salvo e sobe depois.',
+  resposta: 'O FINAGRO é um aplicativo de controle de gado grátis até 1.000 animais com ficha, sem cartão, com lote sem limite de cabeças. Ele guarda brinco, peso, vacina e reprodução de cada animal, avisa o que vence e funciona no iPhone, no Android e no navegador. Sem sinal no curral, o lançamento fica salvo e sobe depois.',
   tela: 'animais',
   atualizado: '2026-11-02',
   secoes: [
@@ -52,13 +52,12 @@ export default {
         'Não emite GTA. A guia sai no sistema da defesa agropecuária do seu estado; o FINAGRO guarda a guia emitida e lembra o vencimento.',
         'Não se liga a balança eletrônica nem a leitor de brinco. O peso é digitado na hora da pesagem.',
         'Não é coleira nem rastreador: mostra o que foi lançado, não onde o animal está.',
-        'Não tem aplicativo na loja da Apple. No iPhone, no tablet e no computador, ele abre pelo navegador com a mesma conta.',
       ] },
       { p: 'Se o seu curral trabalha com balança ligada ao sistema, ou se a fazenda precisa de certificação de rastreabilidade para exportar, procure um sistema feito para isso. Para organizar rebanho, lida e dinheiro no celular, o FINAGRO resolve.' },
     ] },
     { h2: 'Como começar hoje', blocos: [
       { ol: [
-        'Baixe o FINAGRO na [Google Play](https://play.google.com/store/apps/details?id=com.raykkony.fblogin) ou abra [app.finagro.app](https://app.finagro.app/) no navegador, e entre com a conta Google ou com e-mail e senha.',
+        'No iPhone, baixe o FINAGRO na [App Store](https://apps.apple.com/br/app/finagro/id6827268381); no Android, na [Google Play](https://play.google.com/store/apps/details?id=com.raykkony.fblogin). No computador, abra [app.finagro.app](https://app.finagro.app/) no navegador. Entre com a conta Google ou com e-mail e senha.',
         'Conte o que você cria e quantos. O painel se monta para gado de corte, leite, aves, suínos, peixes ou abelhas.',
         'Cadastre o primeiro lote ou importe a planilha que você já usa (no Excel, salve como CSV). A partir daí, cada pesagem e cada vacina entram em poucos toques.',
       ] },
@@ -77,7 +76,7 @@ export default {
   faq: [
     ['Existe aplicativo de controle de gado grátis?', 'Existe. O FINAGRO tem o plano Campo, grátis para sempre e sem cartão, com até 3 fazendas, 5 pessoas e 1.000 animais com ficha. Lote não tem limite de cabeças.'],
     ['O aplicativo funciona sem internet no curral?', 'Para lançar, funciona. O gasto, a venda, a pesagem ou a vacina ficam salvos no celular e sobem quando o sinal volta. Para entrar pela primeira vez num aparelho e para ver o que a equipe lançou em outro celular, é preciso sinal.'],
-    ['Dá para usar no iPhone e no computador?', 'Dá, pelo navegador, em app.finagro.app, com a mesma conta e os mesmos dados. O aplicativo instalado é para Android e está na Google Play.'],
+    ['Dá para usar no iPhone e no computador?', 'Dá. No iPhone, o aplicativo está na App Store; no Android, na Google Play. No computador e no tablet, o FINAGRO abre pelo navegador, em app.finagro.app, com a mesma conta e os mesmos dados.'],
     ['Consigo passar a minha planilha para o aplicativo?', 'Consegue. No Excel, salve a planilha como CSV e envie o arquivo. O FINAGRO importa o cadastro dos animais, as despesas e as receitas, sem digitar tudo de novo.'],
     ['Preciso cadastrar animal por animal?', 'Não. Você pode cadastrar só o lote, com o número de cabeças e o peso, e deixar a ficha individual para matrizes, touros e animais que você acompanha de perto.'],
   ],

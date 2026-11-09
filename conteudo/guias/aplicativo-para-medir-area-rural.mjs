@@ -54,7 +54,7 @@ export default {
     'Até 100 áreas salvas no plano Campo gratuito, sem cartão.',
     'Salvamento no aparelho sem internet e sincronização quando o sinal volta.',
   ] },
-  cta: { forte: 'Meça o pasto pelo celular e guarde a área na fazenda.', texto: 'FINAGRO grátis no Android e no navegador, sem cartão.' },
+  cta: { forte: 'Meça o pasto pelo celular e guarde a área na fazenda.', texto: 'FINAGRO grátis no iPhone, no Android e no navegador, sem cartão.' },
   faqTitulo: 'Perguntas sobre medir área pelo celular',
   faq: [
     ['Qual aplicativo mede área rural pelo GPS?', 'O FINAGRO mede áreas no Android por pontos ou caminhada, mostra m², hectares e km² e guarda até 100 áreas no plano gratuito.'],

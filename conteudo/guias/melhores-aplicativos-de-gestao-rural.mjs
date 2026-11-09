@@ -55,7 +55,7 @@ export default {
       { ul: [
         '**Precisa emitir nota fiscal de produtor no próprio sistema?** O Aegro emite a nota fiscal eletrônica do produtor (NF-e) e o manifesto de carga (MDF-e) ligado à Secretaria da Fazenda, e diz que isso funciona até no plano gratuito. O FINAGRO não emite nota.',
         '**O curral pesa com balança eletrônica e brinco com chip?** O JetBov informa automação com balança eletrônica e identificação por radiofrequência; o Leigado, leitura de brinco eletrônico com bastão. No FINAGRO o peso é digitado.',
-        '**A fazenda é de leite e a equipe usa iPhone?** O Leigado tem aplicativo para Android e iOS. O FINAGRO tem aplicativo para Android; no iPhone abre pelo navegador.',
+        '**A equipe usa iPhone?** O Leigado e o FINAGRO têm aplicativo para Android e para iPhone. O iRancho informa que a versão para iOS ainda não saiu; nesses aparelhos, ele abre por um link no navegador.',
         '**Confinamento grande de corte?** O iRancho tem módulo próprio de confinamento.',
         '**Quer começar hoje, sem falar com vendedor e sem pagar?** O FINAGRO é grátis para sempre até 3 fazendas, 5 pessoas e 1.000 animais com ficha, com lote sem limite de cabeças.',
         '**Cria mais de uma coisa?** O FINAGRO monta o painel para gado de corte, leite, aves, suínos, peixes, abelhas, horta e grãos na mesma conta.',
@@ -85,7 +85,7 @@ export default {
   noFinagro: { h2: 'O que o FINAGRO entrega de graça', depoisDe: 3, itens: [
     'Até **3 fazendas**, **5 pessoas** e **1.000 animais com ficha**, com lote sem limite de cabeças, sem cartão.',
     'Rebanho (ficha, pesagem, vacina, reprodução, registro de GTA), lavoura (safra, talhão, caderno de campo) e dinheiro (receitas, despesas, contas e fluxo de caixa).',
-    'Lançamento sem sinal no celular Android, e a mesma conta no navegador do computador.',
+    'Aplicativo no iPhone e no Android, com lançamento sem sinal no celular, e a mesma conta no navegador do computador.',
     'Relatórios em PDF e em planilha, para os dados serem seus.',
   ] },
   cta: { forte: 'Compare na prática: o FINAGRO você testa hoje, sem vendedor.', texto: 'Grátis até 3 fazendas, 5 pessoas e 1.000 animais com ficha. Sem cartão.' },

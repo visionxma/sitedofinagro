@@ -61,7 +61,7 @@ export default {
     ] },
     { h2: 'Do curral ao escritório com a mesma conta', blocos: [
       { ol: [
-        'Abra [app.finagro.app](https://app.finagro.app/) no computador ou baixe o aplicativo na [Google Play](https://play.google.com/store/apps/details?id=com.raykkony.fblogin), e entre com a conta Google ou com e-mail e senha.',
+        'Abra [app.finagro.app](https://app.finagro.app/) no computador, ou baixe o aplicativo no celular: [App Store](https://apps.apple.com/br/app/finagro/id6827268381) no iPhone, [Google Play](https://play.google.com/store/apps/details?id=com.raykkony.fblogin) no Android. Entre com a conta Google ou com e-mail e senha.',
         'Cadastre a fazenda e conte o que ela produz. O painel se monta para o que você cria e planta.',
         'Importe a planilha com o rebanho, as despesas ou as receitas que você já tem. No Excel, salve como CSV antes de enviar.',
         'Convide a equipe e escolha o papel de cada pessoa. Quem está no curral lança; quem está na sede confere.',
@@ -80,7 +80,7 @@ export default {
   faqTitulo: 'Perguntas sobre software de gestão rural',
   faq: [
     ['Existe software de gestão rural gratuito?', 'Existe. O plano Campo do FINAGRO é grátis para sempre e sem cartão, com até 3 fazendas, 5 pessoas e 1.000 animais com ficha, e traz todas as funções do app.'],
-    ['Preciso instalar alguma coisa no computador?', 'Não. No computador o FINAGRO abre pelo navegador, em app.finagro.app. No celular Android há o aplicativo na Google Play, com a mesma conta.'],
+    ['Preciso instalar alguma coisa no computador?', 'Não. No computador o FINAGRO abre pelo navegador, em app.finagro.app. No celular há o aplicativo, na App Store para iPhone e na Google Play para Android, com a mesma conta.'],
     ['Serve para lavoura ou só para gado?', 'Serve para os dois. Há safras, talhões, caderno de campo e custo por hectare para a lavoura, e ficha, lote, vacina e reprodução para o rebanho, com o dinheiro da fazenda num lugar só.'],
     ['O sistema substitui o contador?', 'Não. Ele organiza receitas e despesas e gera o arquivo do LCDPR no leiaute da Receita com os lançamentos. Conferir, completar e entregar continua sendo trabalho do contador.'],
     ['Quanto tempo leva para começar a usar?', 'O cadastro leva alguns minutos, sem implantação e sem treinamento agendado. Quem já tem planilha salva o arquivo como CSV, importa e começa com o rebanho carregado.'],

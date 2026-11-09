@@ -101,7 +101,7 @@ Para lançar, funciona. Sem sinal, o gasto, a venda ou a vacina ficam salvos no 
 Serve para quem cria pouco? E para quem cria muito?
 Serve dos dois lados. Você conta o que produz e quantos, e o painel se ajusta: o leiteiro com 12 vacas vê o leite do dia e a reprodução; a granja com 1 milhão de aves vê os galpões e o trato. Galpão, tanque, colmeia e lote de gado contam como um lote só, sem limite de cabeças.
 Tem para iPhone?
-O aplicativo de celular está na Play Store para Android. No iPhone, no tablet e no computador, o FINAGRO funciona pelo navegador em app.finagro.app, com a mesma conta e os mesmos dados.
+Tem. O aplicativo está na App Store para iPhone e na Google Play para Android. No tablet e no computador, o FINAGRO funciona pelo navegador em app.finagro.app, com a mesma conta e os mesmos dados.
 O FINAGRO emite a GTA?
 Não. A GTA (Guia de Trânsito Animal) é emitida no sistema da defesa agropecuária do seu estado. No FINAGRO você registra as GTAs emitidas, o app lembra 1 dia antes do vencimento e avisa quando falta anotar a vacina que trava a guia.
 O app gera o LCDPR?
@@ -470,7 +470,7 @@ Sem limitede cabeças por lote: o lote inteiro conta como um só
 Limites do plano Campo. Quem precisa de mais fazendas, gente ou fichas tem planos de R$ 59,90 a R$ 299,90 por mês.
 Como você começa no FINAGRO hoje
 1Baixe ou abra no navegador
-No Android, pela Google Play. No iPhone e no computador, pelo navegador em app.finagro.app.
+No iPhone, pela App Store. No Android, pela Google Play. No computador, pelo navegador em app.finagro.app.
 2Diga o que você cria
 Gado de corte, leite ou lavoura: o painel se monta pelo que você marcar.
 3Lance no curral
@@ -478,7 +478,7 @@ Pesagem, vacina e despesa pelo celular, mesmo longe do sinal.
 4Bata o olho no lote e no caixa
 O ganho entre as pesagens, a vacina que vence e o saldo previsto, sem passar nada a limpo.
 E o que o FINAGRO não faz?
-Não emite GTA nem nota fiscal, não liga balança nem brinco eletrônico, e não tem aplicativo na App Store: no iPhone é pelo navegador. Ele guarda as GTAs emitidas, lembra o vencimento 1 dia antes, e o peso você digita no curral.
+Não emite GTA nem nota fiscal e não liga balança nem brinco eletrônico. Ele guarda as GTAs emitidas, lembra o vencimento 1 dia antes, e o peso você digita no curral.
 O FINAGRO é grátis mesmo?
 É. O plano Campo é grátis para sempre e não pede cartão: até 3 fazendas, 5 pessoas e 1.000 animais com ficha, com lote de qualquer tamanho e todas as funções do app. Os planos pagos, de R$ 59,90 a R$ 299,90 por mês, são para quem precisa de mais fazendas, gente ou animais com ficha.
 E se o meu rebanho passar de 1.000 cabeças?
@@ -637,7 +637,7 @@ App para controle de gado
 GuiaEscolher um aplicativo
 Aplicativo para controle de gado: o que ele precisa fazer no curral
 Qual aplicativo usar para controlar o gado de graça?
-O FINAGRO é um aplicativo de controle de gado grátis até 1.000 animais com ficha, sem cartão, com lote sem limite de cabeças. Ele guarda brinco, peso, vacina e reprodução de cada animal, avisa o que vence e funciona no celular Android e no navegador. Sem sinal no curral, o lançamento fica salvo e sobe depois.
+O FINAGRO é um aplicativo de controle de gado grátis até 1.000 animais com ficha, sem cartão, com lote sem limite de cabeças. Ele guarda brinco, peso, vacina e reprodução de cada animal, avisa o que vence e funciona no iPhone, no Android e no navegador. Sem sinal no curral, o lançamento fica salvo e sobe depois.
 Começar grátisBaixar no Android
 Atualizado em 02/11/2026
 Sete coisas para conferir antes de baixar qualquer um
@@ -674,10 +674,9 @@ Melhor saber antes de baixar:
 Não emite GTA. A guia sai no sistema da defesa agropecuária do seu estado; o FINAGRO guarda a guia emitida e lembra o vencimento.
 Não se liga a balança eletrônica nem a leitor de brinco. O peso é digitado na hora da pesagem.
 Não é coleira nem rastreador: mostra o que foi lançado, não onde o animal está.
-Não tem aplicativo na loja da Apple. No iPhone, no tablet e no computador, ele abre pelo navegador com a mesma conta.
 Se o seu curral trabalha com balança ligada ao sistema, ou se a fazenda precisa de certificação de rastreabilidade para exportar, procure um sistema feito para isso. Para organizar rebanho, lida e dinheiro no celular, o FINAGRO resolve.
 Como começar hoje
-Baixe o FINAGRO na Google Play ou abra app.finagro.app no navegador, e entre com a conta Google ou com e-mail e senha.
+No iPhone, baixe o FINAGRO na App Store; no Android, na Google Play. No computador, abra app.finagro.app no navegador. Entre com a conta Google ou com e-mail e senha.
 Conte o que você cria e quantos. O painel se monta para gado de corte, leite, aves, suínos, peixes ou abelhas.
 Cadastre o primeiro lote ou importe a planilha que você já usa (no Excel, salve como CSV). A partir daí, cada pesagem e cada vacina entram em poucos toques.
 Três contas aparecem logo na primeira semana de uso: o peso em arroba na calculadora de arroba do boi, as doses do calendário de vacinação bovina e a data do parto na calculadora de gestação bovina.
@@ -690,7 +689,7 @@ Existe. O FINAGRO tem o plano Campo, grátis para sempre e sem cartão, com até
 O aplicativo funciona sem internet no curral?
 Para lançar, funciona. O gasto, a venda, a pesagem ou a vacina ficam salvos no celular e sobem quando o sinal volta. Para entrar pela primeira vez num aparelho e para ver o que a equipe lançou em outro celular, é preciso sinal.
 Dá para usar no iPhone e no computador?
-Dá, pelo navegador, em app.finagro.app, com a mesma conta e os mesmos dados. O aplicativo instalado é para Android e está na Google Play.
+Dá. No iPhone, o aplicativo está na App Store; no Android, na Google Play. No computador e no tablet, o FINAGRO abre pelo navegador, em app.finagro.app, com a mesma conta e os mesmos dados.
 Consigo passar a minha planilha para o aplicativo?
 Consegue. No Excel, salve a planilha como CSV e envie o arquivo. O FINAGRO importa o cadastro dos animais, as despesas e as receitas, sem digitar tudo de novo.
 Preciso cadastrar animal por animal?
@@ -743,14 +742,14 @@ Dados dos sites oficiais em 08/10/2026. Preços e condições mudam: confirme no
 Em que cada um ganha
 Precisa emitir nota fiscal de produtor no próprio sistema? O Aegro emite a nota fiscal eletrônica do produtor (NF-e) e o manifesto de carga (MDF-e) ligado à Secretaria da Fazenda, e diz que isso funciona até no plano gratuito. O FINAGRO não emite nota.
 O curral pesa com balança eletrônica e brinco com chip? O JetBov informa automação com balança eletrônica e identificação por radiofrequência; o Leigado, leitura de brinco eletrônico com bastão. No FINAGRO o peso é digitado.
-A fazenda é de leite e a equipe usa iPhone? O Leigado tem aplicativo para Android e iOS. O FINAGRO tem aplicativo para Android; no iPhone abre pelo navegador.
+A equipe usa iPhone? O Leigado e o FINAGRO têm aplicativo para Android e para iPhone. O iRancho informa que a versão para iOS ainda não saiu; nesses aparelhos, ele abre por um link no navegador.
 Confinamento grande de corte? O iRancho tem módulo próprio de confinamento.
 Quer começar hoje, sem falar com vendedor e sem pagar? O FINAGRO é grátis para sempre até 3 fazendas, 5 pessoas e 1.000 animais com ficha, com lote sem limite de cabeças.
 Cria mais de uma coisa? O FINAGRO monta o painel para gado de corte, leite, aves, suínos, peixes, abelhas, horta e grãos na mesma conta.
 O que o FINAGRO entrega de graça
 Até 3 fazendas, 5 pessoas e 1.000 animais com ficha, com lote sem limite de cabeças, sem cartão.
 Rebanho (ficha, pesagem, vacina, reprodução, registro de GTA), lavoura (safra, talhão, caderno de campo) e dinheiro (receitas, despesas, contas e fluxo de caixa).
-Lançamento sem sinal no celular Android, e a mesma conta no navegador do computador.
+Aplicativo no iPhone e no Android, com lançamento sem sinal no celular, e a mesma conta no navegador do computador.
 Relatórios em PDF e em planilha, para os dados serem seus.
 Quantas pessoas podem lançar
 Fazenda não é tocada por uma pessoa só, e é aqui que a conta do sistema costuma crescer sem aviso. O que cada site informa:
@@ -817,14 +816,14 @@ O que é o FINAGRO
 GuiaEscolher um aplicativo
 O que é o FINAGRO, o aplicativo de gestão rural
 O que é o FINAGRO?
-O FINAGRO é um aplicativo brasileiro de gestão rural, feito pela VisionX, que reúne rebanho, lavoura, dinheiro e equipe da fazenda no celular Android e no navegador. É grátis para sempre até 3 fazendas, 5 pessoas e 1.000 animais com ficha, sem cartão. Não tem relação com o Finagro da Colômbia, que é um fundo de crédito.
+O FINAGRO é um aplicativo brasileiro de gestão rural, feito pela VisionX, que reúne rebanho, lavoura, dinheiro e equipe da fazenda no iPhone, no Android e no navegador. É grátis para sempre até 3 fazendas, 5 pessoas e 1.000 animais com ficha, sem cartão. Não tem relação com o Finagro da Colômbia, que é um fundo de crédito.
 Começar grátisBaixar no Android
 Atualizado em 08/10/2026
 Ficha rápida
 ItemFINAGRO
 O que éAplicativo de gestão rural para fazenda, sítio e granja
 Quem fazVisionX, desenvolvedora brasileira de software
-Onde funcionaCelular Android (Google Play) e navegador, em app.finagro.app
+Onde funcionaiPhone (App Store), Android (Google Play) e navegador, em app.finagro.app
 PreçoPlano Campo grátis para sempre; pagos a partir de R$ 59,90 por mês
 Limite do grátis3 fazendas, 5 pessoas, 1.000 animais com ficha, lote sem limite
 IdiomaPortuguês do Brasil
@@ -847,7 +846,6 @@ Não é do governo nem de banco. É um produto privado, da VisionX.
 Não emite GTA nem nota fiscal. A guia e a nota saem nos sistemas oficiais; o app registra e lembra o vencimento.
 Não envia nada à Receita. Ele gera o arquivo do LCDPR com os lançamentos; o contador completa, valida e entrega.
 Não se liga a balança, leitor de brinco, coleira ou sensor. O que aparece no app é o que alguém lançou.
-Não tem aplicativo na loja da Apple. No iPhone, abre pelo navegador com a mesma conta.
 Quanto custa
 O plano Campo é grátis para sempre e não pede cartão: até 3 fazendas, 5 pessoas, 1.000 animais com ficha, 100 áreas medidas no GPS, 15 perguntas por dia ao FINAGRO AI e todas as funções do app. Lote não tem limite de cabeças em nenhum plano.
 Os planos pagos vão de R$ 59,90 a R$ 299,90 por mês e aumentam o número de fazendas, de pessoas e de animais com ficha. Para grupos, cooperativas e consultorias há o plano Empresarial, a partir de R$ 699 por mês.
@@ -855,7 +853,7 @@ Para quem é e para quem não é
 É para o produtor que quer sair do caderno e da planilha e ter rebanho, lavoura e caixa no celular, do sítio com poucas vacas de leite à fazenda de corte com vários lotes, e para quem cria mais de uma coisa na mesma propriedade.
 Não é a melhor escolha para a fazenda que precisa de balança eletrônica ligada ao sistema, de certificação de rastreabilidade ou de emissão de nota dentro do aplicativo. A comparação entre aplicativos de gestão rural mostra quem faz cada uma dessas coisas.
 Como começar
-Baixe o FINAGRO na Google Play ou abra app.finagro.app no navegador.
+No iPhone, baixe o FINAGRO na App Store; no Android, na Google Play. No computador, abra app.finagro.app no navegador.
 Entre com a conta Google ou com e-mail e senha e cadastre a fazenda.
 Conte o que você cria e planta, e lance o primeiro lote, a primeira despesa ou importe a planilha que você já usa, salva como CSV.
 Conheça o FINAGRO usando: é grátis e não pede cartão.
@@ -869,7 +867,7 @@ Não. É um aplicativo privado, desenvolvido pela VisionX. Ele também não tem 
 Quem desenvolve o FINAGRO?
 A VisionX, desenvolvedora brasileira de software, que mantém o aplicativo, o site finagro.app e o sistema em app.finagro.app.
 Tem FINAGRO para iPhone?
-O aplicativo instalado é para Android e está na Google Play. No iPhone, no tablet e no computador, o FINAGRO funciona pelo navegador, com a mesma conta e os mesmos dados.
+Tem. O aplicativo está na App Store para iPhone desde 31 de outubro de 2026, e na Google Play para Android. No tablet e no computador, o FINAGRO funciona pelo navegador, com a mesma conta e os mesmos dados.
 Os meus dados ficam presos no aplicativo?
 Não. As listas e os relatórios saem em PDF e em planilha quando você quiser, e os dados ficam guardados na sua conta: ao trocar de celular, está tudo lá.
 Fontes
@@ -945,7 +943,7 @@ Balança eletrônica, leitor de brinco e sensores ligados ao sistema.
 Imagem de satélite da lavoura e telemetria de máquinas.
 Nesses casos, procure um sistema especializado nessa parte. Muita fazenda usa os dois: o especializado para a nota ou para a balança, e o FINAGRO para o rebanho, a lida e o caixa do dia a dia.
 Do curral ao escritório com a mesma conta
-Abra app.finagro.app no computador ou baixe o aplicativo na Google Play, e entre com a conta Google ou com e-mail e senha.
+Abra app.finagro.app no computador, ou baixe o aplicativo no celular: App Store no iPhone, Google Play no Android. Entre com a conta Google ou com e-mail e senha.
 Cadastre a fazenda e conte o que ela produz. O painel se monta para o que você cria e planta.
 Importe a planilha com o rebanho, as despesas ou as receitas que você já tem. No Excel, salve como CSV antes de enviar.
 Convide a equipe e escolha o papel de cada pessoa. Quem está no curral lança; quem está na sede confere.
@@ -957,7 +955,7 @@ Perguntas sobre software de gestão rural
 Existe software de gestão rural gratuito?
 Existe. O plano Campo do FINAGRO é grátis para sempre e sem cartão, com até 3 fazendas, 5 pessoas e 1.000 animais com ficha, e traz todas as funções do app.
 Preciso instalar alguma coisa no computador?
-Não. No computador o FINAGRO abre pelo navegador, em app.finagro.app. No celular Android há o aplicativo na Google Play, com a mesma conta.
+Não. No computador o FINAGRO abre pelo navegador, em app.finagro.app. No celular há o aplicativo, na App Store para iPhone e na Google Play para Android, com a mesma conta.
 Serve para lavoura ou só para gado?
 Serve para os dois. Há safras, talhões, caderno de campo e custo por hectare para a lavoura, e ficha, lote, vacina e reprodução para o rebanho, com o dinheiro da fazenda num lugar só.
 O sistema substitui o contador?
@@ -1094,10 +1092,10 @@ A gestação da vaca dura em média 290 dias no gado de corte, cerca de nove mes
 Atualizado em 08/10/2026
 Calcule o parto, a secagem e o diagnóstico
 Data da cobertura ou da IADias de gestaçãoDias de secagem antes do parto
-20/08/2027parto previsto
-21/06/2027secar a vaca de leite em
-28/11/2026ultrassom a partir de
-02/01/2027palpação a partir de
+26/08/2027parto previsto
+27/06/2027secar a vaca de leite em
+04/12/2026ultrassom a partir de
+08/01/2027palpação a partir de
 Os 290 dias são a média do gado de corte segundo a Embrapa. Zebuíno tende a gestar mais dias e raça europeia menos: ajuste o campo se o seu rebanho tem a média própria. A secagem só vale para vaca de leite. O parto é uma previsão: pode vir alguns dias antes ou depois. No aplicativo FINAGRO o parto previsto sai com 283 dias, dentro da mesma faixa.
 Quantos dias dura a gestação da vaca
 No gado de corte, a Embrapa Gado de Corte dá 290 dias como duração média da gestação. É perto de nove meses e meio. A conta do parto é simples: data da cobertura mais 290 dias.
@@ -3637,7 +3635,7 @@ Acompanhe o fluxo de caixa com o saldo previsto antes do vencimento das contas.
 Tire relatórios em PDF ou planilha CSV para conferir os lançamentos com o contador.
 O lançamento feito sem sinal fica salvo no aparelho e sobe quando a internet volta.
 Leve as contas do leite para o celular e feche o mês certo.
-Plano Campo grátis para sempre, sem cartão, no Android e no navegador.
+Plano Campo grátis para sempre, sem cartão, no iPhone, no Android e no navegador.
 Começar grátis
 Perguntas sobre custo do litro de leite
 Qual é a fórmula do custo do litro de leite?
@@ -3730,7 +3728,7 @@ Use o caderno de campo para guardar as operações feitas na lavoura.
 Separe receitas e despesas por centro de custo e acompanhe o fluxo de caixa.
 Registre a colheita com o comprador e leve os relatórios em PDF ou planilha CSV.
 Leve o custo do talhão e da safra no celular.
-Plano Campo grátis para sempre, sem cartão, no Android e no navegador.
+Plano Campo grátis para sempre, sem cartão, no iPhone, no Android e no navegador.
 Começar grátis
 Perguntas sobre custo por hectare
 Como calcular o custo de produção por hectare?
@@ -3928,7 +3926,7 @@ Registre no caderno de campo as operações e os custos da safra.
 Anote a colheita com a quantidade e o comprador.
 Veja o custo por hectare junto dos registros da lavoura.
 Talhão, colheita e custo por hectare no mesmo lugar.
-Use no Android ou no navegador. O plano Campo é grátis e não pede cartão.
+Use no iPhone, no Android ou no navegador. O plano Campo é grátis e não pede cartão.
 Começar grátis
 Perguntas sobre sacas por hectare
 Como calcular sacas por hectare?
@@ -4031,7 +4029,7 @@ Contas a pagar e a receber guardam a data do acerto com o comprador e o saldo pr
 Relatórios em PDF e em planilha (CSV) levam receitas e despesas organizadas para o contador.
 O app não calcula, não desconta e não recolhe o Funrural, e não transmite nada à Receita: a conta desta página é só para você conferir a nota.
 Venda, desconto e saldo do mês no mesmo lugar.
-Grátis até 1.000 animais com ficha, sem cartão, no Android e no navegador.
+Grátis até 1.000 animais com ficha, sem cartão, no iPhone, no Android e no navegador.
 Começar grátis
 Perguntas sobre Funrural
 Qual a alíquota do Funrural para pessoa física em 2026?
@@ -4410,7 +4408,7 @@ Relatórios em PDF e em planilha (CSV) com receitas e despesas organizadas para 
 Arquivo do LCDPR no leiaute da Receita, para o contador completar e validar.
 O app não faz a declaração do imposto de renda e não transmite nada à Receita: ele guarda e organiza os números que alimentam o Demonstrativo da Atividade Rural.
 Receita e despesa lançadas no mês, o livro caixa pronto no fim.
-Grátis até 1.000 animais com ficha, sem cartão, no Android e no navegador.
+Grátis até 1.000 animais com ficha, sem cartão, no iPhone, no Android e no navegador.
 Começar grátis
 Perguntas sobre imposto de renda rural
 Produtor rural precisa declarar imposto de renda?
@@ -4629,7 +4627,7 @@ Na venda de gado, a saída do animal guarda o destino ou comprador. O valor que 
 A tela Documentos guarda a inscrição estadual como outro documento, com o número, ao lado do CCIR, do ITR e dos contratos.
 Relatórios em PDF e em planilha (CSV) reúnem as vendas e as despesas do período para o contador conferir com as notas.
 A nota sai no sistema da Fazenda. A venda fica anotada no FINAGRO.
-Grátis até 1.000 animais com ficha, sem cartão, no Android e no navegador.
+Grátis até 1.000 animais com ficha, sem cartão, no iPhone, no Android e no navegador.
 Começar grátis
 Perguntas sobre nota fiscal de produtor em Goiás
 Como emitir nota fiscal de produtor rural em Goiás?
@@ -4721,7 +4719,7 @@ Na venda de gado, a saída do animal guarda o destino ou comprador. O valor que 
 A tela Documentos guarda a inscrição estadual como outro documento, com o número, ao lado do CCIR, do ITR e dos contratos.
 Relatórios em PDF e em planilha (CSV) reúnem as vendas e as despesas do período para o contador conferir com as notas.
 A nota sai no sistema da Fazenda. A venda fica anotada no FINAGRO.
-Grátis até 1.000 animais com ficha, sem cartão, no Android e no navegador.
+Grátis até 1.000 animais com ficha, sem cartão, no iPhone, no Android e no navegador.
 Começar grátis
 Perguntas sobre nota fiscal de produtor em MG
 Como emitir nota fiscal avulsa de produtor rural em MG?
@@ -4813,7 +4811,7 @@ Na venda de gado, a saída do animal guarda o destino ou comprador. O valor que 
 A tela Documentos guarda a inscrição estadual como outro documento, com o número, ao lado do CCIR, do ITR e dos contratos.
 Relatórios em PDF e em planilha (CSV) reúnem as vendas e as despesas do período para o contador conferir com as notas.
 A nota sai no sistema da Fazenda. A venda fica anotada no FINAGRO.
-Grátis até 1.000 animais com ficha, sem cartão, no Android e no navegador.
+Grátis até 1.000 animais com ficha, sem cartão, no iPhone, no Android e no navegador.
 Começar grátis
 Perguntas sobre nota fiscal de produtor em SC
 Como emitir nota fiscal de produtor rural em Santa Catarina?
@@ -4911,7 +4909,7 @@ Na venda de gado, a saída do animal guarda o destino ou comprador. O valor que 
 A tela Documentos guarda a inscrição estadual como outro documento, com o número, ao lado do CCIR, do ITR e dos contratos.
 Relatórios em PDF e em planilha (CSV) reúnem as vendas e as despesas do período para o contador conferir com as notas.
 A nota sai no sistema da Fazenda. A venda fica anotada no FINAGRO.
-Grátis até 1.000 animais com ficha, sem cartão, no Android e no navegador.
+Grátis até 1.000 animais com ficha, sem cartão, no iPhone, no Android e no navegador.
 Começar grátis
 Perguntas sobre nota fiscal de produtor em SP
 Como emitir nota fiscal de produtor rural em SP?
@@ -5002,7 +5000,7 @@ Na venda de gado, a saída do animal guarda o destino ou comprador. O valor que 
 A tela Documentos guarda a inscrição estadual como outro documento, com o número, ao lado do CCIR, do ITR e dos contratos.
 Relatórios em PDF e em planilha (CSV) reúnem as vendas e as despesas do período para o contador conferir com as notas.
 A nota sai no sistema da Fazenda. A venda fica anotada no FINAGRO.
-Grátis até 1.000 animais com ficha, sem cartão, no Android e no navegador.
+Grátis até 1.000 animais com ficha, sem cartão, no iPhone, no Android e no navegador.
 Começar grátis
 Perguntas sobre nota fiscal de produtor na Bahia
 Como emitir nota fiscal avulsa de produtor rural na Bahia?
@@ -5093,7 +5091,7 @@ Na venda de gado, a saída do animal guarda o destino ou comprador. O valor que 
 A tela Documentos guarda a inscrição estadual como outro documento, com o número, ao lado do CCIR, do ITR e dos contratos.
 Relatórios em PDF e em planilha (CSV) reúnem as vendas e as despesas do período para o contador conferir com as notas.
 A nota sai no sistema da Fazenda. A venda fica anotada no FINAGRO.
-Grátis até 1.000 animais com ficha, sem cartão, no Android e no navegador.
+Grátis até 1.000 animais com ficha, sem cartão, no iPhone, no Android e no navegador.
 Começar grátis
 Perguntas sobre nota fiscal de produtor no DF
 Como emitir nota fiscal de produtor rural no DF?
@@ -5182,7 +5180,7 @@ Na venda de gado, a saída do animal guarda o destino ou comprador. O valor que 
 A tela Documentos guarda a inscrição estadual como outro documento, com o número, ao lado do CCIR, do ITR e dos contratos.
 Relatórios em PDF e em planilha (CSV) reúnem as vendas e as despesas do período para o contador conferir com as notas.
 A nota sai no sistema da Fazenda. A venda fica anotada no FINAGRO.
-Grátis até 1.000 animais com ficha, sem cartão, no Android e no navegador.
+Grátis até 1.000 animais com ficha, sem cartão, no iPhone, no Android e no navegador.
 Começar grátis
 Perguntas sobre nota fiscal de produtor no ES
 Como emitir nota fiscal avulsa de produtor rural no ES?
@@ -5270,7 +5268,7 @@ Na venda de gado, a saída do animal guarda o destino ou comprador. O valor que 
 A tela Documentos guarda a inscrição estadual como outro documento, com o número, ao lado do CCIR, do ITR e dos contratos.
 Relatórios em PDF e em planilha (CSV) reúnem as vendas e as despesas do período para o contador conferir com as notas.
 A nota sai no sistema da Fazenda. A venda fica anotada no FINAGRO.
-Grátis até 1.000 animais com ficha, sem cartão, no Android e no navegador.
+Grátis até 1.000 animais com ficha, sem cartão, no iPhone, no Android e no navegador.
 Começar grátis
 Perguntas sobre nota fiscal de produtor no Paraná
 Como emitir nota fiscal de produtor rural no Paraná?
@@ -5356,7 +5354,7 @@ Na venda de gado, a saída do animal guarda o destino ou comprador. O valor que 
 A tela Documentos guarda a inscrição estadual como outro documento, com o número, ao lado do CCIR, do ITR e dos contratos.
 Relatórios em PDF e em planilha (CSV) reúnem as vendas e as despesas do período para o contador conferir com as notas.
 A nota sai no sistema da Fazenda. A venda fica anotada no FINAGRO.
-Grátis até 1.000 animais com ficha, sem cartão, no Android e no navegador.
+Grátis até 1.000 animais com ficha, sem cartão, no iPhone, no Android e no navegador.
 Começar grátis
 Perguntas sobre nota fiscal de produtor no RS
 Como emitir nota fiscal de produtor rural no RS?
@@ -5447,7 +5445,7 @@ O registro das GTAs emitidas guarda o vencimento e avisa 1 dia antes, para a not
 Relatórios em PDF e em planilha (CSV) reúnem vendas e despesas do período para o contador conferir com as notas.
 O app não emite nota fiscal e não faz inscrição estadual: a nota se emite no Nota Fiscal Fácil ou no sistema da Secretaria da Fazenda.
 A nota sai no aplicativo da Fazenda. A venda fica anotada no FINAGRO.
-Grátis até 1.000 animais com ficha, sem cartão, no Android e no navegador.
+Grátis até 1.000 animais com ficha, sem cartão, no iPhone, no Android e no navegador.
 Começar grátis
 Perguntas sobre nota fiscal de produtor
 O talão de nota fiscal de produtor rural ainda vale?
@@ -5833,7 +5831,7 @@ Medição por pontos no mapa ou caminhando o contorno com o GPS do celular.
 Até 100 áreas salvas no plano Campo gratuito, sem cartão.
 Salvamento no aparelho sem internet e sincronização quando o sinal volta.
 Meça o pasto pelo celular e guarde a área na fazenda.
-FINAGRO grátis no Android e no navegador, sem cartão.
+FINAGRO grátis no iPhone, no Android e no navegador, sem cartão.
 Começar grátis
 Perguntas sobre medir área pelo celular
 Qual aplicativo mede área rural pelo GPS?
@@ -6248,7 +6246,7 @@ Cada parcela do arrendamento vira conta a pagar ou a receber com data de vencime
 O aluguel pago entra como despesa no centro de custo e aparece no fluxo de caixa com o saldo previsto.
 A área arrendada pode ser medida por GPS no celular, para conferir os hectares do contrato.
 Contrato guardado e parcela do arrendamento com aviso de vencimento.
-Grátis para sempre no plano Campo, sem cartão, no Android e no navegador.
+Grátis para sempre no plano Campo, sem cartão, no iPhone, no Android e no navegador.
 Começar grátis
 Perguntas sobre arrendamento rural
 Qual o prazo mínimo do contrato de arrendamento rural?

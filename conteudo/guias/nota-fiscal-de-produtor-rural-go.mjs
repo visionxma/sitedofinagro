@@ -76,7 +76,7 @@ export default {
     "A tela Documentos guarda a inscrição estadual como outro documento, com o número, ao lado do CCIR, do ITR e dos contratos.",
     "Relatórios em PDF e em planilha (CSV) reúnem as vendas e as despesas do período para o contador conferir com as notas.",
   ] },
-  cta: {"forte":"A nota sai no sistema da Fazenda. A venda fica anotada no FINAGRO.","texto":"Grátis até 1.000 animais com ficha, sem cartão, no Android e no navegador."},
+  cta: {"forte":"A nota sai no sistema da Fazenda. A venda fica anotada no FINAGRO.","texto":"Grátis até 1.000 animais com ficha, sem cartão, no iPhone, no Android e no navegador."},
   faqTitulo: "Perguntas sobre nota fiscal de produtor em Goiás",
   faq: [
     ["Como emitir nota fiscal de produtor rural em Goiás?","Pela internet, no serviço de Nota Fiscal Avulsa Eletrônica da Secretaria de Estado da Economia, com certificado digital. O produtor rural pessoa física também tem o aplicativo Nota Fiscal Fácil, conforme as operações liberadas."],

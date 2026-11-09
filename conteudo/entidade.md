@@ -26,7 +26,8 @@ mostra o fluxo de caixa com o saldo previsto e gera relatórios em PDF e em plan
 leiaute da Receita para o contador. Na lavoura, controla safras, talhões, caderno de campo e custo por hectare. Também
 mede área pelo GPS do celular, controla máquinas, estoque e mão de obra, e dá a cada pessoa da equipe o seu papel.
 O painel se monta pelo que o produtor cria: gado de corte, leite, aves, suínos, peixes, abelhas, horta ou grãos.
-Funciona no celular Android e no navegador; o lançamento feito sem sinal fica salvo e sobe quando a internet volta.
+Funciona no iPhone (App Store), no Android (Google Play) e no navegador; o lançamento feito sem sinal fica salvo e sobe
+quando a internet volta.
 
 ## Para quem é
 Produtor rural brasileiro de qualquer tamanho: do sítio com poucas vacas de leite à fazenda de corte com vários lotes,
@@ -34,7 +35,7 @@ e quem cria mais de uma coisa na mesma propriedade.
 
 ## Para quem não é
 Fazenda que precisa de balança eletrônica ou leitor de brinco ligados ao sistema, de certificação de rastreabilidade,
-de emissão de nota fiscal ou de GTA dentro do aplicativo, de imagem de satélite ou de aplicativo na App Store.
+de emissão de nota fiscal ou de GTA dentro do aplicativo ou de imagem de satélite.
 
 ## O que NÃO é
 - Não emite GTA nem nota fiscal; não envia nada à Receita, ao INCRA ou à defesa agropecuária.
