@@ -569,3 +569,50 @@ p { text-wrap: pretty; }
 @media (max-width: 39.99rem) { .topo__iphone { display: none; } }
 @media (min-width: 62rem) { .topo__iphone-curto { display: none; } .topo__iphone-longo { display: inline; } }
 @media (min-width: 62rem) and (hover: hover) and (pointer: fine) { .topo__iphone:hover { background: rgb(255 255 255 / .14); } .topo--flutua .topo__iphone:hover { background: var(--verde-claro); } }
+
+/* ---------- Topo, 09/11/2026: nada passa por cima de nada, e os botões que importam chamam ----------
+   O Victor viu "Entrar" escrito por cima de "Dúvidas" e "Guias" por cima do "Baixar para iPhone": a grade dava às duas
+   laterais a MESMA largura (1fr) e as ações (Entrar + iPhone + Baixar, 394px) não cabiam na lateral delas, de 992px a
+   1920px, e muito menos na cápsula (66rem). Agora: logo e ações no tamanho delas, os links no meio que sobra, os links
+   de menos prioridade saem da barra quando não cabem (continuam no menu), e os botões de loja com ícone e cor cheia. */
+.topo__barra { grid-template-columns: auto minmax(0, 1fr) auto; }
+.topo__nav { justify-self: center; }
+@media (min-width: 62rem) { .topo__nav a[data-p="3"] { display: none; } }
+@media (min-width: 62rem) and (max-width: 68.74rem) { .topo__nav a[data-p="2"] { display: none; } }
+
+/* Entrar: botão de contorno (antes era só texto) */
+.topo__entrar { border: 1.5px solid rgb(255 255 255 / .62); padding: .5rem 1.05rem; }
+.topo--flutua .topo__entrar { border-color: rgb(1 75 0 / .38); }
+
+/* App Store: cheio e de alto contraste — branco sobre a hero escura, preto na cápsula clara */
+.topo__iphone { gap: .45rem; padding: .5rem 1rem .5rem .85rem; background: #fff; color: #0b1a0a; border-color: #fff;
+  box-shadow: 0 10px 24px -14px rgb(0 0 0 / .7); }
+.topo__iphone svg { width: 19px; height: 19px; margin-top: -2px; }
+.topo--flutua .topo__iphone { background: #0b0f0c; color: #fff; border-color: #0b0f0c; }
+@media (min-width: 62rem) and (hover: hover) and (pointer: fine) {
+  .topo__iphone:hover { background: #fff; transform: translateY(-1px); box-shadow: 0 14px 28px -14px rgb(0 0 0 / .8); }
+  .topo--flutua .topo__iphone:hover { background: #000; }
+}
+
+/* Google Play: o verde da marca com halo, o botão principal da barra */
+.topo__baixar { gap: .45rem; padding: .5rem 1.1rem .5rem .9rem; background-color: var(--verde-botao);
+  box-shadow: 0 0 0 3px rgb(95 227 90 / .3), 0 12px 26px -12px rgb(4 122 1 / .9), inset 0 1px 0 rgb(255 255 255 / .22); }
+.topo__baixar svg { width: 17px; height: 17px; }
+.topo__baixar-longo { display: none; }
+@media (min-width: 62rem) { .topo__baixar-curto { display: none; } .topo__baixar-longo { display: inline; } }
+
+/* Celular na cápsula: logo e botão um pouco menores para a cápsula de 280px caber logo + Baixar + menu */
+@media (max-width: 25.99rem) {
+  .topo--flutua .topo__marca img { height: 2.15rem; }
+  .topo__baixar { padding: .45rem .95rem; font-size: .875rem; }
+  .topo__baixar svg { display: none; }
+}
+
+/* Botão de baixar (verde cheio) com o MESMO halo em toda a página: barra, primeira tela, passos e chamada final (09/11/2026) */
+.botao--cheio { box-shadow: 0 0 0 3px rgb(95 227 90 / .26), 0 12px 26px -12px rgb(4 122 1 / .85), inset 0 1px 0 rgb(255 255 255 / .2); }
+@media (hover: hover) and (pointer: fine) {
+  .botao--cheio:hover { box-shadow: 0 0 0 4px rgb(95 227 90 / .34), 0 16px 30px -12px rgb(4 122 1 / .9), inset 0 1px 0 rgb(255 255 255 / .2); }
+}
+/* No iPhone o botão verde já leva à App Store (script.js): o botão preto/branco do iPhone na barra sairia repetido */
+.e-ios .topo__iphone { display: none; }
+.e-ios a[href*="apps.apple.com"].botao--cheio svg:not(.ios) { display: none; }

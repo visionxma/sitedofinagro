@@ -44,6 +44,12 @@ const IOS_ID = IOS.match(/\/id(\d+)/)[1];
 const svgIphone = '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="7" y="2.5" width="10" height="19" rx="2.4" fill="none" stroke="currentColor" stroke-width="2"/><path d="M10.5 18.5h3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>';
 const svgMenu = '<svg data-abrir viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><svg data-fechar viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>';
 const SECOES = [['/#funcionalidades', 'Funcionalidades'], ['/#beneficios', 'Benefícios'], ['/#como-funciona', 'Como funciona'], ['/#para-quem', 'Para quem'], ['/#perguntas', 'Dúvidas']];
+// Prioridade de cada link NA BARRA do computador (09/11/2026, o Victor viu "Entrar" por cima de "Dúvidas" e "Guias" por
+// cima do "Baixar para iPhone"): 1 sempre, 2 só a partir de 1100px, 3 só no menu. A barra cabe na cápsula (66rem) com os
+// três botões; o menu do celular continua com todos.
+const PRIORIDADE = { 'Funcionalidades': 1, 'Benefícios': 3, 'Como funciona': 2, 'Para quem': 3, 'Dúvidas': 1, 'Guias': 1 };
+const svgApple = '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M16.37 12.73c-.02-2.33 1.9-3.45 1.99-3.5-1.08-1.59-2.77-1.8-3.37-1.83-1.43-.15-2.8.84-3.53.84-.73 0-1.85-.82-3.04-.8-1.56.02-3.01.91-3.81 2.31-1.63 2.83-.42 7.01 1.17 9.31.78 1.12 1.7 2.38 2.9 2.34 1.17-.05 1.61-.75 3.02-.75 1.41 0 1.8.75 3.04.73 1.26-.02 2.05-1.14 2.81-2.27.89-1.3 1.25-2.56 1.27-2.63-.03-.01-2.43-.93-2.45-3.75zM14.08 5.88c.64-.78 1.08-1.86.96-2.94-.93.04-2.05.62-2.71 1.39-.59.69-1.11 1.79-.97 2.85 1.03.08 2.08-.53 2.72-1.3z"/></svg>';
+const svgPlay = '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M4.6 2.9c-.3.3-.4.7-.4 1.2v15.8c0 .5.1.9.4 1.2l.1.1 8.9-8.9v-.2L4.7 2.8l-.1.1zm11.9 11.8-3-3v-.2l3-3 .1.1 3.5 2c1 .6 1 1.5 0 2.1l-3.5 2-.1 0zm-.1.1-3-3-8.8 8.8c.3.4.9.4 1.5.1l10.3-5.9m0-6L6.1 2.9c-.6-.4-1.2-.3-1.5.1l8.8 8.8 3-3z"/></svg>';
 const marca = (classe, w = 400, h = 139) => `<picture><source type="image/avif" srcset="/assets/marca/finagro-placa-240.avif 240w, /assets/marca/finagro-placa-400.avif 400w" sizes="120px"><img class="${classe}" src="/assets/marca/finagro-placa-400.webp" srcset="/assets/marca/finagro-placa-240.webp 240w, /assets/marca/finagro-placa-400.webp 400w" sizes="120px" width="${w}" height="${h}" alt="FINAGRO"></picture>`;
 // Página inicial: o topo nasce estendido e transparente sobre a hero e vira cápsula no 1º movimento (script.js).
 // Páginas internas: sem hero, nascem na cápsula (topo--fixo).
@@ -51,12 +57,12 @@ const topo = (inicio) => `<header class="topo${inicio ? '' : ' topo--flutua topo
   <div class="topo__barra">
     <a class="topo__marca" href="/" aria-label="FINAGRO, página inicial">${marca('topo__logo')}</a>
     <nav class="topo__nav" aria-label="Seções da página">
-      ${[...SECOES, ['/guias', 'Guias']].map(([h, t]) => `<a href="${h}">${t}</a>`).join('')}
+      ${[...SECOES, ['/guias', 'Guias']].map(([h, t]) => `<a href="${h}" data-p="${PRIORIDADE[t] || 1}">${t}</a>`).join('')}
     </nav>
     <div class="topo__acoes">
       <a class="topo__entrar" href="${ENTIDADE.app}">Entrar</a>
-      <a class="topo__iphone" href="${IOS}" target="_blank" rel="noopener" aria-label="Baixar o FINAGRO para iPhone na App Store (abre em nova aba)">${svgIphone}<span class="topo__iphone-curto">iPhone</span><span class="topo__iphone-longo">Baixar para iPhone</span></a>
-      <a class="botao botao--cheio topo__baixar" href="${PLAY}">Baixar app</a>
+      <a class="topo__iphone" href="${IOS}" target="_blank" rel="noopener" aria-label="Baixar o FINAGRO para iPhone na App Store (abre em nova aba)">${svgApple}<span class="topo__iphone-curto">iPhone</span><span class="topo__iphone-longo">App Store</span></a>
+      <a class="botao botao--cheio topo__baixar" href="${PLAY}" aria-label="Baixar o FINAGRO para Android no Google Play">${svgPlay}<span class="topo__baixar-curto">Baixar app</span><span class="topo__baixar-longo">Google Play</span></a>
       <button class="topo__menu" type="button" aria-expanded="false" aria-controls="topo-painel" aria-label="Abrir menu">${svgMenu}</button>
     </div>
     <nav class="topo__painel" id="topo-painel" aria-label="Menu" hidden>

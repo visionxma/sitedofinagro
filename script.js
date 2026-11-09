@@ -163,3 +163,19 @@
     });
   }
 })();
+
+// No iPhone, todo botão verde de baixar leva à App Store (09/11/2026): antes ele levava ao Google Play, onde o iPhone não
+// instala. O endereço vem do próprio botão do iPhone da barra (fonte única: ENTIDADE.ios, no gerador).
+(() => {
+  if (!/iPhone|iPad|iPod/i.test(navigator.userAgent)) return;
+  const ios = document.querySelector('.topo__iphone')?.href;
+  if (!ios) return;
+  document.documentElement.classList.add('e-ios');
+  for (const a of document.querySelectorAll('a.botao--cheio[href*="play.google.com"]')) {
+    a.href = ios;
+    a.setAttribute('aria-label', 'Baixar o FINAGRO para iPhone na App Store');
+    const partes = a.querySelectorAll('span');
+    if (partes.length) for (const s of partes) s.textContent = s.textContent.replace('para Android', 'para iPhone').replace('Google Play', 'App Store');
+    else a.textContent = a.textContent.replace('para Android', 'para iPhone');
+  }
+})();
