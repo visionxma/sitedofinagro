@@ -37,6 +37,10 @@ function preencher(html, nome, conteudo) {
 
 // ---------- blocos ----------
 const PLAY = ENTIDADE.android;
+// App na App Store (conta VisionX CO; conferido na API pública da Apple em 09/11/2026): botão "Baixar para iPhone" na navbar de toda página e Smart App Banner.
+const IOS_ID = '6827268381';
+const IOS = `https://apps.apple.com/br/app/finagro/id${IOS_ID}`;
+const svgIphone = '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="7" y="2.5" width="10" height="19" rx="2.4" fill="none" stroke="currentColor" stroke-width="2"/><path d="M10.5 18.5h3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>';
 const svgMenu = '<svg data-abrir viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><svg data-fechar viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>';
 const SECOES = [['/#funcionalidades', 'Funcionalidades'], ['/#beneficios', 'Benefícios'], ['/#como-funciona', 'Como funciona'], ['/#para-quem', 'Para quem'], ['/#perguntas', 'Dúvidas']];
 const marca = (classe, w = 400, h = 139) => `<picture><source type="image/avif" srcset="/assets/marca/finagro-placa-240.avif 240w, /assets/marca/finagro-placa-400.avif 400w" sizes="120px"><img class="${classe}" src="/assets/marca/finagro-placa-400.webp" srcset="/assets/marca/finagro-placa-240.webp 240w, /assets/marca/finagro-placa-400.webp 400w" sizes="120px" width="${w}" height="${h}" alt="FINAGRO"></picture>`;
@@ -50,6 +54,7 @@ const topo = (inicio) => `<header class="topo${inicio ? '' : ' topo--flutua topo
     </nav>
     <div class="topo__acoes">
       <a class="topo__entrar" href="${ENTIDADE.app}">Entrar</a>
+      <a class="topo__iphone" href="${IOS}" target="_blank" rel="noopener" aria-label="Baixar o FINAGRO para iPhone na App Store (abre em nova aba)">${svgIphone}<span class="topo__iphone-curto">iPhone</span><span class="topo__iphone-longo">Baixar para iPhone</span></a>
       <a class="botao botao--cheio topo__baixar" href="${PLAY}">Baixar app</a>
       <button class="topo__menu" type="button" aria-expanded="false" aria-controls="topo-painel" aria-label="Abrir menu">${svgMenu}</button>
     </div>
@@ -57,6 +62,7 @@ const topo = (inicio) => `<header class="topo${inicio ? '' : ' topo--flutua topo
       ${[...SECOES, ['/guias', 'Guias']].map(([h, t]) => `<a href="${h}">${t}</a>`).join('')}
       <a href="${ENTIDADE.app}">Entrar no app</a>
       <a class="botao botao--cheio" href="${PLAY}">Baixar para Android</a>
+      <a class="botao botao--linha" href="${IOS}" target="_blank" rel="noopener">Baixar para iPhone</a>
     </nav>
   </div>
 </header>`;
@@ -133,7 +139,8 @@ ${lista.length > visiveis ? `<button class="botao botao--linha ver-mais" type="b
 
 function cabeca(pagina, titulo, descricao, vitrine = false) {
   const url = SITE + (pagina === '/' ? '/' : pagina);
-  return `<meta property="og:type" content="${pagina === '/' || vitrine ? 'website' : 'article'}">
+  return `<meta name="apple-itunes-app" content="app-id=${IOS_ID}">
+<meta property="og:type" content="${pagina === '/' || vitrine ? 'website' : 'article'}">
 <meta property="og:site_name" content="FINAGRO">
 <meta property="og:locale" content="pt_BR">
 <meta property="og:url" content="${url}">

@@ -557,3 +557,15 @@ p { text-wrap: pretty; }
 @keyframes deriva-desce { from { translate: 0 -1.5rem; } to { translate: 0 1.5rem; } }
 @keyframes heroi-texto { to { translate: 0 -4.5rem; opacity: .35; } }
 @keyframes heroi-aparelho { to { translate: 0 -2rem; } }
+
+/* Botão "Baixar para iPhone" da navbar (App Store): rótulo curto no celular, completo a partir do computador */
+.topo__iphone { display: inline-flex; align-items: center; justify-content: center; gap: .4rem; min-height: 44px; min-width: 44px; padding: .5rem .8rem; border-radius: 999px; border: 1.5px solid rgb(255 255 255 / .55); font-family: var(--f-titulo); font-weight: 600; font-size: .9375rem; line-height: 1; color: #fff; white-space: nowrap; transition: color .3s, background-color .3s, border-color .3s, transform .2s; }
+.topo__iphone svg { flex: none; width: 18px; height: 18px; }
+.topo__iphone-longo { display: none; }
+.topo--flutua .topo__iphone { color: var(--verde-fundo); border-color: rgb(1 75 0 / .4); }
+.topo__iphone:active { transform: scale(.97); }
+.topo__iphone:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
+/* Barra estreita não comporta o botão ao lado do logo: abaixo de 40rem ele mora no menu ("Baixar para iPhone", primeiro botão do painel). */
+@media (max-width: 39.99rem) { .topo__iphone { display: none; } }
+@media (min-width: 62rem) { .topo__iphone-curto { display: none; } .topo__iphone-longo { display: inline; } }
+@media (min-width: 62rem) and (hover: hover) and (pointer: fine) { .topo__iphone:hover { background: rgb(255 255 255 / .14); } .topo--flutua .topo__iphone:hover { background: var(--verde-claro); } }
