@@ -57,7 +57,7 @@ export default {
     ] },
     { h2: 'Como começar hoje', blocos: [
       { ol: [
-        'No iPhone, baixe o FINAGRO na [App Store](https://apps.apple.com/br/app/finagro/id6827268381). No Android e no computador, abra [app.finagro.app](https://app.finagro.app/) no navegador. Entre com a conta Google ou com e-mail e senha.',
+        'No iPhone, baixe o FINAGRO na [App Store](https://apps.apple.com/br/app/finagro/id6827268381). No Android, baixe o [APK](/android). No computador, abra [app.finagro.app](https://app.finagro.app/) no navegador. Entre com a conta Google ou com e-mail e senha.',
         'Conte o que você cria e quantos. O painel se monta para gado de corte, leite, aves, suínos, peixes ou abelhas.',
         'Cadastre o primeiro lote ou importe a planilha que você já usa (no Excel, salve como CSV). A partir daí, cada pesagem e cada vacina entram em poucos toques.',
       ] },
@@ -76,7 +76,7 @@ export default {
   faq: [
     ['Existe aplicativo de controle de gado grátis?', 'Existe. O FINAGRO tem o plano Campo, grátis para sempre e sem cartão, com até 3 fazendas, 5 pessoas e 1.000 animais com ficha. Lote não tem limite de cabeças.'],
     ['O aplicativo funciona sem internet no curral?', 'Para lançar, funciona. O gasto, a venda, a pesagem ou a vacina ficam salvos no celular e sobem quando o sinal volta. Para entrar pela primeira vez num aparelho e para ver o que a equipe lançou em outro celular, é preciso sinal.'],
-    ['Dá para usar no iPhone e no computador?', 'Dá. No iPhone, o aplicativo está na App Store; no Android, no computador e no tablet, o FINAGRO abre pelo navegador, em app.finagro.app, com a mesma conta e os mesmos dados.'],
+    ['Dá para usar no iPhone, no Android e no computador?', 'Dá. No iPhone, o aplicativo está na App Store; no Android, baixe o APK em finagro.app/android; no computador e no tablet, o FINAGRO abre pelo navegador, em app.finagro.app, com a mesma conta e os mesmos dados.'],
     ['Consigo passar a minha planilha para o aplicativo?', 'Consegue. No Excel, salve a planilha como CSV e envie o arquivo. O FINAGRO importa o cadastro dos animais, as despesas e as receitas, sem digitar tudo de novo.'],
     ['Preciso cadastrar animal por animal?', 'Não. Você pode cadastrar só o lote, com o número de cabeças e o peso, e deixar a ficha individual para matrizes, touros e animais que você acompanha de perto.'],
   ],

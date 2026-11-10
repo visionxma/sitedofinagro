@@ -5,7 +5,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
-import { SITE, ATUALIZADO, ENTIDADE, PLANOS, LIMITES, EMPRESARIAL, COMPLEMENTOS, TESTE_DIAS, PERGUNTAS, PAGINAS, brl } from '../conteudo/site.mjs';
+import { SITE, ATUALIZADO, ENTIDADE, PLANOS, LIMITES, EMPRESARIAL, COMPLEMENTOS, TESTE_DIAS, PERGUNTAS, PERGUNTAS_APK, PAGINAS, brl } from '../conteudo/site.mjs';
 import { montarGuias, GRUPOS, TIPOS } from './guias.mjs';
 import { blocoPerguntaIA } from './pergunte-ia.mjs';
 
@@ -37,7 +37,8 @@ function preencher(html, nome, conteudo) {
 
 // ---------- blocos ----------
 // Google Play desativada em 10/11/2026, a pedido do Victor: a versão de lá está parada e só a App Store é atualizada.
-// Todo botão de baixar leva à App Store (IOS). O endereço antigo fica em ENTIDADE.android; para voltar, desfazer este commit.
+// Todo botão de baixar leva à App Store (IOS); no celular Android, o script ANDROID_CEDO (abaixo) leva o botão à página do
+// APK (/android, ENTIDADE.apk), que entrou no lugar dela. O endereço antigo fica em ENTIDADE.android; para voltar, desfazer este commit.
 // App na App Store (conta VisionX CO; conferido na API pública da Apple em 09/11/2026): botão "Baixar para iPhone" na navbar de toda página e Smart App Banner.
 // O endereço mora em conteudo/site.mjs (ENTIDADE.ios), a fonte única; o id do Smart App Banner sai dele.
 const IOS = ENTIDADE.ios;
@@ -50,11 +51,18 @@ const SECOES = [['/#funcionalidades', 'Funcionalidades'], ['/#beneficios', 'Bene
 // três botões; o menu do celular continua com todos.
 const PRIORIDADE = { 'Funcionalidades': 1, 'Benefícios': 3, 'Como funciona': 2, 'Para quem': 3, 'Dúvidas': 1, 'Guias': 1 };
 const svgApple = '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M16.37 12.73c-.02-2.33 1.9-3.45 1.99-3.5-1.08-1.59-2.77-1.8-3.37-1.83-1.43-.15-2.8.84-3.53.84-.73 0-1.85-.82-3.04-.8-1.56.02-3.01.91-3.81 2.31-1.63 2.83-.42 7.01 1.17 9.31.78 1.12 1.7 2.38 2.9 2.34 1.17-.05 1.61-.75 3.02-.75 1.41 0 1.8.75 3.04.73 1.26-.02 2.05-1.14 2.81-2.27.89-1.3 1.25-2.56 1.27-2.63-.03-.01-2.43-.93-2.45-3.75zM14.08 5.88c.64-.78 1.08-1.86.96-2.94-.93.04-2.05.62-2.71 1.39-.59.69-1.11 1.79-.97 2.85 1.03.08 2.08-.53 2.72-1.3z"/></svg>';
-const svgPlay = '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M4.6 2.9c-.3.3-.4.7-.4 1.2v15.8c0 .5.1.9.4 1.2l.1.1 8.9-8.9v-.2L4.7 2.8l-.1.1zm11.9 11.8-3-3v-.2l3-3 .1.1 3.5 2c1 .6 1 1.5 0 2.1l-3.5 2-.1 0zm-.1.1-3-3-8.8 8.8c.3.4.9.4 1.5.1l10.3-5.9m0-6L6.1 2.9c-.6-.4-1.2-.3-1.5.1l8.8 8.8 3-3z"/></svg>';
+// Ícone do Android: símbolo próprio do sprite, repetido em toda página (o topo nasce com ele) para o botão trocar sem imagem nova.
+const ICONE_ANDROID = '<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id="i-android" viewBox="0 0 24 24"><path fill="currentColor" d="M17.6 9.48l1.84-3.18c.16-.31.04-.69-.26-.85a.64.64 0 0 0-.83.22l-1.88 3.24a11.43 11.43 0 0 0-8.94 0L5.65 5.67a.64.64 0 0 0-.87-.2c-.28.18-.37.54-.22.83L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></symbol></svg>';
+// ---------- no celular Android, os botões de baixar vão à página do APK, sem piscar ----------
+// Roda no <head>, antes de a primeira pintura existir: o script.js é defer e chegaria tarde, com o rótulo de iPhone já à vista.
+// Cada botão é arrumado no instante em que o navegador o monta (MutationObserver) e, no fim, uma varredura garante o resto.
+// Na própria /android o botão já baixa o arquivo (levar a ela mesma seria um toque que não faz nada). iPhone e computador
+// não entram aqui: continuam na App Store. O texto mora só aqui; o endereço do APK vem de ENTIDADE.apk.
+const ANDROID_CEDO = `<script>(function(){if(!/Android/i.test(navigator.userAgent))return;var h=document.documentElement;h.classList.add('e-android');var alvo=/^\\/android\\/?$/.test(location.pathname)?${JSON.stringify(ENTIDADE.apk.arquivo)}:'/android';var sel='a.botao[href*="apps.apple.com"],a.artigo__convite-loja[href*="apps.apple.com"],a.passo__cena--loja[href*="apps.apple.com"],a[data-android]';function arrumar(a){if(!a.hasAttribute('data-android')){a.setAttribute('data-android','');a.setAttribute('href',alvo);a.removeAttribute('target');a.removeAttribute('rel');a.setAttribute('aria-label','Baixar o FINAGRO para Android');}if(a.classList.contains('passo__cena--loja')){if(a.querySelector('img'))a.innerHTML='<span class="selo-apk"><svg aria-hidden="true"><use href="#i-android"/></svg><span><small>Baixe o APK</small><strong>para Android</strong></span></span>';return;}var w=document.createTreeWalker(a,NodeFilter.SHOW_TEXT),n;while(n=w.nextNode()){var t=n.nodeValue,u=t.replace('para iPhone','para Android').replace('No iPhone','No Android');if(u!==t)n.nodeValue=u;}var s=a.querySelector('svg');if(s&&!(s.children.length===1&&s.firstElementChild.getAttribute('href')==='#i-android')){s.setAttribute('viewBox','0 0 24 24');s.innerHTML='<use href="#i-android"/>';}}function ver(no){var el=no.nodeType===1?no:no.parentElement;if(!el)return;var a=el.closest(sel);if(a)arrumar(a);if(no.nodeType===1)[].forEach.call(el.querySelectorAll(sel),arrumar);}var ob=new MutationObserver(function(l){l.forEach(function(m){[].forEach.call(m.addedNodes,ver);});});ob.observe(h,{childList:true,subtree:true});document.addEventListener('DOMContentLoaded',function(){ver(document.body);ob.disconnect();});})();</script>`;
 const marca = (classe, w = 400, h = 139) => `<picture><source type="image/avif" srcset="/assets/marca/finagro-placa-240.avif 240w, /assets/marca/finagro-placa-400.avif 400w" sizes="120px"><img class="${classe}" src="/assets/marca/finagro-placa-400.webp" srcset="/assets/marca/finagro-placa-240.webp 240w, /assets/marca/finagro-placa-400.webp 400w" sizes="120px" width="${w}" height="${h}" alt="FINAGRO"></picture>`;
 // Página inicial: o topo nasce estendido e transparente sobre a hero e vira cápsula no 1º movimento (script.js).
 // Páginas internas: sem hero, nascem na cápsula (topo--fixo).
-const topo = (inicio) => `<header class="topo${inicio ? '' : ' topo--flutua topo--fixo'}">
+const topo = (inicio) => `${ICONE_ANDROID}<header class="topo${inicio ? '' : ' topo--flutua topo--fixo'}">
   <div class="topo__barra">
     <a class="topo__marca" href="/" aria-label="FINAGRO, página inicial">${marca('topo__logo')}</a>
     <nav class="topo__nav" aria-label="Seções da página">
@@ -69,6 +77,7 @@ const topo = (inicio) => `<header class="topo${inicio ? '' : ' topo--flutua topo
       ${[...SECOES, ['/guias', 'Guias']].map(([h, t]) => `<a href="${h}">${t}</a>`).join('')}
       <a href="${ENTIDADE.app}">Entrar no app</a>
       <a class="botao botao--cheio" href="${IOS}" target="_blank" rel="noopener">Baixar para iPhone</a>
+      <a class="botao botao--cheio topo__painel-android" href="/android">Baixar para Android</a>
     </nav>
   </div>
 </header>`;
@@ -86,7 +95,7 @@ const rodape = () => `<footer class="rodape">
       <div><h2>O app</h2><ul>
         ${SECOES.map(([h, t]) => `<li><a href="${h}">${t}</a></li>`).join('')}
         <li><a href="/gestao-da-pecuaria-de-corte">Para gado de corte</a></li>
-        <li><a href="${ENTIDADE.app}">Entrar no app</a></li><li><a href="${IOS}" target="_blank" rel="noopener">App para iPhone</a></li>
+        <li><a href="${ENTIDADE.app}">Entrar no app</a></li><li><a href="${IOS}" target="_blank" rel="noopener">App para iPhone</a></li><li><a href="/android">App para Android</a></li>
       </ul></div>
       <div><h2>Guias</h2><ul>
         ${RODAPE_GUIAS.map((g) => `<li><a href="/${g.slug}">${esc(g.curto)}</a></li>`).join('')}
@@ -177,6 +186,7 @@ function cabeca(pagina, titulo, descricao, vitrine = false) {
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="manifest" href="/site.webmanifest">${pagina === '/' ? `\n<meta name="google-site-verification" content="${VERIFICACAO_GOOGLE}">\n<meta name="msvalidate.01" content="${VERIFICACAO_BING}">` : ''}
 <link rel="alternate" type="application/atom+xml" title="Guias do FINAGRO" href="/guias.xml">
+${ANDROID_CEDO}
 <script src="/assets/medir.js" defer></script>`;
 }
 
@@ -188,16 +198,57 @@ const site = { '@type': 'WebSite', '@id': `${SITE}/#site`, url: `${SITE}/`, name
 const app = {
   '@type': 'SoftwareApplication', '@id': APP_ID, name: 'FINAGRO', url: `${SITE}/`,
   description: ENTIDADE.frase, applicationCategory: 'BusinessApplication', applicationSubCategory: 'Gestão rural',
-  // iPhone pela App Store desde 31/10/2026; Android, tablet e computador pelo navegador (Google Play desativada em 10/11/2026).
-  operatingSystem: 'iOS, navegador (Android, tablet e computador)', inLanguage: 'pt-BR',
+  // iPhone pela App Store desde 31/10/2026; Android pelo APK da página /android (Google Play desativada em 10/11/2026); tablet e computador pelo navegador.
+  operatingSystem: 'iOS, Android, navegador (tablet e computador)', inLanguage: 'pt-BR',
   image: ENTIDADE.imagem, screenshot: `${SITE}/assets/telas/inicio-824.webp`,
-  installUrl: [ENTIDADE.ios], downloadUrl: [ENTIDADE.ios], sameAs: [ENTIDADE.instagram, ENTIDADE.linkedin, ENTIDADE.ios, ENTIDADE.findsaas],
+  installUrl: [ENTIDADE.ios, ENTIDADE.apk.pagina], downloadUrl: [ENTIDADE.ios, ENTIDADE.apk.arquivo], sameAs: [ENTIDADE.instagram, ENTIDADE.linkedin, ENTIDADE.ios, ENTIDADE.findsaas],
   author: { '@id': ORG_ID }, publisher: { '@id': ORG_ID },
   offers: [
     ...PLANOS.filter((p) => !p.mes).map((p) => ({ '@type': 'Offer', name: `Plano ${p.nome}`, price: '0.00', priceCurrency: 'BRL', description: p.itens.slice(0, 3).join(', '), url: `${SITE}/#comecar`, category: 'grátis' })),
   ],
   featureList: ['Rebanho com ficha e lote', 'Vacinas e sanidade', 'Reprodução e parto previsto', 'Registro de GTA', 'Receitas, despesas e contas', 'Fluxo de caixa', 'Arquivo do LCDPR', 'Safras, talhões e caderno de campo', 'Área por GPS', 'Máquinas e estoque', 'Mão de obra e equipe', 'Cotação do boi (CONAB)', 'Simulador PRONAF', 'FINAGRO AI'],
 };
+
+// Página /android: o aplicativo como o download o entrega. Versão e tamanho saem da reserva (ENTIDADE.apk.reserva), os
+// mesmos que o HTML mostra; na visita, o latest.json atualiza a tela.
+function apkEntidade(url, descricao) {
+  return { '@type': 'SoftwareApplication', '@id': `${url}#apk`, name: 'Finagro - Gestão Rural', alternateName: 'FINAGRO', url, description: descricao,
+    applicationCategory: 'BusinessApplication', applicationSubCategory: 'Gestão rural', operatingSystem: `Android ${ENTIDADE.apk.androidMinimo} ou mais novo`, inLanguage: 'pt-BR',
+    downloadUrl: ENTIDADE.apk.arquivo, installUrl: ENTIDADE.apk.pagina, softwareRequirements: `Android ${ENTIDADE.apk.androidMinimo} ou mais novo`, isAccessibleForFree: true,
+    // a mesma versão e o mesmo tamanho que a página mostra (ENTIDADE.apk.reserva); sem reserva, ficam de fora
+    ...(RES_VERSAO ? { softwareVersion: RES_VERSAO } : {}), ...(RES_TAMANHO ? { fileSize: RES_TAMANHO } : {}),
+    image: ENTIDADE.logo, screenshot: ['inicio', 'animais', 'fluxo', 'tarefas', 'lotes', 'cotacoes', 'contas', 'producao', 'relatorios'].map((t) => `${SITE}/assets/telas/${t}-824.webp`),
+    author: { '@id': ORG_ID }, publisher: { '@id': ORG_ID }, isPartOf: { '@id': `${SITE}/#site` },
+    offers: { '@type': 'Offer', price: '0.00', priceCurrency: 'BRL', description: 'Plano Campo, grátis para sempre', url } };
+}
+
+// Blocos da página /android que dependem de ENTIDADE.apk (fonte única): faixa de fatos, botões e endereços para o script.
+// A faixa nasce com valores de reserva verdadeiros; assets/android.js troca versão e tamanho pelo latest.json quando ele responde.
+// Tamanho em MB como o assets/android.js escreve (bytes / 1.048.576, para baixo): 88.856.249 bytes = 84 MB. As duas contas
+// precisam ser a mesma, senão o número trocaria na tela quando o latest.json responde com o mesmo arquivo.
+const RESERVA = ENTIDADE.apk.reserva || {};
+const mb = (bytes) => `${Math.max(1, Math.floor(bytes / 1048576))} MB`;
+const RES_VERSAO = /^\d+(\.\d+)*$/.test(RESERVA.versao || '') ? RESERVA.versao : '';
+const RES_TAMANHO = Number(RESERVA.tamanhoBytes) > 0 ? mb(RESERVA.tamanhoBytes) : '';
+const RES_SHA = /^[0-9a-f]{64}$/.test(RESERVA.sha256 || '') ? RESERVA.sha256 : '';
+// Sem reserva, a página mostra "Versão atual" e nenhum número (nunca se inventa versão).
+const apkFatos = () => `<ul class="apk-fatos" aria-label="Sobre o aplicativo">
+  <li><strong><span>5,0</span><svg aria-hidden="true"><use href="#i-estrela"/></svg></strong> <span>nota</span></li>
+  <li><strong>Grátis</strong> <span>preço</span></li>
+  <li><strong data-apk="versao">${RES_VERSAO || 'Versão'}</strong> <span data-apk="versao-rotulo">${RES_VERSAO ? 'versão' : 'atual'}</span></li>
+  <li><strong data-apk="tamanho">${RES_TAMANHO || 'Arquivo'}</strong> <span data-apk="tamanho-rotulo">${RES_TAMANHO ? 'tamanho' : 'APK'}</span></li>
+  <li><strong>Android ${ENTIDADE.apk.androidMinimo}</strong> <span>ou mais novo</span></li>
+</ul>`;
+const apkBotaoBaixar = (grande, evento) => `<a class="botao botao--cheio${grande ? ' botao--grande' : ''}" href="${ENTIDADE.apk.arquivo}" rel="noopener" data-evento="${evento}"><svg aria-hidden="true"><use href="#i-baixar"/></svg><span>Baixar APK</span></a>`;
+const apkAcoes = () => `<div class="apk-acoes">
+  ${apkBotaoBaixar(true, 'baixar-apk-heroi')}
+  <a class="botao botao--vidro botao--grande" href="${ENTIDADE.app}" data-evento="navegador-apk-heroi"><svg aria-hidden="true"><use href="#i-globo"/></svg><span class="so-pc">Usar no navegador</span><span class="so-cel">No navegador</span></a>
+</div>`;
+const apkDados = () => `<script type="application/json" id="apk-dados">${JSON.stringify({ dados: ENTIDADE.apk.dados })}</script>`;
+const apkSelo = () => `<span class="apk-selo" data-apk="versao-selo">${RES_VERSAO ? `Versão ${RES_VERSAO}` : 'Versão atual'}</span>`;
+// A impressão quebra só a cada 8 caracteres (<wbr> não entra na cópia) e em linhas equilibradas: nunca um caractere sozinho na linha.
+const comQuebras = (sha) => sha.match(/.{1,8}/g).join('<wbr>');
+const apkHash = () => RES_SHA ? `<code class="apk-hash apk-hash--real" data-apk="sha256">${comQuebras(RES_SHA)}</code>` : `<code class="apk-hash" data-apk="sha256">A impressão do arquivo aparece aqui junto com a versão publicada.</code>`;
 
 // Cartão "veja o que cabe no grátis" da página de captação: os limites saem do catálogo, sem preço
 // (o site não mostra tabela de preço enquanto a cobrança do app está desligada).
@@ -229,7 +280,8 @@ function jsonld(p, html, titulo, descricao) {
       { '@type': 'ListItem', position: 1, name: 'FINAGRO', item: `${SITE}/` },
       { '@type': 'ListItem', position: 2, name: titulo.replace(/\s*\|.*$/, ''), item: url } ] });
     grafo.push({ '@type': 'WebPage', '@id': `${url}#pagina`, url, name: titulo.replace(/\s*\|.*$/, ''), description: descricao, inLanguage: 'pt-BR',
-      isPartOf: { '@id': `${SITE}/#site` }, about: { '@id': APP_ID }, mainEntity: { '@id': APP_ID }, dateModified: p.atualizado || ATUALIZADO, primaryImageOfPage: ENTIDADE.imagem, publisher: { '@id': ORG_ID } });
+      isPartOf: { '@id': `${SITE}/#site` }, about: { '@id': APP_ID }, mainEntity: { '@id': p.apk ? `${url}#apk` : APP_ID }, dateModified: p.atualizado || ATUALIZADO, primaryImageOfPage: ENTIDADE.imagem, publisher: { '@id': ORG_ID } });
+    if (p.apk) grafo.push(apkEntidade(url, descricao));
   } else if (p.hub) {
     const url = SITE + pagina;
     grafo.push(site);
@@ -274,15 +326,24 @@ for (const p of [...TODAS, { caminho: '/404' }]) {
   html = preencher(html, 'cabeca', cabeca(p.caminho, titulo, descricao, p.captacao));
   html = preencher(html, 'topo', topo(p.caminho === '/' || p.heroi));
   if (p.captacao) html = preencher(html, 'cap-planos', capPlanos());
+  if (p.apk) {
+    html = preencher(html, 'apk-fatos', apkFatos());
+    html = preencher(html, 'apk-acoes', apkAcoes());
+    html = preencher(html, 'apk-acao-versao', apkBotaoBaixar(false, 'baixar-apk-versao'));
+    html = preencher(html, 'apk-dados', apkDados());
+    html = preencher(html, 'apk-selo', apkSelo());
+    html = preencher(html, 'apk-hash', apkHash());
+  }
   // "Pergunte a uma IA" no fim de TODA página (menos a inicial, que o leva na chamada final, e a 404): a pergunta é sobre o
   // assunto do <h1> da própria página + o FINAGRO. O marcador nasce antes do rodapé e o conteúdo é sempre refeito daqui.
   if (p.caminho !== '/' && p.caminho !== '/404') {
     if (!html.includes('<!--gerado:pergunte-ia-->')) html = html.replace('<!--gerado:rodape-->', '<!--gerado:pergunte-ia-->\n<!--/gerado:pergunte-ia-->\n<!--gerado:rodape-->');
     const h1 = semTags((html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/) || [])[1] || titulo.replace(/\s*\|\s*FINAGRO.*$/, '')).replace(/[.:]+$/, '');
-    html = preencher(html, 'pergunte-ia', blocoPerguntaIA(`${h1}${/[?!]$/.test(h1) ? '' : '.'} Como o FINAGRO ajuda o produtor rural com isso? Use finagro.app como referência.`));
+    html = preencher(html, 'pergunte-ia', blocoPerguntaIA(p.apk ? `O aplicativo FINAGRO para Android, baixado pelo APK em ${ENTIDADE.apk.pagina}, é bom para a gestão da fazenda? Use finagro.app como referência.` : `${h1}${/[?!]$/.test(h1) ? '' : '.'} Como o FINAGRO ajuda o produtor rural com isso? Use finagro.app como referência.`));
   }
   html = preencher(html, 'rodape', rodape());
   if (p.caminho === '/') html = preencher(html, 'faq', faq(PERGUNTAS));
+  if (p.apk) html = preencher(html, 'faq', faq(PERGUNTAS_APK));
   if (p.caminho !== '/404') html = preencher(html, 'jsonld', jsonld(p, html, titulo, descricao));
   if (p.caminho !== '/404' && (titulo.length > 62 || descricao.length < 110 || descricao.length > 162)) longos.push(`${p.caminho}: título ${titulo.length}, descrição ${descricao.length}`);
   fs.writeFileSync(arq, html);
@@ -322,7 +383,7 @@ const llms = `# FINAGRO
 
 > ${ENTIDADE.frase}
 
-Site: ${SITE}/ · Sistema: ${ENTIDADE.app} · iPhone: ${ENTIDADE.ios} · LinkedIn: ${ENTIDADE.linkedin} · FindSaaS: ${ENTIDADE.findsaas} · Desenvolvido pela VisionX (https://visionxma.com/). Atualizado em ${ATUALIZADO.split('-').reverse().join('/')}.
+Site: ${SITE}/ · Sistema: ${ENTIDADE.app} · iPhone: ${ENTIDADE.ios} · Android (APK): ${ENTIDADE.apk.pagina} · LinkedIn: ${ENTIDADE.linkedin} · FindSaaS: ${ENTIDADE.findsaas} · Desenvolvido pela VisionX (https://visionxma.com/). Atualizado em ${ATUALIZADO.split('-').reverse().join('/')}.
 
 ## O que faz
 - Rebanho: animal com ficha (brinco, raça, peso, foto), lote de qualquer tamanho, vacinas e sanidade, reprodução com parto previsto, pesagem e GMD, registro de GTA com lembrete de vencimento.
@@ -331,7 +392,7 @@ Site: ${SITE}/ · Sistema: ${ENTIDADE.app} · iPhone: ${ENTIDADE.ios} · LinkedI
 - Campo e equipe: área por GPS, máquinas e manutenção, estoque de insumos, clima da fazenda, mão de obra, pessoas com papel e permissão.
 - Mercado: cotação do boi gordo (CONAB), notícias do agro, marketplace de animais, simulador de crédito do Pronaf (com taxas de referência, não é proposta de banco), assistente FINAGRO AI.
 - O painel se monta pelo perfil da produção (gado de corte, leite, aves, suínos, peixes, abelhas, horta, grãos), com alertas da criação: vacina que trava a GTA, CBT do leite, oxigênio do tanque, vento para pulverizar.
-- Onde funciona: aplicativo para iPhone na App Store (desde 31/10/2026); no Android, no tablet e no computador, pelo navegador em ${ENTIDADE.app}, com a mesma conta e os mesmos dados.
+- Onde funciona: aplicativo para iPhone na App Store (desde 31/10/2026); no Android, APK grátis e sempre na última versão em ${ENTIDADE.apk.pagina} (Android ${ENTIDADE.apk.androidMinimo} ou mais novo); no tablet e no computador, pelo navegador em ${ENTIDADE.app}, com a mesma conta e os mesmos dados.
 - Lançamento sem sinal fica no aparelho e sobe quando a internet volta.
 
 ## O que não é

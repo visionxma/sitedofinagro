@@ -38,6 +38,33 @@
         ],
         "createdAt": "2026-10-09T23:23:06.443Z",
         "reason": "Exceção sancionada (09/10/2026): página de captação clonada da referência por regra do Victor (LP clona a referência; a hero fica e não se troca sem pedido); o selo acima do título carrega a palavra-chave da página e ela passou no anti-slop e no portao-lp-victor. Tirar é decisão dele."
+      },
+      {
+        "rule": "dark-glow",
+        "value": "*",
+        "files": [
+          "android.html"
+        ],
+        "createdAt": "2026-11-10T20:09:35.447Z",
+        "reason": "Halo verde do .botao--cheio (box-shadow 0 12px 26px -12px rgb(4 122 1 / .85) = #047a01, mais o anel rgb(95 227 90 / .26)), o MESMO do .topo__baixar e de todo botão de baixar do site (styles.css, 09/11/2026, aprovado pelo Victor): identidade da casa, não brilho novo da página. O detector não extrai valor desta regra, por isso o coringa só neste arquivo."
+      },
+      {
+        "rule": "low-contrast",
+        "value": "*",
+        "files": [
+          "android.html"
+        ],
+        "createdAt": "2026-11-10T20:20:32.335Z",
+        "reason": "Falso positivo da leitura estática (10/11/2026): os dois achados (texto #ffffff e #fefefe sobre #f6f7f4) são os links do topo gerado, transparente sobre o hero escuro; a leitura sem navegador mede contra o fundo da página. Os mesmos dois aparecem em index.html e gestao-da-pecuaria-de-corte.html. Pelo pixel, na página renderizada: topo 11,9 a 15,7:1 em 1440; os 60 textos de main passam em 390 e 1440 (menor real: 4,93:1, número dos passos; 5,54:1, botão verde). O detector na URL (modo --cdp, 390 e 1440) dá zero de contraste."
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "android.html"
+        ],
+        "createdAt": "2026-11-10T20:20:32.480Z",
+        "reason": "Falso positivo da leitura estática (10/11/2026), o mesmo já registrado para index.html e gestao-da-pecuaria-de-corte.html: .secao tem padding var(--sp-sec) = clamp(3rem, ..., 6rem) e o .heroi tem padding-top do topo, que a leitura sem navegador não calcula. Na página renderizada o detector (modo --cdp, 390 e 1440) dá zero de padding; os dois apertos reais (célula da faixa de fatos a 5 px da borda no celular e o selo da versão a 11,2 px) foram corrigidos: faixa 3 + 2 com folga mínima de 13 px e selo com 12,8 px."
       }
     ]
   }

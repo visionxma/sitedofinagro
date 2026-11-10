@@ -613,6 +613,15 @@ p { text-wrap: pretty; }
 @media (hover: hover) and (pointer: fine) {
   .botao--cheio:hover { box-shadow: 0 0 0 4px rgb(95 227 90 / .34), 0 16px 30px -12px rgb(4 122 1 / .9), inset 0 1px 0 rgb(255 255 255 / .2); }
 }
-/* No iPhone o botão verde já leva à App Store (script.js): o botão preto/branco do iPhone na barra sairia repetido */
-.e-ios .topo__iphone { display: none; }
-.e-ios a[href*="apps.apple.com"].botao--cheio svg:not(.ios) { display: none; }
+
+/* Celular Android (ANDROID_CEDO, no <head>): o painel fica com um botão só, o verde que já virou "Baixar para Android"; e o
+   selo do passo 1 é o nosso, na identidade do FINAGRO, nunca o da App Store nem o da Google Play. */
+.e-android .topo__painel-android { display: none; }
+.e-android .passo, .e-android .passo__cena--loja { min-width: 0; }
+.selo-apk { display: inline-flex; align-items: center; gap: .4rem; max-width: 100%; padding: .45rem .7rem .45rem .55rem; border-radius: .75rem; background: var(--verde-botao); color: #fff; box-shadow: var(--sombra-1); }
+.selo-apk svg { width: 1.5rem; height: 1.5rem; flex: none; }
+.selo-apk span { display: grid; min-width: 0; text-align: left; font-family: var(--f-titulo); line-height: 1.1; }
+.selo-apk small { font-size: .8125rem; font-weight: 500; color: rgb(255 255 255 / .9); }
+.selo-apk strong { font-size: .9375rem; font-weight: 700; white-space: nowrap; }
+@media (max-width: 24rem) { .selo-apk strong { font-size: .875rem; } }
+@media (hover: hover) and (pointer: fine) { .passo__cena--loja:hover .selo-apk { background: var(--verde-fundo); } }

@@ -23,7 +23,7 @@ export default {
       { tabela: { colunas: ['Item', 'FINAGRO'], linhas: [
         ['O que é', 'Aplicativo de gestão rural para fazenda, sítio e granja'],
         ['Quem faz', 'VisionX, desenvolvedora brasileira de software'],
-        ['Onde funciona', 'iPhone (App Store) e navegador, em app.finagro.app'],
+        ['Onde funciona', 'iPhone (App Store), Android (APK em finagro.app/android) e navegador, em app.finagro.app'],
         ['Preço', 'Plano Campo grátis para sempre; pagos a partir de R$ 59,90 por mês'],
         ['Limite do grátis', '3 fazendas, 5 pessoas, 1.000 animais com ficha, lote sem limite'],
         ['Idioma', 'Português do Brasil'],
@@ -59,7 +59,7 @@ export default {
     ] },
     { h2: 'Como começar', blocos: [
       { ol: [
-        'No iPhone, baixe o FINAGRO na [App Store](https://apps.apple.com/br/app/finagro/id6827268381). No Android e no computador, abra [app.finagro.app](https://app.finagro.app/) no navegador.',
+        'No iPhone, baixe o FINAGRO na [App Store](https://apps.apple.com/br/app/finagro/id6827268381). No Android, baixe o [APK](/android). No computador, abra [app.finagro.app](https://app.finagro.app/) no navegador.',
         'Entre com a conta Google ou com e-mail e senha e cadastre a fazenda.',
         'Conte o que você cria e planta, e lance o primeiro lote, a primeira despesa ou importe a planilha que você já usa, salva como CSV.',
       ] },
@@ -77,7 +77,7 @@ export default {
     ['O FINAGRO é gratuito?', 'O plano Campo é grátis para sempre e sem cartão, com até 3 fazendas, 5 pessoas e 1.000 animais com ficha. Os planos pagos, de R$ 59,90 a R$ 299,90 por mês, são para quem precisa de mais fazendas, pessoas ou animais com ficha.'],
     ['O FINAGRO é do governo ou de algum banco?', 'Não. É um aplicativo privado, desenvolvido pela VisionX. Ele também não tem relação com o Finagro da Colômbia, que é um fundo de crédito agropecuário com sede em Bogotá.'],
     ['Quem desenvolve o FINAGRO?', 'A VisionX, desenvolvedora brasileira de software, que mantém o aplicativo, o site finagro.app e o sistema em app.finagro.app.'],
-    ['Tem FINAGRO para iPhone?', 'Tem. O aplicativo está na App Store para iPhone desde 31 de outubro de 2026. No Android, no tablet e no computador, o FINAGRO funciona pelo navegador, com a mesma conta e os mesmos dados.'],
+    ['Tem FINAGRO para iPhone e para Android?', 'Tem. O aplicativo está na App Store para iPhone desde 31 de outubro de 2026. No Android, baixe o APK em finagro.app/android. No tablet e no computador, o FINAGRO funciona pelo navegador, com a mesma conta e os mesmos dados.'],
     ['Os meus dados ficam presos no aplicativo?', 'Não. As listas e os relatórios saem em PDF e em planilha quando você quiser, e os dados ficam guardados na sua conta: ao trocar de celular, está tudo lá.'],
   ],
   fontes: [

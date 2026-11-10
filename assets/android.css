@@ -1,0 +1,177 @@
+/* ==========================================================================
+   FINAGRO — /android: download do APK, no estilo de uma página de loja de aplicativos e na identidade do site
+   Bloco de loja (ícone, nome, desenvolvedor, faixa de fatos, botões) sobre o mesmo campo das outras páginas de hero,
+   com as telas reais ao lado. Usa os tokens de /styles.css. Escrito do celular para cima (skill responsivo-de-cara):
+   o celular copia a composição do computador. Nada de marca nem aparência de loja de terceiros aqui.
+   ========================================================================== */
+
+/* ---------- HERO: cobre a tela inteira; o bloco de loja em cima e o leque de telas embaixo (ao lado no computador) ---------- */
+.apk-heroi { grid-template-rows: minmax(0, 1fr); }
+.apk-heroi .heroi__veu { background: linear-gradient(180deg, rgb(5 9 7 / .78) 0%, rgb(5 9 7 / .6) 48%, rgb(5 9 7 / .72) 100%); }
+.apk-heroi .heroi__veu::after { opacity: .08; }
+.apk-heroi__grade {
+  display: grid; grid-template-columns: minmax(0, 1fr); row-gap: clamp(.75rem, 2svh, 1.75rem); align-content: space-evenly;
+  max-width: 84rem; padding-block: clamp(.625rem, 2svh, 1.5rem) clamp(.75rem, 2.5svh, 1.75rem);
+}
+
+.apk-loja { container: apk-loja / inline-size; min-width: 0; }
+.apk-loja__id { display: flex; align-items: center; gap: .875rem; }
+.apk-loja__icone { flex: none; width: 5.25rem; height: 5.25rem; border-radius: 22%; box-shadow: 0 0 0 1px rgb(255 255 255 / .18), 0 14px 30px -14px rgb(0 0 0 / .7); }
+.apk-loja__nome { min-width: 0; }
+.apk-loja h1 { font-size: clamp(1.625rem, 1.2rem + 2.4vw, 3.25rem); font-weight: 800; line-height: 1.12; letter-spacing: -.025em; text-shadow: 0 2px 20px rgb(0 0 0 / .3); }
+.apk-loja__dev { margin-top: .2rem; font-family: var(--f-titulo); font-weight: 600; font-size: 1.0625rem; line-height: 1.3; color: var(--verde-luz); }
+
+/* faixa de fatos, como numa ficha de loja: numa linha só quando cada célula comporta o texto com 12 px de folga de cada lado
+   (medido: "Android 7.0" ocupa 86 px no celular e 95 px no computador); abaixo disso, 3 + 2, a composição da doutrina para
+   cinco itens. Quem decide é a largura da própria faixa (contêiner apk-loja), não a da tela. A altura não depende do valor. */
+.apk-fatos { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); margin-top: .9rem; border-radius: 1rem; background: rgb(6 22 5 / .66); border: 1px solid rgb(255 255 255 / .18); -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px); }
+.apk-fatos li { grid-column: span 2; display: grid; justify-items: center; align-content: center; gap: .15rem; min-width: 0; padding: .65rem .75rem; text-align: center; }
+.apk-fatos li:nth-child(n+4) { grid-column: span 3; border-top: 1px solid rgb(255 255 255 / .14); }
+.apk-fatos li + li { border-left: 1px solid rgb(255 255 255 / .14); }
+.apk-fatos li:nth-child(4) { border-left: 0; }
+@container apk-loja (min-width: 38.5rem) {
+  .apk-fatos { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+  .apk-fatos li, .apk-fatos li:nth-child(n+4) { grid-column: auto; border-top: 0; }
+  .apk-fatos li:nth-child(4) { border-left: 1px solid rgb(255 255 255 / .14); }
+}
+.apk-fatos strong { display: inline-flex; align-items: center; justify-content: center; gap: .2rem; font-family: var(--f-titulo); font-size: .9375rem; font-weight: 700; line-height: 1.2; color: #fff; white-space: nowrap; }
+.apk-fatos strong svg { width: .9rem; height: .9rem; flex: none; color: var(--trigo); }
+.apk-fatos li > span { font-size: .8125rem; line-height: 1.25; color: rgb(255 255 255 / .84); white-space: nowrap; }
+
+/* os dois botões dividem a linha no celular; rótulo curto no secundário (so-cel) */
+.apk-acoes { display: flex; flex-wrap: wrap; gap: .625rem; margin-top: .9rem; }
+.apk-acoes .botao { flex: 1 1 9rem; padding-left: 1rem; padding-right: 1rem; }
+@media (max-width: 22.4rem) { .apk-acoes .botao { flex-basis: 7rem; gap: .35rem; padding-left: .625rem; padding-right: .625rem; font-size: 1rem; } }
+.apk-loja__nota { margin-top: .7rem; font-size: .9375rem; line-height: 1.4; color: rgb(255 255 255 / .86); }
+
+/* o leque de telas: 3 prints reais, o do meio na frente. A largura sai da coluna e da altura que sobra na tela */
+.apk-heroi__telas { container-type: inline-size; min-width: 0; display: grid; justify-items: center; }
+.apk-leque { --tela-w: clamp(5.25rem, min(100cqw / 2.3, (100svh / var(--zoom, 1) - 28.5rem) / 2.03), 12.5rem); display: grid; justify-items: center; }
+.apk-leque__tela { grid-area: 1 / 1; width: var(--tela-w); }
+.apk-leque__tela img { width: 100%; height: auto; border-radius: calc(var(--tela-w) * .085); background: #f6f7f6; box-shadow: 0 0 0 1px rgb(255 255 255 / .16), 0 26px 46px -22px rgb(0 0 0 / .72); }
+.apk-leque__tela--esq { transform: translate(-66%, 6%) scale(.9); }
+.apk-leque__tela--dir { transform: translate(66%, 6%) scale(.9); }
+.apk-leque__tela--meio { z-index: 2; }
+
+@keyframes apk-sobe { from { opacity: 0; translate: 0 1.125rem; } to { opacity: 1; translate: 0 0; } }
+@media (prefers-reduced-motion: no-preference) {
+  .apk-loja__id, .apk-fatos, .apk-acoes, .apk-loja__nota { animation: apk-sobe .6s var(--saida) both; }
+  .apk-fatos { animation-delay: .07s; }
+  .apk-acoes { animation-delay: .14s; }
+  .apk-loja__nota { animation-delay: .21s; }
+  .apk-leque__tela--esq { animation: apk-sobe .7s var(--saida) .1s both, flutuar 8.5s ease-in-out .9s infinite; }
+  .apk-leque__tela--meio { animation: apk-sobe .7s var(--saida) .2s both, flutuar 7s ease-in-out 1s infinite; }
+  .apk-leque__tela--dir { animation: apk-sobe .7s var(--saida) .3s both, flutuar 9.5s ease-in-out 1.1s infinite; }
+}
+
+/* ---------- tablet: a mesma composição, com tudo maior; computador: a loja de um lado e o leque do outro ---------- */
+@media (min-width: 48rem) {
+  .apk-loja__id { gap: 1.25rem; }
+  .apk-loja__icone { width: clamp(6.5rem, 9vw, 8.5rem); height: clamp(6.5rem, 9vw, 8.5rem); }
+  .apk-loja__dev { font-size: 1.25rem; }
+  .apk-fatos { margin-top: 1.25rem; }
+  .apk-fatos li { padding: .8rem .75rem; }
+  .apk-fatos strong { font-size: 1.0625rem; gap: .25rem; }
+  .apk-fatos strong svg { width: 1.05rem; height: 1.05rem; }
+  .apk-fatos li > span { font-size: .9375rem; }
+  .apk-acoes { margin-top: 1.25rem; }
+  .apk-acoes .botao { flex: 0 0 auto; padding-left: 1.75rem; padding-right: 1.75rem; }
+  .apk-loja__nota { margin-top: .9rem; font-size: 1rem; }
+  .apk-leque { --tela-w: clamp(8rem, min(100cqw / 2.3, (100svh / var(--zoom, 1) - 31rem) / 2.03), 24rem); }
+}
+/* Computador (tela deitada): duas colunas. Tela em pé, mesmo larga, fica na composição do tablet (doutrina). */
+@media (min-width: 64rem) and (min-aspect-ratio: 6/5) {
+  .apk-heroi__grade { grid-template-columns: minmax(0, 1fr) minmax(0, 1.08fr); column-gap: clamp(1.75rem, 3.4vw, 4rem); align-content: center; align-items: center; }
+  .apk-leque { --tela-w: clamp(8rem, min(100cqw / 2.3, (100svh / var(--zoom, 1) - 14rem) / 2.03), 22rem); }
+  .apk-heroi .heroi__veu { background:
+    linear-gradient(90deg, rgb(5 9 7 / .84) 0%, rgb(5 9 7 / .72) 44%, rgb(5 9 7 / .34) 72%, rgb(5 9 7 / .3) 100%),
+    linear-gradient(180deg, rgb(5 9 7 / .62) 0%, rgb(5 9 7 / .12) 26%, rgb(5 9 7 / .12) 74%, rgb(5 9 7 / .62) 100%); }
+}
+@media (min-width: 64rem) and (max-width: 79.99rem) and (min-aspect-ratio: 6/5) {
+  .apk-acoes .botao { padding-left: 1.25rem; padding-right: 1.25rem; }
+}
+
+/* Celular baixo (até 672 px de altura, como 360 x 640 e 320 x 568): tudo um pouco mais junto, para o hero inteiro caber na
+   primeira tela com a faixa em 3 + 2 */
+@media (max-width: 47.99rem) and (max-height: 42rem) {
+  .apk-heroi__grade { row-gap: .5rem; padding-block: .4rem .5rem; }
+  .apk-loja__icone { width: 4.25rem; height: 4.25rem; }
+  .apk-loja h1 { font-size: 1.5rem; }
+  .apk-loja__dev { font-size: 1rem; }
+  .apk-fatos { margin-top: .6rem; }
+  .apk-fatos li { padding-top: .45rem; padding-bottom: .45rem; }
+  .apk-acoes { margin-top: .6rem; }
+  .apk-acoes .botao { --altura: 3rem; }
+  .apk-loja__nota { margin-top: .4rem; }
+  .apk-leque { --tela-w: clamp(4.5rem, min(100cqw / 2.3, (100svh / var(--zoom, 1) - 25rem) / 2.03), 12.5rem); }
+}
+
+/* Celular deitado: a altura é pouca, então o bloco e o leque ficam lado a lado para o hero caber na primeira tela */
+@media (max-height: 30rem) and (min-aspect-ratio: 6/5) and (max-width: 63.99rem) {
+  .apk-heroi__grade { grid-template-columns: minmax(0, 1fr) minmax(0, .85fr); column-gap: 1rem; align-content: center; align-items: center; padding-block: .25rem .5rem; }
+  .apk-loja__icone { width: 3.75rem; height: 3.75rem; }
+  .apk-loja h1 { font-size: 1.5rem; }
+  .apk-fatos { margin-top: .5rem; }
+  .apk-fatos li { padding-top: .4rem; padding-bottom: .4rem; }
+  .apk-acoes { margin-top: .5rem; }
+  .apk-acoes .botao { --altura: 2.75rem; flex: 1 1 8rem; padding-left: .75rem; padding-right: .75rem; font-size: 1rem; }
+  .apk-loja__nota { margin-top: .3rem; font-size: .875rem; }
+  .apk-leque { --tela-w: clamp(4.5rem, min(100cqw / 2.3, (100svh - 5.25rem) / 2.03), 10rem); }
+}
+
+/* ---------- TELAS DO APP: 3 lado a lado no celular, 6 no computador; sem trilho ---------- */
+.apk-telas { background: var(--papel); }
+.apk-galeria { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem .625rem; }
+.apk-galeria figure { min-width: 0; text-align: center; }
+.apk-galeria img { width: 100%; height: auto; border-radius: .875rem; background: #f6f7f6; box-shadow: 0 0 0 1px rgb(1 75 0 / .08), var(--sombra-2); }
+.apk-galeria figcaption { margin-top: .55rem; font-family: var(--f-titulo); font-size: .9375rem; font-weight: 600; line-height: 1.2; color: var(--tinta); }
+@media (min-width: 48rem) { .apk-galeria { grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 1.125rem; } .apk-galeria figcaption { font-size: 1rem; } }
+@media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+  .apk-galeria img { transition: translate .35s var(--saida), box-shadow .35s var(--saida); }
+  .apk-galeria figure:hover img { translate: 0 -.375rem; box-shadow: 0 0 0 1px rgb(5 131 1 / .35), 0 28px 44px -24px rgb(0 0 0 / .45); }
+}
+
+/* ---------- COMO INSTALAR: passos da página inicial + o aviso ---------- */
+.apk-instalar .passo { gap: .2rem; }
+.apk-instalar .passo__num { margin-bottom: .5rem; }
+.apk-aviso { display: flex; align-items: flex-start; gap: .75rem; max-width: 46rem; margin: clamp(1.5rem, 1.1rem + 1.8vw, 2.5rem) auto 0; padding: 1rem 1.125rem; border-radius: 1rem; background: var(--verde-claro); border: 1px solid rgb(5 131 1 / .22); color: var(--tinta); line-height: 1.45; }
+.apk-aviso svg { width: 1.5rem; height: 1.5rem; flex: none; margin-top: .05rem; color: var(--verde-fundo); }
+.apk-aviso strong { font-weight: 700; }
+
+/* ---------- VERSÃO: novidades e "sempre a mais nova" ---------- */
+.apk-versao { background: var(--papel); }
+.apk-versao__par { display: grid; gap: .875rem; align-items: stretch; }
+.apk-cartao { display: grid; align-content: start; gap: .85rem; min-width: 0; padding: clamp(1.125rem, .9rem + 1.1vw, 2rem); border-radius: var(--raio); background: var(--superficie); border: 1px solid var(--linha); box-shadow: var(--sombra-1); }
+.apk-cartao h2 { font-size: clamp(1.375rem, 1.2rem + .8vw, 1.875rem); font-weight: 800; color: var(--tinta); }
+.apk-cartao__topo { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .4rem .75rem; }
+.apk-selo { display: inline-flex; align-items: center; min-height: 2rem; padding: .3rem .8rem; border-radius: 999px; background: var(--verde-claro); color: var(--verde-fundo); font-family: var(--f-titulo); font-size: .875rem; font-weight: 700; white-space: nowrap; }
+.apk-novidades { display: grid; gap: .6rem; min-height: 4.5rem; align-content: start; }
+.apk-versao__par > .apk-cartao:first-child { grid-template-rows: auto minmax(0, 1fr); }
+.apk-novidades--reserva { align-content: center; }
+.apk-novidades--reserva li { justify-content: center; text-align: center; color: var(--tinta-3); }
+.apk-novidades--reserva svg { display: none; }
+.apk-novidades li { display: flex; gap: .55rem; line-height: 1.45; color: var(--tinta-2); }
+.apk-novidades svg { width: 1.25rem; height: 1.25rem; flex: none; margin-top: .15rem; color: var(--verde); }
+.apk-cartao--forte { background: var(--noite); border-color: var(--noite); color: #fff; }
+.apk-cartao--forte h2 { color: #fff; }
+.apk-cartao--forte p { line-height: 1.5; color: rgb(255 255 255 / .86); }
+.apk-publicada { display: flex; align-items: center; gap: .5rem; font-family: var(--f-titulo); font-size: .9375rem; font-weight: 600; color: var(--verde-luz); }
+.apk-cartao--forte .apk-publicada { color: var(--verde-luz); }
+.apk-publicada svg { width: 1.2rem; height: 1.2rem; flex: none; }
+.apk-cartao--forte .botao { justify-self: start; margin-top: .25rem; }
+@media (min-width: 48rem) { .apk-versao__par { grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 1.125rem; } }
+
+/* ---------- SEGURANÇA, curta ---------- */
+.apk-seguranca { background: var(--superficie); padding-top: clamp(2rem, 1.2rem + 3.4vw, 3.5rem); padding-bottom: clamp(2rem, 1.2rem + 3.4vw, 3.5rem); }
+.apk-seguranca__caixa { display: grid; gap: 1.25rem; }
+.apk-seguranca__texto { display: grid; gap: .6rem; justify-items: start; }
+.apk-seguranca__texto h2 { display: flex; align-items: center; gap: .5rem; font-size: clamp(1.5rem, 1.25rem + 1vw, 2.25rem); font-weight: 800; color: var(--tinta); }
+/* o escudo mora na linha do título, na cor da marca (nunca azulejo de ícone em cima do título) */
+.apk-seguranca__texto h2 svg { width: .9em; height: .9em; flex: none; color: var(--verde); }
+.apk-seguranca__texto p { color: var(--tinta-2); line-height: 1.5; max-width: 34rem; }
+.apk-seguranca__hash { display: grid; gap: .5rem; align-content: start; padding: 1.125rem; border-radius: 1rem; background: var(--papel); border: 1px solid var(--linha); min-width: 0; }
+.apk-seguranca__hash h3 { font-size: 1.0625rem; font-weight: 700; color: var(--tinta); }
+.apk-seguranca__hash p { font-size: .9375rem; line-height: 1.45; color: var(--tinta-2); }
+.apk-hash { display: block; font-family: var(--f-texto); color: var(--tinta-2); line-height: 1.5; }
+.apk-hash--real { color: var(--tinta); font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: .9375rem; overflow-wrap: anywhere; text-wrap: balance; }
+@media (min-width: 48rem) { .apk-seguranca__caixa { grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); gap: 2.5rem; align-items: start; } }

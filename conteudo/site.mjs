@@ -16,6 +16,20 @@ export const ENTIDADE = {
   // App na App Store desde 31/10/2026 (conta VisionX CO, grátis, iOS 15.1 ou mais novo; conferido na API pública da
   // Apple em 09/11/2026). O botão "Baixar para iPhone", o Smart App Banner, o JSON-LD e o llms.txt leem daqui.
   ios: 'https://apps.apple.com/br/app/finagro/id6827268381',
+  // APK do Android, página própria (10/11/2026, pedido do Victor): no lugar da Google Play, desativada. O Worker
+  // finagro-apk (Cloudflare) serve sempre o arquivo da versão atual e os dados dela em latest.json. A página /android,
+  // o menu, o rodapé, o JSON-LD, o llms.txt e os botões do celular Android leem daqui.
+  // Android mínimo: minSdkVersion 24 (ramo no-ar do FINAGRO, Expo 54 + React Native 0.81.5) = Android 7.0.
+  apk: {
+    pagina: `${SITE}/android`,
+    arquivo: 'https://finagro-apk.visionxma.workers.dev/finagro.apk',
+    dados: 'https://finagro-apk.visionxma.workers.dev/latest.json',
+    androidMinimo: '7.0',
+    // Reserva da página /android: os dados do APK publicado, escritos no HTML para a página nascer certa mesmo se o
+    // latest.json não responder (o script troca pelo latest.json quando ele responde). APK 1.2.13 (versionCode 51),
+    // compilado e conferido em 10/11/2026. A cada versão nova publicada, atualizar aqui e rodar `node scripts/gerar.mjs`.
+    reserva: { versao: '1.2.13', versionCode: 51, tamanhoBytes: 88856249, sha256: 'e7e4f82536f7ac3acaf7fd7227fd67300092fc862678b3a0b3ca5cbfa09cb408' },
+  },
   instagram: 'https://www.instagram.com/finagro.app/',
   linkedin: 'https://www.linkedin.com/company/finagro-app/',
   // Ficha no diretório FindSaaS (no ar em 02/11/2026): entra no sameAs do app e no llms.txt.
@@ -62,13 +76,22 @@ export const PERGUNTAS = [
   ['O FINAGRO é grátis mesmo?', 'É. O plano Campo é grátis para sempre e não pede cartão: até 3 fazendas, 5 pessoas e 1.000 animais com ficha, com lote de qualquer tamanho e todas as funções do app. Os planos pagos, de R$ 59,90 a R$ 299,90 por mês, são para quem precisa de mais fazendas, gente ou animais com ficha.'],
   ['Funciona sem internet no curral?', 'Para lançar, funciona. Sem sinal, o gasto, a venda ou a vacina ficam salvos no celular e sobem sozinhos quando a internet voltar, e o app avisa isso na hora. Para entrar pela primeira vez num aparelho e para ver o que a equipe lançou em outro celular, é preciso sinal.'],
   ['Serve para quem cria pouco? E para quem cria muito?', 'Serve dos dois lados. Você conta o que produz e quantos, e o painel se ajusta: o leiteiro com 12 vacas vê o leite do dia e a reprodução; a granja com 1 milhão de aves vê os galpões e o trato. Galpão, tanque, colmeia e lote de gado contam como um lote só, sem limite de cabeças.'],
-  ['Tem para iPhone?', 'Tem. O aplicativo está na App Store para iPhone. No Android, no tablet e no computador, o FINAGRO funciona pelo navegador em app.finagro.app, com a mesma conta e os mesmos dados.'],
+  ['Tem para iPhone?', 'Tem. O aplicativo está na App Store para iPhone. No Android, baixe o APK em finagro.app/android. No tablet e no computador, o FINAGRO funciona pelo navegador em app.finagro.app, com a mesma conta e os mesmos dados.'],
+  ['Tem para Android?', 'Tem. Baixe o APK em finagro.app/android: é grátis e o endereço entrega sempre a última versão. Quem preferir não instalar usa pelo navegador em app.finagro.app, com a mesma conta e os mesmos dados.'],
   ['O FINAGRO emite a GTA?', 'Não. A GTA (Guia de Trânsito Animal) é emitida no sistema da defesa agropecuária do seu estado. No FINAGRO você registra as GTAs emitidas, o app lembra 1 dia antes do vencimento e avisa quando falta anotar a vacina que trava a guia.'],
   ['O app gera o LCDPR?', 'Gera o arquivo do Livro Caixa Digital do Produtor Rural no leiaute da Receita Federal, com as receitas e despesas lançadas. O contador confere, completa os dados do contribuinte e das contas bancárias e valida no programa da Receita antes de entregar.'],
   ['Consigo trazer a planilha que já uso?', 'Consegue. No Excel, salve a planilha como CSV e envie o arquivo: o FINAGRO importa animais, despesas, receitas, fornecedores e itens de estoque, e ninguém precisa redigitar o que já está na planilha.'],
   ['Quantas pessoas podem usar a mesma fazenda?', 'No plano Campo, 5 pessoas, cada uma com o seu papel e as suas permissões. Para mais gente: Essencial (10), Profissional (30), Avançado (100) ou pessoa extra por R$ 14,90 por mês.'],
   ['Os meus dados ficam com quem?', 'Ficam com você, guardados na nuvem com a sua conta: trocou de celular, está tudo lá. As listas e os relatórios saem em PDF e planilha quando você quiser, e o tratamento dos dados está descrito na política de privacidade do FINAGRO.'],
   ['O que é o FINAGRO AI?', 'É o assistente do app para dúvidas de gestão rural, pecuária e agricultura. No plano Campo são 15 perguntas por dia, e a conta zera à meia-noite.'],
+];
+
+// Perguntas da página /android (tudo aqui é o que a própria página diz; nada de prometer o que o app ainda não faz).
+export const PERGUNTAS_APK = [
+  ['O Finagro no Android é grátis?', 'É. O plano Campo é grátis para sempre, sem cartão e sem prazo.'],
+  ['Qual Android eu preciso?', `Android ${ENTIDADE.apk.androidMinimo} ou mais novo. Em aparelho mais antigo, use o Finagro pelo navegador, em app.finagro.app.`],
+  ['Como eu atualizo para a versão nova?', 'Volte a esta página e toque em Baixar APK: este endereço entrega sempre a última versão. O app ainda não avisa sozinho quando sai uma versão nova.'],
+  ['Dá para usar sem instalar?', 'Dá. O botão Usar no navegador abre o Finagro em app.finagro.app, com a mesma conta e os mesmos dados.'],
 ];
 
 // Páginas do site (sitemap, navegação do rodapé, llms.txt).
@@ -82,4 +105,6 @@ export const PAGINAS = [
   { caminho: '/calculadora-gmd', titulo: 'Calculadora de GMD do gado', resumo: 'Ganho médio diário: a conta, a calculadora e como usar o resultado na engorda.' },
   // Página de captação (chegada de anúncio e de busca de compra): hero de tela inteira, por isso o topo nasce estendido.
   { caminho: '/gestao-da-pecuaria-de-corte', titulo: 'Gestão da pecuária de corte no celular', resumo: 'Para quem toca gado de corte: o que a caderneta não soma, o que o app põe no lugar e o que cabe no plano grátis.', heroi: true, captacao: true },
+  // Download do APK no estilo de loja de aplicativos: hero de tela inteira e SoftwareApplication próprio no JSON-LD (apk: true).
+  { caminho: '/android', titulo: 'Baixar o FINAGRO para Android (APK)', resumo: 'Download do APK do app para Android: versão sempre atual, como instalar, novidades da versão e impressão SHA-256 do arquivo.', heroi: true, captacao: true, apk: true, atualizado: '2026-11-10' },
 ];

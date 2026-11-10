@@ -65,7 +65,7 @@ Comece em 4 passos
 Simples assim, e grátis.
 1
 Baixe
-Instale na App Store ou abra no navegador.
+Instale na App Store, baixe o APK no Android ou abra no navegador.
 2
 Cadastre
 Entre com a conta Google e conte o que você produz.
@@ -101,7 +101,9 @@ Para lançar, funciona. Sem sinal, o gasto, a venda ou a vacina ficam salvos no 
 Serve para quem cria pouco? E para quem cria muito?
 Serve dos dois lados. Você conta o que produz e quantos, e o painel se ajusta: o leiteiro com 12 vacas vê o leite do dia e a reprodução; a granja com 1 milhão de aves vê os galpões e o trato. Galpão, tanque, colmeia e lote de gado contam como um lote só, sem limite de cabeças.
 Tem para iPhone?
-Tem. O aplicativo está na App Store para iPhone. No Android, no tablet e no computador, o FINAGRO funciona pelo navegador em app.finagro.app, com a mesma conta e os mesmos dados.
+Tem. O aplicativo está na App Store para iPhone. No Android, baixe o APK em finagro.app/android. No tablet e no computador, o FINAGRO funciona pelo navegador em app.finagro.app, com a mesma conta e os mesmos dados.
+Tem para Android?
+Tem. Baixe o APK em finagro.app/android: é grátis e o endereço entrega sempre a última versão. Quem preferir não instalar usa pelo navegador em app.finagro.app, com a mesma conta e os mesmos dados.
 O FINAGRO emite a GTA?
 Não. A GTA (Guia de Trânsito Animal) é emitida no sistema da defesa agropecuária do seu estado. No FINAGRO você registra as GTAs emitidas, o app lembra 1 dia antes do vencimento e avisa quando falta anotar a vacina que trava a guia.
 O app gera o LCDPR?
@@ -114,7 +116,7 @@ Os meus dados ficam com quem?
 Ficam com você, guardados na nuvem com a sua conta: trocou de celular, está tudo lá. As listas e os relatórios saem em PDF e planilha quando você quiser, e o tratamento dos dados está descrito na política de privacidade do FINAGRO.
 O que é o FINAGRO AI?
 É o assistente do app para dúvidas de gestão rural, pecuária e agricultura. No plano Campo são 15 perguntas por dia, e a conta zera à meia-noite.
-Ver mais perguntas (+5)
+Ver mais perguntas (+6)
 Pronto para profissionalizar sua fazenda?
 Grátis para sempre no plano Campo, com o app inteiro: até 3 fazendas, 5 pessoas e 1.000 animais com ficha. Sem cartão e sem prazo.
 Baixar para iPhoneBaixar grátis
@@ -459,7 +461,7 @@ Tarefas da equipe
 Para ver a tela, só com demonstração
 Você baixa, diz o que cria e lança a primeira cabeça hoje. Sem vendedor e sem cartão.
 Grátis até 1.000 fichas
-iPhone e navegador
+iPhone, Android e navegador
 Importa a planilha em CSV
 Relatório em PDF e planilha
 1.000
@@ -470,7 +472,7 @@ Sem limitede cabeças por lote: o lote inteiro conta como um só
 Limites do plano Campo. Quem precisa de mais fazendas, gente ou fichas tem planos de R$ 59,90 a R$ 299,90 por mês.
 Como você começa no FINAGRO hoje
 1Baixe ou abra no navegador
-No iPhone, pela App Store. No Android e no computador, pelo navegador em app.finagro.app.
+No iPhone, pela App Store. No Android, pelo APK em finagro.app/android. No computador, pelo navegador em app.finagro.app.
 2Diga o que você cria
 Gado de corte, leite ou lavoura: o painel se monta pelo que você marcar.
 3Lance no curral
@@ -512,6 +514,58 @@ Na engorda: pesagens com o ganho entre uma e outra e a cotação do boi gordo.
 Começar grátis
 Baixar para iPhoneNo iPhone
 Nada do que você marca aqui é enviado a lugar nenhum.
+
+
+---
+
+## Baixar APK do Finagro para Android, grátis | FINAGRO
+Endereço: https://finagro.app/android
+
+
+Finagro - Gestão Rural
+VisionX
+5,0 nota
+Grátis preço
+1.2.13 versão
+84 MB tamanho
+Android 7.0 ou mais novo
+Baixar APK
+Usar no navegadorNo navegador
+Grátis para sempre no plano Campo. Sem cartão e sem prazo.
+Telas do app
+O Finagro por dentro, como ele aparece no seu celular.
+Como instalar
+Quatro passos, direto no seu Android.
+1Baixe
+Toque em Baixar APK, no alto desta página.
+2Abra o arquivo
+Abra o arquivo baixado pela notificação ou na pasta Downloads.
+3Permita
+Se o Android perguntar, permita instalar por este navegador.
+4Entre
+Abra o Finagro e entre com a sua conta.
+Já tem o Finagro da Google Play? Desinstale antes de instalar este. Sua conta e seus dados continuam guardados.
+Novidades desta versão
+Versão 1.2.13
+As novidades desta versão aparecem aqui assim que ela é publicada.
+Sempre a versão mais nova
+Este endereço entrega sempre a última versão do Finagro. Para atualizar, volte aqui e baixe de novo.
+Última versão publicada
+Baixar APK
+Segurança
+O Android avisa quando um aplicativo vem de fora da loja dele. É o cuidado do sistema com todo aplicativo instalado assim, não um defeito do arquivo.
+Impressão SHA-256 do arquivo
+e7e4f82536f7ac3acaf7fd7227fd67300092fc862678b3a0b3ca5cbfa09cb408
+Cada arquivo tem uma impressão única. Se o seu arquivo baixado tiver a mesma, ele é este aqui.
+Perguntas sobre o APK
+O Finagro no Android é grátis?
+É. O plano Campo é grátis para sempre, sem cartão e sem prazo.
+Qual Android eu preciso?
+Android 7.0 ou mais novo. Em aparelho mais antigo, use o Finagro pelo navegador, em app.finagro.app.
+Como eu atualizo para a versão nova?
+Volte a esta página e toque em Baixar APK: este endereço entrega sempre a última versão. O app ainda não avisa sozinho quando sai uma versão nova.
+Dá para usar sem instalar?
+Dá. O botão Usar no navegador abre o Finagro em app.finagro.app, com a mesma conta e os mesmos dados.
 
 
 ---
@@ -676,7 +730,7 @@ Não se liga a balança eletrônica nem a leitor de brinco. O peso é digitado n
 Não é coleira nem rastreador: mostra o que foi lançado, não onde o animal está.
 Se o seu curral trabalha com balança ligada ao sistema, ou se a fazenda precisa de certificação de rastreabilidade para exportar, procure um sistema feito para isso. Para organizar rebanho, lida e dinheiro no celular, o FINAGRO resolve.
 Como começar hoje
-No iPhone, baixe o FINAGRO na App Store. No Android e no computador, abra app.finagro.app no navegador. Entre com a conta Google ou com e-mail e senha.
+No iPhone, baixe o FINAGRO na App Store. No Android, baixe o APK. No computador, abra app.finagro.app no navegador. Entre com a conta Google ou com e-mail e senha.
 Conte o que você cria e quantos. O painel se monta para gado de corte, leite, aves, suínos, peixes ou abelhas.
 Cadastre o primeiro lote ou importe a planilha que você já usa (no Excel, salve como CSV). A partir daí, cada pesagem e cada vacina entram em poucos toques.
 Três contas aparecem logo na primeira semana de uso: o peso em arroba na calculadora de arroba do boi, as doses do calendário de vacinação bovina e a data do parto na calculadora de gestação bovina.
@@ -688,8 +742,8 @@ Existe aplicativo de controle de gado grátis?
 Existe. O FINAGRO tem o plano Campo, grátis para sempre e sem cartão, com até 3 fazendas, 5 pessoas e 1.000 animais com ficha. Lote não tem limite de cabeças.
 O aplicativo funciona sem internet no curral?
 Para lançar, funciona. O gasto, a venda, a pesagem ou a vacina ficam salvos no celular e sobem quando o sinal volta. Para entrar pela primeira vez num aparelho e para ver o que a equipe lançou em outro celular, é preciso sinal.
-Dá para usar no iPhone e no computador?
-Dá. No iPhone, o aplicativo está na App Store; no Android, no computador e no tablet, o FINAGRO abre pelo navegador, em app.finagro.app, com a mesma conta e os mesmos dados.
+Dá para usar no iPhone, no Android e no computador?
+Dá. No iPhone, o aplicativo está na App Store; no Android, baixe o APK em finagro.app/android; no computador e no tablet, o FINAGRO abre pelo navegador, em app.finagro.app, com a mesma conta e os mesmos dados.
 Consigo passar a minha planilha para o aplicativo?
 Consegue. No Excel, salve a planilha como CSV e envie o arquivo. O FINAGRO importa o cadastro dos animais, as despesas e as receitas, sem digitar tudo de novo.
 Preciso cadastrar animal por animal?
@@ -823,7 +877,7 @@ Ficha rápida
 ItemFINAGRO
 O que éAplicativo de gestão rural para fazenda, sítio e granja
 Quem fazVisionX, desenvolvedora brasileira de software
-Onde funcionaiPhone (App Store) e navegador, em app.finagro.app
+Onde funcionaiPhone (App Store), Android (APK em finagro.app/android) e navegador, em app.finagro.app
 PreçoPlano Campo grátis para sempre; pagos a partir de R$ 59,90 por mês
 Limite do grátis3 fazendas, 5 pessoas, 1.000 animais com ficha, lote sem limite
 IdiomaPortuguês do Brasil
@@ -853,7 +907,7 @@ Para quem é e para quem não é
 É para o produtor que quer sair do caderno e da planilha e ter rebanho, lavoura e caixa no celular, do sítio com poucas vacas de leite à fazenda de corte com vários lotes, e para quem cria mais de uma coisa na mesma propriedade.
 Não é a melhor escolha para a fazenda que precisa de balança eletrônica ligada ao sistema, de certificação de rastreabilidade ou de emissão de nota dentro do aplicativo. A comparação entre aplicativos de gestão rural mostra quem faz cada uma dessas coisas.
 Como começar
-No iPhone, baixe o FINAGRO na App Store. No Android e no computador, abra app.finagro.app no navegador.
+No iPhone, baixe o FINAGRO na App Store. No Android, baixe o APK. No computador, abra app.finagro.app no navegador.
 Entre com a conta Google ou com e-mail e senha e cadastre a fazenda.
 Conte o que você cria e planta, e lance o primeiro lote, a primeira despesa ou importe a planilha que você já usa, salva como CSV.
 Conheça o FINAGRO usando: é grátis e não pede cartão.
@@ -866,8 +920,8 @@ O FINAGRO é do governo ou de algum banco?
 Não. É um aplicativo privado, desenvolvido pela VisionX. Ele também não tem relação com o Finagro da Colômbia, que é um fundo de crédito agropecuário com sede em Bogotá.
 Quem desenvolve o FINAGRO?
 A VisionX, desenvolvedora brasileira de software, que mantém o aplicativo, o site finagro.app e o sistema em app.finagro.app.
-Tem FINAGRO para iPhone?
-Tem. O aplicativo está na App Store para iPhone desde 31 de outubro de 2026. No Android, no tablet e no computador, o FINAGRO funciona pelo navegador, com a mesma conta e os mesmos dados.
+Tem FINAGRO para iPhone e para Android?
+Tem. O aplicativo está na App Store para iPhone desde 31 de outubro de 2026. No Android, baixe o APK em finagro.app/android. No tablet e no computador, o FINAGRO funciona pelo navegador, com a mesma conta e os mesmos dados.
 Os meus dados ficam presos no aplicativo?
 Não. As listas e os relatórios saem em PDF e em planilha quando você quiser, e os dados ficam guardados na sua conta: ao trocar de celular, está tudo lá.
 Fontes
@@ -943,7 +997,7 @@ Balança eletrônica, leitor de brinco e sensores ligados ao sistema.
 Imagem de satélite da lavoura e telemetria de máquinas.
 Nesses casos, procure um sistema especializado nessa parte. Muita fazenda usa os dois: o especializado para a nota ou para a balança, e o FINAGRO para o rebanho, a lida e o caixa do dia a dia.
 Do curral ao escritório com a mesma conta
-Abra app.finagro.app no computador ou no Android, ou baixe o aplicativo no iPhone, na App Store. Entre com a conta Google ou com e-mail e senha.
+Abra app.finagro.app no computador, baixe o APK no Android ou o aplicativo no iPhone, na App Store. Entre com a conta Google ou com e-mail e senha.
 Cadastre a fazenda e conte o que ela produz. O painel se monta para o que você cria e planta.
 Importe a planilha com o rebanho, as despesas ou as receitas que você já tem. No Excel, salve como CSV antes de enviar.
 Convide a equipe e escolha o papel de cada pessoa. Quem está no curral lança; quem está na sede confere.
@@ -955,7 +1009,7 @@ Perguntas sobre software de gestão rural
 Existe software de gestão rural gratuito?
 Existe. O plano Campo do FINAGRO é grátis para sempre e sem cartão, com até 3 fazendas, 5 pessoas e 1.000 animais com ficha, e traz todas as funções do app.
 Preciso instalar alguma coisa no computador?
-Não. No computador o FINAGRO abre pelo navegador, em app.finagro.app. No iPhone há o aplicativo, na App Store. No Android, abre pelo navegador., com a mesma conta.
+Não. No computador o FINAGRO abre pelo navegador, em app.finagro.app. No iPhone há o aplicativo, na App Store, e no Android, o APK em finagro.app/android, com a mesma conta.
 Serve para lavoura ou só para gado?
 Serve para os dois. Há safras, talhões, caderno de campo e custo por hectare para a lavoura, e ficha, lote, vacina e reprodução para o rebanho, com o dinheiro da fazenda num lugar só.
 O sistema substitui o contador?

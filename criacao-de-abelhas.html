@@ -29,6 +29,7 @@
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="manifest" href="/site.webmanifest">
 <link rel="alternate" type="application/atom+xml" title="Guias do FINAGRO" href="/guias.xml">
+<script>(function(){if(!/Android/i.test(navigator.userAgent))return;var h=document.documentElement;h.classList.add('e-android');var alvo=/^\/android\/?$/.test(location.pathname)?"https://finagro-apk.visionxma.workers.dev/finagro.apk":'/android';var sel='a.botao[href*="apps.apple.com"],a.artigo__convite-loja[href*="apps.apple.com"],a.passo__cena--loja[href*="apps.apple.com"],a[data-android]';function arrumar(a){if(!a.hasAttribute('data-android')){a.setAttribute('data-android','');a.setAttribute('href',alvo);a.removeAttribute('target');a.removeAttribute('rel');a.setAttribute('aria-label','Baixar o FINAGRO para Android');}if(a.classList.contains('passo__cena--loja')){if(a.querySelector('img'))a.innerHTML='<span class="selo-apk"><svg aria-hidden="true"><use href="#i-android"/></svg><span><small>Baixe o APK</small><strong>para Android</strong></span></span>';return;}var w=document.createTreeWalker(a,NodeFilter.SHOW_TEXT),n;while(n=w.nextNode()){var t=n.nodeValue,u=t.replace('para iPhone','para Android').replace('No iPhone','No Android');if(u!==t)n.nodeValue=u;}var s=a.querySelector('svg');if(s&&!(s.children.length===1&&s.firstElementChild.getAttribute('href')==='#i-android')){s.setAttribute('viewBox','0 0 24 24');s.innerHTML='<use href="#i-android"/>';}}function ver(no){var el=no.nodeType===1?no:no.parentElement;if(!el)return;var a=el.closest(sel);if(a)arrumar(a);if(no.nodeType===1)[].forEach.call(el.querySelectorAll(sel),arrumar);}var ob=new MutationObserver(function(l){l.forEach(function(m){[].forEach.call(m.addedNodes,ver);});});ob.observe(h,{childList:true,subtree:true});document.addEventListener('DOMContentLoaded',function(){ver(document.body);ob.disconnect();});})();</script>
 <script src="/assets/medir.js" defer></script>
 <!--/gerado:cabeca-->
 <link rel="preload" href="/assets/fontes/outfit-latin.woff2?v=98ccc2b7" as="font" type="font/woff2" crossorigin>
@@ -41,7 +42,7 @@
 <a class="pular" href="#conteudo">Pular para o conteúdo</a>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="i-seta" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol></svg>
 <!--gerado:topo-->
-<header class="topo topo--flutua topo--fixo">
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id="i-android" viewBox="0 0 24 24"><path fill="currentColor" d="M17.6 9.48l1.84-3.18c.16-.31.04-.69-.26-.85a.64.64 0 0 0-.83.22l-1.88 3.24a11.43 11.43 0 0 0-8.94 0L5.65 5.67a.64.64 0 0 0-.87-.2c-.28.18-.37.54-.22.83L6.4 9.48A10.78 10.78 0 0 0 1 18h22a10.78 10.78 0 0 0-5.4-8.52zM7 15.25a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zm10 0a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5z"/></symbol></svg><header class="topo topo--flutua topo--fixo">
   <div class="topo__barra">
     <a class="topo__marca" href="/" aria-label="FINAGRO, página inicial"><picture><source type="image/avif" srcset="/assets/marca/finagro-placa-240.avif?v=03b5e661 240w, /assets/marca/finagro-placa-400.avif?v=85b30e79 400w" sizes="120px"><img class="topo__logo" src="/assets/marca/finagro-placa-400.webp?v=b8cc36a7" srcset="/assets/marca/finagro-placa-240.webp?v=6759a6c4 240w, /assets/marca/finagro-placa-400.webp?v=b8cc36a7 400w" sizes="120px" width="400" height="139" alt="FINAGRO"></picture></a>
     <nav class="topo__nav" aria-label="Seções da página">
@@ -56,6 +57,7 @@
       <a href="/#funcionalidades">Funcionalidades</a><a href="/#beneficios">Benefícios</a><a href="/#como-funciona">Como funciona</a><a href="/#para-quem">Para quem</a><a href="/#perguntas">Dúvidas</a><a href="/guias">Guias</a>
       <a href="https://app.finagro.app/">Entrar no app</a>
       <a class="botao botao--cheio" href="https://apps.apple.com/br/app/finagro/id6827268381" target="_blank" rel="noopener">Baixar para iPhone</a>
+      <a class="botao botao--cheio topo__painel-android" href="/android">Baixar para Android</a>
     </nav>
   </div>
 </header>
@@ -219,7 +221,7 @@
       <div><h2>O app</h2><ul>
         <li><a href="/#funcionalidades">Funcionalidades</a></li><li><a href="/#beneficios">Benefícios</a></li><li><a href="/#como-funciona">Como funciona</a></li><li><a href="/#para-quem">Para quem</a></li><li><a href="/#perguntas">Dúvidas</a></li>
         <li><a href="/gestao-da-pecuaria-de-corte">Para gado de corte</a></li>
-        <li><a href="https://app.finagro.app/">Entrar no app</a></li><li><a href="https://apps.apple.com/br/app/finagro/id6827268381" target="_blank" rel="noopener">App para iPhone</a></li>
+        <li><a href="https://app.finagro.app/">Entrar no app</a></li><li><a href="https://apps.apple.com/br/app/finagro/id6827268381" target="_blank" rel="noopener">App para iPhone</a></li><li><a href="/android">App para Android</a></li>
       </ul></div>
       <div><h2>Guias</h2><ul>
         <li><a href="/aplicativo-para-controle-de-gado">App para controle de gado</a></li><li><a href="/software-de-gestao-rural">Software de gestão rural</a></li><li><a href="/planilha-de-controle-de-gado">Planilha de controle de gado</a></li><li><a href="/calculadora-de-arroba">Calculadora de arroba</a></li><li><a href="/como-emitir-gta">Como emitir GTA</a></li><li><a href="/controle-de-rebanho">Controle de rebanho</a></li>
