@@ -38,7 +38,7 @@
     if (!a) return;
     var h = a.getAttribute('href') || '';
     if (/app\.finagro\.app/.test(h)) evento('abrir_app', { lugar: lugar(a) });
-    else if (/play\.google\.com/.test(h)) evento('abrir_loja', { lugar: lugar(a) });
+    else if (/play\.google\.com|apps\.apple\.com/.test(h)) evento('abrir_loja', { lugar: lugar(a) });
     else if (/^\/arquivos\//.test(h)) evento('baixar_arquivo', { arquivo: h.split('/').pop() });
     else if (a.hasAttribute('data-copiar')) evento('copiar_modelo', {});
     else if (a.hasAttribute('data-imprimir')) evento('imprimir_modelo', {});

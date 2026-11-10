@@ -2,7 +2,7 @@
 
 > O FINAGRO é um aplicativo brasileiro de gestão rural, no celular e no computador, que reúne rebanho, lavoura, dinheiro e equipe da fazenda e é grátis até 1.000 animais com ficha.
 
-Site: https://finagro.app/ · Sistema: https://app.finagro.app/ · Android: https://play.google.com/store/apps/details?id=com.raykkony.fblogin · iPhone: https://apps.apple.com/br/app/finagro/id6827268381 · LinkedIn: https://www.linkedin.com/company/finagro-app/ · FindSaaS: https://www.findsaas.com.br/saas/finagro · Desenvolvido pela VisionX (https://visionxma.com/). Atualizado em 08/10/2026.
+Site: https://finagro.app/ · Sistema: https://app.finagro.app/ · iPhone: https://apps.apple.com/br/app/finagro/id6827268381 · LinkedIn: https://www.linkedin.com/company/finagro-app/ · FindSaaS: https://www.findsaas.com.br/saas/finagro · Desenvolvido pela VisionX (https://visionxma.com/). Atualizado em 08/10/2026.
 
 ## O que faz
 - Rebanho: animal com ficha (brinco, raça, peso, foto), lote de qualquer tamanho, vacinas e sanidade, reprodução com parto previsto, pesagem e GMD, registro de GTA com lembrete de vencimento.
@@ -11,7 +11,7 @@ Site: https://finagro.app/ · Sistema: https://app.finagro.app/ · Android: http
 - Campo e equipe: área por GPS, máquinas e manutenção, estoque de insumos, clima da fazenda, mão de obra, pessoas com papel e permissão.
 - Mercado: cotação do boi gordo (CONAB), notícias do agro, marketplace de animais, simulador de crédito do Pronaf (com taxas de referência, não é proposta de banco), assistente FINAGRO AI.
 - O painel se monta pelo perfil da produção (gado de corte, leite, aves, suínos, peixes, abelhas, horta, grãos), com alertas da criação: vacina que trava a GTA, CBT do leite, oxigênio do tanque, vento para pulverizar.
-- Onde funciona: aplicativo para iPhone na App Store (desde 31/10/2026) e para Android na Google Play; no tablet e no computador, pelo navegador em https://app.finagro.app/, com a mesma conta e os mesmos dados.
+- Onde funciona: aplicativo para iPhone na App Store (desde 31/10/2026); no Android, no tablet e no computador, pelo navegador em https://app.finagro.app/, com a mesma conta e os mesmos dados.
 - Lançamento sem sinal fica no aparelho e sobe quando a internet volta.
 
 ## O que não é
@@ -138,7 +138,7 @@ Para lançar, funciona. Sem sinal, o gasto, a venda ou a vacina ficam salvos no 
 Serve dos dois lados. Você conta o que produz e quantos, e o painel se ajusta: o leiteiro com 12 vacas vê o leite do dia e a reprodução; a granja com 1 milhão de aves vê os galpões e o trato. Galpão, tanque, colmeia e lote de gado contam como um lote só, sem limite de cabeças.
 
 ### Tem para iPhone?
-Tem. O aplicativo está na App Store para iPhone e na Google Play para Android. No tablet e no computador, o FINAGRO funciona pelo navegador em app.finagro.app, com a mesma conta e os mesmos dados.
+Tem. O aplicativo está na App Store para iPhone. No Android, no tablet e no computador, o FINAGRO funciona pelo navegador em app.finagro.app, com a mesma conta e os mesmos dados.
 
 ### O FINAGRO emite a GTA?
 Não. A GTA (Guia de Trânsito Animal) é emitida no sistema da defesa agropecuária do seu estado. No FINAGRO você registra as GTAs emitidas, o app lembra 1 dia antes do vencimento e avisa quando falta anotar a vacina que trava a guia.

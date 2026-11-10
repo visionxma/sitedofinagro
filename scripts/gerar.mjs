@@ -36,7 +36,8 @@ function preencher(html, nome, conteudo) {
 }
 
 // ---------- blocos ----------
-const PLAY = ENTIDADE.android;
+// Google Play desativada em 10/11/2026, a pedido do Victor: a versão de lá está parada e só a App Store é atualizada.
+// Todo botão de baixar leva à App Store (IOS). O endereço antigo fica em ENTIDADE.android; para voltar, desfazer este commit.
 // App na App Store (conta VisionX CO; conferido na API pública da Apple em 09/11/2026): botão "Baixar para iPhone" na navbar de toda página e Smart App Banner.
 // O endereço mora em conteudo/site.mjs (ENTIDADE.ios), a fonte única; o id do Smart App Banner sai dele.
 const IOS = ENTIDADE.ios;
@@ -61,15 +62,13 @@ const topo = (inicio) => `<header class="topo${inicio ? '' : ' topo--flutua topo
     </nav>
     <div class="topo__acoes">
       <a class="topo__entrar" href="${ENTIDADE.app}">Entrar</a>
-      <a class="topo__iphone" href="${IOS}" target="_blank" rel="noopener" aria-label="Baixar o FINAGRO para iPhone na App Store (abre em nova aba)">${svgApple}<span class="topo__iphone-curto">iPhone</span><span class="topo__iphone-longo">App Store</span></a>
-      <a class="botao botao--cheio topo__baixar" href="${PLAY}" aria-label="Baixar o FINAGRO para Android no Google Play">${svgPlay}<span class="topo__baixar-curto">Baixar app</span><span class="topo__baixar-longo">Google Play</span></a>
+      <a class="botao botao--cheio topo__baixar" href="${IOS}" target="_blank" rel="noopener" aria-label="Baixar o FINAGRO para iPhone na App Store (abre em nova aba)">${svgApple}<span class="topo__baixar-curto">Baixar app</span><span class="topo__baixar-longo">Baixar para iPhone</span></a>
       <button class="topo__menu" type="button" aria-expanded="false" aria-controls="topo-painel" aria-label="Abrir menu">${svgMenu}</button>
     </div>
     <nav class="topo__painel" id="topo-painel" aria-label="Menu" hidden>
       ${[...SECOES, ['/guias', 'Guias']].map(([h, t]) => `<a href="${h}">${t}</a>`).join('')}
       <a href="${ENTIDADE.app}">Entrar no app</a>
-      <a class="botao botao--cheio" href="${PLAY}">Baixar para Android</a>
-      <a class="botao botao--linha" href="${IOS}" target="_blank" rel="noopener">Baixar para iPhone</a>
+      <a class="botao botao--cheio" href="${IOS}" target="_blank" rel="noopener">Baixar para iPhone</a>
     </nav>
   </div>
 </header>`;
@@ -87,7 +86,7 @@ const rodape = () => `<footer class="rodape">
       <div><h2>O app</h2><ul>
         ${SECOES.map(([h, t]) => `<li><a href="${h}">${t}</a></li>`).join('')}
         <li><a href="/gestao-da-pecuaria-de-corte">Para gado de corte</a></li>
-        <li><a href="${ENTIDADE.app}">Entrar no app</a></li><li><a href="${PLAY}">App para Android</a></li><li><a href="${IOS}" target="_blank" rel="noopener">App para iPhone</a></li>
+        <li><a href="${ENTIDADE.app}">Entrar no app</a></li><li><a href="${IOS}" target="_blank" rel="noopener">App para iPhone</a></li>
       </ul></div>
       <div><h2>Guias</h2><ul>
         ${RODAPE_GUIAS.map((g) => `<li><a href="/${g.slug}">${esc(g.curto)}</a></li>`).join('')}
@@ -189,10 +188,10 @@ const site = { '@type': 'WebSite', '@id': `${SITE}/#site`, url: `${SITE}/`, name
 const app = {
   '@type': 'SoftwareApplication', '@id': APP_ID, name: 'FINAGRO', url: `${SITE}/`,
   description: ENTIDADE.frase, applicationCategory: 'BusinessApplication', applicationSubCategory: 'Gestão rural',
-  // iPhone pela App Store desde 31/10/2026, Android pela Google Play; o navegador fica para tablet e computador.
-  operatingSystem: 'Android, iOS, navegador (tablet e computador)', inLanguage: 'pt-BR',
+  // iPhone pela App Store desde 31/10/2026; Android, tablet e computador pelo navegador (Google Play desativada em 10/11/2026).
+  operatingSystem: 'iOS, navegador (Android, tablet e computador)', inLanguage: 'pt-BR',
   image: ENTIDADE.imagem, screenshot: `${SITE}/assets/telas/inicio-824.webp`,
-  installUrl: [ENTIDADE.android, ENTIDADE.ios], downloadUrl: [ENTIDADE.android, ENTIDADE.ios], sameAs: [ENTIDADE.instagram, ENTIDADE.linkedin, ENTIDADE.android, ENTIDADE.ios, ENTIDADE.findsaas],
+  installUrl: [ENTIDADE.ios], downloadUrl: [ENTIDADE.ios], sameAs: [ENTIDADE.instagram, ENTIDADE.linkedin, ENTIDADE.ios, ENTIDADE.findsaas],
   author: { '@id': ORG_ID }, publisher: { '@id': ORG_ID },
   offers: [
     ...PLANOS.filter((p) => !p.mes).map((p) => ({ '@type': 'Offer', name: `Plano ${p.nome}`, price: '0.00', priceCurrency: 'BRL', description: p.itens.slice(0, 3).join(', '), url: `${SITE}/#comecar`, category: 'grátis' })),
@@ -323,7 +322,7 @@ const llms = `# FINAGRO
 
 > ${ENTIDADE.frase}
 
-Site: ${SITE}/ · Sistema: ${ENTIDADE.app} · Android: ${ENTIDADE.android} · iPhone: ${ENTIDADE.ios} · LinkedIn: ${ENTIDADE.linkedin} · FindSaaS: ${ENTIDADE.findsaas} · Desenvolvido pela VisionX (https://visionxma.com/). Atualizado em ${ATUALIZADO.split('-').reverse().join('/')}.
+Site: ${SITE}/ · Sistema: ${ENTIDADE.app} · iPhone: ${ENTIDADE.ios} · LinkedIn: ${ENTIDADE.linkedin} · FindSaaS: ${ENTIDADE.findsaas} · Desenvolvido pela VisionX (https://visionxma.com/). Atualizado em ${ATUALIZADO.split('-').reverse().join('/')}.
 
 ## O que faz
 - Rebanho: animal com ficha (brinco, raça, peso, foto), lote de qualquer tamanho, vacinas e sanidade, reprodução com parto previsto, pesagem e GMD, registro de GTA com lembrete de vencimento.
@@ -332,7 +331,7 @@ Site: ${SITE}/ · Sistema: ${ENTIDADE.app} · Android: ${ENTIDADE.android} · iP
 - Campo e equipe: área por GPS, máquinas e manutenção, estoque de insumos, clima da fazenda, mão de obra, pessoas com papel e permissão.
 - Mercado: cotação do boi gordo (CONAB), notícias do agro, marketplace de animais, simulador de crédito do Pronaf (com taxas de referência, não é proposta de banco), assistente FINAGRO AI.
 - O painel se monta pelo perfil da produção (gado de corte, leite, aves, suínos, peixes, abelhas, horta, grãos), com alertas da criação: vacina que trava a GTA, CBT do leite, oxigênio do tanque, vento para pulverizar.
-- Onde funciona: aplicativo para iPhone na App Store (desde 31/10/2026) e para Android na Google Play; no tablet e no computador, pelo navegador em ${ENTIDADE.app}, com a mesma conta e os mesmos dados.
+- Onde funciona: aplicativo para iPhone na App Store (desde 31/10/2026); no Android, no tablet e no computador, pelo navegador em ${ENTIDADE.app}, com a mesma conta e os mesmos dados.
 - Lançamento sem sinal fica no aparelho e sobe quando a internet volta.
 
 ## O que não é

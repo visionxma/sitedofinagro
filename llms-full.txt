@@ -8,10 +8,10 @@
 Endereço: https://finagro.app/
 
 
-5,0 na Google Play
+5,0 nas avaliações
 Sua fazenda na palma da mão
 Rebanho, dinheiro, tarefas e o mapa da fazenda num app só. Você lança no curral, até sem sinal, e vê na hora para onde foi o dinheiro.
-Baixar para AndroidBaixar grátis
+Baixar para iPhoneBaixar grátis
 Usar no navegadorNo navegador
 Grátis para sempre no plano Campo. Sem cartão e sem prazo.
 Lança sem sinal e sobe depois
@@ -65,7 +65,7 @@ Comece em 4 passos
 Simples assim, e grátis.
 1
 Baixe
-Instale na Google Play ou abra no navegador.
+Instale na App Store ou abra no navegador.
 2
 Cadastre
 Entre com a conta Google e conte o que você produz.
@@ -101,7 +101,7 @@ Para lançar, funciona. Sem sinal, o gasto, a venda ou a vacina ficam salvos no 
 Serve para quem cria pouco? E para quem cria muito?
 Serve dos dois lados. Você conta o que produz e quantos, e o painel se ajusta: o leiteiro com 12 vacas vê o leite do dia e a reprodução; a granja com 1 milhão de aves vê os galpões e o trato. Galpão, tanque, colmeia e lote de gado contam como um lote só, sem limite de cabeças.
 Tem para iPhone?
-Tem. O aplicativo está na App Store para iPhone e na Google Play para Android. No tablet e no computador, o FINAGRO funciona pelo navegador em app.finagro.app, com a mesma conta e os mesmos dados.
+Tem. O aplicativo está na App Store para iPhone. No Android, no tablet e no computador, o FINAGRO funciona pelo navegador em app.finagro.app, com a mesma conta e os mesmos dados.
 O FINAGRO emite a GTA?
 Não. A GTA (Guia de Trânsito Animal) é emitida no sistema da defesa agropecuária do seu estado. No FINAGRO você registra as GTAs emitidas, o app lembra 1 dia antes do vencimento e avisa quando falta anotar a vacina que trava a guia.
 O app gera o LCDPR?
@@ -117,7 +117,7 @@ O que é o FINAGRO AI?
 Ver mais perguntas (+5)
 Pronto para profissionalizar sua fazenda?
 Grátis para sempre no plano Campo, com o app inteiro: até 3 fazendas, 5 pessoas e 1.000 animais com ficha. Sem cartão e sem prazo.
-Baixar para AndroidBaixar grátis
+Baixar para iPhoneBaixar grátis
 Usar no navegadorNo navegador
 Prefere conversar antes? Falar no WhatsApp
 Quer uma segunda opinião? Pergunte a uma IA.
@@ -423,7 +423,7 @@ R$ 0para sempre, sem cartão
 Plano Campo: até 3 fazendas, 5 pessoas e 1.000 animais com ficha.
 Na engorda: pesagens com o ganho entre uma e outra e a cotação do boi gordo.
 Começar grátis
-Baixar no AndroidNo Android
+Baixar para iPhoneNo iPhone
 Nada do que você marca aqui é enviado. A conta é feita no seu aparelho, e gado contado só no lote não entra nela.
 As 4 travas de quem toca gado
 O problema não é a caderneta. É o que ela não soma.
@@ -459,7 +459,7 @@ Tarefas da equipe
 Para ver a tela, só com demonstração
 Você baixa, diz o que cria e lança a primeira cabeça hoje. Sem vendedor e sem cartão.
 Grátis até 1.000 fichas
-Android e navegador
+iPhone e navegador
 Importa a planilha em CSV
 Relatório em PDF e planilha
 1.000
@@ -470,7 +470,7 @@ Sem limitede cabeças por lote: o lote inteiro conta como um só
 Limites do plano Campo. Quem precisa de mais fazendas, gente ou fichas tem planos de R$ 59,90 a R$ 299,90 por mês.
 Como você começa no FINAGRO hoje
 1Baixe ou abra no navegador
-No iPhone, pela App Store. No Android, pela Google Play. No computador, pelo navegador em app.finagro.app.
+No iPhone, pela App Store. No Android e no computador, pelo navegador em app.finagro.app.
 2Diga o que você cria
 Gado de corte, leite ou lavoura: o painel se monta pelo que você marcar.
 3Lance no curral
@@ -510,7 +510,7 @@ R$ 0para sempre, sem cartão
 Plano Campo: até 3 fazendas, 5 pessoas e 1.000 animais com ficha.
 Na engorda: pesagens com o ganho entre uma e outra e a cotação do boi gordo.
 Começar grátis
-Baixar no AndroidNo Android
+Baixar para iPhoneNo iPhone
 Nada do que você marca aqui é enviado a lugar nenhum.
 
 
@@ -638,7 +638,7 @@ GuiaEscolher um aplicativo
 Aplicativo para controle de gado: o que ele precisa fazer no curral
 Qual aplicativo usar para controlar o gado de graça?
 O FINAGRO é um aplicativo de controle de gado grátis até 1.000 animais com ficha, sem cartão, com lote sem limite de cabeças. Ele guarda brinco, peso, vacina e reprodução de cada animal, avisa o que vence e funciona no iPhone, no Android e no navegador. Sem sinal no curral, o lançamento fica salvo e sobe depois.
-Começar grátisBaixar no Android
+Começar grátisBaixar para iPhone
 Atualizado em 02/11/2026
 Sete coisas para conferir antes de baixar qualquer um
 Aplicativo de gado se julga no curral, com o brete cheio e o celular numa mão só. Antes de cadastrar o primeiro animal, confira:
@@ -676,7 +676,7 @@ Não se liga a balança eletrônica nem a leitor de brinco. O peso é digitado n
 Não é coleira nem rastreador: mostra o que foi lançado, não onde o animal está.
 Se o seu curral trabalha com balança ligada ao sistema, ou se a fazenda precisa de certificação de rastreabilidade para exportar, procure um sistema feito para isso. Para organizar rebanho, lida e dinheiro no celular, o FINAGRO resolve.
 Como começar hoje
-No iPhone, baixe o FINAGRO na App Store; no Android, na Google Play. No computador, abra app.finagro.app no navegador. Entre com a conta Google ou com e-mail e senha.
+No iPhone, baixe o FINAGRO na App Store. No Android e no computador, abra app.finagro.app no navegador. Entre com a conta Google ou com e-mail e senha.
 Conte o que você cria e quantos. O painel se monta para gado de corte, leite, aves, suínos, peixes ou abelhas.
 Cadastre o primeiro lote ou importe a planilha que você já usa (no Excel, salve como CSV). A partir daí, cada pesagem e cada vacina entram em poucos toques.
 Três contas aparecem logo na primeira semana de uso: o peso em arroba na calculadora de arroba do boi, as doses do calendário de vacinação bovina e a data do parto na calculadora de gestação bovina.
@@ -689,7 +689,7 @@ Existe. O FINAGRO tem o plano Campo, grátis para sempre e sem cartão, com até
 O aplicativo funciona sem internet no curral?
 Para lançar, funciona. O gasto, a venda, a pesagem ou a vacina ficam salvos no celular e sobem quando o sinal volta. Para entrar pela primeira vez num aparelho e para ver o que a equipe lançou em outro celular, é preciso sinal.
 Dá para usar no iPhone e no computador?
-Dá. No iPhone, o aplicativo está na App Store; no Android, na Google Play. No computador e no tablet, o FINAGRO abre pelo navegador, em app.finagro.app, com a mesma conta e os mesmos dados.
+Dá. No iPhone, o aplicativo está na App Store; no Android, no computador e no tablet, o FINAGRO abre pelo navegador, em app.finagro.app, com a mesma conta e os mesmos dados.
 Consigo passar a minha planilha para o aplicativo?
 Consegue. No Excel, salve a planilha como CSV e envie o arquivo. O FINAGRO importa o cadastro dos animais, as despesas e as receitas, sem digitar tudo de novo.
 Preciso cadastrar animal por animal?
@@ -709,7 +709,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -725,7 +725,7 @@ ComparativoEscolher um aplicativo
 Melhores aplicativos de gestão rural: seis opções comparadas com fonte
 Qual é o melhor aplicativo de gestão rural?
 Depende do que a fazenda precisa. O FINAGRO é grátis para sempre até 1.000 animais com ficha e junta rebanho, lavoura e dinheiro. O Aegro emite nota fiscal de produtor. O JetBov trabalha com balança eletrônica e o Leigado, com leitor de brinco. O iRancho é voltado ao gado de corte. Veja abaixo o que cada site publica.
-Começar grátisBaixar no Android
+Começar grátisBaixar para iPhone
 Atualizado em 08/10/2026
 Como esta comparação foi feita
 O FINAGRO é nosso, então a régua tem de ser clara. De cada concorrente entrou só o que o site oficial dele publicava em 8 de outubro de 2026, e o endereço de cada informação está nas fontes, no fim da página. O que o site não mostra aparece como "sob consulta".
@@ -801,7 +801,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -817,13 +817,13 @@ GuiaEscolher um aplicativo
 O que é o FINAGRO, o aplicativo de gestão rural
 O que é o FINAGRO?
 O FINAGRO é um aplicativo brasileiro de gestão rural, feito pela VisionX, que reúne rebanho, lavoura, dinheiro e equipe da fazenda no iPhone, no Android e no navegador. É grátis para sempre até 3 fazendas, 5 pessoas e 1.000 animais com ficha, sem cartão. Não tem relação com o Finagro da Colômbia, que é um fundo de crédito.
-Começar grátisBaixar no Android
+Começar grátisBaixar para iPhone
 Atualizado em 08/10/2026
 Ficha rápida
 ItemFINAGRO
 O que éAplicativo de gestão rural para fazenda, sítio e granja
 Quem fazVisionX, desenvolvedora brasileira de software
-Onde funcionaiPhone (App Store), Android (Google Play) e navegador, em app.finagro.app
+Onde funcionaiPhone (App Store) e navegador, em app.finagro.app
 PreçoPlano Campo grátis para sempre; pagos a partir de R$ 59,90 por mês
 Limite do grátis3 fazendas, 5 pessoas, 1.000 animais com ficha, lote sem limite
 IdiomaPortuguês do Brasil
@@ -853,7 +853,7 @@ Para quem é e para quem não é
 É para o produtor que quer sair do caderno e da planilha e ter rebanho, lavoura e caixa no celular, do sítio com poucas vacas de leite à fazenda de corte com vários lotes, e para quem cria mais de uma coisa na mesma propriedade.
 Não é a melhor escolha para a fazenda que precisa de balança eletrônica ligada ao sistema, de certificação de rastreabilidade ou de emissão de nota dentro do aplicativo. A comparação entre aplicativos de gestão rural mostra quem faz cada uma dessas coisas.
 Como começar
-No iPhone, baixe o FINAGRO na App Store; no Android, na Google Play. No computador, abra app.finagro.app no navegador.
+No iPhone, baixe o FINAGRO na App Store. No Android e no computador, abra app.finagro.app no navegador.
 Entre com a conta Google ou com e-mail e senha e cadastre a fazenda.
 Conte o que você cria e planta, e lance o primeiro lote, a primeira despesa ou importe a planilha que você já usa, salva como CSV.
 Conheça o FINAGRO usando: é grátis e não pede cartão.
@@ -867,7 +867,7 @@ Não. É um aplicativo privado, desenvolvido pela VisionX. Ele também não tem 
 Quem desenvolve o FINAGRO?
 A VisionX, desenvolvedora brasileira de software, que mantém o aplicativo, o site finagro.app e o sistema em app.finagro.app.
 Tem FINAGRO para iPhone?
-Tem. O aplicativo está na App Store para iPhone desde 31 de outubro de 2026, e na Google Play para Android. No tablet e no computador, o FINAGRO funciona pelo navegador, com a mesma conta e os mesmos dados.
+Tem. O aplicativo está na App Store para iPhone desde 31 de outubro de 2026. No Android, no tablet e no computador, o FINAGRO funciona pelo navegador, com a mesma conta e os mesmos dados.
 Os meus dados ficam presos no aplicativo?
 Não. As listas e os relatórios saem em PDF e em planilha quando você quiser, e os dados ficam guardados na sua conta: ao trocar de celular, está tudo lá.
 Fontes
@@ -887,7 +887,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -903,7 +903,7 @@ GuiaEscolher um aplicativo
 Software e sistema de gestão rural: o que a fazenda tem de exigir
 Qual software ou sistema de gestão rural usar na fazenda?
 Um software ou sistema de gestão rural precisa juntar rebanho, lavoura, dinheiro, estoque, máquinas e equipe na mesma conta, no celular e no computador. O FINAGRO faz isso e é grátis até 3 fazendas, 5 pessoas e 1.000 animais com ficha, sem cartão. Antes de contratar qualquer sistema, peça o preço por escrito e teste a saída dos dados.
-Começar grátisBaixar no Android
+Começar grátisBaixar para iPhone
 Atualizado em 02/11/2026
 O que o sistema tem de cobrir
 Sistema que cuida só do gado deixa o dinheiro na planilha. Sistema que cuida só do dinheiro não sabe quantas cabeças tem no pasto. Na fazenda, as seis áreas abaixo conversam o tempo todo:
@@ -943,7 +943,7 @@ Balança eletrônica, leitor de brinco e sensores ligados ao sistema.
 Imagem de satélite da lavoura e telemetria de máquinas.
 Nesses casos, procure um sistema especializado nessa parte. Muita fazenda usa os dois: o especializado para a nota ou para a balança, e o FINAGRO para o rebanho, a lida e o caixa do dia a dia.
 Do curral ao escritório com a mesma conta
-Abra app.finagro.app no computador, ou baixe o aplicativo no celular: App Store no iPhone, Google Play no Android. Entre com a conta Google ou com e-mail e senha.
+Abra app.finagro.app no computador ou no Android, ou baixe o aplicativo no iPhone, na App Store. Entre com a conta Google ou com e-mail e senha.
 Cadastre a fazenda e conte o que ela produz. O painel se monta para o que você cria e planta.
 Importe a planilha com o rebanho, as despesas ou as receitas que você já tem. No Excel, salve como CSV antes de enviar.
 Convide a equipe e escolha o papel de cada pessoa. Quem está no curral lança; quem está na sede confere.
@@ -955,7 +955,7 @@ Perguntas sobre software de gestão rural
 Existe software de gestão rural gratuito?
 Existe. O plano Campo do FINAGRO é grátis para sempre e sem cartão, com até 3 fazendas, 5 pessoas e 1.000 animais com ficha, e traz todas as funções do app.
 Preciso instalar alguma coisa no computador?
-Não. No computador o FINAGRO abre pelo navegador, em app.finagro.app. No celular há o aplicativo, na App Store para iPhone e na Google Play para Android, com a mesma conta.
+Não. No computador o FINAGRO abre pelo navegador, em app.finagro.app. No iPhone há o aplicativo, na App Store. No Android, abre pelo navegador., com a mesma conta.
 Serve para lavoura ou só para gado?
 Serve para os dois. Há safras, talhões, caderno de campo e custo por hectare para a lavoura, e ficha, lote, vacina e reprodução para o rebanho, com o dinheiro da fazenda num lugar só.
 O sistema substitui o contador?
@@ -977,7 +977,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -1073,7 +1073,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -1092,10 +1092,10 @@ A gestação da vaca dura em média 290 dias no gado de corte, cerca de nove mes
 Atualizado em 08/10/2026
 Calcule o parto, a secagem e o diagnóstico
 Data da cobertura ou da IADias de gestaçãoDias de secagem antes do parto
-26/08/2027parto previsto
-27/06/2027secar a vaca de leite em
-04/12/2026ultrassom a partir de
-08/01/2027palpação a partir de
+27/08/2027parto previsto
+28/06/2027secar a vaca de leite em
+05/12/2026ultrassom a partir de
+09/01/2027palpação a partir de
 Os 290 dias são a média do gado de corte segundo a Embrapa. Zebuíno tende a gestar mais dias e raça europeia menos: ajuste o campo se o seu rebanho tem a média própria. A secagem só vale para vaca de leite. O parto é uma previsão: pode vir alguns dias antes ou depois. No aplicativo FINAGRO o parto previsto sai com 283 dias, dentro da mesma faixa.
 Quantos dias dura a gestação da vaca
 No gado de corte, a Embrapa Gado de Corte dá 290 dias como duração média da gestação. É perto de nove meses e meio. A conta do parto é simples: data da cobertura mais 290 dias.
@@ -1169,7 +1169,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -1279,7 +1279,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -1387,7 +1387,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -1505,7 +1505,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -1598,7 +1598,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -1707,7 +1707,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -1824,7 +1824,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -1910,7 +1910,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -1992,7 +1992,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -2074,7 +2074,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -2157,7 +2157,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -2239,7 +2239,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -2318,7 +2318,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -2406,7 +2406,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -2486,7 +2486,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -2571,7 +2571,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -2663,7 +2663,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -2751,7 +2751,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -2843,7 +2843,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -2931,7 +2931,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -3014,7 +3014,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -3118,7 +3118,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -3203,7 +3203,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -3295,7 +3295,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -3387,7 +3387,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -3485,7 +3485,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -3577,7 +3577,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -3666,7 +3666,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -3760,7 +3760,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -3868,7 +3868,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -3958,7 +3958,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -4064,7 +4064,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -4192,7 +4192,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -4278,7 +4278,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -4345,7 +4345,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -4441,7 +4441,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -4570,7 +4570,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -4663,7 +4663,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -4754,7 +4754,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -4848,7 +4848,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -4944,7 +4944,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -5035,7 +5035,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -5122,7 +5122,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -5211,7 +5211,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -5300,7 +5300,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -5388,7 +5388,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -5480,7 +5480,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -5587,7 +5587,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -5687,7 +5687,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -5779,7 +5779,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -5863,7 +5863,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -5961,7 +5961,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -6055,7 +6055,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -6157,7 +6157,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -6277,7 +6277,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -6401,7 +6401,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -6509,7 +6509,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -6618,7 +6618,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -6636,7 +6636,7 @@ Quantos metros tem um hectare de terra?
 Um hectare (1 ha) tem 10.000 metros quadrados, não 10.000 metros de comprimento. Um quadrado de 100 m por 100 m forma 1 hectare, mas um retângulo de 200 m por 50 m também. Multiplique comprimento por largura para achar os m² e divida por 10.000 para achar os hectares.
 Atualizado em 02/11/2026
 Calcule os hectares do terreno
-1,0000 hectaresComprimento do terreno (m)m Largura do terreno (m)m10.000,00metros quadrados100,00ares10.000,00centiaresComeçar grátisBaixar no AndroidA conta comprimento × largura vale para terreno retangular. Em área torta ou curva, divida em partes ou meça o contorno pelo GPS.
+1,0000 hectaresComprimento do terreno (m)m Largura do terreno (m)m10.000,00metros quadrados100,00ares10.000,00centiaresComeçar grátisBaixar para iPhoneA conta comprimento × largura vale para terreno retangular. Em área torta ou curva, divida em partes ou meça o contorno pelo GPS.
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
@@ -6654,8 +6654,7 @@ Meça a área por GPS no celular e salve até 100 áreas no plano grátis.
 Guarde safras, talhões e a área plantada em hectares.
 Veja custo, produção e produtividade por hectare na lavoura.
 O lançamento feito sem sinal fica salvo e sincroniza quando a internet volta.
-Baixe o FINAGRO no Android
-1 ha= 10.000 m²
+Baixe o FINAGRO no iPhone 1 ha= 10.000 m²
 Hectare mede área, não comprimento
 A pergunta “quantos metros tem um hectare” costuma misturar duas coisas. Metro mede distância. Metro quadrado mede superfície. O hectare também mede superfície: 1 ha = 10.000 m².
 Calcular a minha áreaham²1 ha = 10.000 m²
@@ -6804,7 +6803,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -6910,7 +6909,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -7009,7 +7008,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -7103,7 +7102,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -7207,7 +7206,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -7309,7 +7308,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -7408,7 +7407,7 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 
 
 ---
@@ -7509,5 +7508,5 @@ FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador
 Grátis até 1.000 animais com ficha
 Lote sem limite de cabeças
 Sem cartão
-Começar grátisBaixar para Android
+Começar grátisBaixar para iPhone
 

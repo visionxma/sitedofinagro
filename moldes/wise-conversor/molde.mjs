@@ -91,7 +91,7 @@ const SCRIPT_MOLDE = `<script>
 </script>`;
 
 export function vestir(kit) {
-  const { g, esc, rico, bloco, APP, PLAY } = kit;
+  const { g, esc, rico, bloco, APP, LOJA } = kit;
   const sec = Object.fromEntries(kit.secoes.map((s, n) => [n, s]));
   const [area, como, unidades, tabela, irregular, app] = [0, 1, 2, 3, 4, 5].map((n) => sec[n]);
   const h2 = (s, classe) => `<h2 id="${s.id}" class="${classe}">${esc(s.h2)}</h2>`;
@@ -100,7 +100,7 @@ export function vestir(kit) {
   const saidas = c.saidas;
   const s = (id) => saidas.find((x) => x.id === id);
   const [hec, m2, ares, cent] = ['hectares', 'metros', 'ares', 'centiares'].map(s);
-  const qr = fs.readFileSync(path.join(AQUI, 'ativos', 'qr-play.svg'), 'utf8').replace('<svg ', '<svg role="img" aria-label="Código QR para baixar o FINAGRO na Google Play" ');
+  const qr = fs.readFileSync(path.join(AQUI, 'ativos', 'qr-app-store.svg'), 'utf8').replace('<svg ', '<svg role="img" aria-label="Código QR para baixar o FINAGRO na App Store" ');
   const relacionados = kit.veja;
   const siglas = { 'alqueire-em-hectare': ['alq', 'ha'], 'tarefa-e-linha-de-terra': ['tf', 'ha'], 'aplicativo-para-medir-area-rural': ['GPS', 'm²'] };
   const tab = blocos(tabela, 'tabela')[0].tabela;
@@ -123,7 +123,7 @@ export function vestir(kit) {
       campos: c.campos.map((f) => ({ para: `${c.prefixo}-${f.id}`, rotulo: esc(f.rotulo), entrada: c.controle(f, ' class="form-control np-form-control np-form-control--size-auto np-input np-input--shape-rectangle" autocomplete="off"'), unidade: 'm' })),
       troca: `<button type="button" class="mx-trocar" data-mx-trocar aria-label="Trocar comprimento e largura"><span class="_ccCalculator__reverseIcon_lbutx_1">${ic('vezes')}</span></button>`,
       meio: `<div class="mx-saidas" aria-live="polite">${[m2, ares, cent].map((x) => `<div><b ${x.atributos}>${esc(x.inicial)}</b><span>${esc(x.rotulo)}</span></div>`).join('')}</div>`,
-      botoes: [{ href: APP, texto: 'Começar grátis' }, { href: PLAY, texto: 'Baixar no Android' }],
+      botoes: [{ href: APP, texto: 'Começar grátis' }, { href: LOJA, texto: 'Baixar para iPhone' }],
       depois: `${g.calc.nota ? `<p class="mx-calc-nota">${rico(g.calc.nota)}</p>` : ''}<ul class="mx-selos"><li>Grátis até 1.000 animais com ficha</li><li>Lote sem limite de cabeças</li><li>Sem cartão</li></ul>`,
     },
     s2: {
@@ -138,7 +138,7 @@ export function vestir(kit) {
       titulo: `<h2 id="${app.id}" class="mw-feature__title mw-heading-2 m-y-0">${esc(app.h2)}</h2>`,
       sub: `<strong>${esc(g.cta.forte)}</strong> ${esc(g.cta.texto)}`,
       itens: app.app.map((t, n) => ({ icone: ic(['pino', 'camadas', 'upward-graph', 'switch-vertical'][n] || 'pino'), texto: rico(t) })),
-      qr: { texto: 'Baixe o FINAGRO no Android', imagem: `<a class="mx-qr-link" href="${PLAY}" aria-label="Baixar o FINAGRO na Google Play">${qr}</a>` },
+      qr: { texto: 'Baixe o FINAGRO no iPhone', imagem: `<a class="mx-qr-link" href="${LOJA}" aria-label="Baixar o FINAGRO na App Store">${qr}</a>` },
       midia: `<div class="mx-palco">${kit.celular(g.tela)}<p class="mx-ficha" aria-hidden="true"><b>1 ha</b><span>= 10.000 m²</span></p></div>`,
     },
     s5: {

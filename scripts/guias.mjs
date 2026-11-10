@@ -11,7 +11,8 @@ const RAIZ = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..')
 const PASTA = path.join(RAIZ, 'conteudo', 'guias');
 const ARQUIVOS = path.join(RAIZ, 'arquivos');
 const APP = 'https://app.finagro.app/';
-const PLAY = 'https://play.google.com/store/apps/details?id=com.raykkony.fblogin';
+// Google Play desativada em 10/11/2026, a pedido do Victor: os guias levam à App Store.
+const LOJA = 'https://apps.apple.com/br/app/finagro/id6827268381';
 
 export const GRUPOS = {
   escolha: ['Escolher um aplicativo', 'Comparações com fonte e o que conferir antes de contratar.'],
@@ -290,7 +291,7 @@ const dataDoGuia = (g, mapa) => (g.atualizado || mapa.ATUALIZADO).split('-').rev
 function kitDoMolde(g, mapa, nome) {
   const r = relacoes(g, mapa);
   return {
-    g, nome, SITE: mapa.SITE, APP, PLAY, TIPOS, GRUPOS, TELAS, esc, rico, id, seta, celular, tabela, bloco,
+    g, nome, SITE: mapa.SITE, APP, LOJA, TIPOS, GRUPOS, TELAS, esc, rico, id, seta, celular, tabela, bloco,
     data: dataDoGuia(g, mapa), secoes: secoesDoGuia(g), ...r,
     calc: g.calc ? { prefixo: `c-${g.slug.slice(0, 18)}`, campos: g.calc.campos, controle: (f, extra) => controleCalc(f, `c-${g.slug.slice(0, 18)}`, extra), saidas: saidasCalc(g.calc), script: scriptCalc(g.calc) } : null,
     // O par pergunta/resposta do topo vai SEMPRE nesta forma: o gerador lê dele a 1ª pergunta do FAQPage.
@@ -316,7 +317,7 @@ function pagina(g, mapa) {
         <p class="artigo__tipo"><span class="artigo__tipo-nome artigo__tipo-nome--${g.tipo}">${esc(TIPOS[g.tipo])}</span><a href="/guias#${g.grupo}">${esc(GRUPOS[g.grupo][0])}</a></p>
         <h1>${esc(g.h1)}</h1>
         <div class="resposta"><h2 class="resposta__pergunta">${esc(g.pergunta)}</h2><p>${rico(g.resposta)}</p></div>
-        ${g.grupo === 'escolha' ? `<div class="artigo__acoes"><a class="botao botao--cheio" href="${APP}">Começar grátis</a><a class="botao botao--linha" href="${PLAY}">Baixar no Android</a></div>` : ''}
+        ${g.grupo === 'escolha' ? `<div class="artigo__acoes"><a class="botao botao--cheio" href="${APP}">Começar grátis</a><a class="botao botao--linha" href="${LOJA}" target="_blank" rel="noopener">Baixar para iPhone</a></div>` : ''}
         <p class="artigo__data">Atualizado em ${data}</p>
       </div>
       ${celular(g.tela)}
@@ -345,7 +346,7 @@ ${g.faq.map(([q, a]) => `        <details name="faq"><summary>${esc(q)}</summary
       <nav class="artigo__indice" aria-label="Seções desta página"><p>Nesta página</p><ol>
         ${[...(g.calc ? [['calculadora', g.calc.titulo]] : []), ...(() => { const l = g.secoes.map((s) => [id(s.h2), s.h2]); l.splice(Number.isInteger(g.noFinagro.depoisDe) ? g.noFinagro.depoisDe : l.length, 0, ['no-finagro', g.noFinagro.h2]); return l; })(), ['perguntas', 'Perguntas frequentes']].map(([a, t]) => `<li><a href="#${a}">${esc(t)}</a></li>`).join('')}
       </ol></nav>
-      <div class="artigo__convite"><strong>FINAGRO</strong><p>Rebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.</p><ul><li>Grátis até 1.000 animais com ficha</li><li>Lote sem limite de cabeças</li><li>Sem cartão</li></ul><a class="botao botao--cheio" href="${APP}">Começar grátis</a><a class="artigo__convite-loja" href="https://play.google.com/store/apps/details?id=com.raykkony.fblogin">Baixar para Android</a></div>
+      <div class="artigo__convite"><strong>FINAGRO</strong><p>Rebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.</p><ul><li>Grátis até 1.000 animais com ficha</li><li>Lote sem limite de cabeças</li><li>Sem cartão</li></ul><a class="botao botao--cheio" href="${APP}">Começar grátis</a><a class="artigo__convite-loja" href="${LOJA}" target="_blank" rel="noopener">Baixar para iPhone</a></div>
     </aside>
     </div>
   </article>
