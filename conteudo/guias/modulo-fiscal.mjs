@@ -107,11 +107,11 @@ export default {
   ],
   noFinagro: { h2: 'A área da fazenda no FINAGRO', itens: [
     'O FINAGRO não classifica o imóvel nem altera cadastro no Incra. A classificação oficial vem no CCIR; o app organiza a área e os papéis em volta dela.',
-    'Cada fazenda tem a área declarada na ficha, e as áreas medidas por GPS no celular ficam ligadas a ela (100 áreas no plano grátis).',
+    'Cada fazenda tem a área declarada na ficha, e as áreas medidas por GPS no celular ficam ligadas a ela (3 no plano grátis, sem limite no Fazenda).',
     'A tela Documentos guarda a matrícula de cada fazenda, que fica sem validade, e o CCIR, o CAR e o ITR com número e data de validade. Os que vencem avisam antes: CAR com 90 dias, CCIR com 60 e ITR com 45.',
     'Safras e talhões ficam com a área em hectares, e o custo por hectare sai da própria lavoura.',
   ] },
-  cta: { forte: 'Área, talhões e papéis da fazenda no mesmo lugar.', texto: 'Grátis até 1.000 animais com ficha, sem cartão.' },
+  cta: { forte: 'Área, talhões e papéis da fazenda no mesmo lugar.', texto: 'Documentos sem limite e 3 áreas no GPS grátis. Talhões no Produtor, de R$ 29,90 por mês.' },
   faqTitulo: 'Perguntas sobre módulo fiscal',
   faq: [
     ['Quantos hectares tem um módulo fiscal?', 'Não há um valor único. O Incra fixa o módulo fiscal em hectares para cada município, e no Brasil ele vai de 5 a 110 hectares. Para saber o do seu, consulte a ferramenta Consultar Índices Básicos do Incra ou a página Módulos Fiscais da Embrapa.'],

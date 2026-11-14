@@ -84,7 +84,7 @@ export default {
     'Cada lote mostra o peso bruto e as cabeças, para você comparar um grupo com o outro.',
     'Para não esquecer a avaliação, crie uma tarefa para o dia do parto, da estação de monta ou da desmama, e anote a nota onde preferir.',
   ] },
-  cta: { forte: 'Pesagem, parto e desmama organizados no celular.', texto: 'Grátis até 1.000 animais com ficha, sem cartão.' },
+  cta: { forte: 'Pesagem, parto e desmama organizados no celular.', texto: 'Pesagem grátis. Parto e desmama: Produtor, R$ 29,90 por mês, ou avulso, R$ 9,90.' },
   faqTitulo: 'Perguntas sobre escore corporal',
   faq: [
     ['O que é escore de condição corporal?', 'É uma nota dada por avaliação visual e tátil, pela cobertura de músculo e gordura em pontos do corpo como costelas, coluna e base da cauda. Mostra as reservas de energia do animal.'],

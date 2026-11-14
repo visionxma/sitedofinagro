@@ -71,7 +71,7 @@ export default {
     '**O que eu produzo:** pesagens com o ganho entre elas, produção, safras, talhões e caderno de campo.',
     '**O que vence:** vacinas, contas, guias de trânsito e as declarações do seu estado, com aviso.',
   ] },
-  cta: { forte: 'Os quatro controles no celular, lançados na hora em que acontecem.', texto: 'Grátis até 3 fazendas, 5 pessoas e 1.000 animais com ficha. Sem cartão.' },
+  cta: { forte: 'Os quatro controles no celular, lançados na hora em que acontecem.', texto: '14 dias com tudo liberado. Depois, dinheiro, vacinas, GTA e tarefas grátis e sem limite.' },
   faq: [
     ['O que é gestão rural?', 'É administrar a fazenda com número: saber o que ela tem, o que gasta e recebe, o que produz e o que vence, e usar isso para decidir a compra, a venda e o manejo.'],
     ['Por onde começo se nunca anotei nada?', 'Pela contagem do rebanho e pela separação do dinheiro da casa e da fazenda. Com esses dois controles em dia, os outros entram aos poucos.'],

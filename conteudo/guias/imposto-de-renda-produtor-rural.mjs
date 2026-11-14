@@ -76,7 +76,7 @@ export default {
     'Arquivo do LCDPR no leiaute da Receita, para o contador completar e validar.',
     'O app não faz a declaração do imposto de renda e não transmite nada à Receita: ele guarda e organiza os números que alimentam o Demonstrativo da Atividade Rural.',
   ] },
-  cta: { forte: 'Receita e despesa lançadas no mês, o livro caixa pronto no fim.', texto: 'Grátis até 1.000 animais com ficha, sem cartão, no iPhone, no Android e no navegador.' },
+  cta: { forte: 'Receita e despesa lançadas no mês, o livro caixa pronto no fim.', texto: 'Grátis para sempre, sem cartão: receitas, despesas e o arquivo do LCDPR.' },
   faqTitulo: 'Perguntas sobre imposto de renda rural',
   faq: [
     ['Produtor rural precisa declarar imposto de renda?', 'Precisa se a receita bruta da atividade rural passou de R$ 177.920,00 no ano (limite do exercício 2026) ou se pretende compensar prejuízo rural. Renda de outras fontes e bens acima do limite também obrigam.'],

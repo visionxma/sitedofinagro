@@ -53,7 +53,7 @@ export default {
     ] },
   ],
   noFinagro: { h2: 'A medição da terra no FINAGRO', itens: [
-    'Meça o contorno por GPS no celular e salve até 100 áreas no plano grátis.',
+    'Meça o contorno por GPS no celular e salve 3 áreas no plano grátis, ou sem limite no Fazenda.',
     'Guarde a área em m², hectares ou km² e consulte depois.',
     'Cadastre talhões, safras e o custo por hectare da lavoura.',
     'A medição e o salvamento funcionam sem sinal no celular; os dados sobem quando a internet volta.',

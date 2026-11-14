@@ -78,7 +78,7 @@ export default {
     'A cotação do boi gordo publicada pela CONAB aparece dentro do app.',
     'A venda entra como receita e cai no fluxo de caixa da fazenda, junto com as contas a receber.',
   ] },
-  cta: { forte: 'Pesagem anotada, ganho calculado e lote somado no celular.', texto: 'Grátis até 1.000 animais com ficha, com lote sem limite de cabeças.' },
+  cta: { forte: 'Pesagem anotada, ganho calculado e lote somado no celular.', texto: 'Grátis para sempre: pesagens, 50 animais com ficha e lote sem limite, sem cartão.' },
   faqTitulo: 'Perguntas sobre arroba',
   faq: [
     ['Quantos kg tem uma arroba de boi?', 'Tem 15 kg de carcaça. A medida antiga equivale a 14,788 kg e é arredondada para 15 kg no comércio de gado.'],

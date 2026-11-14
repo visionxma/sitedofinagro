@@ -87,7 +87,7 @@ export default {
     'A simulação não é proposta nem aprovação de banco. O FINAGRO não contrata crédito.',
     'O resultado traz um checklist de documentos, e receitas, despesas e relatórios em PDF ou planilha ajudam a mostrar a renda da fazenda.',
   ] },
-  cta: { forte: 'Simule a parcela e junte os documentos antes de ir ao banco.', texto: 'Grátis até 1.000 animais com ficha, sem cartão. O banco define a taxa final.' },
+  cta: { forte: 'Simule a parcela e junte os documentos antes de ir ao banco.', texto: 'Simulador de crédito e documentos grátis, sem cartão. O banco define a taxa final.' },
   faqTitulo: 'Perguntas sobre Pronaf',
   faq: [
     ['Quem tem direito ao Pronaf?', 'O agricultor familiar que se enquadra na Lei 11.326/2006, tem o CAF em dia e renda bruta anual dentro do limite da linha: até R$ 500 mil no custeio e no Mais Alimentos e até R$ 60 mil no Pronaf B.'],

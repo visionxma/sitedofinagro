@@ -80,7 +80,7 @@ export default {
     "A tela Documentos guarda a inscrição estadual como outro documento, com o número, ao lado do CCIR, do ITR e dos contratos.",
     "Relatórios em PDF e em planilha (CSV) reúnem as vendas e as despesas do período para o contador conferir com as notas.",
   ] },
-  cta: {"forte":"A nota sai no sistema da Fazenda. A venda fica anotada no FINAGRO.","texto":"Grátis até 1.000 animais com ficha, sem cartão, no iPhone, no Android e no navegador."},
+  cta: {"forte":"A nota sai no sistema da Fazenda. A venda fica anotada no FINAGRO.","texto":"Grátis, sem cartão: vendas e contas sem limite, no iPhone, no Android e no navegador."},
   faqTitulo: "Perguntas sobre nota fiscal de produtor em SP",
   faq: [
     ["Como emitir nota fiscal de produtor rural em SP?","Pelo aplicativo Nota Fiscal Fácil, que a Secretaria da Fazenda e Planejamento oferece ao produtor rural desde 16/09/2024. Ele é gratuito, dispensa certificado digital e emite NF-e e NFC-e de vendas, remessas, transferência ou devolução."],

@@ -346,7 +346,7 @@ ${g.faq.map(([q, a]) => `        <details name="faq"><summary>${esc(q)}</summary
       <nav class="artigo__indice" aria-label="Seções desta página"><p>Nesta página</p><ol>
         ${[...(g.calc ? [['calculadora', g.calc.titulo]] : []), ...(() => { const l = g.secoes.map((s) => [id(s.h2), s.h2]); l.splice(Number.isInteger(g.noFinagro.depoisDe) ? g.noFinagro.depoisDe : l.length, 0, ['no-finagro', g.noFinagro.h2]); return l; })(), ['perguntas', 'Perguntas frequentes']].map(([a, t]) => `<li><a href="#${a}">${esc(t)}</a></li>`).join('')}
       </ol></nav>
-      <div class="artigo__convite"><strong>FINAGRO</strong><p>Rebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.</p><ul><li>Grátis até 1.000 animais com ficha</li><li>Lote sem limite de cabeças</li><li>Sem cartão</li></ul><a class="botao botao--cheio" href="${APP}">Começar grátis</a><a class="artigo__convite-loja" href="${LOJA}" target="_blank" rel="noopener">Baixar para iPhone</a></div>
+      <div class="artigo__convite"><strong>FINAGRO</strong><p>Rebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.</p><ul><li>Grátis para sempre, sem cartão</li><li>Lote sem limite de cabeças</li><li>14 dias com tudo liberado</li></ul><a class="botao botao--cheio" href="${APP}">Começar grátis</a><a class="artigo__convite-loja" href="${LOJA}" target="_blank" rel="noopener">Baixar para iPhone</a></div>
     </aside>
     </div>
   </article>
@@ -398,7 +398,7 @@ ${Object.entries(GRUPOS).filter(([k]) => itens.some((v) => v.grupo === k)).map((
       ${itens.filter((v) => v.grupo === k).map(cartao).join('\n      ')}
     </div>
   </section>`).join('\n')}
-  <div class="cta-artigo cta-artigo--largo"><p><strong>O que estas páginas calculam uma vez, o FINAGRO acompanha todo dia.</strong><br>Rebanho, lavoura, dinheiro e equipe da fazenda num app só. Grátis até 1.000 animais com ficha, sem cartão.</p><a class="botao botao--cheio" href="${APP}">Começar grátis ${seta}</a></div>
+  <div class="cta-artigo cta-artigo--largo"><p><strong>O que estas páginas calculam uma vez, o FINAGRO acompanha todo dia.</strong><br>Rebanho, lavoura, dinheiro e equipe da fazenda num app só. Grátis para sempre, sem cartão, com 14 dias de tudo liberado para começar.</p><a class="botao botao--cheio" href="${APP}">Começar grátis ${seta}</a></div>
 </main>
 <!--gerado:rodape-->
 <!--/gerado:rodape-->

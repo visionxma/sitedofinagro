@@ -78,7 +78,7 @@ export default {
     'O app pode avisar no celular 7 dias antes do fim da campanha e na véspera. Ao marcar "Já fiz", o aviso some.',
     'Cada animal tem ficha, as vacinas ficam anotadas e o lote guarda as cabeças, então a contagem e a vacina de raiva estão à mão na hora de atualizar.',
   ] },
-  cta: { forte: 'Rebanho contado e a campanha do IMA lembrada antes de vencer.', texto: 'Grátis até 1.000 animais com ficha, sem cartão.' },
+  cta: { forte: 'Rebanho contado e a campanha do IMA lembrada antes de vencer.', texto: 'Grátis para sempre, sem cartão: 50 animais com ficha e lote sem limite de cabeças.' },
   faqTitulo: 'Perguntas sobre declaração de rebanho em MG',
   faq: [
     ['Qual o prazo da declaração de rebanho em MG?', 'A campanha de atualização de rebanhos acontece uma vez ao ano, de 1º de maio a 30 de junho. A de 2026 já passou. Confirme a data de 2027 no site do IMA.'],

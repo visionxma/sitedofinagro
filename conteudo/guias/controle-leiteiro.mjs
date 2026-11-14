@@ -91,7 +91,7 @@ export default {
     '**Proteção contra erro:** se já houver litros lançados hoje, o app avisa antes de salvar, e pergunta se está certo quando o número vem com zero a mais.',
     '**Carência do leite** anotada no tratamento do animal, e a **qualidade do leite** (CCS e CBT) do extrato do laticínio.',
   ] },
-  cta: { forte: 'O leite do dia lançado no curral, o mês somado no celular.', texto: 'Grátis até 1.000 animais com ficha, com lançamento sem sinal e sem cartão.' },
+  cta: { forte: 'O leite do dia lançado no curral, o mês somado no celular.', texto: 'Grátis para sempre: o leite do dia sem limite e 50 animais com ficha, sem cartão.' },
   faqTitulo: 'Perguntas sobre controle leiteiro',
   faq: [
     ['O que é controle leiteiro?', 'É a pesagem individual de todo o leite produzido por uma vaca em um dia, feita em momentos definidos da lactação. Serve para saber quanto cada vaca produz e decidir ração, descarte e secagem.'],

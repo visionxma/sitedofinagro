@@ -102,7 +102,7 @@ export default {
     'O total de animais e a venda do ano aparecem nos lotes e nas receitas, para a conta do desfrute.',
     'Natalidade, desmama e desfrute você calcula na tabela acima, com as contagens que o app guarda. O relatório sai em PDF e em planilha.',
   ] },
-  cta: { forte: 'Cobertura, parto e desmame num lugar só, no celular.', texto: 'Grátis até 1.000 animais com ficha, sem cartão.' },
+  cta: { forte: 'Cobertura, parto e desmame num lugar só, no celular.', texto: 'Reprodução no Produtor, R$ 29,90 por mês, ou avulsa, R$ 9,90. Teste 14 dias sem cartão.' },
   faqTitulo: 'Perguntas sobre índices zootécnicos',
   faq: [
     ['O que são índices zootécnicos?', 'São taxas que medem o desempenho do rebanho, como prenhez, natalidade, desmama e desfrute. A Embrapa as chama de indicadores de desempenho técnico.'],

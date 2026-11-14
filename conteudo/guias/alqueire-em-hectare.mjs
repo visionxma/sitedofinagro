@@ -58,7 +58,7 @@ export default {
     ] },
   ],
   noFinagro: { h2: 'A área da fazenda no FINAGRO', itens: [
-    'Meça pastos e talhões pelo GPS do celular e guarde até 100 áreas no plano grátis.',
+    'Meça pastos e talhões pelo GPS do celular e guarde 3 áreas no plano grátis, ou sem limite no Fazenda.',
     'Cadastre safras e talhões com a área em hectares.',
     'Acompanhe o custo por hectare de cada lavoura.',
     'O lançamento feito sem sinal fica no aparelho e sobe quando a internet volta.',

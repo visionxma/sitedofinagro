@@ -68,7 +68,7 @@ export default {
     "A tela Documentos guarda a inscrição estadual como outro documento, com o número, ao lado do CCIR, do ITR e dos contratos.",
     "Relatórios em PDF e em planilha (CSV) reúnem as vendas e as despesas do período para o contador conferir com as notas.",
   ] },
-  cta: {"forte":"A nota sai no sistema da Fazenda. A venda fica anotada no FINAGRO.","texto":"Grátis até 1.000 animais com ficha, sem cartão, no iPhone, no Android e no navegador."},
+  cta: {"forte":"A nota sai no sistema da Fazenda. A venda fica anotada no FINAGRO.","texto":"Grátis, sem cartão: vendas e contas sem limite, no iPhone, no Android e no navegador."},
   faqTitulo: "Perguntas sobre nota fiscal de produtor no Paraná",
   faq: [
     ["Como emitir nota fiscal de produtor rural no Paraná?","No portal Receita/PR, em receita.pr.gov.br/login, com chave e senha. O produtor inscrito no CAD/PRO se cadastra como usuário, recebe a senha inicial por e-mail e emite a NFP-e, a nota fiscal de produtor eletrônica."],

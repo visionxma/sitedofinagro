@@ -111,7 +111,7 @@ export default {
     '**Importação da planilha** de despesas e receitas em CSV, com conferência linha a linha antes de gravar.',
     '**Lançamento sem sinal:** a despesa anotada na cerca fica salva no celular e sobe quando a internet volta.',
   ] },
-  cta: { forte: 'Despesa lançada no celular, saldo do mês sem somar à mão.', texto: 'Grátis até 1.000 animais com ficha, até 3 fazendas e 5 pessoas, sem cartão.' },
+  cta: { forte: 'Despesa lançada no celular, saldo do mês sem somar à mão.', texto: 'Grátis para sempre, sem cartão: receitas, despesas, contas e fluxo de caixa sem limite.' },
   faqTitulo: 'Perguntas sobre planilha de gestão rural',
   faq: [
     ['Tem planilha de gestão rural grátis?', 'Tem. As duas planilhas desta página são grátis, sem cadastro, em Excel e CSV: uma para despesas e outra para receitas, com exemplos de um mês de fazenda de gado.'],

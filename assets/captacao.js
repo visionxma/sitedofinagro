@@ -21,8 +21,11 @@
         return dados.planos[dados.planos.length - 1];
       };
       var gratis = dados.planos[0];
+      /* Planos v3 (14/11/2026): `pessoas` é quem entra além de você, e o plano pago leva o preço por mês do catálogo. */
+      var contar = function (n, um, varios) { return milhar(n) + ' ' + (n === 1 ? um : varios); };
+      var reais = function (v) { var c = Math.round(v * 100), r = Math.floor(c / 100), s = c % 100; return 'R$ ' + milhar(r) + (s ? ',' + (s < 10 ? '0' : '') + s : ''); };
       /* O cartão responde o que cabe no grátis. Passando do limite de fichas, diz quantas cabeças vão por lote
-         (que não tem limite) e qual plano dá ficha para todas. Não mostra preço. */
+         (que não tem limite) e qual plano dá ficha para todas, com o preço por mês. */
       var pintar = function (origem) {
         var n = estado.cabecas, p = planoPara(n), cabe = n <= gratis.animais;
         cartoes.forEach(function (c) {
@@ -36,8 +39,8 @@
           caixa.querySelector('[data-selo]').textContent = cabe ? 'Cabe no plano grátis' : milhar(gratis.animais) + ' fichas cabem no grátis';
           caixa.querySelector('[data-periodo]').textContent = cabe ? 'para sempre, sem cartão' : 'para começar, sem cartão';
           caixa.querySelector('[data-limites]').textContent = cabe
-            ? 'Plano ' + gratis.nome + ': até ' + gratis.fazendas + ' fazendas, ' + gratis.pessoas + ' pessoas e ' + milhar(gratis.animais) + ' animais com ficha.'
-            : (n - gratis.animais === 1 ? 'A cabeça que passa entra' : 'As outras ' + milhar(n - gratis.animais) + ' cabeças entram') + ' por lote, que não tem limite. Ficha para todas: plano ' + p.nome + (p.animais === null ? ', sem limite de fichas.' : ', até ' + milhar(p.animais) + ' fichas.');
+            ? 'No plano ' + gratis.nome + ': ' + contar(gratis.fazendas, 'fazenda', 'fazendas') + ', você e mais ' + contar(gratis.pessoas, 'pessoa', 'pessoas') + ' e ' + contar(gratis.animais, 'animal', 'animais') + ' com ficha.'
+            : (n - gratis.animais === 1 ? 'A cabeça que passa entra' : 'As outras ' + milhar(n - gratis.animais) + ' cabeças entram') + ' por lote, que não tem limite. Ficha para todas: plano ' + p.nome + (p.animais === null ? ', sem limite de fichas' : ', até ' + milhar(p.animais) + ' fichas') + (p.mes ? ', por ' + reais(p.mes) + ' por mês.' : '.');
           caixa.querySelector('[data-cria-linha]').textContent = dados.cria[estado.cria] || '';
           if (antes !== p.id) {
             caixa.setAttribute('data-plano-atual', p.id);

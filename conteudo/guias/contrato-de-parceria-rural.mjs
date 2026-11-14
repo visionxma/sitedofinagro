@@ -137,7 +137,7 @@ export default {
     'Na lavoura, a safra guarda o custo por hectare e a colheita com o comprador, que são a base da partilha.',
     'A sua cota vendida entra como receita e as despesas que são suas caem no fluxo de caixa.',
   ] },
-  cta: { forte: 'Lote, pesagem, colheita e custo anotados para a hora da partilha.', texto: 'Grátis até 1.000 animais com ficha, com lote sem limite de cabeças.' },
+  cta: { forte: 'Lote, pesagem, colheita e custo anotados para a hora da partilha.', texto: 'Lote, pesagem e contas grátis para sempre. Colheita no Produtor, de R$ 29,90 por mês.' },
   faqTitulo: 'Perguntas sobre parceria rural',
   faq: [
     ['Qual a lei do contrato de parceria rural?', 'A parceria rural é regulada pelo Estatuto da Terra, Lei 4.504/1964, no art. 96, e pelo Decreto 59.566/1966. Onde eles não tratam do assunto, valem as normas do arrendamento rural, no que couber, e as regras do contrato de sociedade.'],

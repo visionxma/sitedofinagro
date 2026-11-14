@@ -127,7 +127,7 @@ export default {
     'A GTA emitida fica registrada no app, com lembrete 1 dia antes de vencer.',
     'A cotação do boi gordo publicada pela CONAB aparece no app para conferir o preço da arroba.',
   ] },
-  cta: { forte: 'Lote pesado, venda lançada e saldo a receber com data no celular.', texto: 'Grátis até 1.000 animais com ficha, com lote sem limite de cabeças.' },
+  cta: { forte: 'Lote pesado, venda lançada e saldo a receber com data no celular.', texto: 'Grátis para sempre: lote sem limite de cabeças, vendas e contas a receber, sem cartão.' },
   faqTitulo: 'Perguntas sobre venda de gado',
   faq: [
     ['Recibo de venda de gado vale como contrato?', 'O recibo prova o pagamento e a quitação. Ele não combina prazo, pesagem, entrega nem o que acontece se uma parte falhar. Em venda à vista com entrega na hora, o recibo e a nota resolvem. Em venda a prazo ou com entrega futura, faça o contrato.'],

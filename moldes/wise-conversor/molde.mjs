@@ -124,7 +124,7 @@ export function vestir(kit) {
       troca: `<button type="button" class="mx-trocar" data-mx-trocar aria-label="Trocar comprimento e largura"><span class="_ccCalculator__reverseIcon_lbutx_1">${ic('vezes')}</span></button>`,
       meio: `<div class="mx-saidas" aria-live="polite">${[m2, ares, cent].map((x) => `<div><b ${x.atributos}>${esc(x.inicial)}</b><span>${esc(x.rotulo)}</span></div>`).join('')}</div>`,
       botoes: [{ href: APP, texto: 'Começar grátis' }, { href: LOJA, texto: 'Baixar para iPhone' }],
-      depois: `${g.calc.nota ? `<p class="mx-calc-nota">${rico(g.calc.nota)}</p>` : ''}<ul class="mx-selos"><li>Grátis até 1.000 animais com ficha</li><li>Lote sem limite de cabeças</li><li>Sem cartão</li></ul>`,
+      depois: `${g.calc.nota ? `<p class="mx-calc-nota">${rico(g.calc.nota)}</p>` : ''}<ul class="mx-selos"><li>Grátis para sempre, sem cartão</li><li>Lote sem limite de cabeças</li><li>14 dias com tudo liberado</li></ul>`,
     },
     s2: {
       titulo: h2(como, 'mw-feature__title mw-heading-2 m-y-0'),

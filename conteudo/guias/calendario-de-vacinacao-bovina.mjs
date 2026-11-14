@@ -116,7 +116,7 @@ export default {
     'A tela "O que vence" lista as vacinas e as declarações obrigatórias do estado do produtor, para o que ele cria.',
     'O registro das GTAs emitidas avisa 1 dia antes do vencimento. O app não emite a GTA nem envia nada à defesa agropecuária.',
   ] },
-  cta: { forte: 'Vacina anotada e bezerra na idade sem esquecimento.', texto: 'Grátis até 1.000 animais com ficha, sem cartão.' },
+  cta: { forte: 'Vacina anotada e bezerra na idade sem esquecimento.', texto: 'Grátis para sempre, sem cartão: vacinas sem limite e 50 animais com ficha.' },
   faqTitulo: 'Perguntas sobre vacinação do gado',
   faq: [
     ['Com que idade se vacina a bezerra contra brucelose?', 'Dos 3 aos 8 meses de idade. A vacinação é obrigatória em todas as fêmeas bovinas e bubalinas, com dose única, e quem aplica é médico-veterinário cadastrado.'],

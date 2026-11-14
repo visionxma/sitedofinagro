@@ -65,7 +65,7 @@ export default {
     ] },
   ],
   noFinagro: { h2: 'Hectares organizados no FINAGRO', itens: [
-    'Meça a área por GPS no celular e salve até 100 áreas no plano grátis.',
+    'Meça a área por GPS no celular e salve 3 áreas no plano grátis, ou sem limite no Fazenda.',
     'Guarde safras, talhões e a área plantada em hectares.',
     'Veja custo, produção e produtividade por hectare na lavoura.',
     'O lançamento feito sem sinal fica salvo e sincroniza quando a internet volta.',

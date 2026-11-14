@@ -94,14 +94,14 @@ export default {
     '**Reprodução** com parto previsto e desmame, sem conta de cabeça.',
     '**Lançamento sem sinal:** o que você anota no curral fica salvo no celular e sobe quando a internet volta.',
   ] },
-  cta: { forte: 'A ficha de cada animal no celular, sem papel para molhar.', texto: 'Grátis até 1.000 animais com ficha, com lote sem limite de cabeças e sem cartão.' },
+  cta: { forte: 'A ficha de cada animal no celular, sem papel para molhar.', texto: 'Grátis para sempre, sem cartão: 50 animais com ficha e lote sem limite de cabeças.' },
   faqTitulo: 'Perguntas sobre ficha de controle de gado',
   faq: [
     ['O que tem de ter numa ficha individual de bovino?', 'Brinco, nome, sexo, raça, nascimento, origem, mãe e pai, as pesagens com data, as vacinas com a próxima dose, a reprodução (cobertura, parto previsto, desmame) e as ocorrências até a saída do animal.'],
     ['Qual a diferença entre ficha de controle e tabela de controle de gado?', 'A ficha guarda a vida de um animal numa folha. A tabela lista o rebanho inteiro, uma linha por animal. A tabela mostra quem está no lote, a ficha mostra o que aconteceu com cada um.'],
     ['Quanto tempo dura a gestação da vaca?', 'A Embrapa estima a gestação de bovinos em 280 dias, nove meses e 10 dias. Uma vaca coberta em 10/01/2026 tem o parto previsto para 17/10/2026.'],
     ['Preciso de uma ficha para cada animal ou para o lote?', 'Matriz, touro e animal de valor pedem ficha individual. Boi de engorda e recria pode ser controlado por lote, com a lista dos brincos e o peso médio, e ganhar ficha própria só se precisar.'],
-    ['Dá para usar a ficha no celular em vez de imprimir?', 'Dá. O FINAGRO guarda a ficha de cada animal no celular, com pesagem, vacina e reprodução, e funciona sem internet no curral. A conta é grátis até 1.000 animais com ficha.'],
+    ['Dá para usar a ficha no celular em vez de imprimir?', 'Dá. O FINAGRO guarda a ficha de cada animal no celular, com pesagem, vacina e reprodução, e funciona sem internet no curral. A conta grátis guarda 50 animais com ficha; o Produtor, de R$ 29,90 por mês, guarda 300 e soma a reprodução.'],
   ],
   fontes: [
     { nome: 'Embrapa Gado de Corte, fichas para controle zootécnico de bovinos de corte', url: 'https://www.embrapa.br/en/busca-de-publicacoes/-/publicacao/325393/fichas-para-controle-zootecnico-de-bovinos-de-corte' },

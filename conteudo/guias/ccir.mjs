@@ -104,7 +104,7 @@ export default {
     'O aviso chega antes de o documento vencer e aparece na agenda da fazenda, junto das vacinas e das tarefas.',
     'A taxa da guia entra como despesa, e o vencimento fica em contas a pagar, no fluxo de caixa.',
   ] },
-  cta: { forte: 'CCIR, ITR e CAR guardados, com aviso antes de vencer.', texto: 'Grátis até 1.000 animais com ficha, sem cartão.' },
+  cta: { forte: 'CCIR, ITR e CAR guardados, com aviso antes de vencer.', texto: 'Grátis para sempre, sem cartão: documentos, contas e tarefas da fazenda sem limite.' },
   faqTitulo: 'Perguntas sobre o CCIR',
   faq: [
     ['O que é o CCIR?', 'É o Certificado de Cadastro de Imóvel Rural, emitido pelo Incra. Comprova que o imóvel está cadastrado e regular no Sistema Nacional de Cadastro Rural, mas não prova que a terra é do titular.'],

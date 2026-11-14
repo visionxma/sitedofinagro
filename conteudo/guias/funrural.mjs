@@ -96,7 +96,7 @@ export default {
     'Relatórios em PDF e em planilha (CSV) levam receitas e despesas organizadas para o contador.',
     'O app não calcula, não desconta e não recolhe o Funrural, e não transmite nada à Receita: a conta desta página é só para você conferir a nota.',
   ] },
-  cta: { forte: 'Venda, desconto e saldo do mês no mesmo lugar.', texto: 'Grátis até 1.000 animais com ficha, sem cartão, no iPhone, no Android e no navegador.' },
+  cta: { forte: 'Venda, desconto e saldo do mês no mesmo lugar.', texto: 'Grátis para sempre, sem cartão: vendas, receitas e despesas sem limite.' },
   faqTitulo: 'Perguntas sobre Funrural',
   faq: [
     ['Qual a alíquota do Funrural para pessoa física em 2026?', 'Desde a competência de abril de 2026, são 1,63% da receita bruta da venda: 1,32% de previdência, 0,11% de seguro de acidente de trabalho e 0,2% do Senar. O segurado especial paga 1,5%. Venda até março de 2026 segue em 1,5%.'],

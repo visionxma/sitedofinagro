@@ -83,7 +83,7 @@ export default {
     'As vacinas e a sanidade ficam registradas por animal ou por lote, e o app avisa de bezerras na idade da vacina de brucelose sem a vacina anotada.',
     'As GTAs emitidas no sistema da defesa podem ser registradas no app, que lembra 1 dia antes do vencimento.',
   ] },
-  cta: { forte: 'A ficha de cada animal pronta para o dia do brinco.', texto: 'Grátis até 1.000 animais com ficha, sem cartão.' },
+  cta: { forte: 'A ficha de cada animal pronta para o dia do brinco.', texto: 'Grátis para sempre, sem cartão: 50 animais com ficha e lote sem limite de cabeças.' },
   faqTitulo: 'Perguntas sobre rastreabilidade bovina',
   faq: [
     ['O brinco de rastreabilidade já é obrigatório?', 'Pelo plano nacional, a identificação individual começa em 2027, pelos animais nascidos a partir dali, e a adoção é obrigatória a partir de 2033. Hoje a inscrição no SISBOV é voluntária, exceto para o gado de exportação.'],

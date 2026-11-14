@@ -70,7 +70,7 @@ export default {
     'Os lotes reúnem as cabeças para acompanhar o gado separado no manejo.',
     'A venda pode entrar como receita e conta a receber no fluxo de caixa.',
   ] },
-  cta: { forte: 'Leve o peso do curral ao acerto sem perder o histórico.', texto: 'FINAGRO grátis, sem cartão, para até 1.000 animais com ficha.' },
+  cta: { forte: 'Leve o peso do curral ao acerto sem perder o histórico.', texto: 'Grátis para sempre, sem cartão: 50 animais com ficha, pesagens e vendas sem limite.' },
   faqTitulo: 'Perguntas sobre rendimento de carcaça',
   faq: [
     ['Qual é a fórmula do rendimento de carcaça?', 'Divida o peso da carcaça pelo peso vivo de referência e multiplique o resultado por 100.'],

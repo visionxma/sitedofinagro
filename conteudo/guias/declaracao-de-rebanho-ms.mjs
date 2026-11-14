@@ -80,7 +80,7 @@ export default {
     'Em MS a guia trava no primeiro dia da etapa. Por isso, com o aviso ligado, o app avisa 7 dias antes de a etapa abrir e na véspera, e de novo antes do fim. Ao marcar "Já fiz", o aviso daquela etapa some.',
     'Cada animal tem ficha e o lote guarda as cabeças, então você abre o e-SANIAGRO com a contagem do rebanho pronta.',
   ] },
-  cta: { forte: 'Rebanho contado e etapa da Iagro lembrada antes de abrir.', texto: 'Grátis até 1.000 animais com ficha, sem cartão.' },
+  cta: { forte: 'Rebanho contado e etapa da Iagro lembrada antes de abrir.', texto: 'Grátis para sempre, sem cartão: 50 animais com ficha e lote sem limite de cabeças.' },
   faqTitulo: 'Perguntas sobre declaração de rebanho em MS',
   faq: [
     ['Qual o prazo da declaração de rebanho 2026 em MS?', 'A regra da Iagro é de 1º a 31 de maio e de 1º a 30 de novembro, com ajuste quando a data cai em feriado ou fim de semana. Em 2026 a primeira etapa foi até segunda-feira, 1º de junho, e já passou. Confirme o último dia da etapa de novembro de 2026 no site da Iagro.'],

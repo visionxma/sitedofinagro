@@ -95,7 +95,7 @@ export default {
     'Lance a compra de ração e outros gastos como despesas, com fazenda e centro de custo.',
     'Controle o estoque de insumos e distribua tarefas para a equipe da fazenda.',
   ] },
-  cta: { forte: 'Leve lotes, pesagens e custos da criação para o FINAGRO.', texto: 'Plano Campo grátis, sem cartão, com até 1.000 animais com ficha.' },
+  cta: { forte: 'Leve lotes, pesagens e custos da criação para o FINAGRO.', texto: 'Grátis para sempre, sem cartão: lote sem limite de cabeças, pesagens e custos.' },
   faqTitulo: 'Perguntas sobre conversão alimentar',
   faq: [
     ['Qual é a fórmula da conversão alimentar?', 'Divida a ração consumida pelo ganho de peso do lote. Ganho de peso é o peso final menos o peso inicial, medidos no mesmo período e pelo mesmo método.'],

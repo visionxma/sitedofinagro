@@ -86,7 +86,7 @@ export default {
     'Cada fazenda tem a sua chuva. Anotação digitada por engano pode ser apagada, e valor acima de 250 mm num dia pede confirmação antes de gravar.',
     'O app não lê o pluviômetro sozinho: quem olha o aparelho e digita o número é você.',
   ] },
-  cta: { forte: 'Anote a chuva da fazenda e veja o histórico de cada mês.', texto: 'Grátis até 1.000 animais com ficha, com o pluviômetro em todas as fazendas.' },
+  cta: { forte: 'Anote a chuva da fazenda e veja o histórico de cada mês.', texto: 'Grátis para sempre, sem cartão: a chuva anotada sem limite, com o histórico de cada mês.' },
   faqTitulo: 'Perguntas sobre pluviômetro',
   faq: [
     ['1 mm de chuva equivale a quantos litros?', 'Um milímetro equivale a 1 litro de água em 1 metro quadrado. Em um hectare são 10.000 litros, ou 10 metros cúbicos, para cada milímetro.'],

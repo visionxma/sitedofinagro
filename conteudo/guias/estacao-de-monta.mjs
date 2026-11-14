@@ -72,7 +72,7 @@ export default {
     'A taxa de prenhez aparece pronta: quantas fêmeas cobertas ou inseminadas ficaram prenhes.',
     'As vacas da estação ficam num lote de qualquer tamanho, e o desmame dos bezerros e a vacina de brucelose ficam anotados.',
   ] },
-  cta: { forte: 'Cobertura, diagnóstico e parto no calendário do celular.', texto: 'Grátis até 1.000 animais com ficha, sem cartão.' },
+  cta: { forte: 'Cobertura, diagnóstico e parto no calendário do celular.', texto: 'Reprodução no Produtor, R$ 29,90 por mês, ou avulsa, R$ 9,90. Teste 14 dias sem cartão.' },
   faqTitulo: 'Perguntas sobre estação de monta',
   faq: [
     ['O que é estação de monta?', 'É o período do ano em que as vacas são cobertas por touro ou inseminadas. Fora dele os reprodutores descansam, e os nascimentos ficam concentrados numa época só.'],

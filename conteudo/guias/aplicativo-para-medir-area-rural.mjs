@@ -18,9 +18,9 @@ export default {
   description: 'Como medir terra pelo celular: o app FINAGRO mede pasto, terreno e talhão pelo GPS, por pontos ou caminhando, em m² e hectares, mesmo sem internet.',
   h1: 'Aplicativo para medir área rural: como medir terra pelo celular',
   pergunta: 'Como medir terra pelo celular?',
-  resposta: 'Para medir terra pelo celular, abra Áreas e GPS no FINAGRO, permita a localização e marque os cantos no mapa ou caminhe pela borda. Feche o polígono e a área aparece em m², hectares ou km². O plano grátis guarda até 100 áreas e, no Android, o GPS mede sem internet.',
+  resposta: 'Para medir terra pelo celular, abra Áreas e GPS no FINAGRO, permita a localização e marque os cantos no mapa ou caminhe pela borda. Feche o polígono e a área aparece em m², hectares ou km². O plano grátis guarda 3 áreas (30 no Produtor e sem limite no Fazenda) e, no Android, o GPS mede sem internet.',
   tela: 'inicio',
-  atualizado: '2026-11-02',
+  atualizado: '2026-11-14',
   secoes: [
     { h2: 'Como o GPS do celular calcula a área', blocos: [
       { p: 'O sistema global de navegação por satélite, conhecido pela sigla **GNSS**, calcula a posição do aparelho a partir de sinais de satélites. A Agência Espacial Brasileira informa que são necessários pelo menos quatro satélites visíveis para calcular os primeiros parâmetros da posição.' },
@@ -34,7 +34,7 @@ export default {
     { h2: 'Funciona sem internet?', blocos: [
       { p: 'A **medição por GPS continua funcionando sem internet no aplicativo Android**. O FINAGRO salva o polígono primeiro no banco do aparelho. Quando a conexão volta, tenta enviar a área para a conta na nuvem.' },
       { p: 'O mapa de fundo é outra coisa. Se a região não estiver guardada no celular e você estiver sem sinal, o código avisa que a medição segue normal, mas o mapa pode aparecer em branco. O contorno e o cálculo não dependem dessa imagem.' },
-      { destaque: 'No plano Campo, gratuito, a conta guarda até 100 áreas medidas por GPS.' },
+      { destaque: 'No plano Grátis a conta guarda 3 áreas medidas por GPS. O Produtor guarda 30, e o Fazenda, sem limite, com o mapa guardado para usar sem sinal.' },
     ] },
     { h2: 'Quanto o GPS do celular pode errar', blocos: [
       { p: 'Não existe um percentual fixo de erro para toda área. Como referência, o IBGE adotou **9 metros** como limite máximo aceitável para latitude e longitude no dispositivo móvel usado no Censo Agropecuário. Isso é erro de posição de cada ponto, não promessa de erro final da área.' },
@@ -51,13 +51,13 @@ export default {
   noFinagro: { h2: 'O que a medição do FINAGRO entrega', itens: [
     'Medição por pontos no mapa ou caminhando o contorno com o GPS do celular.',
     'Área em m², hectares ou km², além de perímetro e lados do polígono.',
-    'Até 100 áreas salvas no plano Campo gratuito, sem cartão.',
+    '3 áreas salvas no plano grátis, 30 no Produtor e sem limite no Fazenda.',
     'Salvamento no aparelho sem internet e sincronização quando o sinal volta.',
   ] },
-  cta: { forte: 'Meça o pasto pelo celular e guarde a área na fazenda.', texto: 'FINAGRO grátis no iPhone, no Android e no navegador, sem cartão.' },
+  cta: { forte: 'Meça o pasto pelo celular e guarde a área na fazenda.', texto: 'Grátis com 3 áreas; 30 no Produtor e sem limite no Fazenda. Sem cartão.' },
   faqTitulo: 'Perguntas sobre medir área pelo celular',
   faq: [
-    ['Qual aplicativo mede área rural pelo GPS?', 'O FINAGRO mede áreas no Android por pontos ou caminhada, mostra m², hectares e km² e guarda até 100 áreas no plano gratuito.'],
+    ['Qual aplicativo mede área rural pelo GPS?', 'O FINAGRO mede áreas no Android por pontos ou caminhada, mostra m², hectares e km² e guarda 3 áreas no plano gratuito, 30 no Produtor e sem limite no Fazenda.'],
     ['Dá para medir terreno sem internet?', 'Sim, no aplicativo Android. O GPS e o salvamento local continuam funcionando; se o mapa da região não estiver guardado, o fundo pode aparecer em branco.'],
     ['Quanto o GPS do celular erra?', 'Não há percentual fixo. O IBGE usou limite de 9 metros para a posição em uma coleta móvel; tamanho, formato e condições do sinal mudam o erro final.'],
     ['Como melhorar a medição de área pelo celular?', 'Meça com céu aberto, espere o GPS estabilizar, caminhe devagar pelo contorno, marque todas as mudanças de direção e feche no ponto inicial.'],

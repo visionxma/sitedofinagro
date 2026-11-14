@@ -12,14 +12,14 @@ repete o nome e não diz que é grátis.
 `FINAGRO: Gestão Rural e Gado` (28)
 
 ## Descrição curta (até 80 caracteres)
-`Controle de gado, lavoura e caixa da fazenda. Grátis até 1.000 animais.` (71)
+`Controle de gado, lavoura e caixa da fazenda. Plano grátis para sempre.` (71)
 
 ## Descrição completa (até 4.000 caracteres)
 
 Sua fazenda na palma da mão.
 
-O FINAGRO organiza o rebanho, a lavoura, o dinheiro e a equipe da fazenda num aplicativo só. É grátis até 3 fazendas,
-5 pessoas e 1.000 animais com ficha, sem cartão. Lote não tem limite de cabeças.
+O FINAGRO organiza o rebanho, a lavoura, o dinheiro e a equipe da fazenda num aplicativo só. O plano Grátis é para sempre,
+sem cartão: 50 animais com ficha e lote sem limite de cabeças, e a conta nova ganha 14 dias com tudo liberado.
 
 CONTROLE DE GADO E DE REBANHO
 • Ficha do animal com brinco, raça, sexo, nascimento, peso e foto

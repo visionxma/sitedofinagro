@@ -158,16 +158,20 @@ roda os `exemplos` e reprova se a conta não bater. Rótulos com até 34 caracte
 - **Dinheiro:** receitas, despesas, contas a pagar e a receber, fluxo de caixa com saldo previsto, centro de custo,
   relatórios em PDF e em planilha (CSV), arquivo do LCDPR no leiaute da Receita (o contador completa e valida).
 - **Lavoura:** safras, talhões, caderno de campo, custo por hectare, chuva do pluviômetro, colheita com o comprador.
-- **Campo e equipe:** área medida por GPS no celular (100 áreas no plano grátis), máquinas e manutenção, estoque de
+- **Campo e equipe:** área medida por GPS no celular (3 áreas no plano grátis, 30 no Produtor e sem limite no Fazenda), máquinas e manutenção, estoque de
   insumos, clima da fazenda, mão de obra e trabalhadores, pessoas da equipe com papel e permissão, tarefas.
 - **Mercado e apoio:** cotação do boi gordo (CONAB), notícias do agro, marketplace de animais, simulador de crédito
-  rural (só linhas do Pronaf, com taxas de referência fixas: não é proposta de banco), assistente FINAGRO AI (15 perguntas por dia no grátis), importação de planilha em CSV (animais, despesas, receitas, fornecedores e estoque; arquivo .xlsx é recusado: salva-se como CSV).
+  rural (só linhas do Pronaf, com taxas de referência fixas: não é proposta de banco), assistente FINAGRO AI (5 perguntas por dia no grátis), importação de planilha em CSV (animais, despesas, receitas, fornecedores e estoque; arquivo .xlsx é recusado: salva-se como CSV).
 - **Geral:** aplicativo no iPhone (App Store, desde 31/10/2026) e no Android (Google Play), e navegador em app.finagro.app
   (tablet e computador); lançamento sem
   sinal fica salvo no aparelho e sobe quando a internet volta; o painel se monta pelo que o produtor cria (gado de
   corte, leite, aves, suínos, peixes, abelhas, horta, grãos).
-- **Preço:** plano Campo grátis para sempre, sem cartão: até 3 fazendas, 5 pessoas e 1.000 animais com ficha, com lote
-  sem limite de cabeças e todas as funções.
+- **Preço (Planos v3, 14/11/2026, fonte: conteudo/site.mjs):** plano Grátis para sempre, sem cartão: 1 fazenda, você e
+  mais 1 pessoa, 50 animais com ficha, lote sem limite, 3 áreas no GPS e 5 perguntas por dia, com dinheiro, vacinas, GTA,
+  tarefas, caderno de campo e relatórios sem limite. Produtor R$ 29,90, Fazenda R$ 69,90 e Grande R$ 199,90 por mês;
+  Empresarial a partir de R$ 499. Reprodução, índices, estoque, lavoura e KMZ a partir do Produtor; máquinas, pesagem
+  pela câmera e mapa sem sinal a partir do Fazenda (todas também avulsas, R$ 9,90 a R$ 14,90). Conta nova: 14 dias com
+  tudo liberado. Nunca escrever "todas as funções" no grátis.
 
 **O que o FINAGRO NÃO faz (nunca prometer):** não emite GTA nem nota fiscal; não transmite nada à Receita, ao INCRA ou
 à defesa agropecuária; não integra balança, leitor de brinco eletrônico, coleira ou sensor; não tem imagem de satélite

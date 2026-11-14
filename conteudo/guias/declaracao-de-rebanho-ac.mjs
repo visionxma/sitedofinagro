@@ -83,7 +83,7 @@ export default {
     'O app pode avisar no celular 7 dias antes do fim da campanha e na véspera. Ao marcar "Já fiz", o aviso some.',
     'Cada animal tem ficha, as vacinas ficam anotadas e o lote guarda as cabeças, então a quantidade de cada espécie está pronta na hora de declarar.',
   ] },
-  cta: { forte: 'Rebanho contado e a campanha do Idaf lembrada antes de vencer.', texto: 'Grátis até 1.000 animais com ficha, sem cartão.' },
+  cta: { forte: 'Rebanho contado e a campanha do Idaf lembrada antes de vencer.', texto: 'Grátis para sempre, sem cartão: 50 animais com ficha e lote sem limite de cabeças.' },
   faqTitulo: 'Perguntas sobre declaração de rebanho no Acre',
   faq: [
     ['Qual o prazo da declaração de rebanho no Acre?', 'A campanha é única no ano e vai de 1º de outubro a 30 de novembro, pela Portaria Idaf 270, de 2022. A de 2026 está em curso. Em 2025 o Idaf prorrogou até 31 de dezembro: confirme no órgão se o prazo de 2026 mudou.'],

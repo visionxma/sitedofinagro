@@ -108,7 +108,7 @@ export default {
     'A despesa pode ser marcada com a atividade "Confinamento" e com o lote, em "Mais opções" do lançamento, e a venda entra como receita.',
     'O app não pesa o lote, não lê balança nem calcula a ração: o peso e o consumo são lançados por você.',
   ] },
-  cta: { forte: 'Pesagem, lote e despesa do confinamento num só lugar.', texto: 'Grátis até 1.000 animais com ficha, com lote sem limite de cabeças.' },
+  cta: { forte: 'Pesagem, lote e despesa do confinamento num só lugar.', texto: 'Grátis para sempre: lote sem limite de cabeças, pesagens e despesas, sem cartão.' },
   faqTitulo: 'Perguntas sobre confinamento',
   faq: [
     ['O que é confinamento de gado de corte?', 'É terminar o boi em baia ou curral, sem pasto, com toda a ração no cocho. Serve para aliviar o pasto na seca, encurtar a terminação e programar o abate.'],

@@ -87,7 +87,7 @@ export default {
     'Com o aviso ligado, o app avisa 7 dias antes de a etapa abrir e na véspera, e de novo antes do fim. Ao marcar "Já fiz", o aviso daquela etapa some.',
     'Cada animal tem ficha e o lote guarda as cabeças, e a produção de leite fica registrada, então os números que a Idaron pede estão à mão.',
   ] },
-  cta: { forte: 'Rebanho contado e etapa da Idaron lembrada antes de abrir.', texto: 'Grátis até 1.000 animais com ficha, sem cartão.' },
+  cta: { forte: 'Rebanho contado e etapa da Idaron lembrada antes de abrir.', texto: 'Grátis para sempre, sem cartão: 50 animais com ficha e lote sem limite de cabeças.' },
   faqTitulo: 'Perguntas sobre declaração de rebanho em Rondônia',
   faq: [
     ['Quando é a declaração de rebanho em Rondônia?', 'Em duas etapas por ano, em maio e em novembro, com calendário definido pela Idaron. Em 2025 a etapa de maio encerrou no dia 31. Em 2024 a de novembro foi de 1º a 30. Confirme na Idaron a data de 2026.'],

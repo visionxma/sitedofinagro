@@ -54,7 +54,7 @@ export default {
     'Vacinas, sanidade e mudanças de lote acompanham a lida.',
     'A venda entra como receita e pode ficar ligada ao fluxo de caixa.',
   ] },
-  cta: { forte: 'Da cria à venda, mantenha uma ficha por animal.', texto: 'FINAGRO grátis, sem cartão, para até 1.000 animais com ficha.' },
+  cta: { forte: 'Da cria à venda, mantenha uma ficha por animal.', texto: 'Grátis com 50 animais com ficha; 300 no Produtor, de R$ 29,90 por mês. Sem cartão.' },
   faqTitulo: 'Perguntas sobre cria, recria e engorda',
   faq: [
     ['O que é a fase de cria?', 'É a fase que reúne reprodução, gestação, nascimento e aleitamento do bezerro e termina na desmama.'],

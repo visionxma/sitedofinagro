@@ -73,7 +73,7 @@ export default {
     "A tela Documentos guarda a inscrição estadual como outro documento, com o número, ao lado do CCIR, do ITR e dos contratos.",
     "Relatórios em PDF e em planilha (CSV) reúnem as vendas e as despesas do período para o contador conferir com as notas.",
   ] },
-  cta: {"forte":"A nota sai no sistema da Fazenda. A venda fica anotada no FINAGRO.","texto":"Grátis até 1.000 animais com ficha, sem cartão, no iPhone, no Android e no navegador."},
+  cta: {"forte":"A nota sai no sistema da Fazenda. A venda fica anotada no FINAGRO.","texto":"Grátis, sem cartão: vendas e contas sem limite, no iPhone, no Android e no navegador."},
   faqTitulo: "Perguntas sobre nota fiscal de produtor em SC",
   faq: [
     ["Como emitir nota fiscal de produtor rural em Santa Catarina?","No SAT, o sistema da Secretaria de Estado da Fazenda. Entre com usuário e senha e abra, no Perfil Produtor Primário, o aplicativo de emissão de NFP-e. Preencha, valide e autorize a nota. A outra opção é o aplicativo Nota Fiscal Fácil, com login gov.br."],

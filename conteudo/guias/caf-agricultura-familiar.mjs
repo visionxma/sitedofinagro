@@ -109,7 +109,7 @@ export default {
     'Na tela Documentos, o CAF pode entrar como outro documento, com a validade e o aviso antes de vencer.',
     'As vendas e as despesas lançadas no app ficam organizadas por período e ajudam a levantar a renda dos últimos 12 meses. A conta e a conferência são da entidade da Rede CAF.',
   ] },
-  cta: { forte: 'CAF guardado na ficha da fazenda, com a validade à vista.', texto: 'Grátis até 1.000 animais com ficha, sem cartão.' },
+  cta: { forte: 'CAF guardado na ficha da fazenda, com a validade à vista.', texto: 'Grátis para sempre, sem cartão: documentos, contas e tarefas da fazenda sem limite.' },
   faqTitulo: 'Perguntas sobre o CAF',
   faq: [
     ['O CAF substituiu a DAP?', 'Sim. A DAP deixou de ser emitida e o CAF é o documento oficial para acessar as políticas da agricultura familiar. A DAP antiga vale até o fim da vigência dela.'],

@@ -130,7 +130,7 @@ export default {
     'O aluguel pago entra como despesa no centro de custo e aparece no fluxo de caixa com o saldo previsto.',
     'A área arrendada pode ser medida por GPS no celular, para conferir os hectares do contrato.',
   ] },
-  cta: { forte: 'Contrato guardado e parcela do arrendamento com aviso de vencimento.', texto: 'Grátis para sempre no plano Campo, sem cartão, no iPhone, no Android e no navegador.' },
+  cta: { forte: 'Contrato guardado e parcela do arrendamento com aviso de vencimento.', texto: 'Grátis para sempre, sem cartão: contas a pagar e documentos sem limite.' },
   faqTitulo: 'Perguntas sobre arrendamento rural',
   faq: [
     ['Qual o prazo mínimo do contrato de arrendamento rural?', 'São 3 anos para lavoura temporária e pecuária de pequeno e médio porte, 5 anos para lavoura permanente e pecuária de grande porte e 7 anos para exploração florestal, conforme o art. 13 do Decreto 59.566/1966.'],

@@ -74,7 +74,7 @@ export default {
     'O app pode avisar no celular 7 dias antes do fim da campanha e na véspera. Ao marcar "Já fiz", o aviso daquela etapa some.',
     'Cada animal tem ficha e o lote guarda as cabeças, de galpão e tanque também, então a contagem de cada espécie está pronta na hora de comprovar.',
   ] },
-  cta: { forte: 'Todas as espécies contadas e a campanha da Adapar lembrada.', texto: 'Grátis até 1.000 animais com ficha, sem cartão.' },
+  cta: { forte: 'Todas as espécies contadas e a campanha da Adapar lembrada.', texto: 'Grátis para sempre, sem cartão: 50 animais com ficha e lote sem limite de cabeças.' },
   faqTitulo: 'Perguntas sobre declaração de rebanho no PR',
   faq: [
     ['Qual o prazo da declaração de rebanho 2026 no PR?', 'A campanha da Adapar é em etapa única, de 1º de maio a 30 de junho. Em 2026 ela começou na sexta-feira, 1º de maio, e seguiu até 30 de junho.'],

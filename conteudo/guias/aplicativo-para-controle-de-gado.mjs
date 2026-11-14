@@ -11,12 +11,12 @@ export default {
   curto: 'App para controle de gado',
   resumo: 'O que conferir antes de baixar e quanto custa.',
   title: 'Aplicativo para controle de gado grátis: como escolher',
-  description: 'Aplicativo para controle de gado no celular: o que ele precisa fazer no curral, quanto custa e como o FINAGRO guarda 1.000 animais com ficha de graça.',
+  description: 'Aplicativo para controle de gado no celular: o que ele precisa fazer no curral, quanto custa e o que o FINAGRO guarda de graça, com lote sem limite de cabeças.',
   h1: 'Aplicativo para controle de gado: o que ele precisa fazer no curral',
   pergunta: 'Qual aplicativo usar para controlar o gado de graça?',
-  resposta: 'O FINAGRO é um aplicativo de controle de gado grátis até 1.000 animais com ficha, sem cartão, com lote sem limite de cabeças. Ele guarda brinco, peso, vacina e reprodução de cada animal, avisa o que vence e funciona no iPhone, no Android e no navegador. Sem sinal no curral, o lançamento fica salvo e sobe depois.',
+  resposta: 'O FINAGRO é um aplicativo de controle de gado com plano grátis para sempre, sem cartão: 50 animais com ficha e lote sem limite de cabeças. Ele guarda brinco, peso, vacina e reprodução de cada animal, avisa o que vence e funciona no iPhone, no Android e no navegador. Sem sinal no curral, o lançamento fica salvo e sobe depois.',
   tela: 'animais',
-  atualizado: '2026-11-02',
+  atualizado: '2026-11-14',
   secoes: [
     { h2: 'Sete coisas para conferir antes de baixar qualquer um', blocos: [
       { p: 'Aplicativo de gado se julga no curral, com o brete cheio e o celular numa mão só. Antes de cadastrar o primeiro animal, confira:' },
@@ -42,8 +42,8 @@ export default {
       { p: 'Quem está começando pode ir de planilha: a [planilha de controle de gado](/planilha-de-controle-de-gado) é grátis e já vem com as colunas certas. Quando ela pesar, o aplicativo importa o arquivo.' },
     ] },
     { h2: 'Quanto custa', blocos: [
-      { p: 'No FINAGRO, o plano Campo é grátis para sempre e não pede cartão. Entram até **3 fazendas**, **5 pessoas** e **1.000 animais com ficha**. Lote não tem limite de cabeças: o confinamento, o galpão de aves e o tanque de peixe contam como um lote só.' },
-      { p: 'Os planos pagos começam em R$ 59,90 por mês e servem para quem precisa de mais fazendas, mais gente ou mais animais com ficha.' },
+      { p: 'No FINAGRO, o plano Grátis é para sempre e não pede cartão. Entram **1 fazenda**, **você e mais 1 pessoa** e **50 animais com ficha**, com vacinas, GTA, dinheiro e tarefas sem limite. Lote não tem limite de cabeças: o confinamento, o galpão de aves e o tanque de peixe contam como um lote só.' },
+      { p: 'Os planos pagos começam no **Produtor**, R$ 29,90 por mês, com 300 animais com ficha, reprodução e índices. O **Fazenda**, R$ 69,90, vai a 1.500 animais e libera a pesagem pela câmera e as máquinas; o **Grande**, R$ 199,90, não tem limite de animais. Toda conta nova ganha 14 dias com tudo liberado.' },
       { destaque: 'Não há demonstração para agendar nem vendedor para esperar. Você baixa, conta o que cria e começa a lançar no mesmo dia.' },
     ] },
     { h2: 'O que o FINAGRO não faz', blocos: [
@@ -71,10 +71,10 @@ export default {
     '**Reprodução** com parto previsto e desmame, direto da ficha.',
     '**GTA** registrada com lembrete 1 dia antes do vencimento, e a tela **O que vence** com as vacinas e declarações do seu estado.',
   ] },
-  cta: { forte: 'Seu rebanho no celular ainda hoje, sem agendar demonstração.', texto: 'Grátis até 1.000 animais com ficha, com lote sem limite de cabeças e sem cartão.' },
+  cta: { forte: 'Seu rebanho no celular ainda hoje, sem agendar demonstração.', texto: '14 dias com tudo liberado, sem cartão. Depois, 50 animais com ficha grátis para sempre.' },
   faqTitulo: 'Perguntas sobre aplicativo de controle de gado',
   faq: [
-    ['Existe aplicativo de controle de gado grátis?', 'Existe. O FINAGRO tem o plano Campo, grátis para sempre e sem cartão, com até 3 fazendas, 5 pessoas e 1.000 animais com ficha. Lote não tem limite de cabeças.'],
+    ['Existe aplicativo de controle de gado grátis?', 'Existe. O FINAGRO tem o plano Grátis, para sempre e sem cartão, com 1 fazenda, você e mais 1 pessoa e 50 animais com ficha. Lote não tem limite de cabeças, e vacinas, GTA e dinheiro também não.'],
     ['O aplicativo funciona sem internet no curral?', 'Para lançar, funciona. O gasto, a venda, a pesagem ou a vacina ficam salvos no celular e sobem quando o sinal volta. Para entrar pela primeira vez num aparelho e para ver o que a equipe lançou em outro celular, é preciso sinal.'],
     ['Dá para usar no iPhone, no Android e no computador?', 'Dá. No iPhone, o aplicativo está na App Store; no Android, baixe o APK em finagro.app/android; no computador e no tablet, o FINAGRO abre pelo navegador, em app.finagro.app, com a mesma conta e os mesmos dados.'],
     ['Consigo passar a minha planilha para o aplicativo?', 'Consegue. No Excel, salve a planilha como CSV e envie o arquivo. O FINAGRO importa o cadastro dos animais, as despesas e as receitas, sem digitar tudo de novo.'],

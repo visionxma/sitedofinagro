@@ -104,12 +104,12 @@ export default {
   ],
   noFinagro: { h2: 'O que o FINAGRO faz e o que ele não faz aqui', itens: [
     'O FINAGRO não faz georreferenciamento, não gera memorial descritivo e não envia nada ao Sigef. A área medida no app é para a lida, não para o cartório.',
-    'A medição por GPS no celular dá área e perímetro de pastos e talhões, com até 100 áreas salvas no plano grátis.',
+    'A medição por GPS no celular dá área e perímetro de pastos e talhões, com 3 áreas salvas no plano grátis e sem limite no Fazenda.',
     'Na ficha da fazenda, a área declarada fica ao lado da área mapeada, e o app aponta quando as duas divergem.',
     'A tela Documentos guarda a matrícula, que fica sem validade, e o CCIR, o ITR e o CAR com número e data de validade. Os que vencem avisam antes: CAR com 90 dias, CCIR com 60 e ITR com 45.',
     'O custo do profissional entra como despesa, e as parcelas ficam em contas a pagar, no fluxo de caixa.',
   ] },
-  cta: { forte: 'Papéis da terra guardados e pastos medidos para a lida.', texto: 'Grátis até 1.000 animais com ficha, sem cartão.' },
+  cta: { forte: 'Papéis da terra guardados e pastos medidos para a lida.', texto: 'Grátis para sempre, sem cartão: documentos sem limite e 3 áreas medidas no GPS.' },
   faqTitulo: 'Perguntas sobre georreferenciamento rural',
   faq: [
     ['Georreferenciamento rural é obrigatório?', 'Depende do ato. Para desmembrar, parcelar ou remembrar, a Lei 6.015/1973, art. 176, § 3º, já pede o memorial georreferenciado, sem data. Para transferir o imóvel, o decreto em vigor fixou a exigência a partir de 21 de outubro de 2029. Confirme no registro de imóveis da sua comarca.'],

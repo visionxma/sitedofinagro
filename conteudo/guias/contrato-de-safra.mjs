@@ -143,7 +143,7 @@ export default {
     'A ficha do trabalhador soma o total em serviços, o que já foi pago e o que falta, e sai em relatório.',
     'O gasto com mão de obra entra nas contas e no fluxo de caixa, e a safra mostra o custo por hectare.',
   ] },
-  cta: { forte: 'Quem trabalhou, quanto recebeu e quanto falta pagar, no celular.', texto: 'Grátis para sempre no plano Campo, sem cartão, com até 5 pessoas na equipe.' },
+  cta: { forte: 'Quem trabalhou, quanto recebeu e quanto falta pagar, no celular.', texto: 'Grátis para sempre, sem cartão: mão de obra, pagamentos e contas sem limite.' },
   faqTitulo: 'Perguntas sobre contrato de safra',
   faq: [
     ['Contrato de safra tem carteira assinada?', 'Tem. O safrista é empregado rural, e o empregador tem 5 dias úteis para anotar a admissão, a remuneração e as condições especiais na carteira de trabalho, conforme o art. 29 da CLT.'],

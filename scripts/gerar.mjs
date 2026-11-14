@@ -121,7 +121,7 @@ function planos() {
   const [campo, ...pagos] = PLANOS;
   const preco = (p) => `<span class="plano__preco"><sup>R$</sup>${brl(p.mes)}<small>/mês</small></span>`;
   return `<div class="campo-gratis revelar">
-  <div><h3>Campo</h3><p class="campo-gratis__preco">R$ 0<small>para sempre</small></p></div>
+  <div><h3>${esc(campo.nome)}</h3><p class="campo-gratis__preco">R$ 0<small>para sempre</small></p></div>
   <ul>${campo.itens.slice(0, 6).map((i) => `<li>${check}${esc(i)}</li>`).join('')}</ul>
   <a class="botao botao--claro" href="${ENTIDADE.app}">Começar grátis</a>
 </div>
@@ -140,9 +140,9 @@ ${pagos.map((p, k) => `  <div data-lista="${p.id}"${k ? ' hidden' : ''}><h4>O qu
 </div>
 <div class="planos__mais">
   <div><strong>Grupos, cooperativas e consultorias</strong>Plano ${EMPRESARIAL.nome} a partir de R$ ${brl(EMPRESARIAL.aPartirDe)} por mês, ${esc(EMPRESARIAL.texto)}.</div>
-  <div><strong>Precisa de só um pouco mais?</strong>${COMPLEMENTOS.map((c) => `${esc(c.nome)} por R$ ${brl(c.mes)}`).join(' e ')} por mês.</div>
+  <div><strong>Só uma função?</strong>Avulsas, por mês: ${COMPLEMENTOS.map((c) => `${esc(c.nome)} por R$ ${brl(c.mes)}`).join(', ')}.</div>
 </div>
-<p class="garantia"><svg aria-hidden="true"><use href="#i-escudo"/></svg>O Campo é grátis para sempre, sem cartão. E os dados são seus: exporte tudo quando quiser.</p>`;
+<p class="garantia"><svg aria-hidden="true"><use href="#i-escudo"/></svg>O plano ${esc(campo.nome)} é para sempre e sem cartão. E os dados são seus: exporte tudo quando quiser.</p>`;
 }
 
 function faq(lista, visiveis = 5) {
@@ -219,7 +219,7 @@ function apkEntidade(url, descricao) {
     ...(RES_VERSAO ? { softwareVersion: RES_VERSAO } : {}), ...(RES_TAMANHO ? { fileSize: RES_TAMANHO } : {}),
     image: ENTIDADE.logo, screenshot: ['inicio', 'animais', 'fluxo', 'tarefas', 'lotes', 'cotacoes', 'contas', 'producao', 'relatorios'].map((t) => `${SITE}/assets/telas/${t}-824.webp`),
     author: { '@id': ORG_ID }, publisher: { '@id': ORG_ID }, isPartOf: { '@id': `${SITE}/#site` },
-    offers: { '@type': 'Offer', price: '0.00', priceCurrency: 'BRL', description: 'Plano Campo, grátis para sempre', url } };
+    offers: { '@type': 'Offer', price: '0.00', priceCurrency: 'BRL', description: `Plano ${PLANOS[0].nome}, para sempre e sem cartão`, url } };
 }
 
 // Blocos da página /android que dependem de ENTIDADE.apk (fonte única): faixa de fatos, botões e endereços para o script.
@@ -250,10 +250,10 @@ const apkSelo = () => `<span class="apk-selo" data-apk="versao-selo">${RES_VERSA
 const comQuebras = (sha) => sha.match(/.{1,8}/g).join('<wbr>');
 const apkHash = () => RES_SHA ? `<code class="apk-hash apk-hash--real" data-apk="sha256">${comQuebras(RES_SHA)}</code>` : `<code class="apk-hash" data-apk="sha256">A impressão do arquivo aparece aqui junto com a versão publicada.</code>`;
 
-// Cartão "veja o que cabe no grátis" da página de captação: os limites saem do catálogo, sem preço
-// (o site não mostra tabela de preço enquanto a cobrança do app está desligada).
+// Cartão "veja o que cabe no grátis" da página de captação: os limites e o preço por mês saem do catálogo (Planos v3,
+// 14/11/2026). `pessoas` é quem entra além de você.
 function capPlanos() {
-  const planos = PLANOS.map((p) => { const [fazendas, pessoas, animais] = LIMITES[p.id]; return { id: p.id, nome: p.nome, fazendas, pessoas, animais: Number.isFinite(animais) ? animais : null }; });
+  const planos = PLANOS.map((p) => { const [fazendas, pessoas, animais] = LIMITES[p.id]; return { id: p.id, nome: p.nome, mes: p.mes, fazendas, pessoas, animais: Number.isFinite(animais) ? animais : null }; });
   return `<script type="application/json" id="cap-planos">${JSON.stringify({ planos })}</script>`;
 }
 
@@ -378,7 +378,8 @@ Disallow: /api/
 Sitemap: ${SITE}/sitemap.xml
 `);
 
-const reais = (v) => (v ? `R$ ${brl(v)} por mês` : 'grátis para sempre');
+const reais = (p) => (p.mes ? `R$ ${brl(p.mes)} por mês ou R$ ${brl(p.ano)} por ano` : 'R$ 0, para sempre e sem cartão');
+const minuscula = (lista) => lista.map((x, k) => (k ? x[0].toLowerCase() + x.slice(1) : x)).join(', ');
 const llms = `# FINAGRO
 
 > ${ENTIDADE.frase}
@@ -399,8 +400,11 @@ Site: ${SITE}/ · Sistema: ${ENTIDADE.app} · iPhone: ${ENTIDADE.ios} · Android
 ${ENTIDADE.naoE.map((n) => `- ${n}`).join('\n')}
 
 ## Preço (público, em reais)
-${PLANOS.map((p) => `- ${p.nome}: ${reais(p.mes)}${p.ano ? ` ou R$ ${brl(p.ano)} por ano` : ''}. ${p.itens.slice(0, 3).join(', ')}.`).join('\n')}
-- ${EMPRESARIAL.nome}: a partir de R$ ${brl(EMPRESARIAL.aPartirDe)} por mês, ${EMPRESARIAL.texto}.
+${PLANOS.map((p) => `- ${p.nome}${p.selo ? ` (${p.selo.toLowerCase()})` : ''}: ${reais(p)}. ${p.para}. ${minuscula(p.itens)}.`).join('\n')}
+- ${EMPRESARIAL.nome}: sob consulta, a partir de R$ ${brl(EMPRESARIAL.aPartirDe)} por mês, ${EMPRESARIAL.texto}.
+- Funções avulsas, por mês, em qualquer plano abaixo do que já inclui cada uma: ${COMPLEMENTOS.map((c) => `${c.nome} R$ ${brl(c.mes)}`).join('; ')}.
+- Conta nova: ${TESTE_DIAS} dias do plano Fazenda, com tudo liberado e sem cartão; depois, o plano ${PLANOS[0].nome}.
+- O limite só trava criar registro novo: ver, editar e exportar o que já foi lançado funciona em qualquer plano. Lote não tem limite de cabeças em nenhum plano.
 
 ## Para quem
 Produtor rural brasileiro de qualquer tamanho: do sítio com 12 vacas de leite à granja com 1 milhão de aves, pecuária de corte, piscicultura, apicultura, suinocultura, horta e grãos.

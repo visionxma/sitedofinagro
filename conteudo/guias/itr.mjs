@@ -102,7 +102,7 @@ export default {
     'O aviso chega antes de o documento vencer e aparece na agenda, junto das vacinas e das tarefas.',
     'O imposto pago entra como despesa, e a quota que ainda vai vencer fica em contas a pagar, no fluxo de caixa.',
   ] },
-  cta: { forte: 'Papéis da fazenda guardados e datas com aviso no celular.', texto: 'Grátis até 1.000 animais com ficha, sem cartão.' },
+  cta: { forte: 'Papéis da fazenda guardados e datas com aviso no celular.', texto: 'Grátis para sempre, sem cartão: documentos, contas e tarefas da fazenda sem limite.' },
   faqTitulo: 'Perguntas sobre o ITR',
   faq: [
     ['Ainda dá para entregar a declaração do ITR 2026?', 'A Receita prevê a entrega espontânea fora do prazo, com multa de 1% ao mês-calendário ou fração de atraso, mínimo de R$ 50. Entregue o quanto antes pelo serviço Minhas Declarações do ITR.'],

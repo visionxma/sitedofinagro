@@ -129,7 +129,7 @@ export default {
     'A tela "O que vence" lista as vacinas e as declarações obrigatórias do estado do produtor, para o que ele cria.',
     'O app avisa quando há bezerras na idade da vacina de brucelose sem a vacina anotada, para a pendência não travar a venda.',
   ] },
-  cta: { forte: 'Vacina anotada, GTA registrada e vencimento lembrado.', texto: 'Grátis até 1.000 animais com ficha, sem cartão.' },
+  cta: { forte: 'Vacina anotada, GTA registrada e vencimento lembrado.', texto: 'Grátis para sempre, sem cartão: vacinas e GTAs sem limite.' },
   faqTitulo: 'Perguntas sobre como emitir GTA',
   faq: [
     ['Quem pode emitir a GTA?', 'O proprietário ou o representante legal cadastrado no sistema, o servidor da defesa e a pessoa habilitada pelo Ministério da Agricultura. O acesso é liberado depois do cadastro na defesa do estado.'],

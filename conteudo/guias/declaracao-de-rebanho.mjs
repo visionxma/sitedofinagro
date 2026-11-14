@@ -152,7 +152,7 @@ export default {
     'A tela "O que vence" lista a declaração de rebanho do estado do produtor, com o prazo, e abre a página oficial do órgão.',
     'Ao marcar "Já fiz", o aviso daquela etapa some, e o app pode avisar no celular 7 dias antes e na véspera.',
   ] },
-  cta: { forte: 'Rebanho contado, prazo à vista e aviso antes de vencer.', texto: 'Grátis até 1.000 animais com ficha, sem cartão.' },
+  cta: { forte: 'Rebanho contado, prazo à vista e aviso antes de vencer.', texto: 'Grátis para sempre, sem cartão: 50 animais com ficha e lote sem limite de cabeças.' },
   faqTitulo: 'Perguntas sobre declaração de rebanho',
   faq: [
     ['Declaração de rebanho é a mesma coisa que atualização cadastral?', 'Na prática, sim. Cada estado usa um nome: declaração de rebanho, atualização cadastral, atualização do estoque ou declaração semestral. Em todos, o produtor informa à defesa agropecuária quantos animais tem.'],

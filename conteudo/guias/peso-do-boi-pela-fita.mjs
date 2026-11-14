@@ -51,7 +51,7 @@ export default {
     'O aplicativo calcula o ganho entre uma pesagem e a seguinte.',
     'O aviso de animais sem pesagem há mais de 60 dias ajuda a retomar o acompanhamento.',
   ] },
-  cta: { forte: 'Anote a estimativa e acompanhe o ganho de cada animal.', texto: 'FINAGRO grátis, sem cartão, para até 1.000 animais com ficha.' },
+  cta: { forte: 'Anote a estimativa e acompanhe o ganho de cada animal.', texto: '50 animais com ficha e as pesagens grátis. Pesar pela câmera: no Fazenda ou avulso.' },
   faqTitulo: 'Perguntas sobre pesar o boi com fita',
   faq: [
     ['Como medir o peso do boi sem balança?', 'Use uma fita de pesagem própria para bovinos, passe ao redor do tórax e leia o peso na escala impressa nela.'],

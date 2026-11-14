@@ -115,11 +115,11 @@ export default {
   ],
   noFinagro: { h2: 'Como fica no FINAGRO', itens: [
     'O FINAGRO não faz o CAR, não desenha a reserva legal e não envia nada ao órgão ambiental. Ele organiza a área e os papéis em volta disso.',
-    'A medição por GPS no celular dá a área e o perímetro de pastos, talhões e da mata, com até 100 áreas salvas no plano grátis. É medida para a lida, não a planta do CAR.',
+    'A medição por GPS no celular dá a área e o perímetro de pastos, talhões e da mata, com 3 áreas salvas no plano grátis e sem limite no Fazenda. É medida para a lida, não a planta do CAR.',
     'A ficha da fazenda guarda a situação do CAR, e a tela Documentos guarda o recibo com número e validade, com aviso antes de vencer.',
     'Safras e talhões ficam com a área em hectares, o que ajuda a ver quanto do imóvel está em produção.',
   ] },
-  cta: { forte: 'Meça a mata e os pastos e guarde o recibo do CAR no celular.', texto: 'Grátis até 1.000 animais com ficha, sem cartão.' },
+  cta: { forte: 'Meça a mata e os pastos e guarde o recibo do CAR no celular.', texto: 'Grátis para sempre, sem cartão: 3 áreas medidas no GPS e documentos sem limite.' },
   faqTitulo: 'Perguntas sobre reserva legal',
   faq: [
     ['Qual é a porcentagem de reserva legal?', 'Pelo art. 12 da Lei 12.651/2012, o mínimo é 80% do imóvel em área de florestas da Amazônia Legal, 35% em área de cerrado da Amazônia Legal, 20% em campos gerais da Amazônia Legal e 20% nas demais regiões do país.'],

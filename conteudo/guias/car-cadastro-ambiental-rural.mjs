@@ -90,7 +90,7 @@ export default {
     'O aviso chega antes de o documento vencer e aparece na agenda, junto das vacinas e das tarefas.',
     'A área medida por GPS no celular fica salva na fazenda, e uma tarefa com data lembra de levar o recibo ao banco.',
   ] },
-  cta: { forte: 'Recibo do CAR guardado e aviso antes de vencer, no celular.', texto: 'Grátis até 1.000 animais com ficha, sem cartão.' },
+  cta: { forte: 'Recibo do CAR guardado e aviso antes de vencer, no celular.', texto: 'Grátis para sempre, sem cartão: documentos, contas e tarefas da fazenda sem limite.' },
   faqTitulo: 'Perguntas sobre o CAR',
   faq: [
     ['O que significa CAR?', 'CAR é a sigla de Cadastro Ambiental Rural. É um registro público eletrônico, obrigatório para todo imóvel rural, criado pela Lei 12.651/2012 para reunir as informações ambientais da propriedade.'],

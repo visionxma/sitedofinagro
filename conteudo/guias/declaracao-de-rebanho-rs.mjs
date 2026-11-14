@@ -73,7 +73,7 @@ export default {
     'O app pode avisar no celular 7 dias antes do fim do prazo e na véspera. Ao marcar "Já fiz", o aviso some.',
     'Cada animal tem ficha, com nascimento anotado, e o lote guarda as cabeças, então o saldo de cada espécie chega pronto ao Produtor Online.',
   ] },
-  cta: { forte: 'Saldo do rebanho pronto e a declaração anual lembrada.', texto: 'Grátis até 1.000 animais com ficha, sem cartão.' },
+  cta: { forte: 'Saldo do rebanho pronto e a declaração anual lembrada.', texto: 'Grátis para sempre, sem cartão: 50 animais com ficha e lote sem limite de cabeças.' },
   faqTitulo: 'Perguntas sobre declaração de rebanho no RS',
   faq: [
     ['Qual o prazo da declaração de rebanho 2026 no RS?', 'O prazo de 2026 foi de 1º de abril a 30 de junho e a secretaria prorrogou a entrega até 10 de julho de 2026.'],

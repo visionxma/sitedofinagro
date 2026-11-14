@@ -92,7 +92,7 @@ export default {
     'Para gado, o app também programa o protocolo de IATF (inseminação em tempo fixo) e cria as datas do diagnóstico.',
     'A taxa de prenhez sai pronta do que foi lançado: quantas fêmeas cobertas ficaram prenhes.',
   ] },
-  cta: { forte: 'Cobertura anotada, parto avisado no celular.', texto: 'Grátis até 1.000 animais com ficha, sem cartão.' },
+  cta: { forte: 'Cobertura anotada, parto avisado no celular.', texto: 'Reprodução no Produtor, R$ 29,90 por mês, ou avulsa, R$ 9,90. Teste 14 dias sem cartão.' },
   faqTitulo: 'Perguntas sobre gestação da vaca',
   faq: [
     ['Quantos dias dura a gestação da vaca?', 'No gado de corte a média é de 290 dias, segundo a Embrapa. Para a vaca em geral, a Embrapa cita de 280 a 290 dias, conforme a raça e o sexo da cria.'],

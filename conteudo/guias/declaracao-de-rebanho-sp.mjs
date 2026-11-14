@@ -88,7 +88,7 @@ export default {
     'Em SP a guia depende da declaração desde o começo da etapa. Por isso, com o aviso ligado, o app avisa 7 dias antes de a etapa abrir e na véspera, e de novo antes do fim. Ao marcar "Já fiz", o aviso daquela etapa some.',
     'Cada animal tem ficha e o lote guarda as cabeças, então você abre o GEDAVE com a contagem do rebanho pronta.',
   ] },
-  cta: { forte: 'Rebanho contado e etapa do GEDAVE lembrada antes de abrir.', texto: 'Grátis até 1.000 animais com ficha, sem cartão.' },
+  cta: { forte: 'Rebanho contado e etapa do GEDAVE lembrada antes de abrir.', texto: 'Grátis para sempre, sem cartão: 50 animais com ficha e lote sem limite de cabeças.' },
   faqTitulo: 'Perguntas sobre declaração de rebanho em SP',
   faq: [
     ['Qual o prazo da declaração de rebanho 2026 em SP?', 'A Resolução SAA 28, de 2024, fixa duas etapas por ano: de 1º de maio a 7 de junho e de 1º de novembro a 7 de dezembro. A 1ª etapa de 2026 já passou. A Defesa pode prorrogar ou antecipar, então confirme a data da 2ª etapa de 2026 no GEDAVE ou na CDA Regional.'],

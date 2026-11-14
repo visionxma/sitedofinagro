@@ -70,10 +70,10 @@ export default {
   noFinagro: { h2: 'Lote, peso e área no FINAGRO', itens: [
     'As fichas dos animais guardam peso e histórico de pesagens.',
     'Os lotes organizam as cabeças que estão juntas no manejo.',
-    'A área pode ser medida pelo Sistema de Posicionamento Global (GPS) do celular, com até 100 áreas no plano grátis.',
+    'A área pode ser medida pelo Sistema de Posicionamento Global (GPS) do celular, com 3 áreas no plano grátis e sem limite no Fazenda.',
     'As tarefas ajudam a programar a conferência do pasto e a mudança de lote.',
   ] },
-  cta: { forte: 'Tenha cabeça, peso e área no mesmo controle.', texto: 'FINAGRO grátis, sem cartão, para até 1.000 animais com ficha.' },
+  cta: { forte: 'Tenha cabeça, peso e área no mesmo controle.', texto: 'Grátis para sempre, sem cartão: 50 animais com ficha, lote sem limite e 3 áreas no GPS.' },
   faqTitulo: 'Perguntas sobre taxa de lotação',
   faq: [
     ['O que é uma unidade animal?', 'É uma referência equivalente a 450 kg de peso vivo, usada para comparar a carga de animais com pesos diferentes.'],

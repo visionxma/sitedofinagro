@@ -142,7 +142,7 @@ export default {
     'Receitas, despesas, contas a pagar e a receber, fluxo de caixa com saldo previsto e centro de custo.',
     'Registro das GTAs emitidas e lista do que vence no seu estado; o app não emite a GTA nem transmite nada à Receita.',
   ] },
-  cta: { forte: 'Os termos do glossário viram tela no seu celular.', texto: 'Grátis até 1.000 animais com ficha, sem cartão.' },
+  cta: { forte: 'Os termos do glossário viram tela no seu celular.', texto: '14 dias com tudo liberado, sem cartão. Depois, grátis ou planos desde R$ 29,90 por mês.' },
   faqTitulo: 'Perguntas sobre os termos rurais',
   faq: [
     ['O que é arroba?', 'Arroba é a medida de peso usada para negociar gado. No boi, 1 arroba tem 15 kg de carcaça. A medida exata é 14,788 kg, arredondada para 15.'],

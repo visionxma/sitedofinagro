@@ -80,7 +80,7 @@ export default {
     'O app pode avisar no celular 7 dias antes do fim da etapa e na véspera. Ao marcar "Já fiz", o aviso daquela etapa some.',
     'Cada animal tem ficha e o lote guarda as cabeças, então você abre o SIDAGO com a contagem do rebanho pronta.',
   ] },
-  cta: { forte: 'Rebanho contado e etapa da Agrodefesa lembrada antes de vencer.', texto: 'Grátis até 1.000 animais com ficha, sem cartão.' },
+  cta: { forte: 'Rebanho contado e etapa da Agrodefesa lembrada antes de vencer.', texto: 'Grátis para sempre, sem cartão: 50 animais com ficha e lote sem limite de cabeças.' },
   faqTitulo: 'Perguntas sobre declaração de rebanho em GO',
   faq: [
     ['Qual o prazo da declaração de rebanho 2026 em GO?', 'A Portaria 173/2026 fixa de 1º a 31 de maio e de 1º a 30 de novembro. Em 2026 a primeira etapa foi prorrogada até 10 de junho. Confirme no site da Agrodefesa se a etapa de novembro teve prorrogação.'],

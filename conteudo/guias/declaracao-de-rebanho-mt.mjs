@@ -80,7 +80,7 @@ export default {
     'O app pode avisar no celular 7 dias antes do fim da campanha e na véspera. Ao marcar "Já fiz", o aviso daquela etapa some.',
     'Cada animal tem ficha, com nascimento anotado, e o lote guarda as cabeças, então o estoque de cada espécie chega pronto ao Módulo do Produtor.',
   ] },
-  cta: { forte: 'Estoque contado e a campanha do Indea lembrada antes de vencer.', texto: 'Grátis até 1.000 animais com ficha, sem cartão.' },
+  cta: { forte: 'Estoque contado e a campanha do Indea lembrada antes de vencer.', texto: 'Grátis para sempre, sem cartão: 50 animais com ficha e lote sem limite de cabeças.' },
   faqTitulo: 'Perguntas sobre declaração de rebanho em MT',
   faq: [
     ['Qual o prazo da declaração de rebanho 2026 em MT?', 'A campanha de maio de 2026 foi de 1º de maio a 10 de junho de 2026 e já passou. A de novembro de 2024 foi de 1º de novembro até 10 de dezembro. Confirme o período de novembro de 2026 no site do Indea.'],

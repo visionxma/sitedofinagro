@@ -123,7 +123,7 @@ export default {
     'A cotação do boi gordo da CONAB aparece dentro do app, para você comparar o custo por arroba com o preço do dia.',
     'O app soma as despesas, mas não calcula o custo por arroba sozinho nem a depreciação: a divisão final é com a calculadora desta página.',
   ] },
-  cta: { forte: 'Despesa, pesagem e lote no mesmo celular.', texto: 'Grátis até 1.000 animais com ficha, com lote sem limite de cabeças.' },
+  cta: { forte: 'Despesa, pesagem e lote no mesmo celular.', texto: 'Grátis para sempre: despesas, pesagens e lote sem limite de cabeças, sem cartão.' },
   faqTitulo: 'Perguntas sobre o custo da arroba',
   faq: [
     ['Como calcular o custo da arroba produzida?', 'Divida o custo total do período pelas arrobas produzidas nele. Com R$ 180.000 de custo e 1.200 arrobas, a arroba custou R$ 150.'],

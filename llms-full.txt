@@ -1,6 +1,6 @@
 # FINAGRO: o site inteiro em texto
 
-> O FINAGRO é um aplicativo brasileiro de gestão rural, no celular e no computador, que reúne rebanho, lavoura, dinheiro e equipe da fazenda e é grátis até 1.000 animais com ficha.
+> O FINAGRO é um aplicativo brasileiro de gestão rural, no celular e no computador, que reúne rebanho, lavoura, dinheiro e equipe da fazenda, com plano grátis para sempre e planos pagos a partir de R$ 29,90 por mês.
 
 ---
 
@@ -13,7 +13,7 @@ Sua fazenda na palma da mão
 Rebanho, dinheiro, tarefas e o mapa da fazenda num app só. Você lança no curral, até sem sinal, e vê na hora para onde foi o dinheiro.
 Baixar para iPhoneBaixar grátis
 Usar no navegadorNo navegador
-Grátis para sempre no plano Campo. Sem cartão e sem prazo.
+14 dias com tudo liberado, sem cartão. Depois, grátis para sempre.
 Lança sem sinal e sobe depois
 Traz a sua planilha do Excel
 Relatório em PDF e planilha
@@ -95,7 +95,7 @@ Nota e avaliação publicadas na Google Play, verificadas pelo Google.
 Perguntas frequentes
 O que o produtor mais pergunta antes de começar.
 O FINAGRO é grátis mesmo?
-É. O plano Campo é grátis para sempre e não pede cartão: até 3 fazendas, 5 pessoas e 1.000 animais com ficha, com lote de qualquer tamanho e todas as funções do app. Os planos pagos, de R$ 59,90 a R$ 299,90 por mês, são para quem precisa de mais fazendas, gente ou animais com ficha.
+É. O plano Grátis é para sempre e não pede cartão: 1 fazenda, você e mais 1 pessoa, 50 animais com ficha e lote de qualquer tamanho, com dinheiro, vacinas, GTA e tarefas sem limite. Toda conta nova ganha 14 dias com tudo liberado. Para mais animais com ficha, fazendas ou gente, há o Produtor (R$ 29,90 por mês), o Fazenda (R$ 69,90) e o Grande (R$ 199,90).
 Funciona sem internet no curral?
 Para lançar, funciona. Sem sinal, o gasto, a venda ou a vacina ficam salvos no celular e sobem sozinhos quando a internet voltar, e o app avisa isso na hora. Para entrar pela primeira vez num aparelho e para ver o que a equipe lançou em outro celular, é preciso sinal.
 Serve para quem cria pouco? E para quem cria muito?
@@ -111,14 +111,16 @@ Gera o arquivo do Livro Caixa Digital do Produtor Rural no leiaute da Receita Fe
 Consigo trazer a planilha que já uso?
 Consegue. No Excel, salve a planilha como CSV e envie o arquivo: o FINAGRO importa animais, despesas, receitas, fornecedores e itens de estoque, e ninguém precisa redigitar o que já está na planilha.
 Quantas pessoas podem usar a mesma fazenda?
-No plano Campo, 5 pessoas, cada uma com o seu papel e as suas permissões. Para mais gente: Essencial (10), Profissional (30), Avançado (100) ou pessoa extra por R$ 14,90 por mês.
+No plano Grátis, você e mais 1 pessoa, cada uma com o seu papel e as suas permissões. Para mais gente: Produtor (você e mais 3), Fazenda (mais 10), Grande (mais 50) ou pessoa a mais por R$ 7,90 por mês.
 Os meus dados ficam com quem?
 Ficam com você, guardados na nuvem com a sua conta: trocou de celular, está tudo lá. As listas e os relatórios saem em PDF e planilha quando você quiser, e o tratamento dos dados está descrito na política de privacidade do FINAGRO.
 O que é o FINAGRO AI?
-É o assistente do app para dúvidas de gestão rural, pecuária e agricultura. No plano Campo são 15 perguntas por dia, e a conta zera à meia-noite.
-Ver mais perguntas (+6)
+É o assistente do app para dúvidas de gestão rural, pecuária e agricultura. São 5 perguntas por dia no plano Grátis, 30 no Produtor, 100 no Fazenda e 300 no Grande, e a conta zera à meia-noite.
+O que fica fora do plano grátis?
+Reprodução e índices, estoque, lavoura e importar KMZ entram no Produtor; máquinas, pesar pela câmera e mapa sem sinal, no Fazenda. Cada uma também sai avulsa, de R$ 9,90 a R$ 14,90 por mês. E nada do que você já lançou fica preso: ver, editar e exportar funcionam em qualquer plano.
+Ver mais perguntas (+7)
 Pronto para profissionalizar sua fazenda?
-Grátis para sempre no plano Campo, com o app inteiro: até 3 fazendas, 5 pessoas e 1.000 animais com ficha. Sem cartão e sem prazo.
+14 dias com tudo liberado, sem cartão. Depois, grátis para sempre com 50 animais com ficha e lote sem limite, ou planos a partir de R$ 29,90 por mês.
 Baixar para iPhoneBaixar grátis
 Usar no navegadorNo navegador
 Prefere conversar antes? Falar no WhatsApp
@@ -149,14 +151,14 @@ Reprodução: cobertura ou inseminação, diagnóstico de prenhez e parto previs
 Saída: venda, abate, morte ou transferência para outra fazenda, com a data e o motivo.
 Ficha individual ou lote: quando usar cada um
 A ficha individual vale para o animal que você precisa acompanhar um por um: a vaca de leite, a matriz de cria, o reprodutor, o animal de valor. A ficha de lote serve quando o que importa é o grupo: bezerros da mesma idade na recria, boi na engorda, galpão de frango, tanque de peixe, apiário.
-No FINAGRO os dois convivem na mesma conta. O plano grátis aceita até 1.000 animais com ficha, e o lote não tem limite de cabeças: um galpão com 25 mil aves conta como um lote só.
+No FINAGRO os dois convivem na mesma conta. O plano grátis aceita 50 animais com ficha, e o lote não tem limite de cabeças: um galpão com 25 mil aves conta como um lote só.
 Planilha, caderno ou app?
 CritérioCadernoPlanilhaApp (FINAGRO)
 Anotar no curralSimDifícil no celularSim, mesmo sem sinal
 Avisar vacina e pesagem atrasadaNãoSó com fórmula montada à mãoSim, sozinho
-Mais de uma pessoa lançandoUm caderno por vezArquivo que se perde em cópiasAté 5 pessoas no grátis
+Mais de uma pessoa lançandoUm caderno por vezArquivo que se perde em cópiasCada um no seu acesso
 Fórmula do seu jeitoNãoSim, livreOs cálculos são os do app
-CustoPapelGrátisGrátis até 1.000 animais com ficha
+CustoPapelGrátisGrátis com 50 animais com ficha e lote sem limite
 Se você já tem tudo numa planilha, não precisa redigitar: no Excel, salve como CSV e o FINAGRO importa o cadastro dos animais. A planilha de controle de gado já vem com as colunas que o app aceita.
 Como o FINAGRO avisa o que está atrasado
 O painel abre com o que pede atenção. Alguns exemplos de alerta que o app gera a partir do que você lançou:
@@ -165,7 +167,7 @@ Animais sem pesagem há mais de 60 dias, para o GMD não ficar no escuro.
 Vacinas e declarações obrigatórias do seu estado, na tela "O que vence".
 GTA perto do vencimento, um dia antes.
 Quanto custa
-O plano Campo é grátis para sempre: até 3 fazendas, 5 pessoas e 1.000 animais com ficha, com lote sem limite e todas as funções. Quem precisa de mais tem planos de R$ 59,90 a R$ 299,90 por mês, com 14 dias para testar.
+O plano Grátis é para sempre: 1 fazenda, você e mais 1 pessoa e 50 animais com ficha, com lote, vacinas, GTA e dinheiro sem limite. Quem precisa de mais tem o Produtor (R$ 29,90 por mês, 300 animais com ficha e a reprodução), o Fazenda (R$ 69,90, 1.500 animais) e o Grande (R$ 199,90, sem limite), e toda conta nova ganha 14 dias com tudo liberado.
 Comece o controle do rebanho hoje.
 Crie a conta grátis e lance o primeiro animal ou lote em menos de um minuto.
 Começar grátis
@@ -213,7 +215,7 @@ Quem tem mais de uma propriedade, ou cria gado e planta grãos, precisa saber qu
 Planilha ou app para o fluxo de caixa?
 A planilha resolve quando uma pessoa só lança tudo, no computador, com disciplina. O app resolve quando o gasto acontece no curral, na loja agropecuária ou na estrada: o lançamento sai do celular na hora, sem sinal inclusive, e o fluxo se atualiza para todos que usam a conta. O contador recebe os relatórios em PDF ou planilha (CSV).
 Veja quanto sobrou na fazenda este mês.
-Grátis para sempre no plano Campo, sem cartão.
+Grátis para sempre, sem limite de lançamentos e sem cartão.
 Começar grátis
 Perguntas sobre fluxo de caixa rural
 Fluxo de caixa é a mesma coisa que livro caixa?
@@ -253,7 +255,7 @@ O FINAGRO mostra o tempo da fazenda na primeira tela e, para quem tem lavoura, d
 Do caderno ao custo por hectare
 No FINAGRO você cria a safra (cultura, talhões e período) e cada operação que registra entra no custo dela sozinha. No fim do ciclo, o app mostra quanto custou e quanto rendeu por hectare, sem planilha paralela. Na horta, cada colheita pode ser anotada com o canteiro e o comprador, que é o rastreio que o comprador pede para verdura e fruta fresca.
 Troque o caderno de papel pelo celular.
-Funciona sem sinal e é grátis no plano Campo.
+Funciona sem sinal e fica no plano grátis, sem limite.
 Começar grátis
 Perguntas sobre caderno de campo
 O caderno de campo é obrigatório?
@@ -292,7 +294,7 @@ O FINAGRO não emite a GTA. Ele cuida do que vem antes e do que vem depois:
 Antes: avisa quando há bezerras na idade da vacina de brucelose ainda sem a vacina anotada, e a tela "O que vence" lista as vacinas e declarações obrigatórias do seu estado para o que você cria.
 Depois: você registra cada GTA emitida (quantidade por categoria e, no caso de cavalos, os exames), e o app lembra um dia antes do vencimento.
 Não deixe a vacina travar a venda.
-O FINAGRO avisa antes, de graça no plano Campo.
+O FINAGRO avisa antes, de graça e sem limite de GTAs.
 Começar grátis
 Perguntas sobre GTA
 O FINAGRO emite a GTA?
@@ -383,7 +385,7 @@ Depende da raça, da categoria, do pasto ou do confinamento e da época do ano. 
 O GMD no FINAGRO
 Cada pesagem lançada na ficha do animal entra no histórico dele, e o app calcula o ganho entre as pesagens. Na primeira tela, o FINAGRO avisa quando há animais sem pesagem há mais de 60 dias, para o acompanhamento do ganho não parar.
 Acompanhe o ganho de cada animal e de cada lote.
-Grátis até 1.000 animais com ficha, com lote sem limite.
+Grátis para sempre com 50 animais com ficha e lote sem limite.
 Começar grátis
 Perguntas sobre GMD
 Como transformar o GMD em arrobas?
@@ -404,7 +406,7 @@ Endereço: https://finagro.app/gestao-da-pecuaria-de-corte
 
 Gestão da pecuária de corte
 Seu gado de corte ainda está na caderneta, ou já está na palma da mão?
-Sistema de pecuária costuma pedir demonstração e mirar fazenda grande. O FINAGRO você baixa e usa hoje, de graça até 1.000 animais com ficha.O FINAGRO você baixa e usa hoje.
+Sistema de pecuária costuma pedir demonstração e mirar fazenda grande. O FINAGRO você baixa e usa hoje, com 14 dias de tudo liberado e sem cartão.O FINAGRO você baixa e usa hoje.
 Sem demonstração
 Sem vendedor
 Sem cartão
@@ -420,9 +422,9 @@ Quantas cabeças com ficha individual?
 1.000
 3.000
 10.000
-Cabe no plano grátis
-R$ 0para sempre, sem cartão
-Plano Campo: até 3 fazendas, 5 pessoas e 1.000 animais com ficha.
+50 fichas cabem no grátis
+R$ 0para começar, sem cartão
+As outras 250 cabeças entram por lote, que não tem limite. Ficha para todas: plano Produtor, até 300 fichas, por R$ 29,90 por mês.
 Na engorda: pesagens com o ganho entre uma e outra e a cotação do boi gordo.
 Começar grátis
 Baixar para iPhoneNo iPhone
@@ -456,20 +458,20 @@ Só você sabe do gado
 Cada pessoa entra com o seu papel e vê o mesmo rebanho, no celular ou no computador.
 Ficha com brinco, raça e foto
 Lote sem limite de cabeças
-5 pessoas com papel e permissão
+Equipe com papel e permissão
 Tarefas da equipe
 Para ver a tela, só com demonstração
 Você baixa, diz o que cria e lança a primeira cabeça hoje. Sem vendedor e sem cartão.
-Grátis até 1.000 fichas
+14 dias com tudo liberado
 iPhone, Android e navegador
 Importa a planilha em CSV
 Relatório em PDF e planilha
-1.000
-animais com ficha individual no plano grátis. Para sempre, sem cartão e sem prazo de teste.
-3 fazendasna mesma conta, cada uma com o seu rebanho e o seu caixa
-5 pessoasna equipe, cada uma com o seu papel e a sua permissão
+14
+dias com tudo liberado na conta nova, sem cartão: pesagem pela câmera, reprodução, máquinas e lavoura. Depois, o plano grátis segue para sempre.
+50 animaiscom ficha no grátis, para sempre, e o resto do gado por lote
+R$ 29,90por mês no Produtor, com 300 animais com ficha e a reprodução
 Sem limitede cabeças por lote: o lote inteiro conta como um só
-Limites do plano Campo. Quem precisa de mais fazendas, gente ou fichas tem planos de R$ 59,90 a R$ 299,90 por mês.
+Limites e preços do app. Fazenda: R$ 69,90 por mês, até 1.500 animais com ficha. Grande: R$ 199,90 por mês, sem limite de animais.
 Como você começa no FINAGRO hoje
 1Baixe ou abra no navegador
 No iPhone, pela App Store. No Android, pelo APK em finagro.app/android. No computador, pelo navegador em app.finagro.app.
@@ -482,9 +484,9 @@ O ganho entre as pesagens, a vacina que vence e o saldo previsto, sem passar nad
 E o que o FINAGRO não faz?
 Não emite GTA nem nota fiscal e não liga balança nem brinco eletrônico. Ele guarda as GTAs emitidas, lembra o vencimento 1 dia antes, e o peso você digita no curral.
 O FINAGRO é grátis mesmo?
-É. O plano Campo é grátis para sempre e não pede cartão: até 3 fazendas, 5 pessoas e 1.000 animais com ficha, com lote de qualquer tamanho e todas as funções do app. Os planos pagos, de R$ 59,90 a R$ 299,90 por mês, são para quem precisa de mais fazendas, gente ou animais com ficha.
-E se o meu rebanho passar de 1.000 cabeças?
-Só conta o animal com ficha individual. O gado lançado no lote não entra nesse número, e lote não tem limite de cabeças. Passando de 1.000 fichas, o plano Essencial custa R$ 59,90 por mês e vai até 5.000 animais com ficha.
+É. O plano Grátis é para sempre e não pede cartão: 1 fazenda, você e mais 1 pessoa, 50 animais com ficha e lote de qualquer tamanho, com dinheiro, vacinas, GTA e tarefas sem limite. Toda conta nova ganha 14 dias com tudo liberado. Para mais animais com ficha, fazendas ou gente, há o Produtor (R$ 29,90 por mês), o Fazenda (R$ 69,90) e o Grande (R$ 199,90).
+E se o meu rebanho passar de 50 cabeças?
+Só conta o animal com ficha individual. O gado lançado no lote não entra nesse número, e lote não tem limite de cabeças. Para dar ficha a mais animais: Produtor, R$ 29,90 por mês, até 300; Fazenda, R$ 69,90, até 1.500; Grande, R$ 199,90, sem limite. Ou mais 100 fichas por R$ 9,90 por mês.
 Funciona sem internet no curral?
 Para lançar, funciona. Sem sinal, o gasto, a venda ou a vacina ficam salvos no celular e sobem sozinhos quando a internet voltar, e o app avisa isso na hora. Para entrar pela primeira vez num aparelho e para ver o que a equipe lançou em outro celular, é preciso sinal.
 Consigo trazer a planilha que já uso?
@@ -492,7 +494,7 @@ Consegue. No Excel, salve a planilha como CSV e envie o arquivo: o FINAGRO impor
 Antes da próxima pesagem
 A próxima pesagem vai para a caderneta, ou para o celular?
 Baixe o FINAGRO e lance o primeiro lote hoje, do curral ao caixa. Ninguém liga para marcar reunião.
-Grátis para sempre até 1.000 animais com ficha
+14 dias com tudo liberado para testar
 Sem cartão para começar
 Seus dados saem em PDF e planilha quando você quiser
 Veja o que cabe no grátis
@@ -507,9 +509,9 @@ Quantas cabeças com ficha individual?
 1.000
 3.000
 10.000
-Cabe no plano grátis
-R$ 0para sempre, sem cartão
-Plano Campo: até 3 fazendas, 5 pessoas e 1.000 animais com ficha.
+50 fichas cabem no grátis
+R$ 0para começar, sem cartão
+As outras 250 cabeças entram por lote, que não tem limite. Ficha para todas: plano Produtor, até 300 fichas, por R$ 29,90 por mês.
 Na engorda: pesagens com o ganho entre uma e outra e a cotação do boi gordo.
 Começar grátis
 Baixar para iPhoneNo iPhone
@@ -531,7 +533,7 @@ Grátis preço
 Android 7.0 ou mais novo
 Baixar APK
 Usar no navegadorNo navegador
-Grátis para sempre no plano Campo. Sem cartão e sem prazo.
+14 dias com tudo liberado, sem cartão. Depois, grátis para sempre.
 Telas do app
 O Finagro por dentro, como ele aparece no seu celular.
 Como instalar
@@ -559,7 +561,7 @@ e7e4f82536f7ac3acaf7fd7227fd67300092fc862678b3a0b3ca5cbfa09cb408
 Cada arquivo tem uma impressão única. Se o seu arquivo baixado tiver a mesma, ele é este aqui.
 Perguntas sobre o APK
 O Finagro no Android é grátis?
-É. O plano Campo é grátis para sempre, sem cartão e sem prazo.
+É. O plano Grátis não tem prazo nem pede cartão, e a conta nova ganha 14 dias com tudo liberado. Para mais animais com ficha, fazendas ou gente, os planos começam em R$ 29,90 por mês.
 Qual Android eu preciso?
 Android 7.0 ou mais novo. Em aparelho mais antigo, use o Finagro pelo navegador, em app.finagro.app.
 Como eu atualizo para a versão nova?
@@ -675,7 +677,7 @@ GuiaCriação de galinha caipiraCorte e postura, galinheiro, piquete e a conta d
 GuiaCriação de porcosFases, o que anotar por baia, conversão e GTA.
 GuiaCriação de tilápiaÁgua, licença, povoamento, biometria, ração e despesca.
 O que estas páginas calculam uma vez, o FINAGRO acompanha todo dia.
-Rebanho, lavoura, dinheiro e equipe da fazenda num app só. Grátis até 1.000 animais com ficha, sem cartão.
+Rebanho, lavoura, dinheiro e equipe da fazenda num app só. Grátis para sempre, sem cartão, com 14 dias de tudo liberado para começar.
 Começar grátis
 
 
@@ -691,9 +693,9 @@ App para controle de gado
 GuiaEscolher um aplicativo
 Aplicativo para controle de gado: o que ele precisa fazer no curral
 Qual aplicativo usar para controlar o gado de graça?
-O FINAGRO é um aplicativo de controle de gado grátis até 1.000 animais com ficha, sem cartão, com lote sem limite de cabeças. Ele guarda brinco, peso, vacina e reprodução de cada animal, avisa o que vence e funciona no iPhone, no Android e no navegador. Sem sinal no curral, o lançamento fica salvo e sobe depois.
+O FINAGRO é um aplicativo de controle de gado com plano grátis para sempre, sem cartão: 50 animais com ficha e lote sem limite de cabeças. Ele guarda brinco, peso, vacina e reprodução de cada animal, avisa o que vence e funciona no iPhone, no Android e no navegador. Sem sinal no curral, o lançamento fica salvo e sobe depois.
 Começar grátisBaixar para iPhone
-Atualizado em 02/11/2026
+Atualizado em 14/11/2026
 Sete coisas para conferir antes de baixar qualquer um
 Aplicativo de gado se julga no curral, com o brete cheio e o celular numa mão só. Antes de cadastrar o primeiro animal, confira:
 Lança sem sinal? No pasto e no curral a internet some. O lançamento tem de ficar salvo no aparelho e subir sozinho quando o sinal voltar.
@@ -720,8 +722,8 @@ Vacinas e sanidade, com aviso das bezerras na idade da vacina de brucelose ainda
 Reprodução com parto previsto e desmame, direto da ficha.
 GTA registrada com lembrete 1 dia antes do vencimento, e a tela O que vence com as vacinas e declarações do seu estado.
 Quanto custa
-No FINAGRO, o plano Campo é grátis para sempre e não pede cartão. Entram até 3 fazendas, 5 pessoas e 1.000 animais com ficha. Lote não tem limite de cabeças: o confinamento, o galpão de aves e o tanque de peixe contam como um lote só.
-Os planos pagos começam em R$ 59,90 por mês e servem para quem precisa de mais fazendas, mais gente ou mais animais com ficha.
+No FINAGRO, o plano Grátis é para sempre e não pede cartão. Entram 1 fazenda, você e mais 1 pessoa e 50 animais com ficha, com vacinas, GTA, dinheiro e tarefas sem limite. Lote não tem limite de cabeças: o confinamento, o galpão de aves e o tanque de peixe contam como um lote só.
+Os planos pagos começam no Produtor, R$ 29,90 por mês, com 300 animais com ficha, reprodução e índices. O Fazenda, R$ 69,90, vai a 1.500 animais e libera a pesagem pela câmera e as máquinas; o Grande, R$ 199,90, não tem limite de animais. Toda conta nova ganha 14 dias com tudo liberado.
 Não há demonstração para agendar nem vendedor para esperar. Você baixa, conta o que cria e começa a lançar no mesmo dia.
 O que o FINAGRO não faz
 Melhor saber antes de baixar:
@@ -735,11 +737,11 @@ Conte o que você cria e quantos. O painel se monta para gado de corte, leite, a
 Cadastre o primeiro lote ou importe a planilha que você já usa (no Excel, salve como CSV). A partir daí, cada pesagem e cada vacina entram em poucos toques.
 Três contas aparecem logo na primeira semana de uso: o peso em arroba na calculadora de arroba do boi, as doses do calendário de vacinação bovina e a data do parto na calculadora de gestação bovina.
 Seu rebanho no celular ainda hoje, sem agendar demonstração.
-Grátis até 1.000 animais com ficha, com lote sem limite de cabeças e sem cartão.
+14 dias com tudo liberado, sem cartão. Depois, 50 animais com ficha grátis para sempre.
 Começar grátis
 Perguntas sobre aplicativo de controle de gado
 Existe aplicativo de controle de gado grátis?
-Existe. O FINAGRO tem o plano Campo, grátis para sempre e sem cartão, com até 3 fazendas, 5 pessoas e 1.000 animais com ficha. Lote não tem limite de cabeças.
+Existe. O FINAGRO tem o plano Grátis, para sempre e sem cartão, com 1 fazenda, você e mais 1 pessoa e 50 animais com ficha. Lote não tem limite de cabeças, e vacinas, GTA e dinheiro também não.
 O aplicativo funciona sem internet no curral?
 Para lançar, funciona. O gasto, a venda, a pesagem ou a vacina ficam salvos no celular e sobem quando o sinal volta. Para entrar pela primeira vez num aparelho e para ver o que a equipe lançou em outro celular, é preciso sinal.
 Dá para usar no iPhone, no Android e no computador?
@@ -760,9 +762,9 @@ O que o FINAGRO não faz
 Como começar hoje
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -778,15 +780,15 @@ Melhores apps de gestão
 ComparativoEscolher um aplicativo
 Melhores aplicativos de gestão rural: seis opções comparadas com fonte
 Qual é o melhor aplicativo de gestão rural?
-Depende do que a fazenda precisa. O FINAGRO é grátis para sempre até 1.000 animais com ficha e junta rebanho, lavoura e dinheiro. O Aegro emite nota fiscal de produtor. O JetBov trabalha com balança eletrônica e o Leigado, com leitor de brinco. O iRancho é voltado ao gado de corte. Veja abaixo o que cada site publica.
+Depende do que a fazenda precisa. O FINAGRO tem plano grátis para sempre e junta rebanho, lavoura e dinheiro. O Aegro emite nota fiscal de produtor. O JetBov trabalha com balança eletrônica e o Leigado, com leitor de brinco. O iRancho é voltado ao gado de corte. Veja abaixo o que cada site publica.
 Começar grátisBaixar para iPhone
-Atualizado em 08/10/2026
+Atualizado em 14/11/2026
 Como esta comparação foi feita
 O FINAGRO é nosso, então a régua tem de ser clara. De cada concorrente entrou só o que o site oficial dele publicava em 8 de outubro de 2026, e o endereço de cada informação está nas fontes, no fim da página. O que o site não mostra aparece como "sob consulta".
 Nenhuma nota, nenhum "o melhor do mercado". A tabela mostra o que dá para conferir sozinho, e a seção seguinte diz em que cada um ganha, inclusive do FINAGRO.
 A comparação lado a lado
 AplicativoPreço publicadoGrátis ou testeOnde é mais forte
-FINAGROGrátis; pagos a partir de R$ 59,90 por mêsPlano grátis para sempre, sem cartãoGado, lavoura, outras criações e dinheiro num app só
+FINAGROGrátis; pagos a partir de R$ 29,90 por mêsPlano grátis para sempre e 14 dias com tudo liberado, sem cartãoGado, lavoura, outras criações e dinheiro num app só
 AegroTem plano gratuitoPlano gratuitoFinanceiro por hectare e por cabeça, e nota fiscal do produtor
 LeigadoR$ 149,90 por mês (corte, 300 animais), mais R$ 340 de licença e R$ 340 de implantaçãoTeste de 15 diasLeite e corte, com leitor de brinco eletrônico
 JetBovSob consultaDemonstraçãoPecuária com balança eletrônica e identificação por radiofrequência
@@ -798,16 +800,16 @@ Precisa emitir nota fiscal de produtor no próprio sistema? O Aegro emite a nota
 O curral pesa com balança eletrônica e brinco com chip? O JetBov informa automação com balança eletrônica e identificação por radiofrequência; o Leigado, leitura de brinco eletrônico com bastão. No FINAGRO o peso é digitado.
 A equipe usa iPhone? O Leigado e o FINAGRO têm aplicativo para Android e para iPhone. O iRancho informa que a versão para iOS ainda não saiu; nesses aparelhos, ele abre por um link no navegador.
 Confinamento grande de corte? O iRancho tem módulo próprio de confinamento.
-Quer começar hoje, sem falar com vendedor e sem pagar? O FINAGRO é grátis para sempre até 3 fazendas, 5 pessoas e 1.000 animais com ficha, com lote sem limite de cabeças.
+Quer começar hoje, sem falar com vendedor e sem pagar? O FINAGRO tem plano grátis para sempre, com 50 animais com ficha e lote sem limite de cabeças, e a conta nova testa 14 dias com tudo liberado.
 Cria mais de uma coisa? O FINAGRO monta o painel para gado de corte, leite, aves, suínos, peixes, abelhas, horta e grãos na mesma conta.
 O que o FINAGRO entrega de graça
-Até 3 fazendas, 5 pessoas e 1.000 animais com ficha, com lote sem limite de cabeças, sem cartão.
-Rebanho (ficha, pesagem, vacina, reprodução, registro de GTA), lavoura (safra, talhão, caderno de campo) e dinheiro (receitas, despesas, contas e fluxo de caixa).
+1 fazenda, você e mais 1 pessoa e 50 animais com ficha, com lote sem limite de cabeças, sem cartão.
+Rebanho (ficha, pesagem, vacina, lote e registro de GTA), caderno de campo e dinheiro (receitas, despesas, contas e fluxo de caixa), sem limite.
 Aplicativo no iPhone e no Android, com lançamento sem sinal no celular, e a mesma conta no navegador do computador.
 Relatórios em PDF e em planilha, para os dados serem seus.
 Quantas pessoas podem lançar
 Fazenda não é tocada por uma pessoa só, e é aqui que a conta do sistema costuma crescer sem aviso. O que cada site informa:
-FINAGRO: 5 pessoas no plano grátis, cada uma com o seu papel e a sua permissão. Pessoa extra custa R$ 14,90 por mês.
+FINAGRO: você e mais 1 pessoa no plano grátis, e até mais 50 no Grande, cada uma com o seu papel e a sua permissão. Pessoa a mais custa R$ 7,90 por mês.
 Leigado: informa que os usuários são ilimitados, sem custo adicional.
 Ideagri: informa que o valor do plano muda conforme a atividade, os animais ativos e a quantidade de acessos para lançar dados.
 Nos sistemas que vendem por orçamento, pergunte quantos acessos entram no preço e quanto custa cada pessoa a mais, antes de cadastrar a equipe.
@@ -820,11 +822,11 @@ Consigo tirar meus dados em planilha e em PDF se eu quiser sair?
 Para o lado do gado, o guia aplicativo para controle de gado traz a lista completa do que conferir. Para quem cuida do escritório, veja software de gestão rural.
 Esta página compara informação pública. Antes de contratar qualquer sistema, teste com os dados da sua fazenda e peça o preço por escrito.
 Compare na prática: o FINAGRO você testa hoje, sem vendedor.
-Grátis até 3 fazendas, 5 pessoas e 1.000 animais com ficha. Sem cartão.
+14 dias com tudo liberado, sem cartão. Depois, grátis ou planos desde R$ 29,90 por mês.
 Começar grátis
 Perguntas sobre aplicativos de gestão rural
 Qual aplicativo de gestão rural é gratuito?
-O FINAGRO tem plano grátis para sempre, sem cartão, até 3 fazendas, 5 pessoas e 1.000 animais com ficha. O Aegro informa no site que também tem plano gratuito. Leigado e Ideagri oferecem teste por tempo limitado.
+O FINAGRO tem plano grátis para sempre, sem cartão, com 1 fazenda, você e mais 1 pessoa, 50 animais com ficha e lote sem limite. O Aegro informa no site que também tem plano gratuito. Leigado e Ideagri oferecem teste por tempo limitado.
 Qual aplicativo emite nota fiscal de produtor rural?
 Entre os comparados, o Aegro informa que emite a nota fiscal eletrônica do produtor ligada à Secretaria da Fazenda. O FINAGRO não emite nota fiscal: ele registra a venda e o que há para receber.
 Qual funciona sem internet no curral?
@@ -832,7 +834,7 @@ FINAGRO, JetBov, iRancho e Leigado informam que o aplicativo registra sem intern
 Por que alguns não mostram o preço?
 Parte dos sistemas vende por orçamento, conforme o número de animais e os módulos contratados, e pede uma demonstração antes. Se o preço não está no site, peça o valor por escrito antes de testar.
 O FINAGRO serve para fazenda grande?
-O plano grátis vai até 1.000 animais com ficha e lote sem limite. Para mais fazendas, pessoas e animais com ficha há planos pagos. Fazenda que depende de balança eletrônica ligada ao sistema é mais bem atendida por um sistema com essa integração.
+Serve. O plano Fazenda (R$ 69,90 por mês) vai até 1.500 animais com ficha e 5 fazendas, e o Grande (R$ 199,90) não tem limite de animais, com 20 fazendas e a implantação feita pela equipe. Lote não tem limite em nenhum plano. Fazenda que depende de balança eletrônica ligada ao sistema é mais bem atendida por um sistema com essa integração.
 Fontes
 Aegro, site oficial
 Leigado, planos e preços
@@ -852,9 +854,9 @@ Quantas pessoas podem lançar
 O que perguntar antes de escolher
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -870,16 +872,17 @@ O que é o FINAGRO
 GuiaEscolher um aplicativo
 O que é o FINAGRO, o aplicativo de gestão rural
 O que é o FINAGRO?
-O FINAGRO é um aplicativo brasileiro de gestão rural, feito pela VisionX, que reúne rebanho, lavoura, dinheiro e equipe da fazenda no iPhone, no Android e no navegador. É grátis para sempre até 3 fazendas, 5 pessoas e 1.000 animais com ficha, sem cartão. Não tem relação com o Finagro da Colômbia, que é um fundo de crédito.
+O FINAGRO é um aplicativo brasileiro de gestão rural, feito pela VisionX, que reúne rebanho, lavoura, dinheiro e equipe da fazenda no iPhone, no Android e no navegador. Tem plano grátis para sempre, sem cartão, e planos pagos a partir de R$ 29,90 por mês. Não tem relação com o Finagro da Colômbia, que é um fundo de crédito.
 Começar grátisBaixar para iPhone
-Atualizado em 08/10/2026
+Atualizado em 14/11/2026
 Ficha rápida
 ItemFINAGRO
 O que éAplicativo de gestão rural para fazenda, sítio e granja
 Quem fazVisionX, desenvolvedora brasileira de software
 Onde funcionaiPhone (App Store), Android (APK em finagro.app/android) e navegador, em app.finagro.app
-PreçoPlano Campo grátis para sempre; pagos a partir de R$ 59,90 por mês
-Limite do grátis3 fazendas, 5 pessoas, 1.000 animais com ficha, lote sem limite
+PreçoPlano Grátis para sempre; Produtor R$ 29,90, Fazenda R$ 69,90 e Grande R$ 199,90 por mês
+Limite do grátis1 fazenda, você e mais 1 pessoa, 50 animais com ficha, lote sem limite
+Teste14 dias com tudo liberado na conta nova, sem cartão
 IdiomaPortuguês do Brasil
 Sitefinagro.app
 O que o FINAGRO faz
@@ -890,10 +893,10 @@ Campo e equipe: área medida pelo GPS do celular, máquinas, estoque, mão de ob
 Apoio: cotação do boi gordo publicada pela CONAB, notícias, simulador de crédito do Pronaf e o assistente FINAGRO AI.
 O painel se monta pelo que o produtor cria: gado de corte, leite, aves, suínos, peixes, abelhas, horta ou grãos. O lançamento feito sem sinal fica salvo no celular e sobe quando a internet volta.
 O FINAGRO em números
-R$ 0 no plano Campo, para sempre e sem cartão.
-3 fazendas, 5 pessoas e 1.000 animais com ficha no plano grátis.
+R$ 0 no plano Grátis, para sempre e sem cartão.
+1 fazenda, você e mais 1 pessoa e 50 animais com ficha no plano grátis.
 Lote sem limite de cabeças em todos os planos: galpão, tanque e colmeia contam como lote.
-100 áreas medidas pelo GPS e 15 perguntas por dia ao FINAGRO AI no plano grátis.
+14 dias com tudo liberado na conta nova, e planos pagos a partir de R$ 29,90 por mês.
 O que o FINAGRO não é
 Não é o Finagro da Colômbia. Lá, Finagro é o Fondo para el Financiamiento del Sector Agropecuario, um fundo de crédito com sede em Bogotá. O aplicativo brasileiro não tem relação com ele e não empresta dinheiro.
 Não é do governo nem de banco. É um produto privado, da VisionX.
@@ -901,8 +904,8 @@ Não emite GTA nem nota fiscal. A guia e a nota saem nos sistemas oficiais; o ap
 Não envia nada à Receita. Ele gera o arquivo do LCDPR com os lançamentos; o contador completa, valida e entrega.
 Não se liga a balança, leitor de brinco, coleira ou sensor. O que aparece no app é o que alguém lançou.
 Quanto custa
-O plano Campo é grátis para sempre e não pede cartão: até 3 fazendas, 5 pessoas, 1.000 animais com ficha, 100 áreas medidas no GPS, 15 perguntas por dia ao FINAGRO AI e todas as funções do app. Lote não tem limite de cabeças em nenhum plano.
-Os planos pagos vão de R$ 59,90 a R$ 299,90 por mês e aumentam o número de fazendas, de pessoas e de animais com ficha. Para grupos, cooperativas e consultorias há o plano Empresarial, a partir de R$ 699 por mês.
+O plano Grátis é para sempre e não pede cartão: 1 fazenda, você e mais 1 pessoa, 50 animais com ficha, 3 áreas medidas no GPS e 5 perguntas por dia ao FINAGRO AI, com dinheiro, vacinas, GTA, tarefas, caderno de campo e relatórios sem limite. Lote não tem limite de cabeças em nenhum plano, e toda conta nova ganha 14 dias com tudo liberado.
+Os planos pagos são o Produtor (R$ 29,90 por mês ou R$ 299 por ano: 300 animais com ficha, 2 fazendas, reprodução, índices, estoque e lavoura), o Fazenda (R$ 69,90 ou R$ 699 por ano: 1.500 animais, 5 fazendas, máquinas e pesagem pela câmera) e o Grande (R$ 199,90 ou R$ 1.999 por ano: animais sem limite, 20 fazendas e a implantação feita pela equipe). Para grupos, cooperativas e consultorias há o plano Empresarial, a partir de R$ 499 por mês. Cada função paga também sai avulsa, de R$ 7,90 a R$ 14,90 por mês.
 Para quem é e para quem não é
 É para o produtor que quer sair do caderno e da planilha e ter rebanho, lavoura e caixa no celular, do sítio com poucas vacas de leite à fazenda de corte com vários lotes, e para quem cria mais de uma coisa na mesma propriedade.
 Não é a melhor escolha para a fazenda que precisa de balança eletrônica ligada ao sistema, de certificação de rastreabilidade ou de emissão de nota dentro do aplicativo. A comparação entre aplicativos de gestão rural mostra quem faz cada uma dessas coisas.
@@ -911,11 +914,11 @@ No iPhone, baixe o FINAGRO na App Store. No Android, baixe o APK. No computador,
 Entre com a conta Google ou com e-mail e senha e cadastre a fazenda.
 Conte o que você cria e planta, e lance o primeiro lote, a primeira despesa ou importe a planilha que você já usa, salva como CSV.
 Conheça o FINAGRO usando: é grátis e não pede cartão.
-Até 3 fazendas, 5 pessoas e 1.000 animais com ficha no plano Campo.
+No Grátis: 1 fazenda, você e mais 1 pessoa e 50 animais com ficha, com lote sem limite.
 Começar grátis
 Perguntas sobre o FINAGRO
 O FINAGRO é gratuito?
-O plano Campo é grátis para sempre e sem cartão, com até 3 fazendas, 5 pessoas e 1.000 animais com ficha. Os planos pagos, de R$ 59,90 a R$ 299,90 por mês, são para quem precisa de mais fazendas, pessoas ou animais com ficha.
+O plano Grátis é para sempre e sem cartão, com 1 fazenda, você e mais 1 pessoa e 50 animais com ficha, e dinheiro, vacinas, GTA e tarefas sem limite. Os planos pagos, de R$ 29,90 a R$ 199,90 por mês, somam animais, fazendas, gente e as funções de reprodução, estoque, lavoura, máquinas e pesagem pela câmera.
 O FINAGRO é do governo ou de algum banco?
 Não. É um aplicativo privado, desenvolvido pela VisionX. Ele também não tem relação com o Finagro da Colômbia, que é um fundo de crédito agropecuário com sede em Bogotá.
 Quem desenvolve o FINAGRO?
@@ -938,9 +941,9 @@ Para quem é e para quem não é
 Como começar
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -956,9 +959,9 @@ Software de gestão rural
 GuiaEscolher um aplicativo
 Software e sistema de gestão rural: o que a fazenda tem de exigir
 Qual software ou sistema de gestão rural usar na fazenda?
-Um software ou sistema de gestão rural precisa juntar rebanho, lavoura, dinheiro, estoque, máquinas e equipe na mesma conta, no celular e no computador. O FINAGRO faz isso e é grátis até 3 fazendas, 5 pessoas e 1.000 animais com ficha, sem cartão. Antes de contratar qualquer sistema, peça o preço por escrito e teste a saída dos dados.
+Um software ou sistema de gestão rural precisa juntar rebanho, lavoura, dinheiro, estoque, máquinas e equipe na mesma conta, no celular e no computador. O FINAGRO faz isso, com plano grátis para sempre e pagos desde R$ 29,90 por mês. Antes de contratar qualquer sistema, peça o preço por escrito e teste a saída dos dados.
 Começar grátisBaixar para iPhone
-Atualizado em 02/11/2026
+Atualizado em 14/11/2026
 O que o sistema tem de cobrir
 Sistema que cuida só do gado deixa o dinheiro na planilha. Sistema que cuida só do dinheiro não sabe quantas cabeças tem no pasto. Na fazenda, as seis áreas abaixo conversam o tempo todo:
 ÁreaO que controlarNo FINAGRO
@@ -975,18 +978,18 @@ Aplicativo com versão para computador: lança no celular, no pasto, e confere n
 O que não pode acontecer é o dado ser anotado numa caderneta para alguém digitar depois. Cada vez que um número é passado a limpo, uma parte se perde.
 Sete perguntas para fazer antes de contratar
 Pergunte ao fornecedorNo FINAGRO
-O preço está publicado no site?Está. O plano Campo é grátis e os pagos começam em R$ 59,90 por mês
+O preço está publicado no site?Está. O plano Grátis é para sempre e os pagos vão de R$ 29,90 a R$ 199,90 por mês
 Cobra por animal, por hectare ou por pessoa?O plano define o número de fazendas, de pessoas e de animais com ficha. Lote não tem limite
 Tem taxa de implantação?Não tem. Você mesmo entra e começa
-O que acontece no fim do teste?O plano Campo não tem data para acabar: o acesso continua
+O que acontece no fim do teste?Os 14 dias com tudo liberado acabam e a conta segue no plano Grátis, sem perder nada do que foi lançado
 Lança sem sinal?Lança. O registro fica no aparelho e sobe quando a internet volta
-Quantas pessoas entram?5 no plano grátis, cada uma com papel e permissão
+Quantas pessoas entram?Você e mais 1 no plano grátis, e até mais 50 no Grande, cada uma com papel e permissão
 Consigo tirar meus dados?Listas e relatórios saem em PDF e em planilha
 Peça as respostas por escrito. Sistema que não mostra preço nem deixa você sair com os seus dados cobra essa conta mais tarde.
 O que vem no plano grátis do FINAGRO
-Até 3 fazendas, 5 pessoas e 1.000 animais com ficha, com lote sem limite de cabeças.
-Todas as funções do app: rebanho, lavoura, dinheiro, estoque, máquinas, mão de obra e documentos.
-100 áreas medidas pelo GPS do celular e 15 perguntas por dia ao assistente FINAGRO AI.
+1 fazenda, você e mais 1 pessoa e 50 animais com ficha, com lote sem limite de cabeças.
+Sem limite: receitas, despesas, contas, vacinas, GTA, tarefas, mão de obra, caderno de campo e documentos.
+3 áreas medidas pelo GPS do celular e 5 perguntas por dia ao assistente FINAGRO AI.
 Relatórios em PDF e em planilha, e o arquivo do LCDPR no leiaute da Receita para o contador.
 Lançamento sem sinal, que sobe sozinho quando a internet volta.
 Quando o FINAGRO não é a melhor escolha
@@ -1003,11 +1006,11 @@ Importe a planilha com o rebanho, as despesas ou as receitas que você já tem. 
 Convide a equipe e escolha o papel de cada pessoa. Quem está no curral lança; quem está na sede confere.
 O escritório da fazenda costuma esbarrar em três contas que o sistema ajuda a organizar: o desconto do Funrural de 2026 em cada venda, a nota fiscal de produtor rural que acompanha a carga e a renda que o CAF da agricultura familiar pede para comprovar.
 Teste na sua fazenda antes de falar com qualquer vendedor.
-Grátis até 3 fazendas, 5 pessoas e 1.000 animais com ficha. Sem cartão.
+14 dias com tudo liberado, sem cartão. Depois, grátis ou planos desde R$ 29,90 por mês.
 Começar grátis
 Perguntas sobre software de gestão rural
 Existe software de gestão rural gratuito?
-Existe. O plano Campo do FINAGRO é grátis para sempre e sem cartão, com até 3 fazendas, 5 pessoas e 1.000 animais com ficha, e traz todas as funções do app.
+Existe. O plano Grátis do FINAGRO é para sempre e sem cartão, com 1 fazenda, você e mais 1 pessoa, 50 animais com ficha e lote sem limite, e dinheiro, vacinas, GTA e tarefas sem limite. Reprodução, estoque, lavoura e máquinas entram nos planos pagos, de R$ 29,90 a R$ 199,90 por mês.
 Preciso instalar alguma coisa no computador?
 Não. No computador o FINAGRO abre pelo navegador, em app.finagro.app. No iPhone há o aplicativo, na App Store, e no Android, o APK em finagro.app/android, com a mesma conta.
 Serve para lavoura ou só para gado?
@@ -1028,9 +1031,9 @@ Quando o FINAGRO não é a melhor escolha
 Do curral ao escritório com a mesma conta
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -1094,7 +1097,7 @@ A tela de lotes mostra as cabeças e o peso bruto de cada lote, para a conta par
 A cotação do boi gordo publicada pela CONAB aparece dentro do app.
 A venda entra como receita e cai no fluxo de caixa da fazenda, junto com as contas a receber.
 Pesagem anotada, ganho calculado e lote somado no celular.
-Grátis até 1.000 animais com ficha, com lote sem limite de cabeças.
+Grátis para sempre: pesagens, 50 animais com ficha e lote sem limite, sem cartão.
 Começar grátis
 Perguntas sobre arroba
 Quantos kg tem uma arroba de boi?
@@ -1124,9 +1127,9 @@ Quanto vale o boi e quanto vale o lote
 O peso e a venda no FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -1146,10 +1149,10 @@ A gestação da vaca dura em média 290 dias no gado de corte, cerca de nove mes
 Atualizado em 08/10/2026
 Calcule o parto, a secagem e o diagnóstico
 Data da cobertura ou da IADias de gestaçãoDias de secagem antes do parto
-27/08/2027parto previsto
-28/06/2027secar a vaca de leite em
-05/12/2026ultrassom a partir de
-09/01/2027palpação a partir de
+31/08/2027parto previsto
+02/07/2027secar a vaca de leite em
+09/12/2026ultrassom a partir de
+13/01/2027palpação a partir de
 Os 290 dias são a média do gado de corte segundo a Embrapa. Zebuíno tende a gestar mais dias e raça europeia menos: ajuste o campo se o seu rebanho tem a média própria. A secagem só vale para vaca de leite. O parto é uma previsão: pode vir alguns dias antes ou depois. No aplicativo FINAGRO o parto previsto sai com 283 dias, dentro da mesma faixa.
 Quantos dias dura a gestação da vaca
 No gado de corte, a Embrapa Gado de Corte dá 290 dias como duração média da gestação. É perto de nove meses e meio. A conta do parto é simples: data da cobertura mais 290 dias.
@@ -1190,7 +1193,7 @@ Data de secagem da vaca de leite
 Vaca de leite precisa parar de ser ordenhada antes do parto para o úbere se recuperar. A Embrapa diz que o mais importante é garantir um descanso mínimo de 2 meses antes do parto, e que vaca com período seco menor que 60 dias pode não recuperar a glândula mamária e render menos na lactação seguinte.
 Por isso a calculadora tem o campo de dias de secagem, com 60 de partida. A data de secagem é o parto previsto menos esses dias. Com parto em 1º de novembro, a vaca seca em 2 de setembro. Vaca de corte não passa por secagem.
 Cobertura anotada, parto avisado no celular.
-Grátis até 1.000 animais com ficha, sem cartão.
+Reprodução no Produtor, R$ 29,90 por mês, ou avulsa, R$ 9,90. Teste 14 dias sem cartão.
 Começar grátis
 Perguntas sobre gestação da vaca
 Quantos dias dura a gestação da vaca?
@@ -1220,9 +1223,9 @@ O parto previsto no FINAGRO
 Data de secagem da vaca de leite
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -1290,7 +1293,7 @@ Cada GTA registrada fica com a validade, e o app avisa 1 dia antes do vencimento
 A tela "O que vence" lista as vacinas e as declarações obrigatórias do estado do produtor, para o que ele cria.
 O app avisa quando há bezerras na idade da vacina de brucelose sem a vacina anotada, para a pendência não travar a venda.
 Vacina anotada, GTA registrada e vencimento lembrado.
-Grátis até 1.000 animais com ficha, sem cartão.
+Grátis para sempre, sem cartão: vacinas e GTAs sem limite.
 Começar grátis
 Perguntas sobre como emitir GTA
 Quem pode emitir a GTA?
@@ -1330,9 +1333,9 @@ Quando o sistema não deixa emitir
 Antes e depois da guia no FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -1410,7 +1413,7 @@ O aviso de animais sem pesagem há mais de 60 dias lembra de pesar o lote parado
 A despesa pode ser marcada com a atividade "Confinamento" e com o lote, em "Mais opções" do lançamento, e a venda entra como receita.
 O app não pesa o lote, não lê balança nem calcula a ração: o peso e o consumo são lançados por você.
 Pesagem, lote e despesa do confinamento num só lugar.
-Grátis até 1.000 animais com ficha, com lote sem limite de cabeças.
+Grátis para sempre: lote sem limite de cabeças, pesagens e despesas, sem cartão.
 Começar grátis
 Perguntas sobre confinamento
 O que é confinamento de gado de corte?
@@ -1438,9 +1441,9 @@ Adaptação, cocho e baia
 O confinamento no FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -1525,7 +1528,7 @@ A venda entra como receita, e o saldo a prazo vira conta a receber com data de v
 A GTA emitida fica registrada no app, com lembrete 1 dia antes de vencer.
 A cotação do boi gordo publicada pela CONAB aparece no app para conferir o preço da arroba.
 Lote pesado, venda lançada e saldo a receber com data no celular.
-Grátis até 1.000 animais com ficha, com lote sem limite de cabeças.
+Grátis para sempre: lote sem limite de cabeças, vendas e contas a receber, sem cartão.
 Começar grátis
 Perguntas sobre venda de gado
 Recibo de venda de gado vale como contrato?
@@ -1556,9 +1559,9 @@ Entrega, risco e os documentos da venda
 A venda de gado no FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -1622,7 +1625,7 @@ Pesagens mostram o ganho entre uma medição e a seguinte.
 Vacinas, sanidade e mudanças de lote acompanham a lida.
 A venda entra como receita e pode ficar ligada ao fluxo de caixa.
 Da cria à venda, mantenha uma ficha por animal.
-FINAGRO grátis, sem cartão, para até 1.000 animais com ficha.
+Grátis com 50 animais com ficha; 300 no Produtor, de R$ 29,90 por mês. Sem cartão.
 Começar grátis
 Perguntas sobre cria, recria e engorda
 O que é a fase de cria?
@@ -1649,9 +1652,9 @@ Um registro que atravessa as três fases
 As fases do rebanho no FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -1728,7 +1731,7 @@ O fluxo de caixa soma o que saiu e o que entrou, e os relatórios saem em PDF e 
 A cotação do boi gordo da CONAB aparece dentro do app, para você comparar o custo por arroba com o preço do dia.
 O app soma as despesas, mas não calcula o custo por arroba sozinho nem a depreciação: a divisão final é com a calculadora desta página.
 Despesa, pesagem e lote no mesmo celular.
-Grátis até 1.000 animais com ficha, com lote sem limite de cabeças.
+Grátis para sempre: despesas, pesagens e lote sem limite de cabeças, sem cartão.
 Começar grátis
 Perguntas sobre o custo da arroba
 Como calcular o custo da arroba produzida?
@@ -1758,9 +1761,9 @@ A mesma arroba, três custos diferentes
 O custo da arroba no FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -1830,7 +1833,7 @@ Cada animal tem ficha, e o lote guarda as cabeças, então você chega à declar
 A tela "O que vence" lista a declaração de rebanho do estado do produtor, com o prazo, e abre a página oficial do órgão.
 Ao marcar "Já fiz", o aviso daquela etapa some, e o app pode avisar no celular 7 dias antes e na véspera.
 Rebanho contado, prazo à vista e aviso antes de vencer.
-Grátis até 1.000 animais com ficha, sem cartão.
+Grátis para sempre, sem cartão: 50 animais com ficha e lote sem limite de cabeças.
 Começar grátis
 Perguntas sobre declaração de rebanho
 Declaração de rebanho é a mesma coisa que atualização cadastral?
@@ -1875,9 +1878,9 @@ O que acontece com quem não declara
 A declaração e o FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -1929,7 +1932,7 @@ A tela "O que vence" lista a declaração de rebanho do Acre com o período, ond
 O app pode avisar no celular 7 dias antes do fim da campanha e na véspera. Ao marcar "Já fiz", o aviso some.
 Cada animal tem ficha, as vacinas ficam anotadas e o lote guarda as cabeças, então a quantidade de cada espécie está pronta na hora de declarar.
 Rebanho contado e a campanha do Idaf lembrada antes de vencer.
-Grátis até 1.000 animais com ficha, sem cartão.
+Grátis para sempre, sem cartão: 50 animais com ficha e lote sem limite de cabeças.
 Começar grátis
 Perguntas sobre declaração de rebanho no Acre
 Qual o prazo da declaração de rebanho no Acre?
@@ -1961,9 +1964,9 @@ O que acontece com quem não declara
 A declaração do Acre e o FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -2012,7 +2015,7 @@ A tela "O que vence" lista a declaração de rebanho de Goiás com as duas etapa
 O app pode avisar no celular 7 dias antes do fim da etapa e na véspera. Ao marcar "Já fiz", o aviso daquela etapa some.
 Cada animal tem ficha e o lote guarda as cabeças, então você abre o SIDAGO com a contagem do rebanho pronta.
 Rebanho contado e etapa da Agrodefesa lembrada antes de vencer.
-Grátis até 1.000 animais com ficha, sem cartão.
+Grátis para sempre, sem cartão: 50 animais com ficha e lote sem limite de cabeças.
 Começar grátis
 Perguntas sobre declaração de rebanho em GO
 Qual o prazo da declaração de rebanho 2026 em GO?
@@ -2043,9 +2046,9 @@ O que acontece com quem não declara
 A declaração de GO e o FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -2096,7 +2099,7 @@ A tela "O que vence" lista a atualização de rebanhos de Minas Gerais com o per
 O app pode avisar no celular 7 dias antes do fim da campanha e na véspera. Ao marcar "Já fiz", o aviso some.
 Cada animal tem ficha, as vacinas ficam anotadas e o lote guarda as cabeças, então a contagem e a vacina de raiva estão à mão na hora de atualizar.
 Rebanho contado e a campanha do IMA lembrada antes de vencer.
-Grátis até 1.000 animais com ficha, sem cartão.
+Grátis para sempre, sem cartão: 50 animais com ficha e lote sem limite de cabeças.
 Começar grátis
 Perguntas sobre declaração de rebanho em MG
 Qual o prazo da declaração de rebanho em MG?
@@ -2125,9 +2128,9 @@ O que acontece com quem não atualiza
 A declaração de MG e o FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -2178,7 +2181,7 @@ A tela "O que vence" lista a declaração de rebanho de Mato Grosso do Sul com a
 Em MS a guia trava no primeiro dia da etapa. Por isso, com o aviso ligado, o app avisa 7 dias antes de a etapa abrir e na véspera, e de novo antes do fim. Ao marcar "Já fiz", o aviso daquela etapa some.
 Cada animal tem ficha e o lote guarda as cabeças, então você abre o e-SANIAGRO com a contagem do rebanho pronta.
 Rebanho contado e etapa da Iagro lembrada antes de abrir.
-Grátis até 1.000 animais com ficha, sem cartão.
+Grátis para sempre, sem cartão: 50 animais com ficha e lote sem limite de cabeças.
 Começar grátis
 Perguntas sobre declaração de rebanho em MS
 Qual o prazo da declaração de rebanho 2026 em MS?
@@ -2208,9 +2211,9 @@ O que acontece com quem não declara
 A declaração de MS e o FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -2259,7 +2262,7 @@ A tela "O que vence" lista a atualização de estoque de Mato Grosso com as duas
 O app pode avisar no celular 7 dias antes do fim da campanha e na véspera. Ao marcar "Já fiz", o aviso daquela etapa some.
 Cada animal tem ficha, com nascimento anotado, e o lote guarda as cabeças, então o estoque de cada espécie chega pronto ao Módulo do Produtor.
 Estoque contado e a campanha do Indea lembrada antes de vencer.
-Grátis até 1.000 animais com ficha, sem cartão.
+Grátis para sempre, sem cartão: 50 animais com ficha e lote sem limite de cabeças.
 Começar grátis
 Perguntas sobre declaração de rebanho em MT
 Qual o prazo da declaração de rebanho 2026 em MT?
@@ -2290,9 +2293,9 @@ O que acontece com quem não atualiza
 A declaração de MT e o FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -2341,7 +2344,7 @@ A tela "O que vence" lista a atualização do rebanho do Paraná com o período,
 O app pode avisar no celular 7 dias antes do fim da campanha e na véspera. Ao marcar "Já fiz", o aviso daquela etapa some.
 Cada animal tem ficha e o lote guarda as cabeças, de galpão e tanque também, então a contagem de cada espécie está pronta na hora de comprovar.
 Todas as espécies contadas e a campanha da Adapar lembrada.
-Grátis até 1.000 animais com ficha, sem cartão.
+Grátis para sempre, sem cartão: 50 animais com ficha e lote sem limite de cabeças.
 Começar grátis
 Perguntas sobre declaração de rebanho no PR
 Qual o prazo da declaração de rebanho 2026 no PR?
@@ -2369,9 +2372,9 @@ O que acontece com quem não atualiza
 A declaração do PR e o FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -2426,7 +2429,7 @@ A tela "O que vence" lista a declaração de rebanho de Rondônia com as duas et
 Com o aviso ligado, o app avisa 7 dias antes de a etapa abrir e na véspera, e de novo antes do fim. Ao marcar "Já fiz", o aviso daquela etapa some.
 Cada animal tem ficha e o lote guarda as cabeças, e a produção de leite fica registrada, então os números que a Idaron pede estão à mão.
 Rebanho contado e etapa da Idaron lembrada antes de abrir.
-Grátis até 1.000 animais com ficha, sem cartão.
+Grátis para sempre, sem cartão: 50 animais com ficha e lote sem limite de cabeças.
 Começar grátis
 Perguntas sobre declaração de rebanho em Rondônia
 Quando é a declaração de rebanho em Rondônia?
@@ -2457,9 +2460,9 @@ O que acontece com quem não declara
 A declaração de Rondônia e o FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -2507,7 +2510,7 @@ A tela "O que vence" lista a declaração anual de rebanho do Rio Grande do Sul 
 O app pode avisar no celular 7 dias antes do fim do prazo e na véspera. Ao marcar "Já fiz", o aviso some.
 Cada animal tem ficha, com nascimento anotado, e o lote guarda as cabeças, então o saldo de cada espécie chega pronto ao Produtor Online.
 Saldo do rebanho pronto e a declaração anual lembrada.
-Grátis até 1.000 animais com ficha, sem cartão.
+Grátis para sempre, sem cartão: 50 animais com ficha e lote sem limite de cabeças.
 Começar grátis
 Perguntas sobre declaração de rebanho no RS
 Qual o prazo da declaração de rebanho 2026 no RS?
@@ -2537,9 +2540,9 @@ O que acontece com quem não entrega
 A declaração do RS e o FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -2592,7 +2595,7 @@ A tela "O que vence" lista a declaração de rebanho de São Paulo com as etapas
 Em SP a guia depende da declaração desde o começo da etapa. Por isso, com o aviso ligado, o app avisa 7 dias antes de a etapa abrir e na véspera, e de novo antes do fim. Ao marcar "Já fiz", o aviso daquela etapa some.
 Cada animal tem ficha e o lote guarda as cabeças, então você abre o GEDAVE com a contagem do rebanho pronta.
 Rebanho contado e etapa do GEDAVE lembrada antes de abrir.
-Grátis até 1.000 animais com ficha, sem cartão.
+Grátis para sempre, sem cartão: 50 animais com ficha e lote sem limite de cabeças.
 Começar grátis
 Perguntas sobre declaração de rebanho em SP
 Qual o prazo da declaração de rebanho 2026 em SP?
@@ -2622,9 +2625,9 @@ O que acontece com quem não declara
 A declaração de SP e o FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -2687,7 +2690,7 @@ Na reprodução, cada cobertura vira parto previsto, e o desmame do bezerro fica
 Cada lote mostra o peso bruto e as cabeças, para você comparar um grupo com o outro.
 Para não esquecer a avaliação, crie uma tarefa para o dia do parto, da estação de monta ou da desmama, e anote a nota onde preferir.
 Pesagem, parto e desmama organizados no celular.
-Grátis até 1.000 animais com ficha, sem cartão.
+Pesagem grátis. Parto e desmama: Produtor, R$ 29,90 por mês, ou avulso, R$ 9,90.
 Começar grátis
 Perguntas sobre escore corporal
 O que é escore de condição corporal?
@@ -2714,9 +2717,9 @@ Quando avaliar: parto, estação de monta e desmama
 O que o FINAGRO guarda sobre o seu rebanho
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -2774,7 +2777,7 @@ Para gado, a inseminação em tempo fixo (IATF) gera sozinha as datas do protoco
 A taxa de prenhez aparece pronta: quantas fêmeas cobertas ou inseminadas ficaram prenhes.
 As vacas da estação ficam num lote de qualquer tamanho, e o desmame dos bezerros e a vacina de brucelose ficam anotados.
 Cobertura, diagnóstico e parto no calendário do celular.
-Grátis até 1.000 animais com ficha, sem cartão.
+Reprodução no Produtor, R$ 29,90 por mês, ou avulsa, R$ 9,90. Teste 14 dias sem cartão.
 Começar grátis
 Perguntas sobre estação de monta
 O que é estação de monta?
@@ -2802,9 +2805,9 @@ Saindo da monta o ano todo
 A estação de monta no FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -2867,7 +2870,7 @@ Vacinas e sanidade na ficha, com aviso das bezerras na idade da vacina de brucel
 Reprodução com parto previsto e desmame, sem conta de cabeça.
 Lançamento sem sinal: o que você anota no curral fica salvo no celular e sobe quando a internet volta.
 A ficha de cada animal no celular, sem papel para molhar.
-Grátis até 1.000 animais com ficha, com lote sem limite de cabeças e sem cartão.
+Grátis para sempre, sem cartão: 50 animais com ficha e lote sem limite de cabeças.
 Começar grátis
 Perguntas sobre ficha de controle de gado
 O que tem de ter numa ficha individual de bovino?
@@ -2879,7 +2882,7 @@ A Embrapa estima a gestação de bovinos em 280 dias, nove meses e 10 dias. Uma 
 Preciso de uma ficha para cada animal ou para o lote?
 Matriz, touro e animal de valor pedem ficha individual. Boi de engorda e recria pode ser controlado por lote, com a lista dos brincos e o peso médio, e ganhar ficha própria só se precisar.
 Dá para usar a ficha no celular em vez de imprimir?
-Dá. O FINAGRO guarda a ficha de cada animal no celular, com pesagem, vacina e reprodução, e funciona sem internet no curral. A conta é grátis até 1.000 animais com ficha.
+Dá. O FINAGRO guarda a ficha de cada animal no celular, com pesagem, vacina e reprodução, e funciona sem internet no curral. A conta grátis guarda 50 animais com ficha; o Produtor, de R$ 29,90 por mês, guarda 300 e soma a reprodução.
 Fontes
 Embrapa Gado de Corte, fichas para controle zootécnico de bovinos de corte
 Embrapa Gado de Leite, controle reprodutivo e escrituração zootécnica
@@ -2894,9 +2897,9 @@ Ficha de papel, tabela de controle de gado ou aplicativo
 A ficha do animal no FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -2952,7 +2955,7 @@ Cada cobertura, parto e desmame fica na ficha da vaca, com o parto previsto e o 
 O total de animais e a venda do ano aparecem nos lotes e nas receitas, para a conta do desfrute.
 Natalidade, desmama e desfrute você calcula na tabela acima, com as contagens que o app guarda. O relatório sai em PDF e em planilha.
 Cobertura, parto e desmame num lugar só, no celular.
-Grátis até 1.000 animais com ficha, sem cartão.
+Reprodução no Produtor, R$ 29,90 por mês, ou avulsa, R$ 9,90. Teste 14 dias sem cartão.
 Começar grátis
 Perguntas sobre índices zootécnicos
 O que são índices zootécnicos?
@@ -2982,9 +2985,9 @@ E qual é a meta boa para cada índice
 Os números da cria no FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -3038,7 +3041,7 @@ Cada nova pesagem entra no histórico do animal.
 O aplicativo calcula o ganho entre uma pesagem e a seguinte.
 O aviso de animais sem pesagem há mais de 60 dias ajuda a retomar o acompanhamento.
 Anote a estimativa e acompanhe o ganho de cada animal.
-FINAGRO grátis, sem cartão, para até 1.000 animais com ficha.
+50 animais com ficha e as pesagens grátis. Pesar pela câmera: no Fazenda ou avulso.
 Começar grátis
 Perguntas sobre pesar o boi com fita
 Como medir o peso do boi sem balança?
@@ -3065,9 +3068,9 @@ Aplicativo para pesar gado por foto existe no FINAGRO?
 O peso fica organizado no FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -3140,9 +3143,9 @@ Quando a planilha pesar, o FINAGRO assume
 Importa a sua planilha de animais em CSV, com conferência linha a linha antes de gravar.
 Lança no curral, sem sinal. A pesagem e a vacina ficam salvas no celular e sobem quando a internet volta.
 Avisa o que a planilha não avisa: animal sem pesagem há mais de 60 dias e bezerra na idade da vacina de brucelose sem a vacina anotada.
-Cada pessoa no seu acesso: até 5 pessoas no plano grátis, sem arquivo em duplicata.
+Cada pessoa no seu acesso: você e mais 1 pessoa no plano grátis, e mais gente nos pagos, sem arquivo em duplicata.
 Comece pela planilha. Quando pesar, o FINAGRO importa o arquivo.
-Grátis até 1.000 animais com ficha, com lote sem limite de cabeças e sem cartão.
+Grátis para sempre, sem cartão: 50 animais com ficha e lote sem limite de cabeças.
 Começar grátis
 Perguntas sobre planilha de controle de gado
 Tem planilha de controle de gado grátis em Excel?
@@ -3169,9 +3172,9 @@ Onde a planilha começa a falhar
 Quando a planilha pesar, o FINAGRO assume
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -3223,7 +3226,7 @@ As pesagens ficam na ficha, com o ganho entre uma e outra.
 As vacinas e a sanidade ficam registradas por animal ou por lote, e o app avisa de bezerras na idade da vacina de brucelose sem a vacina anotada.
 As GTAs emitidas no sistema da defesa podem ser registradas no app, que lembra 1 dia antes do vencimento.
 A ficha de cada animal pronta para o dia do brinco.
-Grátis até 1.000 animais com ficha, sem cartão.
+Grátis para sempre, sem cartão: 50 animais com ficha e lote sem limite de cabeças.
 Começar grátis
 Perguntas sobre rastreabilidade bovina
 O brinco de rastreabilidade já é obrigatório?
@@ -3254,9 +3257,9 @@ O FINAGRO não é certificadora
 O histórico de cada animal no FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -3316,7 +3319,7 @@ As pesagens ficam no histórico, e o aplicativo calcula o ganho entre elas.
 Os lotes reúnem as cabeças para acompanhar o gado separado no manejo.
 A venda pode entrar como receita e conta a receber no fluxo de caixa.
 Leve o peso do curral ao acerto sem perder o histórico.
-FINAGRO grátis, sem cartão, para até 1.000 animais com ficha.
+Grátis para sempre, sem cartão: 50 animais com ficha, pesagens e vendas sem limite.
 Começar grátis
 Perguntas sobre rendimento de carcaça
 Qual é a fórmula do rendimento de carcaça?
@@ -3346,9 +3349,9 @@ Como usar o número na próxima venda
 Pesagem e venda organizadas no FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -3406,10 +3409,10 @@ Se houver categorias com pesos muito diferentes, some o peso de cada grupo. Exem
 Lote, peso e área no FINAGRO
 As fichas dos animais guardam peso e histórico de pesagens.
 Os lotes organizam as cabeças que estão juntas no manejo.
-A área pode ser medida pelo Sistema de Posicionamento Global (GPS) do celular, com até 100 áreas no plano grátis.
+A área pode ser medida pelo Sistema de Posicionamento Global (GPS) do celular, com 3 áreas no plano grátis e sem limite no Fazenda.
 As tarefas ajudam a programar a conferência do pasto e a mudança de lote.
 Tenha cabeça, peso e área no mesmo controle.
-FINAGRO grátis, sem cartão, para até 1.000 animais com ficha.
+Grátis para sempre, sem cartão: 50 animais com ficha, lote sem limite e 3 áreas no GPS.
 Começar grátis
 Perguntas sobre taxa de lotação
 O que é uma unidade animal?
@@ -3438,9 +3441,9 @@ Erros que mudam o resultado
 Lote, peso e área no FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -3497,7 +3500,7 @@ O app avisa quando há bezerras na idade da vacina de brucelose sem a vacina ano
 A tela "O que vence" lista as vacinas e as declarações obrigatórias do estado do produtor, para o que ele cria.
 O registro das GTAs emitidas avisa 1 dia antes do vencimento. O app não emite a GTA nem envia nada à defesa agropecuária.
 Vacina anotada e bezerra na idade sem esquecimento.
-Grátis até 1.000 animais com ficha, sem cartão.
+Grátis para sempre, sem cartão: vacinas sem limite e 50 animais com ficha.
 Começar grátis
 Perguntas sobre vacinação do gado
 Com que idade se vacina a bezerra contra brucelose?
@@ -3536,9 +3539,9 @@ O que é recomendação técnica e depende do veterinário
 Controle de vacinas no FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -3601,7 +3604,7 @@ Painel do mês com o total, a média por dia, o valor estimado e os litros por a
 Proteção contra erro: se já houver litros lançados hoje, o app avisa antes de salvar, e pergunta se está certo quando o número vem com zero a mais.
 Carência do leite anotada no tratamento do animal, e a qualidade do leite (CCS e CBT) do extrato do laticínio.
 O leite do dia lançado no curral, o mês somado no celular.
-Grátis até 1.000 animais com ficha, com lançamento sem sinal e sem cartão.
+Grátis para sempre: o leite do dia sem limite e 50 animais com ficha, sem cartão.
 Começar grátis
 Perguntas sobre controle leiteiro
 O que é controle leiteiro?
@@ -3628,9 +3631,9 @@ Controle leiteiro em PDF, papel ou planilha
 O leite no FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -3689,7 +3692,7 @@ Acompanhe o fluxo de caixa com o saldo previsto antes do vencimento das contas.
 Tire relatórios em PDF ou planilha CSV para conferir os lançamentos com o contador.
 O lançamento feito sem sinal fica salvo no aparelho e sobe quando a internet volta.
 Leve as contas do leite para o celular e feche o mês certo.
-Plano Campo grátis para sempre, sem cartão, no iPhone, no Android e no navegador.
+Grátis para sempre, sem cartão: receitas, despesas e o leite do dia sem limite.
 Começar grátis
 Perguntas sobre custo do litro de leite
 Qual é a fórmula do custo do litro de leite?
@@ -3717,9 +3720,9 @@ Fechamento mensal que dá para repetir
 As contas do leite no FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -3782,7 +3785,7 @@ Use o caderno de campo para guardar as operações feitas na lavoura.
 Separe receitas e despesas por centro de custo e acompanhe o fluxo de caixa.
 Registre a colheita com o comprador e leve os relatórios em PDF ou planilha CSV.
 Leve o custo do talhão e da safra no celular.
-Plano Campo grátis para sempre, sem cartão, no iPhone, no Android e no navegador.
+Lavoura no Produtor, R$ 29,90 por mês, ou avulsa, R$ 9,90. Teste 14 dias sem cartão.
 Começar grátis
 Perguntas sobre custo por hectare
 Como calcular o custo de produção por hectare?
@@ -3811,9 +3814,9 @@ Da anotação no campo ao resultado da safra
 O custo da lavoura no FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -3887,7 +3890,7 @@ O app soma o mês e o ano sozinho, mostra a chuva de cada mês em barras e compa
 Cada fazenda tem a sua chuva. Anotação digitada por engano pode ser apagada, e valor acima de 250 mm num dia pede confirmação antes de gravar.
 O app não lê o pluviômetro sozinho: quem olha o aparelho e digita o número é você.
 Anote a chuva da fazenda e veja o histórico de cada mês.
-Grátis até 1.000 animais com ficha, com o pluviômetro em todas as fazendas.
+Grátis para sempre, sem cartão: a chuva anotada sem limite, com o histórico de cada mês.
 Começar grátis
 Perguntas sobre pluviômetro
 1 mm de chuva equivale a quantos litros?
@@ -3919,9 +3922,9 @@ Para que serve o histórico de chuva
 A chuva da fazenda no FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -3980,7 +3983,7 @@ Registre no caderno de campo as operações e os custos da safra.
 Anote a colheita com a quantidade e o comprador.
 Veja o custo por hectare junto dos registros da lavoura.
 Talhão, colheita e custo por hectare no mesmo lugar.
-Use no iPhone, no Android ou no navegador. O plano Campo é grátis e não pede cartão.
+Lavoura no Produtor, R$ 29,90 por mês, ou avulsa, R$ 9,90. Teste 14 dias sem cartão.
 Começar grátis
 Perguntas sobre sacas por hectare
 Como calcular sacas por hectare?
@@ -4009,9 +4012,9 @@ O que o número mostra na decisão
 A safra e a colheita no FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -4083,7 +4086,7 @@ Contas a pagar e a receber guardam a data do acerto com o comprador e o saldo pr
 Relatórios em PDF e em planilha (CSV) levam receitas e despesas organizadas para o contador.
 O app não calcula, não desconta e não recolhe o Funrural, e não transmite nada à Receita: a conta desta página é só para você conferir a nota.
 Venda, desconto e saldo do mês no mesmo lugar.
-Grátis até 1.000 animais com ficha, sem cartão, no iPhone, no Android e no navegador.
+Grátis para sempre, sem cartão: vendas, receitas e despesas sem limite.
 Começar grátis
 Perguntas sobre Funrural
 Qual a alíquota do Funrural para pessoa física em 2026?
@@ -4115,9 +4118,9 @@ Como conferir o desconto na nota
 O Funrural no controle da fazenda
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -4211,7 +4214,7 @@ Em Mão de obra, cada serviço entra com data, valor, forma de pagamento e situa
 A ficha do trabalhador soma o total em serviços, o que já foi pago e o que falta, e sai em relatório.
 O gasto com mão de obra entra nas contas e no fluxo de caixa, e a safra mostra o custo por hectare.
 Quem trabalhou, quanto recebeu e quanto falta pagar, no celular.
-Grátis para sempre no plano Campo, sem cartão, com até 5 pessoas na equipe.
+Grátis para sempre, sem cartão: mão de obra, pagamentos e contas sem limite.
 Começar grátis
 Perguntas sobre contrato de safra
 Contrato de safra tem carteira assinada?
@@ -4243,9 +4246,9 @@ Safrista, diarista e empreiteiro: a diferença
 A mão de obra da safra no FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -4303,7 +4306,7 @@ O que eu gasto e recebo: receitas, despesas, contas a pagar e a receber e fluxo 
 O que eu produzo: pesagens com o ganho entre elas, produção, safras, talhões e caderno de campo.
 O que vence: vacinas, contas, guias de trânsito e as declarações do seu estado, com aviso.
 Os quatro controles no celular, lançados na hora em que acontecem.
-Grátis até 3 fazendas, 5 pessoas e 1.000 animais com ficha. Sem cartão.
+14 dias com tudo liberado. Depois, dinheiro, vacinas, GTA e tarefas grátis e sem limite.
 Começar grátis
 Perguntas sobre gestão rural
 O que é gestão rural?
@@ -4329,9 +4332,9 @@ Caderno, planilha ou aplicativo: quando trocar
 Os quatro controles dentro do FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -4367,7 +4370,7 @@ Safras, talhões e caderno de campo, com o custo por hectare e a chuva do pluvi�
 Receitas, despesas, contas a pagar e a receber, fluxo de caixa com saldo previsto e centro de custo.
 Registro das GTAs emitidas e lista do que vence no seu estado; o app não emite a GTA nem transmite nada à Receita.
 Os termos do glossário viram tela no seu celular.
-Grátis até 1.000 animais com ficha, sem cartão.
+14 dias com tudo liberado, sem cartão. Depois, grátis ou planos desde R$ 29,90 por mês.
 Começar grátis
 Perguntas sobre os termos rurais
 O que é arroba?
@@ -4396,9 +4399,9 @@ Terra e documentos
 Os termos no FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -4462,7 +4465,7 @@ Relatórios em PDF e em planilha (CSV) com receitas e despesas organizadas para 
 Arquivo do LCDPR no leiaute da Receita, para o contador completar e validar.
 O app não faz a declaração do imposto de renda e não transmite nada à Receita: ele guarda e organiza os números que alimentam o Demonstrativo da Atividade Rural.
 Receita e despesa lançadas no mês, o livro caixa pronto no fim.
-Grátis até 1.000 animais com ficha, sem cartão, no iPhone, no Android e no navegador.
+Grátis para sempre, sem cartão: receitas, despesas e o arquivo do LCDPR.
 Começar grátis
 Perguntas sobre imposto de renda rural
 Produtor rural precisa declarar imposto de renda?
@@ -4492,9 +4495,9 @@ Que comprovantes guardar
 O FINAGRO e o imposto de renda rural
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -4579,7 +4582,7 @@ A venda feita com nota entra como receita, e o valor a receber fica em contas a 
 Contrato de arrendamento ou parceria guardado em Documentos tem aviso antes do fim do prazo.
 Relatórios em PDF e em planilha (CSV) reúnem vendas e despesas do período para o contador conferir com as notas.
 Número da inscrição guardado e cada venda anotada no celular.
-Grátis até 1.000 animais com ficha, sem cartão.
+Grátis para sempre, sem cartão: documentos e vendas sem limite.
 Começar grátis
 Perguntas sobre inscrição estadual de produtor rural
 Como tirar a inscrição estadual de produtor rural?
@@ -4621,9 +4624,9 @@ Mantenha a inscrição em dia
 A inscrição e as vendas na rotina do FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -4681,7 +4684,7 @@ Na venda de gado, a saída do animal guarda o destino ou comprador. O valor que 
 A tela Documentos guarda a inscrição estadual como outro documento, com o número, ao lado do CCIR, do ITR e dos contratos.
 Relatórios em PDF e em planilha (CSV) reúnem as vendas e as despesas do período para o contador conferir com as notas.
 A nota sai no sistema da Fazenda. A venda fica anotada no FINAGRO.
-Grátis até 1.000 animais com ficha, sem cartão, no iPhone, no Android e no navegador.
+Grátis, sem cartão: vendas e contas sem limite, no iPhone, no Android e no navegador.
 Começar grátis
 Perguntas sobre nota fiscal de produtor em Goiás
 Como emitir nota fiscal de produtor rural em Goiás?
@@ -4714,9 +4717,9 @@ Onde tirar dúvida em Goiás
 A nota fiscal na rotina do FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -4773,7 +4776,7 @@ Na venda de gado, a saída do animal guarda o destino ou comprador. O valor que 
 A tela Documentos guarda a inscrição estadual como outro documento, com o número, ao lado do CCIR, do ITR e dos contratos.
 Relatórios em PDF e em planilha (CSV) reúnem as vendas e as despesas do período para o contador conferir com as notas.
 A nota sai no sistema da Fazenda. A venda fica anotada no FINAGRO.
-Grátis até 1.000 animais com ficha, sem cartão, no iPhone, no Android e no navegador.
+Grátis, sem cartão: vendas e contas sem limite, no iPhone, no Android e no navegador.
 Começar grátis
 Perguntas sobre nota fiscal de produtor em MG
 Como emitir nota fiscal avulsa de produtor rural em MG?
@@ -4805,9 +4808,9 @@ Onde tirar dúvida em Minas Gerais
 A nota fiscal na rotina do FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -4865,7 +4868,7 @@ Na venda de gado, a saída do animal guarda o destino ou comprador. O valor que 
 A tela Documentos guarda a inscrição estadual como outro documento, com o número, ao lado do CCIR, do ITR e dos contratos.
 Relatórios em PDF e em planilha (CSV) reúnem as vendas e as despesas do período para o contador conferir com as notas.
 A nota sai no sistema da Fazenda. A venda fica anotada no FINAGRO.
-Grátis até 1.000 animais com ficha, sem cartão, no iPhone, no Android e no navegador.
+Grátis, sem cartão: vendas e contas sem limite, no iPhone, no Android e no navegador.
 Começar grátis
 Perguntas sobre nota fiscal de produtor em SC
 Como emitir nota fiscal de produtor rural em Santa Catarina?
@@ -4899,9 +4902,9 @@ Onde tirar dúvida em Santa Catarina
 A nota fiscal na rotina do FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -4963,7 +4966,7 @@ Na venda de gado, a saída do animal guarda o destino ou comprador. O valor que 
 A tela Documentos guarda a inscrição estadual como outro documento, com o número, ao lado do CCIR, do ITR e dos contratos.
 Relatórios em PDF e em planilha (CSV) reúnem as vendas e as despesas do período para o contador conferir com as notas.
 A nota sai no sistema da Fazenda. A venda fica anotada no FINAGRO.
-Grátis até 1.000 animais com ficha, sem cartão, no iPhone, no Android e no navegador.
+Grátis, sem cartão: vendas e contas sem limite, no iPhone, no Android e no navegador.
 Começar grátis
 Perguntas sobre nota fiscal de produtor em SP
 Como emitir nota fiscal de produtor rural em SP?
@@ -4995,9 +4998,9 @@ Onde tirar dúvida em São Paulo
 A nota fiscal na rotina do FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -5054,7 +5057,7 @@ Na venda de gado, a saída do animal guarda o destino ou comprador. O valor que 
 A tela Documentos guarda a inscrição estadual como outro documento, com o número, ao lado do CCIR, do ITR e dos contratos.
 Relatórios em PDF e em planilha (CSV) reúnem as vendas e as despesas do período para o contador conferir com as notas.
 A nota sai no sistema da Fazenda. A venda fica anotada no FINAGRO.
-Grátis até 1.000 animais com ficha, sem cartão, no iPhone, no Android e no navegador.
+Grátis, sem cartão: vendas e contas sem limite, no iPhone, no Android e no navegador.
 Começar grátis
 Perguntas sobre nota fiscal de produtor na Bahia
 Como emitir nota fiscal avulsa de produtor rural na Bahia?
@@ -5086,9 +5089,9 @@ Onde tirar dúvida na Bahia
 A nota fiscal na rotina do FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -5145,7 +5148,7 @@ Na venda de gado, a saída do animal guarda o destino ou comprador. O valor que 
 A tela Documentos guarda a inscrição estadual como outro documento, com o número, ao lado do CCIR, do ITR e dos contratos.
 Relatórios em PDF e em planilha (CSV) reúnem as vendas e as despesas do período para o contador conferir com as notas.
 A nota sai no sistema da Fazenda. A venda fica anotada no FINAGRO.
-Grátis até 1.000 animais com ficha, sem cartão, no iPhone, no Android e no navegador.
+Grátis, sem cartão: vendas e contas sem limite, no iPhone, no Android e no navegador.
 Começar grátis
 Perguntas sobre nota fiscal de produtor no DF
 Como emitir nota fiscal de produtor rural no DF?
@@ -5173,9 +5176,9 @@ Onde tirar dúvida no Distrito Federal
 A nota fiscal na rotina do FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -5234,7 +5237,7 @@ Na venda de gado, a saída do animal guarda o destino ou comprador. O valor que 
 A tela Documentos guarda a inscrição estadual como outro documento, com o número, ao lado do CCIR, do ITR e dos contratos.
 Relatórios em PDF e em planilha (CSV) reúnem as vendas e as despesas do período para o contador conferir com as notas.
 A nota sai no sistema da Fazenda. A venda fica anotada no FINAGRO.
-Grátis até 1.000 animais com ficha, sem cartão, no iPhone, no Android e no navegador.
+Grátis, sem cartão: vendas e contas sem limite, no iPhone, no Android e no navegador.
 Começar grátis
 Perguntas sobre nota fiscal de produtor no ES
 Como emitir nota fiscal avulsa de produtor rural no ES?
@@ -5262,9 +5265,9 @@ Onde tirar dúvida no Espírito Santo
 A nota fiscal na rotina do FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -5322,7 +5325,7 @@ Na venda de gado, a saída do animal guarda o destino ou comprador. O valor que 
 A tela Documentos guarda a inscrição estadual como outro documento, com o número, ao lado do CCIR, do ITR e dos contratos.
 Relatórios em PDF e em planilha (CSV) reúnem as vendas e as despesas do período para o contador conferir com as notas.
 A nota sai no sistema da Fazenda. A venda fica anotada no FINAGRO.
-Grátis até 1.000 animais com ficha, sem cartão, no iPhone, no Android e no navegador.
+Grátis, sem cartão: vendas e contas sem limite, no iPhone, no Android e no navegador.
 Começar grátis
 Perguntas sobre nota fiscal de produtor no Paraná
 Como emitir nota fiscal de produtor rural no Paraná?
@@ -5351,9 +5354,9 @@ Onde tirar dúvida no Paraná
 A nota fiscal na rotina do FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -5408,7 +5411,7 @@ Na venda de gado, a saída do animal guarda o destino ou comprador. O valor que 
 A tela Documentos guarda a inscrição estadual como outro documento, com o número, ao lado do CCIR, do ITR e dos contratos.
 Relatórios em PDF e em planilha (CSV) reúnem as vendas e as despesas do período para o contador conferir com as notas.
 A nota sai no sistema da Fazenda. A venda fica anotada no FINAGRO.
-Grátis até 1.000 animais com ficha, sem cartão, no iPhone, no Android e no navegador.
+Grátis, sem cartão: vendas e contas sem limite, no iPhone, no Android e no navegador.
 Começar grátis
 Perguntas sobre nota fiscal de produtor no RS
 Como emitir nota fiscal de produtor rural no RS?
@@ -5439,9 +5442,9 @@ Onde tirar dúvida no Rio Grande do Sul
 A nota fiscal na rotina do FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -5499,7 +5502,7 @@ O registro das GTAs emitidas guarda o vencimento e avisa 1 dia antes, para a not
 Relatórios em PDF e em planilha (CSV) reúnem vendas e despesas do período para o contador conferir com as notas.
 O app não emite nota fiscal e não faz inscrição estadual: a nota se emite no Nota Fiscal Fácil ou no sistema da Secretaria da Fazenda.
 A nota sai no aplicativo da Fazenda. A venda fica anotada no FINAGRO.
-Grátis até 1.000 animais com ficha, sem cartão, no iPhone, no Android e no navegador.
+Grátis, sem cartão: vendas e contas sem limite, no iPhone, no Android e no navegador.
 Começar grátis
 Perguntas sobre nota fiscal de produtor
 O talão de nota fiscal de produtor rural ainda vale?
@@ -5531,9 +5534,9 @@ Quando a nota é exigida
 A nota fiscal na rotina do FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -5610,7 +5613,7 @@ Relatórios em PDF e em planilha (CSV) quando o contador pedir, e o arquivo do L
 Importação da planilha de despesas e receitas em CSV, com conferência linha a linha antes de gravar.
 Lançamento sem sinal: a despesa anotada na cerca fica salva no celular e sobe quando a internet volta.
 Despesa lançada no celular, saldo do mês sem somar à mão.
-Grátis até 1.000 animais com ficha, até 3 fazendas e 5 pessoas, sem cartão.
+Grátis para sempre, sem cartão: receitas, despesas, contas e fluxo de caixa sem limite.
 Começar grátis
 Perguntas sobre planilha de gestão rural
 Tem planilha de gestão rural grátis?
@@ -5638,9 +5641,9 @@ Como passar essas planilhas para o FINAGRO
 A gestão da fazenda no FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -5707,7 +5710,7 @@ As taxas e os tetos do simulador são referências do próprio app e podem difer
 A simulação não é proposta nem aprovação de banco. O FINAGRO não contrata crédito.
 O resultado traz um checklist de documentos, e receitas, despesas e relatórios em PDF ou planilha ajudam a mostrar a renda da fazenda.
 Simule a parcela e junte os documentos antes de ir ao banco.
-Grátis até 1.000 animais com ficha, sem cartão. O banco define a taxa final.
+Simulador de crédito e documentos grátis, sem cartão. O banco define a taxa final.
 Começar grátis
 Perguntas sobre Pronaf
 Quem tem direito ao Pronaf?
@@ -5738,9 +5741,9 @@ O que levar ao banco ou à cooperativa
 O simulador de crédito do FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -5797,7 +5800,7 @@ O nome popular pode mudar dentro do mesmo estado; o documento da área é o que 
 Quando a dúvida é o tamanho real do pasto ou da roça, e não o que diz o papel, um aplicativo para medir área rural pelo GPS mede o contorno em hectares e a conta para alqueire sai daqui.
 A calculadora converte o padrão escolhido, mas não identifica sozinha qual alqueire está no seu papel. Se o documento disser apenas “alqueire”, peça a equivalência em hectares ao cartório ou ao profissional que fez a medição.
 A área da fazenda no FINAGRO
-Meça pastos e talhões pelo GPS do celular e guarde até 100 áreas no plano grátis.
+Meça pastos e talhões pelo GPS do celular e guarde 3 áreas no plano grátis, ou sem limite no Fazenda.
 Cadastre safras e talhões com a área em hectares.
 Acompanhe o custo por hectare de cada lavoura.
 O lançamento feito sem sinal fica no aparelho e sobe quando a internet volta.
@@ -5830,9 +5833,9 @@ Qual alqueire usar na conta
 A área da fazenda no FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -5848,8 +5851,8 @@ App para medir área
 GuiaTerra e documentos
 Aplicativo para medir área rural: como medir terra pelo celular
 Como medir terra pelo celular?
-Para medir terra pelo celular, abra Áreas e GPS no FINAGRO, permita a localização e marque os cantos no mapa ou caminhe pela borda. Feche o polígono e a área aparece em m², hectares ou km². O plano grátis guarda até 100 áreas e, no Android, o GPS mede sem internet.
-Atualizado em 02/11/2026
+Para medir terra pelo celular, abra Áreas e GPS no FINAGRO, permita a localização e marque os cantos no mapa ou caminhe pela borda. Feche o polígono e a área aparece em m², hectares ou km². O plano grátis guarda 3 áreas (30 no Produtor e sem limite no Fazenda) e, no Android, o GPS mede sem internet.
+Atualizado em 14/11/2026
 Como o GPS do celular calcula a área
 O sistema global de navegação por satélite, conhecido pela sigla GNSS, calcula a posição do aparelho a partir de sinais de satélites. A Agência Espacial Brasileira informa que são necessários pelo menos quatro satélites visíveis para calcular os primeiros parâmetros da posição.
 O aplicativo junta os pontos de latitude e longitude em volta do pasto ou talhão, fecha um polígono e calcula a superfície dentro dele. No FINAGRO, a área aparece automaticamente em m², ha ou km², conforme o tamanho. Também dá para trocar a unidade depois.
@@ -5865,7 +5868,7 @@ Na caminhada, o FINAGRO mostra distância percorrida, quantidade de vértices e 
 Funciona sem internet?
 A medição por GPS continua funcionando sem internet no aplicativo Android. O FINAGRO salva o polígono primeiro no banco do aparelho. Quando a conexão volta, tenta enviar a área para a conta na nuvem.
 O mapa de fundo é outra coisa. Se a região não estiver guardada no celular e você estiver sem sinal, o código avisa que a medição segue normal, mas o mapa pode aparecer em branco. O contorno e o cálculo não dependem dessa imagem.
-No plano Campo, gratuito, a conta guarda até 100 áreas medidas por GPS.
+No plano Grátis a conta guarda 3 áreas medidas por GPS. O Produtor guarda 30, e o Fazenda, sem limite, com o mapa guardado para usar sem sinal.
 Quanto o GPS do celular pode errar
 Não existe um percentual fixo de erro para toda área. Como referência, o IBGE adotou 9 metros como limite máximo aceitável para latitude e longitude no dispositivo móvel usado no Censo Agropecuário. Isso é erro de posição de cada ponto, não promessa de erro final da área.
 O próprio IBGE explica que a precisão muda com vegetação, construções, montanhas, quantidade e geometria dos satélites, elevação e relação entre sinal e ruído. Um piquete pequeno sente mais um desvio de alguns metros do que uma área grande.
@@ -5882,14 +5885,14 @@ Use o aplicativo para tocar a fazenda. Para mexer em matrícula, limite legal ou
 O que a medição do FINAGRO entrega
 Medição por pontos no mapa ou caminhando o contorno com o GPS do celular.
 Área em m², hectares ou km², além de perímetro e lados do polígono.
-Até 100 áreas salvas no plano Campo gratuito, sem cartão.
+3 áreas salvas no plano grátis, 30 no Produtor e sem limite no Fazenda.
 Salvamento no aparelho sem internet e sincronização quando o sinal volta.
 Meça o pasto pelo celular e guarde a área na fazenda.
-FINAGRO grátis no iPhone, no Android e no navegador, sem cartão.
+Grátis com 3 áreas; 30 no Produtor e sem limite no Fazenda. Sem cartão.
 Começar grátis
 Perguntas sobre medir área pelo celular
 Qual aplicativo mede área rural pelo GPS?
-O FINAGRO mede áreas no Android por pontos ou caminhada, mostra m², hectares e km² e guarda até 100 áreas no plano gratuito.
+O FINAGRO mede áreas no Android por pontos ou caminhada, mostra m², hectares e km² e guarda 3 áreas no plano gratuito, 30 no Produtor e sem limite no Fazenda.
 Dá para medir terreno sem internet?
 Sim, no aplicativo Android. O GPS e o salvamento local continuam funcionando; se o mapa da região não estiver guardado, o fundo pode aparecer em branco.
 Quanto o GPS do celular erra?
@@ -5914,9 +5917,9 @@ Para que a medição serve e para que não serve
 O que a medição do FINAGRO entrega
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -5981,7 +5984,7 @@ Na ficha da fazenda, marque "Tenho CAF" e guarde número, titular, município e 
 Na tela Documentos, o CAF pode entrar como outro documento, com a validade e o aviso antes de vencer.
 As vendas e as despesas lançadas no app ficam organizadas por período e ajudam a levantar a renda dos últimos 12 meses. A conta e a conferência são da entidade da Rede CAF.
 CAF guardado na ficha da fazenda, com a validade à vista.
-Grátis até 1.000 animais com ficha, sem cartão.
+Grátis para sempre, sem cartão: documentos, contas e tarefas da fazenda sem limite.
 Começar grátis
 Perguntas sobre o CAF
 O CAF substituiu a DAP?
@@ -6012,9 +6015,9 @@ Para que serve o CAF: Pronaf, compras públicas e seguro
 Como fica no FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -6076,7 +6079,7 @@ Na tela Documentos, o CAR de cada fazenda fica com número, data e validade.
 O aviso chega antes de o documento vencer e aparece na agenda, junto das vacinas e das tarefas.
 A área medida por GPS no celular fica salva na fazenda, e uma tarefa com data lembra de levar o recibo ao banco.
 Recibo do CAR guardado e aviso antes de vencer, no celular.
-Grátis até 1.000 animais com ficha, sem cartão.
+Grátis para sempre, sem cartão: documentos, contas e tarefas da fazenda sem limite.
 Começar grátis
 Perguntas sobre o CAR
 O que significa CAR?
@@ -6106,9 +6109,9 @@ CAR, APP e Reserva Legal: qual a diferença
 Como fica no FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -6177,7 +6180,7 @@ Na tela Documentos, o CCIR de cada fazenda fica com número, emissão e validade
 O aviso chega antes de o documento vencer e aparece na agenda da fazenda, junto das vacinas e das tarefas.
 A taxa da guia entra como despesa, e o vencimento fica em contas a pagar, no fluxo de caixa.
 CCIR, ITR e CAR guardados, com aviso antes de vencer.
-Grátis até 1.000 animais com ficha, sem cartão.
+Grátis para sempre, sem cartão: documentos, contas e tarefas da fazenda sem limite.
 Começar grátis
 Perguntas sobre o CCIR
 O que é o CCIR?
@@ -6208,9 +6211,9 @@ Vender, arrendar ou herdar terra: o que mais o cartório pede
 Como fica no FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -6300,7 +6303,7 @@ Cada parcela do arrendamento vira conta a pagar ou a receber com data de vencime
 O aluguel pago entra como despesa no centro de custo e aparece no fluxo de caixa com o saldo previsto.
 A área arrendada pode ser medida por GPS no celular, para conferir os hectares do contrato.
 Contrato guardado e parcela do arrendamento com aviso de vencimento.
-Grátis para sempre no plano Campo, sem cartão, no iPhone, no Android e no navegador.
+Grátis para sempre, sem cartão: contas a pagar e documentos sem limite.
 Começar grátis
 Perguntas sobre arrendamento rural
 Qual o prazo mínimo do contrato de arrendamento rural?
@@ -6328,9 +6331,9 @@ O que precisa constar e o que a lei proíbe
 O arrendamento no FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -6424,7 +6427,7 @@ Os animais da parceria ficam em um lote separado, com as pesagens e o ganho entr
 Na lavoura, a safra guarda o custo por hectare e a colheita com o comprador, que são a base da partilha.
 A sua cota vendida entra como receita e as despesas que são suas caem no fluxo de caixa.
 Lote, pesagem, colheita e custo anotados para a hora da partilha.
-Grátis até 1.000 animais com ficha, com lote sem limite de cabeças.
+Lote, pesagem e contas grátis para sempre. Colheita no Produtor, de R$ 29,90 por mês.
 Começar grátis
 Perguntas sobre parceria rural
 Qual a lei do contrato de parceria rural?
@@ -6452,9 +6455,9 @@ Diferença entre arrendamento e parceria
 A parceria no FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -6523,12 +6526,12 @@ A medida do celular tem o seu lugar: dividir piquete, calcular adubo, conferir a
 Este texto é informativo e não substitui advogado, engenheiro nem o cartório. Prazo e exigência mudam por decreto: confira o texto em vigor no Planalto e a orientação do registro de imóveis antes de fechar negócio.
 O que o FINAGRO faz e o que ele não faz aqui
 O FINAGRO não faz georreferenciamento, não gera memorial descritivo e não envia nada ao Sigef. A área medida no app é para a lida, não para o cartório.
-A medição por GPS no celular dá área e perímetro de pastos e talhões, com até 100 áreas salvas no plano grátis.
+A medição por GPS no celular dá área e perímetro de pastos e talhões, com 3 áreas salvas no plano grátis e sem limite no Fazenda.
 Na ficha da fazenda, a área declarada fica ao lado da área mapeada, e o app aponta quando as duas divergem.
 A tela Documentos guarda a matrícula, que fica sem validade, e o CCIR, o ITR e o CAR com número e data de validade. Os que vencem avisam antes: CAR com 90 dias, CCIR com 60 e ITR com 45.
 O custo do profissional entra como despesa, e as parcelas ficam em contas a pagar, no fluxo de caixa.
 Papéis da terra guardados e pastos medidos para a lida.
-Grátis até 1.000 animais com ficha, sem cartão.
+Grátis para sempre, sem cartão: documentos sem limite e 3 áreas medidas no GPS.
 Começar grátis
 Perguntas sobre georreferenciamento rural
 Georreferenciamento rural é obrigatório?
@@ -6560,9 +6563,9 @@ Medir pelo GPS do celular não é georreferenciamento
 O que o FINAGRO faz e o que ele não faz aqui
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -6638,7 +6641,7 @@ A tela Documentos guarda o ITR, o CCIR e o CAR de cada fazenda, com número, emi
 O aviso chega antes de o documento vencer e aparece na agenda, junto das vacinas e das tarefas.
 O imposto pago entra como despesa, e a quota que ainda vai vencer fica em contas a pagar, no fluxo de caixa.
 Papéis da fazenda guardados e datas com aviso no celular.
-Grátis até 1.000 animais com ficha, sem cartão.
+Grátis para sempre, sem cartão: documentos, contas e tarefas da fazenda sem limite.
 Começar grátis
 Perguntas sobre o ITR
 Ainda dá para entregar a declaração do ITR 2026?
@@ -6669,9 +6672,9 @@ Quotas, valor mínimo e imposto pago com atraso
 Como fica no FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -6691,9 +6694,9 @@ Um hectare (1 ha) tem 10.000 metros quadrados, não 10.000 metros de comprimento
 Atualizado em 02/11/2026
 Calcule os hectares do terreno
 1,0000 hectaresComprimento do terreno (m)m Largura do terreno (m)m10.000,00metros quadrados100,00ares10.000,00centiaresComeçar grátisBaixar para iPhoneA conta comprimento × largura vale para terreno retangular. Em área torta ou curva, divida em partes ou meça o contorno pelo GPS.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Como calcular hectares pelo comprimento e largura
 1Meça o comprimento do terreno em metros.
 2Meça a largura em metros.
@@ -6704,7 +6707,7 @@ Outro exemplo: um talhão de 300 m por 200 m tem 60.000 m². A conta em hectare 
 Começar grátisVer a tabela
 Hectares organizados no FINAGRO
 Do contorno do talhão ao custo por hectare. Meça, salve e use a área na gestão da lavoura pelo FINAGRO.
-Meça a área por GPS no celular e salve até 100 áreas no plano grátis.
+Meça a área por GPS no celular e salve 3 áreas no plano grátis, ou sem limite no Fazenda.
 Guarde safras, talhões e a área plantada em hectares.
 Veja custo, produção e produtividade por hectare na lavoura.
 O lançamento feito sem sinal fica salvo e sincroniza quando a internet volta.
@@ -6818,11 +6821,11 @@ Este texto é informativo e não substitui advogado, contador nem técnico. O va
 A área da fazenda, os talhões e o custo por hectare ficam mais fáceis de acompanhar num sistema de gestão rural, que guarda a medição e os gastos de cada pedaço da propriedade.
 A área da fazenda no FINAGRO
 O FINAGRO não classifica o imóvel nem altera cadastro no Incra. A classificação oficial vem no CCIR; o app organiza a área e os papéis em volta dela.
-Cada fazenda tem a área declarada na ficha, e as áreas medidas por GPS no celular ficam ligadas a ela (100 áreas no plano grátis).
+Cada fazenda tem a área declarada na ficha, e as áreas medidas por GPS no celular ficam ligadas a ela (3 no plano grátis, sem limite no Fazenda).
 A tela Documentos guarda a matrícula de cada fazenda, que fica sem validade, e o CCIR, o CAR e o ITR com número e data de validade. Os que vencem avisam antes: CAR com 90 dias, CCIR com 60 e ITR com 45.
 Safras e talhões ficam com a área em hectares, e o custo por hectare sai da própria lavoura.
 Área, talhões e papéis da fazenda no mesmo lugar.
-Grátis até 1.000 animais com ficha, sem cartão.
+Documentos sem limite e 3 áreas no GPS grátis. Talhões no Produtor, de R$ 29,90 por mês.
 Começar grátis
 Perguntas sobre módulo fiscal
 Quantos hectares tem um módulo fiscal?
@@ -6854,9 +6857,9 @@ Para que serve o módulo fiscal no dia a dia do produtor
 A área da fazenda no FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -6926,11 +6929,11 @@ A obrigação acompanha a terra e passa a quem compra ou herda. Em reserva desma
 Este texto é informativo e não substitui advogado, engenheiro florestal nem técnico ambiental. Cada estado tem regras e sistema próprios de CAR: confirme o percentual e a situação do seu imóvel no órgão ambiental do estado.
 Como fica no FINAGRO
 O FINAGRO não faz o CAR, não desenha a reserva legal e não envia nada ao órgão ambiental. Ele organiza a área e os papéis em volta disso.
-A medição por GPS no celular dá a área e o perímetro de pastos, talhões e da mata, com até 100 áreas salvas no plano grátis. É medida para a lida, não a planta do CAR.
+A medição por GPS no celular dá a área e o perímetro de pastos, talhões e da mata, com 3 áreas salvas no plano grátis e sem limite no Fazenda. É medida para a lida, não a planta do CAR.
 A ficha da fazenda guarda a situação do CAR, e a tela Documentos guarda o recibo com número e validade, com aviso antes de vencer.
 Safras e talhões ficam com a área em hectares, o que ajuda a ver quanto do imóvel está em produção.
 Meça a mata e os pastos e guarde o recibo do CAR no celular.
-Grátis até 1.000 animais com ficha, sem cartão.
+Grátis para sempre, sem cartão: 3 áreas medidas no GPS e documentos sem limite.
 Começar grátis
 Perguntas sobre reserva legal
 Qual é a porcentagem de reserva legal?
@@ -6960,9 +6963,9 @@ Posso usar a reserva legal? E se faltar área
 Como fica no FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -7024,7 +7027,7 @@ Só depois converta para tarefa ou linha usando a equivalência do município.
 Para não depender de trena, um aplicativo para medir área rural pelo GPS dá a área em m² e hectares, e a conversão para tarefa ou linha sai com a tabela desta página.
 O celular ajuda no planejamento da lida, mas a conversão regional continua dependendo do padrão local. Se o vizinho chama 3.025 m² de uma tarefa e o documento usa outro tamanho, é o documento que precisa ser esclarecido.
 A medição da terra no FINAGRO
-Meça o contorno por GPS no celular e salve até 100 áreas no plano grátis.
+Meça o contorno por GPS no celular e salve 3 áreas no plano grátis, ou sem limite no Fazenda.
 Guarde a área em m², hectares ou km² e consulte depois.
 Cadastre talhões, safras e o custo por hectare da lavoura.
 A medição e o salvamento funcionam sem sinal no celular; os dados sobem quando a internet volta.
@@ -7059,9 +7062,9 @@ Como medir uma tarefa de terra pelo celular
 A medição da terra no FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -7123,7 +7126,7 @@ Registre as pesagens na ficha do animal e acompanhe o ganho entre uma pesagem e 
 Lance a compra de ração e outros gastos como despesas, com fazenda e centro de custo.
 Controle o estoque de insumos e distribua tarefas para a equipe da fazenda.
 Leve lotes, pesagens e custos da criação para o FINAGRO.
-Plano Campo grátis, sem cartão, com até 1.000 animais com ficha.
+Grátis para sempre, sem cartão: lote sem limite de cabeças, pesagens e custos.
 Começar grátis
 Perguntas sobre conversão alimentar
 Qual é a fórmula da conversão alimentar?
@@ -7153,9 +7156,9 @@ Como usar o resultado na próxima rodada
 Lotes, pesagens e custos no FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -7257,9 +7260,9 @@ O que anotar por colmeia e por apiário
 Aplicativo para apicultura: o apiário no FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -7359,9 +7362,9 @@ Criação de galinha caipira dá lucro? Faça a conta
 O galinheiro no FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -7458,9 +7461,9 @@ Sanidade e a guia de trânsito (GTA)
 A criação de porcos no FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 
 
@@ -7559,8 +7562,8 @@ Conversão alimentar da tilápia e a despesca
 O tanque de tilápia no FINAGRO
 Perguntas frequentes
 FINAGRORebanho, lavoura, dinheiro e equipe da fazenda no celular e no computador.
-Grátis até 1.000 animais com ficha
+Grátis para sempre, sem cartão
 Lote sem limite de cabeças
-Sem cartão
+14 dias com tudo liberado
 Começar grátisBaixar para iPhone
 

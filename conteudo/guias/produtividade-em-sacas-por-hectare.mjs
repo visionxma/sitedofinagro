@@ -75,7 +75,7 @@ export default {
     'Anote a colheita com a quantidade e o comprador.',
     'Veja o custo por hectare junto dos registros da lavoura.',
   ] },
-  cta: { forte: 'Talhão, colheita e custo por hectare no mesmo lugar.', texto: 'Use no iPhone, no Android ou no navegador. O plano Campo é grátis e não pede cartão.' },
+  cta: { forte: 'Talhão, colheita e custo por hectare no mesmo lugar.', texto: 'Lavoura no Produtor, R$ 29,90 por mês, ou avulsa, R$ 9,90. Teste 14 dias sem cartão.' },
   faqTitulo: 'Perguntas sobre sacas por hectare',
   faq: [
     ['Como calcular sacas por hectare?', 'Divida os quilos colhidos pelo peso da saca e depois pela área colhida. Exemplo: 180.000 kg divididos por 60 kg e por 50 ha resultam em 60 sacas por hectare.'],

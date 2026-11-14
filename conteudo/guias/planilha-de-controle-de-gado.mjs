@@ -102,9 +102,9 @@ export default {
     '**Importa a sua planilha** de animais em CSV, com conferência linha a linha antes de gravar.',
     '**Lança no curral, sem sinal.** A pesagem e a vacina ficam salvas no celular e sobem quando a internet volta.',
     '**Avisa o que a planilha não avisa:** animal sem pesagem há mais de 60 dias e bezerra na idade da vacina de brucelose sem a vacina anotada.',
-    '**Cada pessoa no seu acesso:** até 5 pessoas no plano grátis, sem arquivo em duplicata.',
+    '**Cada pessoa no seu acesso:** você e mais 1 pessoa no plano grátis, e mais gente nos pagos, sem arquivo em duplicata.',
   ] },
-  cta: { forte: 'Comece pela planilha. Quando pesar, o FINAGRO importa o arquivo.', texto: 'Grátis até 1.000 animais com ficha, com lote sem limite de cabeças e sem cartão.' },
+  cta: { forte: 'Comece pela planilha. Quando pesar, o FINAGRO importa o arquivo.', texto: 'Grátis para sempre, sem cartão: 50 animais com ficha e lote sem limite de cabeças.' },
   faqTitulo: 'Perguntas sobre planilha de controle de gado',
   faq: [
     ['Tem planilha de controle de gado grátis em Excel?', 'Tem. A planilha desta página é grátis, sem cadastro, e vem em Excel e em CSV. São oito colunas e seis animais de exemplo para você apagar e preencher com o seu rebanho.'],

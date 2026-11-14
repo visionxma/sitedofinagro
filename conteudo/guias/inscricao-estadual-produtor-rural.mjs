@@ -113,7 +113,7 @@ export default {
     'Contrato de arrendamento ou parceria guardado em Documentos tem aviso antes do fim do prazo.',
     'Relatórios em PDF e em planilha (CSV) reúnem vendas e despesas do período para o contador conferir com as notas.',
   ] },
-  cta: { forte: 'Número da inscrição guardado e cada venda anotada no celular.', texto: 'Grátis até 1.000 animais com ficha, sem cartão.' },
+  cta: { forte: 'Número da inscrição guardado e cada venda anotada no celular.', texto: 'Grátis para sempre, sem cartão: documentos e vendas sem limite.' },
   faqTitulo: 'Perguntas sobre inscrição estadual de produtor rural',
   faq: [
     ['Como tirar a inscrição estadual de produtor rural?', 'Na Secretaria da Fazenda do estado onde fica a terra. Em Minas Gerais o pedido é pela internet, no sistema SIARE. Em São Paulo é pelo Portal da Redesim. No Paraná o produtor entra no CAD/PRO. Em Goiás o pedido é numa unidade de atendimento da Secretaria da Economia.'],
