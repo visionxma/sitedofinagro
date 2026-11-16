@@ -39,8 +39,8 @@ export const ENTIDADE = {
   // Contato por WhatsApp da VisionX (15/10/2026): o número antigo (99984680391) caiu. Um número só, aqui; o rodapé de
   // todas as páginas e a chamada final da inicial leem daqui.
   whatsapp: {
-    numero: '5599984304630',
-    exibicao: '(99) 98430-4630',
+    numero: '5599988557632',
+    exibicao: '(99) 98855-7632',
     mensagem: 'Olá! Vim pelo site do FINAGRO e quero conversar sobre o aplicativo.',
   },
   logo: `${SITE}/icone-512.png`,

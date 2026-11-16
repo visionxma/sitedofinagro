@@ -517,7 +517,7 @@ p { text-wrap: pretty; }
 .rodape__marca p { font-size: 1rem; line-height: 1.5; color: rgb(255 255 255 / .74); }
 .rodape h2 { margin-bottom: .6rem; font-size: 1.0625rem; font-weight: 700; letter-spacing: -.005em; color: #fff; }
 .rodape ul { display: grid; gap: .1rem; }
-/* No celular a coluna do contato ocupa a largura toda: "WhatsApp (99) 98430-4630" cabe numa linha só */
+/* No celular a coluna do contato ocupa a largura toda: "WhatsApp (99) 98855-7632" cabe numa linha só */
 @media (max-width: 47.99rem) { .rodape__contato { grid-column: 1 / -1; } }
 .rodape li a { display: inline-flex; align-items: center; gap: .45rem; min-height: 44px; padding: .4rem 0; font-size: .9875rem; color: rgb(255 255 255 / .78); transition: color .2s ease; }
 .rodape li a svg { width: 1.1rem; height: 1.1rem; }
