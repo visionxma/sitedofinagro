@@ -63,6 +63,7 @@
   <symbol id="i-escudo" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-3.6 8-10V5l-8-3-8 3v7c0 6.4 8 10 8 10Z"/><path d="m8.8 12 2.2 2.2 4.3-4.4"/></g></symbol>
   <symbol id="i-relogio" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.2 2"/></g></symbol>
   <symbol id="i-aviso" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 11.2v5M12 7.6h.01"/></g></symbol>
+  <symbol id="i-status-ios" viewBox="0 0 72 14"><g fill="currentColor"><rect x="0" y="8.6" width="3.2" height="4.4" rx="1"/><rect x="4.9" y="6.4" width="3.2" height="6.6" rx="1"/><rect x="9.8" y="4" width="3.2" height="9" rx="1"/><rect x="14.7" y="1.4" width="3.2" height="11.6" rx="1"/><path d="M30.5 13 27.9 10.2a3.7 3.7 0 0 1 5.2 0Z"/><path d="M25.9 8.2a6.6 6.6 0 0 1 9.2 0l-1.3 1.4a4.7 4.7 0 0 0-6.6 0Z"/><path d="M23.9 6.1a9.5 9.5 0 0 1 13.2 0l-1.3 1.4a7.6 7.6 0 0 0-10.6 0Z"/><rect x="46.2" y="3.3" width="17.4" height="7.4" rx="1.7"/><rect x="65.9" y="5.2" width="1.7" height="3.6" rx=".85" opacity=".45"/></g><rect x="44.4" y="1.5" width="21" height="11" rx="3.3" fill="none" stroke="currentColor" stroke-width="1.1" opacity=".45"/></symbol>
   <symbol id="i-novo" viewBox="0 0 24 24"><path d="M5 12.5 9.3 17 19 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
 </svg>
 <!--gerado:topo-->
@@ -139,23 +140,38 @@
 
     <div class="apk-heroi__telas">
       <div class="apk-leque" role="group" aria-label="Telas reais do app">
-        <figure class="apk-leque__tela apk-leque__tela--esq">
-          <picture>
-            <source type="image/avif" srcset="/assets/telas/animais-824.avif?v=519f919a 824w, /assets/telas/animais-1236.avif?v=bccdc1d8 1236w" sizes="(min-width: 64rem) 18rem, 34vw">
-            <img src="/assets/telas/animais-824.webp?v=e24253ab" width="824" height="1670" decoding="async" alt="Tela Animais do Finagro: fichas do rebanho com brinco, raça e peso">
-          </picture>
+        <figure class="apk-leque__tela apk-leque__tela--esq apk-iphone">
+          <img class="apk-iphone__moldura" src="/assets/telas/iphone-16-pro-max-preto.webp?v=f4a20765" width="481" height="991" alt="" decoding="async">
+          <div class="apk-iphone__tela">
+            <span class="apk-iphone__status" aria-hidden="true"><span>9:41</span><svg><use href="#i-status-ios"/></svg></span>
+            <picture>
+              <source type="image/avif" srcset="/assets/telas/animais-824.avif?v=519f919a 824w, /assets/telas/animais-1236.avif?v=bccdc1d8 1236w" sizes="(min-width: 64rem) 18rem, 34vw">
+              <img src="/assets/telas/animais-824.webp?v=e24253ab" width="824" height="1670" decoding="async" alt="Tela Animais do Finagro: fichas do rebanho com brinco, raça e peso">
+            </picture>
+          </div>
+          <span class="apk-iphone__ilha" aria-hidden="true"></span>
         </figure>
-        <figure class="apk-leque__tela apk-leque__tela--meio">
-          <picture>
-            <source type="image/avif" srcset="/assets/telas/inicio-824.avif?v=52251961 824w, /assets/telas/inicio-1236.avif?v=2b2d9974 1236w" sizes="(min-width: 64rem) 21rem, 42vw">
-            <img src="/assets/telas/inicio-824.webp?v=374aace1" width="824" height="1670" decoding="async" fetchpriority="high" alt="Tela inicial do Finagro: atalhos de Propriedades, Animais, Lotes, Despesas, Receitas e Contas">
-          </picture>
+        <figure class="apk-leque__tela apk-leque__tela--meio apk-iphone">
+          <img class="apk-iphone__moldura" src="/assets/telas/iphone-16-pro-max-preto.webp?v=f4a20765" width="481" height="991" alt="" decoding="async">
+          <div class="apk-iphone__tela">
+            <span class="apk-iphone__status" aria-hidden="true"><span>9:41</span><svg><use href="#i-status-ios"/></svg></span>
+            <picture>
+              <source type="image/avif" srcset="/assets/telas/inicio-824.avif?v=52251961 824w, /assets/telas/inicio-1236.avif?v=2b2d9974 1236w" sizes="(min-width: 64rem) 21rem, 42vw">
+              <img src="/assets/telas/inicio-824.webp?v=374aace1" width="824" height="1670" decoding="async" fetchpriority="high" alt="Tela inicial do Finagro: atalhos de Propriedades, Animais, Lotes, Despesas, Receitas e Contas">
+            </picture>
+          </div>
+          <span class="apk-iphone__ilha" aria-hidden="true"></span>
         </figure>
-        <figure class="apk-leque__tela apk-leque__tela--dir">
-          <picture>
-            <source type="image/avif" srcset="/assets/telas/fluxo-824.avif?v=4380d70c 824w, /assets/telas/fluxo-1236.avif?v=547471b3 1236w" sizes="(min-width: 64rem) 18rem, 34vw">
-            <img src="/assets/telas/fluxo-824.webp?v=b54353c1" width="824" height="1670" decoding="async" alt="Tela Fluxo de Caixa do Finagro: saldo previsto, entradas e saídas">
-          </picture>
+        <figure class="apk-leque__tela apk-leque__tela--dir apk-iphone">
+          <img class="apk-iphone__moldura" src="/assets/telas/iphone-16-pro-max-preto.webp?v=f4a20765" width="481" height="991" alt="" decoding="async">
+          <div class="apk-iphone__tela">
+            <span class="apk-iphone__status" aria-hidden="true"><span>9:41</span><svg><use href="#i-status-ios"/></svg></span>
+            <picture>
+              <source type="image/avif" srcset="/assets/telas/fluxo-824.avif?v=4380d70c 824w, /assets/telas/fluxo-1236.avif?v=547471b3 1236w" sizes="(min-width: 64rem) 18rem, 34vw">
+              <img src="/assets/telas/fluxo-824.webp?v=b54353c1" width="824" height="1670" decoding="async" alt="Tela Fluxo de Caixa do Finagro: saldo previsto, entradas e saídas">
+            </picture>
+          </div>
+          <span class="apk-iphone__ilha" aria-hidden="true"></span>
         </figure>
       </div>
     </div>
@@ -171,27 +187,27 @@
     </header>
     <div class="apk-galeria">
       <figure class="revelar">
-        <picture><source type="image/avif" srcset="/assets/telas/tarefas-824.avif?v=14bf9728 824w, /assets/telas/tarefas-1236.avif?v=5aadf8c3 1236w" sizes="(min-width: 48rem) 15vw, 31vw"><img src="/assets/telas/tarefas-824.webp?v=48c3b269" width="824" height="1670" loading="lazy" decoding="async" alt="Tela Tarefas do Finagro: tarefas sugeridas pela fazenda e pendências do dia"></picture>
+        <div class="apk-iphone"><img class="apk-iphone__moldura" src="/assets/telas/iphone-16-pro-max-preto.webp?v=f4a20765" width="481" height="991" alt="" decoding="async"><div class="apk-iphone__tela"><span class="apk-iphone__status" aria-hidden="true"><span>9:41</span><svg><use href="#i-status-ios"/></svg></span><picture><source type="image/avif" srcset="/assets/telas/tarefas-824.avif?v=14bf9728 824w, /assets/telas/tarefas-1236.avif?v=5aadf8c3 1236w" sizes="(min-width: 48rem) 15vw, 31vw"><img src="/assets/telas/tarefas-824.webp?v=48c3b269" width="824" height="1670" loading="lazy" decoding="async" alt="Tela Tarefas do Finagro: tarefas sugeridas pela fazenda e pendências do dia"></picture></div><span class="apk-iphone__ilha" aria-hidden="true"></span></div>
         <figcaption>Tarefas</figcaption>
       </figure>
       <figure class="revelar">
-        <picture><source type="image/avif" srcset="/assets/telas/lotes-824.avif?v=dbec350d 824w, /assets/telas/lotes-1236.avif?v=51369909 1236w" sizes="(min-width: 48rem) 15vw, 31vw"><img src="/assets/telas/lotes-824.webp?v=a5884801" width="824" height="1670" loading="lazy" decoding="async" alt="Tela Lotes do Finagro: lotes com cabeças e peso bruto"></picture>
+        <div class="apk-iphone"><img class="apk-iphone__moldura" src="/assets/telas/iphone-16-pro-max-preto.webp?v=f4a20765" width="481" height="991" alt="" decoding="async"><div class="apk-iphone__tela"><span class="apk-iphone__status" aria-hidden="true"><span>9:41</span><svg><use href="#i-status-ios"/></svg></span><picture><source type="image/avif" srcset="/assets/telas/lotes-824.avif?v=dbec350d 824w, /assets/telas/lotes-1236.avif?v=51369909 1236w" sizes="(min-width: 48rem) 15vw, 31vw"><img src="/assets/telas/lotes-824.webp?v=a5884801" width="824" height="1670" loading="lazy" decoding="async" alt="Tela Lotes do Finagro: lotes com cabeças e peso bruto"></picture></div><span class="apk-iphone__ilha" aria-hidden="true"></span></div>
         <figcaption>Lotes</figcaption>
       </figure>
       <figure class="revelar">
-        <picture><source type="image/avif" srcset="/assets/telas/cotacoes-824.avif?v=e7d7bf3b 824w, /assets/telas/cotacoes-1236.avif?v=7bb61613 1236w" sizes="(min-width: 48rem) 15vw, 31vw"><img src="/assets/telas/cotacoes-824.webp?v=864fb838" width="824" height="1670" loading="lazy" decoding="async" alt="Tela Cotações do Finagro: preço do boi gordo publicado pela CONAB"></picture>
+        <div class="apk-iphone"><img class="apk-iphone__moldura" src="/assets/telas/iphone-16-pro-max-preto.webp?v=f4a20765" width="481" height="991" alt="" decoding="async"><div class="apk-iphone__tela"><span class="apk-iphone__status" aria-hidden="true"><span>9:41</span><svg><use href="#i-status-ios"/></svg></span><picture><source type="image/avif" srcset="/assets/telas/cotacoes-824.avif?v=e7d7bf3b 824w, /assets/telas/cotacoes-1236.avif?v=7bb61613 1236w" sizes="(min-width: 48rem) 15vw, 31vw"><img src="/assets/telas/cotacoes-824.webp?v=864fb838" width="824" height="1670" loading="lazy" decoding="async" alt="Tela Cotações do Finagro: preço do boi gordo publicado pela CONAB"></picture></div><span class="apk-iphone__ilha" aria-hidden="true"></span></div>
         <figcaption>Cotações</figcaption>
       </figure>
       <figure class="revelar">
-        <picture><source type="image/avif" srcset="/assets/telas/contas-824.avif?v=2600600c 824w, /assets/telas/contas-1236.avif?v=e0912dd8 1236w" sizes="(min-width: 48rem) 15vw, 31vw"><img src="/assets/telas/contas-824.webp?v=65cf359c" width="824" height="1670" loading="lazy" decoding="async" alt="Tela Contas do Finagro: contas a pagar e a receber"></picture>
+        <div class="apk-iphone"><img class="apk-iphone__moldura" src="/assets/telas/iphone-16-pro-max-preto.webp?v=f4a20765" width="481" height="991" alt="" decoding="async"><div class="apk-iphone__tela"><span class="apk-iphone__status" aria-hidden="true"><span>9:41</span><svg><use href="#i-status-ios"/></svg></span><picture><source type="image/avif" srcset="/assets/telas/contas-824.avif?v=2600600c 824w, /assets/telas/contas-1236.avif?v=e0912dd8 1236w" sizes="(min-width: 48rem) 15vw, 31vw"><img src="/assets/telas/contas-824.webp?v=65cf359c" width="824" height="1670" loading="lazy" decoding="async" alt="Tela Contas do Finagro: contas a pagar e a receber"></picture></div><span class="apk-iphone__ilha" aria-hidden="true"></span></div>
         <figcaption>Contas</figcaption>
       </figure>
       <figure class="revelar">
-        <picture><source type="image/avif" srcset="/assets/telas/relatorios-824.avif?v=730c86c2 824w, /assets/telas/relatorios-1236.avif?v=50753c15 1236w" sizes="(min-width: 48rem) 15vw, 31vw"><img src="/assets/telas/relatorios-824.webp?v=1418d7aa" width="824" height="1670" loading="lazy" decoding="async" alt="Tela Relatórios do Finagro: financeiro em PDF e CSV"></picture>
+        <div class="apk-iphone"><img class="apk-iphone__moldura" src="/assets/telas/iphone-16-pro-max-preto.webp?v=f4a20765" width="481" height="991" alt="" decoding="async"><div class="apk-iphone__tela"><span class="apk-iphone__status" aria-hidden="true"><span>9:41</span><svg><use href="#i-status-ios"/></svg></span><picture><source type="image/avif" srcset="/assets/telas/relatorios-824.avif?v=730c86c2 824w, /assets/telas/relatorios-1236.avif?v=50753c15 1236w" sizes="(min-width: 48rem) 15vw, 31vw"><img src="/assets/telas/relatorios-824.webp?v=1418d7aa" width="824" height="1670" loading="lazy" decoding="async" alt="Tela Relatórios do Finagro: financeiro em PDF e CSV"></picture></div><span class="apk-iphone__ilha" aria-hidden="true"></span></div>
         <figcaption>Relatórios</figcaption>
       </figure>
       <figure class="revelar">
-        <picture><source type="image/avif" srcset="/assets/telas/producao-824.avif?v=932252c9 824w, /assets/telas/producao-1236.avif?v=52654a21 1236w" sizes="(min-width: 48rem) 15vw, 31vw"><img src="/assets/telas/producao-824.webp?v=bdd2c299" width="824" height="1670" loading="lazy" decoding="async" alt="Tela Minha produção do Finagro: o que você cria e para quê"></picture>
+        <div class="apk-iphone"><img class="apk-iphone__moldura" src="/assets/telas/iphone-16-pro-max-preto.webp?v=f4a20765" width="481" height="991" alt="" decoding="async"><div class="apk-iphone__tela"><span class="apk-iphone__status" aria-hidden="true"><span>9:41</span><svg><use href="#i-status-ios"/></svg></span><picture><source type="image/avif" srcset="/assets/telas/producao-824.avif?v=932252c9 824w, /assets/telas/producao-1236.avif?v=52654a21 1236w" sizes="(min-width: 48rem) 15vw, 31vw"><img src="/assets/telas/producao-824.webp?v=bdd2c299" width="824" height="1670" loading="lazy" decoding="async" alt="Tela Minha produção do Finagro: o que você cria e para quê"></picture></div><span class="apk-iphone__ilha" aria-hidden="true"></span></div>
         <figcaption>Produção</figcaption>
       </figure>
     </div>

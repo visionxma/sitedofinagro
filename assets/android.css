@@ -44,11 +44,12 @@
 @media (max-width: 22.4rem) { .apk-acoes .botao { flex-basis: 7rem; gap: .35rem; padding-left: .625rem; padding-right: .625rem; font-size: 1rem; } }
 .apk-loja__nota { margin-top: .7rem; font-size: .9375rem; line-height: 1.4; color: rgb(255 255 255 / .86); }
 
-/* o leque de telas: 3 prints reais, o do meio na frente. A largura sai da coluna e da altura que sobra na tela */
+/* o leque de telas: 3 prints reais dentro do iPhone 16 Pro Max preto, o do meio na frente. A largura sai da coluna e da
+   altura que sobra na tela (o divisor 2,06 é a proporção da moldura, 991 / 481) */
 .apk-heroi__telas { container-type: inline-size; min-width: 0; display: grid; justify-items: center; }
-.apk-leque { --tela-w: clamp(5.25rem, min(100cqw / 2.3, (100svh / var(--zoom, 1) - 28.5rem) / 2.03), 12.5rem); display: grid; justify-items: center; }
+.apk-leque { --tela-w: clamp(5.25rem, min(100cqw / 2.3, (100svh / var(--zoom, 1) - 28.5rem) / 2.06), 12.5rem); display: grid; justify-items: center; }
 .apk-leque__tela { grid-area: 1 / 1; width: var(--tela-w); }
-.apk-leque__tela img { width: 100%; height: auto; border-radius: calc(var(--tela-w) * .085); background: #f6f7f6; box-shadow: 0 0 0 1px rgb(255 255 255 / .16), 0 26px 46px -22px rgb(0 0 0 / .72); }
+.apk-leque .apk-iphone__moldura { filter: drop-shadow(0 22px 24px rgb(0 0 0 / .55)); }
 .apk-leque__tela--esq { transform: translate(-66%, 6%) scale(.9); }
 .apk-leque__tela--dir { transform: translate(66%, 6%) scale(.9); }
 .apk-leque__tela--meio { z-index: 2; }
@@ -77,12 +78,12 @@
   .apk-acoes { margin-top: 1.25rem; }
   .apk-acoes .botao { flex: 0 0 auto; padding-left: 1.75rem; padding-right: 1.75rem; }
   .apk-loja__nota { margin-top: .9rem; font-size: 1rem; }
-  .apk-leque { --tela-w: clamp(8rem, min(100cqw / 2.3, (100svh / var(--zoom, 1) - 31rem) / 2.03), 24rem); }
+  .apk-leque { --tela-w: clamp(8rem, min(100cqw / 2.3, (100svh / var(--zoom, 1) - 31rem) / 2.06), 24rem); }
 }
 /* Computador (tela deitada): duas colunas. Tela em pé, mesmo larga, fica na composição do tablet (doutrina). */
 @media (min-width: 64rem) and (min-aspect-ratio: 6/5) {
   .apk-heroi__grade { grid-template-columns: minmax(0, 1fr) minmax(0, 1.08fr); column-gap: clamp(1.75rem, 3.4vw, 4rem); align-content: center; align-items: center; }
-  .apk-leque { --tela-w: clamp(8rem, min(100cqw / 2.3, (100svh / var(--zoom, 1) - 14rem) / 2.03), 22rem); }
+  .apk-leque { --tela-w: clamp(8rem, min(100cqw / 2.3, (100svh / var(--zoom, 1) - 14rem) / 2.06), 22rem); }
   .apk-heroi .heroi__veu { background:
     linear-gradient(90deg, rgb(5 9 7 / .84) 0%, rgb(5 9 7 / .72) 44%, rgb(5 9 7 / .34) 72%, rgb(5 9 7 / .3) 100%),
     linear-gradient(180deg, rgb(5 9 7 / .62) 0%, rgb(5 9 7 / .12) 26%, rgb(5 9 7 / .12) 74%, rgb(5 9 7 / .62) 100%); }
@@ -103,7 +104,7 @@
   .apk-acoes { margin-top: .6rem; }
   .apk-acoes .botao { --altura: 3rem; }
   .apk-loja__nota { margin-top: .4rem; }
-  .apk-leque { --tela-w: clamp(4.5rem, min(100cqw / 2.3, (100svh / var(--zoom, 1) - 25rem) / 2.03), 12.5rem); }
+  .apk-leque { --tela-w: clamp(4.5rem, min(100cqw / 2.3, (100svh / var(--zoom, 1) - 25rem) / 2.06), 12.5rem); }
 }
 
 /* Celular deitado: a altura é pouca, então o bloco e o leque ficam lado a lado para o hero caber na primeira tela */
@@ -116,19 +117,37 @@
   .apk-acoes { margin-top: .5rem; }
   .apk-acoes .botao { --altura: 2.75rem; flex: 1 1 8rem; padding-left: .75rem; padding-right: .75rem; font-size: 1rem; }
   .apk-loja__nota { margin-top: .3rem; font-size: .875rem; }
-  .apk-leque { --tela-w: clamp(4.5rem, min(100cqw / 2.3, (100svh - 5.25rem) / 2.03), 10rem); }
+  .apk-leque { --tela-w: clamp(4.5rem, min(100cqw / 2.3, (100svh - 5.25rem) / 2.06), 10rem); }
 }
+
+/* ---------- O APARELHO: moldura real do iPhone 16 Pro Max preto (extensão Mobile Simulator, 962 x 1982). A tela entra
+   pelos números do viewport da extensão (21, 18, 440 x 956 num quadro de 481 x 991), nunca de olho. A moldura tem a tela
+   preta e opaca, então a tela vai POR CIMA dela e a ilha da câmera por cima de tudo. O print (824 x 1670) entra pela
+   largura, 10 cqw abaixo do topo: em cima fica a barra de status do iOS e embaixo a faixa da barra de início, as duas no
+   verde do app (#058201), e a curva dos cantos não corta "Início" nem "Menu" da barra de baixo do app. ---------- */
+.apk-iphone { position: relative; aspect-ratio: 481 / 991; }
+.apk-iphone__moldura { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; user-select: none; }
+.apk-iphone__tela { position: absolute; z-index: 1; left: 4.3659%; top: 1.8163%; width: 91.4761%; height: 96.4682%; border-radius: 17.73% / 8.16%; overflow: clip; background: #058201; container-type: inline-size; }
+.apk-iphone__tela picture { position: absolute; inset: 10cqw 0 auto; }
+.apk-iphone__tela::after { content: ""; position: absolute; z-index: 1; left: 32cqw; right: 32cqw; bottom: 1.5cqw; height: 1.15cqw; border-radius: 99px; background: rgb(255 255 255 / .88); pointer-events: none; }
+.apk-iphone__tela img { display: block; width: 100%; height: auto; }
+.apk-iphone__status { position: absolute; z-index: 1; inset: 0 0 auto; height: 15.8cqw; display: flex; align-items: center; justify-content: space-between; color: #fff; pointer-events: none; }
+.apk-iphone__status > span, .apk-iphone__status svg { width: 34.4cqw; }
+.apk-iphone__status > span { font-family: var(--f-texto); font-size: 3.9cqw; font-weight: 600; line-height: 1; letter-spacing: .01em; text-align: center; }
+.apk-iphone__status svg { height: 3.1cqw; }
+.apk-iphone__ilha { position: absolute; z-index: 2; left: 35.863%; top: 3.33%; width: 28.441%; height: 3.976%; border-radius: 99px; background: #050505; pointer-events: none; }
+.apk-iphone__ilha::after { content: ""; position: absolute; right: 7%; top: 18%; height: 64%; aspect-ratio: 1; border-radius: 50%; background: radial-gradient(circle at 40% 35%, #2b3a66 0%, #0b1130 45%, #050505 75%); }
 
 /* ---------- TELAS DO APP: 3 lado a lado no celular, 6 no computador; sem trilho ---------- */
 .apk-telas { background: var(--papel); }
 .apk-galeria { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem .625rem; }
 .apk-galeria figure { min-width: 0; text-align: center; }
-.apk-galeria img { width: 100%; height: auto; border-radius: .875rem; background: #f6f7f6; box-shadow: 0 0 0 1px rgb(1 75 0 / .08), var(--sombra-2); }
+.apk-galeria .apk-iphone__moldura { filter: drop-shadow(0 12px 14px rgb(1 40 0 / .22)); }
 .apk-galeria figcaption { margin-top: .55rem; font-family: var(--f-titulo); font-size: .9375rem; font-weight: 600; line-height: 1.2; color: var(--tinta); }
 @media (min-width: 48rem) { .apk-galeria { grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 1.125rem; } .apk-galeria figcaption { font-size: 1rem; } }
 @media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
-  .apk-galeria img { transition: translate .35s var(--saida), box-shadow .35s var(--saida); }
-  .apk-galeria figure:hover img { translate: 0 -.375rem; box-shadow: 0 0 0 1px rgb(5 131 1 / .35), 0 28px 44px -24px rgb(0 0 0 / .45); }
+  .apk-galeria .apk-iphone { transition: translate .35s var(--saida); }
+  .apk-galeria figure:hover .apk-iphone { translate: 0 -.375rem; }
 }
 
 /* ---------- COMO INSTALAR: passos da página inicial + o aviso ---------- */
