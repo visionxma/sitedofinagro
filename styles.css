@@ -213,7 +213,18 @@ p { text-wrap: pretty; }
 .heroi__aparelho { grid-column: 2; grid-row: 2 / span 2; display: grid; justify-items: center; }
 .heroi__acoes { grid-column: 1 / -1; grid-row: 4; display: flex; flex-wrap: wrap; gap: .625rem; margin-top: 1.5rem; }
 .heroi__acoes .botao { flex: 1 1 9.5rem; }
+/* Criar conta é o controle mais chamativo da dobra (doutrina, 16/11/2026: o maior, cor de ação, texto branco); baixar o
+   app fica ao lado, em vidro. No celular o criar ocupa a sobra da linha e o baixar fica no tamanho do rótulo curto (o
+   ícone da loja diz qual: Apple, ou Android pelo script do topo) */
+.heroi__acoes .heroi__criar { flex: 1 1 auto; padding-left: 1.25rem; padding-right: 1.25rem; }
+.heroi__acoes .heroi__baixar { flex: 0 0 auto; padding-left: .95rem; padding-right: 1.1rem; }
 .heroi__nota { grid-column: 1 / -1; grid-row: 5; margin-top: .85rem; font-size: .9375rem; color: rgb(255 255 255 / .82); }
+/* "Já tem conta? Entrar" na 1ª tela (hero-capta, 26/11/2026; o mesmo da /android): alvo de 44 px, e a margem negativa
+   devolve a sobra para a linha da nota não crescer */
+.heroi__conta { white-space: nowrap; }
+.heroi__entrar { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; min-width: 44px; margin-block: -12px; padding-inline: .25rem; font-weight: 700; color: #fff; text-decoration: underline; text-underline-offset: .22em; text-decoration-thickness: 1.5px; transition: opacity .2s ease; }
+@media (hover: hover) and (pointer: fine) { .heroi__entrar:hover { opacity: .8; } }
+.heroi__entrar:active { opacity: .7; }
 .celular--heroi { width: 100%; }
 @media (prefers-reduced-motion: no-preference) {
   .celular--heroi { animation: flutuar 7s ease-in-out infinite; }
@@ -231,6 +242,8 @@ p { text-wrap: pretty; }
   .heroi__aparelho { grid-column: 2; grid-row: 1; }
   .celular--heroi { width: var(--heroi-celular); }
   .heroi__acoes .botao { flex: 0 0 auto; }
+  .heroi__acoes .heroi__criar { min-width: 17.5rem; padding-left: 2rem; padding-right: 2rem; }
+  .heroi__acoes .heroi__baixar { padding-left: 1.35rem; padding-right: 1.35rem; }
   .heroi__veu { background:
     radial-gradient(48% 62% at 24% 52%, rgb(5 9 7 / .56), transparent 100%),
     linear-gradient(90deg, rgb(5 9 7 / .78) 0%, rgb(5 9 7 / .6) 36%, rgb(5 9 7 / .2) 60%, rgb(5 9 7 / .06) 100%),

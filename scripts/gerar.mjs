@@ -145,14 +145,7 @@ ${pagos.map((p, k) => `  <div data-lista="${p.id}"${k ? ' hidden' : ''}><h4>O qu
 <p class="garantia"><svg aria-hidden="true"><use href="#i-escudo"/></svg>O plano ${esc(campo.nome)} é para sempre e sem cartão. E os dados são seus: exporte tudo quando quiser.</p>`;
 }
 
-function faq(lista, visiveis = 5) {
-  return `<div class="faq" id="faq">
-${lista.map(([p, r], k) => `  <details name="faq"${k >= visiveis ? ' class="extra"' : ''}><summary>${esc(p)}</summary><p>${esc(r)}</p></details>`).join('\n')}
-</div>
-${lista.length > visiveis ? `<button class="botao botao--linha ver-mais" type="button" data-ver-mais="faq">Ver mais perguntas (+${lista.length - visiveis})</button>` : ''}`;
-}
-
-// PERGUNTAS DA PÁGINA /android (26/11/2026), no molde do FAQ da home da KR TECH (doutrina de interface, seções 1 e 9):
+// PERGUNTAS DA /android E DA PÁGINA INICIAL (26/11/2026), no molde do FAQ da home da KR TECH (doutrina de interface, seções 1 e 9):
 // 20+ perguntas com resposta de 40 a 60 palavras e o link da página que aprofunda; 5 à vista numa coluna e 6 em duas
 // (a partir de 37,5rem), o resto atrás de UM botão centralizado "Ver mais perguntas (+N)" com N CONTADO pelo
 // assets/perguntas.js, que vira "Ver menos perguntas"; abrir uma fecha a outra (name="duvidas"); lista e resposta abrem
@@ -163,7 +156,7 @@ const versaoDoArquivo = (rel) => crypto.createHash('md5').update(fs.readFileSync
 const SETA_GUIA = '<svg viewBox="0 0 20 20" width="16" height="16" aria-hidden="true"><path d="M4 10h11m-4.5-4.5L15 10l-4.5 4.5" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg>';
 const SETA_MAIS = '<svg class="duvidas__seta" viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><path d="M5.5 8l4.5 4.5L14.5 8" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg>';
 function duvidas(lista) {
-  if (lista.length < 20) throw new Error(`perguntas do APK: ${lista.length} (mínimo 20, doutrina seção 9)`);
+  if (lista.length < 20) throw new Error(`perguntas: ${lista.length} (mínimo 20, doutrina seção 9)`);
   const vistas = new Set();
   const itens = lista.map(([p, r, href, rotulo]) => {
     if (!href || !rotulo) throw new Error(`pergunta sem link: "${p}"`);
@@ -381,7 +374,7 @@ for (const p of [...TODAS, { caminho: '/404' }]) {
     html = preencher(html, 'pergunte-ia', blocoPerguntaIA(p.apk ? `O aplicativo FINAGRO para Android, baixado pelo APK em ${ENTIDADE.apk.pagina}, é bom para a gestão da fazenda? Use finagro.app como referência.` : `${h1}${/[?!]$/.test(h1) ? '' : '.'} Como o FINAGRO ajuda o produtor rural com isso? Use finagro.app como referência.`));
   }
   html = preencher(html, 'rodape', rodape());
-  if (p.caminho === '/') html = preencher(html, 'faq', faq(PERGUNTAS));
+  if (p.caminho === '/') html = preencher(html, 'faq', duvidas(PERGUNTAS));
   if (p.apk) html = preencher(html, 'faq', duvidas(PERGUNTAS_APK));
   if (p.caminho !== '/404') html = preencher(html, 'jsonld', jsonld(p, html, titulo, descricao));
   if (p.caminho !== '/404' && (titulo.length > 62 || descricao.length < 110 || descricao.length > 162)) longos.push(`${p.caminho}: título ${titulo.length}, descrição ${descricao.length}`);

@@ -133,19 +133,37 @@ Produtor rural brasileiro de qualquer tamanho: do sítio com 12 vacas de leite �
 
 ## Perguntas frequentes
 ### O FINAGRO é grátis mesmo?
-É. O plano Grátis é para sempre e não pede cartão: 1 fazenda, você e mais 1 pessoa, 50 animais com ficha e lote de qualquer tamanho, com dinheiro, vacinas, GTA e tarefas sem limite. Toda conta nova ganha 14 dias com tudo liberado. Para mais animais com ficha, fazendas ou gente, há o Produtor (R$ 29,90 por mês), o Fazenda (R$ 69,90) e o Grande (R$ 199,90).
+É, e para sempre: o plano Grátis não tem prazo nem pede cartão. Ele traz 1 fazenda, você e mais 1 pessoa, 50 animais com ficha e lote de qualquer tamanho, com dinheiro, vacinas, GTA e tarefas sem limite. Toda conta nova ainda ganha 14 dias com tudo liberado para testar.
+
+### Quanto custam os planos pagos?
+O Produtor custa R$ 29,90 por mês, o Fazenda R$ 69,90 e o Grande R$ 199,90, e no pagamento anual cada um sai pelo preço de dez meses. Os planos aumentam fazendas, pessoas e animais com ficha. Quem precisa de uma função só paga o avulso dela, de R$ 7,90 a R$ 14,90 por mês, sem trocar de plano.
 
 ### Funciona sem internet no curral?
 Para lançar, funciona. Sem sinal, o gasto, a venda ou a vacina ficam salvos no celular e sobem sozinhos quando a internet voltar, e o app avisa isso na hora. Para entrar pela primeira vez num aparelho e para ver o que a equipe lançou em outro celular, é preciso sinal.
 
+### Tem para iPhone?
+Tem. O FINAGRO está na App Store para iPhone, de graça e com a mesma conta do Android e do computador. No tablet e no computador, ele abre pelo navegador em app.finagro.app. Quem tem um celular de cada sistema na fazenda lança dos dois, e tudo aparece nos dois aparelhos.
+
+### Tem para Android?
+Tem. No Android, baixe o APK em finagro.app/android: é grátis, serve no Android 7.0 ou mais novo de qualquer marca, e o endereço entrega sempre a última versão. Quem prefere não instalar usa pelo navegador em app.finagro.app, com a mesma conta e os mesmos dados do aplicativo.
+
 ### Serve para quem cria pouco? E para quem cria muito?
 Serve dos dois lados. Você conta o que produz e quantos, e o painel se ajusta: o leiteiro com 12 vacas vê o leite do dia e a reprodução; a granja com 1 milhão de aves vê os galpões e o trato. Galpão, tanque, colmeia e lote de gado contam como um lote só, sem limite de cabeças.
 
-### Tem para iPhone?
-Tem. O aplicativo está na App Store para iPhone. No Android, baixe o APK em finagro.app/android. No tablet e no computador, o FINAGRO funciona pelo navegador em app.finagro.app, com a mesma conta e os mesmos dados.
+### Como eu crio a conta?
+Em poucos passos: abra o app ou app.finagro.app, entre com a conta Google ou com e-mail e senha e conte o que você produz. O painel já abre no que você faz no dia a dia, e os 14 dias com tudo liberado começam na hora, sem cartão de crédito.
 
-### Tem para Android?
-Tem. Baixe o APK em finagro.app/android: é grátis e o endereço entrega sempre a última versão. Quem preferir não instalar usa pelo navegador em app.finagro.app, com a mesma conta e os mesmos dados.
+### O que acontece depois do teste?
+Depois dos 14 dias, a conta passa sozinha para o plano Grátis, sem cobrança e sem pedir cartão. Tudo o que você lançou continua lá: ver, editar e exportar funcionam em qualquer plano. Se o rebanho ou a equipe passar do limite do Grátis, o app avisa e mostra o plano que cabe no seu uso.
+
+### Consigo trazer a planilha que já uso?
+Consegue. No Excel, salve a planilha como CSV e envie o arquivo no app: o FINAGRO importa animais, despesas, receitas, fornecedores e itens de estoque, e ninguém precisa redigitar o que já está anotado. No plano Grande, a implantação é assistida e a nossa equipe importa a planilha para você.
+
+### Quantas pessoas podem usar a mesma fazenda?
+No plano Grátis, você e mais 1 pessoa, cada uma com o seu papel e as suas permissões. Para mais gente, o Produtor leva você e mais 3, o Fazenda mais 10 e o Grande mais 50. Também dá para pôr só uma pessoa a mais por R$ 7,90 por mês, sem trocar de plano.
+
+### Dá para cuidar de mais de uma fazenda?
+Dá. Cada fazenda tem o seu rebanho, o seu dinheiro e o seu estoque, e os relatórios mostram o resultado de cada uma. O Grátis tem 1 fazenda, o Produtor 2, o Fazenda 5 e o Grande 20, e uma fazenda a mais sai por R$ 9,90 por mês em qualquer plano.
 
 ### O FINAGRO emite a GTA?
 Não. A GTA (Guia de Trânsito Animal) é emitida no sistema da defesa agropecuária do seu estado. No FINAGRO você registra as GTAs emitidas, o app lembra 1 dia antes do vencimento e avisa quando falta anotar a vacina que trava a guia.
@@ -153,17 +171,32 @@ Não. A GTA (Guia de Trânsito Animal) é emitida no sistema da defesa agropecu�
 ### O app gera o LCDPR?
 Gera o arquivo do Livro Caixa Digital do Produtor Rural no leiaute da Receita Federal, com as receitas e despesas lançadas. O contador confere, completa os dados do contribuinte e das contas bancárias e valida no programa da Receita antes de entregar.
 
-### Consigo trazer a planilha que já uso?
-Consegue. No Excel, salve a planilha como CSV e envie o arquivo: o FINAGRO importa animais, despesas, receitas, fornecedores e itens de estoque, e ninguém precisa redigitar o que já está na planilha.
+### Consigo controlar as vacinas do rebanho?
+Consegue. Você lança a vacina de um animal ou do lote inteiro, e o app avisa a que está para vencer junto com o que fazer hoje na fazenda. Vacinas e tarefas não têm limite em nenhum plano, inclusive no Grátis, e o histórico de cada animal fica na ficha dele.
 
-### Quantas pessoas podem usar a mesma fazenda?
-No plano Grátis, você e mais 1 pessoa, cada uma com o seu papel e as suas permissões. Para mais gente: Produtor (você e mais 3), Fazenda (mais 10), Grande (mais 50) ou pessoa a mais por R$ 7,90 por mês.
+### O app mostra o preço do boi?
+Mostra. O FINAGRO traz a cotação da semana pela CONAB ao lado do seu custo, para você vender e comprar com o número na mão. Para a conta do lote, a calculadora de arroba do site recebe o peso vivo, o rendimento de carcaça e o preço e mostra quanto o lote vale.
+
+### Consigo acompanhar o peso do gado?
+Consegue. Cada pesagem fica na ficha do animal e no lote, e o app mostra a evolução do peso e o ganho de cada período. No plano Fazenda, dá para pesar pela câmera do celular, sem balança; essa função também sai avulsa por R$ 14,90 por mês em qualquer plano.
+
+### Dá para medir a área da fazenda pelo celular?
+Dá. O app mede pasto, terreno e talhão pelo GPS, marcando pontos ou caminhando, em metros quadrados e hectares, mesmo sem internet. O Grátis guarda 3 áreas, o Produtor 30, e o Fazenda e o Grande não têm limite. O arquivo KMZ do Google Earth entra a partir do plano Produtor.
+
+### Serve para lavoura?
+Serve. Você cadastra a safra e os talhões, lança as operações e anota o caderno de campo, com a lavoura junto do rebanho e do dinheiro da mesma fazenda. A lavoura entra no plano Produtor ou sai avulsa por R$ 9,90 por mês, e o resto do app funciona no Grátis.
+
+### Dá para controlar o estoque de ração e insumos?
+Dá. Cada item do estoque mostra quanto tem em cada fazenda, com as entradas e as saídas, e o app avisa quando um item zera. O estoque entra no plano Produtor e também sai avulso, junto com as máquinas, por R$ 9,90 por mês em qualquer plano.
 
 ### Os meus dados ficam com quem?
 Ficam com você, guardados na nuvem com a sua conta: trocou de celular, está tudo lá. As listas e os relatórios saem em PDF e planilha quando você quiser, e o tratamento dos dados está descrito na política de privacidade do FINAGRO.
 
 ### O que é o FINAGRO AI?
-É o assistente do app para dúvidas de gestão rural, pecuária e agricultura. São 5 perguntas por dia no plano Grátis, 30 no Produtor, 100 no Fazenda e 300 no Grande, e a conta zera à meia-noite.
+É o assistente do app para dúvidas de gestão rural, pecuária e agricultura, que responde em português na hora. São 5 perguntas por dia no plano Grátis, 30 no Produtor, 100 no Fazenda e 300 no Grande, e a contagem zera à meia-noite.
 
 ### O que fica fora do plano grátis?
 Reprodução e índices, estoque, lavoura e importar KMZ entram no Produtor; máquinas, pesar pela câmera e mapa sem sinal, no Fazenda. Cada uma também sai avulsa, de R$ 9,90 a R$ 14,90 por mês. E nada do que você já lançou fica preso: ver, editar e exportar funcionam em qualquer plano.
+
+### Como falo com o suporte?
+Pelo WhatsApp do FINAGRO, no (99) 98855-7632. No plano Produtor, o atendimento é em horário comercial; no Fazenda e no Grande, com prioridade. Dúvida rápida de gestão também se resolve pelo FINAGRO AI, dentro do app, a qualquer hora do dia ou da noite.
