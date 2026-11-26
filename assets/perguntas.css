@@ -1,0 +1,202 @@
+/* =============================================================
+   FINAGRO — Perguntas frequentes da página /android (26/11/2026)
+
+   Quem escreve o HTML é o scripts/gerar.mjs (função duvidas, bloco
+   <!--gerado:faq--> do android.html) a partir de PERGUNTAS_APK, em
+   conteudo/site.mjs: o texto da tela é o mesmo do JSON-LD FAQPage.
+   Comportamento portado do FAQ da home da KR TECH (doutrina de
+   interface, seção 9); o visual é o dos cartões do FAQ do site.
+
+   Composição (doutrina, seções 1 e 9):
+   - celular (até 37,49rem): 1 coluna, 5 perguntas à vista;
+   - tablet e computador: 2 colunas, 6 à vista (múltiplo das colunas);
+   - o resto atrás de UM botão centralizado "Ver mais perguntas (+N)",
+     com o N contado no assets/perguntas.js;
+   - sem script (sem a classe .duvidas--js), todas aparecem.
+
+   Movimento: a resposta abre e fecha e a lista cresce e recolhe em
+   300 ms na curva var(--saida). A altura transita pelo
+   grid-template-rows (nunca transition de height) e, no Chrome, pelo
+   ::details-content com interpolate-size; nos outros navegadores o
+   assets/perguntas.js faz a mesma curva. "Menos movimento" vira fade.
+   Só tokens do styles.css.
+   ============================================================= */
+
+.duvidas { --pf-dur: 300ms; --pf-curva: var(--saida); }
+
+/* O palco segura a altura durante o "ver mais" e o "ver menos": o script escreve grid-template-rows quadro a quadro e
+   o palco recorta o que ainda não cabe. Fora da troca, a altura é a da lista. */
+.duvidas__palco { display: grid; grid-template-rows: auto; }
+.duvidas--animando .duvidas__palco { overflow: clip; overflow-clip-margin: 8px; }
+
+.duvidas__lista {
+  align-self: start;            /* a lista guarda a própria altura: é ela que o script mede */
+  min-height: 0;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: .625rem;
+  align-items: start;
+}
+@media (min-width: 37.5rem) {
+  .duvidas__lista { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .875rem; }
+}
+
+/* Com script: só as primeiras à vista (5 numa coluna, 6 em duas). */
+.duvidas--js:not(.duvidas--aberta) .duvida:nth-child(n + 6) { display: none; }
+@media (min-width: 37.5rem) {
+  .duvidas--js:not(.duvidas--aberta) .duvida:nth-child(6) { display: block; }
+}
+
+/* ---------- uma pergunta ---------- */
+.duvida {
+  border-radius: 1rem;
+  background: var(--superficie);
+  border: 1px solid var(--linha);
+  transition: border-color .2s ease, box-shadow .2s ease;
+}
+.duvida[open] { border-color: rgb(5 131 1 / .3); box-shadow: var(--sombra-1); }
+
+.duvida__titulo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  min-height: 3.5rem;
+  padding: .9rem 1.1rem;
+  list-style: none;
+  cursor: pointer;
+  font-family: var(--f-titulo);
+  font-size: 1.0625rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--tinta);
+  border-radius: 1rem;
+  -webkit-tap-highlight-color: transparent;
+  transition: color .15s ease;
+}
+.duvida__titulo::-webkit-details-marker { display: none; }
+.duvida__titulo::marker { content: ""; }
+
+/* "+" que vira "−": a barra em pé deita e o círculo acende no verde da marca */
+.duvida__icone {
+  position: relative;
+  flex: none;
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 50%;
+  background: var(--verde-claro);
+  transition: background-color .2s ease, transform var(--pf-dur) var(--pf-curva);
+}
+.duvida__icone::before,
+.duvida__icone::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: .75rem;
+  height: 2px;
+  margin: -1px 0 0 -.375rem;
+  border-radius: 2px;
+  background: var(--verde-fundo);
+  transition: background-color .2s ease, transform var(--pf-dur) var(--pf-curva);
+}
+.duvida__icone::after { transform: rotate(90deg); }
+.duvida[open] .duvida__icone { background: var(--verde-botao); transform: rotate(180deg); }
+.duvida[open] .duvida__icone::before,
+.duvida[open] .duvida__icone::after { background: #fff; }
+.duvida[open] .duvida__icone::after { transform: rotate(180deg); }
+
+@media (hover: hover) and (pointer: fine) {
+  .duvida__titulo:hover { color: var(--verde-fundo); }
+  .duvida:not([open]) .duvida__titulo:hover .duvida__icone { transform: scale(1.08); }
+}
+.duvida__titulo:active .duvida__icone { transform: scale(.94); }
+.duvida[open] .duvida__titulo:active .duvida__icone { transform: rotate(180deg) scale(.94); }
+
+/* ---------- a resposta ---------- */
+.duvida__corpo { display: grid; grid-template-rows: 1fr; }
+/* o respiro de baixo é conteúdo (::after), não padding: com 0fr o padding não encolhe e daria um salto no fim */
+.duvida__miolo { min-height: 0; padding: 0 1.1rem; }
+.duvida__miolo::after { content: ""; display: block; height: .45rem; }
+.duvida--animando .duvida__miolo { overflow: hidden; }
+.duvida__miolo p { color: var(--tinta-2); line-height: 1.55; max-width: 62ch; }
+
+/* o link da página que aprofunda: linha própria, alvo de 44 px; a seta vai colada na última palavra */
+.duvida__guia {
+  display: inline-block;
+  min-height: 44px;
+  padding: .7rem 0;
+  font-family: var(--f-titulo);
+  font-weight: 650;
+  font-size: .9375rem;
+  line-height: 1.35;
+  color: var(--verde-botao);
+}
+.duvida__guia svg { display: inline-block; margin-left: .35rem; vertical-align: -3px; transition: transform .2s var(--pf-curva); }
+@media (hover: hover) and (pointer: fine) {
+  .duvida__guia:hover { color: var(--verde-fundo); text-decoration: underline; text-underline-offset: 3px; }
+  .duvida__guia:hover svg { transform: translateX(3px); }
+}
+
+/* Chrome: a resposta abre e fecha só com CSS (o fechamento da outra pergunta, que o name="duvidas" fecha, também
+   anima). Os outros navegadores caem no assets/perguntas.js, que faz a mesma curva. */
+@supports (interpolate-size: allow-keywords) and selector(::details-content) {
+  .duvidas { interpolate-size: allow-keywords; }
+  .duvida::details-content {
+    block-size: 0;
+    overflow: clip;
+    transition: block-size var(--pf-dur) var(--pf-curva), content-visibility var(--pf-dur) allow-discrete;
+  }
+  .duvida[open]::details-content { block-size: auto; }
+  @media (prefers-reduced-motion: reduce) {
+    .duvida::details-content {
+      block-size: auto;
+      opacity: 0;
+      transition: opacity 150ms ease, content-visibility 150ms allow-discrete;
+    }
+    .duvida[open]::details-content { opacity: 1; }
+  }
+}
+
+/* ---------- o botão único, centralizado ---------- */
+.duvidas__acoes {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.25rem;
+  pointer-events: none;         /* a faixa é transparente; só o botão recebe o toque */
+}
+.duvidas__botao {
+  pointer-events: auto;
+  background: var(--superficie);
+  box-shadow: var(--sombra-1);
+}
+.duvidas__botao[hidden] { display: none; }
+.duvidas__seta { flex: none; transition: transform var(--pf-dur) var(--pf-curva); }
+.duvidas--aberta .duvidas__seta { transform: rotate(180deg); }
+
+/* Lista aberta: o "Ver menos" acompanha a leitura, preso ao pé da tela, e volta ao lugar dele no fim da lista. */
+.duvidas--aberta .duvidas__acoes {
+  position: sticky;
+  bottom: calc(16px + env(safe-area-inset-bottom, 0px));
+  z-index: 5;
+}
+.duvidas--aberta .duvidas__botao { box-shadow: var(--sombra-2); }
+
+/* as perguntas que chegam com o "ver mais" entram com um fade curto */
+@keyframes pf-chega {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: none; }
+}
+.duvida--chega { animation: pf-chega 360ms var(--pf-curva) both; animation-delay: var(--pf-atraso, 0ms); }
+
+@media (prefers-reduced-motion: reduce) {
+  .duvida__icone,
+  .duvida__icone::before,
+  .duvida__icone::after,
+  .duvidas__seta { transition-duration: 1ms; }
+  @keyframes pf-chega {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  .duvida--chega { animation-duration: 160ms; animation-delay: 0ms; }
+}

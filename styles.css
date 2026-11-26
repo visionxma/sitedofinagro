@@ -574,11 +574,16 @@ p { text-wrap: pretty; }
    O Victor viu "Entrar" escrito por cima de "Dúvidas" e "Guias" por cima do "Baixar para iPhone": a grade dava às duas
    laterais a MESMA largura (1fr) e as ações (Entrar + iPhone + Baixar, 394px) não cabiam na lateral delas, de 992px a
    1920px, e muito menos na cápsula (66rem). Agora: logo e ações no tamanho delas, os links no meio que sobra, os links
-   de menos prioridade saem da barra quando não cabem (continuam no menu), e os botões de loja com ícone e cor cheia. */
-.topo__barra { grid-template-columns: auto minmax(0, 1fr) auto; }
+   de menos prioridade saem da barra quando não cabem (continuam no menu), e os botões de loja com ícone e cor cheia.
+   26/11/2026 (portão abas-no-centro): com "auto | 1fr | auto" os links ficavam no meio do vão entre o logo (114px) e as
+   ações (274px), 80px à esquerda do centro da tela. As laterais agora dividem a sobra por igual, mas NUNCA encolhem
+   abaixo do conteúdo delas (minmax(max-content, 1fr)): os links ficam no centro da tela e nada passa por cima de nada.
+   Medido de 992 a 1920px nos dois estados: desvio 0 e a menor folga de 29px (cápsula em 992px). */
+.topo__barra { grid-template-columns: minmax(max-content, 1fr) auto minmax(max-content, 1fr); }
 .topo__nav { justify-self: center; }
 @media (min-width: 62rem) { .topo__nav a[data-p="3"] { display: none; } }
-@media (min-width: 62rem) and (max-width: 68.74rem) { .topo__nav a[data-p="2"] { display: none; } }
+/* com os links no centro da tela, "Como funciona" sai da barra até 1140px (em 1100px, "Guias" encostava no "Entrar") */
+@media (min-width: 62rem) and (max-width: 71.24rem) { .topo__nav a[data-p="2"] { display: none; } }
 
 /* Entrar: botão de contorno (antes era só texto) */
 .topo__entrar { border: 1.5px solid rgb(255 255 255 / .62); padding: .5rem 1.05rem; }
