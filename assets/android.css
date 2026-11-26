@@ -43,6 +43,12 @@
 .apk-acoes .botao { flex: 1 1 9rem; padding-left: 1rem; padding-right: 1rem; }
 @media (max-width: 22.4rem) { .apk-acoes .botao { flex-basis: 7rem; gap: .35rem; padding-left: .625rem; padding-right: .625rem; font-size: 1rem; } }
 .apk-loja__nota { margin-top: .7rem; font-size: .9375rem; line-height: 1.4; color: rgb(255 255 255 / .86); }
+/* "Já tem conta? Entrar" na 1ª tela (hero-capta, 26/11/2026): o link tem alvo de 44 px e a margem negativa devolve a
+   sobra, então a linha da nota não cresce e o topo continua cabendo nos celulares baixos */
+.apk-loja__conta { white-space: nowrap; }
+.apk-loja__entrar { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; min-width: 44px; margin-block: -12px; padding-inline: .25rem; font-weight: 700; color: #fff; text-decoration: underline; text-underline-offset: .22em; text-decoration-thickness: 1.5px; transition: opacity .2s ease; }
+@media (hover: hover) and (pointer: fine) { .apk-loja__entrar:hover { opacity: .8; } }
+.apk-loja__entrar:active { opacity: .7; }
 
 /* o leque de telas: 3 prints reais dentro do iPhone 16 Pro Max preto, o do meio na frente. A largura sai da coluna e da
    altura que sobra na tela (o divisor 2,06 é a proporção da moldura, 991 / 481) */

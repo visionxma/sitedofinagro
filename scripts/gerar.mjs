@@ -152,6 +152,42 @@ ${lista.map(([p, r], k) => `  <details name="faq"${k >= visiveis ? ' class="extr
 ${lista.length > visiveis ? `<button class="botao botao--linha ver-mais" type="button" data-ver-mais="faq">Ver mais perguntas (+${lista.length - visiveis})</button>` : ''}`;
 }
 
+// PERGUNTAS DA PÁGINA /android (26/11/2026), no molde do FAQ da home da KR TECH (doutrina de interface, seções 1 e 9):
+// 20+ perguntas com resposta de 40 a 60 palavras e o link da página que aprofunda; 5 à vista numa coluna e 6 em duas
+// (a partir de 37,5rem), o resto atrás de UM botão centralizado "Ver mais perguntas (+N)" com N CONTADO pelo
+// assets/perguntas.js, que vira "Ver menos perguntas"; abrir uma fecha a outra (name="duvidas"); lista e resposta abrem
+// e fecham em 300 ms. Sem script, todas aparecem: a classe .duvidas--js entra pelo script de uma linha no começo do
+// bloco e sai no `load` se o assets/perguntas.js não rodou. O JSON-LD FAQPage sai do mesmo HTML (faqDaPagina).
+// Portão: node ~/.jarvis/design-engine/ferramentas/portao-faq.mjs <url> --minimo 20 (sai 1).
+const versaoDoArquivo = (rel) => crypto.createHash('md5').update(fs.readFileSync(path.join(RAIZ, rel))).digest('hex').slice(0, 8);
+const SETA_GUIA = '<svg viewBox="0 0 20 20" width="16" height="16" aria-hidden="true"><path d="M4 10h11m-4.5-4.5L15 10l-4.5 4.5" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+const SETA_MAIS = '<svg class="duvidas__seta" viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><path d="M5.5 8l4.5 4.5L14.5 8" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+function duvidas(lista) {
+  if (lista.length < 20) throw new Error(`perguntas do APK: ${lista.length} (mínimo 20, doutrina seção 9)`);
+  const vistas = new Set();
+  const itens = lista.map(([p, r, href, rotulo]) => {
+    if (!href || !rotulo) throw new Error(`pergunta sem link: "${p}"`);
+    if (vistas.has(p)) throw new Error(`pergunta repetida: "${p}"`);
+    vistas.add(p);
+    const fora = /^https?:/.test(href) && !href.startsWith(ENTIDADE.app);
+    return `    <details class="duvida" name="duvidas"><summary class="duvida__titulo"><span class="duvida__texto">${esc(p)}</span><span class="duvida__icone" aria-hidden="true"></span></summary>` +
+      `<div class="duvida__corpo"><div class="duvida__miolo"><p>${esc(r)}</p><a class="duvida__guia" href="${esc(href)}"${fora ? ' target="_blank" rel="noopener"' : ''}>${esc(rotulo)}${SETA_GUIA}</a></div></div></details>`;
+  }).join('\n');
+  return `<link rel="stylesheet" href="/assets/perguntas.css?v=${versaoDoArquivo('assets/perguntas.css')}">
+<div class="duvidas" data-perguntas>
+  <script>(function(){var p=document.currentScript.parentNode;p.classList.add('duvidas--js');addEventListener('load',function(){if(!p.classList.contains('duvidas--pronta'))p.classList.remove('duvidas--js')})})()</script>
+  <div class="duvidas__palco">
+  <div class="duvidas__lista" id="duvidas-lista">
+${itens}
+  </div>
+  </div>
+  <div class="duvidas__acoes">
+    <button type="button" class="botao botao--linha duvidas__botao" aria-controls="duvidas-lista" aria-expanded="false" hidden><span class="duvidas__rotulo">Ver mais perguntas</span>${SETA_MAIS}</button>
+  </div>
+</div>
+<script src="/assets/perguntas.js?v=${versaoDoArquivo('assets/perguntas.js')}" defer></script>`;
+}
+
 // PRÉVIA DE LINK DE CADA PÁGINA (09/11/2026): a imagem que o WhatsApp mostra é a da PRÓPRIA página (título dela, foto do
 // tema e a tela do app que conversa com o assunto), em 1600x1036, a medida que o WhatsApp mostra grande. As artes moram em
 // finagro-previa.pages.dev (repositório visionxma/finagro-previa, refeitas pelo servidor); a lista das que existem está em
@@ -242,7 +278,7 @@ const apkFatos = () => `<ul class="apk-fatos" aria-label="Sobre o aplicativo">
 const apkBotaoBaixar = (grande, evento) => `<a class="botao botao--cheio${grande ? ' botao--grande' : ''}" href="${ENTIDADE.apk.arquivo}" rel="noopener" data-evento="${evento}"><svg aria-hidden="true"><use href="#i-baixar"/></svg><span>Baixar APK</span></a>`;
 const apkAcoes = () => `<div class="apk-acoes">
   ${apkBotaoBaixar(true, 'baixar-apk-heroi')}
-  <a class="botao botao--vidro botao--grande" href="${ENTIDADE.app}" data-evento="navegador-apk-heroi"><svg aria-hidden="true"><use href="#i-globo"/></svg><span class="so-pc">Usar no navegador</span><span class="so-cel">No navegador</span></a>
+  <a class="botao botao--vidro botao--grande" href="${ENTIDADE.app}" data-evento="navegador-apk-heroi"><svg aria-hidden="true"><use href="#i-globo"/></svg><span class="so-pc">Criar conta no navegador</span><span class="so-cel">Criar conta</span></a>
 </div>`;
 const apkDados = () => `<script type="application/json" id="apk-dados">${JSON.stringify({ dados: ENTIDADE.apk.dados })}</script>`;
 const apkSelo = () => `<span class="apk-selo" data-apk="versao-selo">${RES_VERSAO ? `Versão ${RES_VERSAO}` : 'Versão atual'}</span>`;
@@ -261,6 +297,9 @@ function faqDaPagina(html) {
   const out = [];
   const re = /<details[^>]*>\s*<summary>([\s\S]*?)<\/summary>\s*<p>([\s\S]*?)<\/p>\s*<\/details>/g;
   let m; while ((m = re.exec(html))) out.push([semTags(m[1]), semTags(m[2])]);
+  // as perguntas da /android (duvidas): o texto da pergunta mora no .duvida__texto e a resposta no 1º <p> do miolo
+  const re2 = /<details class="duvida"[^>]*>\s*<summary[^>]*>\s*<span class="duvida__texto">([\s\S]*?)<\/span>[\s\S]*?<p>([\s\S]*?)<\/p>/g;
+  while ((m = re2.exec(html))) out.push([semTags(m[1]), semTags(m[2])]);
   return out;
 }
 
@@ -343,7 +382,7 @@ for (const p of [...TODAS, { caminho: '/404' }]) {
   }
   html = preencher(html, 'rodape', rodape());
   if (p.caminho === '/') html = preencher(html, 'faq', faq(PERGUNTAS));
-  if (p.apk) html = preencher(html, 'faq', faq(PERGUNTAS_APK));
+  if (p.apk) html = preencher(html, 'faq', duvidas(PERGUNTAS_APK));
   if (p.caminho !== '/404') html = preencher(html, 'jsonld', jsonld(p, html, titulo, descricao));
   if (p.caminho !== '/404' && (titulo.length > 62 || descricao.length < 110 || descricao.length > 162)) longos.push(`${p.caminho}: título ${titulo.length}, descrição ${descricao.length}`);
   fs.writeFileSync(arq, html);
